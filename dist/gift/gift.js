@@ -218,7 +218,7 @@ function GiftTooltip() {
     id: "limbus-shared-library-gift-tooltip",
     render: function render(_ref2) {
       var content = _ref2.content;
-      return tooltipContent(content);
+      return content ? tooltipContent(content) : null;
     },
     getTooltipContainer: function getTooltipContainer() {
       return document.body;
