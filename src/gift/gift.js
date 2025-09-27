@@ -89,7 +89,7 @@ function GiftTooltip() {
 
     return <Tooltip
         id={"limbus-shared-library-gift-tooltip"}
-        render={({ content }) => tooltipContent(content)}
+        render={({ content }) => content ? tooltipContent(content) : null}
         getTooltipContainer={() => document.body}
     />
 }

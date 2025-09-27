@@ -51,7 +51,7 @@ function StatusTooltip() {
 
     return <Tooltip
         id={"limbus-shared-library-status-tooltip"}
-        render={({ content }) => tooltipContent(content) }
+        render={({ content }) => content ? tooltipContent(content) : null }
         getTooltipContainer={() => document.body}
     />
 }
