@@ -29,7 +29,7 @@ function Status({ id, includeTooltip = true, includeName = true }) {
     return (
         <span
             data-tooltip-id={includeTooltip ? "limbus-shared-library-status-tooltip" : undefined}
-            data-tooltip-content={includeTooltip ? { ...status, src: src } : undefined}
+            data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline-block" }}
         >
             <img src={`${ASSETS_ROOT}/statuses/${src}`} alt={status.name} style={iconStyle} />
@@ -39,11 +39,11 @@ function Status({ id, includeTooltip = true, includeName = true }) {
 }
 
 function TooltipContent({ status }) {
-    if (!status) return null;
+    const src = "imageOverride" in status ? status.imageOverride : status.name;
 
     return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left" }}>
         <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-            <img src={`${ASSETS_ROOT}/statuses/${status.src}`} alt={status.name} style={tooltipIconStyle} />
+            <img src={`${ASSETS_ROOT}/statuses/${src}`} alt={status.name} style={tooltipIconStyle} />
             <span>{status.name}</span>
         </div>
         <div style={tooltipDescStyle}>
@@ -53,9 +53,11 @@ function TooltipContent({ status }) {
 }
 
 function StatusTooltip() {
+    const { statuses } = useLimbusData();
+
     return <Tooltip
         id={"limbus-shared-library-status-tooltip"}
-        render={({ content }) => <TooltipContent status={content} />}
+        render={({ content }) => <TooltipContent status={statuses[content]} />}
         getTooltipContainer={() => document.body}
     />
 }

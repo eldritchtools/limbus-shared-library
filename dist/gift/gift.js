@@ -137,7 +137,7 @@ function Gift(_ref) {
   if (includeTooltip) {
     return /*#__PURE__*/_jsx("div", {
       "data-tooltip-id": "limbus-shared-library-gift-tooltip",
-      "data-tooltip-content": gift,
+      "data-tooltip-content": id,
       children: /*#__PURE__*/_jsx(GiftIcon, {
         gift: gift,
         enhanceRank: enhanceRank,
@@ -171,7 +171,6 @@ function TooltipContent(_ref2) {
       })]
     });
   };
-  if (!gift) return null;
   return /*#__PURE__*/_jsxs("div", {
     style: {
       outline: "1px #ddd solid",
@@ -216,12 +215,14 @@ function TooltipContent(_ref2) {
   });
 }
 function GiftTooltip() {
+  var _useLimbusData3 = useLimbusData(),
+    gifts = _useLimbusData3.gifts;
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
     render: function render(_ref3) {
       var content = _ref3.content;
       return /*#__PURE__*/_jsx(TooltipContent, {
-        gift: content
+        gift: gifts[content]
       });
     },
     getTooltipContainer: function getTooltipContainer() {

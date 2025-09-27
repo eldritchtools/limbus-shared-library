@@ -57,7 +57,7 @@ function Gift({ id, enhanceRank = 0, scale = 1, includeTooltip = true }) {
     const gift = gifts[id];
 
     if (includeTooltip) {
-        return <div data-tooltip-id={"limbus-shared-library-gift-tooltip"} data-tooltip-content={gift}>
+        return <div data-tooltip-id={"limbus-shared-library-gift-tooltip"} data-tooltip-content={id}>
             <GiftIcon gift={gift} enhanceRank={enhanceRank} scale={scale} />
         </div>
     } else {
@@ -72,8 +72,6 @@ function TooltipContent({ gift }) {
         <span>Exclusive To</span>
         {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
-
-    if (!gift) return null;
 
     return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column" }}>
         <div style={{ marginBottom: "0.5rem", fontSize: "1rem", fontWeight: "bold" }}>{gift.names[0]}</div>
@@ -91,10 +89,11 @@ function TooltipContent({ gift }) {
 }
 
 function GiftTooltip() {
+    const { gifts } = useLimbusData();
 
     return <Tooltip
         id={"limbus-shared-library-gift-tooltip"}
-        render={({ content }) => <TooltipContent gift={content} />}
+        render={({ content }) => <TooltipContent gift={gifts[content]} />}
         getTooltipContainer={() => document.body}
     />
 }

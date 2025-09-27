@@ -71,9 +71,7 @@ function Status(_ref) {
   var src = "imageOverride" in status ? status.imageOverride : status.name;
   return /*#__PURE__*/_jsxs("span", {
     "data-tooltip-id": includeTooltip ? "limbus-shared-library-status-tooltip" : undefined,
-    "data-tooltip-content": includeTooltip ? _objectSpread(_objectSpread({}, status), {}, {
-      src: src
-    }) : undefined,
+    "data-tooltip-content": includeTooltip ? id : undefined,
     style: {
       display: "inline-block"
     },
@@ -89,7 +87,7 @@ function Status(_ref) {
 }
 function TooltipContent(_ref2) {
   var status = _ref2.status;
-  if (!status) return null;
+  var src = "imageOverride" in status ? status.imageOverride : status.name;
   return /*#__PURE__*/_jsxs("div", {
     style: {
       outline: "1px #ddd solid",
@@ -105,7 +103,7 @@ function TooltipContent(_ref2) {
         fontWeight: "bold"
       },
       children: [/*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/statuses/").concat(status.src),
+        src: "".concat(ASSETS_ROOT, "/statuses/").concat(src),
         alt: status.name,
         style: tooltipIconStyle
       }), /*#__PURE__*/_jsx("span", {
@@ -120,12 +118,14 @@ function TooltipContent(_ref2) {
   });
 }
 function StatusTooltip() {
+  var _useLimbusData2 = useLimbusData(),
+    statuses = _useLimbusData2.statuses;
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-status-tooltip",
     render: function render(_ref3) {
       var content = _ref3.content;
       return /*#__PURE__*/_jsx(TooltipContent, {
-        status: content
+        status: statuses[content]
       });
     },
     getTooltipContainer: function getTooltipContainer() {
