@@ -87,42 +87,46 @@ function Status(_ref) {
     }) : null]
   });
 }
-function StatusTooltip() {
-  var tooltipContent = function tooltipContent(status) {
-    return /*#__PURE__*/_jsxs("div", {
+function TooltipContent(_ref2) {
+  var status = _ref2.status;
+  if (!status) return null;
+  return /*#__PURE__*/_jsxs("div", {
+    style: {
+      outline: "1px #ddd solid",
+      backgroundColor: "black",
+      textAlign: "left"
+    },
+    children: [/*#__PURE__*/_jsxs("div", {
       style: {
-        outline: "1px #ddd solid",
-        backgroundColor: "black",
-        textAlign: "left"
+        display: "flex",
+        alignItems: "center",
+        marginBottom: "10px",
+        fontSize: "1rem",
+        fontWeight: "bold"
       },
-      children: [/*#__PURE__*/_jsxs("div", {
-        style: {
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "10px",
-          fontSize: "1rem",
-          fontWeight: "bold"
-        },
-        children: [/*#__PURE__*/_jsx("img", {
-          src: "".concat(ASSETS_ROOT, "/statuses/").concat(status.src),
-          alt: status.name,
-          style: tooltipIconStyle
-        }), /*#__PURE__*/_jsx("span", {
-          children: status.name
-        })]
-      }), /*#__PURE__*/_jsx("div", {
-        style: tooltipDescStyle,
-        children: /*#__PURE__*/_jsx("span", {
-          children: status.desc
-        })
+      children: [/*#__PURE__*/_jsx("img", {
+        src: "".concat(ASSETS_ROOT, "/statuses/").concat(status.src),
+        alt: status.name,
+        style: tooltipIconStyle
+      }), /*#__PURE__*/_jsx("span", {
+        children: status.name
       })]
-    });
-  };
+    }), /*#__PURE__*/_jsx("div", {
+      style: tooltipDescStyle,
+      children: /*#__PURE__*/_jsx("span", {
+        children: status.desc
+      })
+    })]
+  });
+}
+function StatusTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-status-tooltip",
-    render: function render(_ref2) {
-      var content = _ref2.content;
-      return content ? tooltipContent(content) : null;
+    render: function render(_ref3) {
+      var content = _ref3.content;
+      return /*#__PURE__*/_jsx(TooltipContent, {
+        status: content
+      });
     },
     getTooltipContainer: function getTooltipContainer() {
       return document.body;

@@ -65,15 +65,17 @@ function Gift({ id, enhanceRank = 0, scale = 1, includeTooltip = true }) {
     }
 }
 
-function GiftTooltip() {
+function TooltipContent({ gift }) {
     const { themePacks } = useLimbusData();
 
-    const exclusiveToText = list => <div style={{display: "flex", flexDirection: "column"}}>
+    const exclusiveToText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <span>Exclusive To</span>
         {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
 
-    const tooltipContent = gift => <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column" }}>
+    if (!gift) return null;
+
+    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column" }}>
         <div style={{ marginBottom: "0.5rem", fontSize: "1rem", fontWeight: "bold" }}>{gift.names[0]}</div>
         <div style={{ display: "flex" }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
@@ -86,10 +88,13 @@ function GiftTooltip() {
             </div>
         </div>
     </div>
+}
+
+function GiftTooltip() {
 
     return <Tooltip
         id={"limbus-shared-library-gift-tooltip"}
-        render={({ content }) => content ? tooltipContent(content) : null}
+        render={({ content }) => <TooltipContent gift={content} />}
         getTooltipContainer={() => document.body}
     />
 }

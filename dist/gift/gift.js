@@ -152,7 +152,8 @@ function Gift(_ref) {
     });
   }
 }
-function GiftTooltip() {
+function TooltipContent(_ref2) {
+  var gift = _ref2.gift;
   var _useLimbusData2 = useLimbusData(),
     themePacks = _useLimbusData2.themePacks;
   var exclusiveToText = function exclusiveToText(list) {
@@ -170,55 +171,58 @@ function GiftTooltip() {
       })]
     });
   };
-  var tooltipContent = function tooltipContent(gift) {
-    return /*#__PURE__*/_jsxs("div", {
+  if (!gift) return null;
+  return /*#__PURE__*/_jsxs("div", {
+    style: {
+      outline: "1px #ddd solid",
+      backgroundColor: "black",
+      textAlign: "left",
+      display: "flex",
+      flexDirection: "column"
+    },
+    children: [/*#__PURE__*/_jsx("div", {
       style: {
-        outline: "1px #ddd solid",
-        backgroundColor: "black",
-        textAlign: "left",
-        display: "flex",
-        flexDirection: "column"
+        marginBottom: "0.5rem",
+        fontSize: "1rem",
+        fontWeight: "bold"
       },
-      children: [/*#__PURE__*/_jsx("div", {
+      children: gift.names[0]
+    }), /*#__PURE__*/_jsxs("div", {
+      style: {
+        display: "flex"
+      },
+      children: [/*#__PURE__*/_jsxs("div", {
         style: {
-          marginBottom: "0.5rem",
-          fontSize: "1rem",
-          fontWeight: "bold"
+          display: "flex",
+          flexDirection: "column"
         },
-        children: gift.names[0]
+        children: [/*#__PURE__*/_jsx(GiftIcon, {
+          gift: {
+            gift: gift
+          }
+        }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
+          children: "Enhanceable"
+        }) : null]
       }), /*#__PURE__*/_jsxs("div", {
-        style: {
-          display: "flex"
-        },
-        children: [/*#__PURE__*/_jsxs("div", {
-          style: {
-            display: "flex",
-            flexDirection: "column"
-          },
-          children: [/*#__PURE__*/_jsx(GiftIcon, {
-            gift: {
-              gift: gift
-            }
-          }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
-            children: "Enhanceable"
-          }) : null]
-        }), /*#__PURE__*/_jsxs("div", {
-          style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {
-            display: "flex",
-            flexDirection: "column"
-          }),
-          children: [/*#__PURE__*/_jsx("span", {
-            children: gift.descs[0]
-          }), gift.exclusiveTo ? exclusiveToText(gift.exclusiveTo) : null]
-        })]
+        style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {
+          display: "flex",
+          flexDirection: "column"
+        }),
+        children: [/*#__PURE__*/_jsx("span", {
+          children: gift.descs[0]
+        }), gift.exclusiveTo ? exclusiveToText(gift.exclusiveTo) : null]
       })]
-    });
-  };
+    })]
+  });
+}
+function GiftTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
-    render: function render(_ref2) {
-      var content = _ref2.content;
-      return content ? tooltipContent(content) : null;
+    render: function render(_ref3) {
+      var content = _ref3.content;
+      return /*#__PURE__*/_jsx(TooltipContent, {
+        gift: content
+      });
     },
     getTooltipContainer: function getTooltipContainer() {
       return document.body;
