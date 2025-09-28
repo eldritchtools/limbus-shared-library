@@ -3,6 +3,7 @@ import { ASSETS_ROOT } from "../paths";
 import gifts from "../data/giftsData";
 import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
+import { tooltipStyle } from "../styles";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -72,14 +73,14 @@ function TooltipContent({ gift }) {
         {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
 
-    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column", borderRadius: "0.5rem", padding: "0.5rem" }}>
-        <div style={{ marginBottom: "0.5rem", fontSize: "1rem", fontWeight: "bold" }}>{gift.names[0]}</div>
+    return <div style={{ ...tooltipStyle, display: "flex", flexDirection: "column" }}>
+        <div style={{ marginBottom: "0.5rem", fontSize: "1rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
         <div style={{ display: "flex" }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
                 <GiftIcon gift={gift} />
                 {gift.enhanceable ? <span>Enhanceable</span> : null}
             </div>
-            <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column" }}>
+            <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
                 <span>{replaceStatusVariables(gift.descs[0], false)}</span>
                 {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
             </div>

@@ -1,6 +1,7 @@
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import statuses from "../data/statusesData";
+import { tooltipStyle } from "../styles";
 
 const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", transform: "translateY(25%)" };
 const nameStyle = { display: "flex", fontSize: "1rem" };
@@ -40,9 +41,9 @@ function Status({ id, includeTooltip = true, includeName = true }) {
 function TooltipContent({ status }) {
     const src = "imageOverride" in status ? status.imageOverride : status.name;
 
-    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", borderRadius: "0.5rem", padding: "0.5rem" }}>
+    return <div style={{ tooltipStyle }}>
         <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-            <img src={`${ASSETS_ROOT}/statuses/${src}`} alt={status.name} style={tooltipIconStyle} />
+            <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={tooltipIconStyle} />
             <span>{status.name}</span>
         </div>
         <div style={tooltipDescStyle}>
