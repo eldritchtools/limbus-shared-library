@@ -176,19 +176,21 @@ function TooltipContent(_ref3) {
   return /*#__PURE__*/_jsxs("div", {
     style: _objectSpread(_objectSpread({}, tooltipStyle), {}, {
       display: "flex",
-      flexDirection: "column"
+      flexDirection: "column",
+      padding: "0.5rem"
     }),
     children: [/*#__PURE__*/_jsx("div", {
       style: {
         marginBottom: "0.5rem",
-        fontSize: "1rem",
+        fontSize: "1.5rem",
         fontWeight: "bold",
         textAlign: "center"
       },
       children: gift.names[0]
     }), /*#__PURE__*/_jsxs("div", {
       style: {
-        display: "flex"
+        display: "flex",
+        gap: "0.5rem"
       },
       children: [/*#__PURE__*/_jsxs("div", {
         style: {

@@ -32,7 +32,7 @@ function Status({ id, includeTooltip = true, includeName = true }) {
             data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline-block" }}
         >
-            <img src={`${ASSETS_ROOT}/statuses/${src}`} alt={status.name} style={iconStyle} />
+            <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={iconStyle} />
             {includeName ? <span style={getNameStyle(status.buffType)}>{status.name}</span> : null}
         </span>
     )

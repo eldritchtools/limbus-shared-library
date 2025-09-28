@@ -75,7 +75,7 @@ function Status(_ref) {
       display: "inline-block"
     },
     children: [/*#__PURE__*/_jsx("img", {
-      src: "".concat(ASSETS_ROOT, "/statuses/").concat(src),
+      src: "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png"),
       alt: status.name,
       style: iconStyle
     }), includeName ? /*#__PURE__*/_jsx("span", {

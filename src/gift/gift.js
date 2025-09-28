@@ -73,9 +73,9 @@ function TooltipContent({ gift }) {
         {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
 
-    return <div style={{ ...tooltipStyle, display: "flex", flexDirection: "column" }}>
-        <div style={{ marginBottom: "0.5rem", fontSize: "1rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
-        <div style={{ display: "flex" }}>
+    return <div style={{ ...tooltipStyle, display: "flex", flexDirection: "column", padding: "0.5rem" }}>
+        <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
+        <div style={{ display: "flex", gap: "0.5rem" }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
                 <GiftIcon gift={gift} />
                 {gift.enhanceable ? <span>Enhanceable</span> : null}
