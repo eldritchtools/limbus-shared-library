@@ -1,7 +1,7 @@
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import gifts from "../data/giftsData";
-import { mdThemePacks } from "..";
+import { themePacks } from "../data/mdData";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -68,7 +68,7 @@ function Gift({ id, enhanceRank = 0, scale = 1, includeTooltip = true }) {
 function TooltipContent({ gift }) {
     const exclusiveToText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <span>Exclusive To</span>
-        {list.map(themePackId => <span>{mdThemePacks[themePackId].name}</span>)}
+        {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
 
     return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column" }}>

@@ -7,7 +7,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import gifts from "../data/giftsData";
-import { mdThemePacks } from "..";
+import { themePacks } from "../data/mdData";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -163,7 +163,7 @@ function TooltipContent(_ref2) {
         children: "Exclusive To"
       }), list.map(function (themePackId) {
         return /*#__PURE__*/_jsx("span", {
-          children: mdThemePacks[themePackId].name
+          children: themePacks[themePackId].name
         });
       })]
     });
