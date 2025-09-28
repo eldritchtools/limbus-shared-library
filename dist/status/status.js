@@ -7,6 +7,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import statuses from "../data/statusesData";
+import { tooltipStyle } from "../styles";
 import { jsxs as _jsxs, jsx as _jsx } from "react/jsx-runtime";
 var iconStyle = {
   display: "inline-block",
@@ -88,11 +89,7 @@ function TooltipContent(_ref2) {
   var src = "imageOverride" in status ? status.imageOverride : status.name;
   return /*#__PURE__*/_jsxs("div", {
     style: {
-      outline: "1px #ddd solid",
-      backgroundColor: "black",
-      textAlign: "left",
-      borderRadius: "0.5rem",
-      padding: "0.5rem"
+      tooltipStyle: tooltipStyle
     },
     children: [/*#__PURE__*/_jsxs("div", {
       style: {
@@ -103,7 +100,7 @@ function TooltipContent(_ref2) {
         fontWeight: "bold"
       },
       children: [/*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/statuses/").concat(src),
+        src: "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png"),
         alt: status.name,
         style: tooltipIconStyle
       }), /*#__PURE__*/_jsx("span", {

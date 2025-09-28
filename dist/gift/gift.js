@@ -9,6 +9,7 @@ import { ASSETS_ROOT } from "../paths";
 import gifts from "../data/giftsData";
 import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
+import { tooltipStyle } from "../styles";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -173,20 +174,16 @@ function TooltipContent(_ref3) {
     });
   };
   return /*#__PURE__*/_jsxs("div", {
-    style: {
-      outline: "1px #ddd solid",
-      backgroundColor: "black",
-      textAlign: "left",
+    style: _objectSpread(_objectSpread({}, tooltipStyle), {}, {
       display: "flex",
-      flexDirection: "column",
-      borderRadius: "0.5rem",
-      padding: "0.5rem"
-    },
+      flexDirection: "column"
+    }),
     children: [/*#__PURE__*/_jsx("div", {
       style: {
         marginBottom: "0.5rem",
         fontSize: "1rem",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        textAlign: "center"
       },
       children: gift.names[0]
     }), /*#__PURE__*/_jsxs("div", {
@@ -206,7 +203,8 @@ function TooltipContent(_ref3) {
       }), /*#__PURE__*/_jsxs("div", {
         style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {
           display: "flex",
-          flexDirection: "column"
+          flexDirection: "column",
+          textAlign: "left"
         }),
         children: [/*#__PURE__*/_jsx("span", {
           children: replaceStatusVariables(gift.descs[0], false)
