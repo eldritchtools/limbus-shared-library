@@ -2,6 +2,7 @@ import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import gifts from "../data/giftsData";
 import { themePacks } from "../data/mdData";
+import replaceStatusVariables from "../status/statusReplace";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -31,13 +32,13 @@ function tierToString(tier) {
     }
 }
 
-function GiftIcon(gift, enhanceRank = 0, scale = 1) {
+function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
     const tier = tierToString(gift.tier);
     const size = 96 * scale;
 
     return <div style={resize(giftContainerStyle, size)}>
         <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
-        <img src={`${ASSETS_ROOT}/ego_gifts/${"imageOverride" in gift ? gift["imageOverride"] : gift.name}.png`} alt={gift.name} title={gift.name} style={resize(giftStyle, size * 0.75)} />
+        <img src={`${ASSETS_ROOT}/gifts/${"imageOverride" in gift ? gift["imageOverride"] : gift.names[0]}.png`} alt={gift.names[0]} title={gift.names[0]} style={resize(giftStyle, size * 0.75)} />
         <span style={rescaleFont(giftTierStyle, scale)}>{tier}</span>
         {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale)}>{"+".repeat(enhanceRank)}</span> : null}
         {gift.keyword !== "Keywordless" ? <img src={`${ASSETS_ROOT}/icons/${gift.keyword}.png`} alt="" style={resize(giftKeywordStyle, size * 0.3)} /> : null}
@@ -66,21 +67,21 @@ function Gift({ id, enhanceRank = 0, scale = 1, includeTooltip = true }) {
 }
 
 function TooltipContent({ gift }) {
-    const exclusiveToText = list => <div style={{ display: "flex", flexDirection: "column" }}>
-        <span>Exclusive To</span>
+    const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
+        <span>Exclusive Theme Packs:</span>
         {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
 
-    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column" }}>
+    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", display: "flex", flexDirection: "column", borderRadius: "0.5rem", padding: "0.5rem" }}>
         <div style={{ marginBottom: "0.5rem", fontSize: "1rem", fontWeight: "bold" }}>{gift.names[0]}</div>
         <div style={{ display: "flex" }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
-                <GiftIcon gift={{ gift }} />
+                <GiftIcon gift={gift} />
                 {gift.enhanceable ? <span>Enhanceable</span> : null}
             </div>
             <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column" }}>
-                <span>{gift.descs[0]}</span>
-                {gift.exclusiveTo ? exclusiveToText(gift.exclusiveTo) : null}
+                <span>{replaceStatusVariables(gift.descs[0], false)}</span>
+                {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
             </div>
         </div>
     </div>

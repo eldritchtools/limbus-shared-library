@@ -8,6 +8,7 @@ import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import gifts from "../data/giftsData";
 import { themePacks } from "../data/mdData";
+import replaceStatusVariables from "../status/statusReplace";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -83,9 +84,12 @@ function tierToString(tier) {
       return "";
   }
 }
-function GiftIcon(gift) {
-  var enhanceRank = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-  var scale = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;
+function GiftIcon(_ref) {
+  var gift = _ref.gift,
+    _ref$enhanceRank = _ref.enhanceRank,
+    enhanceRank = _ref$enhanceRank === void 0 ? 0 : _ref$enhanceRank,
+    _ref$scale = _ref.scale,
+    scale = _ref$scale === void 0 ? 1 : _ref$scale;
   var tier = tierToString(gift.tier);
   var size = 96 * scale;
   return /*#__PURE__*/_jsxs("div", {
@@ -95,9 +99,9 @@ function GiftIcon(gift) {
       alt: "",
       style: resize(giftBackgroundStyle, size)
     }), /*#__PURE__*/_jsx("img", {
-      src: "".concat(ASSETS_ROOT, "/ego_gifts/").concat("imageOverride" in gift ? gift["imageOverride"] : gift.name, ".png"),
-      alt: gift.name,
-      title: gift.name,
+      src: "".concat(ASSETS_ROOT, "/gifts/").concat("imageOverride" in gift ? gift["imageOverride"] : gift.names[0], ".png"),
+      alt: gift.names[0],
+      title: gift.names[0],
       style: resize(giftStyle, size * 0.75)
     }), /*#__PURE__*/_jsx("span", {
       style: rescaleFont(giftTierStyle, scale),
@@ -112,14 +116,14 @@ function GiftIcon(gift) {
     }) : null]
   });
 }
-function Gift(_ref) {
-  var id = _ref.id,
-    _ref$enhanceRank = _ref.enhanceRank,
-    enhanceRank = _ref$enhanceRank === void 0 ? 0 : _ref$enhanceRank,
-    _ref$scale = _ref.scale,
-    scale = _ref$scale === void 0 ? 1 : _ref$scale,
-    _ref$includeTooltip = _ref.includeTooltip,
-    includeTooltip = _ref$includeTooltip === void 0 ? true : _ref$includeTooltip;
+function Gift(_ref2) {
+  var id = _ref2.id,
+    _ref2$enhanceRank = _ref2.enhanceRank,
+    enhanceRank = _ref2$enhanceRank === void 0 ? 0 : _ref2$enhanceRank,
+    _ref2$scale = _ref2.scale,
+    scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
+    _ref2$includeTooltip = _ref2.includeTooltip,
+    includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip;
   var size = 96 * scale;
   if (!(id in gifts)) {
     console.warn("Gift ".concat(id, " not found."));
@@ -151,16 +155,16 @@ function Gift(_ref) {
     });
   }
 }
-function TooltipContent(_ref2) {
-  var gift = _ref2.gift;
-  var exclusiveToText = function exclusiveToText(list) {
+function TooltipContent(_ref3) {
+  var gift = _ref3.gift;
+  var exclusiveText = function exclusiveText(list) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
         display: "flex",
         flexDirection: "column"
       },
       children: [/*#__PURE__*/_jsx("span", {
-        children: "Exclusive To"
+        children: "Exclusive Theme Packs:"
       }), list.map(function (themePackId) {
         return /*#__PURE__*/_jsx("span", {
           children: themePacks[themePackId].name
@@ -174,7 +178,9 @@ function TooltipContent(_ref2) {
       backgroundColor: "black",
       textAlign: "left",
       display: "flex",
-      flexDirection: "column"
+      flexDirection: "column",
+      borderRadius: "0.5rem",
+      padding: "0.5rem"
     },
     children: [/*#__PURE__*/_jsx("div", {
       style: {
@@ -193,9 +199,7 @@ function TooltipContent(_ref2) {
           flexDirection: "column"
         },
         children: [/*#__PURE__*/_jsx(GiftIcon, {
-          gift: {
-            gift: gift
-          }
+          gift: gift
         }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
           children: "Enhanceable"
         }) : null]
@@ -205,8 +209,8 @@ function TooltipContent(_ref2) {
           flexDirection: "column"
         }),
         children: [/*#__PURE__*/_jsx("span", {
-          children: gift.descs[0]
-        }), gift.exclusiveTo ? exclusiveToText(gift.exclusiveTo) : null]
+          children: replaceStatusVariables(gift.descs[0], false)
+        }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
       })]
     })]
   });
@@ -214,8 +218,8 @@ function TooltipContent(_ref2) {
 function GiftTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
-    render: function render(_ref3) {
-      var content = _ref3.content;
+    render: function render(_ref4) {
+      var content = _ref4.content;
       return /*#__PURE__*/_jsx(TooltipContent, {
         gift: gifts[content]
       });

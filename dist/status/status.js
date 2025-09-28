@@ -90,7 +90,9 @@ function TooltipContent(_ref2) {
     style: {
       outline: "1px #ddd solid",
       backgroundColor: "black",
-      textAlign: "left"
+      textAlign: "left",
+      borderRadius: "0.5rem",
+      padding: "0.5rem"
     },
     children: [/*#__PURE__*/_jsxs("div", {
       style: {
@@ -116,8 +118,6 @@ function TooltipContent(_ref2) {
   });
 }
 function StatusTooltip() {
-  var _useLimbusData = useLimbusData(),
-    statuses = _useLimbusData.statuses;
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-status-tooltip",
     render: function render(_ref3) {

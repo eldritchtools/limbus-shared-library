@@ -40,7 +40,7 @@ function Status({ id, includeTooltip = true, includeName = true }) {
 function TooltipContent({ status }) {
     const src = "imageOverride" in status ? status.imageOverride : status.name;
 
-    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left" }}>
+    return <div style={{ outline: "1px #ddd solid", backgroundColor: "black", textAlign: "left", borderRadius: "0.5rem", padding: "0.5rem" }}>
         <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
             <img src={`${ASSETS_ROOT}/statuses/${src}`} alt={status.name} style={tooltipIconStyle} />
             <span>{status.name}</span>
@@ -52,8 +52,6 @@ function TooltipContent({ status }) {
 }
 
 function StatusTooltip() {
-    const { statuses } = useLimbusData();
-
     return <Tooltip
         id={"limbus-shared-library-status-tooltip"}
         render={({ content }) => <TooltipContent status={statuses[content]} />}
