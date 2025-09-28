@@ -5,8 +5,9 @@ function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 import { Tooltip } from "react-tooltip";
-import { useLimbusData } from "../LimbusProvider/LimbusProvider";
 import { ASSETS_ROOT } from "../paths";
+import gifts from "../data/giftsData";
+import { mdThemePacks } from "..";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -119,8 +120,6 @@ function Gift(_ref) {
     scale = _ref$scale === void 0 ? 1 : _ref$scale,
     _ref$includeTooltip = _ref.includeTooltip,
     includeTooltip = _ref$includeTooltip === void 0 ? true : _ref$includeTooltip;
-  var _useLimbusData = useLimbusData(),
-    gifts = _useLimbusData.gifts;
   var size = 96 * scale;
   if (!(id in gifts)) {
     console.warn("Gift ".concat(id, " not found."));
@@ -154,8 +153,6 @@ function Gift(_ref) {
 }
 function TooltipContent(_ref2) {
   var gift = _ref2.gift;
-  var _useLimbusData2 = useLimbusData(),
-    themePacks = _useLimbusData2.themePacks;
   var exclusiveToText = function exclusiveToText(list) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
@@ -166,7 +163,7 @@ function TooltipContent(_ref2) {
         children: "Exclusive To"
       }), list.map(function (themePackId) {
         return /*#__PURE__*/_jsx("span", {
-          children: themePacks[themePackId].name
+          children: mdThemePacks[themePackId].name
         });
       })]
     });
@@ -215,8 +212,6 @@ function TooltipContent(_ref2) {
   });
 }
 function GiftTooltip() {
-  var _useLimbusData3 = useLimbusData(),
-    gifts = _useLimbusData3.gifts;
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
     render: function render(_ref3) {

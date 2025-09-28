@@ -1,6 +1,6 @@
 import { Tooltip } from "react-tooltip";
-import { useLimbusData } from "../LimbusProvider/LimbusProvider";
 import { ASSETS_ROOT } from "../paths";
+import statuses from "../data/statusesData";
 
 const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", transform: "translateY(25%)" };
 const nameStyle = { display: "flex", fontSize: "1rem" };
@@ -17,7 +17,6 @@ function getNameStyle(type) {
 }
 
 function Status({ id, includeTooltip = true, includeName = true }) {
-    const { statuses } = useLimbusData();
     if (!(id in statuses)) {
         console.warn(`Status ${id} not found.`);
         return <span className="error">Unknown status: {id}</span>;
