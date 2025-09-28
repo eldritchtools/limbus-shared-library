@@ -1,5 +1,4 @@
 var tooltipStyle = {
-  position: "absolute",
   outlineStyle: "solid",
   outlineColor: "#ddd",
   outlineWidth: "1px",

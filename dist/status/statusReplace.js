@@ -26,7 +26,10 @@ function replaceStatusVariables(templateText) {
       children: ["[", varName, "]"]
     }));
   }
-  return /*#__PURE__*/_jsx("span", {
+  return /*#__PURE__*/_jsx("div", {
+    style: {
+      display: "inline"
+    },
     children: textPieces
   });
 }

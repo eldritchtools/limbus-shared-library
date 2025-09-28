@@ -46,43 +46,49 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
     </div>
 }
 
-function Gift({ id, enhanceRank = 0, scale = 1, includeTooltip = true }) {
+function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = true }) {
     const size = 96 * scale;
 
-    if (!(id in gifts)) {
-        console.warn(`Gift ${id} not found.`);
-        return <div style={resize(giftContainerStyle, size)}>
-            <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
-        </div>
+    let giftObject = gift;
+    if (!giftObject) {
+        if (!(id in gifts)) {
+            console.warn(`Gift ${id} not found.`);
+            return <div style={resize(giftContainerStyle, size)}>
+                <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
+            </div>
+        } else {
+            giftObject = gifts[id];
+        }
     }
 
-    const gift = gifts[id];
-
     if (includeTooltip) {
-        return <div data-tooltip-id={"limbus-shared-library-gift-tooltip"} data-tooltip-content={id}>
-            <GiftIcon gift={gift} enhanceRank={enhanceRank} scale={scale} />
+        return <div data-tooltip-id={"limbus-shared-library-gift-tooltip"} data-tooltip-content={giftObject.id}>
+            <GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} />
         </div>
     } else {
-        return <GiftIcon gift={gift} enhanceRank={enhanceRank} scale={scale} />
+        return <GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} />
     }
 }
 
 function TooltipContent({ gift }) {
     const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
+        <br />
         <span>Exclusive Theme Packs:</span>
         {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
     </div>
 
-    return <div style={{ ...tooltipStyle, display: "flex", flexDirection: "column", padding: "0.5rem" }}>
-        <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
-        <div style={{ display: "flex", gap: "0.5rem" }}>
-            <div style={{ display: "flex", flexDirection: "column" }}>
-                <GiftIcon gift={gift} />
-                {gift.enhanceable ? <span>Enhanceable</span> : null}
-            </div>
-            <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
-                <span>{replaceStatusVariables(gift.descs[0], false)}</span>
-                {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
+    return <div style={tooltipStyle}>
+        <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
+            <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
+            <div style={{ display: "flex", gap: "0.5rem" }}>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                    <GiftIcon gift={gift} />
+                    {gift.enhanceable ? <span>Enhanceable</span> : null}
+                </div>
+                <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
+                    <span>{replaceStatusVariables(gift.descs[0], false)}</span>
+                    {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
+                </div>
             </div>
         </div>
     </div>
@@ -93,6 +99,7 @@ function GiftTooltip() {
         id={"limbus-shared-library-gift-tooltip"}
         render={({ content }) => <TooltipContent gift={gifts[content]} />}
         getTooltipContainer={() => document.body}
+        style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />
 }
 

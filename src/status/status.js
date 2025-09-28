@@ -4,7 +4,7 @@ import statuses from "../data/statusesData";
 import { tooltipStyle } from "../styles";
 
 const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", transform: "translateY(25%)" };
-const nameStyle = { display: "flex", fontSize: "1rem" };
+const nameStyle = { display: "inline", fontSize: "1rem" };
 const tooltipIconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginRight: "4px" };
 const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", inlineSize: "50ch", textWrap: "wrap", whiteSpace: "pre-wrap" };
 
@@ -30,7 +30,7 @@ function Status({ id, includeTooltip = true, includeName = true }) {
         <span
             data-tooltip-id={includeTooltip ? "limbus-shared-library-status-tooltip" : undefined}
             data-tooltip-content={includeTooltip ? id : undefined}
-            style={{ display: "inline-block" }}
+            style={{ display: "inline" }}
         >
             <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={iconStyle} />
             {includeName ? <span style={getNameStyle(status.buffType)}>{status.name}</span> : null}
@@ -57,6 +57,7 @@ function StatusTooltip() {
         id={"limbus-shared-library-status-tooltip"}
         render={({ content }) => <TooltipContent status={statuses[content]} />}
         getTooltipContainer={() => document.body}
+        style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />
 }
 

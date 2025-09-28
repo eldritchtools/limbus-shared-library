@@ -119,6 +119,8 @@ function GiftIcon(_ref) {
 }
 function Gift(_ref2) {
   var id = _ref2.id,
+    _ref2$gift = _ref2.gift,
+    gift = _ref2$gift === void 0 ? null : _ref2$gift,
     _ref2$enhanceRank = _ref2.enhanceRank,
     enhanceRank = _ref2$enhanceRank === void 0 ? 0 : _ref2$enhanceRank,
     _ref2$scale = _ref2.scale,
@@ -126,31 +128,35 @@ function Gift(_ref2) {
     _ref2$includeTooltip = _ref2.includeTooltip,
     includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip;
   var size = 96 * scale;
-  if (!(id in gifts)) {
-    console.warn("Gift ".concat(id, " not found."));
-    return /*#__PURE__*/_jsx("div", {
-      style: resize(giftContainerStyle, size),
-      children: /*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/ego_gift_background.png"),
-        alt: "",
-        style: resize(giftBackgroundStyle, size)
-      })
-    });
+  var giftObject = gift;
+  if (!giftObject) {
+    if (!(id in gifts)) {
+      console.warn("Gift ".concat(id, " not found."));
+      return /*#__PURE__*/_jsx("div", {
+        style: resize(giftContainerStyle, size),
+        children: /*#__PURE__*/_jsx("img", {
+          src: "".concat(ASSETS_ROOT, "/ego_gift_background.png"),
+          alt: "",
+          style: resize(giftBackgroundStyle, size)
+        })
+      });
+    } else {
+      giftObject = gifts[id];
+    }
   }
-  var gift = gifts[id];
   if (includeTooltip) {
     return /*#__PURE__*/_jsx("div", {
       "data-tooltip-id": "limbus-shared-library-gift-tooltip",
-      "data-tooltip-content": id,
+      "data-tooltip-content": giftObject.id,
       children: /*#__PURE__*/_jsx(GiftIcon, {
-        gift: gift,
+        gift: giftObject,
         enhanceRank: enhanceRank,
         scale: scale
       })
     });
   } else {
     return /*#__PURE__*/_jsx(GiftIcon, {
-      gift: gift,
+      gift: giftObject,
       enhanceRank: enhanceRank,
       scale: scale
     });
@@ -164,7 +170,7 @@ function TooltipContent(_ref3) {
         display: "flex",
         flexDirection: "column"
       },
-      children: [/*#__PURE__*/_jsx("span", {
+      children: [/*#__PURE__*/_jsx("br", {}), /*#__PURE__*/_jsx("span", {
         children: "Exclusive Theme Packs:"
       }), list.map(function (themePackId) {
         return /*#__PURE__*/_jsx("span", {
@@ -173,46 +179,49 @@ function TooltipContent(_ref3) {
       })]
     });
   };
-  return /*#__PURE__*/_jsxs("div", {
-    style: _objectSpread(_objectSpread({}, tooltipStyle), {}, {
-      display: "flex",
-      flexDirection: "column",
-      padding: "0.5rem"
-    }),
-    children: [/*#__PURE__*/_jsx("div", {
-      style: {
-        marginBottom: "0.5rem",
-        fontSize: "1.5rem",
-        fontWeight: "bold",
-        textAlign: "center"
-      },
-      children: gift.names[0]
-    }), /*#__PURE__*/_jsxs("div", {
+  return /*#__PURE__*/_jsx("div", {
+    style: tooltipStyle,
+    children: /*#__PURE__*/_jsxs("div", {
       style: {
         display: "flex",
-        gap: "0.5rem"
+        flexDirection: "column",
+        padding: "0.5rem"
       },
-      children: [/*#__PURE__*/_jsxs("div", {
+      children: [/*#__PURE__*/_jsx("div", {
+        style: {
+          marginBottom: "0.5rem",
+          fontSize: "1.5rem",
+          fontWeight: "bold",
+          textAlign: "center"
+        },
+        children: gift.names[0]
+      }), /*#__PURE__*/_jsxs("div", {
         style: {
           display: "flex",
-          flexDirection: "column"
+          gap: "0.5rem"
         },
-        children: [/*#__PURE__*/_jsx(GiftIcon, {
-          gift: gift
-        }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
-          children: "Enhanceable"
-        }) : null]
-      }), /*#__PURE__*/_jsxs("div", {
-        style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {
-          display: "flex",
-          flexDirection: "column",
-          textAlign: "left"
-        }),
-        children: [/*#__PURE__*/_jsx("span", {
-          children: replaceStatusVariables(gift.descs[0], false)
-        }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
+        children: [/*#__PURE__*/_jsxs("div", {
+          style: {
+            display: "flex",
+            flexDirection: "column"
+          },
+          children: [/*#__PURE__*/_jsx(GiftIcon, {
+            gift: gift
+          }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
+            children: "Enhanceable"
+          }) : null]
+        }), /*#__PURE__*/_jsxs("div", {
+          style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {
+            display: "flex",
+            flexDirection: "column",
+            textAlign: "left"
+          }),
+          children: [/*#__PURE__*/_jsx("span", {
+            children: replaceStatusVariables(gift.descs[0], false)
+          }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
+        })]
       })]
-    })]
+    })
   });
 }
 function GiftTooltip() {
@@ -226,6 +235,10 @@ function GiftTooltip() {
     },
     getTooltipContainer: function getTooltipContainer() {
       return document.body;
+    },
+    style: {
+      backgroundColor: "transparent",
+      zIndex: "9999"
     }
   });
 }

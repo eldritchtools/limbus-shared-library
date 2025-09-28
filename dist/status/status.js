@@ -18,7 +18,7 @@ var iconStyle = {
   transform: "translateY(25%)"
 };
 var nameStyle = {
-  display: "flex",
+  display: "inline",
   fontSize: "1rem"
 };
 var tooltipIconStyle = {
@@ -72,7 +72,7 @@ function Status(_ref) {
     "data-tooltip-id": includeTooltip ? "limbus-shared-library-status-tooltip" : undefined,
     "data-tooltip-content": includeTooltip ? id : undefined,
     style: {
-      display: "inline-block"
+      display: "inline"
     },
     children: [/*#__PURE__*/_jsx("img", {
       src: "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png"),
@@ -125,6 +125,10 @@ function StatusTooltip() {
     },
     getTooltipContainer: function getTooltipContainer() {
       return document.body;
+    },
+    style: {
+      backgroundColor: "transparent",
+      zIndex: "9999"
     }
   });
 }
