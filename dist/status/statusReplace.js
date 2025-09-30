@@ -7,7 +7,7 @@ function replaceStatusVariables(templateText) {
   var textPieces = [];
   while (true) {
     // Returns ["[variable]", index: number, input: string, groups: undefined]
-    var match = text.match(/\[[a-zA-Z0-9]+\]/);
+    var match = text.match(/\[[a-zA-Z0-9_]+\]/);
     if (!match || match.index === undefined) {
       textPieces.push(/*#__PURE__*/_jsx("span", {
         children: text

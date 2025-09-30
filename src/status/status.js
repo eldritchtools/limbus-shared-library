@@ -6,7 +6,7 @@ import { tooltipStyle } from "../styles";
 const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", transform: "translateY(25%)" };
 const nameStyle = { display: "inline", fontSize: "1rem" };
 const tooltipIconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginRight: "4px" };
-const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", inlineSize: "50ch", textWrap: "wrap", whiteSpace: "pre-wrap" };
+const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", maxWidth: "75rem", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" };
 
 function getNameStyle(type) {
     switch (type) {
@@ -41,13 +41,15 @@ function Status({ id, includeTooltip = true, includeName = true }) {
 function TooltipContent({ status }) {
     const src = "imageOverride" in status ? status.imageOverride : status.name;
 
-    return <div style={{ tooltipStyle }}>
-        <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-            <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={tooltipIconStyle} />
-            <span>{status.name}</span>
-        </div>
-        <div style={tooltipDescStyle}>
-            <span>{status.desc}</span>
+    return <div style={tooltipStyle}>
+        <div style={{display: "flex", flexDirection: "column", padding: "0.5rem"}}>
+            <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
+                <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={tooltipIconStyle} />
+                <span>{status.name}</span>
+            </div>
+            <div style={tooltipDescStyle}>
+                <span>{status.desc}</span>
+            </div>
         </div>
     </div>;
 }

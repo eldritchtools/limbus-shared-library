@@ -20,4 +20,12 @@ var preprocessed = Object.entries(gifts).reduce(function (acc, _ref) {
   }, v);
   return acc;
 }, {});
+var giftsNameMapping = Object.entries(gifts).reduce(function (acc, _ref3) {
+  var _ref4 = _slicedToArray(_ref3, 2),
+    k = _ref4[0],
+    v = _ref4[1];
+  acc[v.names[0]] = k;
+  return acc;
+}, {});
 export default preprocessed;
+export { giftsNameMapping };

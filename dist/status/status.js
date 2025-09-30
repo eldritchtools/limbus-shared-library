@@ -31,9 +31,10 @@ var tooltipDescStyle = {
   display: "inline-block",
   fontSize: "1rem",
   lineHeight: "1.5",
-  inlineSize: "50ch",
+  maxWidth: "75rem",
   textWrap: "wrap",
-  whiteSpace: "pre-wrap"
+  whiteSpace: "pre-wrap",
+  textAlign: "start"
 };
 function getNameStyle(type) {
   switch (type) {
@@ -87,31 +88,36 @@ function Status(_ref) {
 function TooltipContent(_ref2) {
   var status = _ref2.status;
   var src = "imageOverride" in status ? status.imageOverride : status.name;
-  return /*#__PURE__*/_jsxs("div", {
-    style: {
-      tooltipStyle: tooltipStyle
-    },
-    children: [/*#__PURE__*/_jsxs("div", {
+  return /*#__PURE__*/_jsx("div", {
+    style: tooltipStyle,
+    children: /*#__PURE__*/_jsxs("div", {
       style: {
         display: "flex",
-        alignItems: "center",
-        marginBottom: "10px",
-        fontSize: "1rem",
-        fontWeight: "bold"
+        flexDirection: "column",
+        padding: "0.5rem"
       },
-      children: [/*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png"),
-        alt: status.name,
-        style: tooltipIconStyle
-      }), /*#__PURE__*/_jsx("span", {
-        children: status.name
+      children: [/*#__PURE__*/_jsxs("div", {
+        style: {
+          display: "flex",
+          alignItems: "center",
+          marginBottom: "10px",
+          fontSize: "1rem",
+          fontWeight: "bold"
+        },
+        children: [/*#__PURE__*/_jsx("img", {
+          src: "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png"),
+          alt: status.name,
+          style: tooltipIconStyle
+        }), /*#__PURE__*/_jsx("span", {
+          children: status.name
+        })]
+      }), /*#__PURE__*/_jsx("div", {
+        style: tooltipDescStyle,
+        children: /*#__PURE__*/_jsx("span", {
+          children: status.desc
+        })
       })]
-    }), /*#__PURE__*/_jsx("div", {
-      style: tooltipDescStyle,
-      children: /*#__PURE__*/_jsx("span", {
-        children: status.desc
-      })
-    })]
+    })
   });
 }
 function StatusTooltip() {

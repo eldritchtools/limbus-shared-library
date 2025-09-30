@@ -26,9 +26,9 @@ function ThemePackImg(_ref) {
   }
   var scaledStyle = rescaleThemePack(scale);
   var img = /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/theme_packs/").concat(themePack.image, ".png"),
-    alt: themePack.name,
-    title: themePack.name,
+    src: "".concat(ASSETS_ROOT, "/theme_packs/").concat(themePackObject.image, ".png"),
+    alt: themePackObject.name,
+    title: themePackObject.name,
     style: rescaleThemePack(scale)
   });
   if (displayName) {
@@ -40,7 +40,7 @@ function ThemePackImg(_ref) {
         width: scaledStyle.width
       },
       children: [img, /*#__PURE__*/_jsx("span", {
-        children: themePack.name
+        children: themePackObject.name
       })]
     });
   } else {

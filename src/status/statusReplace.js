@@ -7,7 +7,7 @@ function replaceStatusVariables(templateText, includeTooltips = true) {
 
     while (true) {
         // Returns ["[variable]", index: number, input: string, groups: undefined]
-        let match = text.match(/\[[a-zA-Z0-9]+\]/);
+        let match = text.match(/\[[a-zA-Z0-9_]+\]/);
         if (!match || match.index === undefined) {
             textPieces.push(<span>{text}</span>);
             break; // No more variables to replace

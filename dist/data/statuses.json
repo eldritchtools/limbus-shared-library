@@ -690,7 +690,8 @@
     "RoseThorn": {
         "buffType": "Negative",
         "name": "Gluttonous Thorn (\u8caa\u98df\u68d8)",
-        "desc": "Max Stack: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then lose 1 Gluttonous Thorn (\u8caa\u98df\u68d8). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Defense Level Down next turn equal to Bloodfeast increased (max Defense Level Down gain: 5)"
+        "desc": "Max Stack: 9\n\nTurn End: gain Bleed Count equal to Lust Reson., then lose 1 Gluttonous Thorn (\u8caa\u98df\u68d8). (max Bleed Count gain: 5)\n\nWhile this unit has this effect, if it gains Bleed Potency beyond 99, increase Bloodfeast equal to the excess Bleed Potency; then, gain Defense Level Down next turn equal to Bloodfeast increased (max Defense Level Down gain: 5)",
+        "imageOverride": "Gluttonous Thorn"
     },
     "BlessingAlly": {
         "buffType": "Positive",
@@ -889,6 +890,267 @@
         "buffType": "Positive",
         "name": "Higher Thunderer",
         "desc": "- Turn Start: gain 2 Offense Level Up and 2 Defense Level Up\n- Turn End: lose 1 Stack\n- Max Stack: 5"
+    },
+    "DuelDeclaration_Camille": {
+        "buffType": "Negative",
+        "iconId": "DuelDeclaration",
+        "categoryKeywordList": [
+            "DUEL_DECLARATION"
+        ],
+        "name": "Declared Duel - Camille",
+        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. \n- Replaced when another unit inflicts Declared Duel on the same target."
+    },
+    "RecklessDuel": {
+        "buffType": "Positive",
+        "name": "Foolhardy Duel",
+        "desc": "Turn End: gain 1 Clash Power Up next turn for every 10% of the missing HP. (max 5)\nTurn End: gain 1 Bind next turn for every 10% of the missing HP. (max 5)"
+    },
+    "ConcentratedAttack": {
+        "buffType": "Positive",
+        "categoryKeywordList": [
+            "CONCENTRATED_ATTACK"
+        ],
+        "name": "Focused Attack",
+        "desc": "When using a Skill against the same Slot this unit successfully hit last turn, gain the following effects based on the number of consecutive turns it successfully hit the Slot\n- 1 Consecutive hit: Clash Power +1\n- 2 Consecutive hits: Base Power +1\n- 3 Consecutive hits: Base Power +1, Coin Power +1"
+    },
+    "BloodScissor": {
+        "buffType": "Positive",
+        "name": "Blood-tinged Scissorblades",
+        "desc": "- Max Value: 10\n- Stage 1 Blood-tinged Scissorblades\n- Used for special skills"
+    },
+    "BloodScissorTwo": {
+        "buffType": "Positive",
+        "iconId": "BloodScissor",
+        "name": "Blood-tinged Scissorblades II",
+        "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills"
+    },
+    "BloodScissorThree": {
+        "buffType": "Positive",
+        "iconId": "BloodScissor",
+        "name": "Blood-tinged Scissorblades III",
+        "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 2 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills"
+    },
+    "LineCutting": {
+        "buffType": "Negative",
+        "name": "Sewing Target",
+        "desc": "- Prioritized by ???.\n- Expires at Turn End"
+    },
+    "BloodScissorScars": {
+        "buffType": "Negative",
+        "name": "Deep Laceration",
+        "desc": "- Gain +3 Bleed Count and trigger Bleed on self. Then, lose 1 Bleed Count.\n- Expires at Turn End"
+    },
+    "BloodDinner": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "Bloodfeast",
+        "desc": "- Max Value: 999\n- Stores all Bleed damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters\n- If there is a higher Kindred among the allies who also consumes Bloodfeast, this unit cannot consume Bloodfeast until that ally consumes it first."
+    },
+    "BloodDinner_Accumulation": {
+        "buffType": "Neutral",
+        "iconId": "BloodDinner_Accumulation",
+        "categoryKeywordList": [],
+        "name": "Bloodfeast Consumed",
+        "desc": "- Max Value: 999\n- Displays the total amount of Bloodfeast consumed in this Encounter",
+        "imageOverride": "Bloodfeast"
+    },
+    "TrulyWeak": {
+        "buffType": "Negative",
+        "categoryKeywordList": [],
+        "name": "The Weak",
+        "desc": "- Damage Dealt -10%"
+    },
+    "RealPaperBear": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "An Actual Bear",
+        "desc": "- It eats people. How fearsome!"
+    },
+    "StarvingBarberOne": {
+        "buffType": "Negative",
+        "categoryKeywordList": [
+            "IGNORE_CHECED_CORRECTION_EXCLUSION"
+        ],
+        "name": "Withered",
+        "desc": "- Starved for blood for a long, long time.\n- Lose 15 Offense Level\n- Lose 15 Defense Level"
+    },
+    "StarvingBarberTwo": {
+        "buffType": "Negative",
+        "categoryKeywordList": [
+            "IGNORE_CHECED_CORRECTION_EXCLUSION"
+        ],
+        "name": "Withered",
+        "desc": "- Starved for blood for a long, long time.\n- Lose 25 Offense Level\n- Lose 25 Defense Level"
+    },
+    "BloodShooting": {
+        "buffType": "Negative",
+        "categoryKeywordList": [],
+        "name": "Blood-shooting!!",
+        "desc": "On Death:\n- Bloodfeast +30\n- gain 2 E.G.O resource for the least-owned E.G.O resource\n- Next turn: all allies gain 0.1 to all Phys. Resistances. This effect can stack. (max 5)"
+    },
+    "RighteousFeeling": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "HOW RIGHTEOUS!!",
+        "desc": "- At every Turn End: gain 1 Haste, 3 Offense Level Up, and 3 Defense Level Down next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 1 Clash Power Up next turn (once per turn)"
+    },
+    "MiddleFingerBook": {
+        "buffType": "Negative",
+        "name": "The Middle's Vendetta Mark",
+        "desc": "Max Stack: 10\nWhen attacked by The Middle, take +3% damage per Stack (max 30%)"
+    },
+    "RepressedMurderousIntend": {
+        "buffType": "Negative",
+        "categoryKeywordList": [
+            "IGNORE_CHECED_CORRECTION_EXCLUSION"
+        ],
+        "name": "Repressed Bloodthirst",
+        "desc": "Offense Level -10, Defense Level -10"
+    },
+    "WeighedMurderousIntend": {
+        "buffType": "Negative",
+        "categoryKeywordList": [
+            "IGNORE_CHECED_CORRECTION_EXCLUSION"
+        ],
+        "name": "Crushed Bloodthirst",
+        "desc": "Offense Level -25, Defense Level -25"
+    },
+    "Persistent": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "Persistence",
+        "desc": "Max Stack: 4\nWhen taking lethal damage, 80% chance to not take that damage, heal 60 HP, recover from Stagger, and lose this effect\n\nThe above effects do not activate under the following conditions:\n- When the Coin damage taken exceeds this unit's max HP\n- When this unit has the HP Healing Down effect\nReduced by 1 at Turn End"
+    },
+    "BurstAgility": {
+        "buffType": "Negative",
+        "categoryKeywordList": [
+            "BURSTREACTIVE"
+        ],
+        "name": "Deathrite\u3010Haste\u3011",
+        "desc": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with 10+ Speed, lose 1 Stack and gain +1 Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture Potency on self; then, this effect expires\n\u203b Cannot gain additional Stacks of this effect while it is already active"
+    },
+    "LegStrength": {
+        "buffType": "Positive",
+        "name": "Strider\u3010Mao\u3011",
+        "desc": "Max Stack: 3\nTurn End: gain 5 Haste next turn\nReduced by 1 at Turn End"
+    },
+    "SweeperA": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "The First Wave",
+        "desc": "The first wave ends after {0} turn(s)"
+    },
+    "SweeperB": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "The Second Wave",
+        "desc": "The second wave ends after {0} turn(s)"
+    },
+    "SweeperC": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "The Third Wave",
+        "desc": "The third wave ends after {0} turn(s)"
+    },
+    "NetherseaBrand": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "Nethersea Brand",
+        "desc": "Nethersea Brand expands toward the Sinners with each passing turn.\n- Stage 1 : Sea Terror territory\n- Stage 2 : 2 frontmost Sinners\n- Stage 3 : 5 frontmost Sinners\n- Stage 4 : All Sinners"
+    },
+    "SeaTerrorCell": {
+        "buffType": "Negative",
+        "name": "Sea Terror Assimilation",
+        "desc": "- Max Stack : 5\n- Gain 1 Stack at Turn Start\n- Gain 1 Offense Level Down and 1 Defense Level Down per Stack\n- Turn End: if an allied Sinner has 5 Stacks of this effect, it Escapes Battlefield.\n- When an allied Sinner has a Defense Skill equipped while it has this effect, they Escape Battlefield at Combat Start"
+    },
+    "AbyssalVitality": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "Abyssal Vitality",
+        "desc": "- Max Stack : 100\n- Consumed when using certain Skills\n- Every time this effect is consumed, Heal SP on self by the amount consumed"
+    },
+    "IndelibleGoodwill": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "Indelible Compassion",
+        "desc": "- This unit does not lose Shield at Turn End (unless removed by damage or certain effects)\n- When the Shield breaks due to getting hit, become Staggered and gain 5 Fragile until next turn\n- When becoming Staggered due to raised Stagger threshold, gain 5 Fragile until next turn\n- Fragile gained due to this buff's effects do not stack\n- Shield HP can stack, however; when this effect is active, the shield HP cannot be more than 50% of the Shielded unit's max HP\n- This effect counts as a 'Shield Management' effect. (replaced when gaining a different Shield Management effect)"
+    },
+    "WaitingforCommandMod": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "Standby State",
+        "desc": "- When in Standby State, this unit does not use Attack Skills until it takes damage"
+    },
+    "ParticipationMod": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "Combat-Ready State",
+        "desc": "- After taking damage, this unit has begun to use its Attack Skills.\n- Turn Start while in Combat-Ready State:\n\u00b7 Inflict 3 Nervous Impairment to all enemies\n\u00b7 Min & Max Speed +3\n\u00b7 Gain 1 Offense Level Up for every 10% missing HP (max 8)\n- Turn End while in Combat-Ready State: take fixed damage equal to 10% HP"
+    },
+    "ColdAirDOQ": {
+        "buffType": "Negative",
+        "categoryKeywordList": [],
+        "name": "Cold",
+        "desc": "- Max Stack: 3\n- Lose 1 Speed for every Cold Stack\n- If this unit has 3 Stacks after Skill End: take 20 Gloom damage and 20 SP damage; then, gain 1 Frozen this turn and next turn.\n- Cold Stack expires after all effects are activated\n- Turn End: if this unit did not attack The Last Knight, expires"
+    },
+    "FreezingDOQ": {
+        "buffType": "Negative",
+        "categoryKeywordList": [],
+        "name": "Frozen",
+        "desc": "- Unique Cold\n- Cannot act for this turn\n- Certain Skill activations become nullified at 1 HP"
+    },
+    "BloodborneDOQ": {
+        "buffType": "Negative",
+        "categoryKeywordList": [],
+        "name": "The Knight's Corpus",
+        "desc": "Take +80% damage"
+    },
+    "WeakenDOQ": {
+        "buffType": "Negative",
+        "categoryKeywordList": [],
+        "name": "Misery and Calamity",
+        "desc": "- Offense Level -??\n- Defense Level -??"
+    },
+    "NetherseaBrandUnit": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [],
+        "name": "Nethersea Brand",
+        "desc": "- Sinners on top of Nethersea Brand: at Turn End, take fixed damage equal to 5% HP and gain 3 Nervous Impairment\n- Greatly increases the Nervous Impairment Stack Sea Terrors on top of Nethersea Brand inflict against Sinners\n- Nethersea Brand's influence expands toward Sinner territory with each passing turn\n\u00b7 Stage 1 : Sea Terror territory\n\u00b7 Stage 2 : Affects 2 frontmost Sinners\n\u00b7 Stage 3 : Affects 5 frontmost Sinners\n\u00b7 Stage 4 : Affects all Sinners"
+    },
+    "NervousImpairment": {
+        "buffType": "Negative",
+        "name": "Nervous Impairment",
+        "desc": "- Max Stack : 30\n- At 30 Stack, become Staggered; then, take fixed damage equal to 25% HP, and remove this effect"
+    },
+    "BitOfEmotion": {
+        "buffType": "Positive",
+        "name": "Emotional Connection",
+        "desc": "- On Hit against enemies: (50 / # of Coins)% chance to gain 1 E.G.O resource corresponding to the used Skill's Affinity\n- When an enemy dies after an allied unit's Skill attack ends, gain 2 least-owned E.G.O Resources\n- In an Encounter, gain 1 E.G.O resource of each Affinity consumed when using the following E.G.O Skills (2 of each when using Overclocked Skills)\n\u00b7 To Remain Oneself Hong Lu\n\u00b7 Command : Meltdown Faust\n\u00b7 Unbrilliant Glory Gregor\n\u00b7 Tidal Elegy Ishmael"
+    },
+    "WildernessSurvivalModule": {
+        "buffType": "Positive",
+        "name": "Little Handy - Wilderness Survival Module",
+        "desc": "- Max HP +20%. Heal +40% more from Skills, Passives, and buff effects"
+    },
+    "HousekeepingAssistantModule": {
+        "buffType": "Positive",
+        "name": "Little Handy - Housekeeping Assistant Module",
+        "desc": "- When activating the Hand of the Saint, it activates again once next turn\n- Turn Start: gain Offense Level Up and Defense Level Up equal to the number of times Nethersea Brand was removed by using the Hand of the Saint during this Encounter (max 4 each)"
+    },
+    "IncrementalMotionFirmware": {
+        "buffType": "Positive",
+        "name": "Little Handy - Incremental Motion Firmware",
+        "desc": "- Remove 1 highest Stagger threshold from every allied unit\n- When Staggered, immediately recover from Stagger at the start of the next turn (once)"
+    },
+    "MiniDecontaminationKit": {
+        "buffType": "Positive",
+        "name": "Little Handy - Mini Decontamination Kit",
+        "desc": "- Nethersea Brand no longer inflicts Nervous Impairment or deals damage to allies"
+    },
+    "ExternalUpgradeModule": {
+        "buffType": "Positive",
+        "name": "Little Handy - External Upgrade Module",
+        "desc": "- For 3 turns after gaining this effect: gain 2 Power Up and 2 Damage Up at the start of each turn (Substituting units earn it in the turn they Substitute in)"
     },
     "MRR5BaseP": {
         "buffType": "Neutral",
@@ -1906,7 +2168,7 @@
     },
     "AttackDown": {
         "buffType": "Negative",
-        "name": "Offense Level Down ",
+        "name": "Offense Level Down",
         "desc": "Offense level decreases based on the effect's Potency for one turn."
     },
     "DefenseDown": {
@@ -2811,6 +3073,35 @@
         "name": "Clash Power Up",
         "desc": "In a Clash, gain Clash Power equal to the value"
     },
+    "Bullet": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [
+            "RESOURCE",
+            "BULLET"
+        ],
+        "name": "Ammo",
+        "desc": "Spent by certain skills.\nSome attacks cancel if lacking Ammo."
+    },
+    "BulletLament": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [
+            "RESOURCE",
+            "BULLET",
+            "TURN_IS_ALSO_LOADED_BULLET"
+        ],
+        "name": "The Living & The Departed",
+        "desc": "- Unique Ammo\n- The sum of Potency and Count maxes out at 20.\n- Consumed for certain Skills.\n- Whether The Living(Potency) or The Departed(Count) will be consumed for each shot is randomly determined\n- Some attacks cancel if this unit runs out of ammo."
+    },
+    "Bullet_LogicAtelier": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [
+            "RESOURCE",
+            "BULLET",
+            "CAN_GET_ONLY_BY_SYSTEM"
+        ],
+        "name": "Ammo - Atelier Logic",
+        "desc": "Unique Ammo\nAtelier Logic Workshop Special Ammo\n- This Ammo's count cannot be gained or lost due to external effects"
+    },
     "CtrlTeamCaptain": {
         "buffType": "Neutral",
         "name": "Control Team Captain",
@@ -2970,7 +3261,8 @@
         "buffType": "Neutral",
         "iconId": "BloodDinner_Accumulation",
         "name": "Bloodfeast Consumed (shared)",
-        "desc": "Total Bloodfeast consumed in this Encounter"
+        "desc": "Total Bloodfeast consumed in this Encounter",
+        "imageOverride": "Bloodfeast"
     },
     "FreishutzOutisEgoBulletCnt": {
         "buffType": "Neutral",
