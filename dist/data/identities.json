@@ -1,0 +1,9624 @@
+{
+    "10101": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1010104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 72,
+            "level": 2.48
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1010101,
+                "num": 3
+            },
+            {
+                "id": 1010102,
+                "num": 2
+            },
+            {
+                "id": 1010103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10102": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Seven Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1010204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                5,
+                8
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1010201,
+                "num": 3
+            },
+            {
+                "id": 1010203,
+                "num": 2
+            },
+            {
+                "id": 1010202,
+                "num": 1
+            }
+        ],
+        "name": "Seven Assoc. South Section 6"
+    },
+    "10103": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "Blade Lineage"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1010304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1010301,
+                "num": 3
+            },
+            {
+                "id": 1010302,
+                "num": 2
+            },
+            {
+                "id": 1010303,
+                "num": 1
+            }
+        ],
+        "name": "Blade Lineage Salsu"
+    },
+    "10104": {
+        "date": 20230615,
+        "tags": [
+            "Technology Liberation Alliance"
+        ],
+        "skillKeywordList": [
+            "Tremor",
+            "Sinking"
+        ],
+        "sinnerId": 1,
+        "season": 2,
+        "defenseSkill": [
+            1010404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1010401,
+                "num": 3
+            },
+            {
+                "id": 1010402,
+                "num": 2
+            },
+            {
+                "id": 1010403,
+                "num": 1
+            }
+        ],
+        "name": "Effloresced E.G.O::Spicebush"
+    },
+    "10105": {
+        "date": 20230920,
+        "tags": [
+            "Fixer",
+            "Molar Office"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 1,
+        "season": 2,
+        "defenseSkill": [
+            1010504
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1010501,
+                "num": 3
+            },
+            {
+                "id": 1010502,
+                "num": 2
+            },
+            {
+                "id": 1010503,
+                "num": 1
+            }
+        ],
+        "name": "Molar Office Fixer"
+    },
+    "10106": {
+        "date": 20231109,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Rupture"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1010604
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1010601,
+                "num": 3
+            },
+            {
+                "id": 1010602,
+                "num": 2
+            },
+            {
+                "id": 1010603,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L3 Cleanup Agent"
+    },
+    "10107": {
+        "date": 20231207,
+        "tags": [
+            "The Pequod"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Poise"
+        ],
+        "sinnerId": 1,
+        "season": 3,
+        "defenseSkill": [
+            1010704
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1010701,
+                "num": 3
+            },
+            {
+                "id": 1010702,
+                "num": 2
+            },
+            {
+                "id": 1010703,
+                "num": 1
+            }
+        ],
+        "name": "The Pequod First Mate"
+    },
+    "10108": {
+        "date": 20240125,
+        "tags": [
+            "Fixer",
+            "Dieci Association"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1010804
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1010801,
+                "num": 3
+            },
+            {
+                "id": 1010802,
+                "num": 2
+            },
+            {
+                "id": 1010803,
+                "num": 1
+            }
+        ],
+        "name": "Dieci Assoc. South Section 4"
+    },
+    "10109": {
+        "date": 20240516,
+        "tags": [
+            "Syndicate",
+            "The Ring"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1010904
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1010901,
+                "num": 3
+            },
+            {
+                "id": 1010902,
+                "num": 2
+            },
+            {
+                "id": 1010903,
+                "num": 1
+            }
+        ],
+        "name": "The Ring Pointillist Student"
+    },
+    "10110": {
+        "date": 20240905,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 1,
+        "season": 9104,
+        "defenseSkill": [
+            1011004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            60,
+            30,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1011001,
+                "num": 3
+            },
+            {
+                "id": 1011002,
+                "num": 2
+            },
+            {
+                "id": 1011003,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O:: Solemn Lament"
+    },
+    "10111": {
+        "date": 20250123,
+        "tags": [
+            "E.G.O Gear",
+            "Limbus Company",
+            "LCE"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 1,
+        "season": 5,
+        "defenseSkill": [
+            1011104
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1011101,
+                "num": 3
+            },
+            {
+                "id": 1011102,
+                "num": 2
+            },
+            {
+                "id": 1011103,
+                "num": 1
+            }
+        ],
+        "name": "LCE E.G.O:: Lantern"
+    },
+    "10112": {
+        "date": 20250220,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 1,
+        "season": 0,
+        "defenseSkill": [
+            1011204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1011201,
+                "num": 3
+            },
+            {
+                "id": 1011202,
+                "num": 2
+            },
+            {
+                "id": 1011203,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 3"
+    },
+    "10113": {
+        "date": 20250703,
+        "tags": [
+            "E.G.O Gear",
+            "N Corp."
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Poise"
+        ],
+        "sinnerId": 1,
+        "season": 6,
+        "defenseSkill": [
+            1011304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1011301,
+                "num": 3
+            },
+            {
+                "id": 1011302,
+                "num": 2
+            },
+            {
+                "id": 1011303,
+                "num": 1
+            }
+        ],
+        "name": "N Corp. E.G.O:: Fell Bullet"
+    },
+    "10114": {
+        "date": 20250828,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack Adept",
+            "Jia Family",
+            "Heishou Pack - Wu Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Tremor"
+        ],
+        "sinnerId": 1,
+        "season": 6,
+        "defenseSkill": [
+            1011404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 3.41
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1011401,
+                "num": 3
+            },
+            {
+                "id": 1011402,
+                "num": 2
+            },
+            {
+                "id": 1011403,
+                "num": 1
+            },
+            {
+                "id": 1011405,
+                "num": 0
+            }
+        ],
+        "name": "Heishou Pack - Wu Branch Adept"
+    },
+    "10201": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [],
+        "sinnerId": 2,
+        "season": 0,
+        "defenseSkill": [
+            1020104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 84,
+            "level": 2.9
+        },
+        "speedList": [
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "breakSection": [
+            60,
+            30,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1020101,
+                "num": 3
+            },
+            {
+                "id": 1020102,
+                "num": 2
+            },
+            {
+                "id": 1020103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10202": {
+        "date": 20230227,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Charge"
+        ],
+        "sinnerId": 2,
+        "season": 0,
+        "defenseSkill": [
+            1020204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 88,
+            "level": 3.05
+        },
+        "speedList": [
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1020201,
+                "num": 3
+            },
+            {
+                "id": 1020202,
+                "num": 2
+            },
+            {
+                "id": 1020203,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L2 Cleanup Agent"
+    },
+    "10203": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Lobotomy Corp. Branch",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Poise"
+        ],
+        "sinnerId": 2,
+        "season": 1,
+        "defenseSkill": [
+            1020304
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1020301,
+                "num": 3
+            },
+            {
+                "id": 1020302,
+                "num": 2
+            },
+            {
+                "id": 1020303,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy Corp. Remnant"
+    },
+    "10204": {
+        "date": 20230323,
+        "tags": [
+            "N Corp.",
+            "N Corp. Fanatic"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 2,
+        "season": 1,
+        "defenseSkill": [
+            1020404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1020401,
+                "num": 3
+            },
+            {
+                "id": 1020402,
+                "num": 2
+            },
+            {
+                "id": 1020403,
+                "num": 1
+            }
+        ],
+        "name": "The One Who Grips"
+    },
+    "10205": {
+        "date": 20230810,
+        "tags": [
+            "Fixer",
+            "Zwei Association"
+        ],
+        "skillKeywordList": [],
+        "sinnerId": 2,
+        "season": 0,
+        "defenseSkill": [
+            1020504
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1020501,
+                "num": 3
+            },
+            {
+                "id": 1020502,
+                "num": 2
+            },
+            {
+                "id": 1020503,
+                "num": 1
+            }
+        ],
+        "name": "Zwei Assoc. South Section 4"
+    },
+    "10206": {
+        "date": 20230907,
+        "tags": [
+            "Fixer",
+            "Seven Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 2,
+        "season": 0,
+        "defenseSkill": [
+            1020604
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 76,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1020601,
+                "num": 3
+            },
+            {
+                "id": 1020602,
+                "num": 2
+            },
+            {
+                "id": 1020603,
+                "num": 1
+            }
+        ],
+        "name": "Seven Assoc. South Section 4"
+    },
+    "10207": {
+        "date": 20231026,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 2,
+        "season": 9101,
+        "defenseSkill": [
+            1020704
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1020701,
+                "num": 3
+            },
+            {
+                "id": 1020702,
+                "num": 2
+            },
+            {
+                "id": 1020703,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O::Regret"
+    },
+    "10208": {
+        "date": 20240222,
+        "tags": [
+            "Syndicate",
+            "Blade Lineage"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Bleed"
+        ],
+        "sinnerId": 2,
+        "season": 3,
+        "defenseSkill": [
+            1020804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 76,
+            "level": 2.5
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1020801,
+                "num": 3
+            },
+            {
+                "id": 1020802,
+                "num": 2
+            },
+            {
+                "id": 1020803,
+                "num": 1
+            }
+        ],
+        "name": "Blade Lineage Salsu"
+    },
+    "10209": {
+        "date": 20240404,
+        "tags": [
+            "Fixer",
+            "Butler",
+            "Wuthering Heights"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 2,
+        "season": 4,
+        "defenseSkill": [
+            1020904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.7
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1020901,
+                "num": 3
+            },
+            {
+                "id": 1020902,
+                "num": 2
+            },
+            {
+                "id": 1020903,
+                "num": 1
+            }
+        ],
+        "name": "Wuthering Heights Butler"
+    },
+    "10210": {
+        "date": 20240808,
+        "tags": [
+            "Fixer",
+            "Mechanical Amalgam",
+            "MultiCrack Office"
+        ],
+        "skillKeywordList": [
+            "Charge"
+        ],
+        "sinnerId": 2,
+        "season": 4,
+        "defenseSkill": [
+            1021004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1021001,
+                "num": 3
+            },
+            {
+                "id": 1021002,
+                "num": 2
+            },
+            {
+                "id": 1021003,
+                "num": 1
+            }
+        ],
+        "name": "MultiCrack Office Rep"
+    },
+    "10211": {
+        "date": 20250123,
+        "tags": [
+            "E.G.O Gear",
+            "Limbus Company",
+            "LCE"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 2,
+        "season": 5,
+        "defenseSkill": [
+            1021104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1021101,
+                "num": 3
+            },
+            {
+                "id": 1021102,
+                "num": 2
+            },
+            {
+                "id": 1021103,
+                "num": 1
+            },
+            {
+                "id": 1021105,
+                "num": 0
+            }
+        ],
+        "name": "LCE E.G.O:: Ardor Blossom Star"
+    },
+    "10301": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 3,
+        "season": 0,
+        "defenseSkill": [
+            1030104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1030101,
+                "num": 3
+            },
+            {
+                "id": 1030102,
+                "num": 2
+            },
+            {
+                "id": 1030103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10302": {
+        "date": 20230227,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Rupture"
+        ],
+        "sinnerId": 3,
+        "season": 0,
+        "defenseSkill": [
+            1030204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1030201,
+                "num": 3
+            },
+            {
+                "id": 1030202,
+                "num": 2
+            },
+            {
+                "id": 1030203,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L3 Cleanup Agent"
+    },
+    "10303": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Shi Association"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 3,
+        "season": 0,
+        "defenseSkill": [
+            1030304
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            80,
+            60
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1030301,
+                "num": 3
+            },
+            {
+                "id": 1030302,
+                "num": 2
+            },
+            {
+                "id": 1030303,
+                "num": 1
+            }
+        ],
+        "name": "Shi Assoc. South Section 5 Director"
+    },
+    "10304": {
+        "date": 20230504,
+        "tags": [
+            "N Corp.",
+            "N Corp. Fanatic"
+        ],
+        "skillKeywordList": [
+            "Tremor",
+            "Bleed"
+        ],
+        "sinnerId": 3,
+        "season": 1,
+        "defenseSkill": [
+            1030404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1030401,
+                "num": 3
+            },
+            {
+                "id": 1030402,
+                "num": 2
+            },
+            {
+                "id": 1030403,
+                "num": 1
+            }
+        ],
+        "name": "N Corp. Mittelhammer"
+    },
+    "10305": {
+        "date": 20230720,
+        "tags": [
+            "Fixer",
+            "Cinq Association"
+        ],
+        "skillKeywordList": [],
+        "sinnerId": 3,
+        "season": 0,
+        "defenseSkill": [
+            1030504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 72,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1030501,
+                "num": 3
+            },
+            {
+                "id": 1030502,
+                "num": 2
+            },
+            {
+                "id": 1030503,
+                "num": 1
+            }
+        ],
+        "name": "Cinq Assoc. South Section 5 Director"
+    },
+    "10306": {
+        "date": 20231123,
+        "tags": [
+            "Syndicate",
+            "The Middle"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 3,
+        "season": 3,
+        "defenseSkill": [
+            1030604,
+            1030605
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1030601,
+                "num": 3
+            },
+            {
+                "id": 1030602,
+                "num": 2
+            },
+            {
+                "id": 1030603,
+                "num": 1
+            }
+        ],
+        "name": "The Middle Little Sister"
+    },
+    "10307": {
+        "date": 20240111,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 3,
+        "season": 9102,
+        "defenseSkill": [
+            1030704
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1030701,
+                "num": 3
+            },
+            {
+                "id": 1030702,
+                "num": 2
+            },
+            {
+                "id": 1030703,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O::Lantern"
+    },
+    "10308": {
+        "date": 20240222,
+        "tags": [
+            "Syndicate",
+            "Blade Lineage"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 3,
+        "season": 3,
+        "defenseSkill": [
+            1030804
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 73,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1030801,
+                "num": 3
+            },
+            {
+                "id": 1030802,
+                "num": 2
+            },
+            {
+                "id": 1030803,
+                "num": 1
+            }
+        ],
+        "name": "Blade Lineage Salsu"
+    },
+    "10309": {
+        "date": 20240627,
+        "tags": [
+            "T Corp."
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 3,
+        "season": 0,
+        "defenseSkill": [
+            1030904
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 95,
+            "level": 3.26
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1030901,
+                "num": 3
+            },
+            {
+                "id": 1030902,
+                "num": 2
+            },
+            {
+                "id": 1030903,
+                "num": 1
+            }
+        ],
+        "name": "T Corp. Class 3 Collection Staff"
+    },
+    "10310": {
+        "date": 20241212,
+        "tags": [
+            "Bloodfiend",
+            "Second Kindred",
+            "La Manchaland"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 3,
+        "season": 5,
+        "defenseSkill": [
+            1031004,
+            1031008
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 63,
+            "level": 2.17
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1031001,
+                "num": 3
+            },
+            {
+                "id": 1031002,
+                "num": 2
+            },
+            {
+                "id": 1031003,
+                "num": 1
+            },
+            {
+                "id": 1031005,
+                "num": 0
+            },
+            {
+                "id": 1031006,
+                "num": 0
+            },
+            {
+                "id": 1031007,
+                "num": 0
+            }
+        ],
+        "name": "The Manager of La Manchaland"
+    },
+    "10311": {
+        "date": 20250306,
+        "tags": [
+            "Fixer",
+            "Cinq Association"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Burn"
+        ],
+        "sinnerId": 3,
+        "season": 0,
+        "defenseSkill": [
+            1031104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1031101,
+                "num": 3
+            },
+            {
+                "id": 1031102,
+                "num": 2
+            },
+            {
+                "id": 1031103,
+                "num": 1
+            }
+        ],
+        "name": "Cinq Assoc. East Section 3"
+    },
+    "10312": {
+        "date": 20250717,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Rupture",
+            "Sinking"
+        ],
+        "sinnerId": 3,
+        "season": 9106,
+        "defenseSkill": [
+            1031204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1031201,
+                "num": 3
+            },
+            {
+                "id": 1031202,
+                "num": 2
+            },
+            {
+                "id": 1031203,
+                "num": 1
+            },
+            {
+                "id": 1031205,
+                "num": 0
+            },
+            {
+                "id": 1031206,
+                "num": 0
+            },
+            {
+                "id": 1031207,
+                "num": 0
+            }
+        ],
+        "name": "Lobotomy E.G.O:: In the Name of Love and Hate"
+    },
+    "10401": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 4,
+        "season": 0,
+        "defenseSkill": [
+            1040104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1040101,
+                "num": 3
+            },
+            {
+                "id": 1040102,
+                "num": 2
+            },
+            {
+                "id": 1040103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10402": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Seven Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 4,
+        "season": 0,
+        "defenseSkill": [
+            1040204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 63,
+            "level": 2.17
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1040201,
+                "num": 3
+            },
+            {
+                "id": 1040202,
+                "num": 2
+            },
+            {
+                "id": 1040203,
+                "num": 1
+            }
+        ],
+        "name": "Seven Assoc. South Section 6"
+    },
+    "10403": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "Kurokumo Clan"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 4,
+        "season": 0,
+        "defenseSkill": [
+            1040304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1040301,
+                "num": 3
+            },
+            {
+                "id": 1040302,
+                "num": 2
+            },
+            {
+                "id": 1040303,
+                "num": 1
+            }
+        ],
+        "name": "Kurokumo Clan Wakashu"
+    },
+    "10404": {
+        "date": 20230420,
+        "tags": [
+            "Syndicate",
+            "The Backstreets",
+            "R.B."
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 4,
+        "season": 1,
+        "defenseSkill": [
+            1040404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1040401,
+                "num": 3
+            },
+            {
+                "id": 1040402,
+                "num": 2
+            },
+            {
+                "id": 1040403,
+                "num": 1
+            }
+        ],
+        "name": "R.B. Chef de Cuisine"
+    },
+    "10405": {
+        "date": 20230824,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Charge"
+        ],
+        "sinnerId": 4,
+        "season": 0,
+        "defenseSkill": [
+            1040504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1040501,
+                "num": 3
+            },
+            {
+                "id": 1040502,
+                "num": 2
+            },
+            {
+                "id": 1040503,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L3 Cleanup Agent"
+    },
+    "10406": {
+        "date": 20231116,
+        "tags": [
+            "Limbus Company",
+            "LCC"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Tremor",
+            "Rupture"
+        ],
+        "sinnerId": 4,
+        "season": 3,
+        "defenseSkill": [
+            1040604
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1040601,
+                "num": 3
+            },
+            {
+                "id": 1040602,
+                "num": 2
+            },
+            {
+                "id": 1040603,
+                "num": 1
+            }
+        ],
+        "name": "LCCB Assistant Manager"
+    },
+    "10407": {
+        "date": 20240307,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 4,
+        "season": 0,
+        "defenseSkill": [
+            1040704
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1040701,
+                "num": 3
+            },
+            {
+                "id": 1040702,
+                "num": 2
+            },
+            {
+                "id": 1040703,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 4"
+    },
+    "10408": {
+        "date": 20240418,
+        "tags": [
+            "Fixer",
+            "Butler",
+            "Edgar Family"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 4,
+        "season": 4,
+        "defenseSkill": [
+            1040804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1040801,
+                "num": 3
+            },
+            {
+                "id": 1040802,
+                "num": 2
+            },
+            {
+                "id": 1040803,
+                "num": 1
+            }
+        ],
+        "name": "Edgar Family Chief Butler"
+    },
+    "10409": {
+        "date": 20240613,
+        "tags": [
+            "Syndicate",
+            "Yurodiviye"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 4,
+        "season": 4,
+        "defenseSkill": [
+            1040904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 71,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1040901,
+                "num": 3
+            },
+            {
+                "id": 1040902,
+                "num": 2
+            },
+            {
+                "id": 1040903,
+                "num": 1
+            }
+        ],
+        "name": "District 20 Yurodivy"
+    },
+    "10410": {
+        "date": 20240905,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Bleed"
+        ],
+        "sinnerId": 4,
+        "season": 9104,
+        "defenseSkill": [
+            1041004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.34
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1041001,
+                "num": 3
+            },
+            {
+                "id": 1041002,
+                "num": 2
+            },
+            {
+                "id": 1041003,
+                "num": 1
+            },
+            {
+                "id": 1041005,
+                "num": 0
+            }
+        ],
+        "name": "Lobotomy E.G.O:: Red Eyes & Penitence"
+    },
+    "10411": {
+        "date": 20250320,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack - Mao Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 4,
+        "season": 5,
+        "defenseSkill": [
+            1041104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.34
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1041101,
+                "num": 3
+            },
+            {
+                "id": 1041102,
+                "num": 2
+            },
+            {
+                "id": 1041103,
+                "num": 1
+            }
+        ],
+        "name": "Heishou Pack - Mao Branch"
+    },
+    "10412": {
+        "date": 20250911,
+        "tags": [
+            "E.G.O Gear",
+            "N Corp."
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Tremor"
+        ],
+        "sinnerId": 4,
+        "season": 6,
+        "defenseSkill": [
+            1041204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1041201,
+                "num": 3
+            },
+            {
+                "id": 1041202,
+                "num": 2
+            },
+            {
+                "id": 1041203,
+                "num": 1
+            },
+            {
+                "id": 1041205,
+                "num": 0
+            },
+            {
+                "id": 1041206,
+                "num": 0
+            }
+        ],
+        "name": "N Corp. E.G.O:: Contempt, Awe"
+    },
+    "10501": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 5,
+        "season": 0,
+        "defenseSkill": [
+            1050104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 90,
+            "level": 3.1
+        },
+        "speedList": [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "breakSection": [
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1050101,
+                "num": 3
+            },
+            {
+                "id": 1050102,
+                "num": 2
+            },
+            {
+                "id": 1050103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10502": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 5,
+        "season": 0,
+        "defenseSkill": [
+            1050204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1050201,
+                "num": 3
+            },
+            {
+                "id": 1050202,
+                "num": 2
+            },
+            {
+                "id": 1050203,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 6"
+    },
+    "10503": {
+        "date": 20230227,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Rupture"
+        ],
+        "sinnerId": 5,
+        "season": 0,
+        "defenseSkill": [
+            1050304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1050301,
+                "num": 3
+            },
+            {
+                "id": 1050302,
+                "num": 2
+            },
+            {
+                "id": 1050303,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L2 Cleanup Agent"
+    },
+    "10504": {
+        "date": 20230309,
+        "tags": [
+            "N Corp.",
+            "N Corp. Fanatic"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 5,
+        "season": 1,
+        "defenseSkill": [
+            1050404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 99,
+            "level": 3.41
+        },
+        "speedList": [
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1050401,
+                "num": 3
+            },
+            {
+                "id": 1050402,
+                "num": 2
+            },
+            {
+                "id": 1050403,
+                "num": 1
+            }
+        ],
+        "name": "N Corp. Gro\u00dfhammer"
+    },
+    "10505": {
+        "date": 20230601,
+        "tags": [
+            "Fixer",
+            "Rosespanner Workshop"
+        ],
+        "skillKeywordList": [
+            "Tremor",
+            "Charge"
+        ],
+        "sinnerId": 5,
+        "season": 2,
+        "defenseSkill": [
+            1050504
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.7
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1050501,
+                "num": 3
+            },
+            {
+                "id": 1050502,
+                "num": 2
+            },
+            {
+                "id": 1050503,
+                "num": 1
+            }
+        ],
+        "name": "Rosespanner Workshop Fixer"
+    },
+    "10506": {
+        "date": 20230713,
+        "tags": [
+            "R Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Bleed"
+        ],
+        "sinnerId": 5,
+        "season": 0,
+        "defenseSkill": [
+            1050604
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 95,
+            "level": 3
+        },
+        "speedList": [
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "breakSection": [
+            40
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1050601,
+                "num": 3
+            },
+            {
+                "id": 1050602,
+                "num": 2
+            },
+            {
+                "id": 1050603,
+                "num": 1
+            }
+        ],
+        "name": "R Corp. 4th Pack Rhino"
+    },
+    "10507": {
+        "date": 20231123,
+        "tags": [
+            "Syndicate",
+            "The Middle"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 5,
+        "season": 3,
+        "defenseSkill": [
+            1050704
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1050701,
+                "num": 3
+            },
+            {
+                "id": 1050702,
+                "num": 2
+            },
+            {
+                "id": 1050703,
+                "num": 1
+            }
+        ],
+        "name": "The Middle Little Brother"
+    },
+    "10508": {
+        "date": 20240222,
+        "tags": [
+            "Syndicate",
+            "Blade Lineage"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 5,
+        "season": 3,
+        "defenseSkill": [
+            1050804,
+            1050805
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            80,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1050801,
+                "num": 3
+            },
+            {
+                "id": 1050802,
+                "num": 2
+            },
+            {
+                "id": 1050803,
+                "num": 1
+            }
+        ],
+        "name": "Blade Lineage Mentor"
+    },
+    "10509": {
+        "date": 20240328,
+        "tags": [
+            "Syndicate",
+            "The Dead Rabbits"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 5,
+        "season": 4,
+        "defenseSkill": [
+            1050904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1050901,
+                "num": 3
+            },
+            {
+                "id": 1050902,
+                "num": 2
+            },
+            {
+                "id": 1050903,
+                "num": 1
+            }
+        ],
+        "name": "Dead Rabbits Boss"
+    },
+    "10510": {
+        "date": 20240711,
+        "tags": [
+            "Fixer",
+            "Dieci Association"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 5,
+        "season": 0,
+        "defenseSkill": [
+            1051004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1051001,
+                "num": 3
+            },
+            {
+                "id": 1051002,
+                "num": 2
+            },
+            {
+                "id": 1051003,
+                "num": 1
+            }
+        ],
+        "name": "Dieci Assoc. South Section 4 Director"
+    },
+    "10511": {
+        "date": 20241010,
+        "tags": [
+            "Fixer",
+            "Cinq Association"
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Poise"
+        ],
+        "sinnerId": 5,
+        "season": 5,
+        "defenseSkill": [
+            1051104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1051101,
+                "num": 3
+            },
+            {
+                "id": 1051102,
+                "num": 2
+            },
+            {
+                "id": 1051103,
+                "num": 1
+            }
+        ],
+        "name": "Cinq Assoc. West Section 3"
+    },
+    "10512": {
+        "date": 20250619,
+        "tags": [
+            "Syndicate",
+            "Capo IIII",
+            "The Thumb"
+        ],
+        "skillKeywordList": [
+            "Burn",
+            "Tremor"
+        ],
+        "sinnerId": 5,
+        "season": 6,
+        "defenseSkill": [
+            1051204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1051201,
+                "num": 3
+            },
+            {
+                "id": 1051202,
+                "num": 2
+            },
+            {
+                "id": 1051203,
+                "num": 1
+            },
+            {
+                "id": 1051205,
+                "num": 0
+            }
+        ],
+        "name": "The Thumb East Capo IIII"
+    },
+    "10601": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Sinking",
+            "Rupture"
+        ],
+        "sinnerId": 6,
+        "season": 0,
+        "defenseSkill": [
+            1060104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1060101,
+                "num": 3
+            },
+            {
+                "id": 1060102,
+                "num": 2
+            },
+            {
+                "id": 1060103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10602": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "Kurokumo Clan"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 6,
+        "season": 0,
+        "defenseSkill": [
+            1060204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1060201,
+                "num": 3
+            },
+            {
+                "id": 1060202,
+                "num": 2
+            },
+            {
+                "id": 1060203,
+                "num": 1
+            }
+        ],
+        "name": "Kurokumo Clan Wakashu"
+    },
+    "10603": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "The Backstreets",
+            "Tingtang Gang"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 6,
+        "season": 1,
+        "defenseSkill": [
+            1060304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1060301,
+                "num": 3
+            },
+            {
+                "id": 1060302,
+                "num": 2
+            },
+            {
+                "id": 1060303,
+                "num": 1
+            }
+        ],
+        "name": "Tingtang Gang Gangleader"
+    },
+    "10604": {
+        "date": 20230406,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 6,
+        "season": 0,
+        "defenseSkill": [
+            1060404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1060401,
+                "num": 3
+            },
+            {
+                "id": 1060402,
+                "num": 2
+            },
+            {
+                "id": 1060403,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 5"
+    },
+    "10605": {
+        "date": 20230629,
+        "tags": [
+            "K Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 6,
+        "season": 2,
+        "defenseSkill": [
+            1060504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 99,
+            "level": 3.41
+        },
+        "speedList": [
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                6
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1060501,
+                "num": 3
+            },
+            {
+                "id": 1060502,
+                "num": 2
+            },
+            {
+                "id": 1060503,
+                "num": 1
+            }
+        ],
+        "name": "K Corp. Class 3 Excision Staff"
+    },
+    "10606": {
+        "date": 20230824,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Charge"
+        ],
+        "sinnerId": 6,
+        "season": 0,
+        "defenseSkill": [
+            1060604
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1060601,
+                "num": 3
+            },
+            {
+                "id": 1060602,
+                "num": 2
+            },
+            {
+                "id": 1060603,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L2 Cleanup Agent"
+    },
+    "10607": {
+        "date": 20231026,
+        "tags": [
+            "Fixer",
+            "The Backstreets",
+            "Hook Office"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 6,
+        "season": 9101,
+        "defenseSkill": [
+            1060704
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.36
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1060701,
+                "num": 3
+            },
+            {
+                "id": 1060702,
+                "num": 2
+            },
+            {
+                "id": 1060703,
+                "num": 1
+            }
+        ],
+        "name": "Hook Office Fixer"
+    },
+    "10608": {
+        "date": 20240125,
+        "tags": [
+            "Fixer",
+            "Dieci Association"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 6,
+        "season": 0,
+        "defenseSkill": [
+            1060804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1060801,
+                "num": 3
+            },
+            {
+                "id": 1060802,
+                "num": 2
+            },
+            {
+                "id": 1060803,
+                "num": 1
+            }
+        ],
+        "name": "Dieci Assoc. South Section 4"
+    },
+    "10609": {
+        "date": 20240613,
+        "tags": [
+            "Syndicate",
+            "Yurodiviye"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 6,
+        "season": 4,
+        "defenseSkill": [
+            1060904
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1060901,
+                "num": 3
+            },
+            {
+                "id": 1060902,
+                "num": 2
+            },
+            {
+                "id": 1060903,
+                "num": 1
+            }
+        ],
+        "name": "District 20 Yurodivy"
+    },
+    "10610": {
+        "date": 20241017,
+        "tags": [
+            "Fixer",
+            "Fanghunt Office"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 6,
+        "season": 5,
+        "defenseSkill": [
+            1061004
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1061001,
+                "num": 3
+            },
+            {
+                "id": 1061002,
+                "num": 2
+            },
+            {
+                "id": 1061003,
+                "num": 1
+            }
+        ],
+        "name": "Fanghunt Office Fixer"
+    },
+    "10611": {
+        "date": 20250109,
+        "tags": [
+            "Fixer",
+            "Full-Stop Office"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 6,
+        "season": 9105,
+        "defenseSkill": [
+            1061104,
+            1061107
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1061101,
+                "num": 3
+            },
+            {
+                "id": 1061102,
+                "num": 2
+            },
+            {
+                "id": 1061103,
+                "num": 1
+            },
+            {
+                "id": 1061105,
+                "num": 0
+            },
+            {
+                "id": 1061106,
+                "num": 0
+            },
+            {
+                "id": 1061108,
+                "num": 0
+            }
+        ],
+        "name": "Full-Stop Office Rep"
+    },
+    "10612": {
+        "date": 20250430,
+        "tags": [
+            "R Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Sinking"
+        ],
+        "sinnerId": 6,
+        "season": 0,
+        "defenseSkill": [
+            1061204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 65,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1061201,
+                "num": 3
+            },
+            {
+                "id": 1061202,
+                "num": 2
+            },
+            {
+                "id": 1061203,
+                "num": 1
+            }
+        ],
+        "name": "R Corp. 4th Pack Reindeer"
+    },
+    "10613": {
+        "date": 20250814,
+        "tags": [
+            "H Corp.",
+            "<color=#d40000><s>Jia Family</s></color>"
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Poise"
+        ],
+        "sinnerId": 6,
+        "season": 6,
+        "defenseSkill": [
+            1061304,
+            1061307
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 60,
+            "level": 2.2
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1061301,
+                "num": 3
+            },
+            {
+                "id": 1061302,
+                "num": 2
+            },
+            {
+                "id": 1061303,
+                "num": 1
+            },
+            {
+                "id": 1061305,
+                "num": 0
+            },
+            {
+                "id": 1061306,
+                "num": 0
+            }
+        ],
+        "name": "The Lord of Hongyuan"
+    },
+    "10701": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 7,
+        "season": 0,
+        "defenseSkill": [
+            1070104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 78,
+            "level": 2.69
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1070101,
+                "num": 3
+            },
+            {
+                "id": 1070102,
+                "num": 2
+            },
+            {
+                "id": 1070103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10702": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Shi Association"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 7,
+        "season": 0,
+        "defenseSkill": [
+            1070204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            80,
+            60
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1070201,
+                "num": 3
+            },
+            {
+                "id": 1070202,
+                "num": 2
+            },
+            {
+                "id": 1070203,
+                "num": 1
+            }
+        ],
+        "name": "Shi Assoc. South Section 5"
+    },
+    "10703": {
+        "date": 20230227,
+        "tags": [
+            "R Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Bleed",
+            "Rupture"
+        ],
+        "sinnerId": 7,
+        "season": 0,
+        "defenseSkill": [
+            1070304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1070301,
+                "num": 3
+            },
+            {
+                "id": 1070302,
+                "num": 2
+            },
+            {
+                "id": 1070303,
+                "num": 1
+            }
+        ],
+        "name": "R Corp. 4th Pack Rabbit"
+    },
+    "10704": {
+        "date": 20230323,
+        "tags": [
+            "N Corp.",
+            "N Corp. Fanatic"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 7,
+        "season": 1,
+        "defenseSkill": [
+            1070404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1070401,
+                "num": 3
+            },
+            {
+                "id": 1070402,
+                "num": 2
+            },
+            {
+                "id": 1070403,
+                "num": 1
+            }
+        ],
+        "name": "N Corp. Kleinhammer"
+    },
+    "10705": {
+        "date": 20230608,
+        "tags": [
+            "E.G.O Gear",
+            "Technology Liberation Alliance"
+        ],
+        "skillKeywordList": [
+            "Sinking",
+            "Rupture"
+        ],
+        "sinnerId": 7,
+        "season": 2,
+        "defenseSkill": [
+            1070504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1070501,
+                "num": 3
+            },
+            {
+                "id": 1070502,
+                "num": 2
+            },
+            {
+                "id": 1070503,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O:: Sunshower"
+    },
+    "10706": {
+        "date": 20230907,
+        "tags": [
+            "Fixer",
+            "Seven Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 7,
+        "season": 0,
+        "defenseSkill": [
+            1070604
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.7
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1070601,
+                "num": 3
+            },
+            {
+                "id": 1070602,
+                "num": 2
+            },
+            {
+                "id": 1070603,
+                "num": 1
+            }
+        ],
+        "name": "Seven Assoc. South Section 4"
+    },
+    "10707": {
+        "date": 20231207,
+        "tags": [
+            "The Pequod"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Bleed"
+        ],
+        "sinnerId": 7,
+        "season": 3,
+        "defenseSkill": [
+            1070704
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 99,
+            "level": 3.41
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            80
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1070701,
+                "num": 3
+            },
+            {
+                "id": 1070702,
+                "num": 2
+            },
+            {
+                "id": 1070703,
+                "num": 1
+            }
+        ],
+        "name": "The Pequod Harpooneer"
+    },
+    "10708": {
+        "date": 20240321,
+        "tags": [
+            "Fixer",
+            "\u00d6ufi Association"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 7,
+        "season": 0,
+        "defenseSkill": [
+            1070804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1070801,
+                "num": 3
+            },
+            {
+                "id": 1070802,
+                "num": 2
+            },
+            {
+                "id": 1070803,
+                "num": 1
+            }
+        ],
+        "name": "\u00d6ufi Assoc. South Section 3"
+    },
+    "10709": {
+        "date": 20240808,
+        "tags": [
+            "Fixer",
+            "Mechanical Amalgam",
+            "MultiCrack Office"
+        ],
+        "skillKeywordList": [
+            "Charge"
+        ],
+        "sinnerId": 7,
+        "season": 4,
+        "defenseSkill": [
+            1070904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 71,
+            "level": 2.55
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1070901,
+                "num": 3
+            },
+            {
+                "id": 1070902,
+                "num": 2
+            },
+            {
+                "id": 1070903,
+                "num": 1
+            }
+        ],
+        "name": "MultiCrack Office Fixer"
+    },
+    "10710": {
+        "date": 20240822,
+        "tags": [
+            "The Wild Hunt",
+            "The Wild Hunt",
+            "Wuthering Heights"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 7,
+        "season": 4,
+        "defenseSkill": [
+            1071004,
+            1071006
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1071001,
+                "num": 3
+            },
+            {
+                "id": 1071002,
+                "num": 2
+            },
+            {
+                "id": 1071003,
+                "num": 1
+            },
+            {
+                "id": 1071005,
+                "num": 0
+            }
+        ],
+        "name": "Wild Hunt"
+    },
+    "10711": {
+        "date": 20250109,
+        "tags": [
+            "Fixer",
+            "Full-Stop Office"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 7,
+        "season": 9105,
+        "defenseSkill": [
+            1071104,
+            1071106
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.3
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1071101,
+                "num": 3
+            },
+            {
+                "id": 1071102,
+                "num": 2
+            },
+            {
+                "id": 1071103,
+                "num": 1
+            },
+            {
+                "id": 1071105,
+                "num": 0
+            }
+        ],
+        "name": "Full-Stop Office Fixer"
+    },
+    "10712": {
+        "date": 20250206,
+        "tags": [
+            "Syndicate",
+            "Kurokumo Clan"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 7,
+        "season": 5,
+        "defenseSkill": [
+            1071204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 3.19
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1071201,
+                "num": 3
+            },
+            {
+                "id": 1071202,
+                "num": 2
+            },
+            {
+                "id": 1071203,
+                "num": 1
+            },
+            {
+                "id": 1071205,
+                "num": 0
+            }
+        ],
+        "name": "Kurokumo Clan Wakashu"
+    },
+    "10801": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 8,
+        "season": 0,
+        "defenseSkill": [
+            1080104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 78,
+            "level": 2.69
+        },
+        "speedList": [
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                5,
+                8
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1080101,
+                "num": 3
+            },
+            {
+                "id": 1080102,
+                "num": 2
+            },
+            {
+                "id": 1080103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10802": {
+        "date": 20230227,
+        "tags": [
+            "R Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Sinking"
+        ],
+        "sinnerId": 8,
+        "season": 0,
+        "defenseSkill": [
+            1080204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.69
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1080201,
+                "num": 3
+            },
+            {
+                "id": 1080202,
+                "num": 2
+            },
+            {
+                "id": 1080203,
+                "num": 1
+            }
+        ],
+        "name": "R Corp. 4th Pack Reindeer"
+    },
+    "10803": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Shi Association"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 8,
+        "season": 0,
+        "defenseSkill": [
+            1080304
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            80,
+            60
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1080301,
+                "num": 3
+            },
+            {
+                "id": 1080302,
+                "num": 2
+            },
+            {
+                "id": 1080303,
+                "num": 1
+            }
+        ],
+        "name": "Shi Assoc. South Section 5"
+    },
+    "10804": {
+        "date": 20230227,
+        "tags": [
+            "Limbus Company",
+            "LCC"
+        ],
+        "skillKeywordList": [
+            "Tremor",
+            "Rupture"
+        ],
+        "sinnerId": 8,
+        "season": 1,
+        "defenseSkill": [
+            1080404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                6
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1080401,
+                "num": 3
+            },
+            {
+                "id": 1080402,
+                "num": 2
+            },
+            {
+                "id": 1080403,
+                "num": 1
+            }
+        ],
+        "name": "LCCB Assistant Manager"
+    },
+    "10805": {
+        "date": 20230615,
+        "tags": [
+            "E.G.O Gear",
+            "Technology Liberation Alliance"
+        ],
+        "skillKeywordList": [
+            "Tremor",
+            "Rupture"
+        ],
+        "sinnerId": 8,
+        "season": 2,
+        "defenseSkill": [
+            1080504
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 90,
+            "level": 3.1
+        },
+        "speedList": [
+            [
+                1,
+                6
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                2,
+                7
+            ]
+        ],
+        "breakSection": [
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1080501,
+                "num": 3
+            },
+            {
+                "id": 1080502,
+                "num": 2
+            },
+            {
+                "id": 1080503,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O::Sloshing"
+    },
+    "10806": {
+        "date": 20230706,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 8,
+        "season": 0,
+        "defenseSkill": [
+            1080604
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1080601,
+                "num": 3
+            },
+            {
+                "id": 1080602,
+                "num": 2
+            },
+            {
+                "id": 1080603,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 4"
+    },
+    "10807": {
+        "date": 20230727,
+        "tags": [
+            "Fixer",
+            "Molar Office"
+        ],
+        "skillKeywordList": [
+            "Sinking",
+            "Tremor"
+        ],
+        "sinnerId": 8,
+        "season": 2,
+        "defenseSkill": [
+            1080704
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1080701,
+                "num": 3
+            },
+            {
+                "id": 1080702,
+                "num": 2
+            },
+            {
+                "id": 1080703,
+                "num": 1
+            }
+        ],
+        "name": "Molar Boatworks Fixer"
+    },
+    "10808": {
+        "date": 20240208,
+        "tags": [
+            "Pequod Captain",
+            "The Pequod"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Burn",
+            "Poise"
+        ],
+        "sinnerId": 8,
+        "season": 3,
+        "defenseSkill": [
+            1080804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 68,
+            "level": 2.3
+        },
+        "speedList": [
+            [
+                4,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1080801,
+                "num": 3
+            },
+            {
+                "id": 1080802,
+                "num": 2
+            },
+            {
+                "id": 1080803,
+                "num": 1
+            }
+        ],
+        "name": "The Pequod Captain"
+    },
+    "10809": {
+        "date": 20240418,
+        "tags": [
+            "Fixer",
+            "Butler",
+            "Edgar Family"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Sinking"
+        ],
+        "sinnerId": 8,
+        "season": 4,
+        "defenseSkill": [
+            1080904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1080901,
+                "num": 3
+            },
+            {
+                "id": 1080902,
+                "num": 2
+            },
+            {
+                "id": 1080903,
+                "num": 1
+            }
+        ],
+        "name": "Edgar Family Butler"
+    },
+    "10810": {
+        "date": 20241003,
+        "tags": [
+            "Fixer",
+            "Zwei Association"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 8,
+        "season": 0,
+        "defenseSkill": [
+            1081004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 93,
+            "level": 3.21
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            55
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1081001,
+                "num": 3
+            },
+            {
+                "id": 1081002,
+                "num": 2
+            },
+            {
+                "id": 1081003,
+                "num": 1
+            }
+        ],
+        "name": "Zwei Assoc. West Section 3"
+    },
+    "10811": {
+        "date": 20250206,
+        "tags": [
+            "Syndicate",
+            "Kurokumo Clan"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 8,
+        "season": 5,
+        "defenseSkill": [
+            1081104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 93,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1081101,
+                "num": 3
+            },
+            {
+                "id": 1081102,
+                "num": 2
+            },
+            {
+                "id": 1081103,
+                "num": 1
+            }
+        ],
+        "name": "Kurokumo Clan Captain"
+    },
+    "10812": {
+        "date": 20250605,
+        "tags": [
+            "Family Hierarch Candidate",
+            "Jia Family",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Poise"
+        ],
+        "sinnerId": 8,
+        "season": 6,
+        "defenseSkill": [
+            1081204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1081201,
+                "num": 3
+            },
+            {
+                "id": 1081202,
+                "num": 2
+            },
+            {
+                "id": 1081203,
+                "num": 1
+            },
+            {
+                "id": 1081205,
+                "num": 0
+            }
+        ],
+        "name": "Family Hierarch Candidate"
+    },
+    "10901": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1090104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 78,
+            "level": 2.69
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1090101,
+                "num": 3
+            },
+            {
+                "id": 1090102,
+                "num": 2
+            },
+            {
+                "id": 1090103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "10902": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "Kurokumo Clan"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Poise"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1090204,
+            1090205
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1090201,
+                "num": 3
+            },
+            {
+                "id": 1090202,
+                "num": 2
+            },
+            {
+                "id": 1090203,
+                "num": 1
+            }
+        ],
+        "name": "Kurokumo Clan Wakashu"
+    },
+    "10903": {
+        "date": 20230227,
+        "tags": [
+            "Limbus Company",
+            "LCC"
+        ],
+        "skillKeywordList": [],
+        "sinnerId": 9,
+        "season": 1,
+        "defenseSkill": [
+            1090304
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 63,
+            "level": 2.17
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1090301,
+                "num": 3
+            },
+            {
+                "id": 1090302,
+                "num": 2
+            },
+            {
+                "id": 1090303,
+                "num": 1
+            }
+        ],
+        "name": "LCCB Assistant Manager"
+    },
+    "10904": {
+        "date": 20230309,
+        "tags": [
+            "N Corp.",
+            "N Corp. Fanatic"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 9,
+        "season": 1,
+        "defenseSkill": [
+            1090404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1090401,
+                "num": 3
+            },
+            {
+                "id": 1090402,
+                "num": 2
+            },
+            {
+                "id": 1090403,
+                "num": 1
+            }
+        ],
+        "name": "N Corp. Mittelhammer"
+    },
+    "10905": {
+        "date": 20230601,
+        "tags": [
+            "Fixer",
+            "Rosespanner Workshop"
+        ],
+        "skillKeywordList": [
+            "Tremor",
+            "Charge"
+        ],
+        "sinnerId": 9,
+        "season": 2,
+        "defenseSkill": [
+            1090504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1090501,
+                "num": 3
+            },
+            {
+                "id": 1090502,
+                "num": 2
+            },
+            {
+                "id": 1090503,
+                "num": 1
+            }
+        ],
+        "name": "Rosespanner Workshop Rep"
+    },
+    "10906": {
+        "date": 20230713,
+        "tags": [
+            "Fixer",
+            "Zwei Association"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1090604
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 88,
+            "level": 3.05
+        },
+        "speedList": [
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1090601,
+                "num": 3
+            },
+            {
+                "id": 1090602,
+                "num": 2
+            },
+            {
+                "id": 1090603,
+                "num": 1
+            }
+        ],
+        "name": "Zwei Assoc. South Section 5"
+    },
+    "10907": {
+        "date": 20230921,
+        "tags": [
+            "Fixer",
+            "Dieci Association"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1090704
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 88,
+            "level": 3.1
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1090701,
+                "num": 3
+            },
+            {
+                "id": 1090702,
+                "num": 2
+            },
+            {
+                "id": 1090703,
+                "num": 1
+            }
+        ],
+        "name": "Dieci Assoc. South Section 4"
+    },
+    "10908": {
+        "date": 20240307,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1090804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.74
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1090801,
+                "num": 3
+            },
+            {
+                "id": 1090802,
+                "num": 2
+            },
+            {
+                "id": 1090803,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 4 Director"
+    },
+    "10909": {
+        "date": 20240627,
+        "tags": [
+            "T Corp."
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1090904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1090901,
+                "num": 3
+            },
+            {
+                "id": 1090902,
+                "num": 2
+            },
+            {
+                "id": 1090903,
+                "num": 1
+            }
+        ],
+        "name": "T Corp. Class 2 Collection Staff"
+    },
+    "10910": {
+        "date": 20240919,
+        "tags": [
+            "Fixer",
+            "Devyat' Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "defenseSkill": [
+            1091004,
+            1091005
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 81,
+            "level": 2.88
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1091001,
+                "num": 3
+            },
+            {
+                "id": 1091002,
+                "num": 2
+            },
+            {
+                "id": 1091003,
+                "num": 1
+            }
+        ],
+        "name": "Devyat' Assoc. North Section 3"
+    },
+    "10911": {
+        "date": 20241114,
+        "tags": [
+            "Bloodfiend",
+            "Second Kindred",
+            "La Manchaland"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Rupture"
+        ],
+        "sinnerId": 9,
+        "season": 5,
+        "defenseSkill": [
+            1091104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1091101,
+                "num": 3
+            },
+            {
+                "id": 1091102,
+                "num": 2
+            },
+            {
+                "id": 1091103,
+                "num": 1
+            },
+            {
+                "id": 1091105,
+                "num": 0
+            }
+        ],
+        "name": "The Princess of La Manchaland"
+    },
+    "10913": {
+        "date": 20250717,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Sinking"
+        ],
+        "sinnerId": 9,
+        "season": 9106,
+        "defenseSkill": [
+            1091304,
+            1091308
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 90,
+            "level": 3.14
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1091301,
+                "num": 3
+            },
+            {
+                "id": 1091302,
+                "num": 2
+            },
+            {
+                "id": 1091303,
+                "num": 1
+            },
+            {
+                "id": 1091305,
+                "num": 0
+            },
+            {
+                "id": 1091306,
+                "num": 0
+            },
+            {
+                "id": 1091307,
+                "num": 0
+            }
+        ],
+        "name": "Lobotomy E.G.O:: The Sword Sharpened with Tears"
+    },
+    "11001": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 10,
+        "season": 0,
+        "defenseSkill": [
+            1100104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 60,
+            "level": 2.07
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1100101,
+                "num": 3
+            },
+            {
+                "id": 1100102,
+                "num": 2
+            },
+            {
+                "id": 1100103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "11002": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "Blade Lineage"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Bleed"
+        ],
+        "sinnerId": 10,
+        "season": 0,
+        "defenseSkill": [
+            1100204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            60,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1100201,
+                "num": 3
+            },
+            {
+                "id": 1100202,
+                "num": 2
+            },
+            {
+                "id": 1100203,
+                "num": 1
+            }
+        ],
+        "name": "Blade Lineage Salsu"
+    },
+    "11003": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Zwei Association"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 10,
+        "season": 0,
+        "defenseSkill": [
+            1100304
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 88,
+            "level": 3.05
+        },
+        "speedList": [
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "breakSection": [
+            55,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1100301,
+                "num": 3
+            },
+            {
+                "id": 1100302,
+                "num": 2
+            },
+            {
+                "id": 1100303,
+                "num": 1
+            }
+        ],
+        "name": "Zwei Assoc. South Section 6"
+    },
+    "11004": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "The Backstreets",
+            "Los Mariachis"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Sinking"
+        ],
+        "sinnerId": 10,
+        "season": 1,
+        "defenseSkill": [
+            1100404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 95,
+            "level": 3.26
+        },
+        "speedList": [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1100401,
+                "num": 3
+            },
+            {
+                "id": 1100402,
+                "num": 2
+            },
+            {
+                "id": 1100403,
+                "num": 1
+            }
+        ],
+        "name": "Los Mariachis Jefe"
+    },
+    "11005": {
+        "date": 20230504,
+        "tags": [
+            "N Corp.",
+            "N Corp. Fanatic"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Burn"
+        ],
+        "sinnerId": 10,
+        "season": 1,
+        "defenseSkill": [
+            1100504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1100501,
+                "num": 3
+            },
+            {
+                "id": 1100502,
+                "num": 2
+            },
+            {
+                "id": 1100503,
+                "num": 1
+            }
+        ],
+        "name": "The One Who Shall Grip"
+    },
+    "11006": {
+        "date": 20230629,
+        "tags": [
+            "E.G.O Gear",
+            "Technology Liberation Alliance"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 10,
+        "season": 2,
+        "defenseSkill": [
+            1100604
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.7
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1100601,
+                "num": 3
+            },
+            {
+                "id": 1100602,
+                "num": 2
+            },
+            {
+                "id": 1100603,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O::Red Sheet"
+    },
+    "11007": {
+        "date": 20230727,
+        "tags": [
+            "Fixer",
+            "Molar Office"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 10,
+        "season": 2,
+        "defenseSkill": [
+            1100704
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1100701,
+                "num": 3
+            },
+            {
+                "id": 1100702,
+                "num": 2
+            },
+            {
+                "id": 1100703,
+                "num": 1
+            }
+        ],
+        "name": "Molar Boatworks Fixer"
+    },
+    "11008": {
+        "date": 20231221,
+        "tags": [
+            "Fixer",
+            "Cinq Association"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 10,
+        "season": 0,
+        "defenseSkill": [
+            1100804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.73
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1100801,
+                "num": 3
+            },
+            {
+                "id": 1100802,
+                "num": 2
+            },
+            {
+                "id": 1100803,
+                "num": 1
+            }
+        ],
+        "name": "Cinq Assoc. South Section 4 Director"
+    },
+    "11009": {
+        "date": 20240502,
+        "tags": [
+            "Fixer",
+            "Dawn Office"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 10,
+        "season": 9103,
+        "defenseSkill": [
+            1100904
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1100901,
+                "num": 3
+            },
+            {
+                "id": 1100902,
+                "num": 2
+            },
+            {
+                "id": 1100903,
+                "num": 1
+            },
+            {
+                "id": 1100905,
+                "num": 0
+            }
+        ],
+        "name": "Dawn Office Fixer"
+    },
+    "11010": {
+        "date": 20241010,
+        "tags": [
+            "Fixer",
+            "Zwei Association"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 10,
+        "season": 5,
+        "defenseSkill": [
+            1101004
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            60
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1101001,
+                "num": 3
+            },
+            {
+                "id": 1101002,
+                "num": 2
+            },
+            {
+                "id": 1101003,
+                "num": 1
+            }
+        ],
+        "name": "Zwei Assoc. West Section 3"
+    },
+    "11011": {
+        "date": 20241128,
+        "tags": [
+            "Fixer",
+            "Devyat' Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 10,
+        "season": 0,
+        "defenseSkill": [
+            1101104,
+            1101105
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1101101,
+                "num": 3
+            },
+            {
+                "id": 1101102,
+                "num": 2
+            },
+            {
+                "id": 1101103,
+                "num": 1
+            }
+        ],
+        "name": "Devyat' Assoc. North Section 3"
+    },
+    "11012": {
+        "date": 20250403,
+        "tags": [
+            "Syndicate",
+            "The Middle"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 10,
+        "season": 0,
+        "defenseSkill": [
+            1101204,
+            1101205,
+            1101206
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 92,
+            "level": 3.05
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1101201,
+                "num": 3
+            },
+            {
+                "id": 1101202,
+                "num": 2
+            },
+            {
+                "id": 1101203,
+                "num": 1
+            }
+        ],
+        "name": "The Middle Little Brother"
+    },
+    "11013": {
+        "date": 20250619,
+        "tags": [
+            "Syndicate",
+            "Soldato II",
+            "The Thumb"
+        ],
+        "skillKeywordList": [
+            "Burn",
+            "Tremor"
+        ],
+        "sinnerId": 10,
+        "season": 6,
+        "defenseSkill": [
+            1101304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 79,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1101301,
+                "num": 3
+            },
+            {
+                "id": 1101302,
+                "num": 2
+            },
+            {
+                "id": 1101303,
+                "num": 1
+            }
+        ],
+        "name": "The Thumb East Soldato II"
+    },
+    "11014": {
+        "date": 20250828,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack - You Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Burn"
+        ],
+        "sinnerId": 10,
+        "season": 6,
+        "defenseSkill": [
+            1101404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 75,
+            "level": 2.5
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1101401,
+                "num": 3
+            },
+            {
+                "id": 1101402,
+                "num": 2
+            },
+            {
+                "id": 1101403,
+                "num": 1
+            }
+        ],
+        "name": "Heishou Pack - You Branch"
+    },
+    "11101": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 11,
+        "season": 0,
+        "defenseSkill": [
+            1110104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 60,
+            "level": 2.07
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1110101,
+                "num": 3
+            },
+            {
+                "id": 1110102,
+                "num": 2
+            },
+            {
+                "id": 1110103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "11102": {
+        "date": 20230227,
+        "tags": [
+            "Syndicate",
+            "Blade Lineage"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 11,
+        "season": 0,
+        "defenseSkill": [
+            1110204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1110201,
+                "num": 3
+            },
+            {
+                "id": 1110202,
+                "num": 2
+            },
+            {
+                "id": 1110203,
+                "num": 1
+            }
+        ],
+        "name": "Blade Lineage Salsu"
+    },
+    "11103": {
+        "date": 20230227,
+        "tags": [
+            "G Corp."
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 11,
+        "season": 1,
+        "defenseSkill": [
+            1110304
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1110301,
+                "num": 3
+            },
+            {
+                "id": 1110302,
+                "num": 2
+            },
+            {
+                "id": 1110303,
+                "num": 1
+            }
+        ],
+        "name": "G Corp. Head Manager"
+    },
+    "11104": {
+        "date": 20230406,
+        "tags": [
+            "Fixer",
+            "Seven Association"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 11,
+        "season": 0,
+        "defenseSkill": [
+            1110404
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 86,
+            "level": 2.96
+        },
+        "speedList": [
+            [
+                5,
+                6
+            ],
+            [
+                5,
+                7
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                5,
+                8
+            ]
+        ],
+        "breakSection": [
+            60
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1110401,
+                "num": 3
+            },
+            {
+                "id": 1110402,
+                "num": 2
+            },
+            {
+                "id": 1110403,
+                "num": 1
+            }
+        ],
+        "name": "Seven Assoc. South Section 6 Director"
+    },
+    "11105": {
+        "date": 20231004,
+        "tags": [
+            "Fixer",
+            "Molar Office"
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 11,
+        "season": 2,
+        "defenseSkill": [
+            1110504
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 68,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1110501,
+                "num": 3
+            },
+            {
+                "id": 1110502,
+                "num": 2
+            },
+            {
+                "id": 1110503,
+                "num": 1
+            }
+        ],
+        "name": "Molar Office Fixer"
+    },
+    "11106": {
+        "date": 20231221,
+        "tags": [
+            "Fixer",
+            "Cinq Association"
+        ],
+        "skillKeywordList": [
+            "Poise"
+        ],
+        "sinnerId": 11,
+        "season": 0,
+        "defenseSkill": [
+            1110604
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 0.5,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1110601,
+                "num": 3
+            },
+            {
+                "id": 1110602,
+                "num": 2
+            },
+            {
+                "id": 1110603,
+                "num": 1
+            }
+        ],
+        "name": "Cinq Assoc. South Section 4"
+    },
+    "11107": {
+        "date": 20240111,
+        "tags": [
+            "Lobotomy Corp. Headquarters",
+            "E.G.O Gear",
+            "L Corp."
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 11,
+        "season": 9102,
+        "defenseSkill": [
+            1110704
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1110701,
+                "num": 3
+            },
+            {
+                "id": 1110702,
+                "num": 2
+            },
+            {
+                "id": 1110703,
+                "num": 1
+            }
+        ],
+        "name": "Lobotomy E.G.O::Magic Bullet"
+    },
+    "11108": {
+        "date": 20240328,
+        "tags": [
+            "Fixer",
+            "Butler",
+            "Wuthering Heights"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 11,
+        "season": 4,
+        "defenseSkill": [
+            1110804
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1110801,
+                "num": 3
+            },
+            {
+                "id": 1110802,
+                "num": 2
+            },
+            {
+                "id": 1110803,
+                "num": 1
+            }
+        ],
+        "name": "Wuthering Heights Chief Butler"
+    },
+    "11109": {
+        "date": 20240516,
+        "tags": [
+            "Syndicate",
+            "The Ring"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 11,
+        "season": 0,
+        "defenseSkill": [
+            1110904
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.26
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1110901,
+                "num": 3
+            },
+            {
+                "id": 1110902,
+                "num": 2
+            },
+            {
+                "id": 1110903,
+                "num": 1
+            }
+        ],
+        "name": "The Ring Pointillist Student"
+    },
+    "11110": {
+        "date": 20240725,
+        "tags": [
+            "W Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Rupture"
+        ],
+        "sinnerId": 11,
+        "season": 0,
+        "defenseSkill": [
+            1111004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 70,
+            "level": 2.32
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1111001,
+                "num": 3
+            },
+            {
+                "id": 1111002,
+                "num": 2
+            },
+            {
+                "id": 1111003,
+                "num": 1
+            }
+        ],
+        "name": "W Corp. L3 Cleanup Captain"
+    },
+    "11111": {
+        "date": 20241017,
+        "tags": [
+            "Bloodfiend",
+            "Third Kindred",
+            "La Manchaland"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 11,
+        "season": 5,
+        "defenseSkill": [
+            1111104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.23
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1111101,
+                "num": 3
+            },
+            {
+                "id": 1111102,
+                "num": 2
+            },
+            {
+                "id": 1111103,
+                "num": 1
+            }
+        ],
+        "name": "The Barber of La Manchaland"
+    },
+    "11112": {
+        "date": 20250320,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack - Mao Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 11,
+        "season": 5,
+        "defenseSkill": [
+            1111204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.34
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1111201,
+                "num": 3
+            },
+            {
+                "id": 1111202,
+                "num": 2
+            },
+            {
+                "id": 1111203,
+                "num": 1
+            }
+        ],
+        "name": "Heishou Pack - Mao Branch"
+    },
+    "11113": {
+        "date": 20250731,
+        "tags": [
+            "T Corp."
+        ],
+        "skillKeywordList": [
+            "Tremor"
+        ],
+        "sinnerId": 11,
+        "season": 6,
+        "defenseSkill": [
+            1111304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 73,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1111301,
+                "num": 3
+            },
+            {
+                "id": 1111302,
+                "num": 2
+            },
+            {
+                "id": 1111303,
+                "num": 1
+            }
+        ],
+        "name": "T Corp. Class 3 VDCU Staff"
+    },
+    "11201": {
+        "date": 20230227,
+        "tags": [
+            "Base Identity",
+            "Limbus Company",
+            "LCB"
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 12,
+        "season": 0,
+        "defenseSkill": [
+            1120104
+        ],
+        "rank": 1,
+        "hp": {
+            "base": 72,
+            "level": 2.48
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1120101,
+                "num": 3
+            },
+            {
+                "id": 1120102,
+                "num": 2
+            },
+            {
+                "id": 1120103,
+                "num": 1
+            }
+        ],
+        "name": "LCB Sinner"
+    },
+    "11202": {
+        "date": 20230227,
+        "tags": [
+            "Fixer",
+            "Liu Association"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 12,
+        "season": 0,
+        "defenseSkill": [
+            1120204
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 63,
+            "level": 2.17
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1120201,
+                "num": 3
+            },
+            {
+                "id": 1120202,
+                "num": 2
+            },
+            {
+                "id": 1120203,
+                "num": 1
+            }
+        ],
+        "name": "Liu Assoc. South Section 6"
+    },
+    "11203": {
+        "date": 20230227,
+        "tags": [
+            "G Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 12,
+        "season": 1,
+        "defenseSkill": [
+            1120304
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1120301,
+                "num": 3
+            },
+            {
+                "id": 1120302,
+                "num": 2
+            },
+            {
+                "id": 1120303,
+                "num": 1
+            }
+        ],
+        "name": "G Corp. Manager Corporal"
+    },
+    "11204": {
+        "date": 20230420,
+        "tags": [
+            "Syndicate",
+            "The Backstreets",
+            "R.B."
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 12,
+        "season": 1,
+        "defenseSkill": [
+            1120404
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.7
+        },
+        "speedList": [
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            30
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1120401,
+                "num": 3
+            },
+            {
+                "id": 1120402,
+                "num": 2
+            },
+            {
+                "id": 1120403,
+                "num": 1
+            }
+        ],
+        "name": "R.B. Sous-chef"
+    },
+    "11205": {
+        "date": 20230608,
+        "tags": [
+            "Fixer",
+            "Rosespanner Workshop"
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Tremor",
+            "Rupture"
+        ],
+        "sinnerId": 12,
+        "season": 2,
+        "defenseSkill": [
+            1120504
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1120501,
+                "num": 3
+            },
+            {
+                "id": 1120502,
+                "num": 2
+            },
+            {
+                "id": 1120503,
+                "num": 1
+            }
+        ],
+        "name": "Rosespanner Workshop Fixer"
+    },
+    "11206": {
+        "date": 20230810,
+        "tags": [
+            "Fixer",
+            "Zwei Association"
+        ],
+        "skillKeywordList": [],
+        "sinnerId": 12,
+        "season": 0,
+        "defenseSkill": [
+            1120604
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 90,
+            "level": 3
+        },
+        "speedList": [
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                8
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 2,
+            "pierce": 1,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1120601,
+                "num": 3
+            },
+            {
+                "id": 1120602,
+                "num": 2
+            },
+            {
+                "id": 1120603,
+                "num": 1
+            }
+        ],
+        "name": "Zwei Assoc. South Section 4"
+    },
+    "11207": {
+        "date": 20231116,
+        "tags": [
+            "Syndicate",
+            "Twinhook Pirates"
+        ],
+        "skillKeywordList": [
+            "Poise",
+            "Bleed"
+        ],
+        "sinnerId": 12,
+        "season": 3,
+        "defenseSkill": [
+            1120704
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1120701,
+                "num": 3
+            },
+            {
+                "id": 1120702,
+                "num": 2
+            },
+            {
+                "id": 1120703,
+                "num": 1
+            }
+        ],
+        "name": "Twinhook Pirates First Mate"
+    },
+    "11208": {
+        "date": 20240222,
+        "tags": [
+            "Syndicate",
+            "Kurokumo Clan"
+        ],
+        "skillKeywordList": [
+            "Bleed"
+        ],
+        "sinnerId": 12,
+        "season": 3,
+        "defenseSkill": [
+            1120804
+        ],
+        "rank": 2,
+        "hp": {
+            "base": 76,
+            "level": 2.6
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            65,
+            35,
+            15
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1120801,
+                "num": 3
+            },
+            {
+                "id": 1120802,
+                "num": 2
+            },
+            {
+                "id": 1120803,
+                "num": 1
+            }
+        ],
+        "name": "Kurokumo Clan Captain"
+    },
+    "11209": {
+        "date": 20240404,
+        "tags": [
+            "Edgar Family"
+        ],
+        "skillKeywordList": [
+            "Sinking"
+        ],
+        "sinnerId": 12,
+        "season": 4,
+        "defenseSkill": [
+            1120904
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 66,
+            "level": 2.28
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                8
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1120901,
+                "num": 3
+            },
+            {
+                "id": 1120902,
+                "num": 2
+            },
+            {
+                "id": 1120903,
+                "num": 1
+            }
+        ],
+        "name": "Edgar Family Heir"
+    },
+    "11210": {
+        "date": 20241031,
+        "tags": [
+            "Bloodfiend",
+            "Third Kindred",
+            "La Manchaland"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Rupture"
+        ],
+        "sinnerId": 12,
+        "season": 5,
+        "defenseSkill": [
+            1121004
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 108,
+            "level": 3.41
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            80
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "skills": [
+            {
+                "id": 1121001,
+                "num": 3
+            },
+            {
+                "id": 1121002,
+                "num": 2
+            },
+            {
+                "id": 1121003,
+                "num": 1
+            }
+        ],
+        "name": "The Priest of La Manchaland"
+    },
+    "11211": {
+        "date": 20250306,
+        "tags": [
+            "Fixer",
+            "Firefist Office"
+        ],
+        "skillKeywordList": [
+            "Burn"
+        ],
+        "sinnerId": 12,
+        "season": 5,
+        "defenseSkill": [
+            1121104
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.95
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                4,
+                6
+            ],
+            [
+                4,
+                6
+            ]
+        ],
+        "breakSection": [
+            70,
+            0
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "skills": [
+            {
+                "id": 1121101,
+                "num": 3
+            },
+            {
+                "id": 1121102,
+                "num": 2
+            },
+            {
+                "id": 1121103,
+                "num": 1
+            }
+        ],
+        "name": "Firefist Office Survivor"
+    },
+    "11212": {
+        "date": 20250515,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack - Si Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Poise"
+        ],
+        "sinnerId": 12,
+        "season": 6,
+        "defenseSkill": [
+            1121204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1121201,
+                "num": 3
+            },
+            {
+                "id": 1121202,
+                "num": 2
+            },
+            {
+                "id": 1121203,
+                "num": 1
+            }
+        ],
+        "name": "Heishou Pack - Si Branch"
+    },
+    "10912": {
+        "date": 20250515,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack - Si Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Poise"
+        ],
+        "sinnerId": 9,
+        "season": 6,
+        "defenseSkill": [
+            1091204
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 69,
+            "level": 2.39
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            40,
+            20
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1091201,
+                "num": 3
+            },
+            {
+                "id": 1091202,
+                "num": 2
+            },
+            {
+                "id": 1091203,
+                "num": 1
+            }
+        ],
+        "name": "Heishou Pack - Si Branch"
+    },
+    "10212": {
+        "date": 20250522,
+        "tags": [
+            "Heishou Pack",
+            "Heishou Pack Adept",
+            "Heishou Pack - Mao Branch",
+            "H Corp."
+        ],
+        "skillKeywordList": [
+            "Rupture"
+        ],
+        "sinnerId": 2,
+        "season": 6,
+        "defenseSkill": [
+            1021204,
+            1021206,
+            1021207
+        ],
+        "rank": 3,
+        "hp": {
+            "base": 76,
+            "level": 3.19
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            50
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "skills": [
+            {
+                "id": 1021201,
+                "num": 3
+            },
+            {
+                "id": 1021202,
+                "num": 2
+            },
+            {
+                "id": 1021203,
+                "num": 1
+            },
+            {
+                "id": 1021205,
+                "num": 0
+            }
+        ],
+        "name": "Heishou Pack - Mao Branch Adept"
+    }
+}
