@@ -1,0 +1,262 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "40S-2 Activation",
+                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +2 [[Charge]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "40S-2 Activation",
+                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Gain +2 [[Charge]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +2 [[Charge]] Count<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "40S-2 Activation",
+                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [[Charge]] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +2 [[Charge]] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070901
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Photoelectric Mark",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict [[PhotoElectricity]] equal to [[Charge]] (max 2)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Photoelectric Mark",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] If this unit consumed [[Charge]] Count, inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [TakeHpHealReduce]",
+                            "[OnSucceedAttack] Inflict [[PhotoElectricity]] equal to [[Charge]] (max <style=\"highlight\">3)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Photoelectric Mark",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power <style=\"highlight\">+2",
+                    "coinDescs": [
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] If this unit consumed [[Charge]] Count, inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If this unit consumed [[Charge]] Count, inflict 2 [DefenseDown]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [TakeHpHealReduce]",
+                            "[OnSucceedAttack] Inflict [[PhotoElectricity]] equal to [[Charge]] (max 3)<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070902
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Photoelectric Harpoon",
+                    "desc": "At 2+ [[Charge]], Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +5 [[Charge]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] x 3) [[Charge]] Count (max 9)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [[PhotoElectricity]] equal to [[Charge]] (max 3)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Photoelectric Harpoon",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 2 [[Charge]] on self (max 2)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +<style=\"highlight\">7 [[Charge]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] x 3) [[Charge]] Count (max 9)<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [[PhotoElectricity]] equal to [[Charge]] (max 3)<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [HitTakeDamageUp] for every 2 [[Charge]] (max 2)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070903
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070901
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1070911
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070921
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070921": {
+            "name": "Charging Module Installation",
+            "desc": "#1 Deployed ally: Max [Charge] Count +5\n(When conditions are met, this effect will remain activated until the start of the next turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 7
+                    }
+                ]
+            }
+        },
+        "1070901": {
+            "name": "Charge Model L37",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n\nTurn End: At 2+ [Charge], gain 1 [Agility] next turn",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1070911": {
+            "name": "Charge Model L37",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nTurn End: At 2+ [Charge], gain 1 [Agility] next turn\n<style=\"highlight\">Turn End: At 3+ [Charge], gain 1 additional [Agility] and 1 [ParryingResultUp] next turn</style>",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

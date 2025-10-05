@@ -1,0 +1,140 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "envy",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 2,
+                "baseValue": 20,
+                "coinValue": 6
+            },
+            {
+                "uptie": 3,
+                "baseValue": 22,
+                "coinValue": 6
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 6
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Telepole",
+                "abName": "Alleyway Watchdog",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Paralysis]",
+                        "[OnSucceedAttack] Gain +5 [Charge] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Telepole",
+                "abName": "Alleyway Watchdog",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Paralysis]",
+                        "[OnSucceedAttack] Gain +7 [Charge] Count",
+                        "[OnSucceedAttackHead] Apply 1 Envy Power Up and 1 Haste to 2 random allies next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Telepole",
+                "abName": "Alleyway Watchdog",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Paralysis]",
+                        "[EndSkill] Gain +7 [Charge] Count",
+                        "[EndSkillHead] Apply 1 Envy Power Up and 1 Haste to 2 random allies next turn, and this unit gains +3 [Charge] Count"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Adaptive Release",
+            "desc": "While this unit has [Charge], deal +2% damage per Charge Count.\nSkills spend -2 Charge Count."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "envy",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 2,
+                "baseValue": 22,
+                "coinValue": 10
+            },
+            {
+                "uptie": 3,
+                "baseValue": 24,
+                "coinValue": 10
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 10
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Telepole",
+                "abName": "Alleyway Watchdog",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 5 [Paralysis]",
+                        "[OnSucceedAttack] Gain +7 [Charge] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Telepole",
+                "abName": "Alleyway Watchdog",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 5 [Paralysis]",
+                        "[OnSucceedAttack] Gain +10 [Charge] Count",
+                        "[OnSucceedAttackTail] Inflict 2 [Paralysis] and 2 Bind on 2 random units next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Telepole",
+                "abName": "Alleyway Watchdog",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 5 [Paralysis]",
+                        "[EndSkill] Gain +10 [Charge] Count",
+                        "[EndSkillTail] Inflict 2 [Paralysis] and 2 Bind on 2 random units next turn, gain +3 [Charge] Count"
+                    ]
+                ]
+            }
+        ]
+    }
+}

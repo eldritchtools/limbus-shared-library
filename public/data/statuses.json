@@ -994,6 +994,230 @@
         "name": "HOW RIGHTEOUS!!",
         "desc": "- At every Turn End: gain 1 Haste, 3 Offense Level Up, and 3 Defense Level Down next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 1 Clash Power Up next turn (once per turn)"
     },
+    "GazeReplica": {
+        "buffType": "Negative",
+        "name": "Gaze",
+        "desc": "- Max Stack: 7\n- Take and deal +10% damage from and against Jia Huan\n- At 7 Stack, converts to Contempt"
+    },
+    "ContemptReplica": {
+        "buffType": "Negative",
+        "name": "Contempt",
+        "desc": "- Max Stack: 1\n- Take and deal -50% damage from and against Jia Huan\n- Targets with Contempt cannot gain Gaze\n- Expires at Turn End"
+    },
+    "GraspReplica": {
+        "buffType": "Negative",
+        "name": "Grasp",
+        "desc": "- Max Stack: 4\n- Turn End: gain 10 Bind next turn\n- Turn End: lose 1 Stack"
+    },
+    "EgoErodeReplica": {
+        "buffType": "Neutral",
+        "name": "E.G.O Corrosion - N Corp.",
+        "desc": "- Max Stack: 10\n- The following effects activate at every Turn Start:\n\u00b7 Lose SP by the effect's Stack\n\u00b7 Gain 1 Attack Power Up for every 3 Stack\n- At Max Stack, take 5% HP damage at Turn End"
+    },
+    "BoseProjektilReplica": {
+        "buffType": "Neutral",
+        "name": "Torn Memory",
+        "desc": "Max Stack: 7"
+    },
+    "GahwanEgoContempt": {
+        "buffType": "Neutral",
+        "name": "Volatile E.G.O Attunement - Contempt",
+        "desc": "- E.G.O Gear extracted by N Corp. While the user meets the aptitude requirements, the lack of experience may cause issues.\n- Max Stack: 5\n- Offense Level, Defense Level -7\n- On Clash Win, gain 1 Stack\n- Lose 1 Offense Level and gain 1 Defense Level for every Stack\n- At Max Stack: next turn, gain 2 Protection and reset the Stack to 0"
+    },
+    "GuboEgoShooter": {
+        "buffType": "Neutral",
+        "name": "Volatile E.G.O Attunement - Fell Bullet",
+        "desc": "- E.G.O Gear extracted by N Corp. While the user meets the aptitude requirements, the lack of experience may cause issues.\n- Max Stack: 5\n- Offense Level, Defense Level -2\n- On Clash Lose, gain 1 Stack\n- Gain 1 Offense Level and lose 1 Defense Level for every Stack\n- At Max Stack: next turn, gain 2 Damage Up and reset the Stack to 0"
+    },
+    "Bothersome": {
+        "buffType": "Negative",
+        "name": "Severing Slash [\u5207\u65ac]",
+        "desc": "- The target's Slash Resistance counts as 'Weak'(1.5). (does not activate against targets with 1.5 or higher Slash Resistance)\n- Expires at Turn End"
+    },
+    "VibrationIgnition": {
+        "buffType": "Negative",
+        "categoryKeywordList": [
+            "SIN",
+            "VIBRATION",
+            "VIBRATION_CONVERTED"
+        ],
+        "name": "Tremor - Scorch",
+        "desc": "- On Tremor Burst, take Wrath Damage equal to (sum of Tremor Potency and Burn Potency / 2), and lose 1 Burn Count\n- When hit by Skills that trigger Tremor Burst, raise this unit's Stagger Threshold by the effect's Potency\n- Turn End: reduce the Count by 1\n(Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)"
+    },
+    "BulletPropellant": {
+        "buffType": "Positive",
+        "categoryKeywordList": [
+            "BULLET",
+            "RESOURCE"
+        ],
+        "name": "Tigermark Round",
+        "desc": "- Unique Ammo\n- Spent by certain Skills\n- Max Stack: 6"
+    },
+    "BulletPropellantSpecial": {
+        "buffType": "Positive",
+        "categoryKeywordList": [
+            "BULLET",
+            "RESOURCE"
+        ],
+        "name": "Savage Tigermark Round",
+        "desc": "- Unique Ammo\n- Spent by certain Skills (actives the same way as Tigermark Round does)\n- The Potency and the Count of this effect are \"Loaded Ammo\" and \"Remaining Ammo\", respectively\n\u00b7 Max Potency (Loaded Ammo): 6\n- Coins that spent this Ammo deal +30% damage, and inflict double the normal amount of Burn Potency and Count\n- When all Loaded Ammo and Remaining Ammo are spent, converts back to Tigermark Round"
+    },
+    "Prey": {
+        "buffType": "Negative",
+        "name": "Prey",
+        "desc": "- In a Clash with an enemy, Clash Power -5\n- Combat Start:\n\u00b7 If this unit equipped an Attack Skill, deal -50% damage against Lei Heng with Attack Skills\n\u00b7 If this unit equipped a Defense Skill, take -75% damage from Lei Heng\n- If this unit wins a Clash against Lei Heng while under this effect, gain 3 of the least-owned E.G.O Resources\n- Expires at Turn End; this unit heals 10 SP"
+    },
+    "Complacency": {
+        "buffType": "Negative",
+        "name": "Overheat",
+        "desc": "- Max Stack: 5\n- Turn Start: gain Clash Power Down and Fragile equal to the Stack\n- Expires at Turn End"
+    },
+    "BattleSense": {
+        "buffType": "Positive",
+        "name": "Inner Strength [\u5e95\u529b]",
+        "desc": "- Max Stack: 25\n- Consumed by certain Skills; at Turn End, heal SP equal to the Stack consumed by the end of the turn\n- Gain 1 Stack with every Clash (max 5 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 2 Stack when hitting with an Unopposed Attack (max 10 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack; max 2)\n- Gains a different buff when using a specific pattern"
+    },
+    "RestoredBattleSense": {
+        "buffType": "Positive",
+        "name": "Extreme Strength [\u6975\u529b]",
+        "desc": "- Max Stack: 50\n- Counts as \"Inner Strength\". Consumed by certain Skills; at Turn End, heal SP equal to the Stack consumed by the end of the turn.\n- Gain 2 Stack with every Clash (max 10 per Skill). On Clash Lose, lose the Stacks gained from the said Clash\n- Gain 3 Stack when hitting with an Unopposed Attack (max 15 per Skill)\n- Turn End: next turn, gain Haste based on the total Stack consumed this turn (1 Haste per 25 Stack, max 5)"
+    },
+    "Irritation": {
+        "buffType": "Positive",
+        "name": "Unrelenting Spirit [\u525b\u6c23]",
+        "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 20% missing HP on self (max 3 each)\n- Inflict +2 more Tremor Potency with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coin of 'Triple Slash - Burst' to an Unbreakable Coin\n- This buff changes into Unrelenting Spirit - Shin when using a specific pattern"
+    },
+    "HugeIrritation": {
+        "buffType": "Positive",
+        "name": "Unrelenting Spirit - Shin [\u525b\u6c23-\u5fc3]",
+        "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 15% missing HP on self (max 5 each)\n- Inflict +3 more Tremor Potency and +1 more Tremor Count with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 20%)\n- Convert the final Coins of 'Double Slash - Blast' and 'Triple Slash - Burst' to Unbreakable Coins"
+    },
+    "PileObedient": {
+        "buffType": "Negative",
+        "name": "Heaping Obedience",
+        "desc": "- Turn End: at 3 Stack, convert this effect to Hollow Obedience next turn"
+    },
+    "Obedient": {
+        "buffType": "Negative",
+        "name": "Hollow Obedience",
+        "desc": "- Clash Power -2 in Clashes against Jia Mu\n- Expires when this unit's SP reaches 45, or when the Stack drops to 0\n- Turn End: lose 1 Stack"
+    },
+    "ExpensiveJade": {
+        "buffType": "Negative",
+        "name": "Precious Jade's Cradle",
+        "desc": "- Enter an 'Immobilized' state where this unit's buffs, HP, and SP cannot be changed. Forms a Precious Jade connected to this unit"
+    },
+    "FamilyTreasure": {
+        "buffType": "Negative",
+        "name": "Explosive Amusement",
+        "desc": "- On Turn End:\n\u00b7 Base Stack: 1\n\u00b7 The unit connected to this unit heals 25% HP and loses 20 SP\n\u00b7 Gain 1 Stack\n\u00b7 At 3 Stack, use a self-detonation Skill. If this unit is killed by self-detonation, inflict the caged character with 3 Hollow Obedience next turn"
+    },
+    "OutpouringAnger": {
+        "buffType": "Positive",
+        "name": "Rampage",
+        "desc": "- If the 'You do not know the fathoms of the eye's powers, its special nature' Skill's main target is Hong Lu, ignore all Skill effects and convert all Coins on that Skill to Unbreakable Coins"
+    },
+    "Honglu_Xi": {
+        "buffType": "Positive",
+        "name": "Happiness",
+        "desc": "- Hong Lu's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's SP by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "Honglu_Le": {
+        "buffType": "Positive",
+        "name": "Happiness, Joy",
+        "desc": "- Hong Lu's Final Power +1\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "Honglu_Ai": {
+        "buffType": "Positive",
+        "name": "Happiness, Joy, Sorrow",
+        "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "Honglu_Nu": {
+        "buffType": "Positive",
+        "name": "Happiness, Joy, Sorrow, Wrath",
+        "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 SP at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "SupremeEternalLife": {
+        "buffType": "Positive",
+        "name": "Sublime Immortality",
+        "desc": "- Turn Start: Jia Mu's Core and every Part gain 5% of each of their max HP as Shield"
+    },
+    "ImperfectEternalLife": {
+        "buffType": "Negative",
+        "name": "Imperfect Immortality",
+        "desc": "- Absorbed when struck by certain Skills of Jia Mu\n- If this effect was inflicted against Jia Mu, gain 1 Fragile per Stack; at 5 Stack, become Staggered"
+    },
+    "GoldenBoughSync": {
+        "buffType": "Positive",
+        "categoryKeywordList": [
+            "IGNORE_CHECED_CORRECTION_EXCLUSION"
+        ],
+        "name": "Malattunement",
+        "desc": "- Base Offense Level +2, Base Defense Level +2"
+    },
+    "GoldenBoughSyncDistorted": {
+        "buffType": "Positive",
+        "categoryKeywordList": [
+            "IGNORE_CHECED_CORRECTION_EXCLUSION"
+        ],
+        "name": "Supernatural, Strength, Chaos, and Spirits",
+        "desc": "- Base Offense Level +4, Base Defense Level +4"
+    },
+    "BudgetBulletPropellant": {
+        "buffType": "Neutral",
+        "categoryKeywordList": [
+            "RESOURCE",
+            "BULLET"
+        ],
+        "name": "Propellant Ammo",
+        "desc": "- Unique Ammo\n- Spent by certain Skills\n- Max Stack: 4"
+    },
+    "Chesed_Mercy": {
+        "buffType": "Neutral",
+        "name": "Chesed's Mercy",
+        "desc": "- Averages the Offense Level and Defense Level of all units\n- After the Chesed effect activates, allied Identities gain 3 Offense Levels and 6 Defense Levels\n- First-time Unleashing Effect: \"Chesed's Mercy\" lasts for the duration of this Encounter"
+    },
+    "Ryoshu_Attackup": {
+        "buffType": "Neutral",
+        "name": "Mutilated Memory",
+        "desc": "[Ry\u014dsh\u016b Exclusive Effect]\n- Deal +(Current Turn Count x 2.5)% damage against Lei Heng in this Encounter (max 30%)"
+    },
+    "Honglu_EGOResourceup": {
+        "buffType": "Positive",
+        "name": "My Heart, My Own Thoughts...",
+        "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, gain 2 additional E.G.O resources of the Skill's Affinity (once per turn)"
+    },
+    "DarkHonglu_EGOResourceup": {
+        "buffType": "Positive",
+        "name": "No Matter How Many Must Bleed...",
+        "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, gain 2 additional E.G.O resources of the Skill's Affinity (once per turn)\n- When this unit takes damage, it gains 2 Slash DMG Up next turn (once per turn)"
+    },
+    "FellBulletMarkReplica": {
+        "buffType": "Negative",
+        "iconId": "FellBulletMark",
+        "name": "Stigmatized",
+        "desc": "- Tageted by Gubo\n- Expires at Turn End"
+    },
+    "DarkHonglu_Xi": {
+        "buffType": "Positive",
+        "name": "Happiness",
+        "desc": "- Hong Lu's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's SP by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "DarkHonglu_Le": {
+        "buffType": "Positive",
+        "name": "Happiness, Joy",
+        "desc": "- Hong Lu's Final Power +1\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "DarkHonglu_Ai": {
+        "buffType": "Positive",
+        "name": "Happiness, Joy, Sorrow",
+        "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 SP for 1 ally with the least SP (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
+    "DarkHonglu_Nu": {
+        "buffType": "Positive",
+        "name": "Happiness, Joy, Sorrow, Wrath",
+        "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 SP at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End gain 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, gain 1 random E.G.O Resource each from 3 of the E.G.O Affinities with the least amount of resources"
+    },
     "MiddleFingerBook": {
         "buffType": "Negative",
         "name": "The Middle's Vendetta Mark",

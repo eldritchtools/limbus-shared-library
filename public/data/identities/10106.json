@@ -1,0 +1,258 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dimensional Slit",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Dimensional Slit",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count",
+                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dimensional Slit",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count\nAt 10+ [Charge] Count, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count",
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010601
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +5 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Binding] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +6 [Charge] Count\nAt 10+ [Charge] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] At 10+ [Charge] Count, inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +7 [Charge] Count\nAt 10+ [Charge] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] At 10+ [Charge] Count, inflict 3 [Burst] and +2 [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010602
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 5,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Dimensional Rift",
+                    "desc": "[WhenUse] At less than 15 Charge Count, consume 10 Charge Count to gain +1 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +2 Coin Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst] for every 5 Charge Count consumed by the Skill (Max 6)",
+                            "[OnSucceedAttack] If the Skill consumed 15 Charge Count upon use, inflict 2 [DimensionRift]",
+                            "[EnemyKill] Gain 3 [ChargeForceField]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dimensional Rift",
+                    "desc": "[WhenUse] At less than 15 Charge Count, consume 10 Charge Count to gain +1 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +2 Coin Power\n[BeforeAttack] If 15 Charge Count has been consumed, inflict +3 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst] for every 5 Charge Count consumed by the Skill (Max 9)",
+                            "[OnSucceedAttack] If the Skill consumed 15 Charge Count upon use, inflict 2 [DimensionRift]",
+                            "[EnemyKill] Gain 5 [ChargeForceField]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010603
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1010601
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1010611
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1010621
+            ]
+        }
+    ],
+    "passiveData": {
+        "1010601": {
+            "name": "Emptied Thought",
+            "desc": "- At Turn End, gain 1 Haste per 5 Charge Count on self next turn. (Max 2)\n- If this unit's Skill consumed Charge Count, apply 3 Charge Barrier to 1 ally with the lowest HP percentage",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1010611": {
+            "name": "Emptied Thought",
+            "desc": "- At Turn End, gain 1 Haste per 5 Charge Count on self next turn. (Max 3)\n- If this unit's Skill consumed Charge Count, apply 3 Charge Barrier to 1 ally with the lowest HP percentage",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1010621": {
+            "name": "Cleanup Demonstration",
+            "desc": "1 Ally with the highest Charge Count deals more damage against targets with <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u> based on Rupture on target (+1.5% per Rupture. Max +15% damage)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

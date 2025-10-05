@@ -1,0 +1,220 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 8
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Throat Slit",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Throat Slit",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 4 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Shank",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Damage +2"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Damage +2"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Shank",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Damage +3"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Damage +3"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] If target is below 25% HP, use this Coin an additional time if target survives\nHeads: +50% Damage for this Coin",
+                            "[ReUseOnSucceedAttackHead] +50% Damage for this Coin"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Shank",
+                    "desc": "If target has 7+ [Laceration], deal +20% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Damage +3"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Damage +3"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] If target is below 25% HP, use this Coin an additional time if target survives\nHeads: +50% Damage for this Coin",
+                            "[ReUseOnSucceedAttackHead] +50% Damage for this Coin"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 25
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 25
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Mutilate",
+                    "desc": "[EnemyKill] Use this skill 1 more time",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Damage +7",
+                            "[ReUseOnSucceedAttackHead] +100% Damage for this Coin"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Mutilate",
+                    "desc": "[EnemyKill] Use this skill 1 more time",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Damage +7",
+                            "[ReUseOnSucceedAttackHead] +100% damage for this Coin",
+                            "[ReUseOnSucceedAttackHead] If target has 10+ [Laceration], deal +50% damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060321": {
+            "name": "Gambit",
+            "desc": "1 ally with the most SP deals +20% damage with Heads Coins.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1060301": {
+            "name": "Gaiety",
+            "desc": "Heal (2x Gluttony Reson.) SP next turn.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 2
+                    }
+                ]
+            }
+        }
+    }
+}

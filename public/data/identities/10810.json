@@ -1,0 +1,281 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Zwei Knight's Greatsword Form",
+                    "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 4 [Vibration] Count on self (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Gain 1 [DefenseUp] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Gain 1 [DefenseUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Zwei Knight's Greatsword Form",
+                    "desc": "[WhenUse] Gain +<style=\"highlight\">3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every <style=\"highlight\">3 [Vibration] Count on self (max 2)\n<style=\"highlight\">[WhenUse] At 4+ [DefenseUp], Base Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Gain <style=\"highlight\">2 [DefenseUp] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Gain <style=\"highlight\">2 [DefenseUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Zwei Knight's Greatsword Form",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every <style=\"highlight\">2 [Vibration] Count on self (max <style=\"highlight\">3)\n[WhenUse] <style=\"highlight\">Base Power +1 for every 4 [DefenseUp] (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Gain 2 [DefenseUp] next turn<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Gain 2 [DefenseUp] next turn<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1081001
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Can't Let You Through.",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WinDuel] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 3 [DefenseUp] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [Vibration] equal to (([Vibration] Count on self)/2) (max 2)",
+                            "[OnSucceedAttack] At 10+ [DefenseUp], inflict 1 [Reduction]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Can't Let You Through.",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">4)\n<style=\"highlight\">[WhenUse] At 5+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 3 [DefenseUp] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [Vibration] equal to (([Vibration] Count on self)/2) (max <style=\"highlight\">3)",
+                            "[OnSucceedAttack] At 10+ [DefenseUp], inflict 1 [Reduction]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Can't Let You Through.",
+                    "desc": "[WhenUse] Gain +<style=\"highlight\">5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">5)\n[WhenUse] At <style=\"highlight\">4+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">4 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain <style=\"highlight\">4 [DefenseUp] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [Vibration] equal to (([Vibration] Count on self)/2) (max <style=\"highlight\">4)",
+                            "[OnSucceedAttack] At <style=\"highlight\">8+ [DefenseUp], inflict 1 [Reduction]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1081002
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Ward",
+                    "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] If this unit is in [DefensiveStance], deal +50% damage\n[WhenUse] Coin Power +1 for every 4 [DefenseUp] on self (max 2)\n[WhenUse] Gain +8 [Aggro] to this Skill Slot next turn\n[WinDuel] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Consume all [Vibration] Count on self, and inflict the value of the Count consumed as [Vibration] on target. (max 10)\n- Deal +(excess [Vibration] x 1.5)% damage (max 30%)",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                            "[OnSucceedAttack] If this unit is in [DefensiveStance], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Ward",
+                    "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">5)\n[WhenUse] If this unit is in [DefensiveStance], deal +<style=\"highlight\">70% damage\n[WhenUse] Coin Power +1 for every 4 [DefenseUp] on self (max <style=\"highlight\">4)\n[WhenUse] Gain +<style=\"highlight\">10 [Aggro] to this Skill Slot next turn\n[WinDuel] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Consume all [Vibration] Count on self, and inflict the value of the Count consumed as [Vibration] on target. (max <style=\"highlight\">20)\n- Deal +(excess [Vibration] x <style=\"highlight\">5)% damage (max <style=\"highlight\">50%)",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                            "[OnSucceedAttack] If this unit is in [DefensiveStance], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1081003
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1081001
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1081011
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1081021
+            ]
+        }
+    ],
+    "passiveData": {
+        "1081001": {
+            "name": "Shock-nullifying Greatsword",
+            "desc": "At Combat Start, gain [DefenseUp] equal to [Vibration] Count on self (max 5)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1081011": {
+            "name": "Shock-nullifying Greatsword",
+            "desc": "At Combat Start, gain [DefenseUp] equal to [Vibration] Count on self (max 5)\n- If this unit is in [DefensiveStance], double the amount of [DefenseUp] gained from the above effect.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1081021": {
+            "name": "Emergency Protection",
+            "desc": "At Combat Start, compare each Identity's current HP to their HP at the start of the previous turn. Then, apply 2 [DefenseUp] to the Identity with the greatest disparity of HP values between turns.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

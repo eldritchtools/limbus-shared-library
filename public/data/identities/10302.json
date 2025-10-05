@@ -1,0 +1,222 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rip",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Rip",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rip",
+                    "desc": "At 5+ [Charge] Count, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Gain +4 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1030201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Leap",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vulnerable]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Leap",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Vulnerable]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Leap",
+                    "desc": "At 7+ [Charge] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Vulnerable]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1030202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 1,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Rip Space",
+                    "desc": "[WhenUse] Spend 10 Charge Count to gain +4 Coin Power\nAt less than 10 Charge Count, lose 20% HP",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            ""
+                        ],
+                        [
+                            ""
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 5 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1030203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1030201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1030221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1030201": {
+            "name": "Quick Recharge",
+            "desc": "At the start of the combat phase, gain Charge Count by (Gloom Reson. / 3).",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1030221": {
+            "name": "Broken Spirit",
+            "desc": "1 ally with the fastest Speed gains +1 final Power for their first skill.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Blinkstep",
+                    "desc": "[WhenUse] If target has 6+ [Burst], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Blinkstep",
+                    "desc": "[WhenUse] If target has <style=\"highlight\">4+ [Burst], Coin Power +1\n<style=\"highlight\">[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blinkstep",
+                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1041101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "As Written",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n[WhenUse] If target has 6+ [Burst], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "At 10+ Speed, deal +10% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "As Written",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n[WhenUse] If target has <style=\"highlight\">4+ [Burst], Coin Power +1\n<style=\"highlight\">[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] At 10+ Speed, inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "At 10+ Speed, deal +<style=\"highlight\">20% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "As Written",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "[OnSucceedAttack] At 10+ Speed, inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "At 10+ Speed, deal +<style=\"highlight\">30% damage",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1041102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "I'll gut you with a curse-engraved blade",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict [BurstAgility]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "At 10+ Speed, deal +30% damage",
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I'll gut you with a curse-engraved blade",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's, <style=\"highlight\">gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WhenUse] If target has 15+ [Burst], Coin Power +1\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict [BurstAgility]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "At 10+ Speed, deal +30% damage<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\">",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">",
+                            "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [BurstAgility]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1041103
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1041101
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1041111
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1041121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1041121": {
+            "name": "Partial Heishou Mutation Training",
+            "desc": "Turn End: 1 ally with the fastest Speed gains 2 [Agility] next turn",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1041101": {
+            "name": "Heishou Mutation [Mao]",
+            "desc": "If this unit has [LegStrength], deal +5% damage",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1041111": {
+            "name": "Heishou Mutation [Mao]",
+            "desc": "If this unit has [LegStrength], deal +5% damage\nIf the target has [BurstAgility], deal +5% damage",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

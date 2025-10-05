@@ -1,0 +1,234 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Keep It Fresh",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Paralysis]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Keep It Fresh",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]; if target has [Laceration], inflict 1 [Paralysis] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Keep It Fresh",
+                    "desc": "If target has 4+ [Binding], deal +30% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]; if target has [Laceration], inflict 1 [Paralysis] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "You Fresh Enough?",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count; Inflict 1 [Binding] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "You Fresh Enough?",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count; Inflict 2 [Binding] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "You Fresh Enough?",
+                    "desc": "If user's Speed is faster than target's by 3+, Coin Power +3",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count; Inflict 2 [Binding] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Butcher Viand",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Heal HP based on target\u2019s [Laceration] (Max 20%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Butcher Viand",
+                    "desc": "If target has 10+ [Laceration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Heal HP based on target\u2019s [Laceration] (Max 20%)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1120401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1120421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1120401": {
+            "name": "Packed Pies",
+            "desc": "Heal 8 HP at the start of the combat phase.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1120421": {
+            "name": "Culinary Aid",
+            "desc": "At the start of the combat phase, the ally with the least HP heals 5 HP.\nBoost the healing of R.B. Chef de Cuisine Ry\u014dsh\u016b\u2019s Passive \u2018Rustle Up\u2019 by 5.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

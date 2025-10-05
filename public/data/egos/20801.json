@@ -1,0 +1,72 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": -4,
+                "baseValue": 15,
+                "coinValue": 4
+            },
+            {
+                "uptie": 3,
+                "baseValue": 19,
+                "coinValue": 4
+            },
+            {
+                "uptie": 4,
+                "coinValue": 4
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Snagharpoon",
+                "abName": "Ishmael",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Binding] next turn",
+                        "[OnSucceedAttackHead] Inflict 1 [Vibration]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Snagharpoon",
+                "abName": "Ishmael",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 6 [Binding] next turn",
+                        "[OnSucceedAttack] Inflict 3 [Vibration]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Snagharpoon",
+                "abName": "Ishmael",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 6 [Binding] next turn",
+                        "[OnSucceedAttack] Inflict 3 [Vibration]",
+                        "[OnSucceedAttack] Trigger [Vibration] Burst"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Compulsion",
+            "desc": "Clash Power +2 in clashes whose win rate is in the unit\u2019s favor.\nClash Power -2 in clashes whose win rate is against the unit\u2019s favor."
+        }
+    ]
+}

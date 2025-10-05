@@ -1,0 +1,237 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "It's Heavy...!",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "It's Heavy...!",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "It's Heavy...!",
+                    "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[DefeatDuel] Inflict 2 [Vibration] and 2 [Burst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080501
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "It's Churning...!",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "It's Churning...!",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "It's Churning...!",
+                    "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[DefeatDuel] Inflict 3 [Vibration] and 3 [Burst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080502
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 6,
+                    "coinValue": 16
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Corrosive Splash",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger [Vibration] Burst\nAfter triggering [Vibration] Burst, reduce [Vibration] Count by 4. Inflict 5 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Corrosive Splash",
+                    "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[DefeatDuel] Inflict 5 [Vibration] and 5 [Burst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger [Vibration] Burst\nAfter triggering [Vibration] Burst, reduce [Vibration] Count by 4. Inflict 5 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080503
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1080501
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1080511
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1080521
+            ]
+        }
+    ],
+    "passiveData": {
+        "1080521": {
+            "name": "Corrosive Slime",
+            "desc": "When 1 ally with the fastest Speed triggers Tremor Burst, they inflict 2 Rupture.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1080501": {
+            "name": "Filling Fluid",
+            "desc": "If this unit fails to deal HP damage using attack skills in a turn, gain a Shield equal to 5% of Max HP next turn. (Max 30)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1080511": {
+            "name": "Filling Fluid",
+            "desc": "If this unit fails to deal HP damage using attack skills in a turn, gain a Shield equal to 10% of Max HP next turn. (Max 30)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

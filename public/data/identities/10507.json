@@ -1,0 +1,250 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "We Remember",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "We Remember",
+                    "desc": "[DefeatDuel] Gain 1 [VioletDamageUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "We Remember",
+                    "desc": "[DefeatDuel] Gain 1 [VioletDamageUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050701
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Chains of Loyalty",
+                    "desc": "[StartBattle] Apply 1 Envy Power Up to 2 allies adjacent to this unit on the Dashboard.",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Chains of Loyalty",
+                    "desc": "[StartBattle] Apply 1 Envy Power Up to 2 allies adjacent to this unit on the Dashboard.",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Chains of Loyalty",
+                    "desc": "[StartBattle] Apply 1 Envy Power Up to 2 allies adjacent to this unit on the Dashboard\nApply 1 Envy DMG Up as well when selecting Envy affinity Skills from the affected Skill Slots",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050702
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Recording",
+                    "desc": "At 4+ Envy Reson., Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 1 [PlusCoinValueDown] next turn"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 1 [VioletTakeDamageUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Recording",
+                    "desc": "At 4+ Envy Reson., Coin Power +1\nAt 6+ Envy A-Reson., Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 1 [PlusCoinValueDown] next turn"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 2 [VioletTakeDamageUp] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050703
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1050701
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1050711
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1050721
+            ]
+        }
+    ],
+    "passiveData": {
+        "1050721": {
+            "name": "One Family",
+            "desc": "The 1 ally with the least SP heals 10 SP at Turn End if there is another ally from the same Faction",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1050701": {
+            "name": "Loyalty",
+            "desc": "- Apply <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Vengeance Mark</color></link></u> to the unit that dealt the most Skill damage to an ally.\n- If the main target has Vengeance Mark, Final Power +1\n- If there is another surviving ally from the Middle, heal 6 SP at every Turn End",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1050711": {
+            "name": "Loyalty",
+            "desc": "- Apply <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Vengeance Mark</color></link></u> to the unit that dealt the most Skill damage to an ally.\n- If the main target has Vengeance Mark, Final Power +1\n- If there is another surviving ally from the Middle other than this unit, this unit and the surviving ally from the Middle with the least SP both heal 6 SP at every Turn End",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

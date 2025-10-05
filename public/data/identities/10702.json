@@ -1,0 +1,201 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Extreme Edge",
+                    "desc": "At less than 25% HP, +1 Skill Power",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Extreme Edge",
+                    "desc": "At less than 25% HP, +2 Skill Power",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Extreme Edge",
+                    "desc": "At less than 50% HP, Skill Power +2\n[WhenUse] Gain +3 [Breath] Count",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ],
+            "id": 1070201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Flying Sword",
+                    "desc": "At less than 25% HP, +1 Skill Power",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Flying Sword",
+                    "desc": "At less than 25% HP, +2 Skill Power",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flying Sword",
+                    "desc": "At less than 50% HP, +2 Skill Power\n[WhenUse] Gain 3 [Breath]",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ],
+            "id": 1070202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 5,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Flashing Strike",
+                    "desc": "At less than 25% HP, +2 Skill Power",
+                    "coinDescs": [
+                        [
+                            "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+                        ],
+                        [
+                            "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flashing Strike",
+                    "desc": "At 10+ [Breath] Count, Skill Power +2\nAt less than 50% HP, Atk Weight +1",
+                    "coinDescs": [
+                        [
+                            "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+                        ],
+                        [
+                            "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070201": {
+            "name": "Respiration",
+            "desc": "After taking damage from attacks this turn, deal +10% damage.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1070221": {
+            "name": "Self-neglect",
+            "desc": "1 ally with the least HP deals and takes +20% damage.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

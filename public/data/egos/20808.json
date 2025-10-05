@@ -1,0 +1,162 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "sloth",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 1,
+                "baseValue": 12,
+                "coinValue": 5
+            },
+            {
+                "uptie": 3,
+                "coinValue": 5
+            },
+            {
+                "uptie": 4,
+                "coinValue": 5
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Christmas Nightmare",
+                "abName": "Cozy Bed",
+                "desc": "[BeforeAttack] Gain (highest Reson. + 5) [Vibration] Count (max 10)\n[EndSkill] If there are any targets in Staggered, Low Morale, or Panic states, heal 10 SP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +5 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Christmas Nightmare",
+                "abName": "Cozy Bed",
+                "desc": "<style=\"highlight\">If target has less than 0 SP, deal +1% damage for every SP value below 0 (max 45%)\n[BeforeAttack] Gain (highest Reson. + 5) [Vibration] Count (max 10)\n[EndSkill] If there are any targets in Staggered, Low Morale, or Panic states, heal 10 SP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +5 [Vibration] Count<style=\"highlight\">",
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 [[Sinking]]",
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 2"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Christmas Nightmare",
+                "abName": "Cozy Bed",
+                "desc": "If target has less than 0 SP, deal +1% damage for every SP value below 0 (max 45%)\n[BeforeAttack] Gain (highest Reson. + 5) [Vibration] Count (max 10)\n[EndSkill] If there are any targets in Staggered, Low Morale, or Panic states, heal 10 SP<style=\"highlight\">",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +5 [Vibration] Count<style=\"highlight\">",
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 [[Sinking]]<style=\"highlight\">",
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger [VibrationExplosion] <style=\"highlight\">twice; then, reduce the target's [Vibration] Count by 2"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "A Gaze in the Shadows",
+            "desc": "Allies gain +1 more [Vibration] Count from Skill or Coin effects (2 times per turn)\n- If the ally's target is in Staggered, Low Morale, or Panic states, gain +2 more instead\n- Effect does not stack with E.G.O Gifts of an identical effect."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "sloth",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 5,
+                "levelCorrection": 2,
+                "baseValue": 18,
+                "coinValue": 5
+            },
+            {
+                "uptie": 3,
+                "coinValue": 5
+            },
+            {
+                "uptie": 4,
+                "coinValue": 5
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Christmas Nightmare",
+                "abName": "Cozy Bed",
+                "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain (highest Reson. + 5) [Vibration] Count (max 10)\n[BeforeAttack] Heal 10 HP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +5 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Christmas Nightmare",
+                "abName": "Cozy Bed",
+                "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the main target is in Staggered, Low Morale, or Panic states, Base Power +1\n[BeforeAttack] Gain (highest Reson. + 5) [Vibration] Count (max 10)\n[BeforeAttack] Heal 10 HP\n<style=\"highlight\">[EndSkill] Heal 5 SP for every enemy that is in Staggered, Low Morale, or Panic states",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +5 [Vibration] Count",
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 [[Sinking]] and +2 [[Sinking]] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                    ],
+                    [
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Christmas Nightmare",
+                "abName": "Cozy Bed",
+                "desc": "[CantIdentify]\nTargets randomly\nIf the main target is in Staggered, Low Morale, or Panic states, Base Power +<style=\"highlight\">2\n[BeforeAttack] Gain (highest Reson. + 5) [Vibration] Count (max 10)\n[BeforeAttack] Heal 10 HP\n[EndSkill] Heal 5 SP for every enemy that is in Staggered, Low Morale, or Panic states<style=\"highlight\">",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +5 [Vibration] Count",
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 [[Sinking]] and +2 [[Sinking]] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                    ],
+                    [
+                        "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1<style=\"highlight\">",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                    ]
+                ]
+            }
+        ]
+    }
+}

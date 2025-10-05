@@ -1,0 +1,262 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Weighty Bash",
+                    "desc": "At 10+ [Charge] Count, Final Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Weighty Bash",
+                    "desc": "At 10+ [Charge] Count, Final Power +1\nAt 7+ Speed, deal +25% Damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Weighty Bash",
+                    "desc": "At 10+ [Charge] Count, Final Power +2\nAt 7+ Speed, deal +25% Damage\n[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050601
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Demolish",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Demolish",
+                    "desc": "At 7+ Speed, inflict +1 [Laceration] Count with this skill",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Demolish",
+                    "desc": "At 7+ Speed, inflict +1 [Laceration] Count with this Skill\n[WhenUse] Gain +4 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050602
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 6,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rhino Ram",
+                    "desc": "[WhenUse] At 10+ [Charge] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 2 [Charge] Count; Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 3 [Charge] Count; Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 2 [Charge] Count; Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 3 [Charge] Count; Inflict +1 [Laceration] Count"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rhino Ram",
+                    "desc": "[WhenUse] At 10+ [Charge] Count, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 2 [Charge] Count; Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 3 [Charge] Count; Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 2 [Charge] Count; Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Spend 3 [Charge] Count; Inflict +1 [Laceration] Count"
+                        ],
+                        []
+                    ]
+                }
+            ],
+            "id": 1050603
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1050601
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1050611
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1050621
+            ]
+        }
+    ],
+    "passiveData": {
+        "1050601": {
+            "name": "Activate rrR-#4 Suit Pressurization",
+            "desc": "At the end of the turn, Max Speed +2 (Capped at 6) per 5 Charge Count next turn.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1050611": {
+            "name": "Activate rrR-#4 Suit Pressurization",
+            "desc": "At the end of the turn, gain +2 Max Speed per 5 Charge Count next turn. (Max 6)\nAt the start of the turn, if at 5+ Charge Count, gain 3 Aggro to this unit's rightmost slot.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1050621": {
+            "name": "Maneuver Training",
+            "desc": "At the end of the turn, 1 ally with the highest Charge Count gains Max Speed +1 (Capped at 3) per 5 Charge Count next turn.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 3,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Graze the Grass",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "Spend 1 Ammo"
+                        ],
+                        [
+                            "Spend 1 Ammo"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Graze the Grass",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "Spend 1 Ammo",
+                            ""
+                        ],
+                        [
+                            "Spend 1 Ammo"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 3,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Concentrated Fire",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Concentrated Fire",
+                    "desc": "Coin Power +1 at 6+ Speed",
+                    "coinDescs": [
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        []
+                    ]
+                }
+            ],
+            "id": 1070302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 3,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Quick Suppression",
+                    "desc": "Coin Power +2 at 6+ Speed",
+                    "coinDescs": [
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                        ],
+                        [
+                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070301
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1070311
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070321": {
+            "name": "Doggedness",
+            "desc": "1 ally with the fastest Speed deals +10% Pierce damage.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1070301": {
+            "name": "Raring to Graze",
+            "desc": "Gain (Wrath Reson.) Charge Count next turn.\nAt 5+ Charge Count, gain 1 Haste and Attack Power Up.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1070311": {
+            "name": "Raring to Graze",
+            "desc": "Gain (Wrath Reson.) Charge Count next turn.\nAt 5+ Charge Count, gain 1 Haste and Attack Power Up.\nAlways Activate: At the start of the stage, gain +3 Ammo.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

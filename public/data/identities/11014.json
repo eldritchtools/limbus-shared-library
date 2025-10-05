@@ -1,0 +1,297 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 2,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Oh, Let the Smell of Burning Blood...",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Oh, Let the Smell of Burning Blood...",
+                    "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Oh, Let the Smell of Burning Blood...",
+                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1101401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "... Fuel My Rampage.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "... Fuel My Rampage.",
+                    "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "... Fuel My Rampage.",
+                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Wrath damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1101402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Bloodflame Massacre [\u8840\u708e\u4e82\u821e]",
+                    "desc": "[WideAreaRampage]\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]",
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Bloodflame Massacre [\u8840\u708e\u4e82\u821e]",
+                    "desc": "[WideAreaRampage]\n<style=\"highlight\">Deal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on target (max 2)\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 20% missing HP on self (max 2)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Gluttony damage"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Deal (20% of this Coin's final damage) bonus Gluttony damage against all targets"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1101403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1101402
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1101402,
+                1101401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1101421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1101401": {
+            "name": "Let's Get Battle-drunk",
+            "desc": "On Hit against targets with 7+ [Burst], (highest Reson. x 15)% chance to inflict 1 [Combustion] (4 times per turn)\n\nCombat End: if this unit has [Combustion], gain 1 [ChickenStance], 1 [CrimsonDamageUp], and 1 [ShamrockDamageUp] at the next Turn Start\n\nCombat Start: gain 1 [AttackUp] and [DefenseUp] for every 20% missing HP on self (max 3)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    },
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1101402": {
+            "name": "Gamefowl",
+            "desc": "When activating [HeishouCombo], The Lord of Hongyuan Hong Lu gains the following effect as the [HeishouComboCountHonglu] effect:\n- When using a Skill to inflict [Burst] Potency or Count, inflict 1 [Combustion] (3 times per turn)\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage.\n\nGain 3 [ChickenStance] in the same turn it Substitutes or Returns in."
+        },
+        "1101421": {
+            "name": "Bloodflame Blade [\u8840\u708e\u5200]",
+            "desc": "When an ally with the fastest Speed inflicts [Combustion] or [Burst] Potency with their Skills, inflict 1 [Combustion] and [Burst] Potency (once per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    },
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

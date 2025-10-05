@@ -1,0 +1,260 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Moonlit Blade Dance",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Moonlit Blade Dance",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Moonlit Blade Dance",
+                    "desc": "<style=\"highlight\">At 5+ [Breath], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Acupuncture",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Breath] Count"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Acupuncture",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Breath] Count",
+                            "+30% Damage on Critical Hit"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Acupuncture",
+                    "desc": "<style=\"highlight\">At 7+ [Breath], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Breath] Count",
+                            "+30% Damage on Critical Hit"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 5,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Red Plum Blossoms Scatter",
+                    "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Red Plum Blossoms Scatter",
+                    "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n<style=\"highlight\">Coin Power +1 for every 7 [Breath] on self (Max 3)\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)\n<style=\"highlight\">This Skill does not consume [RedApricotBlossom] On Crit",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
+                            "[CriticalOnSucceedAttack] If target has 10 [RedApricotBlossom], inflict 1 [SlashTakeDamageUp]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
+                            "[CriticalOnSucceedAttack] If target has 10 [RedApricotBlossom], inflict 1 [SlashTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1020801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020821
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020801": {
+            "name": "Sanguine Plum Blossoms",
+            "desc": "On Crit: Inflict 1 [RedApricotBlossom]. (3 times max)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020811": {
+            "name": "Sanguine Plum Blossoms",
+            "desc": "On Crit: Inflict 1 [RedApricotBlossom]. If the target has 10 [RedApricotBlossom], inflict 1 Defense Level Down instead (6 times max)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020821": {
+            "name": "Lingering Bladepoint",
+            "desc": "When the ally first deployed in the pre-battle team setup Critically hits with a Slash type Skill, inflict 1 Defense Level Down (3 times max per 1 enemy per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

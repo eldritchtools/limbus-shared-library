@@ -1,0 +1,324 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Blinkstep",
+                    "desc": "[WhenUse] If target has 6+ [Burst], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Blinkstep",
+                    "desc": "[WhenUse] If target has <style=\"highlight\">4+ [Burst], Coin Power +1\n<style=\"highlight\">[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill) "
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blinkstep",
+                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Clearing the Path, My Lord.",
+                    "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "If target has [BurstAgility] or [BurstZilu], deal +30% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Clearing the Path, My Lord.",
+                    "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1\n<style=\"highlight\">[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "If target has [BurstAgility] or [BurstZilu], deal +30% damage<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Clearing the Path, My Lord.",
+                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, deal +(Speed difference x [EnhanceZilu] on self)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]",
+                            "If target has [BurstAgility] or [BurstZilu], deal <style=\"highlight\">+50% damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Traceless to Sight and Sound Alike.",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[BeforeUse] At 10+ [EnhanceZilu], activate 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict [BurstAgility]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "At 10+ Speed, deal +30% damage",
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Traceless to Sight and Sound Alike.",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[BeforeUse] At 10+ [EnhanceZilu], activate 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n<style=\"highlight\">[WhenUse] If target has 15+ [Burst], Coin Power +1\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict [BurstAgility]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "At 10+ Speed, deal +30% damage<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\">",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">",
+                            "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [BurstAgility]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021203
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WhenUse] If target has 15+ [Burst], Coin Power +1\n[WhenUse] At 10+ Speed, gain 20 [Breath]; if this unit has less than 4 [Breath] Count, raise [Breath] Count up to 4\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count\n[EndSkill] Consume 10 [EnhanceZilu]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict [BurstZilu]",
+                            "[OnSucceedAttack] Inflict [BurstAgility]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "At 10+ Speed, deal +30% damage",
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)",
+                            "[ReUseOnSucceedAttack] Inflict [BurstZilu]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 [Burst] on target (max 2)\n[WhenUse] At 10+ Speed, gain 20 [Breath]; if this unit has less than 4 [Breath] Count, raise [Breath] Count up to 4\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count\n[EndSkill] Consume 10 [EnhanceZilu]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict [BurstZilu]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict [BurstAgility]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "At 10+ Speed, deal +30% damage<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\">",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">",
+                            "[ReUseOnSucceedAttack] Inflict [BurstZilu]<style=\"highlight\">",
+                            "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [BurstAgility]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021205
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1021203
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1021203,
+                1021201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1021221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1021201": {
+            "name": "Heishou Mutation [Mao] / Mao Branch Adept",
+            "desc": "If this unit's Speed is faster than the target's, deal +2% more damage for every 1 Speed difference (max 10%)\n\nGain 1 [EnhanceZilu] every time an ally triggers a Deathrite effect (5 times per turn)\n- If this unit triggered a Deathrite effect, gain 1 additional [EnhanceZilu]\nWhen activating the [SupportProtect] effect, gain 5 [EnhanceZilu]",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1021203": {
+            "name": "Tianjiu Star",
+            "desc": "When [BurstZilu] Stack drops to 0 and expires, gain [BurstVulnerableZilu]"
+        },
+        "1021221": {
+            "name": "Blinkblade",
+            "desc": "When 1 ally with the fastest Speed inflicts [Burst] damage, gain 1 [AttackUp] next turn (3 times per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

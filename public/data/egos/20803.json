@@ -1,0 +1,137 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 14,
+                "coinValue": 22
+            },
+            {
+                "uptie": 3,
+                "baseValue": 19,
+                "coinValue": 22
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 22
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Ardor Blossom Star",
+                "abName": "Ardor Blossom Moth",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "Inflict [Combustion] by half of Wrath Reson.",
+                        "[OnSucceedAttackHead] Inflict 3 [Combustion] on 3 random enemies"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Ardor Blossom Star",
+                "abName": "Ardor Blossom Moth",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Raise Stagger Threshold by 40% of damage dealt",
+                        "[OnSucceedAttack] Inflict [Combustion] by Wrath Reson.",
+                        "[OnSucceedAttackHead] Inflict 3 [Combustion] on 3 random enemies"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Ardor Blossom Star",
+                "abName": "Ardor Blossom Moth",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Raise Stagger Threshold by 40% of damage dealt",
+                        "[OnSucceedAttack] Inflict [Combustion] by Wrath Reson.",
+                        "[EndSkillHead] Inflict 5 [Combustion] on 3 random enemies"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Shower of Fire",
+            "desc": "On hit, if the target had [Combustion], inflict 1 Burn on 3 random enemies."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 36,
+                "coinValue": 22
+            },
+            {
+                "uptie": 3,
+                "baseValue": 41,
+                "coinValue": 22
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 5,
+                "coinValue": 22
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Ardor Blossom Star",
+                "abName": "Ardor Blossom Moth",
+                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Lose HP by 10% of Max HP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict [Combustion] by Wrath Reson. on all units"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Ardor Blossom Star",
+                "abName": "Ardor Blossom Moth",
+                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Lose HP by 10% of Max HP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict [Combustion] by (2x) Wrath Reson. on all units",
+                        "[OnSucceedAttack] Raise Stagger Threshold by 60% of damage dealt"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Ardor Blossom Star",
+                "abName": "Ardor Blossom Moth",
+                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Lose HP by 10% of Max HP",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Inflict [Combustion] by (2 * Wrath Reson.) on all units",
+                        "[OnSucceedAttack] Raise Stagger Threshold by 60% of damage dealt"
+                    ]
+                ]
+            }
+        ]
+    }
+}

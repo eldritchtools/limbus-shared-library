@@ -1,0 +1,159 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "sloth",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 0,
+                "baseValue": 8,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4,
+                "coinValue": 8
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Asymmetrical Inertia",
+                "abName": "Clockwork-Time-Roly-Poly",
+                "desc": "[BeforeAttack] Gain (highest Reson.) [Vibration] Count (max 6, 20 per turn)\n- If the said Reson. was a Sloth Reson., trigger [Switch_Vibration] on [Vibration] on self into [VibrationSpring]",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 2 [Vibration]",
+                        "[OnSucceedAttackTail] Inflict +2 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- When triggering [Vibration] Burst, inflict 1 [AmberTakeDamageUp] this turn\n- If the highest Reson. was a 4+ Sloth A-Reson., inflict 1 [AmberTakeDamageUp] next turn as well"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Asymmetrical Inertia",
+                "abName": "Clockwork-Time-Roly-Poly",
+                "desc": "[BeforeAttack] Gain (<style=\"highlight\">2 + highest Reson.) [Vibration] Count (max <style=\"highlight\">8, 20 per turn)\n- If the said Reson. was a Sloth Reson., trigger [Switch_Vibration] on [Vibration] on self into [VibrationSpring]",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 4 [Vibration]",
+                        "[OnSucceedAttackTail] Inflict +2 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- When triggering [Vibration] Burst, inflict 1 [AmberTakeDamageUp] this turn\n- If the highest Reson. was a <style=\"highlight\">Sloth A-Reson., inflict 1 [AmberTakeDamageUp] next turn as well"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Asymmetrical Inertia",
+                "abName": "Clockwork-Time-Roly-Poly",
+                "desc": "[BeforeAttack] Gain (<style=\"highlight\">4 + highest Reson.) [Vibration] Count (max 8, 20 per turn)\n- If the said Reson. was a Sloth Reson., trigger [Switch_Vibration] on [Vibration] on self into [VibrationSpring]",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 5 [Vibration]",
+                        "[OnSucceedAttackTail] Inflict +3 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- When triggering [Vibration] Burst, inflict 1 [AmberTakeDamageUp] this turn\n- If the highest Reson. was a <style=\"highlight\">3+ Sloth Reson., inflict 1 [AmberTakeDamageUp] next turn as well"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Broken Bell",
+            "desc": "Inflict [Vulnerable] this turn on enemies who were hit by [VibrationExplosion] from Skill, Coin, or Passive effects.\n- Does not stack with E.G.O Gifts that inflict [Vulnerable] upon triggering Tremor Burst. (If the said E.G.O Gifts have been enhanced, subtract this effect's value from the final value before inflicting it.)"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "sloth",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 3,
+                "baseValue": 28,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4,
+                "coinValue": 8
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Asymmetrical Inertia",
+                "abName": "Clockwork-Time-Roly-Poly",
+                "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain (2 + highest Reson.) [Vibration] Count (max 8, 20 per turn)\n- If the said Reson. was a Sloth Reson., trigger [Switch_Vibration] on [Vibration] on self into [VibrationSpring]",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 4 [Vibration]",
+                        "[OnSucceedAttackTail] Inflict +2 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- When triggering [Vibration] Burst, inflict 2 [AmberTakeDamageUp] this turn\n- If the highest Reson. was a 4+ Sloth A-Reson, inflict 2 [AmberTakeDamageUp] next turn as well"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Asymmetrical Inertia",
+                "abName": "Clockwork-Time-Roly-Poly",
+                "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain (<style=\"highlight\">4 + highest Reson.) [Vibration] Count (max 8, 20 per turn)\n- If the said Reson. was a Sloth Reson., trigger [Switch_Vibration] on [Vibration] on self into [VibrationSpring]",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 5 [Vibration]",
+                        "[OnSucceedAttackTail] Inflict +3 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- When triggering [Vibration] Burst, inflict 2 [AmberTakeDamageUp] this turn\n- If the highest Reson. was a <style=\"highlight\">Sloth A-Reson, inflict 2 [AmberTakeDamageUp] next turn as well"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Asymmetrical Inertia",
+                "abName": "Clockwork-Time-Roly-Poly",
+                "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain (4 + highest Reson.) [Vibration] Count (max <style=\"highlight\">10, 20 per turn)\n- If the said Reson. was a Sloth Reson., trigger [Switch_Vibration] on [Vibration] on self into [VibrationSpring]",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 6 [Vibration]",
+                        "[OnSucceedAttackTail] Inflict +4 [Vibration] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- When triggering [Vibration] Burst, inflict 2 [AmberTakeDamageUp] this turn\n- If the highest Reson. was a <style=\"highlight\">3+ Sloth Reson., inflict 2 [AmberTakeDamageUp] next turn as well"
+                    ]
+                ]
+            }
+        ]
+    }
+}

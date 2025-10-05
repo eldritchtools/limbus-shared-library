@@ -1,0 +1,248 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Execution Advised",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Execution Advised",
+                    "desc": "If target has 3+ [Vibration], Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Execution Advised",
+                    "desc": "Coin Power +1 for every 3 [Vibration] on target (Max 2)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Final Warning",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Final Warning",
+                    "desc": "If target has 6+ [Vibration], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Final Warning",
+                    "desc": "Coin Power +1 for every 6 [Vibration] on target (Max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 5,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Execution Sentencing",
+                    "desc": "If target has 6+ [Vibration], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If the sum of the target's [Vibration] Potency + Count is 20 or higher, trigger [Switch_Vibration] on target, converting [Vibration] to [VibrationCollapse]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Execution Sentencing",
+                    "desc": "Coin Power +1 for every 6 [Vibration] on target (Max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If the sum of the target's [Vibration] Potency + Count is 20 or higher, trigger [Switch_Vibration] on target, converting [Vibration] to [VibrationCollapse]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1070811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070821
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070801": {
+            "name": "Grave Attendance",
+            "desc": "Deal +5% damage for every 6 [Vibration] Potency on target (Max 15%)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1070811": {
+            "name": "Grave Attendance",
+            "desc": "Deal +10% damage for every 6 [Vibration] Potency on target (Max 30%)\nWhen converting [Vibration] into [VibrationCollapse] with this unit's Skill effects, trigger [VibrationExplosion] on target",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1070821": {
+            "name": "Verify Obligation Fulfillment",
+            "desc": "To 1 ally with the fastest Speed: Clash Power +1 to Skills that apply [Vibration] Potency or Count",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 6
+                    }
+                ]
+            }
+        }
+    }
+}

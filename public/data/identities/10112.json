@@ -1,0 +1,299 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Flame Hew",
+                    "desc": "If target has 6+ [Combustion], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Flame Hew",
+                    "desc": "If target has <style=\"highlight\">3+ [Combustion], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flame Hew",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 3 [Combustion] on target (max 2)\n<style=\"highlight\">Deal +10% damage for every 10 [Combustion] on target (max 30%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1011201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Frontal Assault",
+                    "desc": "If target has 6+ [Combustion], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Frontal Assault",
+                    "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "Deal +2.5% damage for every [Combustion] on target (max 30%)",
+                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Frontal Assault",
+                    "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "Deal +<style=\"highlight\">5% damage for every [Combustion] on target (max <style=\"highlight\">60%)",
+                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1011202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Flow of the Sword",
+                    "desc": "If target has 6+ [Combustion], Coin Power +1\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 10 SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "Deal +2% damage for every [Combustion] on target (max 60%)",
+                            "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flow of the Sword",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15 SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "Deal +2% damage for every [Combustion] on target (max 60%)",
+                            "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (max 30) Reduce Target's [Combustion] Count by 2"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1011203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1011201
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1011211
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1011221
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1011231
+            ]
+        }
+    ],
+    "passiveData": {
+        "1011201": {
+            "name": "Inner Ardor",
+            "desc": "Turn End: heal 1 ally with the least SP by (5 + highest Reson.) (max 10) (excludes: self and Panicked or E.G.O Corroded allies)\n- If the said ally has Base Skills that inflict [Combustion] Potency or Count, heal 5 additional SP to them",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1011211": {
+            "name": "Inner Ardor",
+            "desc": "Turn End: heal 1 ally with the least SP by (5 + highest Reson.) (max 10) (excludes: self and Panicked or E.G.O Corroded allies)\n- If the said ally has Base Skills that inflict [Combustion] Potency or Count, heal 5 additional SP to them\n- At 4+ Wrath Reson., heal 1 additional ally",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1011221": {
+            "name": "Liu Defensive Square",
+            "desc": "For 2 allies with the least SP: if they lost SP this turn, heal 5 SP at Turn End",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1011231": {
+            "name": "Liu Defensive Square",
+            "desc": "For 2 allies with the least SP: if they lost SP this turn, heal 5 SP at Turn End\n- If the said allies have Base Skills that inflict [Combustion] Potency or Count, heal 5~10 SP instead",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

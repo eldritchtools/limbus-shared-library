@@ -1,0 +1,185 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Downward Slash",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Downward Slash",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Upward Slash",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [AttackDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Upward Slash",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [AttackDown] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 6,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Drilling Stab",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Reduction] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020103
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1020101
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020121": {
+            "name": "Keen Observation",
+            "desc": "1 ally with the highest Max HP inflicts 2 Offense Level Down with attacks at a 25% chance.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1020101": {
+            "name": "Analytic Eye",
+            "desc": "Deal +10% damage to units with negative status effects.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 2
+                    }
+                ]
+            }
+        }
+    }
+}

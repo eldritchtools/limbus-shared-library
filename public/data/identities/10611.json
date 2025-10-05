@@ -1,0 +1,508 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Take the Shot",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]"
+                        ],
+                        [
+                            "Spend 1 [Bullet]",
+                            "[OnSucceedAttack] Gain 1 [Breath]"
+                        ],
+                        [
+                            "Spend 1 [Bullet]",
+                            "[OnSucceedAttack] Gain 1 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Take the Shot",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">"
+                        ],
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">",
+                            "[OnSucceedAttack] Gain <style=\"highlight\">2 [Breath]"
+                        ],
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">",
+                            "[OnSucceedAttack] Gain <style=\"highlight\">2 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Take the Shot",
+                    "desc": "[WhenUse] Gain +<style=\"highlight\">3 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">"
+                        ],
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">",
+                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                        ],
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">",
+                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Target Marked",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 20% chance that this unit activates [CoveringFire]\n[WhenUse] Gain +1 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ],
+                        [
+                            "Spend up to 3 [Bullet]",
+                            "Deal +([Bullet] spent x 10)% damage"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Target Marked",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 20% chance that this unit activates [CoveringFire]\n[WhenUse] Gain +<style=\"highlight\">2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                        ],
+                        [
+                            "Spend up to 3 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x 10)% damage<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Target Marked",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 25% chance that this unit activates [CoveringFire]\n[WhenUse] Gain +<style=\"highlight\">3 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                        ],
+                        [
+                            "Spend up to 3 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x 10)% damage<style=\"highlight\">",
+                            "<style=\"highlight\">+([Bullet] spent x 10)% Damage on Critical Hit"
+                        ],
+                        [
+                            "<style=\"highlight\">+20% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 6,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 7,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Full-Stop to Life",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, activate [CoveringFire]\n[WhenUse] Gain 5 [Breath]",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]",
+                            "Deal +([Bullet] spent x 10)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                        ],
+                        [
+                            "Spend up to 2 [Bullet]",
+                            "Deal +([Bullet] spent x 10)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                        ],
+                        [
+                            "If target is Staggered, +30% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Full-Stop to Life",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, activate [CoveringFire]\n[WhenUse] Gain 5 [Breath]\n<style=\"highlight\">[WinDuel] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x <style=\"highlight\">15)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15% of damage dealt"
+                        ],
+                        [
+                            "Spend up to 2 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x <style=\"highlight\">15)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15% of damage dealt"
+                        ],
+                        [
+                            "If target is Staggered, +30% Damage on Critical Hit<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [PenetrateTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061103
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 2,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 2,
+                    "name": "Combo: Target Marked",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain +2 [Breath] Count\n[DefeatDuel] Final Power +5",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ],
+                        [
+                            "Spend up to 3 [Bullet]",
+                            "Deal +([Bullet] spent x 10)% damage"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "+30% Damage on Critical Hit"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Combo: Target Marked",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain +<style=\"highlight\">3 [Breath] Count\n[DefeatDuel] Final Power +5",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                        ],
+                        [
+                            "Spend up to 3 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x 10)% damage<style=\"highlight\">",
+                            "<style=\"highlight\">+([Bullet] spent x 10)% Damage on Critical Hit"
+                        ],
+                        [
+                            "<style=\"highlight\">+20% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn<style=\"highlight\">"
+                        ],
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "+30% Damage on Critical Hit<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061105
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 6,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 7,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Combo: Full-Stop to Life",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain 5 [Breath]\n[DefeatDuel] Final Power +5",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]",
+                            "Deal +([Bullet] spent x 10)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                        ],
+                        [
+                            "Spend up to 2 [Bullet]",
+                            "Deal +([Bullet] spent x 10)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                        ],
+                        [
+                            "If target is Staggered, +30% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "+30% Damage on Critical Hit",
+                            "Deal +(target's Pierce Res. x 50)% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Combo: Full-Stop to Life",
+                    "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain 5 [Breath]\n<style=\"highlight\">[WinDuel] Gain +2 [Breath] Count\n[DefeatDuel] Final Power +5",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x <style=\"highlight\">15)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15% of damage dealt"
+                        ],
+                        [
+                            "Spend up to 2 [Bullet]<style=\"highlight\">",
+                            "Deal +([Bullet] spent x <style=\"highlight\">15)% damage",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15% of damage dealt"
+                        ],
+                        [
+                            "If target is Staggered, +30% Damage on Critical Hit<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [PenetrateTakeDamageUp]"
+                        ],
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "<style=\"highlight\">+50% Damage on Critical Hit",
+                            "Deal +(target's Pierce Res. x 50)% damage<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061106
+        },
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Melee Support",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Melee Support",
+                    "desc": "<style=\"highlight\">+20% Damage on Critical Hit\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061108
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1061101
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1061101,
+                1061102
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1061101,
+                1061111
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1061121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1061121": {
+            "name": "Suppressing Fire",
+            "desc": "Ally Identity with the most [Bullet] deals +10% damage with Skills that spend [Bullet]\n(Does not activate when out of [Bullet])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1061101": {
+            "name": "Concentration",
+            "desc": "When flipping a Coin that consumes [Bullet]: even when this unit is out of [Bullet], the attack does not get canceled. However, the affected Coins' On Hit effects do not activate in such cases."
+        },
+        "1061102": {
+            "name": "Tactical Firearm Support",
+            "desc": "If the Full-Stop Office Fixer Heathcliff is in [Retreat_FullStop] state, or has been Deployed as a Backup unit, empower Full-Stop Office Rep. Hong Lu's Skill 2 and Skill 3",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1061111": {
+            "name": "Tactical Fire Support",
+            "desc": "If the Full-Stop Office Fixer Heathcliff is in [Retreat_FullStop] state, or has been Deployed as a Backup unit, empower Full-Stop Office Rep. Hong Lu's Skill 2 and Skill 3\n\nCombat Start: at 20+ [Breath] Potency, gain +1 [Breath] Count",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

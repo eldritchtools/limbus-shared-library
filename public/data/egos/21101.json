@@ -1,0 +1,69 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "pride",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 15,
+                "coinValue": 3
+            },
+            {
+                "uptie": 3,
+                "baseValue": 20,
+                "coinValue": 3
+            },
+            {
+                "uptie": 4,
+                "coinValue": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "To P\u00e1thos M\u00e1thos",
+                "abName": "Outis",
+                "desc": "If target\u2019s HP is below 50%, +10% Damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Burst]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "To P\u00e1thos M\u00e1thos",
+                "abName": "Outis",
+                "desc": "If target\u2019s HP is below 50%, +30% Damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Burst]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "To P\u00e1thos M\u00e1thos",
+                "abName": "Outis",
+                "desc": "If target\u2019s HP is below 50%, +30% Damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Burst]",
+                        "[EnemyKill] Give 1 [AttackDmgUp] to a random ally"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Tactical Perfection",
+            "desc": "If the unit did not get hit at all during a turn, gain 1 Damage Up next turn. (Max 3 stacks)"
+        }
+    ]
+}

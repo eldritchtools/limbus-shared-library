@@ -1,0 +1,219 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Baton",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Baton",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Baton",
+                    "desc": "[DefeatDuel] Gain 2 [Protection]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 5,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Suppress",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Vibration]",
+                            "[OnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Suppress",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Vibration]",
+                            "[OnSucceedAttack] Inflict 2 [AttackDmgDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Suppress",
+                    "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[DefeatDuel] Inflict 6 [Vibration]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Vibration]",
+                            "[OnSucceedAttack] Inflict 2 [AttackDmgDown] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 7,
+                    "coinValue": 13
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 13
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Strong Strike",
+                    "desc": "[WhenUse] Give 1 [Protection] to the ally with the least HP next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger Tremor Burst",
+                            "[OnSucceedAttack] Inflict 2 [HitTakeDamageUp]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Strong Strike",
+                    "desc": "[WhenUse] Give 1 [Protection] to the ally with the least HP next turn\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger Tremor Burst",
+                            "[OnSucceedAttack] If target has 5+ Tremor upon [VibrationExplosion], gain 2 [Protection] next turn",
+                            "[OnSucceedAttack] Inflict 2 [HitTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1100301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1100321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1100321": {
+            "name": "Stubbornness",
+            "desc": "1 ally with the least HP takes -10% damage.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1100301": {
+            "name": "Your Shield",
+            "desc": "At the start of the combat phase, apply 2 Defense Power Up and 1 Protection to allies adjacent to this unit on the Dashboard.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 2
+                    }
+                ]
+            }
+        }
+    }
+}

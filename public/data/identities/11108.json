@@ -1,0 +1,248 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Knocking",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Knocking",
+                    "desc": "[WhenUse] If target has 7+ [Sinking], Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Knocking",
+                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dusting",
+                    "desc": "[WinDuel] Inflict +1 [[Sinking]] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Dusting",
+                    "desc": "[WinDuel] Inflict +2 [[Sinking]] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dusting",
+                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Coin Power +1\n[WinDuel] Inflict +2 [[Sinking]] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "As Mistress Commands",
+                    "desc": "[WinDuel] Inflict +3 [[Sinking]] Count",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [EchoOfMansion] next turn",
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to half of [[Sinking]] Potency on target (max 20)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "As Mistress Commands",
+                    "desc": "[WhenUse] If target has 7+ [[Sinking]], Coin Power +1\n[WinDuel] Inflict +3 [[Sinking]] Count",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [EchoOfMansion] next turn",
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to [[Sinking]] Potency on target (max 30)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1110801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1110811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1110821
+            ]
+        }
+    ],
+    "passiveData": {
+        "1110801": {
+            "name": "The Mistress's Voice...!",
+            "desc": "- When clashing against targets with less than -25 SP, Clash Power +1 and deal +10% damage\n- Deal +15% damage against targets with [EchoOfMansion]\n- When winning a Clash without losing a single Coin, heal 10 SP. If this unit is already at max SP, gain 2 [AttackUp] next turn (2 times per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1110811": {
+            "name": "The Mistress's Voice...!",
+            "desc": "- When clashing against targets with less than 0 SP, Clash Power +1 and deal +20% damage\n- Deal +30% damage against targets with [EchoOfMansion]\n- When winning a Clash without losing a single Coin, heal 10 SP. If this unit is already at max SP, gain 3 [AttackUp] next turn (2 times per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1110821": {
+            "name": "Butler Training",
+            "desc": "Clash Power +1 to 1 ally with the most SP when clashing against targets with less than -25 SP",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

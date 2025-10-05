@@ -1,0 +1,130 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "slash",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 16,
+                "coinValue": 16
+            },
+            {
+                "uptie": 3,
+                "baseValue": 21,
+                "coinValue": 16
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 16
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "Skill Power +2 against units with [Combustion]\n[EnemyKill] Gain 1 [Enhancement] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "Skill Power +2 against units with [Combustion]\n[EnemyKill] Gain 2 [Enhancement] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "Skill Power +2 against units with [Combustion]\nDeal +5% damage per 1 [Combustion] on target (Max 100%)\n[EnemyKill] Gain +2 [Enhancement] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "4th Match Flame",
+            "desc": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn with each of its attacks."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "slash",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 38,
+                "coinValue": 22
+            },
+            {
+                "uptie": 3,
+                "baseValue": 42,
+                "coinValue": 22
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 22
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "[CantIdentify]\nTargets randomly\nSkill Power +2 against units with [Combustion]\n[EnemyKill] Gain 2 [Enhancement] next turn\n[EnemyKillFail] Gain 10 [Combustion] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "[CantIdentify]\nTargets randomly\nSkill Power +4 against units with [Combustion]\n[EnemyKill] Gain 3 [Enhancement] next turn\n[EnemyKillFail] Gain 3 [Enhancement] and 10 [Combustion] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "[CantIdentify]\nTargets randomly\nSkill Power +4 against units with [Combustion]\nDeal +5% damage per 1 [Combustion] on target (Max 100%)\n[EnemyKill] Gain 3 [Enhancement] next turn\n[EnemyKillFail] Gain 3 [Enhancement] and 10 [Combustion] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            }
+        ]
+    }
+}

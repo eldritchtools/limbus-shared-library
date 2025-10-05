@@ -1,0 +1,219 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Gawky Nailing",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackTail] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Gawky Nailing",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [NailPersonality] next turn",
+                            "[OnSucceedAttackTail] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Gawky Nailing",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [NailPersonality] next turn",
+                            "[OnSucceedAttackTail] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]",
+                            "[OnSucceedAttack] Inflict 1 [NailPersonality]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Puri\u2026fy!",
+                    "desc": "[WinDuel] Heal 3 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [PlusCoinValueDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Puri\u2026fy!",
+                    "desc": "[WinDuel] Heal 5 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [PlusCoinValueDown] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Infirm Retribution",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Deal bonus damage by 10% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Deal bonus damage by 10% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Deal bonus damage by 10% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070401
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1070411
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070401": {
+            "name": "Bugger\u2026",
+            "desc": "When an ally is defeated, lose 10 SP and gain 1 Blunt Power Up next turn.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1070411": {
+            "name": "Bugger\u2026",
+            "desc": "When an ally is defeated, lose 10 SP and gain 1 Blunt Power Up next turn.\nIf 4 or more surviving units in the team, including this unit, are 'N Corp. Fanatics', Coin Power +1.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1070421": {
+            "name": "Cantillation",
+            "desc": "1 ally with the fastest Speed inflicts +1 Nails.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

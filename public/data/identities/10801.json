@@ -1,0 +1,188 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Loggerhead",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Loggerhead",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 4,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 9
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Slide",
+                    "desc": "[WinDuel] Inflict 1 [Disarming]",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Slide",
+                    "desc": "[WinDuel] Inflict 3 [Disarming]",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Slide",
+                    "desc": "[WinDuel] Inflict 3 [Disarming]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 7,
+                    "coinValue": 12
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 8
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Shield Bash",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger Tremor Burst; Inflict 1 [HitTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080103
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1080101
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1080121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1080121": {
+            "name": "Determination to Survive",
+            "desc": "1 ally with the least HP and less than 50% of Max HP gains +1 Clash Power in a clash.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 6
+                    }
+                ]
+            }
+        },
+        "1080101": {
+            "name": "Last-ditch Struggle",
+            "desc": "At less than 25% HP, gain +1 clash Power in a clash.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

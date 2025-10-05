@@ -1,0 +1,139 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "lust",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 0,
+                "baseValue": 17,
+                "coinValue": 9
+            },
+            {
+                "uptie": 3,
+                "baseValue": 19,
+                "coinValue": 9
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 9
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Roseate Desire",
+                "abName": "Pink Shoes",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Disarming]",
+                        "[OnSucceedAttack] Inflict 2 [DefenseDown]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Roseate Desire",
+                "abName": "Pink Shoes",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Disarming]",
+                        "[OnSucceedAttack] Inflict 4 [DefenseDown]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Roseate Desire",
+                "abName": "Pink Shoes",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Disarming]",
+                        "[OnSucceedAttack] Inflict 5 [DefenseDown]"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Binding Ribbons",
+            "desc": "The target of the leftmost skill on the Dashboard is inflicted with (Lust A-Reson. / 4) Lust Fragility next turn."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "lust",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 0,
+                "baseValue": 27,
+                "coinValue": 15
+            },
+            {
+                "uptie": 3,
+                "baseValue": 30,
+                "coinValue": 15
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 15
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Roseate Desire",
+                "abName": "Pink Shoes",
+                "desc": "[CantIdentify]\nTargets the unit with the fastest Speed",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Disarming]",
+                        "[OnSucceedAttack] Inflict 2 [DefenseDown]",
+                        "[OnSucceedAttackTail] Inflict 4 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Roseate Desire",
+                "abName": "Pink Shoes",
+                "desc": "[CantIdentify]\nTargets the unit with the fastest Speed",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Disarming]",
+                        "[OnSucceedAttack] Inflict 4 [DefenseDown]",
+                        "[OnSucceedAttack] Inflict 4 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Roseate Desire",
+                "abName": "Pink Shoes",
+                "desc": "[CantIdentify]\nTargets the unit with the fastest Speed",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Disarming]",
+                        "[OnSucceedAttack] Inflict 5 [DefenseDown]",
+                        "[OnSucceedAttack] Inflict 4 [Binding] next turn"
+                    ]
+                ]
+            }
+        ]
+    }
+}

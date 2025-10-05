@@ -1,0 +1,268 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rip",
+                    "desc": "[WhenUse] Gain 1 [SlashTakeDamageDown]",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Rip",
+                    "desc": "[WhenUse] Gain 2 [SlashTakeDamageDown]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rip",
+                    "desc": "[WhenUse] Gain 2 [SlashTakeDamageDown]\nGain +3 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                },
+                {}
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Energy Cycle",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Energy Cycle",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 2 [SlashTakeDamageUp]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Cycle",
+                    "desc": "If at 5+ [Charge] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 2 [SlashTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Energy Current",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Current",
+                    "desc": "If at 5+ [Charge] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 2 [Charge] Count to inflict 2 [DefenseDown]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1050301
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1050311
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1050321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1050321": {
+            "name": "Taciturn",
+            "desc": "1 ally with the slowest Speed inflicts +1 Rupture.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1050301": {
+            "name": "Enduring Spirit",
+            "desc": "When attacked, gain +1 Charge Count.\n(Up to 6 times)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1050311": {
+            "name": "Enduring Spirit",
+            "desc": "When attacked, gain +1 Charge Count. (Up to 6 times)\nAfter losing a clash, gain +1 Charge Count. (Up 6 times, counted independently of hits taken)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

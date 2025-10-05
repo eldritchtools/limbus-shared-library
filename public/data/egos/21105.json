@@ -1,0 +1,142 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": -2,
+                "baseValue": 20,
+                "coinValue": 11
+            },
+            {
+                "uptie": 3,
+                "coinValue": 11
+            },
+            {
+                "uptie": 4,
+                "coinValue": 11
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Holiday",
+                "abName": "Sandolph",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 2 allies with the least SP",
+                        "[EndSkill] Heal 20 SP for 2 allies with the least SP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Holiday",
+                "abName": "Sandolph",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 3 allies with the least SP",
+                        "[EndSkill] Heal 20 SP for 3 allies with the least SP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Holiday",
+                "abName": "Sandolph",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[EndSkill] Apply 1 'Damage Up' for the Affinity with the highest Resonance count to 4 allies with the least SP",
+                        "[EndSkill] Heal 20 SP for 4 allies with the least SP"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Fair Presents",
+            "desc": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, inflict 1 Potency of the selected effect to 1 random enemy. (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random Part.)"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 3,
+                "baseValue": 34,
+                "coinValue": 15
+            },
+            {
+                "uptie": 3,
+                "atkWeight": 4,
+                "coinValue": 15
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 5,
+                "coinValue": 15
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Holiday",
+                "abName": "Sandolph",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] This unit loses 10% HP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Target loses 10 SP",
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttackTail] Inflict 1 Fragility to the Affinity with the highest Resonance count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Holiday",
+                "abName": "Sandolph",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] This unit loses 10% HP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Target loses 10 SP",
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttackTail] Inflict 2 Fragility for the Affinity with the highest Resonance count",
+                        "[EndSkillTail] Gain 1 'Damage Up' to the Affinity with the highest Resonance count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Holiday",
+                "abName": "Sandolph",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] This unit loses 10% HP",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Target loses 10 SP",
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict 2 Fragility for the Affinity with the highest Resonance count",
+                        "[EndSkillTail] Gain 1 'Damage Up' to the Affinity with the highest Resonance count"
+                    ]
+                ]
+            }
+        ]
+    }
+}

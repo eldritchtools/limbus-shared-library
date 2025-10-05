@@ -1,0 +1,138 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": -2,
+                "baseValue": 15,
+                "coinValue": 5
+            },
+            {
+                "uptie": 3,
+                "baseValue": 18,
+                "coinValue": 5
+            },
+            {
+                "uptie": 4,
+                "coinValue": 5
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Legerdemain",
+                "abName": "Golden Apple",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Vibration]",
+                        "[OnSucceedAttackHead] Inflict 2 [Paralysis]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Legerdemain",
+                "abName": "Golden Apple",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger [Vibration] Burst",
+                        "[OnSucceedAttack] Inflict 4 [Vibration]",
+                        "[OnSucceedAttackHead] Inflict 4 [Paralysis]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Legerdemain",
+                "abName": "Golden Apple",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger [Vibration] Burst",
+                        "[OnSucceedAttack] Inflict 6 [Vibration]",
+                        "[OnSucceedAttack] Inflict 4 [Paralysis]"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Maggots",
+            "desc": "On hit, inflict 5 Maggots at a (Gluttony A-Reson. x8)% chance."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": -2,
+                "baseValue": 25,
+                "coinValue": 14
+            },
+            {
+                "uptie": 3,
+                "baseValue": 28,
+                "coinValue": 14
+            },
+            {
+                "uptie": 4,
+                "coinValue": 14
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Legerdemain",
+                "abName": "Golden Apple",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Laceration]",
+                        "[OnSucceedAttackHead] Inflict 2 [Paralysis]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Legerdemain",
+                "abName": "Golden Apple",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Laceration]",
+                        "[OnSucceedAttack] Inflict 4 [Paralysis]",
+                        "[OnSucceedAttack] Inflict 4 [Muckworm]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Legerdemain",
+                "abName": "Golden Apple",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Laceration]",
+                        "[OnSucceedAttack] Inflict 4 [Paralysis]",
+                        "[OnSucceedAttack] Inflict 6 [Muckworm]"
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,302 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Adherence to Propriety.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Adherence to Propriety.",
+                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Adherence to Propriety.",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n<style=\"highlight\">[WhenUse] If target has 'Unique [Vibration]' as [Vibration], Clash Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1101301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Respect the Thumb.",
+                    "desc": "[WhenUse] If target has 6+ (sum of [Combustion] and [Vibration]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vibration]",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Respect the Thumb.",
+                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict +1 [Combustion] Count",
+                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Respect the Thumb.",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 4 (sum of [Combustion] and [Vibration] on target) (max 30%)\n[WhenUse] If target has 10+ 'Unique [Vibration]', Base Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict <style=\"highlight\">+2 [Combustion] Count",
+                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1101302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Thruster Compression",
+                    "desc": "[WhenUse] Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] At 3+ [FireBulletPropellant], Base Power +1",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [FireBulletPropellant]",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +20% damage",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +2 [Combustion] Count",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                        ],
+                        [
+                            "Spend 1 [FireBulletPropellant]",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +20% damage",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ],
+                        [
+                            "Spend 1 [FireBulletPropellant]",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +20% damage",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict 4 [Combustion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                            "[OnSucceedAttack] If this unit spent [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Thruster Compression",
+                    "desc": "[WhenUse] Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] At 3+ [FireBulletPropellant], <style=\"highlight\">Base Power +3, deal +30% damage, and convert the Coins to [SuperCoin]s",
+                    "coinDescs": [
+                        [
+                            "Spend 1 [FireBulletPropellant]",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25% damage",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">+3 [Combustion] Count",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                        ],
+                        [
+                            "Spend 1 [FireBulletPropellant]",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25% damage",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ],
+                        [
+                            "Spend 1 [FireBulletPropellant]",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25% damage",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict 4 [Combustion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                            "[OnSucceedAttack] If this unit spent [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1",
+                            "<style=\"highlight\">[OnSucceedAttack] If this Skill spent 3 [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1101303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1101312,
+                1101301
+            ]
+        },
+        {
+            "level": 3,
+            "passives": [
+                1101312,
+                1101301
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1101312,
+                1101311
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1101321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1101312": {
+            "name": "Bayonets",
+            "desc": "Always Active: begin Encounters with 15 [FireBulletPropellant]\n\nIf this unit spent [FireBulletPropellant] with Skills or Passives, gain [AttackDmgUp] equal to the amount spent next turn (max 3)\n\nWhen flipping a Coin that spends [FireBulletPropellant]: while not having [FireBulletPropellant] does not cancel this unit's attacks, the Coin's On Hit \"inflict [Combustion]\" and \"inflict [Combustion] Count\" effects do not activate"
+        },
+        "1101321": {
+            "name": "Reloader",
+            "desc": "When the 1 ally Identity with the earliest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), regain half of the maximum [Bullet] capacity (rounded up; once per Encounter; max [Bullet] regained: 5)\n\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will gain them at random\n- If either Potency or Count of [Bullet] is maxed out, gain whichever is not maxed\n- This effect does not activate if there are no Identities that use [Bullet]",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1101301": {
+            "name": "Ammunition Tribute",
+            "desc": "When the 1 ally Identity with the earliest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. (can spend up to 3 ammunition) (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1101311": {
+            "name": "Ammunition Tribute",
+            "desc": "When the 1 ally Identity with the earliest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. <style=\"highlight\">(can spend up to 5 ammunition)</style> (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

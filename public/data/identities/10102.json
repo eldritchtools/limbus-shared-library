@@ -1,0 +1,226 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Fl\u00e8che",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Fl\u00e8che",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Riposte",
+                    "desc": "[WinDuel] Inflict 3 [Paralysis] next turn",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Riposte",
+                    "desc": "[WinDuel] Inflict 3 [Paralysis] next turn",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Riposte",
+                    "desc": "[WinDuel] Inflict 3 [Paralysis] next turn\n[WinDuel] Inflict 1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010203
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Moulinet",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                        ],
+                        [
+                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Moulinet",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                        ],
+                        [
+                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010202
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1010201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1010221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1010201": {
+            "name": "Acute Studies",
+            "desc": "In a clash, the opponent has -2 Clash Power.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1010221": {
+            "name": "Observational Eye",
+            "desc": "1 ally with the highest Max HP gains +1 clash Power in a clash.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

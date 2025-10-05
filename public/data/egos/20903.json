@@ -1,0 +1,136 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 1,
+                "baseValue": 13,
+                "coinValue": 15
+            },
+            {
+                "uptie": 3,
+                "baseValue": 15,
+                "coinValue": 15
+            },
+            {
+                "uptie": 4,
+                "baseValue": 15,
+                "coinValue": 15
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Rime Shank",
+                "abName": "Baba Yaga",
+                "desc": "If target\u2019s HP is above 50%, deal +10% damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Rime Shank",
+                "abName": "Baba Yaga",
+                "desc": "If target\u2019s HP is above 50%, deal +30% damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Rime Shank",
+                "abName": "Baba Yaga",
+                "desc": "If target\u2019s HP is above 50%, deal +30% damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict 5 [Sinking]\n[OnSucceedAttack] Inflict +5 [Sinking] Count"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Coldness",
+            "desc": "On hit, if the target has 5+ Sinking, inflict 1 Bind and Attack Power Down.\n(3 times per unit)"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 1,
+                "baseValue": 17,
+                "coinValue": 6
+            },
+            {
+                "uptie": 3,
+                "baseValue": 21,
+                "coinValue": 6
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3,
+                "coinValue": 6
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Rime Shank",
+                "abName": "Baba Yaga",
+                "desc": "[CantIdentify]\nTargets the unit with the most HP\nIf target\u2019s HP is above 50%, +10% Damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict +4 [Sinking] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Rime Shank",
+                "abName": "Baba Yaga",
+                "desc": "[CantIdentify]\nTargets the unit with the most HP\nIf target\u2019s HP is above 50%, +30% Damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict +6 [Sinking] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Rime Shank",
+                "abName": "Baba Yaga",
+                "desc": "[CantIdentify]\nTargets the unit with the most HP\nIf target\u2019s HP is above 50%, +30% Damage",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Inflict 10 [Sinking]\n[OnSucceedAttack] Inflict +8 [Sinking] Count"
+                    ]
+                ]
+            }
+        ]
+    }
+}

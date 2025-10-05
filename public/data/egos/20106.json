@@ -1,0 +1,127 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 0,
+                "baseValue": 15,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Bygone Days",
+                "abName": "Portrait of a Certain Day",
+                "desc": "[EndSkill] Randomly inflict (6 + Gloom Reson.) [[Sinking]] between targets",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 1 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Bygone Days",
+                "abName": "Portrait of a Certain Day",
+                "desc": "[EndSkill] Randomly inflict (6 + Gloom Reson.) [[Sinking]] between targets",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 2 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Bygone Days",
+                "abName": "Portrait of a Certain Day",
+                "desc": "[EndSkill] Randomly inflict (6 + (<style=\"highlight\">Gloom Reson. x1.5)) [[Sinking]] between targets",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 2 [Binding] next turn"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Fractured Yesterday",
+            "desc": "If the target has 6+ [Sinking] Potency, Clash Power +1\nIf the target has 4+ [Sinking] Count, Clash Power +1"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 0,
+                "baseValue": 22,
+                "coinValue": 6
+            },
+            {
+                "uptie": 3
+            },
+            {
+                "uptie": 4,
+                "coinValue": 6
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Bygone Days",
+                "abName": "Portrait of a Certain Day",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [[Sinking]]. Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 1 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Bygone Days",
+                "abName": "Portrait of a Certain Day",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 3+ (Gloom Reson.), Atk Weight +1",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [[Sinking]]. Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 1 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Bygone Days",
+                "abName": "Portrait of a Certain Day",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 3+ (Gloom Reson.), Atk Weight +1\n[BeforeAttack] At 5+ (Gloom Reson.), additional Atk Weight +1",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [[Sinking]]. Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 2 [Binding] next turn"
+                    ]
+                ]
+            }
+        ]
+    }
+}

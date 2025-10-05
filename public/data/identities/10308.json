@@ -1,0 +1,277 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Draw of the Sword",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Draw of the Sword",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Draw of the Sword",
+                    "desc": "<style=\"highlight\">At 5+ [Breath] on self, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1030801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Blade Arc",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [Breath]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] To 1 ally either with no [Breath] or with the least [Breath] Potency, apply 2 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Blade Arc",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] To 1 ally either with no [Breath] or with the least [Breath] Potency, apply 2 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blade Arc",
+                    "desc": "<style=\"highlight\">At 7+ [Breath] on self, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] To 1 ally either with no [Breath] or with the least [Breath] Potency, apply 2 [Breath]\n<style=\"highlight\">If the affected ally is from the Blade Lineage, apply 2 additional [Breath]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1030802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Fare Thee Well!",
+                    "desc": "[WhenUse] Gain 5 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +10% damage"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +10% damage"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] To 2 allies either with no [Breath] or with the least [Breath] Count, apply +2 [Breath] Count",
+                            "[EndSkill] If target is defeated, gain 1 [SlashDamageUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fare Thee Well!",
+                    "desc": "<style=\"highlight\">At 10+ [Breath] on self, Coin Power +1\n[WhenUse] Gain 5 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +10% damage"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +10% damage"
+                        ],
+                        [
+                            "+30% Damage on Critical Hit",
+                            "[CriticalOnSucceedAttack] To 2 allies either with no [Breath] or with the least [Breath] Count, apply +2 [Breath] Count.\n<style=\"highlight\">If the affected ally is from the Blade Lineage, apply 2 additional [Breath] Count",
+                            "[EndSkill] If target is defeated, <style=\"highlight\">apply 1 [SlashDamageUp] to self and 1 random other ally next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1030803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1030801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1030811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1030821
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1030831
+            ]
+        }
+    ],
+    "passiveData": {
+        "1030801": {
+            "name": "Collective Breathing",
+            "desc": "When this unit gains [Breath] Potency with its own Skill or Coin effects: give 1 [Breath] Potency to 1 ally with no [Breath] or with the least [Breath] Potency (3 times max)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1030811": {
+            "name": "Collective Breathing",
+            "desc": "When this unit gains [Breath] Potency with its own Skill or Coin effects: give 1 [Breath] Potency to 1 ally with no [Breath] or with the least [Breath] Potency (5 times max)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1030821": {
+            "name": "Nightly Stroll",
+            "desc": "1 ally with the least [Breath] gains 1 more [Breath] Potency when gaining [Breath] Potency with its own Skill or Coin effects. (2 times max. Does not apply to allies without [Breath])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1030831": {
+            "name": "Nightly Stroll",
+            "desc": "1 ally with the least [Breath] gains 2 more [Breath] Potency when gaining [Breath] Potency with its own Skill or Coin effects. (2 times max. Does not apply to allies without [Breath])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

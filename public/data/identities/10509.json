@@ -1,0 +1,261 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Bat Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Bat Strike",
+                    "desc": "If target has 5+ [Burst], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Bat Strike",
+                    "desc": "If target has 5+ [Burst], Coin Power +<style=\"highlight\">2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050901
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Smackdown",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Smackdown",
+                    "desc": "[WinDuel] Inflict +2 [Burst] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Smackdown",
+                    "desc": "<style=\"highlight\">[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] If target has 4+ [Burst], inflict 2 [AttackDown]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050902
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Relentless",
+                    "desc": "[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Burst]",
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Relentless",
+                    "desc": "<style=\"highlight\">[WhenUse] If target has 3+ [Burst], Clash Power +1\n[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Burst]",
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict 2 [AttackDown] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050903
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1050901
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1050911
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1050921
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1050931
+            ]
+        }
+    ],
+    "passiveData": {
+        "1050921": {
+            "name": "My Responsibility",
+            "desc": "When 1 ally with the fastest Speed hits an enemy with 6+ [Burst], inflict 1 [AttackDown] (3 times per enemy per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1050931": {
+            "name": "My Responsibility",
+            "desc": "When 1 ally with the fastest Speed hits an enemy with 3+ [Burst], inflict 1 [AttackDown] (3 times per enemy per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1050901": {
+            "name": "Buy Time",
+            "desc": "Clash Power +1 in a Clash against targets with [Burst]",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1050911": {
+            "name": "Buy Time",
+            "desc": "Clash Power +1 against targets with [Burst]\nClash Power +2 if the target has 5+ [Burst] Count",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,294 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Energy Strike",
+                    "desc": "At 2+ [[Charge]], Coin Power +1\n[WhenUse] Gain +2 [[Charge]] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Energy Strike",
+                    "desc": "<style=\"highlight\">Deal +2% damage for every [[Charge]] (max 10%)\nAt 2+ [[Charge]], Coin Power +1\n[WhenUse] Gain +2 [[Charge]] Count",
+                    "coinDescs": [
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Gain +([[Charge]] + 1) [[Charge]] Count (max 3)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Strike",
+                    "desc": "Deal <style=\"highlight\">+3% damage for every [[Charge]] (max <style=\"highlight\">15%)\nAt 2+ [[Charge]], Coin Power +1\n<style=\"highlight\">At 5+ [[Charge]] Count, Coin Power +1\n[WhenUse] Gain +2 [[Charge]] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] + 1) [[Charge]] Count (max <style=\"highlight\">4)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Mind Whip",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count:\n- Gain 15 [[Sinking]] and raise this unit's [[Charge]] Count to 10\n- This Skill gains the following attributes: [CantIdentify], [WideAreaRampage], and Atk Weight +1\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Mind Whip",
+                    "desc": "<style=\"highlight\">Deal +2% damage for every [[Charge]] (max 10%)\n[WhenUse] At 5~9 [[Charge]] Count:\n- Gain 15 [[Sinking]] and raise this unit's [[Charge]] Count to 10\n- This Skill gains the following attributes: [CantIdentify], [WideAreaRampage], and Atk Weight +1\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Raise Stagger Threshold by 5% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Raise Stagger Threshold by 5% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Raise Stagger Threshold by 5% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Raise Stagger Threshold by 10% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Mind Whip",
+                    "desc": "Deal <style=\"highlight\">+4% damage for every [[Charge]] (max <style=\"highlight\">20%)\n[WhenUse] At 5~9 [[Charge]] Count:\n- Gain <style=\"highlight\">10 [[Sinking]] and raise this unit's [[Charge]] Count to 10\n- This Skill gains the following attributes: [CantIdentify], [WideAreaRampage], and Atk Weight +1\n<style=\"highlight\">- [BeforeUse] At 5+ [[Charge]], this Skill does not gain the [CantIdentify] effect\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power <style=\"highlight\">+2\n<style=\"highlight\">[BeforeAttack] At 8+ remaining [[Charge]] Count, consume 8 [[Charge]] Count to deal +40% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 5% of damage dealt<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 5% of damage dealt<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]<style=\"highlight\">",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 5% of damage dealt<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 10% of damage dealt<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 8,
+                    "coinValue": 8
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 10
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Concentration",
+                    "desc": "Coin Power +1 for every [[Charge]] (max 5)\nAt 10+ [[Charge]] Count, Final Power +2\n[WhenUse] Gain +5 [[Charge]] Count",
+                    "coinDescs": [
+                        [
+                            "Deal +(this Skill's Power x 5)% damage (max 100%)",
+                            "[OnSucceedAttack] Gain +([[Charge]] + 1) [[Charge]] Count (max 6)",
+                            "[OnSucceedAttack] Inflict 4 [[Sinking]] and +2 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Concentration",
+                    "desc": "<style=\"highlight\">Base Power +1 and Coin Power +1 for every [[Charge]] <style=\"highlight\">(max 5 each)\nAt 10+ [[Charge]] Count, Final Power <style=\"highlight\">+4\n[WhenUse] Gain <style=\"highlight\">+7 [[Charge]] Count",
+                    "coinDescs": [
+                        [
+                            "Deal +(this Skill's Power x 5)% damage (max <style=\"highlight\">150%)",
+                            "<style=\"highlight\">At 3+ [[Charge]], deal +20% damage for every [[Charge]] (max 100%)",
+                            "[OnSucceedAttack] Gain +([[Charge]] + <style=\"highlight\">3) [[Charge]] Count (max <style=\"highlight\">8)",
+                            "[OnSucceedAttack] Inflict 4 [[Sinking]] and <style=\"highlight\">+4 [[Sinking]] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1061201
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1061211
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1061221
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1061231
+            ]
+        }
+    ],
+    "passiveData": {
+        "1061201": {
+            "name": "Brainwave Charge-focusing Antlers",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n\nAt 2+ [Charge]:\n- Inflict +1 more [Sinking] with Base Attack Skills (does not activate when inflicting only [Sinking] Count or when inflicting [Sinking] on self)\n- Deal +([Charge] x 3)% damage with Base Attack Skills (max 15%)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1061211": {
+            "name": "Brainwave Charge-focusing Antlers",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\n\nAt 2+ [Charge]:\n<style=\"highlight\">- Inflict +1 more [Sinking] with Base Attack Skills for every 2 [Charge] (max 2, does not activate when inflicting only [Sinking] Count or when inflicting [Sinking] on self)</style>\n- Deal +([Charge] x <style=\"highlight\">5</style>)% damage with Base Attack Skills (max <style=\"highlight\">25%</style>)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1061221": {
+            "name": "Charged Pulverization Support",
+            "desc": "1 ally with the most [Charge]: when using a Base Attack Skill that gains [Charge] Count, deal +10% damage with the final Coin",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1061231": {
+            "name": "Charged Pulverization Support",
+            "desc": "1 ally with the most [Charge]: when using a Base Attack Skill that gains [Charge] Count, deal <style=\"highlight\">+15%</style> damage with the final Coin",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

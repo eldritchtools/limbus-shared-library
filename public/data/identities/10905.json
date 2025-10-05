@@ -1,0 +1,223 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rev Up",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]",
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Rev Up",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]",
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rev Up",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]",
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090501
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Vibration Compression",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nIf the Coin is reused twice, inflict [Vibration], then trigger [Vibration] Burst\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Vibration Compression",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [Vibration] Burst\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Vibration Compression",
+                    "desc": "If target has 10+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [Vibration] Burst\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090502
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Let\u2019s Rack Up Some Scores",
+                    "desc": "[WhenUse] Gain +6 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Vibration]",
+                            "[OnSucceedAttack] Trigger [Vibration] Burst.\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
+                        ],
+                        [
+                            "[OnSucceedAttack] Trigger [Vibration] Burst.\nAfter [Vibration] Burst, reduce [Vibration] Count by 1",
+                            "[OnSucceedAttack] If target is Staggered, deal 25% of damage dealt as bonus damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090503
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1090501
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1090521
+            ]
+        }
+    ],
+    "passiveData": {
+        "1090521": {
+            "name": "Resonant Spanner",
+            "desc": "When 1 ally with the slowest Speed triggers [VibrationExplosion], increase the Stagger Threshold raise by +20%.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1090501": {
+            "name": "Here\u2019s to Getting Off Early~",
+            "desc": "On [VibrationExplosion], spend 3 Charge Count to increase the Stagger Threshold raise by +40%.\nAfter triggering [VibrationExplosion], gain 1 Haste and 1 Blunt DMG Up next turn.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

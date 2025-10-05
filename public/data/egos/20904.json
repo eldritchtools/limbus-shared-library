@@ -1,0 +1,136 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 2,
+                "levelCorrection": 1,
+                "baseValue": 20,
+                "coinValue": 5
+            },
+            {
+                "uptie": 3,
+                "coinValue": 5
+            },
+            {
+                "uptie": 4,
+                "coinValue": 5
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Effervescent Corrosion",
+                "abName": "Ambling Pearl",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +3 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 2 [Binding] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Effervescent Corrosion",
+                "abName": "Ambling Pearl",
+                "desc": "[BeforeAttack] If main target has 50%+ HP, Atk Weight +1",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Vibration] and +5 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttackHead] Trigger [Vibration] Burst"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Effervescent Corrosion",
+                "abName": "Ambling Pearl",
+                "desc": "[BeforeAttack] If main target has 50%+ HP, Atk Weight +1;\nIf main target has 75%+ HP, additional Atk Weight +1",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Vibration] and +7 [Vibration] Count",
+                        "[OnSucceedAttackHead] Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] Trigger [Vibration] Burst"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Sticky Filth",
+            "desc": "On Heads Hit with a Pierce Skill, inflict 1 Bind (2 times per turn)"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 2,
+                "levelCorrection": 1,
+                "baseValue": 27,
+                "coinValue": 10
+            },
+            {
+                "uptie": 3,
+                "coinValue": 10
+            },
+            {
+                "uptie": 4,
+                "coinValue": 10
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Effervescent Corrosion",
+                "abName": "Ambling Pearl",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 30% of damage dealt",
+                        "[OnSucceedAttack] Trigger Tremor Burst"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Effervescent Corrosion",
+                "abName": "Ambling Pearl",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If main target has 50%+ HP, Atk Weight +1",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 30% of damage dealt",
+                        "[OnSucceedAttack] Inflict 3 [DefenseDown]",
+                        "[OnSucceedAttack] Trigger Tremor Burst"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Effervescent Corrosion",
+                "abName": "Ambling Pearl",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If main target has 50%+ HP, Atk Weight +1;\nIf main target has 75%+ HP, additional Atk Weight +1",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 30% of damage dealt",
+                        "[OnSucceedAttack] Inflict 5 [DefenseDown]",
+                        "[OnSucceedAttack] Trigger Tremor Burst"
+                    ]
+                ]
+            }
+        ]
+    }
+}

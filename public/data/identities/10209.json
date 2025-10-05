@@ -1,0 +1,264 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Confiscation",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Confiscation",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Confiscation",
+                    "desc": "[WhenUse] If target has 6+ [[Sinking]], Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020901
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Interloper Reception",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict +2 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Interloper Reception",
+                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Clash Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Interloper Reception",
+                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Clash Power +1\n[WhenUse] If target has 3+ [[Sinking]] Count, Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020902
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Reception Arts 4: Heartseal",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                        ],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [EchoOfMansion] next turn",
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict +3 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Reception Arts 4: Heartseal",
+                    "desc": "[WhenUse] If target has 5+ [[Sinking]] Count, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                        ],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [EchoOfMansion] next turn",
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict +3 [[Sinking]] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020903
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1020901
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020911
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020921
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020931
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020921": {
+            "name": "Anticipatory Training",
+            "desc": "When 1 ally with the least SP hits an enemy with 5+ [Sinking], the ally heals 2 SP On Hit (4 times per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020931": {
+            "name": "Anticipatory Training",
+            "desc": "When 1 ally with the least SP hits an enemy with 5+ [Sinking], the ally heals 3 SP On Hit (4 times per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020901": {
+            "name": "Butler Style Response",
+            "desc": "- Clash Win: inflict 1 [Sinking] on target (3 times per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020911": {
+            "name": "Butler Style Response",
+            "desc": "- Clash Win: inflict 1 [Sinking] on target (3 times per turn)\n- If the target has [EchoOfMansion], inflict 3 [Sinking] instead",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

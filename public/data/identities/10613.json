@@ -1,0 +1,385 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "I Wish to Open the Path",
+                    "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Breath] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "I Wish to Open the Path",
+                    "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses as well)\n<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I Wish to Open the Path",
+                    "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses)\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +<style=\"highlight\">3 [Breath] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Tarnished Blood's Absolute Cleaver of Ambitions [\u6c5a\u8840\u7d55\u5fd7\u7adf\u6210]",
+                    "desc": "[WhenUse] Gain 2 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Breath] Count"
+                        ],
+                        [
+                            "[SuperCoin]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Tarnished Blood's Absolute Cleaver of Ambitions [\u6c5a\u8840\u7d55\u5fd7\u7adf\u6210]",
+                    "desc": "<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Gain <style=\"highlight\">3 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "<style=\"highlight\">Deal +50% damage",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Tarnished Blood's Absolute Cleaver of Ambitions [\u6c5a\u8840\u7d55\u5fd7\u7adf\u6210]",
+                    "desc": "<style=\"highlight\">[StartBattle] Apply 1 [ShamrockDamageUp] to all other allies that have Gluttony Skills equipped this turn (once per turn)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Burst] on target + [Breath] on self) (max 2)\n[WhenUse] Gain 3 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "Deal +50% damage<style=\"highlight\">",
+                            "<style=\"highlight\">+50% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 10,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 10,
+                    "coinValue": 12
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Answer Me, Heishou Packs",
+                    "desc": "This Skill does not trigger Defense Skills\n\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit with the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [AttackDown] for every 2 types of negative effect on target (max 3)",
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every type of Deathrite on target (max 3)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Answer Me, Heishou Packs",
+                    "desc": "This Skill does not trigger Defense Skills\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 4 ([Burst] on target + [Breath] on self) (max 3)\n[WhenUse] Gain <style=\"highlight\">5 [Breath] and +<style=\"highlight\">3 [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit with the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [AttackDown] for every 2 types of negative effect on target (max 3)<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every type of Deathrite on target (max 3)<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061303
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 6,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "I Carve the Path of a Lord",
+                    "desc": "[WhenUse] If this unit activated combo with a Heishou Pack Adept Identity: Base Power +1, Coin Power +1\n\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Deal +5% damage for every [HeishouComboCountHonglu]\n[EndSkill] Gain [HeishouComboCountHonglu] depending on which Heishou Pack Identity activated [HeishouCombo]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[EnemyKill] For 2 ally Heishou Pack Identities with the least SP, heal 10 SP and apply 1 [Enhancement] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I Carve the Path of a Lord",
+                    "desc": "[WhenUse] If this unit activated combo with a Heishou Pack Adept Identity: Base Power +1, Coin Power +1\n\n<style=\"highlight\">Deal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Burst] on target + Poise on self) (max 3)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 types of negative effects on target (max 30%)\n[WhenUse] Deal <style=\"highlight\">+10% damage for every [HeishouComboCountHonglu]\n[EndSkill] Gain [HeishouComboCountHonglu] depending on which Heishou Identity activated [HeishouCombo]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\">Deal +50% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)",
+                            "[EnemyKill] For 2 ally Heishou Pack Identities with the least SP, heal 10 SP and apply 1 [Enhancement] next turn<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061305
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 6,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Lonesome Stand: Sacrifice to Claim The Garden [\u5b51\u5b51\u55ae\u8eab, \u6368\u751f\u53d6\u56ed]",
+                    "desc": "Deal +10% damage for every [HeishouDeathCount] on self\nDeal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] At 3+ [HeishouDeathCount], gain +1 Atk Weight\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n[WhenUse] Deal +5% damage for every [HeishouComboCountHonglu]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "Deal +10% damage for every type of negative effect on target (max 50%)",
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)",
+                            "[EnemyKill] Gain 1 [Enhancement] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Lonesome Stand: Sacrifice to Claim The Garden [\u5b51\u5b51\u55ae\u8eab, \u6368\u751f\u53d6\u56ed]",
+                    "desc": "Deal +10% damage for every [HeishouDeathCount] on self\nDeal +1% damage for every 1% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[WhenUse] At 3+ [HeishouDeathCount], gain +1 Atk Weight\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Burst] on target + [Breath] on self) (max 3)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 types of negative effects on target (max 30%)\n[WhenUse] Deal <style=\"highlight\">+10% damage for every [HeishouComboCountHonglu]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "Deal +10% damage for every type of negative effect on target (max 50%)<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)<style=\"highlight\">",
+                            "[EnemyKill] Gain <style=\"highlight\">2 [Enhancement] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1061306
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1061302
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1061302,
+                1061301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1061321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1061321": {
+            "name": "Please be traceless in your deeds.",
+            "desc": "Identity with the least current HP percentage: deal +(types of Deathrites on target x 3)% damage against the enemy (max 15%)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 6
+                    }
+                ]
+            }
+        },
+        "1061301": {
+            "name": "Embrace the Tarnished Blood and Exsanguinate Others For the Cause.",
+            "desc": "Combat Start: if this unit did not equip a Defense Skill and is about to take an Unopposed Attack, apply 1 [HeishouSupportProtect] to (highest Reson. / 3) random Heishou Pack allies with the least [SupportProtect] Stacks. (max 2 allies; once per Identity; excludes Identities with Skills that gain [SupportProtect])\n\nIn this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn, and it gains 1 [CondensedBlood] (once per Encounter)\n\nThis unit's Skills deal +3% damage for every [CondensedBlood] on self\n\nWhen activating the E.G.O Skill 'Tears[TabExplain] of the Tarnished Blood[TabExplain] - The End', nullify the death effect in its After Attack effects; instead, heal 60% HP. Starting next turn, gain 1 [AttackDmgUp] at every Turn Start (once per Encounter)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1061302": {
+            "name": "The Heishou Lord",
+            "desc": "When other ally units Substitute in or Return to the battlefield, they heal 10 SP; then, at Combat Start, command them to use Skill 1 as an Unopposed Attack against a random enemy\n- If the said ally is a Heishou Pack or a Jia Family unit, activate the following instead: heal 20 SP; then, at Combat Start, command them to use their base Skill 3 as an Unopposed Attack against a random enemy (2 times per Encounter per Identity)\n\nEncounter Start: gain 1 [HeishouSynergy] for every Heishou Pack Identity in the Team, including Backup Units\n\nWhen Heishou Units are killed in an Encounter, heal 20 SP and gain 1 [HeishouDeathCount] (activates even when this unit has Retreated)\n\nDeal +5% damage for every 1 [HeishouComboCountHonglu] (max 55%)"
+        }
+    }
+}

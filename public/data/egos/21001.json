@@ -1,0 +1,73 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "slash",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 10,
+                "coinValue": 15
+            },
+            {
+                "uptie": 3,
+                "baseValue": 14,
+                "coinValue": 15
+            },
+            {
+                "uptie": 4,
+                "coinValue": 15
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Branch of Knowledge",
+                "abName": "Sinclair",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Inflict 6 [Burst]",
+                        "[OnSucceedAttack] Lose 10 SP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Branch of Knowledge",
+                "abName": "Sinclair",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Inflict 12 [Burst]",
+                        "[OnSucceedAttackHead] Lose 10 SP",
+                        "[OnSucceedAttackTail] Heal 10 SP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Branch of Knowledge",
+                "abName": "Sinclair",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Inflict 12 [Burst]",
+                        "[OnSucceedAttackHead] Lose 10 SP. <style=\"highlight\">Gain 1 [Enhancement] next turn",
+                        "[OnSucceedAttackTail] Gain 10 SP. <style=\"highlight\">Gain 1 [Protection] next turn"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Unstable",
+            "desc": "If a skill's Coin hits with a different side from the previous Coin in the same skill, lose 5 SP and gain 1 Damage Up this turn. (3 times per turn)"
+        }
+    ]
+}

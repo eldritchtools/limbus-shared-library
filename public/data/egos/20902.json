@@ -1,0 +1,108 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "slash",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 33,
+                "coinValue": 18
+            },
+            {
+                "uptie": 3,
+                "baseValue": 38,
+                "coinValue": 18
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 6 [Combustion]",
+                        "[OnSucceedAttack] Inflict 3 [CrimsonTakeDamageUp] next turn"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Spark of Flame",
+            "desc": "After defeating an enemy that has [Combustion], heal HP by (Wrath A-Reson.)% of Max HP."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "slash",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": 3,
+                "baseValue": 28,
+                "coinValue": 18
+            },
+            {
+                "uptie": 3,
+                "baseValue": 33,
+                "coinValue": 18
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 5
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "4th Match Flame",
+                "abName": "Scorched Girl",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 6 [Combustion]",
+                        "[OnSucceedAttack] Inflict 3 [CrimsonTakeDamageUp] next turn"
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Mind Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Sinking]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Mind Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Mind Strike",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 5,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 12
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Flaying Surge",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +3 [Sinking] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Flaying Surge",
+                    "desc": "[WhenUse] Gain +5 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +3 [Sinking] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flaying Surge",
+                    "desc": "[WhenUse] Gain +7 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Mind Whip",
+                    "desc": "[StartBattle] Spend all Charge Count\nIf at less than 10 Charge Count at Combat Start, target a random unit for an unopposed attack",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 40% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 30% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 20% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 10% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Mind Whip",
+                    "desc": "[StartBattle] Spend 8 Charge Count\nIf at less than 8 Charge Count at Combat Start, target a random unit for an unopposed attack",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 40% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 30% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 20% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Raise Stagger Threshold by 10% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1080201
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1080211
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1080221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1080201": {
+            "name": "Brainwave Focus",
+            "desc": "At the start of the combat phase, lose 15 SP.\nGain (Gloom Res / 3) Attack Power Up next turn.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1080211": {
+            "name": "Brainwave Focus",
+            "desc": "At the start of the combat phase, gain (Gloom Reson. / 3) Attack Power Up.\nIf this unit fails to deal damage this turn, lose 15 SP at the end of the turn.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1080221": {
+            "name": "Tenacity",
+            "desc": "1 ally with the least SP deals +10% Blunt damage.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

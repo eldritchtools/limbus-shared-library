@@ -1,0 +1,235 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rev Up",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Rev Up",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rev Up",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] If target has 5+ Tremor Count, inflict 3 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120501
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 12
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 12
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 12
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Grease Chains",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Grease Chains",
+                    "desc": "[WhenUse] Gain +3 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Grease Chains",
+                    "desc": "[WhenUse] Gain +3 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120502
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Let's Grind 'Em",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2;\nSpend up to 4 Charge Count to inflict [Burst] Count equal to Charge Count spent"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] If target is Staggered, deal +10% damage"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] If target is Staggered, deal +10% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Let's Grind 'Em",
+                    "desc": "If target has 5+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2;\nSpend up to 4 Charge Count to inflict [Burst] Count equal to Charge Count spent"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] If target is Staggered, deal +10% damage",
+                            "[OnSucceedAttack] If target has 5+ [Vibration] Count, inflict 3 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] If target is Staggered, deal +10% damage",
+                            "[OnSucceedAttack] If target has 5+ [Vibration] Count, inflict 3 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120503
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1120501
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1120521
+            ]
+        }
+    ],
+    "passiveData": {
+        "1120521": {
+            "name": "Sawblade Maintenance",
+            "desc": "1 ally with the slowest Speed inflicts +1 Rupture to targets with [Vibration]",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1120501": {
+            "name": "Sawblade Fired Up",
+            "desc": "Inflict +1 Rupture to targets with [Vibration]",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

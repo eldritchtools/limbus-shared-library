@@ -1,0 +1,235 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Striker\u2019s Stance",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Striker\u2019s Stance",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 3 [Breath] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Striker\u2019s Stance",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 3 [Breath] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 6,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 7
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Heel Turn",
+                    "desc": "[WinDuel] Gain +1 [Breath] Count next turn",
+                    "coinDescs": [
+                        [],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Heel Turn",
+                    "desc": "[WinDuel] Gain +2 [Breath] Count next turn",
+                    "coinDescs": [
+                        [],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Heel Turn",
+                    "desc": "[WinDuel] Gain +2 [Breath] Count next turn",
+                    "coinDescs": [
+                        [],
+                        []
+                    ]
+                }
+            ],
+            "id": 1010302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 8,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Flank Thrust",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [Breath] next turn"
+                        ],
+                        [],
+                        [
+                            "+50% Damage on Critical Hit"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flank Thrust",
+                    "desc": "[WhenUse] Gain 2 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [Breath] next turn"
+                        ],
+                        [],
+                        [
+                            "+70% Damage on Critical Hit"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1010301
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1010311
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1010321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1010321": {
+            "name": "Bestow",
+            "desc": "1 ally with the most SP gains +1 Poise Count from skills.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1010301": {
+            "name": "Poised",
+            "desc": "On clash win, gain +1 Poise Count.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1010311": {
+            "name": "Poised",
+            "desc": "On clash win, gain +1 Poise Count.\nCoin Power +1 for every 5 Poise Count. (Max 3)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

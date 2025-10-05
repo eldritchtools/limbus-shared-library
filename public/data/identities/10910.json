@@ -1,0 +1,278 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Courier Trunk - Decay Knife",
+                    "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit, but does not inflict [Burst] with this Skill's On Hit effects",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [DevyatDimensionalSack]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Courier Trunk - Decay Knife",
+                    "desc": "<style=\"highlight\">At 10+ [DevyatDimensionalSack], or if target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit, but does not inflict [Burst] with this Skill's On Hit effects",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [DevyatDimensionalSack]\n<style=\"highlight\">- If this unit has less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Courier Trunk - Decay Knife",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 10 [DevyatDimensionalSack] or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit, but does not inflict [Burst] with this Skill's On Hit effects",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [DevyatDimensionalSack]\n- If this unit has less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1091001
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Courier Trunk - Gadget Reveal",
+                    "desc": "At 10+ [DevyatDimensionalSack], or if target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [DevyatDimensionalSack]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Agility] next turn (once per turn)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every 10 [DevyatDimensionalSack] on self or for every 5 [Burst] on target (max 2, once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Courier Trunk - Gadget Reveal",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 10 [DevyatDimensionalSack] or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [DevyatDimensionalSack]\n<style=\"highlight\">- If this unit has less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Agility] next turn (once per turn)<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every <style=\"highlight\">5 [DevyatDimensionalSack] on self or for every 5 [Burst] on target (max <style=\"highlight\">4, once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Courier Trunk - Gadget Reveal",
+                    "desc": "<style=\"highlight\">Deal +2% damage for every [DevyatDimensionalSack] on self (max 40%)\nCoin Power +1 for every 10 [DevyatDimensionalSack] or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [DevyatDimensionalSack]\n- If this unit has less than 15 [DevyatDimensionalSack], gain <style=\"highlight\">2 additional [DevyatDimensionalSack]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Agility] next turn (once per turn)\n<style=\"highlight\">- At 15+ [DevyatDimensionalSack], gain 1 additional [Agility]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every 5 [DevyatDimensionalSack] on self or for every 5 [Burst] on target (max <style=\"highlight\">6, once per turn)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1091002
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 5,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "I Trust Ya, Polu!",
+                    "desc": "Deal +2% damage for every [DevyatDimensionalSack] (max 40%)\nAt 10+ [DevyatDimensionalSack] on self, or if target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its On Hit effects; instead, Reuse its last Coin",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count (once per turn)"
+                        ],
+                        [
+                            "[OnSucceedAttack] At 15+ [DevyatDimensionalSack], deal +15% damage",
+                            "[EndSkill] If target is Staggered or defeated, gain 1 [Agility] next turn (once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I Trust Ya, Polu!",
+                    "desc": "Deal <style=\"highlight\">+4% damage for every [DevyatDimensionalSack] (max <style=\"highlight\">80%)\n<style=\"highlight\">Coin Power +1 for every 10 [DevyatDimensionalSack] on self or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its On Hit effects; instead, Reuse its last Coin",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count (once per turn)\n<style=\"highlight\">- Inflict +1 more [Burst] Count for every 10 [DevyatDimensionalSack] (max 2)"
+                        ],
+                        [
+                            "[OnSucceedAttack] At 15+ [DevyatDimensionalSack], deal <style=\"highlight\">+25% damage",
+                            "[EndSkill] If target is Staggered or defeated, gain <style=\"highlight\">2 [Agility] next turn (once per turn)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1091003
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1091002
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1091002,
+                1091001
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1091002,
+                1091011
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1091021
+            ]
+        }
+    ],
+    "passiveData": {
+        "1091001": {
+            "name": "Speedy Delivery",
+            "desc": "Turn Start: At 6+ Speed, or if this unit has [Agility], gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield (max 15%)\n\nUpon Retreat, apply 1 [ParryingResultUp] to 2 allies next turn (prioritizes Substituted units first, then in Deployment order)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1091002": {
+            "name": "Lemme go and I swear I'll make it in time!",
+            "desc": "<For Chain Battles> When, after Retreating with '[Retreat]', if this unit rejoins the battle, halve the [DevyatDimensionalSack] value (once per Encounter, rounded up)"
+        },
+        "1091011": {
+            "name": "Speedy Delivery",
+            "desc": "Turn Start: At 6+ Speed, or if this unit has [Agility], gain <style=\"highlight\">([DevyatDimensionalSack])%</style> of this unit's max HP as Shield (max <style=\"highlight\">20%</style>)\n\nUpon Retreat, apply 1 [ParryingResultUp] to 2 allies next turn (prioritizes Substituted units first, then in Deployment order)\n<style=\"highlight\">- Lasts for 1 additional turn for every 15 [DevyatDimensionalSack] on self (2 more turns max)</style>",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1091021": {
+            "name": "Outstanding Courier",
+            "desc": "To 1 ally with the fastest Speed: Clash Power +1 to Skills that apply [Burst] Potency or Count",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 6
+                    }
+                ]
+            }
+        }
+    }
+}

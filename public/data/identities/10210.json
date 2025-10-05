@@ -1,0 +1,273 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "40Y-3 Activation",
+                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +2 [[Charge]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "40Y-3 Activation",
+                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +<style=\"highlight\">3 [[Charge]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "40Y-3 Activation",
+                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power <style=\"highlight\">+2",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +3 [[Charge]] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021001
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Charge Countercurrent",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "At 3+ Reson. including this Skill, consume all [[Charge]] Count on self and deal +([[Charge]])% damage for every [[Charge]] Count consumed by this Skill (max 60%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Charge Countercurrent",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "At 3+ Reson. including this Skill, consume all [[Charge]] Count on self and deal +<style=\"highlight\">([[Charge]] + 3)% damage for every [[Charge]] Count consumed by this Skill (max <style=\"highlight\">120%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Charge Countercurrent",
+                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power <style=\"highlight\">+2",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "At 3+ Reson. including this Skill, consume all [[Charge]] Count on self and deal +<style=\"highlight\">([[Charge]] + 4)% damage for every [[Charge]] Count consumed by this Skill (max <style=\"highlight\">180%)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021002
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "40Y-3 Charge",
+                    "desc": "At 2+ [[Charge]], Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] + 4) [[Charge]] Count (max 7)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] + 4) [[Charge]] Count (max 7)"
+                        ],
+                        [],
+                        [
+                            "At 3+ [[Charge]], deal +4% damage for every [[Charge]] (max 20%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "40Y-3 Charge",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every [[Charge]] (max 4)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] + <style=\"highlight\">5) [[Charge]] Count (max <style=\"highlight\">8)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +([[Charge]] + <style=\"highlight\">5) [[Charge]] Count (max <style=\"highlight\">8)"
+                        ],
+                        [],
+                        [
+                            "At 3+ [[Charge]], deal <style=\"highlight\">+8% damage for every [[Charge]] (max <style=\"highlight\">40%)",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] next turn\n- At 2+ [[Charge]], inflict 1 additional [VioletTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1021003
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1021001
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1021011
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1021021
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1021031
+            ]
+        }
+    ],
+    "passiveData": {
+        "1021001": {
+            "name": "Electrocurrent Dismantling",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAt 2+ [Charge], deal +([Charge] x 3)% damage (max 15%)\n\nOn Kill, this unit and 1 ally with the least [Charge] Count gains [Charge] Count equal to [Charge] (max 3, prioritizes allies that consume or gain [Charge])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1021011": {
+            "name": "Electrocurrent Dismantling",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAt 2+ [Charge], deal +([Charge] x 3)% damage (max 15%)\n<style=\"highlight\">- If the target is at less than 50% HP, deal +([Charge] x 5)% additionally increased damage (max 25%)</style>\n\nOn Kill, this unit and <style=\"highlight\">2 allies</style> with the least [Charge] Count gains [Charge] Count equal to <style=\"highlight\">([Charge] + 2)</style> (max <style=\"highlight\">5</style>, prioritizes allies that consume or gain [Charge])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1021021": {
+            "name": "Auxiliary Dismantling Current",
+            "desc": "When 1 ally with the least [Charge] Count kills an enemy, the ally gains +2 [Charge] Count (once per turn, prioritizes allies that consume or gain [Charge])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1021031": {
+            "name": "Auxiliary Dismantling Current",
+            "desc": "When 1 ally with the least [Charge] Count kills an enemy, the ally gains +3 [Charge] Count (once per turn, prioritizes allies that consume or gain [Charge])",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

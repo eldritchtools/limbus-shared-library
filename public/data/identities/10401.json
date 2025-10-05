@@ -1,0 +1,199 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Paint",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Paint",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Splatter",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "If target previously took damage this turn, deal +10% damage"
+                        ],
+                        [
+                            "If target previously took damage this turn, deal +10% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Splatter",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "If target previously took damage this turn, deal +30% damage"
+                        ],
+                        [
+                            "If target previously took damage this turn, deal +30% damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 5,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Brushstroke",
+                    "desc": "[StartBattle] Gain 2 [SlashDamageUp]",
+                    "coinDescs": [
+                        [],
+                        [],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Brushstroke",
+                    "desc": "[StartBattle] Gain 2 [SlashDamageUp]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath] next turn"
+                        ],
+                        []
+                    ]
+                }
+            ],
+            "id": 1040103
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1040101
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1040121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1040121": {
+            "name": "Hustle",
+            "desc": "1 ally with the lowest Max HP deals and takes +20% damage.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1040101": {
+            "name": "Indiscriminate Art",
+            "desc": "Deal and take +25% damage.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

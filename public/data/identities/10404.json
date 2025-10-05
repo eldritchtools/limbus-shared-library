@@ -1,0 +1,230 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "P.C.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Thirst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "P.C.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Thirst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "P.C.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 2 [Thirst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "I.H.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has [Laceration] or Paralyze, inflict 1 [TakeHpHealReduce] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "I.H.",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has [Laceration] or Paralyze, inflict 3 [TakeHpHealReduce] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I.H.",
+                    "desc": "[WhenUse] Gain 1 [Thirst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has [Laceration] or Paralyze, inflict 4 [TakeHpHealReduce] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "I Can Cook Anything",
+                    "desc": "Boost damage by 5% of target\u2019s missing HP (Max 20)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +10% damage"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +5% damage"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] The final Coin deals +5% damage"
+                        ],
+                        []
+                    ]
+                }
+            ],
+            "id": 1040403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1040401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1040421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1040401": {
+            "name": "Rustle Up",
+            "desc": "After defeating an enemy, heal the ally with the least HP for 15 HP. (Once per turn.)\nIf this unit has an Appetite, spend it to boost the healing based on its Count.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1040421": {
+            "name": "Artistic Flavor",
+            "desc": "When an enemy is defeated, the ally with the least HP heals 15 HP. (Once per turn.)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

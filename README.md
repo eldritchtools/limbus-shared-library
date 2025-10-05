@@ -9,5 +9,6 @@ Add `"@eldritchtools/limbus-shared-library": "github:eldritchtools/limbus-shared
 Provides the following:
 - [Gift, GiftTooltip](src/gift) - Component to display ego gifts
 - [Status, StatusTooltip](src/status) - Components to display a status
-- [KeywordIcon](src/keywordIcon) - Components to display a keyword icon
-- [LimbusProvider, useLimbusData](src/LimbusProvider) - Provider React object to pull the data from the library
+- [IdentityImg](src/identity) - Components to display an identity
+- [keywords, KeywordIcon, KeywordSelector](src/keywordIcon) - Components to display a keyword icon
+- [DataProvider, useData](src/dataProvider) - Provider React object to pull the data from the library

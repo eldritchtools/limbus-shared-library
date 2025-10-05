@@ -1,0 +1,223 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Strike Down",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Strike Down",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Axe Combo",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Axe Combo",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Axe Combo",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Slay",
+                    "desc": "Skill Power +1 when below 0 SP",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Slay",
+                    "desc": "Skill Power +1 when below 0 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090103
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1090101
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1090121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1090121": {
+            "name": "Gambler",
+            "desc": "1 ally with the most HP deals +20% damage with Heads Coins.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1090101": {
+            "name": "Split Evil",
+            "desc": "On hit, inflict 1 Bleed at a 50% chance.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

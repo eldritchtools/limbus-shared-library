@@ -1,0 +1,275 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Expend Knowledge",
+                    "desc": "Gain ([KnowledgeExplored] x 2% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Lower user\u2019s Stagger Threshold by [KnowledgeExplored]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Lower user\u2019s Stagger Threshold by [KnowledgeExplored]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Expend Knowledge",
+                    "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Expend Knowledge",
+                    "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [[Sinking]], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Seal Shut",
+                    "desc": "Gain ([KnowledgeExplored] x 4% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Seal Shut",
+                    "desc": "Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Seal Shut",
+                    "desc": "Gain ([KnowledgeExplored] x 6% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [[Sinking]], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Grace of Knowledge",
+                    "desc": "Gain ([KnowledgeExplored] x 9% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Gain +8 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Grace of Knowledge",
+                    "desc": "Gain ([KnowledgeExplored] x 12% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn\n[WhenUse] At 50%- HP, Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1010803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1010801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1010811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1010821
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1010831
+            ]
+        }
+    ],
+    "passiveData": {
+        "1010801": {
+            "name": "Sinking Knowledge",
+            "desc": "When attacked, inflict 1 Sinking to the attacker (4 times max)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1010811": {
+            "name": "Sinking Knowledge",
+            "desc": "When attacked, inflict 1 Sinking on the attacker. When attacked while Shielded, inflict 1 additional Sinking on the attacker. (4 times max)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1010821": {
+            "name": "Reviewed Knowledge",
+            "desc": "When 1 ally with the fastest Speed Discards a Skill, gain (3 x Discarded Skill rank)% of the Max HP as Shield (Once per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1010831": {
+            "name": "Reviewed Knowledge",
+            "desc": "When 1 ally with the fastest Speed Discards a Skill, gain (5 x Discarded Skill rank)% of the Max HP as Shield (2 times per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

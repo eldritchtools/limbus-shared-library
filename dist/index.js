@@ -8,3 +8,4 @@ export { Status, StatusTooltip } from "./status/status";
 export { ThemePackImg } from "./themePack/themePack";
 export { default as replaceStatusVariables } from "./status/statusReplace";
 export { IdentityImg } from "./identity/identity";
+export { DataProvider, useData } from "./dataProvider/DataProvider";

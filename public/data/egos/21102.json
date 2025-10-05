@@ -1,0 +1,112 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 5,
+                "levelCorrection": 0,
+                "baseValue": 19,
+                "coinValue": 7
+            },
+            {
+                "uptie": 3,
+                "baseValue": 22,
+                "coinValue": 7
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 7
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Ebony Stem",
+                "abName": "Ebony Queen's Apple",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Burst]",
+                        "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Ebony Stem",
+                "abName": "Ebony Queen's Apple",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Burst]",
+                        "[OnSucceedAttackHead] Inflict 2 [Laceration]",
+                        "[OnSucceedAttack] Inflict 2 [ShamrockTakeDamageUp]"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Stem of Distrust",
+            "desc": "At the start of the turn, gain 1 Pierce DMG Up.\nOn hit with a Heads coin, inflict 1 Bind and +1 Rupture Count next turn."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 5,
+                "levelCorrection": 0,
+                "baseValue": 26,
+                "coinValue": 7
+            },
+            {
+                "uptie": 3,
+                "baseValue": 29,
+                "coinValue": 7
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 7
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Ebony Stem",
+                "abName": "Ebony Queen's Apple",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Burst]",
+                        "[OnSucceedAttackHead] Inflict 3 [Laceration]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Ebony Stem",
+                "abName": "Ebony Queen's Apple",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 5 [Burst]",
+                        "[OnSucceedAttack] Inflict 5 [Laceration]",
+                        "[OnSucceedAttack] Inflict 3 [ShamrockTakeDamageUp]"
+                    ]
+                ]
+            }
+        ]
+    }
+}

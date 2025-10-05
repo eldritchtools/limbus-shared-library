@@ -1,0 +1,239 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 8
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Energy Cycle",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Energy Cycle",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Leap",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 Bind next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Leap",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 Bind next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Leap",
+                    "desc": "[WhenUse] Gain +3 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 Bind next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 6,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Overcharge",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Spend 5 [Charge] Count to inflict 2 Attack Power Down and 3 Paralyze next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Overcharge",
+                    "desc": "At 5+ [Charge] Count, Clash Power +2",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Spend 5 [Charge] Count to inflict 2 Attack Power Down and 3 Paralyze next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1020201
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020211
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020201": {
+            "name": "Self-charging",
+            "desc": "Gain +1 Charge Count after an attack.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020211": {
+            "name": "Self-charging",
+            "desc": "Gain +1 Charge Count after an attack.\nA random ally gains +1 Charge Count after an attack.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020221": {
+            "name": "Radio Comms",
+            "desc": "1 ally with the lowest Max HP gains +1 Charge Count.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

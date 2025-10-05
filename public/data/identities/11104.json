@@ -1,0 +1,235 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Predictive Analysis",
+                    "desc": "In a clash, opponent has -1 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Paralysis] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Predictive Analysis",
+                    "desc": "In a clash, opponent has -2 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Predictive Analysis",
+                    "desc": "In a clash, opponent has -2 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis] next turn",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Field Command",
+                    "desc": "In a clash, opponent has -1 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Field Command",
+                    "desc": "In a clash, opponent has -2 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Field Command",
+                    "desc": "In a clash, opponent has -2 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count",
+                            "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 6,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Exploit the Gap",
+                    "desc": "In a clash, opponent has -2 Clash Power",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Deal bonus Slash damage by 15% of damage dealt",
+                            "[OnSucceedAttack] Inflict [WeaknessAnalysis] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Exploit the Gap",
+                    "desc": "In a clash, opponent has -2 Clash Power\nIf target has 7+ [Burst], Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [AttackDown] next turn"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Deal bonus Slash damage by 15% of damage dealt",
+                            "[OnSucceedAttack] Inflict [WeaknessAnalysis] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1110401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1110421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1110401": {
+            "name": "Grasping Vulnerabilities",
+            "desc": "When attacking a target with a damage type the target is \u201cWeak\u201d or \u201cFatal\u201d to, deal +10% damage.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1110421": {
+            "name": "Relay Intelligence",
+            "desc": "1 ally with the fastest Speed deals +10% damage when attacking a target with a damage type the target is \u201cWeak\u201d or \u201cFatal\u201d to.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

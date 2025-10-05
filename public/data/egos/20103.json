@@ -1,0 +1,111 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "sloth",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": -2,
+                "baseValue": 18,
+                "coinValue": 4
+            },
+            {
+                "uptie": 3,
+                "baseValue": 22,
+                "coinValue": 4
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Wishing Cairn",
+                "abName": "Pagoda Veneration",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 1 [AmberTakeDamageUp]",
+                        "[OnSucceedAttackHead] Inflict 2 [Paralysis]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Wishing Cairn",
+                "abName": "Pagoda Veneration",
+                "desc": "Targets the rearmost unit (In regular encounters)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 2 [AmberTakeDamageUp]",
+                        "[OnSucceedAttackHead] Inflict 3 [Paralysis]"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Dol Hareubang",
+            "desc": "At the start of the turn, gain 3 Blunt Protection and Sloth Protection."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "sloth",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": -2,
+                "baseValue": 20,
+                "coinValue": 10
+            },
+            {
+                "uptie": 3,
+                "baseValue": 24,
+                "coinValue": 10
+            },
+            {
+                "uptie": 4,
+                "baseValue": 29
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Wishing Cairn",
+                "abName": "Pagoda Veneration",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 1 [AmberTakeDamageUp]",
+                        "[OnSucceedAttackHead] Inflict 2 [Paralysis]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Wishing Cairn",
+                "abName": "Pagoda Veneration",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 1 [AmberTakeDamageUp]",
+                        "[OnSucceedAttack] Inflict 2 [Paralysis]",
+                        "[OnSucceedAttackHead] Inflict 3 [Binding] next turn"
+                    ]
+                ]
+            }
+        ]
+    }
+}

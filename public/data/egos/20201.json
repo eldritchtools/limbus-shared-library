@@ -1,0 +1,68 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "pride",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": -3,
+                "baseValue": 15,
+                "coinValue": 4
+            },
+            {
+                "uptie": 3,
+                "baseValue": 19,
+                "coinValue": 4
+            },
+            {
+                "uptie": 4,
+                "coinValue": 4
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Representation Emitter",
+                "abName": "Faust",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Heal 8 SP for 4 allies with the least SP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Representation Emitter",
+                "abName": "Faust",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Heal 10 SP for 4 allies with the least SP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Representation Emitter",
+                "abName": "Faust",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Heal 12 SP for 4 allies with the least SP"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Ennui",
+            "desc": "If an enemy is staggered during this unit's attack, 1 ally with the lowest SP has +2 SP Heal Efficiency next turn. (Max 3 times per turn)"
+        }
+    ]
+}

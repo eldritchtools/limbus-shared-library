@@ -1,0 +1,215 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Cleave",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Cleave",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Cleave",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Cloud Cutter",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Cloud Cutter",
+                    "desc": "[BeforeAttack] If target has less than 4 [Laceration] Count, use Coin 1 and 2 an additional time",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Cloud Cutter",
+                    "desc": "[BeforeAttack] If target has less than 4 [Laceration] Count, use Coin 1 and 2 an additional time",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 6,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Cloudburst",
+                    "desc": "[StartBattle] This skill inflicts 1 additional [Laceration] and [Paralysis]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Paralysis]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060201": {
+            "name": "H\u0113iy\u00fand\u00e0o",
+            "desc": "The last Coin on the last skill in the chain inflicts 3 Bleed.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1060221": {
+            "name": "Syndicate Payback",
+            "desc": "1 ally with the fastest Speed inflicts +1 Bleed.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "lust",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 2,
+                "baseValue": 12,
+                "coinValue": 11
+            },
+            {
+                "uptie": 3,
+                "baseValue": 12,
+                "coinValue": 11
+            },
+            {
+                "uptie": 4,
+                "coinValue": 14
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "La Sangre de Sancho",
+                "abName": "Don Quixote",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttackHead] Inflict 4 [Laceration]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "La Sangre de Sancho",
+                "abName": "Don Quixote",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 6 [Laceration]",
+                        "[OnSucceedAttackHead] Heal by 50% of damage dealt"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "La Sangre de Sancho",
+                "abName": "Don Quixote",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 8 [Laceration]",
+                        "[OnSucceedAttack] Heal by 50% of damage dealt"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Immoderate Passion",
+            "desc": "On Hit, if the target has [Laceration], heal 3 HP"
+        }
+    ]
+}

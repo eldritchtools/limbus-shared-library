@@ -1,0 +1,235 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -3,
+                    "baseValue": 3,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Baile y Rola",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Sinking]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Baile y Rola",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 4 [Sinking]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Baile y Rola",
+                    "desc": "If target has 4+ [[Sinking]], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Sinking]"
+                        ],
+                        []
+                    ]
+                }
+            ],
+            "id": 1100401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -3,
+                    "baseValue": 4,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 1
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Danza de Pasi\u00f3n",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Danza de Pasi\u00f3n",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]",
+                            "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Danza de Pasi\u00f3n",
+                    "desc": "If target has 6+ [[Sinking]], Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]",
+                            "[OnSucceedAttack] Gain +1 [Breath] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -3,
+                    "baseValue": 8,
+                    "coinValue": 11
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 11
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Pa\u00f1ata Party",
+                    "desc": "If target\u2019s SP is below 0, boost crit chance proportional to target\u2019s SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Lower user\u2019s Stagger Threshold by 50% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Pa\u00f1ata Party",
+                    "desc": "If target's SP is below 0, boost crit chance proportional to target's SP\nIf user has 5+ [Breath] Count, +30% Critical Damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 50% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1100401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1100421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1100401": {
+            "name": "J\u00fabilo Hedonista",
+            "desc": "After a successful evade, lower Stagger Threshold by the evade skill\u2019s Power at a (5x Gloom Reson.)% chance.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1100421": {
+            "name": "Jugar con Enemigos",
+            "desc": "1 ally with the most SP deals +10% damage to enemies with lower SP.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

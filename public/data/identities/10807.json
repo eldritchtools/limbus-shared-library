@@ -1,0 +1,248 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Ready to Crush",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Ready to Crush",
+                    "desc": "[WhenUse] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Ready to Crush",
+                    "desc": "[WhenUse] Gain +3 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080701
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Explosive Blast",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Sinking]",
+                            "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Explosive Blast",
+                    "desc": "At 5+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Vibration] Count",
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Sinking]",
+                            "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Explosive Blast",
+                    "desc": "At 5+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Vibration] Count",
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Sinking]",
+                            "[OnSucceedAttack] Inflict 4 [DefenseDown] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080702
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 3,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Risky Judgement",
+                    "desc": "At 5+ [Vibration] Count, Coin Power +1\nIf target has 6+ [Sinking], deal +20% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +5 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Sinking]",
+                            "[OnSucceedAttack] Spend 5 [Vibration] Count to inflict 1 [Vulnerable] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Sinking]",
+                            "[OnSucceedAttack] Spend 5 [Vibration] Count to inflict 2 [Vulnerable] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Risky Judgement",
+                    "desc": "Coin Power +1 for every 5 [Vibration] Count on self (Max 2)\nIf target has 6+ [Sinking], deal +40% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +5 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Sinking]",
+                            "[OnSucceedAttack] Spend 5 [Vibration] Count to inflict 1 [Vulnerable] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Sinking]",
+                            "[OnSucceedAttack] Spend 5 [Vibration] Count to inflict 2 [Vulnerable] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1080703
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1080701
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1080721
+            ]
+        }
+    ],
+    "passiveData": {
+        "1080721": {
+            "name": "Crab Driver",
+            "desc": "When an ally with the lowest Max HP hits with Heads Coins, they inflict +1 Sinking Count when inflicting Tremor Count on their target with Coin effects.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1080701": {
+            "name": "Crushin' Crabs",
+            "desc": "On hit against a target with [Vibration], inflict +1 Sinking Count",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

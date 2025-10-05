@@ -1,0 +1,235 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Drive",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 30% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 30% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Drive",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 60% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 60% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Drive",
+                    "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nAt less than 50% HP, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 60% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user\u2019s Stagger Threshold by 60% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "You Are Cleansed of Sin",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "You Are Cleansed of Sin",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 5+ [NailPersonality], inflict 2 [Binding] and 1 [Reduction] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "You Are Cleansed of Sin",
+                    "desc": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 5+ [NailPersonality], inflict 2 [Binding] and 2 [Reduction] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 8,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Annihilate Heretics",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [NailPersonality] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Heal 50% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Annihilate Heretics",
+                    "desc": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [NailPersonality] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Heal 50% of damage dealt\nHP Heal +3% for each of target's [NailPersonality]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1050403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1050401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1050421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1050401": {
+            "name": "Obsessive Hammer",
+            "desc": "When below 50% HP, remove 1 negative status effect and gain 1 Fanatic, 1 Attack Power Up, and 3 Protection at the start of the combat phase.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1050421": {
+            "name": "Highest Honor",
+            "desc": "Apply 1 Attack Power Up and 1 Protection to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

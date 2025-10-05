@@ -1,0 +1,240 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Magnify Wound",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Magnify Wound",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttackHead] If target has 5+ [Burst], gain 1 [Talisman]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Magnify Wound",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] If target has 5+ [Burst], gain 1 [Talisman]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100601
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Proliferating Talismans",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Proliferating Talismans",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]",
+                            "[OnSucceedAttack] If target has 3+ [Burst], gain 1 [Talisman]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Proliferating Talismans",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]",
+                            "[OnSucceedAttack] If target has [Burst], gain 1 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]",
+                            "[OnSucceedAttack] If target has [Burst], gain 1 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Talisman]",
+                            "[OnSucceedAttack] If target has [Burst], gain 1 [Talisman]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100602
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Rupturing Talisman",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Spend 5 [Talisman] on self; Give 5 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has [[Talisman]], inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rupturing Talisman",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Spend 5 [Talisman] on self; Give 5 [Talisman]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has [[Talisman]], inflict +3 [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100603
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1100601
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1100621
+            ]
+        }
+    ],
+    "passiveData": {
+        "1100601": {
+            "name": "Unfixing Talismans",
+            "desc": "On hit, if the target had [Burst], gain 1 Talisman.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1100621": {
+            "name": "Wishing Talisman",
+            "desc": "1 ally with the highest current HP inflicts +1 more Rupture Potency with Attack and Counter Skills",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

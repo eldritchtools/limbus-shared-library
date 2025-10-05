@@ -1,0 +1,218 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 3,
+                    "coinValue": 8
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Sole Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Sole Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Sole Strike",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Deep Cuts",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [Breath] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [Agility] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Deep Cuts",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 4 [Agility] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Deep Cuts",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath] next turn"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 4 [Agility] next turn",
+                            "[OnSucceedAttack] Gain 1 [Breath] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 8
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Opportunistic Slash",
+                    "desc": "If user took no damage last turn, Coin Power +3",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 5 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1020301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020321": {
+            "name": "Backing",
+            "desc": "1 ally with the lowest Max HP gains +2 defense skill final Power.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1020301": {
+            "name": "Resolution",
+            "desc": "At the start of the turn, if at 4+ Poise Count, gain 2 Haste.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 2
+                    }
+                ]
+            }
+        }
+    }
+}

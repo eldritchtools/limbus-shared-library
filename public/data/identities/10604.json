@@ -1,0 +1,213 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Warm Up",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Warm Up",
+                    "desc": "[WhenUse] Heal 3 SP",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Flowing Flame",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]; if target already has [Combustion], inflict 1 more"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Flowing Flame",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]; if target already has [Combustion], inflict 1 more"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count; at 30+ SP, inflict 1 more; at 45+ SP, inflict 2 more"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flowing Flame",
+                    "desc": "If target has 6+ [Combustion] Count, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]; if target already has [Combustion], inflict 1 more"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count; at 30+ SP, inflict 1 more; at 45+ SP, inflict 2 more"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Crimson Blaze Fist",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]; if target already has [Combustion], inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Heal 6 SP",
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, raise Stagger Threshold by 30% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Crimson Blaze Fist",
+                    "desc": "If target has 6+ [Combustion] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]; if target already has [Combustion], inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Heal 6 SP",
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, raise Stagger Threshold by 30% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060401
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060421
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060401": {
+            "name": "Flaring Up~",
+            "desc": "At 30+ SP, inflict +1 Burn Count with the effects of attack skills/coins.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1060421": {
+            "name": "Isn\u2019t It Warm?",
+            "desc": "1 ally with the most SP inflicts +1 Burn Count with the effects of their attack skills/coins.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

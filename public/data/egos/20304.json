@@ -1,0 +1,106 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "lust",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 18,
+                "coinValue": 4
+            },
+            {
+                "uptie": 3,
+                "baseValue": 21,
+                "coinValue": 4
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Lifetime Stew",
+                "abName": "Basilisoup",
+                "desc": "[BeforeAttack] Boost damage based on current Lust resources (Up to 25%)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Lifetime Stew",
+                "abName": "Basilisoup",
+                "desc": "[BeforeAttack] Boost damage based on current Lust resources (Up to 50%)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Cauldron of Gorging",
+            "desc": "At the start of the turn, convert 2 random non-Lust E.G.O resources into 1 Lust resource."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "lust",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 19,
+                "coinValue": 5
+            },
+            {
+                "uptie": 3,
+                "baseValue": 22,
+                "coinValue": 5
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Lifetime Stew",
+                "abName": "Basilisoup",
+                "desc": "[CantIdentify]\nTargets the unit with the most HP\n\n[BeforeAttack] Boost damage based on current Lust resources (Up to 25%)\nThen spend Lust resources by (Lust Reson.); further boost damage by 5% per resource spent",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Lifetime Stew",
+                "abName": "Basilisoup",
+                "desc": "[CantIdentify]\nTargets the unit with the most HP\n\n[BeforeAttack] Boost damage based on current Lust resources (Up to 50%)\nThen spend Lust resources by (Lust Reson.); further boost damage by 10% per resource spent",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict +4 [Combustion] Count"
+                    ]
+                ]
+            }
+        ]
+    }
+}

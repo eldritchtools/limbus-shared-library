@@ -1,0 +1,214 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Pulled Blade",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Pulled Blade",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Pulled Blade",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110101
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Backslash",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "If user\u2019s Speed is faster than target\u2019s, +10% Damage"
+                        ],
+                        [
+                            "If user\u2019s Speed is faster than target\u2019s, +10% Damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Backslash",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "If user\u2019s Speed is faster than target\u2019s, +20% Damage"
+                        ],
+                        [
+                            "If user\u2019s Speed is faster than target\u2019s, +20% Damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110102
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 6,
+                    "coinValue": 14
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 7,
+                    "coinValue": 14
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Piercing Thrust",
+                    "desc": "If target\u2019s HP is above 50%, deal +20% damage",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Piercing Thrust",
+                    "desc": "If target\u2019s HP is above 50%, deal +20% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110103
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1110101
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1110121
+            ]
+        }
+    ],
+    "passiveData": {
+        "1110121": {
+            "name": "Military Mindset",
+            "desc": "1 ally with the most HP deals +30% damage to enemies below 0 SP.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1110101": {
+            "name": "Executor",
+            "desc": "If target\u2019s SP is below 0, deal +10% damage.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

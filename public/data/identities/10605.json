@@ -1,0 +1,217 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Impede the Intruder",
+                    "desc": "If target has 5+ [Burst], Coin Power +1",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Impede the Intruder",
+                    "desc": "If target has 5+ [Burst], Coin Power +2",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Impede the Intruder",
+                    "desc": "If target has 5+ [Burst], Coin Power +3\n[WhenUse] Gain +5 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ],
+            "id": 1060501
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Decay Blade",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]\nIf target has 10+ [Burst], heal by 20% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]\nIf target has 10+ [Burst], heal by 20% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Decay Blade",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]\nIf target has 10+ [Burst], heal by 50% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]\nIf target has 10+ [Burst], heal by 50% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Decay Blade",
+                    "desc": "[WhenUse] Gain +5 Aggro to this Skill Slot next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]\nIf target has 10+ [Burst], heal by 50% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]\nIf target has 10+ [Burst], heal by 50% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060502
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 8,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Excise Target",
+                    "desc": "At 80% or more HP, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [Burst] Count by the amount of [KCorpSerum]; Deal +5% damage per [KCorpSerum]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Excise Target",
+                    "desc": "At 80% or more HP, Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict [Burst] Count by the amount of [KCorpSerum]; Deal +5% damage per [KCorpSerum]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060503
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060501
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060521
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060521": {
+            "name": "High-grade Ampule",
+            "desc": "At the start of the combat phase, give 2 K Corp Ampule to 1 ally with the lowest HP percentage.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1060501": {
+            "name": "Regeneration Ampule Activation",
+            "desc": "When hit, if at less than 20% HP, heal by 90% of Max HP and gain 1 K Corp Ampule.\nAfter this activates, gain 1 Fragile every turn for the rest of the battle. (Once per battle)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

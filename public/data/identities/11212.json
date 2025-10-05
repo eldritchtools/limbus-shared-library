@@ -1,0 +1,254 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Snake Fang",
+                    "desc": "[WhenUse] Gain +1 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Snake Fang",
+                    "desc": "<style=\"highlight\">[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Snake Fang",
+                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
+                            "[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict +1 [Burst] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1121201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Blindsiding Cleave",
+                    "desc": "[WinDuel] Inflict +1 [Burst] Count\n[WinDuel] Gain +1 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict [BurstPoison]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Blindsiding Cleave",
+                    "desc": "<style=\"highlight\">[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count\n[WinDuel] Gain +<style=\"highlight\">2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]",
+                            "<style=\"highlight\">[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)",
+                            "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blindsiding Cleave",
+                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WinDuel] Inflict +<style=\"highlight\">2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
+                            "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\">",
+                            "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [SnakeStance]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1121202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 8,
+                    "coinValue": 12
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 14
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Serpentshear Puncturing Arm",
+                    "desc": "[WhenUse] Coin Power +1 for every 8 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 4)\n- If this unit has [SnakeStance], Coin Power +1 for every 5 (sum of this unit's [Breath] Potency and target's [Burst] Potency) instead (max 6)\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] If target has 5+ [Burst], gain 5 [Breath]",
+                    "coinDescs": [
+                        [
+                            "Deal +5% damage for every ([Breath] Potency on self + [Burst] Potency on target) (max 150%)",
+                            "If this unit has [SnakeStance], deal +75% Damage on Critical Hit",
+                            "[OnSucceedAttack] Reduce [BurstPoison] on target by 2",
+                            "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 3",
+                            "[OnSucceedAttack] Inflict [BurstPoison]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Serpentshear Puncturing Arm",
+                    "desc": "[WhenUse] Coin Power +1 for every 8 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 4)\n- If this unit has [SnakeStance], Coin Power +1 for every 5 (sum of this unit's [Breath] Potency and target's [Burst] Potency) instead (max 6)\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] If target has 5+ [Burst], gain 5 [Breath]",
+                    "coinDescs": [
+                        [
+                            "Deal <style=\"highlight\">+10% damage for every ([Breath] Potency on self + [Burst] Potency on target) <style=\"highlight\">(max 200%)",
+                            "If this unit has [SnakeStance], deal <style=\"highlight\">+100% Damage on Critical Hit",
+                            "[OnSucceedAttack] Reduce [BurstPoison] on target by 2<style=\"highlight\">",
+                            "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 3<style=\"highlight\">",
+                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +2 [Burst] Count",
+                            "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1121203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1121201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1121221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1121201": {
+            "name": "Heishou Mutation [Si]",
+            "desc": "If the target has [BurstPoison], deal +5% damage for every [SnakeStance] on self (max 15%)\nIf this unit reduced the target's [BurstPoison] down to 0 Stack, gain 1 [PenetrateDamageUp] next turn (max 2)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1121221": {
+            "name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
+            "desc": "If this unit is killed in this Encounter: every turn, at Combat Start, apply 2 [Breath] to the Substituting Identity of the earliest Deployment order",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

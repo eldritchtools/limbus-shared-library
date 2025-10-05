@@ -1,0 +1,184 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 0,
+                "baseValue": 4,
+                "coinValue": 2
+            },
+            {
+                "uptie": 3,
+                "atkWeight": 2,
+                "coinValue": 2
+            },
+            {
+                "uptie": 4,
+                "coinValue": 2
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Lasso",
+                "abName": "Rose Hunter",
+                "desc": "Coin Power +1 for every 7 [Burst] on target (max 2)",
+                "coinDescs": [
+                    [
+                        ""
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Snare]"
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)"
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict 1 [Laceration]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Lasso",
+                "abName": "Rose Hunter",
+                "desc": "<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn",
+                "coinDescs": [
+                    [
+                        ""
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Snare]<style=\"highlight\">"
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\">"
+                    ],
+                    [
+                        "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Laceration] equal to (this unit's Speed/2) between the targets (max 3)",
+                        "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Burst] equal to (this unit's Speed/2) between the targets (max 3)"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Lasso",
+                "abName": "Rose Hunter",
+                "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn<style=\"highlight\">",
+                "coinDescs": [
+                    [
+                        ""
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict 2 [Snare]<style=\"highlight\">"
+                    ],
+                    [
+                        "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [TakeHpHealReduce] next turn",
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\">"
+                    ],
+                    [
+                        "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Laceration] equal to this unit's Speed between the targets (max 7)",
+                        "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Burst] equal to this unit's Speed between the targets (max 7)"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Time to Hunt",
+            "desc": "If an enemy or an ally is killed due to [Burst] or [Laceration] damage, inflict 2 [Snare] against a random enemy, and gain 1 [Agility] next turn (once per turn)"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 2,
+                "baseValue": 5,
+                "coinValue": 3
+            },
+            {
+                "uptie": 3,
+                "atkWeight": 2,
+                "coinValue": 3
+            },
+            {
+                "uptie": 4,
+                "coinValue": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Lasso",
+                "abName": "Rose Hunter",
+                "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 7 [Burst] on target (max 2)",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Snare]"
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict +2 [Laceration] Count",
+                        "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                    ],
+                    [
+                        "[OnSucceedAttack] Deal +1% damage for every [Laceration] on target (Max 20%)",
+                        "[OnSucceedAttack] Deal +1% damage for every [Burst] on target (Max 20%)"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Lasso",
+                "abName": "Rose Hunter",
+                "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Snare]<style=\"highlight\">"
+                    ],
+                    [
+                        "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\">",
+                        "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                    ],
+                    [
+                        "[OnSucceedAttack] Deal +1% damage for every [Laceration] on target <style=\"highlight\">(max 30%)",
+                        "[OnSucceedAttack] Deal +1% damage for every [Burst] on target <style=\"highlight\">(max 30%)"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Lasso",
+                "abName": "Rose Hunter",
+                "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n<style=\"highlight\">[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Snare]<style=\"highlight\">"
+                    ],
+                    [
+                        "<style=\"highlight\">[OnSucceedAttack] Inflict 3 [TakeHpHealReduce] next turn",
+                        "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\">",
+                        "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                    ],
+                    [
+                        "[OnSucceedAttack] Deal +1% damage for every [Laceration] on target (max 30%)<style=\"highlight\">",
+                        "[OnSucceedAttack] Deal +1% damage for every [Burst] on target (max 30%)<style=\"highlight\">"
+                    ]
+                ]
+            }
+        ]
+    }
+}

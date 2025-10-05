@@ -1,0 +1,242 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Got a Screw Loose?",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain [Vibration] Count equal to (([Vibration] Count on target)/2) (max 2)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Got a Screw Loose?",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] At 5+ [Vibration] Count, Clash Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain [Vibration] Count equal to (([Vibration] Count on target)/2) (max <style=\"highlight\">3)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Got a Screw Loose?",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At <style=\"highlight\">4+ [Vibration] Count, Clash Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain [Vibration] Count equal to ([Vibration] Count on target) (max <style=\"highlight\">4)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +<style=\"highlight\">2 [Vibration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040901
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Compression Wind-up Spanner",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Consume [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target (max 5)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Compression Wind-up Spanner",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">At 5+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Consume [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target (max 5)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Compression Wind-up Spanner",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] At 4+ [Vibration] Count, Clash Power +1\nAt <style=\"highlight\">4+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Consume [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target (max 5)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040902
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Percussive Maintenance",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\nConsume 10 [Vibration] Count on self to gain Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 2"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Percussive Maintenance",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\nConsume <style=\"highlight\">8 [Vibration] Count on self to gain Coin Power +1\n<style=\"highlight\">If target has 6+ [Vibration], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by <style=\"highlight\">1"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040903
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1040901
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1040921
+            ]
+        }
+    ],
+    "passiveData": {
+        "1040921": {
+            "name": "The A.I.",
+            "desc": "#1 Deployed ally gains +1 more Tremor Count from their Skill or Coin effects (2 times per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1040901": {
+            "name": "N.O.",
+            "desc": "- When an other ally Staggers an enemy with an attack: follow up with a Skill 1 against the Staggered enemy. (once per Turn)\n- If multiple enemies are Staggered at once, target the enemy with the least HP(for Abnormalities, target the Abnormality with the least HP; then, target the Part with the least HP).\n- When using Skill 1 with this effect, this unit gains +1 more [Vibration] Count from its Coin effects, and triggers a [VibrationExplosion] with the last Coin On Hit",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

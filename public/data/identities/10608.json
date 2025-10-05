@@ -1,0 +1,243 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Expend Knowledge",
+                    "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Expend Knowledge",
+                    "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Clash Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count",
+                            "[OnSucceedAttack] At 3+ [KnowledgeExplored], reuse Coin once"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Expend Knowledge",
+                    "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Clash Power +([KnowledgeExplored] - 1)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count",
+                            "[OnSucceedAttack] Reuse Coin ([KnowledgeExplored] - 1) times"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Unveil",
+                    "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Unveil",
+                    "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Unveil",
+                    "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Coin Power +([KnowledgeExplored] - 1)",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 4 [[Sinking]]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Cyclical Knowledge",
+                    "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +1.5% damage per [[Sinking]] on target (Max 15%)",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count",
+                            "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Cyclical Knowledge",
+                    "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +3% damage per [[Sinking]] on target (Max 30%)",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +4 [[Sinking]] Count",
+                            "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1060811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060821
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060801": {
+            "name": "Peering Through a Key",
+            "desc": "When Discarding a Skill, gain [AttackDmgUp] equal to the Discarded Skill's Rank. (Max 3 per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1060811": {
+            "name": "Peering Through a Key",
+            "desc": "When Discarding a Skill, gain [AttackDmgUp] equal to the Discarded Skill Rank. (Max 3 per turn)\nWhen other allies Discard a Skill, and if the ally's Discarded Skill Rank is higher than this unit's [KnowledgeExplored] value, this unit gains +1 [KnowledgeExplored].",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1060821": {
+            "name": "Enlightenment",
+            "desc": "After Attack: If the target is in a staggered or defeated state by an attack from 1 ally with the least SP, the ally heals 7 SP.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

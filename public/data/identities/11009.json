@@ -1,0 +1,312 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Fierce Charge",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Fierce Charge",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]",
+                            "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fierce Charge",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]",
+                            "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100901
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Sunset Blade",
+                    "desc": "[WhenUse] When in a Volatile E.G.O state, consume 5 SP\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Sunset Blade",
+                    "desc": "<style=\"highlight\">If target has 4+ [Combustion], Clash Power +1\n[WhenUse] When in a Volatile E.G.O state, consume 5 SP\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n[EndSkill] When in a Volatile E.G.O state, consume 5 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Sunset Blade",
+                    "desc": "If target has 4+ [Combustion], Clash Power +1\n[WhenUse] When in a Volatile E.G.O state, consume 5 SP\n[BeforeAttack] When in a Volatile E.G.O state, Atk Weight +1\n<style=\"highlight\">- At 45 SP, Atk Weight +2 instead\n[EndSkill] When in a Volatile E.G.O state, consume 5 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100902
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 7
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Stigmatize",
+                    "desc": "If target has 10+ [Combustion], Coin Power +1\nWhen in a Volatile E.G.O State, activate Blazing Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Stigmatize",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 7 [Combustion] on target (max 2)\nWhen in a Volatile E.G.O state, activate Blazing Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100903
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 13,
+                    "coinValue": 15
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 15
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Blazing Strike",
+                    "desc": "Coin Power +1 for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 30 SP\nDeal +5% damage for every Wrath Reson. (max 30%)\n[EndSkill] Lose 15 SP",
+                    "coinDescs": [
+                        [
+                            "Deal +2.5% damage for every 1 [Combustion] on target (max 100%)",
+                            "[OnSucceedAttack] If target has 10+ [Combustion], inflict 2 [Combustion] against (# of highest Reson.) random enemies",
+                            "[OnSucceedAttack] Inflict 10 [Combustion]",
+                            "[EnemyKill] Randomly inflict [Combustion] Potency of the defeated target between all enemies (max 10. In Focused Encounters, between all Parts)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blazing Strike",
+                    "desc": "Coin Power +<style=\"highlight\">2 for every 4 (sum of [Combustion] Potency on all enemies) (max 8)\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 30 SP\nDeal +<style=\"highlight\">10% damage for every Wrath Reson. (max <style=\"highlight\">60%)\n<style=\"highlight\">If at 4+ highest Wrath A-Reson., deal +20% damage for every Wrath Reson. instead (max 120%)\n[EndSkill] Lose 15 SP",
+                    "coinDescs": [
+                        [
+                            "Deal +<style=\"highlight\">4% damage for every 1 [Combustion] on target (max <style=\"highlight\">120%)",
+                            "[OnSucceedAttack] If target has 10+ [Combustion], inflict 2 [Combustion] against (# of highest Reson.) random enemies\n<style=\"highlight\">- If the above Reson. was a Wrath Reson., inflict +1 [Combustion] Count as well",
+                            "[OnSucceedAttack] Inflict 10 [Combustion]",
+                            "[EnemyKill] Randomly inflict [Combustion] Potency of the defeated target between all enemies (max 10. In Focused Encounters, between all Parts)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100905
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1100902
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1100902,
+                1100901
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1100902,
+                1100911
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1100921
+            ]
+        }
+    ],
+    "passiveData": {
+        "1100921": {
+            "name": "Flaring Brand",
+            "desc": "When the #1 Sinner to be Deployed Heads Hits, inflict +1 [Combustion] Count (4 times per turn)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1100901": {
+            "name": "Stigma Workshop Weaponry / Passion",
+            "desc": "This unit inflicts +1 more [Combustion] Potency with its Skills (Activates 6 times per turn)\nWhen in a Volatile E.G.O state, and at 0+ SP, gain Coin Power +(SP/20). At 45 SP, gain Coin Power +3 instead.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1100902": {
+            "name": "Unstable Shell of Ego",
+            "desc": "Turn Start: At 40+ SP, consume 20 SP to enter the Volatile E.G.O::Waxen Pinion state. (this 'Turn Start' effect does not activate repeatedly)\n\nIf 2+ allies are defeated in a single turn, and if this unit's SP isn't at -45 at Turn End, reset SP to 20; then, enter the Volatile E.G.O::Waxen Pinion state. (if both conditions are met at the same time, whichever condition that results in a higher SP goes into effect)\n\nIf this unit gets Staggered due to damage or raised Stagger Threshold when entering the Volatile E.G.O state, recover from Stagger. If the Stagger is something that cannot be naturally recovered from, this unit does not enter the Volatile E.G.O state.\n\nGain [UnstableFeeling] while in the Volatile E.G.O state.\n\nTurn Start: At 0 or less SP, exit the Volatile E.G.O::Waxen Pinion state."
+        },
+        "1100911": {
+            "name": "Stigma Workshop Weaponry / Passion",
+            "desc": "This unit inflicts +1 more [Combustion] Potency <style=\"highlight\">and Count</style> with its Skills (Activates 6 times per turn)\nWhen in a Volatile E.G.O state, and at 0+ SP, gain Coin Power +(SP/20). At 45 SP, gain Coin Power +3 instead.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

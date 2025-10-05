@@ -1,0 +1,252 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +3 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Cycle",
+                    "desc": "[WhenUse] Gain +4 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Charge] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060601
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Cleanup Support",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count\nClash Power +1 when Shielded",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] At 10+ [Charge] Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Cleanup Support",
+                    "desc": "[WhenUse] Gain +3 [Charge] Count\nClash Power +2 when Shielded",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] At 10+ [Charge] Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Cleanup Support",
+                    "desc": "[WhenUse] Gain +3 [Charge] Count\nClash Power +2 when Shielded",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] At 5+ [Charge] Count, gain 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> for every 5 [Charge] Count next turn (Max 4)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060602
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 5,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Deploy Charge Barrier",
+                    "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Deploy Charge Barrier",
+                    "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Burst]",
+                            "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060603
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060601
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1060611
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060621
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060601": {
+            "name": "Cleanup Mastery",
+            "desc": "If at 5+ Charge Count at the start of the combat phase, gain 2 Haste next turn",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1060611": {
+            "name": "Cleanup Mastery",
+            "desc": "If at 5+ Charge Count at the start of the combat phase, gain 2 Haste. <style=\"highlight\">At 10+ Charge Count, gain 1 additional Haste.</style>",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1060621": {
+            "name": "Train Cleanup Manual",
+            "desc": "An ally with the slowest Speed gains 2 Haste next turn if at 5+ Charge Count at the start of the combat phase",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

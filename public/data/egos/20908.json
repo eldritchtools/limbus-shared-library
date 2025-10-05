@@ -1,0 +1,153 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 4,
+                "levelCorrection": 3,
+                "baseValue": 8,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Indicant's Trial",
+                "abName": "Burning Duchess",
+                "desc": "[EndSkill] Heal (1 + highest Reson.) allies with the least HP percentages for 15% of their max HP (max 3 allies)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 6 [Combustion]",
+                        "[OnSucceedAttack] If this hits the main target, inflict (1 + (Wrath Reson. / 3)) [BirdCage] next turn on main target (max 2; rounded down)"
+                    ],
+                    []
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Indicant's Trial",
+                "abName": "Burning Duchess",
+                "desc": "<style=\"highlight\">[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)\n[EndSkill] Heal (1 + highest Reson.) allies with the least HP percentage for <style=\"highlight\">18% of their max HP (max 3 allies)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict <style=\"highlight\">8 [Combustion]",
+                        "[OnSucceedAttack] If this hits the main target, inflict (1 + (Wrath Reson. / 3)) [BirdCage] next turn on main target (max <style=\"highlight\">3; rounded down)"
+                    ],
+                    []
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Indicant's Trial",
+                "abName": "Burning Duchess",
+                "desc": "[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)\n[EndSkill] Heal (1 + highest Reson.) allies with the least HP percentage for <style=\"highlight\">20% of their max HP (max 3 allies)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 8 [Combustion]<style=\"highlight\">",
+                        "[OnSucceedAttack] If this hits the main target, inflict (1 + (Wrath Reson. / 3)) [BirdCage] next turn on main target (max 3; rounded down)<style=\"highlight\">"
+                    ],
+                    []
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Blazing Amusement",
+            "desc": "When a target with 10+ [Combustion] Count is defeated, inflict the [Combustion] Count on target between all enemies and heal SP 8 on self (in Focused Encounters, between all Parts; 3 max per target, 2 times per turn)\n- At max SP, heal 5 SP for 1 ally with the least SP instead"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 4,
+                "levelCorrection": 5,
+                "baseValue": 8,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4,
+                "coinValue": 8
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Indicant's Trial",
+                "abName": "Burning Duchess",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)",
+                "coinDescs": [
+                    [
+                        "[SuperCoin]",
+                        "[UnBrokenCoinOnSucceedAttack] Inflict 6 [Combustion]",
+                        "[UnBrokenCoinOnSucceedAttack] If this hits the main target, inflict (1 + Wrath Reson.) [BirdCage] on main target (max 3)"
+                    ],
+                    [
+                        "[SuperCoin]",
+                        "Deal +1% damage on main target for every [Combustion] Potency on main target (max 50%)",
+                        "[EnemyKill] Apply 1 [CrimsonResultUp] and 1 [CrimsonDamageUp] to (1 + highest Reson.) allies with the least HP percentages (max 4 allies; once per Skill)"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Indicant's Trial",
+                "abName": "Burning Duchess",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)",
+                "coinDescs": [
+                    [
+                        "[SuperCoin]",
+                        "[UnBrokenCoinOnSucceedAttack] Inflict <style=\"highlight\">8 [Combustion]",
+                        "[UnBrokenCoinOnSucceedAttack] If this hits the main target, inflict (1 + Wrath Reson.) [BirdCage] on main target (max <style=\"highlight\">4)"
+                    ],
+                    [
+                        "[SuperCoin]",
+                        "Deal +1% damage on main target for every [Combustion] Potency on main target (max 50%)",
+                        "[EnemyKill] Apply 1 [CrimsonResultUp] and 1 [CrimsonDamageUp] to (1 + highest Reson.) allies with the least HP percentages (max <style=\"highlight\">5 allies; once per Skill)"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Indicant's Trial",
+                "abName": "Burning Duchess",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)",
+                "coinDescs": [
+                    [
+                        "[SuperCoin]",
+                        "[UnBrokenCoinOnSucceedAttack] Inflict <style=\"highlight\">10 [Combustion]",
+                        "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Inflict +1 [Combustion] Count",
+                        "[UnBrokenCoinOnSucceedAttack] If this hits the main target, inflict (1 + Wrath Reson.) [BirdCage] on main target (max <style=\"highlight\">5)"
+                    ],
+                    [
+                        "[SuperCoin]",
+                        "Deal +<style=\"highlight\">2% damage on the main target for every [Combustion] Potency on the main target (max <style=\"highlight\">100%)",
+                        "[EnemyKill] Apply 1 [CrimsonResultUp] and 1 [CrimsonDamageUp] to (1 + highest Reson.) allies with the least HP percentages (max <style=\"highlight\">6 allies; once per Skill)"
+                    ]
+                ]
+            }
+        ]
+    }
+}

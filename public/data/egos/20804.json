@@ -1,0 +1,112 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 0,
+                "baseValue": 17,
+                "coinValue": 7
+            },
+            {
+                "uptie": 3,
+                "baseValue": 20,
+                "coinValue": 7
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 2
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Capote",
+                "abName": "Brazen Bull",
+                "desc": "[EndSkill] Apply 1 [CrimsonDamageUp] to all allies next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Combustion]",
+                        "[OnSucceedAttack] Deal 7 SP damage"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Capote",
+                "abName": "Brazen Bull",
+                "desc": "[EndSkill] Apply 1 [CrimsonDamageUp] to all allies next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 4 [Combustion]",
+                        "[OnSucceedAttack] Deal 15 SP damage"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Slaying Amid Cheers",
+            "desc": "When attacking a target with less than 30% HP, Wrath skills deal +20% damage."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "wrath",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": 3,
+                "baseValue": 24,
+                "coinValue": 7
+            },
+            {
+                "uptie": 3,
+                "baseValue": 27,
+                "coinValue": 7
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 4
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Capote",
+                "abName": "Brazen Bull",
+                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Give 1 [CrimsonTakeDamageUp], and 1 [CrimsonDamageUp] to all units next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 3 [Combustion]",
+                        "[OnSucceedAttack] Deal 7 SP damage",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce target's Tremor Count by 2"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Capote",
+                "abName": "Brazen Bull",
+                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Give 1 [CrimsonTakeDamageUp], and 1 [CrimsonDamageUp] to all units next turn",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Inflict 5 [Combustion]",
+                        "[OnSucceedAttack] Deal 15 SP damage",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce Tremor Count by 2; if the [VibrationExplosion] Staggered the target, inflict +2 [Combustion] Count on 3 random units"
+                    ]
+                ]
+            }
+        ]
+    }
+}

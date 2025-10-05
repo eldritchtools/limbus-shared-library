@@ -1,0 +1,283 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Intuition",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Intuition",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Intuition",
+                    "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070601
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 10
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "The Wrap-up",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "The Wrap-up",
+                    "desc": "[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] next turn",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "The Wrap-up",
+                    "desc": "[WinDuel] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070602
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Forensics",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]",
+                            "[EnemyKill] Inflict +2 [Burst] Count against the enemy with the lowest [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Forensics",
+                    "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Burst]",
+                            "[EnemyKill] Inflict +2 [Burst] Count against the enemy with the lowest [Burst] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070603
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070601
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1070611
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070621
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1070631
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070601": {
+            "name": "Instinctive Read",
+            "desc": "When attacking a target with a damage type the target is \"Fatal\" (Resistance>x1.5) to, inflict +1 more Rupture with Skill effects",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1070611": {
+            "name": "Instinctive Read",
+            "desc": "When attacking a target with a damage type the target is \"Fatal\" (Resistance>x1.5) to, inflict +1 more Rupture with Skill effects\n<style=\"highlight\">If 4 or more surviving units, including this unit, are Seven Association Fixers, additional +1 more Rupture</style>",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1070621": {
+            "name": "Connect The Dots",
+            "desc": "1 ally with the highest Max HP inflicts +1 more Rupture with Skill effects when attacking a target with a damage type that the target is \"Fatal\"(Resistance>x1.5) to",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1070631": {
+            "name": "Connect The Dots",
+            "desc": "1 ally with the highest Max HP inflicts +1 more Rupture with Skill effects when attacking a target with a damage type that the target is \"Fatal\"(Resistance>x1.5) to\n<style=\"highlight\">If the ally is a Seven Association Fixer, additional +1 more Rupture</style>",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

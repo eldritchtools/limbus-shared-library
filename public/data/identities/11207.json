@@ -1,0 +1,263 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Negotiation Start",
+                    "desc": "[WhenUse] Gain 2 [Breath]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain +1 [Breath] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Negotiation Start",
+                    "desc": "[WhenUse] Gain 3 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Breath] Count",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Negotiation Start",
+                    "desc": "[WhenUse] Gain 3 [Breath]\nIf target has 7+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +1 [Breath] Count",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120701
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Unilateral Business",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 3 [Breath]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Unilateral Business",
+                    "desc": "[WhenUse] Gain +3 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 4 [Breath]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]",
+                            "+30% Damage on Critical Hit"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Unilateral Business",
+                    "desc": "Coin Power +1 for every 7 [Laceration] on target (Max 2)\n[WhenUse] Gain +3 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 4 [Breath]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]",
+                            "+50% Damage on Critical Hit"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120702
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 5,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Foregone Conclusion",
+                    "desc": "[WhenUse] Gain 1 [Breath] per 3 [Laceration] on target (Max 5)\nAt 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u>, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count"
+                        ],
+                        [
+                            "Spend 1 Ammo",
+                            "+50% Damage on Critical Hit"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Foregone Conclusion",
+                    "desc": "[WhenUse] Gain 1 [Breath] for every 3 [Laceration] on target (Max 10)\nGain Coin Power +1 for every 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u> on self (Max +3)",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count"
+                        ],
+                        [
+                            "Spend 1 Ammo",
+                            "+100% Damage on Critical Hit",
+                            "[EnemyKill] Gain 1 [PlusCoinValueUp] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1120703
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1120701
+            ]
+        },
+        {
+            "level": 3,
+            "passives": [
+                1120702
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1120721
+            ]
+        }
+    ],
+    "passiveData": {
+        "1120721": {
+            "name": "New Breathing Hole",
+            "desc": "If 1 ally with the most <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Poise</color></link></u> defeats an enemy, gain 1 Pierce DMG Up next turn. (Once per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1120701": {
+            "name": "Bullets are Pricey",
+            "desc": "- On Heads Hit against target with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n- If this unit Critical Hits when out of [Bullet], spend all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1120702": {
+            "name": "Bullets are Pricey",
+            "desc": "<style=\"highlight\">- Always Active : begin encounters with 7 Ammo</style>\n- On Heads Hit against target with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n<style=\"highlight\"> If a Coin that uses Ammo Hits, consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (25 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage as bonus damage.</style>\n- If this unit Critical Hits when out of [Bullet], consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 2
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Draw of the Sword",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Draw of the Sword",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain 4 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Draw of the Sword",
+                    "desc": "At 5+ [Breath], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 4 [Breath]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110201
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Acupuncture",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain 1 [SlashDamageUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Acupuncture",
+                    "desc": "[WinDuel] Gain +1 [Breath] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [SlashDamageUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Acupuncture",
+                    "desc": "[WinDuel] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Gain 2 [SlashDamageUp] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110202
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 6,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Decisive Dive",
+                    "desc": "If target\u2019s HP is below 25%, Final Power +2",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[CriticalOnSucceedAttack] Raise first Stagger Threshold by 20% of damage dealt"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Decisive Dive",
+                    "desc": "If target\u2019s HP is below 50%, Final Power +2",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[CriticalOnSucceedAttack] Raise first Stagger Threshold by 20% of damage dealt"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110203
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1110201
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1110221
+            ]
+        }
+    ],
+    "passiveData": {
+        "1110201": {
+            "name": "Levelheaded",
+            "desc": "Deal +20% damage to targets below 25% HP.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1110221": {
+            "name": "Double Tap",
+            "desc": "1 ally with the most SP deals +30% damage to enemies below 25% HP.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

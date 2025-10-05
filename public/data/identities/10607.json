@@ -1,0 +1,248 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Track",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]",
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Track",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]",
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Track",
+                    "desc": "At 2+ [Agility], Final Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]",
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060701
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Goin' First",
+                    "desc": "[WhenUse] Gain 1 [Agility] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If this unit is faster than the target, inflict [Laceration] Count equal to their Speed difference (Max 2)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Goin' First",
+                    "desc": "[WhenUse] Gain 2 [Agility] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If this unit is faster than the target, inflict [Laceration] Count equal to their Speed difference (Max 3)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Goin' First",
+                    "desc": "At 6+ Speed, Coin Power +1\n[WhenUse] Gain 2 [Agility] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] If this unit is faster than the target, inflict [Laceration] Count equal to their Speed difference (Max 4)"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060702
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Rampage",
+                    "desc": "At 8+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.3% damage per 1% missing HP)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Heal 1 SP per [Laceration] on target (Max 5)"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rampage",
+                    "desc": "At 6+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Heal 1 SP per [Laceration] on target (Max 10)"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1060703
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1060701
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1060721
+            ]
+        }
+    ],
+    "passiveData": {
+        "1060721": {
+            "name": "Mass-produced Bionic Gear",
+            "desc": "When 1 ally with the fastest Speed defeats an enemy inflicted with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain 1 Attack Power Up next turn (Once per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 5
+                    }
+                ]
+            }
+        },
+        "1060701": {
+            "name": "Hook",
+            "desc": "Upon defeating an enemy, gain 1 Attack Power Up next turn (Once per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

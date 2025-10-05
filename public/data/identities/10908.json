@@ -1,0 +1,274 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Flaming Fists",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Flaming Fists",
+                    "desc": "If target has 3+ [Combustion], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Flaming Fists",
+                    "desc": "Coin Power +1 for every 3 [Combustion] on target (Max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090801
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Fiery Knifehand-Combust",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count."
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Fiery Knifehand-Combust",
+                    "desc": "If target has 6+ [Combustion], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fiery Knifehand-Combust",
+                    "desc": "Coin Power +1 for every 6 [Combustion] on target (Max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090802
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Pinpoint Blitz",
+                    "desc": "If target has 6+ [Combustion] and [Combustion] Count, Deal +30% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict Wrath Affinity damage equal to half of [Combustion] Potency on target. (Max 20) Reduce Target's [Combustion] Count by 2"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Pinpoint Blitz",
+                    "desc": "<style=\"highlight\">If target has 6+ [Combustion], Coin Power +1\nIf target has 6+ [Combustion] and [Combustion] Count, deal +30% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (Max 30) Reduce Target's [Combustion] Count by 2"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1090803
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1090801
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1090811
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1090821
+            ]
+        }
+    ],
+    "passiveData": {
+        "1090801": {
+            "name": "Burning Passion",
+            "desc": "Deal +5% damage for every 6 [Combustion] Potency on target (Max 15%)\nCombat Start: If all enemies have 6+ [Combustion] Potency, apply 1 [CrimsonDamageUp] to (highest Wrath A-Reson.) allies in Deployment order\n- In Focused Encounters, the above activates when all enemy Parts have 6+ [Combustion] Potency",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1090811": {
+            "name": "Burning Passion",
+            "desc": "Deal +10% damage for every 6 [Combustion] Potency on target (Max 30%)\nCombat Start: If all enemies have 6+ [Combustion] Potency, apply 1 [CrimsonDamageUp] to (highest Wrath A-Reson.) allies in Deployment order\n- In Focused Encounters, the above activates when all enemy Parts have 6+ [Combustion] Potency\n- If the ally is a Liu Association Fixer, apply 1 Attack Power Up",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1090821": {
+            "name": "Passionate Cheer",
+            "desc": "1 ally with the least SP deals +5% Pierce damage for every 6 [Combustion] Potency on target On Hit (Max 15%)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "wrath",
+                        "value": 6
+                    }
+                ]
+            }
+        }
+    }
+}

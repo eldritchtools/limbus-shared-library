@@ -1,0 +1,228 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 1
+                },
+                {
+                    "uptie": 3
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 1
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Fierce Assault",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Vibration] Count"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Fierce Assault",
+                    "desc": "At 10+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fierce Assault",
+                    "desc": "At 10+ [Vibration] Count, Coin Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100701
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 12
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 12
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 12
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Steady...",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Steady...",
+                    "desc": "[WhenUse] Gain +4 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Steady...",
+                    "desc": "[WhenUse] Gain +6 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Vibration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100702
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Gamble",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 6 [Vibration] and trigger [Vibration] Burst on self\nDeal Blunt damage equal to [Vibration] Burst damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Gamble",
+                    "desc": "Coin Power +1 for every 10 [Vibration] Count on self (Max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 10 [Vibration] and trigger [Vibration] Burst on self\nDeal Blunt damage equal to [Vibration] Burst damage"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1100703
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1100701
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1100721
+            ]
+        }
+    ],
+    "passiveData": {
+        "1100721": {
+            "name": "Modified Power Output",
+            "desc": "1 ally with the most Max HP inflicts +1 Tremor with the effects of their attack skills/coins.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1100701": {
+            "name": "Unstable Power Output",
+            "desc": "On hit with Heads Coins at 10+ Tremor Count on self, Inflict +1 Tremor and Tremor Count with Coin effects.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gloom",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 3,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Order",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Apply 1 [Protection] to the ally with the slowest Speed"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Order",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Apply 2 [Protection] to the ally with the slowest Speed"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Order",
+                    "desc": "If target has 5+ [[Sinking]], Coin Power +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Apply 2 [Protection] to the ally with the slowest Speed"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 4,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 10
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 10
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Onslaught Command",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Apply 1 [AttackDmgUp] to the ally with the slowest Speed"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Onslaught Command",
+                    "desc": "[WhenUse] Apply 1 [Enhancement] to the ally with the slowest Speed",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Apply 2 [AttackDmgUp] to the ally with the slowest Speed"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Onslaught Command",
+                    "desc": "[WhenUse] Apply 1 [Enhancement] to the ally with the slowest Speed",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Apply 2 [AttackDmgUp] to the ally with the slowest Speed"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 6,
+                    "coinValue": 16
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 16
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Focus",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Sinking]",
+                            "[OnSucceedAttack] Inflict 2 [Reduction]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Focus",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Sinking]",
+                            "[OnSucceedAttack] Inflict 2 [Reduction]",
+                            "[OnSucceedAttackHead] Inflict 4 [Sinking]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1110303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1110301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1110321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1110321": {
+            "name": "Valor",
+            "desc": "1 ally with the most HP randomly gains 1 Attack Power Up, 1 Defense Power Up, or 1 Protection at the start of the combat phase.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1110301": {
+            "name": "Morale Boost",
+            "desc": "Next turn, apply 2 Haste to self and allies who are adjacent to this unit on the Dashboard this turn.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 2
+                    }
+                ]
+            }
+        }
+    }
+}

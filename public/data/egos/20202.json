@@ -1,0 +1,136 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 5,
+                "levelCorrection": -1,
+                "baseValue": 14,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "baseValue": 16,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4,
+                "coinValue": 8
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Fluid Sac",
+                "abName": "Headless Ichthys",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Heal 10 SP for all allies",
+                        "[EndSkill] Heal all allies for 10% of Max HP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Fluid Sac",
+                "abName": "Headless Ichthys",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Heal 15 SP for all allies",
+                        "[EndSkill] Heal all allies for 15% of Max HP"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Fluid Sac",
+                "abName": "Headless Ichthys",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[EndSkill] Heal 15 SP for all allies",
+                        "[EndSkill] Heal all allies for 15% of Max HP",
+                        "[EndSkillHead] Heal 10 SP for all allies"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Liquid Veil",
+            "desc": "At the start of the turn, apply 2 Protection to the ally with the least HP. (Including self.)"
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gloom",
+                "atkType": "blunt",
+                "defType": "attack",
+                "atkWeight": 5,
+                "levelCorrection": -1,
+                "baseValue": 27,
+                "coinValue": 14
+            },
+            {
+                "uptie": 3,
+                "baseValue": 29,
+                "coinValue": 14
+            },
+            {
+                "uptie": 4,
+                "coinValue": 14
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Fluid Sac",
+                "abName": "Headless Ichthys",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Deal 10 SP damage",
+                        "[OnSucceedAttack] Inflict 1 [Reduction] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Fluid Sac",
+                "abName": "Headless Ichthys",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Deal 20 SP damage",
+                        "[OnSucceedAttack] Inflict 2 [Reduction] next turn"
+                    ]
+                ]
+            },
+            {
+                "uptie": 4,
+                "name": "Fluid Sac",
+                "abName": "Headless Ichthys",
+                "desc": "[CantIdentify]\nTargets randomly",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Deal 20 SP damage",
+                        "[OnSucceedAttackTail] Deal 10 SP damage",
+                        "[OnSucceedAttack] Inflict 2 [Reduction] next turn"
+                    ]
+                ]
+            }
+        ]
+    }
+}

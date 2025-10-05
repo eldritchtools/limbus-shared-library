@@ -1,0 +1,268 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Cackle",
+                    "desc": "[WinDuel] Target loses 3 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Cackle",
+                    "desc": "[WinDuel] Target loses 3 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020401
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "The Gripping",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict [MarkOfHeresy] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "The Gripping",
+                    "desc": "",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Paralysis] next turn",
+                            "[OnSucceedAttack] Inflict [MarkOfHeresy] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "The Gripping",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Paralysis] next turn",
+                            "[OnSucceedAttack] Inflict [MarkOfHeresy] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020402
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 6,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Execution",
+                    "desc": "On kill, heal all allies for 10 SP and apply 1 [PenetrateDamageUp] and [HitDamageUp]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [NailPersonality]"
+                        ],
+                        [
+                            "+50% Damage to targets with 5+ [NailPersonality]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Execution",
+                    "desc": "On kill, heal all allies for 10 SP and apply 1 [PenetrateDamageUp] and [HitDamageUp]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [NailPersonality]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [NailPersonality]"
+                        ],
+                        [
+                            "+70% damage to targets with 5+ [NailPersonality]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020403
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1020401
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020411
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020421
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020431
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020401": {
+            "name": "Whistles",
+            "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020411": {
+            "name": "Whistles",
+            "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 2 Fanatic.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020421": {
+            "name": "Whispers",
+            "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1020431": {
+            "name": "Whispers",
+            "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 2 Fanatic.",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

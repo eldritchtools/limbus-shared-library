@@ -1,0 +1,231 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 5,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Umbrella Thwack",
+                    "desc": "[WhenUse] Gain +1 [Sinking] Count",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttackTail] Inflict +1 [Sinking] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Umbrella Thwack",
+                    "desc": "[WhenUse] Gain +1 [Sinking] Count",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttackTail] Inflict +2 [Sinking] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Umbrella Thwack",
+                    "desc": "[WhenUse] Gain +1 [Sinking] Count\n[DefeatDuel] Gain 3 [Sinking]",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttackTail] Inflict +2 [Sinking] Count"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070501
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 8,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 10
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Puddle Stomp",
+                    "desc": "[WhenUse] When below -15 SP, Final Power +2",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackTail] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackTail] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackTail] Trigger Tremor Burst"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Puddle Stomp",
+                    "desc": "[WhenUse] When below -15 SP, Final Power +2",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackTail] Inflict 3 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackTail] Inflict 3 [Burst]"
+                        ],
+                        [
+                            "Spend 5 Sinking to deal +20% damage",
+                            "[OnSucceedAttackTail] Trigger Tremor Burst"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Puddle Stomp",
+                    "desc": "[WhenUse] When below -15 SP, Final Power +3\n[WhenUse] When below -25 SP, Final Power +2",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttackTail] Inflict 3 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttackTail] Inflict 3 [Burst]"
+                        ],
+                        [
+                            "Spend 5 Sinking to deal +20% damage",
+                            "[OnSucceedAttackTail] Trigger Tremor Burst"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070502
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 18,
+                    "coinValue": 7
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Spread Out!",
+                    "desc": "[WhenUse] Gain 6 [Sinking] and +3 [Sinking] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackTail] Inflict 1 [Paralysis] next turn"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Burst]",
+                            "[OnSucceedAttackTail] Inflict 1 [Vulnerable] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1070503
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1070501
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1070521
+            ]
+        }
+    ],
+    "passiveData": {
+        "1070521": {
+            "name": "Ragged Umbrella",
+            "desc": "1 ally with the least SP loses 10 SP when hit by an attack and gains 1 Blunt DMG Up next turn. (Once per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1070501": {
+            "name": "Rain of Tears",
+            "desc": "At the start of the combat phase, spend 1 Sinking Count and lose SP by the current amount of Sinking.\nBefore being hit by an attack, gain Protection equal to this unit's Sinking. (Up to 5 Protection can be gained per turn)\nWhen hit, gain 1 Blunt DMG Up next turn. (3 per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "envy",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

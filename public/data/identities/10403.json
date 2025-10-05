@@ -1,0 +1,227 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Focus Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Focus Strike",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Focus Strike",
+                    "desc": "If target has 2+ [Laceration] Count, deal +20% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040301
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 5
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 5
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Clean Up",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Clean Up",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttackHead] Inflict 2 [AttackDmgDown]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Clean Up",
+                    "desc": "If target has 5+ [Laceration] Count, deal +20% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count ",
+                            "[OnSucceedAttackHead] Inflict 2 [AttackDmgDown]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040302
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 8,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Lenticular Swirl",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict 5 [AttackDown]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Lenticular Swirl",
+                    "desc": "If target has 9+ [Laceration] Count, deal +40% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict 5 [AttackDown]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1040303
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1040301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1040321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1040321": {
+            "name": "Muscle in Charge",
+            "desc": "1 ally with the fastest Speed inflicts +1 Bleed.",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1040301": {
+            "name": "Kokuunt\u014d",
+            "desc": "Deal +10% damage to targets with [Laceration].",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    }
+}

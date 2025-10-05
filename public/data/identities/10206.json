@@ -1,0 +1,262 @@
+{
+    "skills": [
+        {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Predictive Analysis",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Predictive Analysis",
+                    "desc": "If target has 3+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Predictive Analysis",
+                    "desc": "Coin Power +1 for every 3 [Burst] on target (Max 2)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020601
+        },
+        {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dissect Target",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Burst]"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, inflict [WeaknessAnalysis] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Dissect Target",
+                    "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1\n[WinDuel] Inflict +3 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, inflict [WeaknessAnalysis] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dissect Target",
+                    "desc": "Coin Power +1 for every 6 [Burst] on target (Max 2)\n[WinDuel] Inflict +3 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, inflict [WeaknessAnalysis] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020602
+        },
+        {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Profiling",
+                    "desc": "[WhenUse] Deal +10% damage for every 3 [Burst] on target (Max 20%)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ],
+                        [
+                            "[EndSkill] If target is Staggered or defeated, gain 1 [Agility], 1 [SlashResultUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Profiling",
+                    "desc": "[WhenUse] Deal +10% damage for every 3 [Burst] on target (Max 50%)\n[WinDuel] Inflict +2 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            ""
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ],
+                        [
+                            "[EndSkill] If target is Staggered or defeated, gain 1 [Agility], 1 [SlashResultUp] next turn"
+                        ]
+                    ]
+                }
+            ],
+            "id": 1020603
+        }
+    ],
+    "combatPassives": [
+        {
+            "level": 2,
+            "passives": [
+                1020601
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1020621
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1020631
+            ]
+        }
+    ],
+    "passiveData": {
+        "1020601": {
+            "name": "Before The Tea Cools...",
+            "desc": "When attacking a target with a damage type the target is \"Weak\" or \"Fatal\" (Resistance>x1) to, gain 1 [Breath] for each [Burst] on target before the attack (Max 20 per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1020621": {
+            "name": "Seven Association Tea Time",
+            "desc": "1 ally with the fastest Speed deals more damage based on the target's <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u> when attacking with a damage type that the target is \"Fatal\"(Resistance>x1.5) to \n+1.5% per 1 Rupture (Max 15%)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        "1020631": {
+            "name": "Seven Association Tea Time",
+            "desc": "1 ally with the fastest Speed deals more damage based on the target's <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u> when attacking with a damage type that the target is <style=\"highlight\">\"Weak\" or \"Fatal\"(Resistance>x1)</style> to\n(+1.5% per 1 Rupture; Max 15%)\n<style=\"highlight\">If the ally is a Seven Association Fixer, deal further increased damage\n(+0.5% per 1 Rupture; Max 5%)</style>",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 4
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "awakeningSkill": {
+        "tier": 3,
+        "type": "awakening",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 1,
+                "levelCorrection": -3,
+                "baseValue": 14,
+                "coinValue": 8
+            },
+            {
+                "uptie": 3,
+                "baseValue": 16,
+                "coinValue": 8
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 3
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Lantern",
+                "abName": "Faelantern",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 40% of damage dealt"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Lantern",
+                "abName": "Faelantern",
+                "desc": "",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 60% of damage dealt"
+                    ]
+                ]
+            }
+        ]
+    },
+    "passiveList": [
+        {
+            "name": "Nutrient Absorption",
+            "desc": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Reson.)% of Max HP."
+        }
+    ],
+    "corrosionSkill": {
+        "tier": 3,
+        "type": "corrosion",
+        "data": [
+            {
+                "uptie": 1,
+                "affinity": "gluttony",
+                "atkType": "pierce",
+                "defType": "attack",
+                "atkWeight": 3,
+                "levelCorrection": -3,
+                "baseValue": 17,
+                "coinValue": 4
+            },
+            {
+                "uptie": 3,
+                "baseValue": 19,
+                "coinValue": 4
+            },
+            {
+                "uptie": 4,
+                "atkWeight": 5
+            }
+        ],
+        "text": [
+            {
+                "uptie": 1,
+                "name": "Lantern",
+                "abName": "Faelantern",
+                "desc": "[CantIdentify] \nTarget the unit with most health",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 20% of damage dealt",
+                        "[OnSucceedAttackHead] Inflict 3 [Burst]"
+                    ]
+                ]
+            },
+            {
+                "uptie": 3,
+                "name": "Lantern",
+                "abName": "Faelantern",
+                "desc": "[CantIdentify] \nTarget the unit with most health",
+                "coinDescs": [
+                    [
+                        "[OnSucceedAttack] Heal 30% of damage dealt",
+                        "[OnSucceedAttackHead] Inflict 5 [Burst]"
+                    ]
+                ]
+            }
+        ]
+    }
+}
