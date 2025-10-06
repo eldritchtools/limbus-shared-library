@@ -9,8 +9,8 @@
         "build": "babel src --out-dir dist && copyfiles -u 1 public/data/* dist/"
     },
     "peerDependencies": {
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
+        "react": ">=19.0.0 <20.0.0",
+        "react-dom": ">=19.0.0 <20.0.0",
         "react-tooltip": "^5.29.1"
     },
     "devDependencies": {
