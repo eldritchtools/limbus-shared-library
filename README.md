@@ -1,6 +1,6 @@
 ## Limbus Shared Library
 
-Just a repo for shared components for my Palworld projects.
+Just a repo for shared components for my Limbus projects.
 
 Run `npm run build` before pushing updates to this project.
 
