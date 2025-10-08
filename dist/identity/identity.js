@@ -20,12 +20,12 @@ function IdentityImg(_ref) {
     }
   }
   var scaledStyle = {
-    width: "".concat(537 * scale, "px"),
-    height: "".concat(827 * scale, "px")
+    width: "".concat(256 * scale, "px"),
+    height: "".concat(256 * scale, "px")
   };
-  var type = uptie < 3 || "Base Identity" in identityObject.tags ? "normal" : "gacksung";
+  var type = uptie < 3 || identityObject.tags.includes("Base Identity") ? "normal" : "gacksung";
   var img = /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/identities/").concat(identity.id, "_").concat(type, "_info.png"),
+    src: "".concat(ASSETS_ROOT, "/identities/").concat(identity.id, "_").concat(type, "_profile.png"),
     alt: identity.name,
     title: identity.name,
     style: scaledStyle
