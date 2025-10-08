@@ -14,12 +14,13 @@ function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) 
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
+import { DATA_ROOT } from "../paths";
 import { jsx as _jsx } from "react/jsx-runtime";
 var DataContext = /*#__PURE__*/createContext();
 function preprocess_data(path, data) {
   if (["egos", "identities_mini", "identities"].includes(path)) {
-    return data.reduce(function (acc, _ref) {
+    return Object.entries(data).reduce(function (acc, _ref) {
       var _ref2 = _slicedToArray(_ref, 2),
         k = _ref2[0],
         v = _ref2[1];
@@ -27,7 +28,9 @@ function preprocess_data(path, data) {
         id: k
       }, v);
       return acc;
-    });
+    }, {});
+  } else {
+    return data;
   }
 }
 export function DataProvider(_ref3) {
@@ -38,7 +41,7 @@ export function DataProvider(_ref3) {
     setDataStore = _useState2[1];
   var getData = /*#__PURE__*/function () {
     var _ref4 = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee(path) {
-      var res, json;
+      var res, json, data;
       return _regenerator().w(function (_context) {
         while (1) switch (_context.n) {
           case 0:
@@ -49,17 +52,18 @@ export function DataProvider(_ref3) {
             return _context.a(2, dataStore[path]);
           case 1:
             _context.n = 2;
-            return fetch(path);
+            return fetch("".concat(DATA_ROOT, "/").concat(path, ".json"));
           case 2:
             res = _context.v;
             _context.n = 3;
             return res.json();
           case 3:
             json = _context.v;
+            data = preprocess_data(path, json);
             setDataStore(function (prev) {
-              return _objectSpread(_objectSpread({}, prev), {}, _defineProperty({}, path, preprocess_data(path, json)));
+              return _objectSpread(_objectSpread({}, prev), {}, _defineProperty({}, path, data));
             });
-            return _context.a(2, json);
+            return _context.a(2, data);
         }
       }, _callee);
     }));
@@ -76,7 +80,7 @@ export function DataProvider(_ref3) {
   });
 }
 export function useData(path) {
-  var _useContext = useContext(ProfileContext),
+  var _useContext = useContext(DataContext),
     dataStore = _useContext.dataStore,
     getData = _useContext.getData;
   var _useState3 = useState(path in dataStore ? dataStore[path] : null),

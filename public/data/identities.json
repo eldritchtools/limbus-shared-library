@@ -49,7 +49,7 @@
                 "id": 1010104,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -133,7 +133,7 @@
                 "id": 1010204,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -166,8 +166,8 @@
         "keywordTags": [
             "PenetrateTakeDamageUp",
             "Paralysis",
-            "Burst",
-            "Vulnerable"
+            "Vulnerable",
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 6"
     },
@@ -220,7 +220,8 @@
                 "id": 1010304,
                 "type": {
                     "affinity": "pride",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -304,7 +305,7 @@
                 "id": 1010404,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -335,8 +336,8 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "Vibration"
+            "Vibration",
+            "Sinking"
         ],
         "name": "Effloresced E.G.O::Spicebush"
     },
@@ -389,7 +390,7 @@
                 "id": 1010504,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -473,7 +474,7 @@
                 "id": 1010604,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -504,11 +505,11 @@
             }
         ],
         "keywordTags": [
-            "DimensionRift",
-            "Binding",
-            "Charge",
+            "Burst",
             "ChargeForceField",
-            "Burst"
+            "Binding",
+            "DimensionRift",
+            "Charge"
         ],
         "name": "W Corp. L3 Cleanup Agent"
     },
@@ -561,7 +562,7 @@
                 "id": 1010704,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -592,9 +593,9 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Breath",
-            "Binding",
-            "Laceration"
+            "Binding"
         ],
         "name": "The Pequod First Mate"
     },
@@ -646,7 +647,7 @@
                 "id": 1010804,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -677,8 +678,8 @@
             }
         ],
         "keywordTags": [
-            "KnowledgeExplored",
-            "Sinking"
+            "Sinking",
+            "KnowledgeExplored"
         ],
         "name": "Dieci Assoc. South Section 4"
     },
@@ -731,7 +732,7 @@
                 "id": 1010904,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -763,11 +764,11 @@
         ],
         "keywordTags": [
             "Vibration",
-            "Combustion",
-            "Laceration",
             "Burst",
             "AttackUp",
-            "Sinking"
+            "Sinking",
+            "Combustion",
+            "Laceration"
         ],
         "name": "The Ring Pointillist Student"
     },
@@ -821,7 +822,7 @@
                 "id": 1011004,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -854,9 +855,9 @@
         "keywordTags": [
             "SinkingWhite",
             "ReloadLament",
+            "Sinking",
             "Agility",
-            "BulletLament",
-            "Sinking"
+            "BulletLament"
         ],
         "name": "Lobotomy E.G.O:: Solemn Lament"
     },
@@ -908,7 +909,8 @@
                 "id": 1011104,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -939,11 +941,11 @@
             }
         ],
         "keywordTags": [
+            "Burst",
             "SuperCoin",
-            "GlowingLantern",
             "Binding",
-            "Aggro",
-            "Burst"
+            "GlowingLantern",
+            "Aggro"
         ],
         "name": "LCE E.G.O:: Lantern"
     },
@@ -996,7 +998,8 @@
                 "id": 1011204,
                 "type": {
                     "affinity": "wrath",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -1081,7 +1084,8 @@
                 "id": 1011304,
                 "type": {
                     "affinity": "pride",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -1112,12 +1116,12 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
+            "AttackDmgUp",
             "Breath",
-            "BoseProjektil",
+            "SuperCoin",
             "Laceration",
             "FellBulletPersonality",
-            "AttackDmgUp"
+            "BoseProjektil"
         ],
         "name": "N Corp. E.G.O:: Fell Bullet"
     },
@@ -1173,7 +1177,7 @@
                 "id": 1011404,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -1212,21 +1216,21 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Breath",
-            "Agility",
-            "Enhancement",
-            "LegStrengthHorseYisang",
-            "Binding",
-            "BreakthroughHorse",
-            "ConcussionYisang",
-            "BattlefieldHorse",
-            "AttackUp",
-            "HeishouComboCountHonglu",
-            "Burst",
+            "Vibration",
             "HeishouCombo",
+            "BreakthroughHorse",
+            "Burst",
+            "ConcussionYisang",
+            "Breath",
+            "SuperCoin",
+            "LegStrengthHorseYisang",
+            "Enhancement",
+            "AttackUp",
+            "BattlefieldHorse",
+            "Binding",
+            "Agility",
             "VibrationExplosion",
-            "Vibration"
+            "HeishouComboCountHonglu"
         ],
         "name": "Heishou Pack - Wu Branch Adept"
     },
@@ -1278,7 +1282,7 @@
                 "id": 1020104,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -1309,9 +1313,9 @@
             }
         ],
         "keywordTags": [
-            "Reduction",
+            "AttackDown",
             "Paralysis",
-            "AttackDown"
+            "Reduction"
         ],
         "name": "LCB Sinner"
     },
@@ -1362,7 +1366,7 @@
                 "id": 1020204,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -1448,7 +1452,7 @@
                 "id": 1020304,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -1534,7 +1538,7 @@
                 "id": 1020404,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -1565,12 +1569,12 @@
             }
         ],
         "keywordTags": [
-            "Paralysis",
-            "PenetrateDamageUp",
-            "Laceration",
-            "MarkOfHeresy",
             "NailPersonality",
-            "HitDamageUp"
+            "PenetrateDamageUp",
+            "HitDamageUp",
+            "MarkOfHeresy",
+            "Paralysis",
+            "Laceration"
         ],
         "name": "The One Who Grips"
     },
@@ -1620,7 +1624,7 @@
                 "id": 1020504,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -1651,8 +1655,8 @@
             }
         ],
         "keywordTags": [
-            "DefenseUp",
-            "Agility"
+            "Agility",
+            "DefenseUp"
         ],
         "name": "Zwei Assoc. South Section 4"
     },
@@ -1705,7 +1709,7 @@
                 "id": 1020604,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -1736,11 +1740,11 @@
             }
         ],
         "keywordTags": [
+            "Burst",
             "Breath",
-            "Agility",
             "WeaknessAnalysis",
-            "SlashResultUp",
-            "Burst"
+            "Agility",
+            "SlashResultUp"
         ],
         "name": "Seven Assoc. South Section 4"
     },
@@ -1793,7 +1797,8 @@
                 "id": 1020704,
                 "type": {
                     "affinity": "gloom",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -1824,10 +1829,10 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
+            "Vibration",
             "AttackDown",
             "PlusCoinValueDown",
-            "Vibration"
+            "VibrationExplosion"
         ],
         "name": "Lobotomy E.G.O::Regret"
     },
@@ -1881,7 +1886,7 @@
                 "id": 1020804,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -1969,7 +1974,7 @@
                 "id": 1020904,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -2000,8 +2005,8 @@
             }
         ],
         "keywordTags": [
-            "EchoOfMansion",
-            "Sinking"
+            "Sinking",
+            "EchoOfMansion"
         ],
         "name": "Wuthering Heights Butler"
     },
@@ -2055,7 +2060,7 @@
                 "id": 1021004,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -2086,8 +2091,8 @@
             }
         ],
         "keywordTags": [
-            "VioletTakeDamageUp",
-            "Charge"
+            "Charge",
+            "VioletTakeDamageUp"
         ],
         "name": "MultiCrack Office Rep"
     },
@@ -2140,7 +2145,7 @@
                 "id": 1021104,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -2180,8 +2185,8 @@
         ],
         "keywordTags": [
             "SuperCoin",
-            "AttackUp",
-            "Combustion"
+            "Combustion",
+            "AttackUp"
         ],
         "name": "LCE E.G.O:: Ardor Blossom Star"
     },
@@ -2235,7 +2240,7 @@
                 "id": 1030104,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -2266,9 +2271,9 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Agility",
-            "Enhancement",
-            "Laceration"
+            "Enhancement"
         ],
         "name": "LCB Sinner"
     },
@@ -2321,7 +2326,7 @@
                 "id": 1030204,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -2406,7 +2411,7 @@
                 "id": 1030304,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -2491,7 +2496,7 @@
                 "id": 1030404,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -2522,10 +2527,10 @@
             }
         ],
         "keywordTags": [
-            "Reduction",
-            "Paralysis",
+            "Vibration",
             "NailPersonality",
-            "Vibration"
+            "Paralysis",
+            "Reduction"
         ],
         "name": "N Corp. Mittelhammer"
     },
@@ -2576,7 +2581,7 @@
                 "id": 1030504,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -2607,9 +2612,9 @@
             }
         ],
         "keywordTags": [
-            "DuelDeclaration_DonQuixote",
             "Binding",
-            "Agility"
+            "Agility",
+            "DuelDeclaration_DonQuixote"
         ],
         "name": "Cinq Assoc. South Section 5 Director"
     },
@@ -2661,14 +2666,16 @@
                 "id": 1030604,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             },
             {
                 "id": 1030605,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -2753,7 +2760,7 @@
                 "id": 1030704,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -2838,7 +2845,7 @@
                 "id": 1030804,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -2920,7 +2927,7 @@
                 "id": 1030904,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -2951,14 +2958,14 @@
             }
         ],
         "keywordTags": [
-            "VibrationChainPersonality",
-            "Binding",
-            "Aggro",
+            "Vibration",
             "TimeSuspend",
+            "VibrationChainPersonality",
             "TimeRentalTwoPersonality",
+            "Binding",
             "VibrationExplosion",
             "Switch_Vibration",
-            "Vibration"
+            "Aggro"
         ],
         "name": "T Corp. Class 3 Collection Staff"
     },
@@ -3012,14 +3019,16 @@
                 "id": 1031004,
                 "type": {
                     "affinity": "lust",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             },
             {
                 "id": 1031008,
                 "type": {
                     "affinity": "lust",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -3074,12 +3083,12 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "SadLamanchaland",
-            "Laceration",
             "BloodDinner_Accumulation",
             "AttackDmgUp",
+            "SuperCoin",
+            "SadLamanchaland",
             "BloodArmorPersonalityFirst",
+            "Laceration",
             "BloodDinner_Common_Accumulation",
             "BloodDinner"
         ],
@@ -3135,7 +3144,7 @@
                 "id": 1031104,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -3167,9 +3176,9 @@
         ],
         "keywordTags": [
             "Breath",
-            "Agility",
-            "Combustion",
             "DefenseDown",
+            "Combustion",
+            "Agility",
             "DianxueDonQuixote"
         ],
         "name": "Cinq Assoc. East Section 3"
@@ -3226,7 +3235,7 @@
                 "id": 1031204,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -3281,16 +3290,16 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "ArcanaQueenOfHate",
-            "MagicalGirlAppear",
             "ThePowerOfLoveAndHate",
-            "NoVillain",
-            "Charge",
-            "VillainMark",
             "Burst",
+            "VillainMark",
+            "ArcanaQueenOfHate",
+            "SuperCoin",
             "HystericGauge",
-            "Sinking"
+            "Sinking",
+            "NoVillain",
+            "MagicalGirlAppear",
+            "Charge"
         ],
         "name": "Lobotomy E.G.O:: In the Name of Love and Hate"
     },
@@ -3344,7 +3353,7 @@
                 "id": 1040104,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -3429,7 +3438,8 @@
                 "id": 1040204,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -3461,9 +3471,9 @@
         ],
         "keywordTags": [
             "SlashTakeDamageUp",
+            "DefenseDown",
             "Enhancement",
-            "Burst",
-            "DefenseDown"
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 6"
     },
@@ -3516,7 +3526,7 @@
                 "id": 1040304,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -3547,9 +3557,9 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Paralysis",
             "AttackDown",
-            "Laceration",
             "AttackDmgDown"
         ],
         "name": "Kurokumo Clan Wakashu"
@@ -3604,7 +3614,7 @@
                 "id": 1040404,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -3635,10 +3645,10 @@
             }
         ],
         "keywordTags": [
-            "TakeHpHealReduce",
+            "Laceration",
             "Thirst",
-            "Binding",
-            "Laceration"
+            "TakeHpHealReduce",
+            "Binding"
         ],
         "name": "R.B. Chef de Cuisine"
     },
@@ -3690,7 +3700,7 @@
                 "id": 1040504,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -3722,8 +3732,8 @@
         ],
         "keywordTags": [
             "SlashTakeDamageUp",
-            "Agility",
             "Charge",
+            "Agility",
             "ChargeForceField"
         ],
         "name": "W Corp. L3 Cleanup Agent"
@@ -3778,7 +3788,7 @@
                 "id": 1040604,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -3809,11 +3819,11 @@
             }
         ],
         "keywordTags": [
-            "Breath",
-            "Bullet",
-            "AttackDown",
+            "Vibration",
             "Burst",
-            "Vibration"
+            "Breath",
+            "AttackDown",
+            "Bullet"
         ],
         "name": "LCCB Assistant Manager"
     },
@@ -3866,7 +3876,7 @@
                 "id": 1040704,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -3951,7 +3961,7 @@
                 "id": 1040804,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -3982,10 +3992,10 @@
             }
         ],
         "keywordTags": [
-            "Breath",
             "Binding",
-            "Agility",
-            "MarkOfButler"
+            "Breath",
+            "MarkOfButler",
+            "Agility"
         ],
         "name": "Edgar Family Chief Butler"
     },
@@ -4038,7 +4048,7 @@
                 "id": 1040904,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4069,8 +4079,8 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
-            "Vibration"
+            "Vibration",
+            "VibrationExplosion"
         ],
         "name": "District 20 Yurodivy"
     },
@@ -4124,7 +4134,8 @@
                 "id": 1041004,
                 "type": {
                     "affinity": "lust",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -4163,14 +4174,14 @@
             }
         ],
         "keywordTags": [
+            "Reduction",
             "RedEyeFirst",
             "Agility",
             "Binding",
+            "PenanceFirst",
             "Laceration",
             "Charge",
-            "Emptiness",
-            "Reduction",
-            "PenanceFirst"
+            "Emptiness"
         ],
         "name": "Lobotomy E.G.O:: Red Eyes & Penitence"
     },
@@ -4223,7 +4234,8 @@
                 "id": 1041104,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -4255,8 +4267,8 @@
         ],
         "keywordTags": [
             "LegStrength",
-            "BurstAgility",
             "Agility",
+            "BurstAgility",
             "Burst"
         ],
         "name": "Heishou Pack - Mao Branch"
@@ -4309,7 +4321,7 @@
                 "id": 1041204,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4356,20 +4368,20 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "VibrationBleeding",
+            "Vibration",
             "Breath",
-            "GazeRyoshu",
-            "Protection",
-            "Binding",
-            "BoseProjektil",
-            "Laceration",
+            "SuperCoin",
             "ContemptRyoshu",
-            "ContemptPersonality",
-            "GazePersonality",
+            "VibrationBleeding",
+            "Binding",
             "VibrationExplosion",
+            "ContemptPersonality",
+            "Laceration",
+            "GazeRyoshu",
             "Switch_Vibration",
-            "Vibration"
+            "Protection",
+            "GazePersonality",
+            "BoseProjektil"
         ],
         "name": "N Corp. E.G.O:: Contempt, Awe"
     },
@@ -4422,7 +4434,7 @@
                 "id": 1050104,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4453,8 +4465,8 @@
             }
         ],
         "keywordTags": [
-            "Endurance",
             "Vibration",
+            "Endurance",
             "Protection"
         ],
         "name": "LCB Sinner"
@@ -4508,7 +4520,7 @@
                 "id": 1050204,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4591,7 +4603,7 @@
                 "id": 1050304,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4622,11 +4634,11 @@
             }
         ],
         "keywordTags": [
-            "SlashTakeDamageUp",
-            "Charge",
-            "DefenseDown",
             "Burst",
-            "SlashTakeDamageDown"
+            "SlashTakeDamageDown",
+            "DefenseDown",
+            "SlashTakeDamageUp",
+            "Charge"
         ],
         "name": "W Corp. L2 Cleanup Agent"
     },
@@ -4677,7 +4689,8 @@
                 "id": 1050404,
                 "type": {
                     "affinity": "wrath",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -4708,9 +4721,9 @@
             }
         ],
         "keywordTags": [
+            "NailPersonality",
             "Binding",
-            "Reduction",
-            "NailPersonality"
+            "Reduction"
         ],
         "name": "N Corp. Gro\u00dfhammer"
     },
@@ -4763,7 +4776,7 @@
                 "id": 1050504,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4794,10 +4807,10 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
-            "Reduction",
+            "Vibration",
             "Charge",
-            "Vibration"
+            "VibrationExplosion",
+            "Reduction"
         ],
         "name": "Rosespanner Workshop Fixer"
     },
@@ -4848,7 +4861,7 @@
                 "id": 1050604,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -4879,8 +4892,8 @@
             }
         ],
         "keywordTags": [
-            "Charge",
-            "Laceration"
+            "Laceration",
+            "Charge"
         ],
         "name": "R Corp. 4th Pack Rhino"
     },
@@ -4932,7 +4945,8 @@
                 "id": 1050704,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -4963,10 +4977,10 @@
             }
         ],
         "keywordTags": [
-            "VioletDamageUp",
+            "Laceration",
             "PlusCoinValueDown",
-            "VioletTakeDamageUp",
-            "Laceration"
+            "VioletDamageUp",
+            "VioletTakeDamageUp"
         ],
         "name": "The Middle Little Brother"
     },
@@ -5018,14 +5032,16 @@
                 "id": 1050804,
                 "type": {
                     "affinity": "envy",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             },
             {
                 "id": 1050805,
                 "type": {
                     "affinity": "pride",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -5057,10 +5073,10 @@
         ],
         "keywordTags": [
             "Breath",
+            "SwordPlayOfTheHomeland",
             "BladeResultUpTier1",
             "SlashResultUp",
-            "BladeResultUpTier2",
-            "SwordPlayOfTheHomeland"
+            "BladeResultUpTier2"
         ],
         "name": "Blade Lineage Mentor"
     },
@@ -5112,7 +5128,8 @@
                 "id": 1050904,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -5196,7 +5213,7 @@
                 "id": 1051004,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -5227,10 +5244,10 @@
             }
         ],
         "keywordTags": [
-            "KnowledgeTraining",
             "Discard",
-            "KnowledgeExplored",
-            "Sinking"
+            "Sinking",
+            "KnowledgeTraining",
+            "KnowledgeExplored"
         ],
         "name": "Dieci Assoc. South Section 4 Director"
     },
@@ -5283,7 +5300,7 @@
                 "id": 1051104,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -5314,8 +5331,8 @@
             }
         ],
         "keywordTags": [
-            "Breath",
             "ConcentratedAttackMeursault",
+            "Breath",
             "Agility",
             "Burst"
         ],
@@ -5370,7 +5387,8 @@
                 "id": 1051204,
                 "type": {
                     "affinity": "sloth",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -5409,18 +5427,18 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "HugeIrritationAlly",
-            "BulletPropellantAlly",
-            "Bullet",
-            "Combustion",
-            "IrritationAlly",
-            "BeastEyesAlly",
-            "BulletPropellantSpecialAlly",
-            "VibrationExplosion",
+            "Vibration",
             "Switch_Vibration",
             "VibrationIgnition",
-            "Vibration"
+            "SuperCoin",
+            "BeastEyesAlly",
+            "IrritationAlly",
+            "Combustion",
+            "VibrationExplosion",
+            "HugeIrritationAlly",
+            "Bullet",
+            "BulletPropellantAlly",
+            "BulletPropellantSpecialAlly"
         ],
         "name": "The Thumb East Capo IIII"
     },
@@ -5475,7 +5493,7 @@
                 "id": 1060104,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -5506,9 +5524,9 @@
             }
         ],
         "keywordTags": [
+            "Sinking",
             "Reduction",
-            "Burst",
-            "Sinking"
+            "Burst"
         ],
         "name": "LCB Sinner"
     },
@@ -5561,7 +5579,7 @@
                 "id": 1060204,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -5592,8 +5610,8 @@
             }
         ],
         "keywordTags": [
-            "Paralysis",
-            "Laceration"
+            "Laceration",
+            "Paralysis"
         ],
         "name": "Kurokumo Clan Wakashu"
     },
@@ -5647,7 +5665,7 @@
                 "id": 1060304,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -5730,7 +5748,7 @@
                 "id": 1060404,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -5811,7 +5829,7 @@
                 "id": 1060504,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -5895,7 +5913,7 @@
                 "id": 1060604,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -5926,9 +5944,9 @@
             }
         ],
         "keywordTags": [
+            "Burst",
             "Charge",
-            "ChargeForceField",
-            "Burst"
+            "ChargeForceField"
         ],
         "name": "W Corp. L2 Cleanup Agent"
     },
@@ -5982,7 +6000,7 @@
                 "id": 1060704,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -6013,8 +6031,8 @@
             }
         ],
         "keywordTags": [
-            "Agility",
-            "Laceration"
+            "Laceration",
+            "Agility"
         ],
         "name": "Hook Office Fixer"
     },
@@ -6066,7 +6084,7 @@
                 "id": 1060804,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -6097,9 +6115,9 @@
             }
         ],
         "keywordTags": [
-            "KnowledgeExplored",
             "AttackDmgUp",
-            "Sinking"
+            "Sinking",
+            "KnowledgeExplored"
         ],
         "name": "Dieci Assoc. South Section 4"
     },
@@ -6152,7 +6170,7 @@
                 "id": 1060904,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -6183,11 +6201,11 @@
             }
         ],
         "keywordTags": [
-            "VibrationEcho",
+            "Vibration",
             "FusionVibration",
+            "VibrationEcho",
             "VibrationExplosion",
-            "AttackDmgUp",
-            "Vibration"
+            "AttackDmgUp"
         ],
         "name": "District 20 Yurodivy"
     },
@@ -6240,7 +6258,7 @@
                 "id": 1061004,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -6271,10 +6289,10 @@
             }
         ],
         "keywordTags": [
-            "TakeHpHealReduce",
+            "Laceration",
             "DefenseDown",
-            "Burst",
-            "Laceration"
+            "TakeHpHealReduce",
+            "Burst"
         ],
         "name": "Fanghunt Office Fixer"
     },
@@ -6326,14 +6344,15 @@
                 "id": 1061104,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             },
             {
                 "id": 1061107,
                 "type": {
                     "affinity": "pride",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -6388,13 +6407,13 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Breath",
-            "PenetrateTakeDamageUp",
-            "Binding",
-            "Bullet",
-            "CoveringFire",
             "Reduction",
+            "Breath",
+            "SuperCoin",
+            "Binding",
+            "CoveringFire",
+            "Bullet",
+            "PenetrateTakeDamageUp",
             "Retreat_FullStop"
         ],
         "name": "Full-Stop Office Rep"
@@ -6448,7 +6467,7 @@
                 "id": 1061204,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -6480,8 +6499,8 @@
         ],
         "keywordTags": [
             "WideAreaRampage",
-            "Charge",
-            "Sinking"
+            "Sinking",
+            "Charge"
         ],
         "name": "R Corp. 4th Pack Reindeer"
     },
@@ -6534,14 +6553,15 @@
                 "id": 1061304,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             },
             {
                 "id": 1061307,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "guard"
                 }
             }
         ],
@@ -6588,24 +6608,24 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Breath",
-            "ShamrockDamageUp",
-            "Enhancement",
-            "SlashResistDown",
-            "Endurance",
-            "CondensedBlood",
-            "HeishouComboCount",
-            "DefenseDown",
-            "HeishouDeathCount",
-            "HeishouSynergy",
-            "AttackDown",
-            "Burst",
             "HeishouCombo",
-            "HeishouComboCountHonglu",
-            "HeishouSupportProtect",
+            "ShamrockDamageUp",
+            "Burst",
             "SupportProtect",
-            "AttackDmgUp"
+            "AttackDmgUp",
+            "Breath",
+            "SuperCoin",
+            "Enhancement",
+            "HeishouComboCount",
+            "AttackDown",
+            "DefenseDown",
+            "CondensedBlood",
+            "Endurance",
+            "HeishouSynergy",
+            "HeishouSupportProtect",
+            "HeishouComboCountHonglu",
+            "SlashResistDown",
+            "HeishouDeathCount"
         ],
         "name": "The Lord of Hongyuan"
     },
@@ -6659,7 +6679,8 @@
                 "id": 1070104,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -6690,9 +6711,9 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
+            "Vibration",
             "Enhancement",
-            "Vibration"
+            "AttackDmgUp"
         ],
         "name": "LCB Sinner"
     },
@@ -6744,7 +6765,8 @@
                 "id": 1070204,
                 "type": {
                     "affinity": "wrath",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -6829,7 +6851,7 @@
                 "id": 1070304,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -6860,10 +6882,10 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Burst",
-            "Vulnerable",
             "Charge",
-            "Laceration"
+            "Vulnerable"
         ],
         "name": "R Corp. 4th Pack Rabbit"
     },
@@ -6916,7 +6938,7 @@
                 "id": 1070404,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -6947,9 +6969,9 @@
             }
         ],
         "keywordTags": [
-            "PlusCoinValueDown",
+            "Laceration",
             "NailPersonality",
-            "Laceration"
+            "PlusCoinValueDown"
         ],
         "name": "N Corp. Kleinhammer"
     },
@@ -7002,7 +7024,8 @@
                 "id": 1070504,
                 "type": {
                     "affinity": "wrath",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -7033,10 +7056,10 @@
             }
         ],
         "keywordTags": [
-            "Paralysis",
-            "Burst",
             "Sinking",
-            "Vulnerable"
+            "Paralysis",
+            "Vulnerable",
+            "Burst"
         ],
         "name": "Lobotomy E.G.O:: Sunshower"
     },
@@ -7089,7 +7112,7 @@
                 "id": 1070604,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -7120,8 +7143,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "DefenseDown"
+            "DefenseDown",
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 4"
     },
@@ -7172,7 +7195,8 @@
                 "id": 1070704,
                 "type": {
                     "affinity": "wrath",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -7203,10 +7227,10 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Breath",
-            "DefenseUp",
             "AttackUp",
-            "Laceration"
+            "DefenseUp"
         ],
         "name": "The Pequod Harpooneer"
     },
@@ -7258,7 +7282,7 @@
                 "id": 1070804,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -7289,10 +7313,10 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
-            "Switch_Vibration",
+            "Vibration",
             "VibrationCollapse",
-            "Vibration"
+            "Switch_Vibration",
+            "VibrationExplosion"
         ],
         "name": "\u00d6ufi Assoc. South Section 3"
     },
@@ -7346,7 +7370,7 @@
                 "id": 1070904,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -7377,13 +7401,13 @@
             }
         ],
         "keywordTags": [
-            "Agility",
             "TakeHpHealReduce",
-            "Charge",
-            "DefenseDown",
+            "PhotoElectricity",
             "ParryingResultUp",
+            "DefenseDown",
+            "Agility",
             "HitTakeDamageUp",
-            "PhotoElectricity"
+            "Charge"
         ],
         "name": "MultiCrack Office Fixer"
     },
@@ -7437,14 +7461,16 @@
                 "id": 1071004,
                 "type": {
                     "affinity": "lust",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             },
             {
                 "id": 1071006,
                 "type": {
                     "affinity": "gloom",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -7484,12 +7510,12 @@
         ],
         "keywordTags": [
             "NightPathfinding",
-            "Enhancement",
-            "Coffin",
             "WildHunt",
+            "Enhancement",
             "WanderingFootsteps",
+            "Sinking",
             "AttackDmgUp",
-            "Sinking"
+            "Coffin"
         ],
         "name": "Wild Hunt"
     },
@@ -7542,14 +7568,14 @@
                 "id": 1071104,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             },
             {
                 "id": 1071106,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -7588,16 +7614,16 @@
             }
         ],
         "keywordTags": [
-            "Breath",
-            "PenetrateTakeDamageUp",
-            "Agility",
-            "FullReload",
-            "Bullet_LogicAtelier",
-            "Bullet",
-            "CoveringFire",
-            "LogicAtelierAM",
             "Retreat_FullStop",
-            "PenetrateResultUp"
+            "LogicAtelierAM",
+            "PenetrateResultUp",
+            "Breath",
+            "FullReload",
+            "Agility",
+            "CoveringFire",
+            "Bullet",
+            "PenetrateTakeDamageUp",
+            "Bullet_LogicAtelier"
         ],
         "name": "Full-Stop Office Fixer"
     },
@@ -7649,7 +7675,8 @@
                 "id": 1071204,
                 "type": {
                     "affinity": "lust",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -7688,15 +7715,15 @@
             }
         ],
         "keywordTags": [
-            "SlashTakeDamageUp",
-            "Endurance",
-            "Laceration",
             "CloudWall",
-            "BlackCloudBlade",
-            "SlashResultUp",
+            "SlashTakeDamageUp",
             "Reduction",
             "EngageToBattle",
-            "AttackDown"
+            "AttackDown",
+            "Endurance",
+            "SlashResultUp",
+            "BlackCloudBlade",
+            "Laceration"
         ],
         "name": "Kurokumo Clan Wakashu"
     },
@@ -7749,7 +7776,7 @@
                 "id": 1080104,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -7780,9 +7807,9 @@
             }
         ],
         "keywordTags": [
+            "Vibration",
             "Disarming",
-            "HitTakeDamageUp",
-            "Vibration"
+            "HitTakeDamageUp"
         ],
         "name": "LCB Sinner"
     },
@@ -7834,7 +7861,7 @@
                 "id": 1080204,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -7865,8 +7892,8 @@
             }
         ],
         "keywordTags": [
-            "Charge",
-            "Sinking"
+            "Sinking",
+            "Charge"
         ],
         "name": "R Corp. 4th Pack Reindeer"
     },
@@ -7918,7 +7945,8 @@
                 "id": 1080304,
                 "type": {
                     "affinity": "envy",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -8002,7 +8030,7 @@
                 "id": 1080404,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -8033,11 +8061,11 @@
             }
         ],
         "keywordTags": [
-            "Paralysis",
-            "Reduction",
+            "Vibration",
             "Burst",
-            "Vulnerable",
-            "Vibration"
+            "Reduction",
+            "Paralysis",
+            "Vulnerable"
         ],
         "name": "LCCB Assistant Manager"
     },
@@ -8090,7 +8118,7 @@
                 "id": 1080504,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -8121,8 +8149,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "Vibration"
+            "Vibration",
+            "Burst"
         ],
         "name": "Lobotomy E.G.O::Sloshing"
     },
@@ -8175,7 +8203,8 @@
                 "id": 1080604,
                 "type": {
                     "affinity": "wrath",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -8261,7 +8290,7 @@
                 "id": 1080704,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -8292,10 +8321,10 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "Vulnerable",
             "Vibration",
-            "DefenseDown"
+            "Sinking",
+            "DefenseDown",
+            "Vulnerable"
         ],
         "name": "Molar Boatworks Fixer"
     },
@@ -8350,7 +8379,7 @@
                 "id": 1080804,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -8381,16 +8410,16 @@
             }
         ],
         "keywordTags": [
+            "OverHeatedGasHarpoon",
+            "AttackDmgUp",
             "Breath",
             "HeatedGasHarpoon",
-            "OverHeatedGasHarpoon",
-            "Protection",
+            "AttackUp",
             "CoverAttack",
+            "Combustion",
             "Laceration",
             "Aggro",
-            "Combustion",
-            "AttackDmgUp",
-            "AttackUp",
+            "Protection",
             "DefenseUp"
         ],
         "name": "The Pequod Captain"
@@ -8446,7 +8475,7 @@
                 "id": 1080904,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -8477,12 +8506,12 @@
             }
         ],
         "keywordTags": [
-            "SlashTakeDamageUp",
             "Breath",
+            "Sinking",
+            "DefenseDown",
             "Agility",
             "Binding",
-            "DefenseDown",
-            "Sinking"
+            "SlashTakeDamageUp"
         ],
         "name": "Edgar Family Butler"
     },
@@ -8533,7 +8562,7 @@
                 "id": 1081004,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -8564,12 +8593,12 @@
             }
         ],
         "keywordTags": [
-            "DefensiveStance",
-            "Aggro",
+            "Vibration",
             "Reduction",
             "VibrationExplosion",
-            "DefenseUp",
-            "Vibration"
+            "DefensiveStance",
+            "Aggro",
+            "DefenseUp"
         ],
         "name": "Zwei Assoc. West Section 3"
     },
@@ -8622,7 +8651,7 @@
                 "id": 1081104,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -8653,15 +8682,15 @@
             }
         ],
         "keywordTags": [
-            "SlashTakeDamageUp",
-            "BlackCloud",
             "BlackCloudBlade",
-            "Laceration",
-            "SlashResultUp",
+            "SlashTakeDamageUp",
             "EngageToBattle",
+            "AttackDmgUp",
+            "BlackCloud",
             "AttackDown",
+            "SlashResultUp",
             "Vulnerable",
-            "AttackDmgUp"
+            "Laceration"
         ],
         "name": "Kurokumo Clan Captain"
     },
@@ -8716,7 +8745,7 @@
                 "id": 1081204,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -8755,15 +8784,15 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Breath",
-            "DefenseDown",
-            "WaitingXichun",
             "RetreatForCommon",
             "Burst",
+            "Breath",
+            "SuperCoin",
             "AttackUp",
-            "StartXichun",
-            "CheerUpXichun"
+            "WaitingXichun",
+            "DefenseDown",
+            "CheerUpXichun",
+            "StartXichun"
         ],
         "name": "Family Hierarch Candidate"
     },
@@ -8817,7 +8846,8 @@
                 "id": 1090104,
                 "type": {
                     "affinity": "wrath",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -8901,14 +8931,16 @@
                 "id": 1090204,
                 "type": {
                     "affinity": "pride",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             },
             {
                 "id": 1090205,
                 "type": {
                     "affinity": "pride",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -8939,8 +8971,8 @@
             }
         ],
         "keywordTags": [
-            "Breath",
-            "Laceration"
+            "Laceration",
+            "Breath"
         ],
         "name": "Kurokumo Clan Wakashu"
     },
@@ -8991,7 +9023,7 @@
                 "id": 1090304,
                 "type": {
                     "affinity": "envy",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -9022,8 +9054,8 @@
             }
         ],
         "keywordTags": [
-            "Paralysis",
             "Disarming",
+            "Paralysis",
             "DefenseDown"
         ],
         "name": "LCCB Assistant Manager"
@@ -9077,7 +9109,8 @@
                 "id": 1090404,
                 "type": {
                     "affinity": "wrath",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -9108,10 +9141,10 @@
             }
         ],
         "keywordTags": [
-            "AssemblePersonality",
-            "Paralysis",
+            "Laceration",
             "NailPersonality",
-            "Laceration"
+            "Paralysis",
+            "AssemblePersonality"
         ],
         "name": "N Corp. Mittelhammer"
     },
@@ -9165,7 +9198,7 @@
                 "id": 1090504,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -9196,9 +9229,9 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
+            "Vibration",
             "Charge",
-            "Vibration"
+            "VibrationExplosion"
         ],
         "name": "Rosespanner Workshop Rep"
     },
@@ -9250,7 +9283,7 @@
                 "id": 1090604,
                 "type": {
                     "affinity": "wrath",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -9333,7 +9366,7 @@
                 "id": 1090704,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -9364,8 +9397,8 @@
             }
         ],
         "keywordTags": [
-            "KnowledgeExplored",
-            "Sinking"
+            "Sinking",
+            "KnowledgeExplored"
         ],
         "name": "Dieci Assoc. South Section 4"
     },
@@ -9418,7 +9451,8 @@
                 "id": 1090804,
                 "type": {
                     "affinity": "wrath",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -9449,8 +9483,8 @@
             }
         ],
         "keywordTags": [
-            "Combustion",
-            "CrimsonDamageUp"
+            "CrimsonDamageUp",
+            "Combustion"
         ],
         "name": "Liu Assoc. South Section 4 Director"
     },
@@ -9502,7 +9536,7 @@
                 "id": 1090904,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -9533,11 +9567,11 @@
             }
         ],
         "keywordTags": [
-            "Binding",
+            "Vibration",
             "TimeSuspend",
             "TimeRentalTwoPersonality",
-            "VibrationExplosion",
-            "Vibration"
+            "Binding",
+            "VibrationExplosion"
         ],
         "name": "T Corp. Class 2 Collection Staff"
     },
@@ -9589,14 +9623,16 @@
                 "id": 1091004,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             },
             {
                 "id": 1091005,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -9627,12 +9663,12 @@
             }
         ],
         "keywordTags": [
-            "Agility",
-            "DevyatDimensionalSack",
+            "Burst",
             "Retreat",
-            "DefenseDown",
             "ParryingResultUp",
-            "Burst"
+            "DevyatDimensionalSack",
+            "DefenseDown",
+            "Agility"
         ],
         "name": "Devyat' Assoc. North Section 3"
     },
@@ -9686,7 +9722,8 @@
                 "id": 1091104,
                 "type": {
                     "affinity": "lust",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -9725,12 +9762,12 @@
             }
         ],
         "keywordTags": [
+            "Burst",
+            "BloodDinner_Accumulation",
+            "FestivalFeverRodion",
             "Enhancement",
             "BloomingThornsRodionFirst",
-            "FestivalFeverRodion",
             "Laceration",
-            "BloodDinner_Accumulation",
-            "Burst",
             "BloodDinner"
         ],
         "name": "The Princess of La Manchaland"
@@ -9784,14 +9821,15 @@
                 "id": 1091304,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             },
             {
                 "id": 1091308,
                 "type": {
                     "affinity": "gloom",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -9846,18 +9884,18 @@
             }
         ],
         "keywordTags": [
-            "ResultEnhancement",
-            "Protection",
-            "Sinking",
-            "ProtectiveSword",
-            "Charge",
-            "DespairAlly",
             "BlessingAlly",
+            "ResultEnhancement",
             "ParryingResultUp",
-            "AttackDmgUp",
+            "Sinking",
+            "DespairAlly",
+            "PenetratingSword",
             "SwordCutwithTear",
             "BlackTearsAlly",
-            "PenetratingSword"
+            "ProtectiveSword",
+            "AttackDmgUp",
+            "Charge",
+            "Protection"
         ],
         "name": "Lobotomy E.G.O:: The Sword Sharpened with Tears"
     },
@@ -9911,7 +9949,8 @@
                 "id": 1100104,
                 "type": {
                     "affinity": "pride",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -9996,7 +10035,8 @@
                 "id": 1100204,
                 "type": {
                     "affinity": "wrath",
-                    "type": "pierce"
+                    "type": "counter",
+                    "atkType": "pierce"
                 }
             }
         ],
@@ -10027,10 +10067,10 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Breath",
             "Paralysis",
-            "Enhancement",
-            "Laceration"
+            "Enhancement"
         ],
         "name": "Blade Lineage Salsu"
     },
@@ -10082,7 +10122,7 @@
                 "id": 1100304,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -10113,11 +10153,11 @@
             }
         ],
         "keywordTags": [
-            "Protection",
             "Vibration",
+            "AttackDmgDown",
             "VibrationExplosion",
             "HitTakeDamageUp",
-            "AttackDmgDown"
+            "Protection"
         ],
         "name": "Zwei Assoc. South Section 6"
     },
@@ -10170,7 +10210,7 @@
                 "id": 1100404,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -10201,8 +10241,8 @@
             }
         ],
         "keywordTags": [
-            "Breath",
-            "Sinking"
+            "Sinking",
+            "Breath"
         ],
         "name": "Los Mariachis Jefe"
     },
@@ -10255,7 +10295,7 @@
                 "id": 1100504,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -10286,10 +10326,10 @@
             }
         ],
         "keywordTags": [
-            "AssemblePersonality",
+            "Laceration",
             "HitResultUp",
             "Combustion",
-            "Laceration"
+            "AssemblePersonality"
         ],
         "name": "The One Who Shall Grip"
     },
@@ -10341,7 +10381,7 @@
                 "id": 1100604,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -10426,7 +10466,7 @@
                 "id": 1100704,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -10509,7 +10549,7 @@
                 "id": 1100804,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -10540,12 +10580,12 @@
             }
         ],
         "keywordTags": [
-            "Breath",
-            "Agility",
             "DuelDeclaration_Sinclair",
             "PenetrateDamageUp",
-            "OneOnOneDuel",
-            "Vulnerable"
+            "Breath",
+            "Agility",
+            "Vulnerable",
+            "OneOnOneDuel"
         ],
         "name": "Cinq Assoc. South Section 4 Director"
     },
@@ -10598,7 +10638,7 @@
                 "id": 1100904,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -10689,7 +10729,7 @@
                 "id": 1101004,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -10720,12 +10760,12 @@
             }
         ],
         "keywordTags": [
+            "Vibration",
+            "AttackUp",
             "Agility",
             "VibrationExplosion",
             "Aggro",
-            "AttackUp",
-            "DefenseUp",
-            "Vibration"
+            "DefenseUp"
         ],
         "name": "Zwei Assoc. West Section 3"
     },
@@ -10778,14 +10818,16 @@
                 "id": 1101104,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             },
             {
                 "id": 1101105,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -10816,12 +10858,12 @@
             }
         ],
         "keywordTags": [
-            "DevyatDimensionalSackSinclair",
-            "Agility",
+            "Burst",
             "Retreat",
-            "DefenseDown",
+            "DevyatDimensionalSackSinclair",
             "ParryingResultUp",
-            "Burst"
+            "DefenseDown",
+            "Agility"
         ],
         "name": "Devyat' Assoc. North Section 3"
     },
@@ -10873,21 +10915,24 @@
                 "id": 1101204,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             },
             {
                 "id": 1101205,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             },
             {
                 "id": 1101206,
                 "type": {
                     "affinity": "envy",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -10918,11 +10963,11 @@
             }
         ],
         "keywordTags": [
-            "VendettaMark",
-            "Laceration",
-            "Aggro",
             "VengeanceBookSinclair",
             "AttackUp",
+            "Laceration",
+            "Aggro",
+            "VendettaMark",
             "DefenseUp"
         ],
         "name": "The Middle Little Brother"
@@ -10978,7 +11023,7 @@
                 "id": 1101304,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11009,15 +11054,15 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "FireBulletPropellant",
             "Vibration",
-            "Bullet",
+            "FireBulletPropellant",
+            "VibrationIgnition",
+            "SuperCoin",
             "Combustion",
             "VibrationExplosion",
-            "Switch_Vibration",
             "AttackDmgUp",
-            "VibrationIgnition"
+            "Bullet",
+            "Switch_Vibration"
         ],
         "name": "The Thumb East Soldato II"
     },
@@ -11072,7 +11117,8 @@
                 "id": 1101404,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -11103,17 +11149,17 @@
             }
         ],
         "keywordTags": [
-            "WideAreaRampage",
-            "ChickenStance",
-            "SuperCoin",
+            "CrimsonDamageUp",
+            "HeishouCombo",
             "ShamrockDamageUp",
+            "Burst",
+            "WideAreaRampage",
+            "SuperCoin",
+            "ChickenStance",
+            "AttackUp",
             "Combustion",
             "HeishouComboCountHonglu",
-            "Burst",
-            "HeishouCombo",
-            "AttackUp",
-            "DefenseUp",
-            "CrimsonDamageUp"
+            "DefenseUp"
         ],
         "name": "Heishou Pack - You Branch"
     },
@@ -11167,7 +11213,7 @@
                 "id": 1110104,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -11251,7 +11297,7 @@
                 "id": 1110204,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -11334,7 +11380,7 @@
                 "id": 1110304,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11365,11 +11411,11 @@
             }
         ],
         "keywordTags": [
-            "Enhancement",
-            "Protection",
             "Reduction",
+            "Enhancement",
+            "Sinking",
             "AttackDmgUp",
-            "Sinking"
+            "Protection"
         ],
         "name": "G Corp. Head Manager"
     },
@@ -11420,7 +11466,7 @@
                 "id": 1110404,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11451,11 +11497,11 @@
             }
         ],
         "keywordTags": [
-            "Paralysis",
+            "Burst",
             "WeaknessAnalysis",
-            "DefenseDown",
             "AttackDown",
-            "Burst"
+            "Paralysis",
+            "DefenseDown"
         ],
         "name": "Seven Assoc. South Section 6 Director"
     },
@@ -11508,7 +11554,7 @@
                 "id": 1110504,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11539,8 +11585,8 @@
             }
         ],
         "keywordTags": [
-            "AttackUp",
-            "Vibration"
+            "Vibration",
+            "AttackUp"
         ],
         "name": "Molar Office Fixer"
     },
@@ -11591,7 +11637,7 @@
                 "id": 1110604,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -11622,8 +11668,8 @@
             }
         ],
         "keywordTags": [
-            "Breath",
             "Binding",
+            "Breath",
             "Agility",
             "DuelDeclaration_Outis"
         ],
@@ -11679,7 +11725,7 @@
                 "id": 1110704,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11710,10 +11756,10 @@
             }
         ],
         "keywordTags": [
-            "Breath",
-            "FreischutzShotCount",
             "DarkFlame",
-            "Combustion"
+            "Breath",
+            "Combustion",
+            "FreischutzShotCount"
         ],
         "name": "Lobotomy E.G.O::Magic Bullet"
     },
@@ -11767,7 +11813,7 @@
                 "id": 1110804,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -11798,9 +11844,9 @@
             }
         ],
         "keywordTags": [
-            "AttackUp",
+            "Sinking",
             "EchoOfMansion",
-            "Sinking"
+            "AttackUp"
         ],
         "name": "Wuthering Heights Chief Butler"
     },
@@ -11853,7 +11899,7 @@
                 "id": 1110904,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11884,14 +11930,14 @@
             }
         ],
         "keywordTags": [
-            "Agility",
-            "Sinking",
-            "Combustion",
-            "Laceration",
+            "Vibration",
             "PenetrateDamageUp",
             "Burst",
             "PenetrateResultUp",
-            "Vibration"
+            "Sinking",
+            "Combustion",
+            "Agility",
+            "Laceration"
         ],
         "name": "The Ring Pointillist Student"
     },
@@ -11944,7 +11990,7 @@
                 "id": 1111004,
                 "type": {
                     "affinity": "pride",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -11975,11 +12021,11 @@
             }
         ],
         "keywordTags": [
-            "Binding",
-            "Charge",
+            "Burst",
             "ChargeForceField",
             "ParryingResultUp",
-            "Burst",
+            "Binding",
+            "Charge",
             "ChargeLoad"
         ],
         "name": "W Corp. L3 Cleanup Captain"
@@ -12034,7 +12080,8 @@
                 "id": 1111104,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -12065,10 +12112,10 @@
             }
         ],
         "keywordTags": [
-            "BloodScissorPersonalityFirst",
             "LineCuttingPersonality",
-            "Laceration",
             "BloodDinner_Accumulation",
+            "BloodScissorPersonalityFirst",
+            "Laceration",
             "BloodDinner"
         ],
         "name": "The Barber of La Manchaland"
@@ -12123,7 +12170,8 @@
                 "id": 1111204,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -12155,8 +12203,8 @@
         ],
         "keywordTags": [
             "LegStrength",
-            "BurstAgility",
             "Agility",
+            "BurstAgility",
             "Burst"
         ],
         "name": "Heishou Pack - Mao Branch"
@@ -12209,7 +12257,7 @@
                 "id": 1111304,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12240,15 +12288,15 @@
             }
         ],
         "keywordTags": [
+            "Vibration",
+            "FusionVibration",
+            "TimeSuspend",
             "VibrationChainPersonality",
             "OutisNoHat",
-            "Binding",
-            "TimeSuspend",
             "TimeRentalTwoPersonality",
-            "FusionVibration",
+            "Binding",
             "VibrationExplosion",
-            "Switch_Vibration",
-            "Vibration"
+            "Switch_Vibration"
         ],
         "name": "T Corp. Class 3 VDCU Staff"
     },
@@ -12301,7 +12349,7 @@
                 "id": 1120104,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12386,7 +12434,7 @@
                 "id": 1120204,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12470,7 +12518,7 @@
                 "id": 1120304,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12554,7 +12602,7 @@
                 "id": 1120404,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12585,9 +12633,9 @@
             }
         ],
         "keywordTags": [
-            "Binding",
+            "Laceration",
             "Paralysis",
-            "Laceration"
+            "Binding"
         ],
         "name": "R.B. Sous-chef"
     },
@@ -12642,7 +12690,7 @@
                 "id": 1120504,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12673,9 +12721,9 @@
             }
         ],
         "keywordTags": [
+            "Vibration",
             "Charge",
-            "Burst",
-            "Vibration"
+            "Burst"
         ],
         "name": "Rosespanner Workshop Fixer"
     },
@@ -12724,7 +12772,7 @@
                 "id": 1120604,
                 "type": {
                     "affinity": "sloth",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12755,9 +12803,9 @@
             }
         ],
         "keywordTags": [
-            "DefenseUp",
             "Agility",
-            "Endurance"
+            "Endurance",
+            "DefenseUp"
         ],
         "name": "Zwei Assoc. South Section 4"
     },
@@ -12811,7 +12859,7 @@
                 "id": 1120704,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -12842,10 +12890,10 @@
             }
         ],
         "keywordTags": [
+            "Laceration",
             "Breath",
-            "PlusCoinValueUp",
             "Bullet",
-            "Laceration"
+            "PlusCoinValueUp"
         ],
         "name": "Twinhook Pirates First Mate"
     },
@@ -12898,7 +12946,7 @@
                 "id": 1120804,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -12929,10 +12977,10 @@
             }
         ],
         "keywordTags": [
-            "Reduction",
-            "PlusCoinValueDown",
+            "Laceration",
             "AttackDown",
-            "Laceration"
+            "PlusCoinValueDown",
+            "Reduction"
         ],
         "name": "Kurokumo Clan Captain"
     },
@@ -12984,7 +13032,7 @@
                 "id": 1120904,
                 "type": {
                     "affinity": "gloom",
-                    "type": null
+                    "type": "evade"
                 }
             }
         ],
@@ -13015,12 +13063,12 @@
             }
         ],
         "keywordTags": [
-            "Agility",
             "PlusCoinValueUp",
-            "Vulnerable",
+            "Sinking",
+            "Agility",
             "AzureDamageUp",
-            "AttackDmgUp",
-            "Sinking"
+            "Vulnerable",
+            "AttackDmgUp"
         ],
         "name": "Edgar Family Heir"
     },
@@ -13073,7 +13121,7 @@
                 "id": 1121004,
                 "type": {
                     "affinity": "lust",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -13104,12 +13152,12 @@
             }
         ],
         "keywordTags": [
-            "WornHeartGreg",
-            "BloodyHandGregFirst",
-            "Laceration",
-            "Aggro",
             "Burst",
-            "BloodDinner"
+            "BloodyHandGregFirst",
+            "WornHeartGreg",
+            "Laceration",
+            "BloodDinner",
+            "Aggro"
         ],
         "name": "The Priest of La Manchaland"
     },
@@ -13161,7 +13209,8 @@
                 "id": 1121104,
                 "type": {
                     "affinity": "gloom",
-                    "type": "blunt"
+                    "type": "counter",
+                    "atkType": "blunt"
                 }
             }
         ],
@@ -13192,9 +13241,9 @@
             }
         ],
         "keywordTags": [
-            "FirePunchFuel",
-            "HitDamageUp",
             "Combustion",
+            "HitDamageUp",
+            "FirePunchFuel",
             "FirePunchFuelOverheated"
         ],
         "name": "Firefist Office Survivor"
@@ -13250,7 +13299,7 @@
                 "id": 1121204,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -13281,11 +13330,11 @@
             }
         ],
         "keywordTags": [
+            "PenetrateDamageUp",
+            "Burst",
             "Breath",
             "BurstPoison",
-            "PenetrateDamageUp",
-            "SnakeStance",
-            "Burst"
+            "SnakeStance"
         ],
         "name": "Heishou Pack - Si Branch"
     },
@@ -13340,7 +13389,7 @@
                 "id": 1091204,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             }
         ],
@@ -13371,13 +13420,13 @@
             }
         ],
         "keywordTags": [
+            "Burst",
             "WideAreaRampage",
             "Breath",
             "BurstPoison",
-            "DefenseDown",
             "AttackDown",
-            "SnakeStance",
-            "Burst"
+            "DefenseDown",
+            "SnakeStance"
         ],
         "name": "Heishou Pack - Si Branch"
     },
@@ -13430,21 +13479,23 @@
                 "id": 1021204,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             },
             {
                 "id": 1021206,
                 "type": {
                     "affinity": "gluttony",
-                    "type": null
+                    "type": "guard"
                 }
             },
             {
                 "id": 1021207,
                 "type": {
                     "affinity": "gluttony",
-                    "type": "slash"
+                    "type": "counter",
+                    "atkType": "slash"
                 }
             }
         ],
@@ -13483,16 +13534,16 @@
             }
         ],
         "keywordTags": [
-            "Breath",
             "BurstVulnerableZilu",
-            "Agility",
-            "LegStrength",
-            "BurstZilu",
-            "SupportProtect",
             "Burst",
-            "EnhanceZilu",
+            "SupportProtect",
+            "LegStrength",
+            "Breath",
             "AttackUp",
-            "BurstAgility"
+            "BurstAgility",
+            "Agility",
+            "EnhanceZilu",
+            "BurstZilu"
         ],
         "name": "Heishou Pack - Mao Branch Adept"
     }
