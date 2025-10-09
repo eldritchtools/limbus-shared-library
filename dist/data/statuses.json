@@ -41,7 +41,8 @@
     "EnhanceZilu": {
         "buffType": "Neutral",
         "name": "Tianjiu Star's Blade",
-        "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, gain 1 Haste next turn\n- Used for certain Skills"
+        "desc": "- Max Stack: 20\n- At 10+ Stack: at Turn End, gain 1 Haste next turn\n- Used for certain Skills",
+        "imageOverride": "Tianjiu Star_s Blade"
     },
     "BurstVulnerableZilu": {
         "buffType": "Negative",
@@ -106,7 +107,8 @@
     "MarkOfHeresy": {
         "buffType": "Negative",
         "name": "Gaze",
-        "desc": "Take +20% damage from Pierce and Blunt skills for one turn.\nThe ally that defeats the marked unit heals 10 SP; if the ally is an 'N Corp. Fanatic', also apply 1 Fanatic next turn."
+        "desc": "Take +20% damage from Pierce and Blunt skills for one turn.\nThe ally that defeats the marked unit heals 10 SP; if the ally is an 'N Corp. Fanatic', also apply 1 Fanatic next turn.",
+        "imageOverride": "Gaze of the One Who Grips"
     },
     "Thirst": {
         "buffType": "Positive",
@@ -130,7 +132,8 @@
             "DUEL_DECLARATION"
         ],
         "name": "Declared Duel - Don Quixote",
-        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when other unit inflicts Declared Duel on the same target."
+        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when other unit inflicts Declared Duel on the same target.",
+        "imageOverride": "Declared Duel"
     },
     "DuelDeclaration_Outis": {
         "buffType": "Negative",
@@ -139,7 +142,8 @@
             "DUEL_DECLARATION"
         ],
         "name": "Declared Duel - Outis",
-        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when other unit inflicts Declared Duel on the same target."
+        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when other unit inflicts Declared Duel on the same target.",
+        "imageOverride": "Declared Duel"
     },
     "DuelDeclaration_Sinclair": {
         "buffType": "Negative",
@@ -148,7 +152,8 @@
             "DUEL_DECLARATION"
         ],
         "name": "Declared Duel - Sinclair",
-        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when another unit inflicts Declared Duel on the same target."
+        "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when another unit inflicts Declared Duel on the same target.",
+        "imageOverride": "Declared Duel"
     },
     "Muckworm": {
         "buffType": "Negative",
@@ -333,7 +338,8 @@
     "DevyatDimensionalSack": {
         "buffType": "Neutral",
         "name": "Courier Trunk - Rodion",
-        "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Slash Damage Up\n- At 30+ Stack:\n\u00b7 On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n\u00b7 On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)"
+        "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Slash Damage Up\n- At 30+ Stack:\n\u00b7 On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n\u00b7 On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)",
+        "imageOverride": "Courier Trunk"
     },
     "DefensiveStance": {
         "buffType": "Positive",
@@ -439,7 +445,8 @@
         "buffType": "Neutral",
         "iconId": "DevyatDimensionalSack",
         "name": "Courier Trunk - Sinclair",
-        "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\n- At 30+ Stack:\n\u00b7 On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n\u00b7 On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)"
+        "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\n- At 30+ Stack:\n\u00b7 On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n\u00b7 On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)",
+        "imageOverride": "Courier Trunk"
     },
     "SwirlingBloodPersonality": {
         "buffType": "Positive",
@@ -529,7 +536,8 @@
     "LogicAtelierAM": {
         "buffType": "Positive",
         "name": "Concentration\u3010Sniper\u3011",
-        "desc": "- Max Stack: 4\n- Turn End: gain 1 Stack"
+        "desc": "- Max Stack: 4\n- Turn End: gain 1 Stack",
+        "imageOverride": "Concentration[Sniper]"
     },
     "GlowingLantern": {
         "buffType": "Negative",
@@ -773,7 +781,8 @@
             "CHARGE"
         ],
         "name": "Love/Hate",
-        "desc": "- Max Count: 20\n- Unique Charge\n- Resource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn.\n(Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency/Count)"
+        "desc": "- Max Count: 20\n- Unique Charge\n- Resource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn.\n(Interacts the same way as normal Charge does to effects that raise or reduce Charge Potency/Count)",
+        "imageOverride": "Love Hate"
     },
     "OutisNoHat": {
         "buffType": "Positive",
@@ -3459,7 +3468,8 @@
     "ReloadLament": {
         "buffType": "Neutral",
         "name": "Reload",
-        "desc": "- Effect applied to The Living & The Departed(Unique Ammo)\n- Consume (30 - (The Living + The Departed))/2 SP. (rounded down)\n- Reset both The Living and The Departed values on self to 0, and gain the max value of their sum based on the probabilities listed in the Passive 'ISeeTheDyingButterfly.'\n- On Reload, gain at least 1 of The Living and The Departed."
+        "desc": "- Effect applied to The Living & The Departed(Unique Ammo)\n- Consume (30 - (The Living + The Departed))/2 SP. (rounded down)\n- Reset both The Living and The Departed values on self to 0, and gain the max value of their sum based on the probabilities listed in the Passive 'ISeeTheDyingButterfly.'\n- On Reload, gain at least 1 of The Living and The Departed.",
+        "imageOverride": "Reload 2"
     },
     "Retreat": {
         "buffType": "Neutral",
