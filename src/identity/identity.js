@@ -13,7 +13,7 @@ function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 
     }
 
     const scaledStyle = { width: `${256 * scale}px`, height: `${256 * scale}px` };
-    const type = (uptie < 3 || identityObject.tags.includes("Base Identity")) ? "normal" : "gacksung";
+    const type = (uptie > 2 || identityObject.tags.includes("Base Identity")) ? "gacksung" : "normal";
     const img = <img src={`${ASSETS_ROOT}/identities/${identity.id}_${type}_profile.png`} alt={identity.name} title={identity.name} style={scaledStyle} />
 
     if (displayName) {

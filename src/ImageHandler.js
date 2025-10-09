@@ -13,4 +13,8 @@ function RarityImg({ rarity, style = {} }) {
     }
 }
 
-export { Icon, RarityImg };
+function SinnerIcon({num, style={}}) {
+    return <img src={`${ASSETS_ROOT}/sinners/${num}.png`} alt={num} title={num} style={style} />
+}
+
+export { Icon, RarityImg, SinnerIcon };

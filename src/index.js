@@ -10,4 +10,4 @@ export { ThemePackImg } from "./themePack/themePack";
 export { default as replaceStatusVariables } from "./status/statusReplace";
 export { IdentityImg } from "./identity/identity";
 export { DataProvider, useData } from "./dataProvider/DataProvider";
-export { Icon, RarityImg } from "./ImageHandler";
+export { Icon, RarityImg, SinnerIcon } from "./ImageHandler";

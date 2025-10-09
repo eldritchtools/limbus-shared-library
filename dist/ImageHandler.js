@@ -53,4 +53,15 @@ function RarityImg(_ref2) {
       return null;
   }
 }
-export { Icon, RarityImg };
+function SinnerIcon(_ref3) {
+  var num = _ref3.num,
+    _ref3$style = _ref3.style,
+    style = _ref3$style === void 0 ? {} : _ref3$style;
+  return /*#__PURE__*/_jsx("img", {
+    src: "".concat(ASSETS_ROOT, "/sinners/").concat(num, ".png"),
+    alt: num,
+    title: num,
+    style: style
+  });
+}
+export { Icon, RarityImg, SinnerIcon };
