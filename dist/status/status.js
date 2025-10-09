@@ -15,7 +15,8 @@ var iconStyle = {
   height: "1.5rem",
   marginLeft: "-1px",
   marginRight: "2px",
-  transform: "translateY(25%)"
+  verticalAlign: "middle",
+  transform: "translateY(-0.1rem)"
 };
 var nameStyle = {
   display: "inline",
