@@ -91,7 +91,6 @@
     },
     "NailPersonality": {
         "buffType": "Negative",
-        "iconId": "Nail",
         "categoryKeywordList": [
             "LACERATION"
         ],
@@ -100,7 +99,6 @@
     },
     "AssemblePersonality": {
         "buffType": "Positive",
-        "iconId": "Assemble",
         "name": "Fanatic",
         "desc": "Raise Skill Final Power by the effect\u2019s Count against units with Nails for the turn. (Applies to clashes as well)"
     },
@@ -127,7 +125,6 @@
     },
     "DuelDeclaration_DonQuixote": {
         "buffType": "Negative",
-        "iconId": "DuelDeclaration",
         "categoryKeywordList": [
             "DUEL_DECLARATION"
         ],
@@ -137,7 +134,6 @@
     },
     "DuelDeclaration_Outis": {
         "buffType": "Negative",
-        "iconId": "DuelDeclaration",
         "categoryKeywordList": [
             "DUEL_DECLARATION"
         ],
@@ -147,7 +143,6 @@
     },
     "DuelDeclaration_Sinclair": {
         "buffType": "Negative",
-        "iconId": "DuelDeclaration",
         "categoryKeywordList": [
             "DUEL_DECLARATION"
         ],
@@ -361,25 +356,21 @@
     },
     "BloodScissorPersonalityFirst": {
         "buffType": "Positive",
-        "iconId": "BloodScissor",
         "name": "Blood-tinged Scissorblades",
         "desc": "- Max Value: 10\n- Stage 1 Blood-tinged Scissorblades\n- At 10+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades II.\n- At 20+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- Blood-tinged Scissorblades does not drop below 1.\n- At Blood-tinged Scissorblades II, gain 1 Offense Level Up and 1 Defense Level Down based on the Stack\n- At Blood-tinged Scissorblades III, gain 1 Offense Level Up based on the Stack"
     },
     "BloodScissorPersonalitySecond": {
         "buffType": "Positive",
-        "iconId": "BloodScissor",
         "name": "Blood-tinged Scissorblades II",
         "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- At 10+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades II.\n- At 20+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- Blood-tinged Scissorblades does not drop below 1.\n- At Blood-tinged Scissorblades II, gain 1 Offense Level Up and 1 Defense Level Down based on the Stack\n- At Blood-tinged Scissorblades III, gain 1 Offense Level Up based on the Stack"
     },
     "BloodScissorPersonalityThird": {
         "buffType": "Positive",
-        "iconId": "BloodScissor",
         "name": "Blood-tinged Scissorblades III",
         "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up for every 5 Stack\n- At 10+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades II.\n- At 20+ Blood-tinged Scissorblades, converts to Blood-tinged Scissorblades III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- Blood-tinged Scissorblades does not drop below 1.\n- At Blood-tinged Scissorblades II, gain 1 Offense Level Up and 1 Defense Level Down based on the Stack\n- At Blood-tinged Scissorblades III, gain 1 Offense Level Up based on the Stack"
     },
     "LineCuttingPersonality": {
         "buffType": "Negative",
-        "iconId": "LineCutting",
         "name": "Sewing Target",
         "desc": "- Max Value: 1\n- Take +0.5% damage for every Bleed on self (max 10%)\n- Turn End: reduced by 1"
     },
@@ -395,80 +386,67 @@
     },
     "BloodyHandGregFirst": {
         "buffType": "Neutral",
-        "iconId": "BloodyHand",
         "name": "Bloodied Hand",
         "desc": "- Max Value: 10\n- Stage 1 Bloodied Hand\n- At 10+ Bloodied Hand, converts to Bloodied Hand II.\n- At 20+ Bloodied Hand, converts to Bloodied Hand III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- At Bloodied Hand II, gain 1 Offense Level Up based on the Stack\n- At Bloodied Hand III, gain 1 Offense Level Up based on the Stack, and additionally inflict 1 Rupture and 1 Bleed On Hit with Base Skills"
     },
     "BloodyHandGregSecond": {
         "buffType": "Neutral",
-        "iconId": "BloodyHand_2nd",
         "name": "Bloodied Hand II",
         "desc": "- Max Value: 20\n- Stage 2 Bloodied Hand\n- Turn Start: gain 1 Offense Level Up for every 10 Stack\n- At 10+ Bloodied Hand, converts to Bloodied Hand II.\n- At 20+ Bloodied Hand, converts to Bloodied Hand III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- At Bloodied Hand II, gain 1 Offense Level Up based on the Stack\n- At Bloodied Hand III, gain 1 Offense Level Up based on the Stack, and additionally inflict 1 Rupture and 1 Bleed On Hit with Base Skills"
     },
     "BloodyHandGregThird": {
         "buffType": "Neutral",
-        "iconId": "BloodyHand_3rd",
         "name": "Bloodied Hand III",
         "desc": "- Max Value: 30\n- Stage 3 Bloodied Hand\n- Turn Start: gain 1 Offense Level Up for every 10 Stack\n- On Hit with Base Skills: additionally inflict 1 Rupture and 1 Bleed\n- At 10+ Bloodied Hand, converts to Bloodied Hand II.\n- At 20+ Bloodied Hand, converts to Bloodied Hand III.\n- Reverts to previous Stage when the Stack drops below the requirements.\n- At Bloodied Hand II, gain 1 Offense Level Up based on the Stack\n- At Bloodied Hand III, gain 1 Offense Level Up based on the Stack, and additionally inflict 1 Rupture and 1 Bleed On Hit with Base Skills"
     },
     "WornHeartGreg": {
         "buffType": "Neutral",
-        "iconId": "WornHeart",
         "name": "Ailing Heart",
         "desc": "- Max Value: 10\n- Turn End: gain 1 Stack\n- Turn Start: gain 1 Defense Level Up for every 3 Stack\n- At 50%- HP, gain 1 Defense Level for every 3 Stack\n- At 40%- HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (min 1; rounded down; heal up to 30 HP per Skill)"
     },
     "BloomingThornsRodionFirst": {
         "buffType": "Positive",
-        "iconId": "BloomingThorns",
         "name": "Blooming Thorn",
         "desc": "- Max Value: 10\n- Stage 1 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n\u00b7 At max Stack, convert to the next Stage of this effect.\n\u00b7 Inflict +(Stage - 1) more Bleed and Rupture Potency with this unit's Base Attack Skill Coin effects.\n\u00b7 Reverts to previous Stage when the Stack drops below the requirements."
     },
     "BloomingThornsRodionSecond": {
         "buffType": "Positive",
-        "iconId": "BloomingThorns_2nd",
         "name": "Blooming Thorn II",
         "desc": "- Max Value: 20\n- Stage 2 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n\u00b7 At max Stack, convert to the next Stage of this effect.\n\u00b7 Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n\u00b7 Reverts to previous Stage when the Stack drops below the requirements."
     },
     "BloomingThornsRodionThird": {
         "buffType": "Positive",
-        "iconId": "BloomingThorns_3rd",
         "name": "Blooming Thorn III",
         "desc": "- Max Value: 30\n- Stage 3 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n\u00b7 At max Stack, convert to the next Stage of this effect.\n\u00b7 Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n\u00b7 Reverts to previous Stage when the Stack drops below the requirements."
     },
     "FestivalFeverRodion": {
         "buffType": "Positive",
-        "iconId": "FestivalFever",
         "name": "Festive Fever",
         "desc": "- Max Value: 10\n- Expires at Turn End\n- Against targets with Bleed: deal +1.5% damage for every Stack\n- Skills that consume or gain Bloodfeast deal +3% damage for every Stack instead"
     },
     "DevyatDimensionalSackSinclair": {
         "buffType": "Neutral",
-        "iconId": "DevyatDimensionalSack",
         "name": "Courier Trunk - Sinclair",
         "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\n- At 30+ Stack:\n\u00b7 On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n\u00b7 On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)",
         "imageOverride": "Courier Trunk"
     },
     "SwirlingBloodPersonality": {
         "buffType": "Positive",
-        "iconId": "SwirlingBlood",
         "name": "Shimmering\u3010Bloodfiend\u3011",
         "desc": "- Max Stack: 50\n- As long as this effect exists, all Bleed damage taken by the Shield HP is converted to Bloodfeast.\n- Gain Shield HP equal to the Stack at the moment of its application\n- Expires at Turn End"
     },
     "BloodArmorPersonalityFirst": {
         "buffType": "Positive",
-        "iconId": "BloodArmor",
         "name": "Hardblood",
         "desc": "- Max Stack: 10\n- Stage 1 Hardblood\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- Raise Min & Max Speed values by 1 for every 10 Hardblood\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack"
     },
     "BloodArmorPersonalitySecond": {
         "buffType": "Positive",
-        "iconId": "BloodArmor",
         "name": "Hardblood II",
         "desc": "- Max Stack: 20\n- Stage 2 Hardblood\n- Turn Start: gain 1 Offense Level Up for every 5 Stack\n- Raise Min & Max Speed values by 1\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack"
     },
     "BloodArmorPersonalityThird": {
         "buffType": "Positive",
-        "iconId": "BloodArmor",
         "name": "Hardblood III",
         "desc": "- Max Stack: 30\n- Stage 3 Hardblood\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Up for every 5 Stack\n- Raise Min & Max Speed values by 2\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack"
     },
@@ -542,7 +520,8 @@
     "GlowingLantern": {
         "buffType": "Negative",
         "name": "Fairy Lure",
-        "desc": "- Max Stack: 5\n- Turn Start: leftmost Slot on the Dashboard gains +10 Aggro\n- Take +50% damage\n- When hit, inflict 1 Rupture against the Attacker (3 times per target's Skill)\n\u00b7 At less than 50% HP, inflict 1 additional Rupture\n\u00b7 If the target has 15+ Rupture, this effect does not inflict Rupture\n- Reduced by 1 at Turn End"
+        "desc": "- Max Stack: 5\n- Turn Start: leftmost Slot on the Dashboard gains +10 Aggro\n- Take +50% damage\n- When hit, inflict 1 Rupture against the Attacker (3 times per target's Skill)\n\u00b7 At less than 50% HP, inflict 1 additional Rupture\n\u00b7 If the target has 15+ Rupture, this effect does not inflict Rupture\n- Reduced by 1 at Turn End",
+        "imageOverride": "GlowingLantern"
     },
     "HoldingBreath": {
         "buffType": "Positive",
@@ -639,7 +618,6 @@
     },
     "BulletPropellantAlly": {
         "buffType": "Neutral",
-        "iconId": "BulletPropellant",
         "categoryKeywordList": [
             "BULLET",
             "RESOURCE"
@@ -649,7 +627,6 @@
     },
     "BulletPropellantSpecialAlly": {
         "buffType": "Neutral",
-        "iconId": "BulletPropellantSpecial",
         "categoryKeywordList": [
             "BULLET",
             "RESOURCE"
@@ -659,19 +636,16 @@
     },
     "IrritationAlly": {
         "buffType": "Positive",
-        "iconId": "Irritation",
         "name": "Unrelenting Spirit [\u525b\u6c23]",
         "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency and Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round and Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [\u525b\u6c23-\u5fc3] next turn\n- Max Stack: 1"
     },
     "HugeIrritationAlly": {
         "buffType": "Positive",
-        "iconId": "HugeIrritation",
         "name": "Unrelenting Spirit - Shin [\u525b\u6c23-\u5fc3]",
         "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency and Tremor Count with this unit's Skills\n- Max Stack: 1"
     },
     "BeastEyesAlly": {
         "buffType": "Positive",
-        "iconId": "Complacency",
         "name": "Overheat",
         "desc": "- Loses this effect when this unit gains Savage Tigermark Round\n- Min & Max Speed +2\n- Base Attack Skills Lose (cumulative number of Tigermark & Savage Tigermark Rounds spent / 2) Clash Power (max 10); however, gain the following effects(cumulative):\n\u00b7 8+ Rounds spent: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n\u00b7 14+ Rounds spent: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n\u00b7 20+ Rounds Spent: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)"
     },
@@ -791,7 +765,6 @@
     },
     "AccumulatedPastSinner": {
         "buffType": "Positive",
-        "iconId": "AccumulatedPast",
         "name": "Accumulated Past",
         "desc": "- Max Stack: 12\n- Turn Start: gain 1 Clash Power Up and 1 Offense Level Up for every 3 Stack"
     },
@@ -860,13 +833,11 @@
     },
     "GazeRyoshu": {
         "buffType": "Negative",
-        "iconId": "GazeReplica",
         "name": "Gaze",
         "desc": "- Max Stack: 7\n- Take and deal +10% damage from and against Ry\u014dsh\u016b for every 1 Stack of Gaze\n- On death, transfers to this unit's ally(for Focused Encounters, a different Part) either without or with the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: at 7 Stacks, convert this effect into Contempt next turn"
     },
     "ContemptRyoshu": {
         "buffType": "Negative",
-        "iconId": "ContemptReplica",
         "name": "Contempt",
         "desc": "- Max Stack: 1\n- Take and deal -50% damage from and against Ry\u014dsh\u016b\n- Targets with Contempt cannot gain Gaze\n- On death, transfers to this unit's ally(for Focused Encounters, a different Part) either without or with the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: expires; then, this unit gains 7 Gaze next turn"
     },
@@ -902,7 +873,6 @@
     },
     "DuelDeclaration_Camille": {
         "buffType": "Negative",
-        "iconId": "DuelDeclaration",
         "categoryKeywordList": [
             "DUEL_DECLARATION"
         ],
@@ -929,20 +899,19 @@
     },
     "BloodScissorTwo": {
         "buffType": "Positive",
-        "iconId": "BloodScissor",
         "name": "Blood-tinged Scissorblades II",
         "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills"
     },
     "BloodScissorThree": {
         "buffType": "Positive",
-        "iconId": "BloodScissor",
         "name": "Blood-tinged Scissorblades III",
         "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 2 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills"
     },
     "LineCutting": {
         "buffType": "Negative",
         "name": "Sewing Target",
-        "desc": "- Prioritized by ???.\n- Expires at Turn End"
+        "desc": "- Prioritized by ???.\n- Expires at Turn End",
+        "imageOverride": "LineCutting"
     },
     "BloodScissorScars": {
         "buffType": "Negative",
@@ -957,7 +926,6 @@
     },
     "BloodDinner_Accumulation": {
         "buffType": "Neutral",
-        "iconId": "BloodDinner_Accumulation",
         "categoryKeywordList": [],
         "name": "Bloodfeast Consumed",
         "desc": "- Max Value: 999\n- Displays the total amount of Bloodfeast consumed in this Encounter",
@@ -1203,7 +1171,6 @@
     },
     "FellBulletMarkReplica": {
         "buffType": "Negative",
-        "iconId": "FellBulletMark",
         "name": "Stigmatized",
         "desc": "- Tageted by Gubo\n- Expires at Turn End"
     },
@@ -1827,7 +1794,6 @@
     },
     "TimeRentalTwo": {
         "buffType": "Positive",
-        "iconId": "TimeRental",
         "name": "T Corp. Borrowed Time",
         "desc": "Turn End:\n- Gain (Borrowed Time Count - 1) Haste, Clash Power Up, and Fragile next turn.\n- At 1 Count, gain (2 x (Borrowed Time Stack - 1) Bind next turn instead.\n- Gain 1 Stack and lose 1 Count\n- If this unit has more Bind than it has Haste, the Borrowed Time effect expires and this unit gets Staggered."
     },
@@ -1883,7 +1849,6 @@
     },
     "VibrationChainPersonality": {
         "buffType": "Negative",
-        "iconId": "VibrationChain",
         "categoryKeywordList": [
             "SIN",
             "VIBRATION"
@@ -1893,7 +1858,6 @@
     },
     "TimeRentalTwoPersonality": {
         "buffType": "Positive",
-        "iconId": "TimeRental",
         "name": "Borrowed Time",
         "desc": "Turn End at 2+ Count:\n- Gain (Borrowed Time Count - 1) Haste, Clash Power Up, and Fragile next turn\n- If this unit is set to gain more Bind than Haste next turn, the Borrowed Time effect expires at the next Turn Start, and this unit gets Staggered\n\nTurn End: At 1 Count, gain 2(Borrowed Time Stack - 1) Bind next turn\nTurn End: Gain 1 Stack, lose 1 Count"
     },
@@ -1939,7 +1903,6 @@
     },
     "ChasingArcanahard": {
         "buffType": "Positive",
-        "iconId": "ChasingArcana",
         "name": "Chanting - Arcana Slave",
         "desc": "- Max Stack: 3\n- Gain 1 at Turn Start\n- At 3 Stack: next turn, gain 20 Bind and use ARCANA SLAVE"
     },
@@ -1973,61 +1936,51 @@
     },
     "Choice_90103301": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Struggle",
         "desc": "Speed +1 for this battle."
     },
     "Choice_90103402": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Relief",
         "desc": "Speed +2 for this battle."
     },
     "Choice_901001": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Spreading Flame",
         "desc": "Combat Start: Allies without Wrath Affinity Attack Skill take 5 Wrath damage"
     },
     "Choice_901007": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Gentle Sendoff",
         "desc": "Turn Start: Heal 10 HP and SP. (Up to 3 turns)"
     },
     "Choice_901009": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Photopia",
         "desc": "Combat Start: Skill Final Power -1."
     },
     "Choice_901010": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Emptied",
         "desc": "Combat Start: Allies without Lust Affinity Attack Skill are Staggered."
     },
     "Choice_901019": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Contamination",
         "desc": "Combat Start: Speed -2."
     },
     "Choice_90104001": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Understanding",
         "desc": "At the start of the battle, gain 2 E.G.O resources for every Affinity."
     },
     "Choice_9010400101": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Determined",
         "desc": "All Ally Units gain +2 Skill Final Power for this battle"
     },
     "Choice_90104002": {
         "buffType": "Neutral",
-        "iconId": "Choice_Buf",
         "name": "Longing",
         "desc": "All Ally Units gain +1 Skill Power for this battle"
     },
@@ -2876,7 +2829,6 @@
     },
     "EgoAwakenDongrangTreeDisplay": {
         "buffType": "Neutral",
-        "iconId": "EgoAwakenDongrangTree",
         "name": "Nutrient Drain",
         "desc": "Turn End: Dongrang heals 10 HP"
     },
@@ -2902,7 +2854,6 @@
     },
     "DongbaekFullBloomDisplay": {
         "buffType": "Neutral",
-        "iconId": "DongbaekFullBloom",
         "name": "Fully Bloomed",
         "desc": "Cannot act\nAt the end of the turn, lose 20 SP; if SP reaches -45, fully heal SP, then gain 'Dazzled Mind' next turn.\nIf this effect isn't removed for 2 turns, remove it at the end of the turn."
     },
@@ -2923,7 +2874,6 @@
     },
     "DongbaekScatterPetal": {
         "buffType": "Negative",
-        "iconId": "DongbaekScatterPetal",
         "name": "Scattering Petals",
         "desc": "Turn End: At 6+ Count, become staggered"
     },
@@ -2949,7 +2899,6 @@
     },
     "AccumulatedPastMirror": {
         "buffType": "Neutral",
-        "iconId": "AccumulatedPast",
         "name": "Accumulated Past",
         "desc": "Gain 11 at the end of the Turn.\nSpent completely when the Body Part is broken."
     },
@@ -3493,7 +3442,6 @@
     },
     "BloodDinner_Common_Accumulation": {
         "buffType": "Neutral",
-        "iconId": "BloodDinner_Accumulation",
         "name": "Bloodfeast Consumed (shared)",
         "desc": "Total Bloodfeast consumed in this Encounter",
         "imageOverride": "Bloodfeast"
