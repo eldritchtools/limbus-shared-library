@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1010901": {
             "tier": 1,
             "data": [
                 {
@@ -11,15 +11,30 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -68,10 +83,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1010901
+            ]
         },
-        {
+        "1010902": {
             "tier": 2,
             "data": [
                 {
@@ -82,11 +96,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 7,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -94,7 +114,10 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -134,10 +157,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1010902
+            ]
         },
-        {
+        "1010903": {
             "tier": 3,
             "data": [
                 {
@@ -148,11 +170,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -196,10 +230,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1010904": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 10,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust"
+                }
             ],
-            "id": 1010903
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Beat the Brush",
+                    "desc": "If target has 6+ [Laceration], Base Power +5",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Beat the Brush",
+                    "desc": "Base Power +1 for every 1 [Laceration] on target (Max 10)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

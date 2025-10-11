@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1091001": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -66,10 +82,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091001
+            ]
         },
-        {
+        "1091002": {
             "tier": 2,
             "data": [
                 {
@@ -80,11 +95,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -92,7 +117,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -144,10 +174,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091002
+            ]
         },
-        {
+        "1091003": {
             "tier": 3,
             "data": [
                 {
@@ -158,11 +187,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -196,10 +235,87 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1091004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 9,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
             ],
-            "id": 1091003
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Courier Support & Control Sequence",
+                    "desc": "[StartBattle] At 15+ [DevyatDimensionalSack], activate 'Just... a Strategic Time Off!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield (max 15%, once per turn)\n[WhenUse] Gain 2 [DevyatDimensionalSack] (once per turn)\n- At less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Courier Support & Control Sequence",
+                    "desc": "[StartBattle] At 15+ [DevyatDimensionalSack], activate 'Just... a Strategic Time Off!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSack])% of this unit's max HP as Shield (max <style=\"highlight\">25%, once per turn)\n[WhenUse] Gain 2 [DevyatDimensionalSack] (once per turn)\n- At less than 15 [DevyatDimensionalSack], gain 1 additional [DevyatDimensionalSack]",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
+        },
+        "1091005": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 9,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Just... a Strategic Time Off!",
+                    "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSack]/2)% of this unit's max HP as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Just... a Strategic Time Off!",
+                    "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSack])% of this unit's max HP as Shield (max <style=\"highlight\">25%, once per turn)\n[EndBattle] Activate [Retreat]",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

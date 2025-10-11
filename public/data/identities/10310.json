@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1031001": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -62,10 +78,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031001
+            ]
         },
-        {
+        "1031002": {
             "tier": 2,
             "data": [
                 {
@@ -76,19 +91,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -134,10 +165,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031002
+            ]
         },
-        {
+        "1031003": {
             "tier": 3,
             "data": [
                 {
@@ -148,12 +178,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -181,10 +221,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031003
+            ]
         },
-        {
+        "1031005": {
             "tier": 1,
             "data": [
                 {
@@ -195,11 +234,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -208,7 +257,12 @@
                 {
                     "uptie": 4,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -263,10 +317,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031005
+            ]
         },
-        {
+        "1031006": {
             "tier": 2,
             "data": [
                 {
@@ -277,19 +330,39 @@
                     "atkWeight": 2,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -347,10 +420,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031006
+            ]
         },
-        {
+        "1031007": {
             "tier": 3,
             "data": [
                 {
@@ -361,12 +433,24 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -412,10 +496,110 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1031004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5
+                }
             ],
-            "id": 1031007
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Laughters Shall Subside",
+                    "desc": "[DuelCounter]\n[StartBattle] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[StartBattle] To 1 ally with the least HP: apply 1 [SwirlingBloodPersonality] for every 50 [BloodDinner_Common_Accumulation] (max 10, once per turn)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Laughters Shall Subside",
+                    "desc": "[DuelCounter]\n[StartBattle] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[StartBattle] To 1 ally with the least HP: apply 1 [SwirlingBloodPersonality] for every 50 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">15, once per turn)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1031008": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
+                    "desc": "[DuelCounter]\n[StartBattle] To (3 + (highest Reson. / 2)) allies with the least HP: apply (1 + ([BloodArmorPersonalityFirst] / 15)) [SwirlingBloodPersonality] for every 40 [BloodDinner_Common_Accumulation], then consume half of [BloodArmorPersonalityFirst] on self. (once per ally; rounded down)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
+                    "desc": "[DuelCounter]\n[StartBattle] To (3 + (highest Reson. / 2)) allies with the least HP: apply (1 + ([BloodArmorPersonalityFirst] / <style=\"highlight\">10)) [SwirlingBloodPersonality] for every 40 [BloodDinner_Common_Accumulation], then consume half of [BloodArmorPersonalityFirst] on self. (once per ally; rounded down)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

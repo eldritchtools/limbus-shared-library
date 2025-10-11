@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1040501": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,39 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 3,
-                    "coinValue": 1
+                    "coinValue": 1,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 1
+                    "coinValue": 1,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -66,10 +86,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1040501
+            ]
         },
-        {
+        "1040502": {
             "tier": 2,
             "data": [
                 {
@@ -80,11 +99,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 1,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -92,7 +121,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -140,10 +174,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1040502
+            ]
         },
-        {
+        "1040503": {
             "tier": 3,
             "data": [
                 {
@@ -154,11 +187,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 3,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -200,10 +245,54 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1040504": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": -4,
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust",
+                    "baseValue": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1040503
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Charged Evade",
+                    "desc": "Base Power +1 per 5 [Charge] Count (max 2)",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Charged Evade",
+                    "desc": "Base Power +1 per 5 [Charge] Count (max 3)",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1050801": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -79,10 +91,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1050801
+            ]
         },
-        {
+        "1050802": {
             "tier": 2,
             "data": [
                 {
@@ -93,11 +104,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -105,7 +126,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -165,10 +191,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1050802
+            ]
         },
-        {
+        "1050803": {
             "tier": 3,
             "data": [
                 {
@@ -179,11 +204,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 20,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -203,10 +234,117 @@
                         []
                     ]
                 }
+            ]
+        },
+        "1050804": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 8,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1050803
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Overthrow",
+                    "desc": "[WhenUse] Gain 1 [SlashResultUp] next turn (1 time max)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Overthrow",
+                    "desc": "[WhenUse] Gain 1 [SlashResultUp] next turn (1 time max)\n<style=\"highlight\">Deal +0.5% damage for every 1% missing HP on self (Max 25%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [Breath]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1050805": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "To Claim Their Bones",
+                    "desc": "[BeforeAttack] At 10+ [Breath], Atk Weight +1\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every [Breath] Potency on self (Max 50%)\n+20% Damage on Critical Hit\nDeal +0.5% damage per 1% missing HP on self (Max 25%)",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration]",
+                            "[OnSucceedAttack] Inflict 5 [Paralysis] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "To Claim Their Bones",
+                    "desc": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +2)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every [Breath] Potency on self (Max 50%)\n+<style=\"highlight\">30% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% damage (In Focused Encounters, a single Part)",
+                    "coinDescs": [
+                        [],
+                        [],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration]",
+                            "[OnSucceedAttack] Inflict 5 [Paralysis] next turn"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

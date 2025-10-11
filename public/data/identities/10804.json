@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1080401": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": -1,
                     "baseValue": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -56,10 +62,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1080401
+            ]
         },
-        {
+        "1080402": {
             "tier": 2,
             "data": [
                 {
@@ -70,16 +75,31 @@
                     "atkWeight": 1,
                     "levelCorrection": -1,
                     "baseValue": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -115,10 +135,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1080402
+            ]
         },
-        {
+        "1080403": {
             "tier": 3,
             "data": [
                 {
@@ -129,7 +148,13 @@
                     "atkWeight": 1,
                     "levelCorrection": -1,
                     "baseValue": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -174,10 +199,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1080404": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 10,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gluttony",
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1080403
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Guard",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Guard",
+                    "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nAt 0 [Bullet], gain 2 more Aggro",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

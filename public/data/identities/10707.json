@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1070701": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -60,10 +72,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1070701
+            ]
         },
-        {
+        "1070702": {
             "tier": 2,
             "data": [
                 {
@@ -74,11 +85,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -86,7 +107,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -126,10 +152,9 @@
                         []
                     ]
                 }
-            ],
-            "id": 1070702
+            ]
         },
-        {
+        "1070703": {
             "tier": 3,
             "data": [
                 {
@@ -140,11 +165,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -188,10 +225,60 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1070704": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "pierce",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "wrath",
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1070703
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Payback",
+                    "desc": "[WhenUse] Gain +2 Aggro to this Skill Slot next turn\n[StartBattle] Gain [DefenseUp] for every [Breath] on self (Max 10)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Payback",
+                    "desc": "[WhenUse] Gain +5 Aggro to this Skill Slot next turn\n[StartBattle] Gain [DefenseUp] for every [Breath] on self (Max 10)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

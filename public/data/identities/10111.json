@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1011101": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -70,10 +74,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011101
+            ]
         },
-        {
+        "1011102": {
             "tier": 2,
             "data": [
                 {
@@ -84,11 +87,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 6,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -132,10 +141,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011102
+            ]
         },
-        {
+        "1011103": {
             "tier": 3,
             "data": [
                 {
@@ -146,11 +154,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 16,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -188,10 +206,52 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1011104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 10,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
             ],
-            "id": 1011103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
+                    "desc": "[StartBattle] Gain 2 [GlowingLantern] (once per turn)\n[WhenUse] Gain +6 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its effects; instead, gain Base Power +3",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
+                    "desc": "[StartBattle] Gain 3 [GlowingLantern] (once per turn)\n[WhenUse] Gain +8 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its effects; instead, gain Base Power +3",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

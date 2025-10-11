@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1030601": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -62,10 +70,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1030601
+            ]
         },
-        {
+        "1030602": {
             "tier": 2,
             "data": [
                 {
@@ -76,19 +83,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -128,10 +151,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1030602
+            ]
         },
-        {
+        "1030603": {
             "tier": 3,
             "data": [
                 {
@@ -142,11 +164,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -188,10 +222,136 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1030604": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1030603
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Multifold Retribution",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by 3"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by 3"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Multifold Retribution",
+                    "desc": "[StartBattle] At 6+ sum of Envy A-Reson., use 'A Just Vengeance' as Counter.\nUpon activating the above effect, the Skill's affinity is changed to Envy.\n(Leftmost 'Multifold Retribution' is activated first. Activates 2 times per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by 5"
+                        ],
+                        [
+                            "[OnSucceedAttack] Lower user's Stagger Threshold by 5"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1030605": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "A Just Vengeance",
+                    "desc": "[StartBattle] This Skill gains 1 Offense Level by (highest A-Reson./3) (Max 4)\nIf the highest A-Reson is Envy A-Reson, Gain 50% additional Offense Level to the Offense Level gained by the above effect (rounded down)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[EndSkill] If target is defeated, 1 ally with the least SP heals 6 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "A Just Vengeance",
+                    "desc": "[StartBattle] This Skill gains 1 Offense Level by (highest A-Reson./2) (Max 6)\nIf the highest A-Reson is Envy A-Reson, Gain 50% additional Offense Level to the Offense Level gained by the above effect (rounded down)\nGain double the Offense Level from above effects in encounters with 6 or fewer Participant Limits.",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[EndSkill] If target is defeated, 1 ally with the least SP heals 6 SP"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

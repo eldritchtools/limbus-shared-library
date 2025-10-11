@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1011001": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -70,10 +74,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011001
+            ]
         },
-        {
+        "1011002": {
             "tier": 2,
             "data": [
                 {
@@ -84,14 +87,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -143,10 +154,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011002
+            ]
         },
-        {
+        "1011003": {
             "tier": 3,
             "data": [
                 {
@@ -157,11 +167,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -211,10 +233,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1011004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 10,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gloom"
+                }
             ],
-            "id": 1011003
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "FromTheCoffinAButterflyTakesFlight",
+                    "desc": "[StartBattle] [ReloadLament] (once per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "FromTheCoffinAButterflyTakesFlight",
+                    "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% HP. (max 20% per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

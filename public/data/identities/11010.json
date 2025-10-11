@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1101001": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -66,10 +78,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1101001
+            ]
         },
-        {
+        "1101002": {
             "tier": 2,
             "data": [
                 {
@@ -80,11 +91,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -92,7 +111,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -133,10 +156,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1101002
+            ]
         },
-        {
+        "1101003": {
             "tier": 3,
             "data": [
                 {
@@ -147,11 +169,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -189,10 +221,57 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1101004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "sloth",
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
             ],
-            "id": 1101003
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Zwei Knight's Greatsword Form - Guard",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +2 [Vibration] Count (once per turn)\n[WinDuel] Trigger [VibrationExplosion]",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Zwei Knight's Greatsword Form - Guard",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +<style=\"highlight\">3 [Vibration] Count (once per turn)\n[WinDuel] Trigger [VibrationExplosion]",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1090201": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +29,10 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -57,10 +66,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1090201
+            ]
         },
-        {
+        "1090202": {
             "tier": 2,
             "data": [
                 {
@@ -71,11 +79,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 5,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -131,10 +147,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1090202
+            ]
         },
-        {
+        "1090203": {
             "tier": 3,
             "data": [
                 {
@@ -145,11 +160,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 7,
-                    "coinValue": 16
+                    "coinValue": 16,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 18
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -173,10 +194,95 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1090204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 9,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
             ],
-            "id": 1090203
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Counter",
+                    "desc": "[WhenUse] Gain 1 [Protection]",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Counter",
+                    "desc": "[WhenUse] Gain 1 [Protection]\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
+        },
+        "1090205": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 2,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 7,
+                    "coinValue": 16,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Sky-clearing Cut",
+                    "desc": "If target has 6+ [Laceration], double the crit chance",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 10 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Sky-clearing Cut",
+                    "desc": "If target has 6+ [Laceration], double the crit chance\nAt 10+ [Breath], +100% Critical Damage",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Inflict 10 [Laceration]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1111301": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -22,7 +26,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -65,10 +73,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1111301
+            ]
         },
-        {
+        "1111302": {
             "tier": 2,
             "data": [
                 {
@@ -79,19 +86,39 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -148,10 +175,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1111302
+            ]
         },
-        {
+        "1111303": {
             "tier": 3,
             "data": [
                 {
@@ -162,11 +188,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -210,10 +246,58 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1111304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 2,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "sloth",
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
             ],
-            "id": 1111303
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Borrowed Time - Microcavity",
+                    "desc": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Borrowed Time - Microcavity",
+                    "desc": "[CanDuelGuard]\n[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WinDuel] Apply +2 [Vibration] Count to both the target and self\n[DefeatDuel] Gain +4 [Vibration] Count<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

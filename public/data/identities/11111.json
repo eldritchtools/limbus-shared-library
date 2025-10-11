@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1111101": {
             "tier": 1,
             "data": [
                 {
@@ -11,20 +11,36 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -71,10 +87,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1111101
+            ]
         },
-        {
+        "1111102": {
             "tier": 2,
             "data": [
                 {
@@ -85,20 +100,40 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -156,10 +191,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1111102
+            ]
         },
-        {
+        "1111103": {
             "tier": 3,
             "data": [
                 {
@@ -170,11 +204,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -216,10 +262,57 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1111104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 7,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1111103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Quite Discourteous!",
+                    "desc": "[WhenUse] At 10+ [BloodScissorPersonalityFirst], Base Power +1\n[WhenUse] At 5+ [Laceration], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Quite Discourteous!",
+                    "desc": "[WhenUse] At 10+ [BloodScissorPersonalityFirst], Base Power +1<style=\"highlight\">\n- At 20+ [BloodScissorPersonalityFirst], gain Base Power +2 instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Laceration] on self (max 3)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

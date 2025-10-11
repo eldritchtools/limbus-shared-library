@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1070101": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 2,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -47,10 +53,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1070101
+            ]
         },
-        {
+        "1070102": {
             "tier": 2,
             "data": [
                 {
@@ -61,11 +66,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -73,7 +86,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -107,10 +124,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1070102
+            ]
         },
-        {
+        "1070103": {
             "tier": 3,
             "data": [
                 {
@@ -121,11 +137,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -142,10 +166,37 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1070104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 7,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1070103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Counter",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

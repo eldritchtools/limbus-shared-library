@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1120801": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +29,10 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -67,10 +76,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1120801
+            ]
         },
-        {
+        "1120802": {
             "tier": 2,
             "data": [
                 {
@@ -81,7 +89,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -90,7 +102,11 @@
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -136,10 +152,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1120802
+            ]
         },
-        {
+        "1120803": {
             "tier": 3,
             "data": [
                 {
@@ -150,11 +165,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -195,10 +220,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1120804": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 8,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust",
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1120803
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Guard",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Guard",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

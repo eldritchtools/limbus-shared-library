@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1081101": {
             "tier": 1,
             "data": [
                 {
@@ -11,14 +11,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -67,10 +75,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1081101
+            ]
         },
-        {
+        "1081102": {
             "tier": 2,
             "data": [
                 {
@@ -81,11 +88,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -93,7 +108,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -141,10 +160,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1081102
+            ]
         },
-        {
+        "1081103": {
             "tier": 3,
             "data": [
                 {
@@ -155,12 +173,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -197,10 +225,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1081104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust"
+                }
             ],
-            "id": 1081103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Scattering Slash",
+                    "desc": "[StartBattle] Gain 1 [[Protection]] (once per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Scattering Slash",
+                    "desc": "[StartBattle] Gain 1 [[Protection]] (once per turn)\n<style=\"highlight\">[StartBattle] On (2 + highest Reson.) allied Kurokumo Clan Identities, including this unit, with the fastest Speed: apply 2 [Endurance] (once per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

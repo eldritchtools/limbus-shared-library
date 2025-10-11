@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1060301": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +29,10 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -47,10 +56,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1060301
+            ]
         },
-        {
+        "1060302": {
             "tier": 2,
             "data": [
                 {
@@ -61,11 +69,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -124,10 +142,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1060302
+            ]
         },
-        {
+        "1060303": {
             "tier": 3,
             "data": [
                 {
@@ -138,11 +155,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 5,
-                    "coinValue": 25
+                    "coinValue": 25,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 25
+                    "coinValue": 25,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -169,10 +192,49 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1060304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 14,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gluttony"
+                }
             ],
-            "id": 1060303
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Evade",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Evade",
+                    "desc": "If target has 5+ [Laceration], Coin Power +2\n[OnSucceedEvade] Heal 3 SP",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

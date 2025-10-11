@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1091101": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -61,10 +65,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091101
+            ]
         },
-        {
+        "1091102": {
             "tier": 2,
             "data": [
                 {
@@ -75,11 +78,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -138,10 +151,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091102
+            ]
         },
-        {
+        "1091103": {
             "tier": 3,
             "data": [
                 {
@@ -152,7 +164,12 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
@@ -198,10 +215,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091103
+            ]
         },
-        {
+        "1091105": {
             "tier": 3,
             "data": [
                 {
@@ -212,12 +228,22 @@
                     "atkWeight": 3,
                     "levelCorrection": 5,
                     "baseValue": 3,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -259,10 +285,60 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1091104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5
+                }
             ],
-            "id": 1091105
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Don Quixote Hardblood Arts 15: Parasol",
+                    "desc": "[DuelCounter]\n[WhenUse] Reduce [Laceration] Count by 3 for 2 other allies with the highest ([Laceration] Potency x Count) value, and increase [BloodDinner] by (pre-reduction [Laceration] Potency x Count reduced)\n  - If this effect reduces [Laceration] Count to 0, [Laceration] expires\n[WinDuel] Gain 4 [BloomingThornsRodionFirst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Don Quixote Hardblood Arts 15: Parasol",
+                    "desc": "[DuelCounter]\n[WhenUse] Reduce [Laceration] Count by 3 for 2 other allies with the highest ([Laceration] Potency x Count) value, and increase [BloodDinner] by (pre-reduction [Laceration] Potency x Count reduced)\n  - If this effect reduces [Laceration] Count to 0, [Laceration] expires\n<style=\"highlight\">  - If the affected ally is a <Bloodfiend>, reduce their [Laceration] Count by 2 more\n[WinDuel] Gain 4 [BloomingThornsRodionFirst]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

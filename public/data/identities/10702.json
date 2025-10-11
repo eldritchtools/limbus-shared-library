@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1070201": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -50,10 +56,9 @@
                         []
                     ]
                 }
-            ],
-            "id": 1070201
+            ]
         },
-        {
+        "1070202": {
             "tier": 2,
             "data": [
                 {
@@ -64,11 +69,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 4,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -103,10 +114,9 @@
                         []
                     ]
                 }
-            ],
-            "id": 1070202
+            ]
         },
-        {
+        "1070203": {
             "tier": 3,
             "data": [
                 {
@@ -117,7 +127,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 5,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -150,10 +164,48 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1070204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 8,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
             ],
-            "id": 1070203
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Counter",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Counter",
+                    "desc": "[WhenUse] Lose 5 HP\nAt 3+ [Breath] Count, Damage +50%",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

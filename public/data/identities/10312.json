@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1031201": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -67,10 +79,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031201
+            ]
         },
-        {
+        "1031202": {
             "tier": 2,
             "data": [
                 {
@@ -81,21 +92,37 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 6,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -140,10 +167,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031202
+            ]
         },
-        {
+        "1031203": {
             "tier": 3,
             "data": [
                 {
@@ -154,12 +180,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -199,10 +235,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031203
+            ]
         },
-        {
+        "1031205": {
             "tier": 1,
             "data": [
                 {
@@ -213,11 +248,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 10,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -226,7 +269,11 @@
                 {
                     "uptie": 4,
                     "baseValue": 12,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -270,10 +317,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031205
+            ]
         },
-        {
+        "1031206": {
             "tier": 2,
             "data": [
                 {
@@ -284,11 +330,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 12,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -297,7 +351,11 @@
                 {
                     "uptie": 4,
                     "baseValue": 15,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -342,10 +400,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1031206
+            ]
         },
-        {
+        "1031207": {
             "tier": 3,
             "data": [
                 {
@@ -356,12 +413,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 20,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 20,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -401,10 +468,57 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1031204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "envy",
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
             ],
-            "id": 1031207
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rapid Chant",
+                    "desc": "[CanDuelGuard]\n[WhenUse] Base Power +1 for every [HystericGauge] (max 2)\n[WhenUse] Gain +2 [ThePowerOfLoveAndHate] Count (2 times per turn)",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rapid Chant",
+                    "desc": "[CanDuelGuard]\n[WhenUse] Base Power +1 for every [HystericGauge] <style=\"highlight\">(max 3)\n[WhenUse] Gain +<style=\"highlight\">4 [ThePowerOfLoveAndHate] Count (2 times per turn)",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1060901": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -65,10 +73,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1060901
+            ]
         },
-        {
+        "1060902": {
             "tier": 2,
             "data": [
                 {
@@ -79,11 +86,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -91,7 +108,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -143,10 +165,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1060902
+            ]
         },
-        {
+        "1060903": {
             "tier": 3,
             "data": [
                 {
@@ -157,11 +178,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -201,10 +234,49 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1060904": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 10,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "sloth"
+                }
             ],
-            "id": 1060903
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Wait?!",
+                    "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max 7)",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Wait?!",
+                    "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max <style=\"highlight\">13)",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

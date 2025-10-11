@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1100801": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -66,10 +78,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1100801
+            ]
         },
-        {
+        "1100802": {
             "tier": 2,
             "data": [
                 {
@@ -80,11 +91,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -92,7 +113,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -138,10 +164,9 @@
                         []
                     ]
                 }
-            ],
-            "id": 1100802
+            ]
         },
-        {
+        "1100803": {
             "tier": 3,
             "data": [
                 {
@@ -152,11 +177,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -188,10 +223,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1100804": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gluttony"
+                }
             ],
-            "id": 1100803
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "D\u00e9fensive",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "D\u00e9fensive",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

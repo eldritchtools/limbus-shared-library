@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1121001": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -69,10 +85,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1121001
+            ]
         },
-        {
+        "1121002": {
             "tier": 2,
             "data": [
                 {
@@ -83,19 +98,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -141,10 +172,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1121002
+            ]
         },
-        {
+        "1121003": {
             "tier": 3,
             "data": [
                 {
@@ -155,11 +185,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -199,10 +239,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1121004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 15,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust"
+                }
             ],
-            "id": 1121003
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Faded Patience",
+                    "desc": "[StartBattle] Gain 3 [WornHeartGreg] (once per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Faded Patience",
+                    "desc": "<style=\"highlight\">[StartBattle] At 40%+ HP, gain 5 [Laceration] and activate [Laceration] up to 3 times on self (once per turn; lose [Laceration] Count equal to the number of times it was activated)\n[StartBattle] At less than 40% HP, consume up to 20 [BloodDinner] and heal the same value as HP (once per turn)\n[StartBattle] Gain 3 [WornHeartGreg] (once per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

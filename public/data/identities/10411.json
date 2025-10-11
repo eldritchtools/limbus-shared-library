@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1041101": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -68,10 +80,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1041101
+            ]
         },
-        {
+        "1041102": {
             "tier": 2,
             "data": [
                 {
@@ -82,11 +93,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -94,7 +113,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -140,10 +163,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1041102
+            ]
         },
-        {
+        "1041103": {
             "tier": 3,
             "data": [
                 {
@@ -154,11 +176,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 5,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -201,10 +233,52 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1041104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 5,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
             ],
-            "id": 1041103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Strider. Unleashed. Heh",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [LegStrength]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Strider. Unleashed. Heh",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [LegStrength]\n<style=\"highlight\">[WhenUse] If this unit's Speed is faster than the target's, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1011401": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -68,10 +80,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011401
+            ]
         },
-        {
+        "1011402": {
             "tier": 2,
             "data": [
                 {
@@ -82,11 +93,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -94,7 +113,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -143,10 +166,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011402
+            ]
         },
-        {
+        "1011403": {
             "tier": 3,
             "data": [
                 {
@@ -157,11 +179,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -204,10 +236,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1011403
+            ]
         },
-        {
+        "1011405": {
             "tier": 3,
             "data": [
                 {
@@ -218,7 +249,13 @@
                     "atkWeight": 3,
                     "levelCorrection": 4,
                     "baseValue": 5,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -277,10 +314,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1011404": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gluttony"
+                }
             ],
-            "id": 1011405
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Preparation Afore the Charge.",
+                    "desc": "[CanDuelGuard] \n[StartBattle] Gain 3 [LegStrengthHorseYisang] next turn",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Preparation Afore the Charge.",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain 3 [LegStrengthHorseYisang] next turn\n<style=\"highlight\">[EndBattle] Remove 1 random removable negative effect applied to self (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

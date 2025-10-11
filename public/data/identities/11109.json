@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1110901": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -65,10 +73,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1110901
+            ]
         },
-        {
+        "1110902": {
             "tier": 2,
             "data": [
                 {
@@ -79,11 +86,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -91,7 +106,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -131,10 +150,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1110902
+            ]
         },
-        {
+        "1110903": {
             "tier": 3,
             "data": [
                 {
@@ -145,11 +163,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -179,10 +205,49 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1110904": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 7,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust"
+                }
             ],
-            "id": 1110903
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Guard",
+                    "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +3",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Guard",
+                    "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +7",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

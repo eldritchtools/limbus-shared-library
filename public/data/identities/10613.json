@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1061301": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -24,7 +32,11 @@
                 {
                     "uptie": 4,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -67,10 +79,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1061301
+            ]
         },
-        {
+        "1061302": {
             "tier": 2,
             "data": [
                 {
@@ -81,11 +92,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -93,7 +116,13 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -162,10 +191,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1061302
+            ]
         },
-        {
+        "1061303": {
             "tier": 3,
             "data": [
                 {
@@ -176,12 +204,18 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 10,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 10,
-                    "coinValue": 12
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -209,10 +243,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1061303
+            ]
         },
-        {
+        "1061305": {
             "tier": 3,
             "data": [
                 {
@@ -223,12 +256,20 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 6,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 6,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -262,10 +303,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1061305
+            ]
         },
-        {
+        "1061306": {
             "tier": 3,
             "data": [
                 {
@@ -276,12 +316,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 6,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 6,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -323,10 +373,83 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1061304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 6
+                }
             ],
-            "id": 1061306
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Heishou Keenclaw [\u9ed1\u7363\u5229\u722a]",
+                    "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou with the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou with the least HP percentage (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Heishou Keenclaw [\u9ed1\u7363\u5229\u722a]",
+                    "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou with the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou with the least HP percentage (once per turn)<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1061307": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Lordsguard",
+                    "desc": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters with conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

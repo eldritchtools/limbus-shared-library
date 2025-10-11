@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1101401": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,34 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -77,10 +92,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1101401
+            ]
         },
-        {
+        "1101402": {
             "tier": 2,
             "data": [
                 {
@@ -91,19 +105,34 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -158,10 +187,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1101402
+            ]
         },
-        {
+        "1101403": {
             "tier": 3,
             "data": [
                 {
@@ -172,12 +200,24 @@
                     "atkWeight": 3,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -227,10 +267,60 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1101404": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5
+                }
             ],
-            "id": 1101403
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Rooster's Deathstrike [\u9dc4\u7aae\u5247\u6bba]",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Rooster's Deathstrike [\u9dc4\u7aae\u5247\u6bba]",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n<style=\"highlight\">[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n<style=\"highlight\">[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

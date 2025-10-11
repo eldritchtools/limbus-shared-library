@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1090701": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,39 @@
                     "atkWeight": 1,
                     "levelCorrection": -1,
                     "baseValue": 3,
-                    "coinValue": 1
+                    "coinValue": 1,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 1
+                    "coinValue": 1,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -63,10 +83,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1090701
+            ]
         },
-        {
+        "1090702": {
             "tier": 2,
             "data": [
                 {
@@ -77,19 +96,43 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -132,10 +175,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1090702
+            ]
         },
-        {
+        "1090703": {
             "tier": 3,
             "data": [
                 {
@@ -146,11 +188,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -184,10 +238,50 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1090704": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 12,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gloom",
+                    "baseValue": 15
+                }
             ],
-            "id": 1090703
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Fixated Study",
+                    "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 2 Aggro next turn",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fixated Study",
+                    "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] This Slot gains 5 Aggro next turn",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

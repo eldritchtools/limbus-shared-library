@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1040801": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -64,10 +68,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1040801
+            ]
         },
-        {
+        "1040802": {
             "tier": 2,
             "data": [
                 {
@@ -78,19 +81,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -134,10 +153,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1040802
+            ]
         },
-        {
+        "1040803": {
             "tier": 3,
             "data": [
                 {
@@ -148,11 +166,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -190,10 +216,54 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1040804": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust",
+                    "baseValue": 4
+                }
             ],
-            "id": 1040803
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Mediocre",
+                    "desc": "[OnSucceedEvade] Heal 3 SP (3 times per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Mediocre",
+                    "desc": "[OnSucceedEvade] Heal 3 SP (<style=\"highlight\">5 times per turn)\n<style=\"highlight\">[OnSucceedEvade] Gain +1 [Breath] Count(5 times per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

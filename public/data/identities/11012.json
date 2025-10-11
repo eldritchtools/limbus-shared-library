@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1101201": {
             "tier": 1,
             "data": [
                 {
@@ -11,15 +11,27 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -65,10 +77,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1101201
+            ]
         },
-        {
+        "1101202": {
             "tier": 2,
             "data": [
                 {
@@ -79,19 +90,39 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -137,10 +168,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1101202
+            ]
         },
-        {
+        "1101203": {
             "tier": 3,
             "data": [
                 {
@@ -151,11 +181,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 5,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -189,10 +229,59 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1101204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4
+                }
             ],
-            "id": 1101203
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Warmup in the East",
+                    "desc": "[StartBattle] Gain 20% of missing HP as Shield (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Warmup in the East",
+                    "desc": "<style=\"highlight\">[StartBattle] Skill behavior changes based on the sum of Envy A-Reson.:\n- At 4+ sum of A-Reson., use 'Payback with Interest' as Counter\n- At 6+ sum of A-Reson., use 'Write 'em all down' as Counter\n(Activates from the leftmost Skill Slot. Activates 2 times per turn)\n[StartBattle] Gain <style=\"highlight\">30% of missing HP as Shield (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

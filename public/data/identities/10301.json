@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1030101": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -43,10 +49,9 @@
                         []
                     ]
                 }
-            ],
-            "id": 1030101
+            ]
         },
-        {
+        "1030102": {
             "tier": 2,
             "data": [
                 {
@@ -57,20 +62,32 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
                     "baseValue": 4,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 12
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -100,10 +117,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1030102
+            ]
         },
-        {
+        "1030103": {
             "tier": 3,
             "data": [
                 {
@@ -114,11 +130,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -148,10 +174,41 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1030104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 2,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "lust"
+                }
             ],
-            "id": 1030103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Evade",
+                    "desc": "",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

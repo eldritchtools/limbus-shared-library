@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1041001": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -68,10 +80,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1041001
+            ]
         },
-        {
+        "1041002": {
             "tier": 2,
             "data": [
                 {
@@ -82,11 +93,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -94,7 +115,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -148,10 +174,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1041002
+            ]
         },
-        {
+        "1041003": {
             "tier": 3,
             "data": [
                 {
@@ -162,11 +187,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 5,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -206,10 +241,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1041003
+            ]
         },
-        {
+        "1041005": {
             "tier": 3,
             "data": [
                 {
@@ -220,11 +254,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 5,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -262,10 +306,65 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1041004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1041005
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Mealtime, Bedtime",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [RedEyeFirst] (once per turn)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 2 [PenanceFirst] (once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Mealtime, Bedtime",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 2 [RedEyeFirst] (once per turn)\n<style=\"highlight\">- At less than 7 [RedEyeFirst], gain +1 additional [RedEyeFirst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain 2 [PenanceFirst] (once per turn)\n<style=\"highlight\">- At less than 7 [PenanceFirst], gain +1 additional [PenanceFirst]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

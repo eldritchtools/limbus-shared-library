@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1120901": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,10 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -55,10 +58,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1120901
+            ]
         },
-        {
+        "1120902": {
             "tier": 2,
             "data": [
                 {
@@ -69,15 +71,27 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -123,10 +137,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1120902
+            ]
         },
-        {
+        "1120903": {
             "tier": 3,
             "data": [
                 {
@@ -137,11 +150,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -183,10 +208,54 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1120904": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": -4,
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gloom",
+                    "baseValue": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1120903
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Do You Wish to Weep?",
+                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Coin Power +1",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Do You Wish to Weep?",
+                    "desc": "[WhenUse] Coin Power +1 for every 3 [[Sinking]] on target (max 3)",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

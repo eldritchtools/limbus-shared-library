@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1071001": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -60,10 +76,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1071001
+            ]
         },
-        {
+        "1071002": {
             "tier": 2,
             "data": [
                 {
@@ -74,11 +89,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -86,7 +111,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -135,10 +165,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1071002
+            ]
         },
-        {
+        "1071003": {
             "tier": 3,
             "data": [
                 {
@@ -149,12 +178,20 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 5,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 6,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -188,10 +225,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1071003
+            ]
         },
-        {
+        "1071005": {
             "tier": 3,
             "data": [
                 {
@@ -202,11 +238,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 31,
-                    "coinValue": 13
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 13
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -242,10 +286,140 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1071004": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1071005
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "O Dullahan...!",
+                    "desc": "[DuelCounter]\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "O Dullahan...!",
+                    "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] If this unit has [NightPathfinding] and has 15+ SP, use Lament, Mourn, and Despair as Counter (once per turn)\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n<style=\"highlight\">[WhenUse] If target has 6+ [[Sinking]], Coin Power +1\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "O Dullahan...!",
+                    "desc": "[DuelCounter]\n[BeforeUse] If this unit has [NightPathfinding] and has 15+ SP, use Lament, Mourn, and Despair as Counter (once per turn)\n[StartBattle] If this unit does not have [NightPathfinding], gain 1 [NightPathfinding] next turn (once per turn)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 3 [[Sinking]] on target (max 2)\n<style=\"highlight\">[WinDuel] Gain [AttackUp] next turn equal to (# of Clashes/3) (max 3, once per turn)\n[EndBattle] If this unit has [NightPathfinding], lose [NightPathfinding]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]] <style=\"highlight\">and +1 [[Sinking]] Count"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1071006": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 31,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Lament, Mourn, and Despair",
+                    "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [[Sinking]] on target (max 2)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +7% damage for every [Coffin] on self (max 70%)\n[WhenUse] Deal +10% damage for every [NightPathfinding] on self (max 30%)\n[WhenUse] Gain 1 [[Coffin]]\n[EndSkill] If this Skill attack kills the target, gain 2 [[Coffin]]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal 1 additional SP for every missing SP; max 25)\n[EndBattle] Lose [NightPathfinding]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]] and +1 [[Sinking]] Count",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by 20% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict Gloom Affinity damage equal to [[Sinking]] on target (max 15)",
+                            "[EnemyKill] Inflict ([[Sinking]] on killed target/3) [Sinking] on 2 random enemies (max 4)",
+                            "[EnemyKill] Heal 15 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Lament, Mourn, and Despair",
+                    "desc": "[WhenUse] Lose 15 SP\n[WhenUse] Base Power +1 for every 5 [[Sinking]] on target (max <style=\"highlight\">4)\n[WhenUse] Deal more damage the further this unit's SP value is from 45 (+0.3% damage for every missing SP, max 21%)\n[WhenUse] Deal +<style=\"highlight\">10% damage for every [Coffin] on self (max <style=\"highlight\">100%)\n[WhenUse] Deal +<style=\"highlight\">20% damage for every [NightPathfinding] on self (max <style=\"highlight\">60%)\n[WhenUse] Gain <style=\"highlight\">2 [[Coffin]]\n[EndSkill] If this Skill attack kills the target, gain <style=\"highlight\">3 [[Coffin]]\n[EndSkill] At less than 0 SP, heal 10 SP. When at less than 0 SP, heal more SP the further this unit's SP value is from 0 (heal <style=\"highlight\">2 additional SP for every missing SP; max <style=\"highlight\">50)\n[EndBattle] Lose [NightPathfinding]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">5 [[Sinking]] and +2 [[Sinking]] Count",
+                            "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">30% of damage dealt"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict Gloom Affinity damage equal to [[Sinking]] on target (max <style=\"highlight\">30)",
+                            "[EnemyKill] Inflict ([[Sinking]] on killed target/<style=\"highlight\">2) [Sinking] on 2 random enemies (max <style=\"highlight\">8)",
+                            "[EnemyKill] Heal 15 SP"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

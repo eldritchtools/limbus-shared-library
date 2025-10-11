@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1121101": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -19,11 +23,19 @@
                 {
                     "uptie": 3,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -66,10 +78,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1121101
+            ]
         },
-        {
+        "1121102": {
             "tier": 2,
             "data": [
                 {
@@ -80,19 +91,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -141,10 +168,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1121102
+            ]
         },
-        {
+        "1121103": {
             "tier": 3,
             "data": [
                 {
@@ -155,12 +181,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -196,10 +232,49 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1121104": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 9,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1121103
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "I have to keep going for big sis",
+                    "desc": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I have to keep going for big sis",
+                    "desc": "[DuelCounter]\n[StartBattle] Gain 100 [FirePunchFuel]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

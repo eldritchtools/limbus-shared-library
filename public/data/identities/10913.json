@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1091301": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -22,7 +26,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -66,10 +74,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091301
+            ]
         },
-        {
+        "1091302": {
             "tier": 2,
             "data": [
                 {
@@ -80,11 +87,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -92,7 +109,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -141,10 +163,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091302
+            ]
         },
-        {
+        "1091303": {
             "tier": 3,
             "data": [
                 {
@@ -155,12 +176,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -193,10 +224,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091303
+            ]
         },
-        {
+        "1091305": {
             "tier": 1,
             "data": [
                 {
@@ -207,7 +237,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 8,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -218,7 +252,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -262,10 +300,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091305
+            ]
         },
-        {
+        "1091306": {
             "tier": 2,
             "data": [
                 {
@@ -276,11 +313,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 12,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -288,7 +335,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -337,10 +389,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1091306
+            ]
         },
-        {
+        "1091307": {
             "tier": 3,
             "data": [
                 {
@@ -351,12 +402,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 18,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 20,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -390,10 +451,111 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1091304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 3,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
             ],
-            "id": 1091307
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "The Knight's Faith",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain Shield equal to (SP / 5)% of this unit's max HP (once per turn)\n[WhenUse] Gain 3 [BlackTearsAlly] (2 times per turn)\n[EndBattle] At less than 3 [SwordCutwithTear], lose 15 SP and gain 1 [SwordCutwithTear] (once per turn)\n- If this unit has [SwordCutwithTear], lose ([SwordCutwithTear] Stack x 15) more SP",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "The Knight's Faith",
+                    "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Coin Power +1 for every 2 [ProtectiveSword] (max 2)\n[StartBattle] Gain Shield equal to (SP / <style=\"highlight\">3)% of this unit's max HP (once per turn)\n[WhenUse] Gain <style=\"highlight\">5 [BlackTearsAlly] (2 times per turn)\n[EndBattle] At less than 3 [SwordCutwithTear], lose 15 SP to gain 1 [SwordCutwithTear] (once per turn)\n- If this unit has [SwordCutwithTear], lose ([SwordCutwithTear] Stack x 15) more SP",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1091308": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 10,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 12
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Weathered Pride",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [BlackTearsAlly] (2 times per turn)\n[EndBattle] At less than 3 [SwordCutwithTear], lose 15 SP and gain 1 [SwordCutwithTear] (once per turn)\n- If this unit has [SwordCutwithTear], lose ([SwordCutwithTear] Stack x 15) more SP",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Weathered Pride",
+                    "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Final Power +1 for every 2 [PenetratingSword] (max 2)\n[WhenUse] Gain <style=\"highlight\">5 [BlackTearsAlly] (2 times per turn)\n[EndBattle] At less than 3 [SwordCutwithTear], lose 15 SP and gain 1 [SwordCutwithTear] (once per turn)\n- If this unit has [SwordCutwithTear], lose ([SwordCutwithTear] Stack x 15) more SP",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

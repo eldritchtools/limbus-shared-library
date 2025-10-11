@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1061201": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -64,10 +80,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1061201
+            ]
         },
-        {
+        "1061202": {
             "tier": 2,
             "data": [
                 {
@@ -78,15 +93,33 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -158,10 +191,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1061202
+            ]
         },
-        {
+        "1061203": {
             "tier": 3,
             "data": [
                 {
@@ -172,11 +204,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 8,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 10
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -205,10 +243,54 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1061204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 8,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "envy",
+                    "baseValue": 10,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1061203
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Energy Condensation",
+                    "desc": "[WhenUse] At 10+ [[Charge]] Count, Coin Power +2\n[WhenUse] Gain +3 [[Charge]] Count (once per turn)",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Energy Condensation",
+                    "desc": "[WhenUse] At 10+ [[Charge]] Count, Coin Power <style=\"highlight\">+4\n[WhenUse] Gain +3 [[Charge]] Count (<style=\"highlight\">2 times per turn)",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

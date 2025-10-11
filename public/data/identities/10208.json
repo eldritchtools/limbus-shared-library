@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1020801": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,39 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 1
+                    "coinValue": 1,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 1
+                    "coinValue": 1,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -67,10 +87,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1020801
+            ]
         },
-        {
+        "1020802": {
             "tier": 2,
             "data": [
                 {
@@ -81,19 +100,35 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -140,10 +175,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1020802
+            ]
         },
-        {
+        "1020803": {
             "tier": 3,
             "data": [
                 {
@@ -154,11 +188,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 5,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -190,10 +232,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1020804": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 10,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gloom",
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1020803
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Redirect",
+                    "desc": "[WhenUse] For every 4 [Breath] on self, gain Final Power +1 (Max 3)",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Redirect",
+                    "desc": "[WhenUse] For every 4 [Breath] on self, gain Final Power +1 (Max 5)",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

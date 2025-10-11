@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1110501": {
             "tier": 1,
             "data": [
                 {
@@ -11,19 +11,31 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 4,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 7
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -57,10 +69,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1110501
+            ]
         },
-        {
+        "1110502": {
             "tier": 2,
             "data": [
                 {
@@ -71,11 +82,21 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -83,7 +104,12 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -135,10 +161,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1110502
+            ]
         },
-        {
+        "1110503": {
             "tier": 3,
             "data": [
                 {
@@ -149,11 +174,23 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -197,10 +234,50 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1110504": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 10,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "sloth",
+                    "baseValue": 12
+                }
             ],
-            "id": 1110503
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Hangover Cure",
+                    "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Hangover Cure",
+                    "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

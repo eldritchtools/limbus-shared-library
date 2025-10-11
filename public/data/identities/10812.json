@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1081201": {
             "tier": 1,
             "data": [
                 {
@@ -11,18 +11,30 @@
                     "atkWeight": 1,
                     "levelCorrection": 1,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -68,10 +80,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1081201
+            ]
         },
-        {
+        "1081202": {
             "tier": 2,
             "data": [
                 {
@@ -82,19 +93,43 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -164,10 +199,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1081202
+            ]
         },
-        {
+        "1081203": {
             "tier": 3,
             "data": [
                 {
@@ -178,12 +212,18 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 6,
-                    "coinValue": 12
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 8,
-                    "coinValue": 14
+                    "coinValue": 14,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
                 }
             ],
             "text": [
@@ -220,10 +260,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1081203
+            ]
         },
-        {
+        "1081205": {
             "tier": 1,
             "data": [
                 {
@@ -234,7 +273,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 0,
                     "baseValue": 2,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -244,7 +287,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 2
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -281,10 +328,57 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1081204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "evade",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 4,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gloom",
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1081205
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Adept Evasion",
+                    "desc": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Adept Evasion",
+                    "desc": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n<style=\"highlight\">[WhenUse] Gain +1 [Breath] Count (2 times per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

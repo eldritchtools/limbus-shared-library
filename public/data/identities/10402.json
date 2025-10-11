@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1040201": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +29,10 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 8
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -47,10 +56,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1040201
+            ]
         },
-        {
+        "1040202": {
             "tier": 2,
             "data": [
                 {
@@ -61,11 +69,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 3,
-                    "coinValue": 12
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 12
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -73,7 +87,10 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 14
+                    "coinValue": 14,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -97,10 +114,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1040202
+            ]
         },
-        {
+        "1040203": {
             "tier": 3,
             "data": [
                 {
@@ -111,7 +127,12 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -127,10 +148,51 @@
                         []
                     ]
                 }
+            ]
+        },
+        "1040204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 8,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1040203
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Counter",
+                    "desc": ""
+                },
+                {
+                    "uptie": 4,
+                    "name": "Counter",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

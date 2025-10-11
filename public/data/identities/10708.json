@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1070801": {
             "tier": 1,
             "data": [
                 {
@@ -11,7 +11,11 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
@@ -58,10 +62,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1070801
+            ]
         },
-        {
+        "1070802": {
             "tier": 2,
             "data": [
                 {
@@ -72,14 +75,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 4,
-                    "coinValue": 5
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 6
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -125,10 +136,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1070802
+            ]
         },
-        {
+        "1070803": {
             "tier": 3,
             "data": [
                 {
@@ -139,7 +149,12 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -178,10 +193,53 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1070804": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 10,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "pride"
+                }
             ],
-            "id": 1070803
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Do Not Obstruct",
+                    "desc": "When attacked while this unit has Shield, inflict +1 [Vibration] Count on the attacker (this Skill's effect does not stack with multiple uses)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Do Not Obstruct",
+                    "desc": "When attacked while this unit has Shield, inflict +1 [Vibration] Count on the attacker (this Skill's effect does not stack with multiple uses)",
+                    "coinDescs": [
+                        [
+                            ""
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,

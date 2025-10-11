@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1051201": {
             "tier": 1,
             "data": [
                 {
@@ -11,11 +11,19 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
@@ -23,7 +31,11 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -70,10 +82,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1051201
+            ]
         },
-        {
+        "1051202": {
             "tier": 2,
             "data": [
                 {
@@ -84,19 +95,39 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 4,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -160,10 +191,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1051202
+            ]
         },
-        {
+        "1051203": {
             "tier": 3,
             "data": [
                 {
@@ -174,12 +204,22 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 5,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -229,10 +269,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1051203
+            ]
         },
-        {
+        "1051205": {
             "tier": 3,
             "data": [
                 {
@@ -243,12 +282,26 @@
                     "atkWeight": 1,
                     "levelCorrection": 6,
                     "baseValue": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -304,10 +357,63 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1051204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
             ],
-            "id": 1051205
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "I'm Burning Up.",
+                    "desc": "[DuelCounter]\nIf the main target has 4+ (sum of [Combustion] and [Vibration]), Final Power +1\nIf [BulletPropellantAlly] (or [BulletPropellantSpecialAlly]) is at 0, Clash Power +1",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I'm Burning Up.",
+                    "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 2)\nIf [BulletPropellantAlly] (or [BulletPropellantSpecialAlly]) is at 0, Clash Power <style=\"highlight\">+2",
+                    "coinDescs": [
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count (2 times per turn)<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 1,

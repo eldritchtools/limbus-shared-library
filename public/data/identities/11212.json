@@ -1,6 +1,6 @@
 {
-    "skills": [
-        {
+    "skills": {
+        "1121201": {
             "tier": 1,
             "data": [
                 {
@@ -11,15 +11,27 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4
@@ -67,10 +79,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1121201
+            ]
         },
-        {
+        "1121202": {
             "tier": 2,
             "data": [
                 {
@@ -81,20 +92,40 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 3,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 3
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
                     "baseValue": 4,
-                    "coinValue": 4
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -152,10 +183,9 @@
                         ]
                     ]
                 }
-            ],
-            "id": 1121202
+            ]
         },
-        {
+        "1121203": {
             "tier": 3,
             "data": [
                 {
@@ -166,11 +196,17 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 8,
-                    "coinValue": 12
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 14
+                    "coinValue": 14,
+                    "coinTypes": [
+                        "normal"
+                    ]
                 }
             ],
             "text": [
@@ -203,10 +239,58 @@
                         ]
                     ]
                 }
+            ]
+        },
+        "1121204": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 2,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "gluttony",
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
             ],
-            "id": 1121203
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Reversal Kick",
+                    "desc": "[CanDuelGuard] \n[StartBattle] Gain 3 [SnakeStance] next turn",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Reversal Kick",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain 3 [SnakeStance] next turn\n<style=\"highlight\">[WhenUse] At 10+ [Breath] Count, Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
         }
-    ],
+    },
     "combatPassives": [
         {
             "level": 2,
