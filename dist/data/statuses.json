@@ -434,7 +434,8 @@
     "SwirlingBloodPersonality": {
         "buffType": "Positive",
         "name": "Shimmering\u3010Bloodfiend\u3011",
-        "desc": "- Max Stack: 50\n- As long as this effect exists, all Bleed damage taken by the Shield HP is converted to Bloodfeast.\n- Gain Shield HP equal to the Stack at the moment of its application\n- Expires at Turn End"
+        "desc": "- Max Stack: 50\n- As long as this effect exists, all Bleed damage taken by the Shield HP is converted to Bloodfeast.\n- Gain Shield HP equal to the Stack at the moment of its application\n- Expires at Turn End",
+        "imageOverride": "Presence of a Second Kindred"
     },
     "BloodArmorPersonalityFirst": {
         "buffType": "Positive",
