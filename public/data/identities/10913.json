@@ -237,7 +237,7 @@
                     "atkWeight": 1,
                     "levelCorrection": 3,
                     "baseValue": 8,
-                    "coinValue": 4,
+                    "coinValue": -4,
                     "coinTypes": [
                         "normal",
                         "normal"
@@ -252,7 +252,7 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4,
+                    "coinValue": -4,
                     "coinTypes": [
                         "normal",
                         "normal"
@@ -313,7 +313,7 @@
                     "atkWeight": 1,
                     "levelCorrection": 4,
                     "baseValue": 12,
-                    "coinValue": 4,
+                    "coinValue": -4,
                     "coinTypes": [
                         "normal",
                         "normal",
@@ -322,7 +322,7 @@
                 },
                 {
                     "uptie": 2,
-                    "coinValue": 4,
+                    "coinValue": -4,
                     "coinTypes": [
                         "normal",
                         "normal",
@@ -335,7 +335,7 @@
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 4,
+                    "coinValue": -4,
                     "coinTypes": [
                         "normal",
                         "normal",
@@ -402,7 +402,7 @@
                     "atkWeight": 1,
                     "levelCorrection": 5,
                     "baseValue": 18,
-                    "coinValue": 6,
+                    "coinValue": -6,
                     "coinTypes": [
                         "normal",
                         "normal",
@@ -412,7 +412,7 @@
                 {
                     "uptie": 4,
                     "baseValue": 20,
-                    "coinValue": 5,
+                    "coinValue": -5,
                     "coinTypes": [
                         "normal",
                         "normal",
@@ -511,7 +511,7 @@
                     "atkWeight": 1,
                     "levelCorrection": 2,
                     "baseValue": 10,
-                    "coinValue": 4,
+                    "coinValue": -4,
                     "coinTypes": [
                         "unbreakable",
                         "unbreakable"

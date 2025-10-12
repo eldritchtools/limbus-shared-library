@@ -2,7 +2,7 @@ import statuses from "../data/statusesData";
 import { Status } from "./status";
 
 function replaceStatusVariables(templateText, includeTooltips = true) {
-    let text = templateText;
+    let text = templateText.replace("[[", "[").replace("]]", "]");
     let textPieces = [];
 
     while (true) {

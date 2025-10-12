@@ -3,7 +3,7 @@ import { Status } from "./status";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 function replaceStatusVariables(templateText) {
   var includeTooltips = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  var text = templateText;
+  var text = templateText.replace("[[", "[").replace("]]", "]");
   var textPieces = [];
   while (true) {
     // Returns ["[variable]", index: number, input: string, groups: undefined]
