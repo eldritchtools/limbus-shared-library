@@ -11,15 +11,33 @@
                 "atkWeight": 1,
                 "levelCorrection": 0,
                 "baseValue": 5,
-                "coinValue": 3
+                "coinValue": 3,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             },
             {
                 "uptie": 3,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             }
         ],
         "text": [
@@ -117,15 +135,33 @@
                 "atkWeight": 1,
                 "levelCorrection": 3,
                 "baseValue": 6,
-                "coinValue": 3
+                "coinValue": 3,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             },
             {
                 "uptie": 3,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             }
         ],
         "text": [

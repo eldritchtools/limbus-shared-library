@@ -11,16 +11,25 @@
                 "atkWeight": 3,
                 "levelCorrection": 0,
                 "baseValue": 11,
-                "coinValue": 10
+                "coinValue": 10,
+                "coinTypes": [
+                    "normal"
+                ]
             },
             {
                 "uptie": 3,
                 "baseValue": 15,
-                "coinValue": 10
+                "coinValue": 10,
+                "coinTypes": [
+                    "normal"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 10
+                "coinValue": 10,
+                "coinTypes": [
+                    "normal"
+                ]
             }
         ],
         "text": [

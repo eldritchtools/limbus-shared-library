@@ -11,15 +11,27 @@
                 "atkWeight": 1,
                 "levelCorrection": 0,
                 "baseValue": 3,
-                "coinValue": 7
+                "coinValue": 7,
+                "coinTypes": [
+                    "normal",
+                    "normal"
+                ]
             },
             {
                 "uptie": 3,
-                "coinValue": 7
+                "coinValue": 7,
+                "coinTypes": [
+                    "normal",
+                    "normal"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 7
+                "coinValue": 7,
+                "coinTypes": [
+                    "normal",
+                    "normal"
+                ]
             }
         ],
         "text": [
@@ -97,15 +109,24 @@
                 "atkWeight": 3,
                 "levelCorrection": 0,
                 "baseValue": 39,
-                "coinValue": 24
+                "coinValue": -24,
+                "coinTypes": [
+                    "normal"
+                ]
             },
             {
                 "uptie": 3,
-                "coinValue": 24
+                "coinValue": -24,
+                "coinTypes": [
+                    "normal"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 24
+                "coinValue": -24,
+                "coinTypes": [
+                    "normal"
+                ]
             }
         ],
         "text": [

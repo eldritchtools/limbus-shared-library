@@ -2,6 +2,7 @@ export { default as gifts, giftsNameMapping } from "./data/giftsData";
 export { default as statuses } from "./data/statusesData";
 export { themePacks, floorPacks } from "./data/mdData";
 export { default as identities, identityTags } from "./data/identitiesData";
+export { default as egos } from "./data/egosData";
 
 export { Gift, GiftTooltip } from "./gift/gift";
 export { keywords, KeywordIcon, KeywordSelector } from "./keywords/keywords";

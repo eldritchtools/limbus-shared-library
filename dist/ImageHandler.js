@@ -49,6 +49,51 @@ function RarityImg(_ref2) {
           height: "2rem"
         }, style)
       });
+    case "zayin":
+      return /*#__PURE__*/_jsx("img", {
+        src: "".concat(ASSETS_ROOT, "/icons/zayin.png"),
+        alt: "zayin",
+        title: "zayin",
+        style: _objectSpread({
+          height: "2rem"
+        }, style)
+      });
+    case "teth":
+      return /*#__PURE__*/_jsx("img", {
+        src: "".concat(ASSETS_ROOT, "/icons/teth.png"),
+        alt: "teth",
+        title: "teth",
+        style: _objectSpread({
+          height: "2rem"
+        }, style)
+      });
+    case "he":
+      return /*#__PURE__*/_jsx("img", {
+        src: "".concat(ASSETS_ROOT, "/icons/he.png"),
+        alt: "he",
+        title: "he",
+        style: _objectSpread({
+          height: "2rem"
+        }, style)
+      });
+    case "waw":
+      return /*#__PURE__*/_jsx("img", {
+        src: "".concat(ASSETS_ROOT, "/icons/waw.png"),
+        alt: "waw",
+        title: "waw",
+        style: _objectSpread({
+          height: "2rem"
+        }, style)
+      });
+    case "aleph":
+      return /*#__PURE__*/_jsx("img", {
+        src: "".concat(ASSETS_ROOT, "/icons/aleph.png"),
+        alt: "aleph",
+        title: "aleph",
+        style: _objectSpread({
+          height: "2rem"
+        }, style)
+      });
     default:
       return null;
   }

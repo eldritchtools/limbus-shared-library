@@ -11,15 +11,30 @@
                 "atkWeight": 3,
                 "levelCorrection": 3,
                 "baseValue": 8,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "unbreakable",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             },
             {
                 "uptie": 3,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "unbreakable",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 4
+                "coinValue": 4,
+                "coinTypes": [
+                    "unbreakable",
+                    "unbreakable",
+                    "unbreakable"
+                ]
             }
         ],
         "text": [
@@ -112,15 +127,33 @@
                 "atkWeight": 3,
                 "levelCorrection": 5,
                 "baseValue": 13,
-                "coinValue": 3
+                "coinValue": -3,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "normal",
+                    "normal"
+                ]
             },
             {
                 "uptie": 3,
-                "coinValue": 3
+                "coinValue": -3,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "normal",
+                    "normal"
+                ]
             },
             {
                 "uptie": 4,
-                "coinValue": 3
+                "coinValue": -3,
+                "coinTypes": [
+                    "normal",
+                    "normal",
+                    "normal",
+                    "normal"
+                ]
             }
         ],
         "text": [

@@ -15,12 +15,14 @@
     "EntangledCurseTalisman": {
         "buffType": "Negative",
         "name": "Twisted Curse Talisman",
-        "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n\u203b Cannot gain additional Stacks of this effect while it is already active"
+        "desc": "- Max Stack: 10\n- Expires at Turn End\n- At 10+ Stack, when taking 30+ damage from a Skill: gain +1 Rupture Count; take Gluttony damage equal to Rupture Potency on self (once per turn)\n- When this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\n\u203b Cannot gain additional Stacks of this effect while it is already active",
+        "imageOverride": "Entangled Curse Talisman"
     },
     "CentipedePoison": {
         "buffType": "Negative",
         "name": "Centipede Venom",
-        "desc": "- Max Stack: 20\n- Turn End: gain (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Focused Encounters, a different Part) with none or the least Centipede Venom Stacks."
+        "desc": "- Max Stack: 20\n- Turn End: gain (Stack / 4) Defense Level Down next turn (rounded down)\n- Turn End: take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally(for Focused Encounters, a different Part) with none or the least Centipede Venom Stacks.",
+        "imageOverride": "Centipede Poison"
     },
     "BurstZilu": {
         "buffType": "Negative",
@@ -352,7 +354,8 @@
     "Snare": {
         "buffType": "Negative",
         "name": "Lasso",
-        "desc": "- Max Value: 3\n- Turn End: gain Rupture Potency equal to this unit's current Speed value (max 5), and gain 1 Bind next turn\n- Turn End: reduced by 1"
+        "desc": "- Max Value: 3\n- Turn End: gain Rupture Potency equal to this unit's current Speed value (max 5), and gain 1 Bind next turn\n- Turn End: reduced by 1",
+        "imageOverride": "ThornNoose"
     },
     "BloodScissorPersonalityFirst": {
         "buffType": "Positive",
@@ -471,7 +474,8 @@
             "FREISHUTZ_OUTIS_EGO_BULLET"
         ],
         "name": "The Second Magic Bullet",
-        "desc": "- Deal +10% damage\n- Deal damage to targets other than the main target (max targets: 4); the main target takes 0 damage\n- On Hit, inflict 3 Paralyze"
+        "desc": "- Deal +10% damage\n- Deal damage to targets other than the main target (max targets: 4); the main target takes 0 damage\n- On Hit, inflict 3 Paralyze",
+        "imageOverride": "The Seconds Magic Bullet"
     },
     "FreishutzOutisEgoBullet_3rd": {
         "buffType": "Positive",
@@ -528,7 +532,8 @@
     "HoldingBreath": {
         "buffType": "Positive",
         "name": "Deep Inhale",
-        "desc": "- Max Stack: 20\n- On Crit, at 15+ Poise Potency and 5+ Poise Count, consume (Poise Potency on self / 5) Poise Potency to deal +(Poise Potency consumed x 4)% damage on Critical Hit and lose 1 Stack"
+        "desc": "- Max Stack: 20\n- On Crit, at 15+ Poise Potency and 5+ Poise Count, consume (Poise Potency on self / 5) Poise Potency to deal +(Poise Potency consumed x 4)% damage on Critical Hit and lose 1 Stack",
+        "imageOverride": "Deep Breath"
     },
     "NebulizerInhale": {
         "buffType": "Positive",
@@ -713,7 +718,8 @@
     "MagicalGirlResponse": {
         "buffType": "Positive",
         "name": "Magical Girl's Chant",
-        "desc": "- Max Stack: 2\n- When gaining this effect, gain 1 Attack Power Up and 1 Damage Up\n- This unit's Attack Skills that gain or consume Charge Count gain Final Power +1 and deal +10% damage\n- Reduced by 1 at Turn End"
+        "desc": "- Max Stack: 2\n- When gaining this effect, gain 1 Attack Power Up and 1 Damage Up\n- This unit's Attack Skills that gain or consume Charge Count gain Final Power +1 and deal +10% damage\n- Reduced by 1 at Turn End",
+        "imageOverride": "Magical Girl_s Chant"
     },
     "ChoSuperCharge": {
         "buffType": "Positive",
