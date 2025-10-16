@@ -41,7 +41,7 @@ async function seed() {
     console.log('✅ Seeding complete!');
 }
 
-seed().catch(err) {
-    console.error('❌ Error seeding database:', err.message);
-    process.exit(1);
-};
+seed().catch((err) => {
+  console.error('❌ Error seeding database:', err.message);
+  process.exit(1);
+});
