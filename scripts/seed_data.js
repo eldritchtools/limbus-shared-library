@@ -14,7 +14,7 @@ async function seed() {
     const { error: identityError } = await supabase
         .from('identities')
         .upsert(
-            Object.entries(identities).map((id, identity) => ({
+            Object.entries(identities).map(([id, identity]) => ({
                 id: id,
                 name: identity.name,
                 sinner_id: identity.sinnerId
@@ -28,7 +28,7 @@ async function seed() {
     const { error: egoError } = await supabase
         .from('equipment')
         .upsert(
-            Object.entries(egos).map((id, ego) => ({
+            Object.entries(egos).map(([id, ego]) => ({
                 id: id,
                 name: ego.name,
                 sinner_id: ego.sinnerId
