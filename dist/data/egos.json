@@ -22,8 +22,8 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Binding",
             "Reduction",
+            "Binding",
             "Agility"
         ],
         "name": "Crow\u2019s Eye View"
@@ -154,11 +154,11 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "AmberResultUp",
-            "Protection",
-            "AmberTakeDamageUp",
+            "AmberDamageUp",
             "PenetrateTakeDamageUp",
-            "AmberDamageUp"
+            "AmberResultUp",
+            "AmberTakeDamageUp",
+            "Protection"
         ],
         "name": "Sunshower"
     },
@@ -189,8 +189,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Sinking",
-            "Binding"
+            "Binding",
+            "Sinking"
         ],
         "name": "Bygone Days"
     },
@@ -221,9 +221,9 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Laceration",
             "Breath",
-            "BoseProjektil"
+            "BoseProjektil",
+            "Laceration"
         ],
         "name": "Fell Bullet"
     },
@@ -316,9 +316,9 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Agility",
+            "GainSinStockAdder",
             "Combustion",
-            "GainSinStockAdder"
+            "Agility"
         ],
         "name": "Lifetime Stew"
     },
@@ -384,9 +384,9 @@
         },
         "keywordTags": [
             "ShieldManagerCryingToad",
+            "Aggro",
             "Sinking",
-            "Protection",
-            "Aggro"
+            "Protection"
         ],
         "name": "Cavernous Wailing"
     },
@@ -418,15 +418,15 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Protection",
-            "Binding",
-            "ParryingResultDown",
-            "ParryingResultUp",
-            "Curse",
-            "DefenseDown",
-            "Laceration",
             "NailPersonality",
-            "Endurance"
+            "Binding",
+            "ParryingResultUp",
+            "Laceration",
+            "DefenseDown",
+            "Endurance",
+            "ParryingResultDown",
+            "Curse",
+            "Protection"
         ],
         "name": "Hex Nail"
     },
@@ -487,8 +487,8 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Laceration",
             "ShamrockTakeDamageUp",
+            "Laceration",
             "Burst"
         ],
         "name": "Ebony Stem"
@@ -521,8 +521,8 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Vulnerable",
             "Enhancement",
+            "Vulnerable",
             "ScarletTakeDamageUp"
         ],
         "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam"
@@ -555,9 +555,9 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Sinking",
             "Breath",
             "Binding",
+            "Sinking",
             "Burst"
         ],
         "name": "Sunshower"
@@ -622,9 +622,9 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Switch_Vibration",
-            "Vibration",
             "VibrationExplosion",
+            "Vibration",
+            "Switch_Vibration",
             "VibrationCrack"
         ],
         "name": "Binds"
@@ -659,8 +659,8 @@
         },
         "keywordTags": [
             "Charge",
-            "DimensionRift",
             "Agility",
+            "DimensionRift",
             "ChargeLoad"
         ],
         "name": "Dimension Shredder"
@@ -693,15 +693,15 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "FreishutzOutisEgoBullet_2nd",
-            "FreishutzOutisEgoBullet_7th",
-            "Combustion",
-            "FreishutzOutisEgoBullet_4th",
-            "FreishutzOutisEgoBullet_1st",
-            "FreishutzOutisEgoBullet_3rd",
             "FreischutzShotCount",
-            "DarkFlame",
+            "FreishutzOutisEgoBullet_1st",
+            "FreishutzOutisEgoBullet_4th",
             "FreishutzOutisEgoBullet_5th",
+            "DarkFlame",
+            "FreishutzOutisEgoBullet_3rd",
+            "Combustion",
+            "FreishutzOutisEgoBullet_7th",
+            "FreishutzOutisEgoBullet_2nd",
             "FreishutzOutisEgoBullet_6th"
         ],
         "name": "Magic Bullet"
@@ -758,8 +758,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Vibration",
             "Paralysis",
+            "Vibration",
             "Muckworm",
             "Laceration"
         ],
@@ -823,8 +823,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Charge",
-            "EmittedCurrent"
+            "EmittedCurrent",
+            "Charge"
         ],
         "name": "AEDD"
     },
@@ -860,8 +860,8 @@
             "type": "slash"
         },
         "keywordTags": [
-            "AttackDmgDown",
-            "Binding"
+            "Binding",
+            "AttackDmgDown"
         ],
         "name": "Garden of Thorns"
     },
@@ -893,8 +893,8 @@
         },
         "keywordTags": [
             "AzureTakeDamageUp",
-            "Sinking",
-            "Curse"
+            "Curse",
+            "Sinking"
         ],
         "name": "Bygone Days"
     },
@@ -927,9 +927,9 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Sinking",
+            "SinkingWhite",
             "Enhancement",
-            "SinkingWhite"
+            "Sinking"
         ],
         "name": "Solemn Lament"
     },
@@ -962,12 +962,12 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Vibration",
             "Enhancement",
             "Sinking",
             "Reduction",
-            "DefenseDown",
+            "Vibration",
             "AttackDown",
+            "DefenseDown",
             "VibrationExplosion"
         ],
         "name": "Christmas Nightmare"
@@ -1000,16 +1000,16 @@
             "type": "slash"
         },
         "keywordTags": [
-            "AttackUp",
+            "VibrationExplosion",
             "Vibration",
-            "Protection",
+            "AttackDmgUp",
             "Combustion",
-            "MlynarWaiting",
+            "AttackUp",
             "DefenseUp",
             "Aggro",
-            "VibrationExplosion",
-            "AttackDmgUp",
-            "SuperCoin"
+            "SuperCoin",
+            "MlynarWaiting",
+            "Protection"
         ],
         "name": "Unbrilliant Glory"
     },
@@ -1096,9 +1096,9 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "PenetrateTakeDamageUp",
             "VioletTakeDamageUp",
             "NailPersonality",
+            "PenetrateTakeDamageUp",
             "Curse"
         ],
         "name": "Hex Nail"
@@ -1131,8 +1131,8 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Charge",
-            "Paralysis"
+            "Paralysis",
+            "Charge"
         ],
         "name": "Telepole"
     },
@@ -1165,10 +1165,10 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "FusionVibration",
             "Vibration",
             "VibrationContinue",
             "Agility",
-            "FusionVibration",
             "VibrationExplosion"
         ],
         "name": "Everlasting"
@@ -1202,8 +1202,8 @@
         },
         "keywordTags": [
             "Snare",
-            "Agility",
             "ShamrockResultUp",
+            "Agility",
             "Burst"
         ],
         "name": "Lasso"
@@ -1236,10 +1236,10 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "ReleaseBreath",
             "Breath",
             "NebulizerExhale",
-            "IndigoDamageUp"
+            "IndigoDamageUp",
+            "ReleaseBreath"
         ],
         "name": "Thoracalgia"
     },
@@ -1271,11 +1271,11 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Combustion",
-            "Burst",
             "AttackDmgUp",
+            "Combustion",
             "CuredFilm",
-            "SuperCoin"
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Command : Meltdown"
     },
@@ -1431,9 +1431,9 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "VibrationExplosion",
-            "Vibration",
             "Paralysis",
+            "Vibration",
+            "VibrationExplosion",
             "Laceration"
         ],
         "name": "Wishing Cairn"
@@ -1500,10 +1500,10 @@
         },
         "keywordTags": [
             "BloodDinner_Accumulation",
-            "BloodDinner",
+            "Laceration",
             "BloodDinner_Common_Accumulation",
             "ThirstyRose",
-            "Laceration",
+            "BloodDinner",
             "SuperCoin"
         ],
         "name": "Yearning-Mircalla"
@@ -1537,16 +1537,16 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "NoVillain",
-            "Burst",
-            "MagicalGirlAppear",
-            "MagicalGirlResponse",
-            "Charge",
-            "Sinking",
             "HystericGauge",
+            "MagicalGirlResponse",
+            "Sinking",
+            "Charge",
+            "Burst",
+            "NoVillain",
             "ArcanaQueenOfHate",
-            "VillainMark",
-            "SuperCoin"
+            "MagicalGirlAppear",
+            "SuperCoin",
+            "VillainMark"
         ],
         "name": "In the Name of Love and Hate"
     },
@@ -1638,9 +1638,9 @@
             "type": "slash"
         },
         "keywordTags": [
-            "PlusCoinValueDown",
             "SlashTakeDamageUp",
-            "Binding"
+            "Binding",
+            "PlusCoinValueDown"
         ],
         "name": "Red Eyes"
     },
@@ -1704,9 +1704,9 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Sinking",
+            "GainSinStockAdder",
             "Agility",
-            "GainSinStockAdder"
+            "Sinking"
         ],
         "name": "Soda"
     },
@@ -1739,8 +1739,8 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Laceration",
-            "GazePersonality"
+            "GazePersonality",
+            "Laceration"
         ],
         "name": "Contempt, Awe"
     },
@@ -1772,8 +1772,8 @@
             "type": "slash"
         },
         "keywordTags": [
-            "NebulizerInhale",
             "Breath",
+            "NebulizerInhale",
             "HoldingBreath"
         ],
         "name": "Thoracalgia"
@@ -1803,8 +1803,8 @@
         },
         "keywordTags": [
             "Reduction",
-            "Protection",
-            "Binding"
+            "Binding",
+            "Protection"
         ],
         "name": "Chains of Others"
     },
@@ -1837,8 +1837,8 @@
         },
         "keywordTags": [
             "Paralysis",
-            "Protection",
-            "Operation"
+            "Operation",
+            "Protection"
         ],
         "name": "Screwloose Wallop"
     },
@@ -1870,8 +1870,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Vulnerable",
             "AttackDmgUp",
+            "Vulnerable",
             "Protection"
         ],
         "name": "Pursuance"
@@ -1904,12 +1904,12 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "HitResultUp",
             "Vibration",
+            "Agility",
             "Combustion",
             "CrimsonResultUp",
-            "Agility",
-            "VibrationExplosion",
-            "HitResultUp"
+            "VibrationExplosion"
         ],
         "name": "Capote"
     },
@@ -1940,9 +1940,9 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "HitResultUp",
             "Vibration",
-            "Binding",
-            "HitResultUp"
+            "Binding"
         ],
         "name": "Regret"
     },
@@ -1973,12 +1973,12 @@
             "type": "pierce"
         },
         "keywordTags": [
+            "VioletDamageUp",
+            "Charge",
+            "Burst",
             "AttackUp",
             "DefenseUp",
-            "Charge",
-            "VioletDamageUp",
-            "Paralysis",
-            "Burst"
+            "Paralysis"
         ],
         "name": "Electric Screaming"
     },
@@ -2011,8 +2011,8 @@
         },
         "keywordTags": [
             "RoseWedge",
-            "Laceration",
-            "SuperCoin"
+            "SuperCoin",
+            "Laceration"
         ],
         "name": "Yearning-Mircalla"
     },
@@ -2045,12 +2045,12 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Vibration",
-            "Protection",
             "FusionVibration",
             "AccumulatedPastSinner",
+            "Vibration",
+            "AttackDmgUp",
             "VibrationExplosion",
-            "AttackDmgUp"
+            "Protection"
         ],
         "name": "Crushbound Past"
     },
@@ -2108,9 +2108,9 @@
             "type": "pierce"
         },
         "keywordTags": [
+            "Binding",
             "Disarming",
-            "DefenseDown",
-            "Binding"
+            "DefenseDown"
         ],
         "name": "Roseate Desire"
     },
@@ -2142,9 +2142,9 @@
         },
         "keywordTags": [
             "Charge",
-            "DimensionRift",
             "Vulnerable",
-            "Agility"
+            "Agility",
+            "DimensionRift"
         ],
         "name": "Dimension Shredder"
     },
@@ -2211,10 +2211,10 @@
         "keywordTags": [
             "Vibration",
             "Switch_Vibration",
-            "VibrationEcho",
-            "DefenseDown",
             "AttackDown",
-            "VibrationExplosion"
+            "DefenseDown",
+            "VibrationExplosion",
+            "VibrationEcho"
         ],
         "name": "Cavernous Wailing"
     },
@@ -2246,9 +2246,9 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Snare",
-            "Agility",
             "Laceration",
+            "Agility",
+            "Snare",
             "TakeHpHealReduce",
             "Burst"
         ],
@@ -2282,9 +2282,9 @@
             "type": "pierce"
         },
         "keywordTags": [
+            "Sinking",
             "SeniorCianjing",
             "Cianjing",
-            "Sinking",
             "Breath",
             "SuperCoin"
         ],
@@ -2378,8 +2378,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Charge",
             "Paralysis",
+            "Charge",
             "AzureTakeDamageUp",
             "Agility"
         ],
@@ -2414,11 +2414,11 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "DefenseUp",
-            "Reduction",
             "Vulnerable",
+            "Reduction",
             "DefenseDown",
-            "AttackDmgUp"
+            "AttackDmgUp",
+            "DefenseUp"
         ],
         "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam"
     },
@@ -2480,15 +2480,15 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "ForwardToTheKing",
-            "Vibration",
-            "AttackUp",
-            "Binding",
+            "ForwardToTheBoundKing",
             "Enhancement",
+            "Binding",
             "DefenseUp",
             "Sinking",
-            "ForwardToTheBoundKing",
             "AzureDamageUp",
+            "Vibration",
+            "ForwardToTheKing",
+            "AttackUp",
             "VibrationExplosion"
         ],
         "name": "Binds"
@@ -2523,9 +2523,9 @@
         "keywordTags": [
             "Sinking",
             "Laceration",
-            "Breath",
+            "Bullet",
             "BoseProjektil",
-            "Bullet"
+            "Breath"
         ],
         "name": "Fell Bullet"
     },
@@ -2558,12 +2558,12 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Vibration",
-            "Switch_Vibration",
-            "AmberTakeDamageUp",
-            "Vulnerable",
             "VibrationExplosion",
-            "VibrationSpring"
+            "Vulnerable",
+            "Vibration",
+            "AmberTakeDamageUp",
+            "VibrationSpring",
+            "Switch_Vibration"
         ],
         "name": "Asymmetrical Inertia"
     },
@@ -2688,8 +2688,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "VibrationExplosion",
             "CrimsonTakeDamageUp",
+            "VibrationExplosion",
             "Combustion",
             "CrimsonDamageUp"
         ],
@@ -2723,11 +2723,11 @@
             "type": "slash"
         },
         "keywordTags": [
-            "AttackUp",
             "Enhancement",
-            "Agility",
+            "ShamrockTakeDamageUp",
             "Laceration",
-            "ShamrockTakeDamageUp"
+            "Agility",
+            "AttackUp"
         ],
         "name": "Wingbeat"
     },
@@ -2759,11 +2759,11 @@
             "type": "slash"
         },
         "keywordTags": [
-            "UninvitedGuestPersonality",
-            "AzureTakeDamageUp",
-            "Curse",
             "Sinking",
-            "EchoOfMansion"
+            "UninvitedGuestPersonality",
+            "EchoOfMansion",
+            "AzureTakeDamageUp",
+            "Curse"
         ],
         "name": "Bygone Days"
     },
@@ -2795,8 +2795,8 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "VibrationExplosion",
             "Vibration",
+            "VibrationExplosion",
             "Sinking"
         ],
         "name": "Christmas Nightmare"
@@ -2828,12 +2828,12 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Vibration",
             "Binding",
-            "AzureTakeDamageUp",
             "Sinking",
-            "HitDamageUp",
             "AzureDamageUp",
+            "Vibration",
+            "HitDamageUp",
+            "AzureTakeDamageUp",
             "VibrationExplosion",
             "SuperCoin"
         ],
@@ -3022,11 +3022,11 @@
             "type": "slash"
         },
         "keywordTags": [
-            "AttackUp",
-            "Curse",
-            "DefenseDown",
+            "NailPersonality",
             "Laceration",
-            "NailPersonality"
+            "DefenseDown",
+            "AttackUp",
+            "Curse"
         ],
         "name": "Hex Nail"
     },
@@ -3057,11 +3057,11 @@
             "type": "pierce"
         },
         "keywordTags": [
+            "CrimsonDamageUp",
             "Combustion",
             "CrimsonResultUp",
             "BirdCage",
-            "SuperCoin",
-            "CrimsonDamageUp"
+            "SuperCoin"
         ],
         "name": "Indicant's Trial"
     },
@@ -3093,9 +3093,9 @@
             "type": "slash"
         },
         "keywordTags": [
-            "DefenseDown",
             "Binding",
-            "Combustion"
+            "Combustion",
+            "DefenseDown"
         ],
         "name": "9:2"
     },
@@ -3160,8 +3160,8 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Charge",
-            "Breath"
+            "Breath",
+            "Charge"
         ],
         "name": "Blind Obsession"
     },
@@ -3195,10 +3195,10 @@
         },
         "keywordTags": [
             "Charge",
-            "IndigoTakeDamageUp",
+            "PenetrateResultUp",
             "AttackDmgUp",
-            "Breath",
-            "PenetrateResultUp"
+            "IndigoTakeDamageUp",
+            "Breath"
         ],
         "name": "Blind Obsession"
     },
@@ -3231,8 +3231,8 @@
         },
         "keywordTags": [
             "Vibration",
-            "DefenseDown",
-            "Binding"
+            "Binding",
+            "DefenseDown"
         ],
         "name": "Effervescent Corrosion"
     },
@@ -3264,10 +3264,10 @@
             "type": "blunt"
         },
         "keywordTags": [
-            "Disarming",
             "Reduction",
-            "ScarletTakeDamageUp",
-            "Combustion"
+            "Combustion",
+            "Disarming",
+            "ScarletTakeDamageUp"
         ],
         "name": "9:2"
     },
@@ -3368,12 +3368,12 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "DragonLance",
-            "Agility",
-            "SuperCoin",
-            "PenetrateDamageUp",
             "Reduction",
+            "Agility",
             "ShamrockDamageUp",
+            "PenetrateDamageUp",
+            "DragonLance",
+            "SuperCoin",
             "Burst"
         ],
         "name": "Tears of the Tarnished Blood [\u6c5a\u8840\u6ce3\u6dda]"
@@ -3406,8 +3406,8 @@
             "type": "pierce"
         },
         "keywordTags": [
-            "Vulnerable",
             "YesdragonNodie",
+            "Vulnerable",
             "YesdragonSelf",
             "Burst"
         ],

@@ -2,9 +2,9 @@
     "10101": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -84,8 +84,8 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "Vulnerable"
+            "Vulnerable",
+            "Sinking"
         ],
         "name": "LCB Sinner"
     },
@@ -173,9 +173,9 @@
         ],
         "keywordTags": [
             "Paralysis",
-            "Burst",
             "PenetrateTakeDamageUp",
-            "Vulnerable"
+            "Vulnerable",
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 6"
     },
@@ -352,8 +352,8 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "Vibration"
+            "Vibration",
+            "Sinking"
         ],
         "name": "Effloresced E.G.O::Spicebush"
     },
@@ -441,8 +441,8 @@
             }
         ],
         "keywordTags": [
-            "DefenseDown",
-            "Vibration"
+            "Vibration",
+            "DefenseDown"
         ],
         "name": "Molar Office Fixer"
     },
@@ -529,11 +529,11 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "DimensionRift",
+            "Binding",
             "Charge",
+            "DimensionRift",
             "ChargeForceField",
-            "Binding"
+            "Burst"
         ],
         "name": "W Corp. L3 Cleanup Agent"
     },
@@ -630,8 +630,8 @@
     "10108": {
         "date": "2024-01-25",
         "tags": [
-            "Dieci Association",
-            "Fixer"
+            "Fixer",
+            "Dieci Association"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -718,8 +718,8 @@
     "10109": {
         "date": "2024-05-16",
         "tags": [
-            "Syndicate",
-            "The Ring"
+            "The Ring",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -799,21 +799,21 @@
             }
         ],
         "keywordTags": [
-            "Burst",
             "Sinking",
+            "Laceration",
             "Vibration",
             "Combustion",
-            "Laceration",
-            "AttackUp"
+            "AttackUp",
+            "Burst"
         ],
         "name": "The Ring Pointillist Student"
     },
     "10110": {
         "date": "2024-09-05",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -894,19 +894,19 @@
         ],
         "keywordTags": [
             "Sinking",
+            "Agility",
             "SinkingWhite",
             "ReloadLament",
-            "BulletLament",
-            "Agility"
+            "BulletLament"
         ],
         "name": "Lobotomy E.G.O:: Solemn Lament"
     },
     "10111": {
         "date": "2025-01-23",
         "tags": [
-            "LCE",
+            "Limbus Company",
             "E.G.O Gear",
-            "Limbus Company"
+            "LCE"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -985,11 +985,11 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Burst",
-            "Aggro",
+            "Binding",
             "GlowingLantern",
-            "Binding"
+            "Aggro",
+            "SuperCoin",
+            "Burst"
         ],
         "name": "LCE E.G.O:: Lantern"
     },
@@ -1085,8 +1085,8 @@
     "10113": {
         "date": "2025-07-03",
         "tags": [
-            "E.G.O Gear",
-            "N Corp."
+            "N Corp.",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -1168,23 +1168,23 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
-            "SuperCoin",
             "FellBulletPersonality",
-            "BoseProjektil",
             "Laceration",
-            "Breath"
+            "AttackDmgUp",
+            "BoseProjektil",
+            "Breath",
+            "SuperCoin"
         ],
         "name": "N Corp. E.G.O:: Fell Bullet"
     },
     "10114": {
         "date": "2025-08-28",
         "tags": [
+            "Heishou Pack Adept",
             "Heishou Pack",
             "H Corp.",
-            "Heishou Pack - Wu Branch",
             "Jia Family",
-            "Heishou Pack Adept"
+            "Heishou Pack - Wu Branch"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -1273,31 +1273,31 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "SuperCoin",
-            "Vibration",
-            "ConcussionYisang",
-            "HeishouComboCountHonglu",
-            "Breath",
-            "CanDuelGuard",
             "Enhancement",
-            "LegStrengthHorseYisang",
-            "Agility",
-            "BattlefieldHorse",
-            "AttackUp",
-            "HeishouCombo",
-            "VibrationExplosion",
             "Binding",
-            "BreakthroughHorse"
+            "HeishouComboCountHonglu",
+            "LegStrengthHorseYisang",
+            "Vibration",
+            "BreakthroughHorse",
+            "Agility",
+            "CanDuelGuard",
+            "ConcussionYisang",
+            "HeishouCombo",
+            "AttackUp",
+            "Breath",
+            "VibrationExplosion",
+            "BattlefieldHorse",
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Heishou Pack - Wu Branch Adept"
     },
     "10201": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [],
         "sinnerId": 2,
@@ -1376,8 +1376,8 @@
         ],
         "keywordTags": [
             "Paralysis",
-            "AttackDown",
-            "Reduction"
+            "Reduction",
+            "AttackDown"
         ],
         "name": "LCB Sinner"
     },
@@ -1470,9 +1470,9 @@
     "10203": {
         "date": "2023-02-27",
         "tags": [
-            "Lobotomy Corp. Branch",
             "L Corp.",
-            "Fixer"
+            "Fixer",
+            "Lobotomy Corp. Branch"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -1554,16 +1554,16 @@
         ],
         "keywordTags": [
             "Breath",
-            "Burst",
-            "Agility"
+            "Agility",
+            "Burst"
         ],
         "name": "Lobotomy Corp. Remnant"
     },
     "10204": {
         "date": "2023-03-23",
         "tags": [
-            "N Corp. Fanatic",
-            "N Corp."
+            "N Corp.",
+            "N Corp. Fanatic"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1643,20 +1643,20 @@
             }
         ],
         "keywordTags": [
-            "MarkOfHeresy",
             "NailPersonality",
-            "Paralysis",
-            "PenetrateDamageUp",
+            "Laceration",
             "HitDamageUp",
-            "Laceration"
+            "PenetrateDamageUp",
+            "Paralysis",
+            "MarkOfHeresy"
         ],
         "name": "The One Who Grips"
     },
     "10205": {
         "date": "2023-08-10",
         "tags": [
-            "Zwei Association",
-            "Fixer"
+            "Fixer",
+            "Zwei Association"
         ],
         "skillKeywordList": [],
         "sinnerId": 2,
@@ -1733,8 +1733,8 @@
             }
         ],
         "keywordTags": [
-            "Agility",
-            "DefenseUp"
+            "DefenseUp",
+            "Agility"
         ],
         "name": "Zwei Assoc. South Section 4"
     },
@@ -1822,20 +1822,20 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "WeaknessAnalysis",
             "Agility",
             "Breath",
-            "SlashResultUp"
+            "WeaknessAnalysis",
+            "SlashResultUp",
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 4"
     },
     "10207": {
         "date": "2023-10-26",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1915,10 +1915,10 @@
             }
         ],
         "keywordTags": [
-            "PlusCoinValueDown",
             "VibrationExplosion",
+            "Vibration",
             "AttackDown",
-            "Vibration"
+            "PlusCoinValueDown"
         ],
         "name": "Lobotomy E.G.O::Regret"
     },
@@ -2009,8 +2009,8 @@
         "keywordTags": [
             "SlashTakeDamageUp",
             "Breath",
-            "RedApricotBlossom",
-            "Binding"
+            "Binding",
+            "RedApricotBlossom"
         ],
         "name": "Blade Lineage Salsu"
     },
@@ -2018,8 +2018,8 @@
         "date": "2024-04-04",
         "tags": [
             "Wuthering Heights",
-            "Butler",
-            "Fixer"
+            "Fixer",
+            "Butler"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -2099,16 +2099,16 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "EchoOfMansion"
+            "EchoOfMansion",
+            "Sinking"
         ],
         "name": "Wuthering Heights Butler"
     },
     "10210": {
         "date": "2024-08-08",
         "tags": [
-            "Mechanical Amalgam",
             "MultiCrack Office",
+            "Mechanical Amalgam",
             "Fixer"
         ],
         "skillKeywordList": [
@@ -2197,9 +2197,9 @@
     "10211": {
         "date": "2025-01-23",
         "tags": [
-            "LCE",
+            "Limbus Company",
             "E.G.O Gear",
-            "Limbus Company"
+            "LCE"
         ],
         "skillKeywordList": [
             "Burn"
@@ -2288,17 +2288,132 @@
         ],
         "keywordTags": [
             "AttackUp",
-            "SuperCoin",
-            "Combustion"
+            "Combustion",
+            "SuperCoin"
         ],
         "name": "LCE E.G.O:: Ardor Blossom Star"
+    },
+    "10213": {
+        "date": "2025-10-09",
+        "tags": [
+            "Fixer",
+            "Shi Association"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Poise"
+        ],
+        "sinnerId": 2,
+        "season": 0,
+        "rank": 3,
+        "hp": {
+            "base": 60,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            50,
+            20
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 0.5,
+            "blunt": 2
+        },
+        "defenseSkillTypes": [
+            {
+                "id": 1021304,
+                "type": {
+                    "tier": 1,
+                    "affinity": "lust",
+                    "type": "guard"
+                }
+            },
+            {
+                "id": 1021306,
+                "type": {
+                    "tier": 1,
+                    "affinity": "lust",
+                    "type": "evade"
+                }
+            }
+        ],
+        "skillTypes": [
+            {
+                "id": 1021301,
+                "num": 3,
+                "type": {
+                    "tier": 1,
+                    "affinity": "wrath",
+                    "type": "slash"
+                }
+            },
+            {
+                "id": 1021302,
+                "num": 2,
+                "type": {
+                    "tier": 2,
+                    "affinity": "pride",
+                    "type": "slash"
+                }
+            },
+            {
+                "id": 1021303,
+                "num": 1,
+                "type": {
+                    "tier": 3,
+                    "affinity": "lust",
+                    "type": "slash"
+                }
+            },
+            {
+                "id": 1021305,
+                "num": 0,
+                "type": {
+                    "tier": 3,
+                    "affinity": "lust",
+                    "type": "pierce"
+                }
+            }
+        ],
+        "keywordTags": [
+            "ArrowInTheEyeFau",
+            "Laceration",
+            "ArrowShiFau",
+            "DefenseDown",
+            "SlashDamageUp",
+            "PenetrateDamageUp",
+            "AStrokeOfDeath",
+            "Breath",
+            "AimForTheGoal",
+            "SnipingArrowMode"
+        ],
+        "name": "Shi Assoc. East Section 3"
     },
     "10301": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -2468,17 +2583,17 @@
             }
         ],
         "keywordTags": [
-            "Burst",
             "Charge",
-            "Vulnerable"
+            "Vulnerable",
+            "Burst"
         ],
         "name": "W Corp. L3 Cleanup Agent"
     },
     "10303": {
         "date": "2023-02-27",
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -2565,8 +2680,8 @@
     "10304": {
         "date": "2023-05-04",
         "tags": [
-            "N Corp. Fanatic",
-            "N Corp."
+            "N Corp.",
+            "N Corp. Fanatic"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -2646,10 +2761,10 @@
             }
         ],
         "keywordTags": [
-            "NailPersonality",
             "Paralysis",
-            "Vibration",
-            "Reduction"
+            "NailPersonality",
+            "Reduction",
+            "Vibration"
         ],
         "name": "N Corp. Mittelhammer"
     },
@@ -2735,9 +2850,9 @@
             }
         ],
         "keywordTags": [
-            "DuelDeclaration_DonQuixote",
+            "Binding",
             "Agility",
-            "Binding"
+            "DuelDeclaration_DonQuixote"
         ],
         "name": "Cinq Assoc. South Section 5 Director"
     },
@@ -2842,9 +2957,9 @@
     "10307": {
         "date": "2024-01-11",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -2923,8 +3038,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "Aggro"
+            "Aggro",
+            "Burst"
         ],
         "name": "Lobotomy E.G.O::Lantern"
     },
@@ -3098,23 +3213,23 @@
             }
         ],
         "keywordTags": [
+            "VibrationChainPersonality",
+            "Binding",
+            "TimeRentalTwoPersonality",
             "TimeSuspend",
             "Vibration",
-            "Aggro",
             "Switch_Vibration",
-            "TimeRentalTwoPersonality",
-            "VibrationChainPersonality",
             "VibrationExplosion",
-            "Binding"
+            "Aggro"
         ],
         "name": "T Corp. Class 3 Collection Staff"
     },
     "10310": {
         "date": "2024-12-12",
         "tags": [
-            "Second Kindred",
             "La Manchaland",
-            "Bloodfiend"
+            "Bloodfiend",
+            "Second Kindred"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -3231,15 +3346,15 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "AttackDmgUp",
-            "BloodDinner_Common_Accumulation",
-            "SadLamanchaland",
-            "BloodArmorPersonalityFirst",
             "SwirlingBloodPersonality",
+            "BloodDinner_Accumulation",
+            "SadLamanchaland",
             "Laceration",
+            "BloodArmorPersonalityFirst",
+            "BloodDinner_Common_Accumulation",
+            "AttackDmgUp",
             "BloodDinner",
-            "BloodDinner_Accumulation"
+            "SuperCoin"
         ],
         "name": "The Manager of La Manchaland"
     },
@@ -3328,10 +3443,10 @@
             }
         ],
         "keywordTags": [
-            "DianxueDonQuixote",
-            "Combustion",
-            "DefenseDown",
             "Agility",
+            "DefenseDown",
+            "Combustion",
+            "DianxueDonQuixote",
             "Breath"
         ],
         "name": "Cinq Assoc. East Section 3"
@@ -3339,9 +3454,9 @@
     "10312": {
         "date": "2025-07-17",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -3450,26 +3565,26 @@
             }
         ],
         "keywordTags": [
-            "ThePowerOfLoveAndHate",
-            "SuperCoin",
-            "Burst",
-            "Sinking",
-            "NoVillain",
-            "Charge",
-            "MagicalGirlAppear",
             "HystericGauge",
-            "VillainMark",
+            "Sinking",
+            "Charge",
+            "Burst",
+            "NoVillain",
             "ArcanaQueenOfHate",
-            "CanDuelGuard"
+            "ThePowerOfLoveAndHate",
+            "CanDuelGuard",
+            "MagicalGirlAppear",
+            "SuperCoin",
+            "VillainMark"
         ],
         "name": "Lobotomy E.G.O:: In the Name of Love and Hate"
     },
     "10401": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Poise"
@@ -3639,10 +3754,10 @@
             }
         ],
         "keywordTags": [
-            "Enhancement",
             "SlashTakeDamageUp",
-            "Burst",
-            "DefenseDown"
+            "Enhancement",
+            "DefenseDown",
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 6"
     },
@@ -3740,9 +3855,9 @@
     "10404": {
         "date": "2023-04-20",
         "tags": [
+            "R.B.",
             "Syndicate",
-            "The Backstreets",
-            "R.B."
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -3822,11 +3937,11 @@
             }
         ],
         "keywordTags": [
-            "TakeHpHealReduce",
-            "Agility",
+            "Binding",
             "Laceration",
+            "Agility",
             "Thirst",
-            "Binding"
+            "TakeHpHealReduce"
         ],
         "name": "R.B. Chef de Cuisine"
     },
@@ -3914,8 +4029,8 @@
         ],
         "keywordTags": [
             "SlashTakeDamageUp",
-            "ChargeForceField",
             "Charge",
+            "ChargeForceField",
             "Agility"
         ],
         "name": "W Corp. L3 Cleanup Agent"
@@ -3923,8 +4038,8 @@
     "10406": {
         "date": "2023-11-16",
         "tags": [
-            "Limbus Company",
-            "LCC"
+            "LCC",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Poise",
@@ -4005,11 +4120,11 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "AttackDown",
             "Vibration",
             "Bullet",
-            "Breath"
+            "Breath",
+            "AttackDown",
+            "Burst"
         ],
         "name": "LCCB Assistant Manager"
     },
@@ -4105,8 +4220,8 @@
         "date": "2024-04-18",
         "tags": [
             "Edgar Family",
-            "Butler",
-            "Fixer"
+            "Fixer",
+            "Butler"
         ],
         "skillKeywordList": [
             "Poise"
@@ -4188,8 +4303,8 @@
         "keywordTags": [
             "MarkOfButler",
             "Breath",
-            "Agility",
-            "Binding"
+            "Binding",
+            "Agility"
         ],
         "name": "Edgar Family Chief Butler"
     },
@@ -4277,17 +4392,17 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
-            "Vibration"
+            "Vibration",
+            "VibrationExplosion"
         ],
         "name": "District 20 Yurodivy"
     },
     "10410": {
         "date": "2024-09-05",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -4377,23 +4492,23 @@
             }
         ],
         "keywordTags": [
-            "PenanceFirst",
             "Emptiness",
+            "Binding",
+            "RedEyeFirst",
+            "Laceration",
             "Reduction",
             "Charge",
-            "RedEyeFirst",
             "Agility",
-            "Laceration",
-            "Binding"
+            "PenanceFirst"
         ],
         "name": "Lobotomy E.G.O:: Red Eyes & Penitence"
     },
     "10411": {
         "date": "2025-03-20",
         "tags": [
+            "Heishou Pack - Mao Branch",
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Mao Branch"
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -4473,18 +4588,18 @@
             }
         ],
         "keywordTags": [
-            "BurstAgility",
+            "Agility",
             "LegStrength",
-            "Burst",
-            "Agility"
+            "BurstAgility",
+            "Burst"
         ],
         "name": "Heishou Pack - Mao Branch"
     },
     "10412": {
         "date": "2025-09-11",
         "tags": [
-            "E.G.O Gear",
-            "N Corp."
+            "N Corp.",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -4581,29 +4696,29 @@
             }
         ],
         "keywordTags": [
-            "GazeRyoshu",
-            "SuperCoin",
-            "Vibration",
-            "ContemptRyoshu",
-            "GazePersonality",
-            "Switch_Vibration",
-            "Protection",
-            "BoseProjektil",
-            "ContemptPersonality",
-            "VibrationBleeding",
-            "Laceration",
-            "Breath",
             "VibrationExplosion",
-            "Binding"
+            "Binding",
+            "ContemptRyoshu",
+            "Laceration",
+            "Vibration",
+            "Switch_Vibration",
+            "ContemptPersonality",
+            "GazePersonality",
+            "BoseProjektil",
+            "Breath",
+            "GazeRyoshu",
+            "VibrationBleeding",
+            "SuperCoin",
+            "Protection"
         ],
         "name": "N Corp. E.G.O:: Contempt, Awe"
     },
     "10501": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -4682,9 +4797,9 @@
             }
         ],
         "keywordTags": [
-            "Protection",
+            "Vibration",
             "Endurance",
-            "Vibration"
+            "Protection"
         ],
         "name": "LCB Sinner"
     },
@@ -4859,19 +4974,19 @@
             }
         ],
         "keywordTags": [
-            "Burst",
             "SlashTakeDamageUp",
-            "DefenseDown",
             "Charge",
-            "SlashTakeDamageDown"
+            "DefenseDown",
+            "SlashTakeDamageDown",
+            "Burst"
         ],
         "name": "W Corp. L2 Cleanup Agent"
     },
     "10504": {
         "date": "2023-03-09",
         "tags": [
-            "N Corp. Fanatic",
-            "N Corp."
+            "N Corp.",
+            "N Corp. Fanatic"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -4951,8 +5066,8 @@
         ],
         "keywordTags": [
             "NailPersonality",
-            "Protection",
             "Binding",
+            "Protection",
             "Reduction"
         ],
         "name": "N Corp. Gro\u00dfhammer"
@@ -5041,10 +5156,10 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
             "Vibration",
-            "Reduction",
-            "Charge"
+            "Charge",
+            "VibrationExplosion",
+            "Reduction"
         ],
         "name": "Rosespanner Workshop Fixer"
     },
@@ -5219,10 +5334,10 @@
             }
         ],
         "keywordTags": [
-            "PlusCoinValueDown",
             "VioletTakeDamageUp",
-            "VioletDamageUp",
-            "Laceration"
+            "PlusCoinValueDown",
+            "Laceration",
+            "VioletDamageUp"
         ],
         "name": "The Middle Little Brother"
     },
@@ -5320,10 +5435,10 @@
         ],
         "keywordTags": [
             "SwordPlayOfTheHomeland",
+            "Laceration",
             "BladeResultUpTier1",
             "BladeResultUpTier2",
             "Paralysis",
-            "Laceration",
             "Breath",
             "SlashResultUp"
         ],
@@ -5413,16 +5528,16 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "AttackDown"
+            "AttackDown",
+            "Burst"
         ],
         "name": "Dead Rabbits Boss"
     },
     "10510": {
         "date": "2024-07-11",
         "tags": [
-            "Dieci Association",
-            "Fixer"
+            "Fixer",
+            "Dieci Association"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -5501,10 +5616,10 @@
             }
         ],
         "keywordTags": [
-            "Discard",
-            "Sinking",
             "KnowledgeTraining",
-            "KnowledgeExplored"
+            "Sinking",
+            "KnowledgeExplored",
+            "Discard"
         ],
         "name": "Dieci Assoc. South Section 4 Director"
     },
@@ -5593,9 +5708,9 @@
         ],
         "keywordTags": [
             "Breath",
-            "Burst",
+            "ConcentratedAttackMeursault",
             "Agility",
-            "ConcentratedAttackMeursault"
+            "Burst"
         ],
         "name": "Cinq Assoc. West Section 3"
     },
@@ -5693,17 +5808,17 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Vibration",
             "BulletPropellantAlly",
+            "IrritationAlly",
+            "Vibration",
             "VibrationIgnition",
-            "Combustion",
             "Switch_Vibration",
+            "BulletPropellantSpecialAlly",
             "Bullet",
             "HugeIrritationAlly",
-            "BulletPropellantSpecialAlly",
-            "IrritationAlly",
+            "Combustion",
             "VibrationExplosion",
+            "SuperCoin",
             "BeastEyesAlly"
         ],
         "name": "The Thumb East Capo IIII"
@@ -5711,9 +5826,9 @@
     "10601": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Sinking",
@@ -5794,9 +5909,9 @@
             }
         ],
         "keywordTags": [
+            "Reduction",
             "Sinking",
-            "Burst",
-            "Reduction"
+            "Burst"
         ],
         "name": "LCB Sinner"
     },
@@ -6146,8 +6261,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "KCorpSerum"
+            "KCorpSerum",
+            "Burst"
         ],
         "name": "K Corp. Class 3 Excision Staff"
     },
@@ -6234,9 +6349,9 @@
             }
         ],
         "keywordTags": [
+            "Charge",
             "ChargeForceField",
-            "Burst",
-            "Charge"
+            "Burst"
         ],
         "name": "W Corp. L2 Cleanup Agent"
     },
@@ -6244,8 +6359,8 @@
         "date": "2023-10-26",
         "tags": [
             "Hook Office",
-            "The Backstreets",
-            "Fixer"
+            "Fixer",
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -6333,8 +6448,8 @@
     "10608": {
         "date": "2024-01-25",
         "tags": [
-            "Dieci Association",
-            "Fixer"
+            "Fixer",
+            "Dieci Association"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -6503,19 +6618,19 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
-            "VibrationEcho",
-            "Vibration",
             "FusionVibration",
-            "VibrationExplosion"
+            "Vibration",
+            "AttackDmgUp",
+            "VibrationExplosion",
+            "VibrationEcho"
         ],
         "name": "District 20 Yurodivy"
     },
     "10610": {
         "date": "2024-10-17",
         "tags": [
-            "Fanghunt Office",
-            "Fixer"
+            "Fixer",
+            "Fanghunt Office"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -6595,18 +6710,18 @@
             }
         ],
         "keywordTags": [
-            "Burst",
             "DefenseDown",
+            "TakeHpHealReduce",
             "Laceration",
-            "TakeHpHealReduce"
+            "Burst"
         ],
         "name": "Fanghunt Office Fixer"
     },
     "10611": {
         "date": "2025-01-09",
         "tags": [
-            "Full-Stop Office",
-            "Fixer"
+            "Fixer",
+            "Full-Stop Office"
         ],
         "skillKeywordList": [
             "Poise"
@@ -6721,15 +6836,15 @@
             }
         ],
         "keywordTags": [
+            "Binding",
             "CoveringFire",
             "FullReload",
-            "SuperCoin",
-            "PenetrateTakeDamageUp",
             "Reduction",
+            "PenetrateTakeDamageUp",
             "Bullet",
             "Retreat_FullStop",
             "Breath",
-            "Binding"
+            "SuperCoin"
         ],
         "name": "Full-Stop Office Rep"
     },
@@ -6817,17 +6932,17 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
             "Charge",
-            "WideAreaRampage"
+            "WideAreaRampage",
+            "Sinking"
         ],
         "name": "R Corp. 4th Pack Reindeer"
     },
     "10613": {
         "date": "2025-08-14",
         "tags": [
-            "H Corp.",
-            "<color=#d40000><s>Jia Family</s></color>"
+            "<color=#d40000><s>Jia Family</s></color>",
+            "H Corp."
         ],
         "skillKeywordList": [
             "Rupture",
@@ -6934,37 +7049,37 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "HeishouComboCount",
-            "HeishouAttack",
-            "RetreatForCommon",
-            "Breath",
-            "CondensedBlood",
-            "Burst",
-            "AttackDown",
             "HeishouSynergy",
-            "SupportProtect",
-            "ShamrockDamageUp",
-            "Enhancement",
-            "CanDuelGuard",
+            "CondensedBlood",
             "Endurance",
+            "CanDuelGuard",
             "HeishouCombo",
-            "AttackDmgUp",
-            "HeishouComboCountHonglu",
-            "HeishouSupportProtect",
             "SlashResultUp",
-            "DefenseDown",
+            "Breath",
             "HeishouDeathCount",
-            "SlashResistDown"
+            "SupportProtect",
+            "SlashResistDown",
+            "HeishouComboCount",
+            "DefenseDown",
+            "AttackDmgUp",
+            "HeishouSupportProtect",
+            "RetreatForCommon",
+            "SuperCoin",
+            "Burst",
+            "Enhancement",
+            "HeishouComboCountHonglu",
+            "HeishouAttack",
+            "ShamrockDamageUp",
+            "AttackDown"
         ],
         "name": "The Lord of Hongyuan"
     },
     "10701": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -7045,17 +7160,17 @@
             }
         ],
         "keywordTags": [
-            "Enhancement",
             "AttackDmgUp",
-            "Vibration"
+            "Vibration",
+            "Enhancement"
         ],
         "name": "LCB Sinner"
     },
     "10702": {
         "date": "2023-02-27",
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -7224,18 +7339,18 @@
             }
         ],
         "keywordTags": [
-            "Vulnerable",
-            "Burst",
             "Charge",
-            "Laceration"
+            "Vulnerable",
+            "Laceration",
+            "Burst"
         ],
         "name": "R Corp. 4th Pack Rabbit"
     },
     "10704": {
         "date": "2023-03-23",
         "tags": [
-            "N Corp. Fanatic",
-            "N Corp."
+            "N Corp.",
+            "N Corp. Fanatic"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -7315,8 +7430,8 @@
             }
         ],
         "keywordTags": [
-            "PlusCoinValueDown",
             "NailPersonality",
+            "PlusCoinValueDown",
             "Laceration"
         ],
         "name": "N Corp. Kleinhammer"
@@ -7407,9 +7522,9 @@
         ],
         "keywordTags": [
             "Paralysis",
+            "Vulnerable",
             "Sinking",
-            "Burst",
-            "Vulnerable"
+            "Burst"
         ],
         "name": "Lobotomy E.G.O:: Sunshower"
     },
@@ -7497,8 +7612,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "DefenseDown"
+            "DefenseDown",
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 4"
     },
@@ -7585,18 +7700,18 @@
             }
         ],
         "keywordTags": [
+            "AttackUp",
             "Breath",
             "DefenseUp",
-            "Laceration",
-            "AttackUp"
+            "Laceration"
         ],
         "name": "The Pequod Harpooneer"
     },
     "10708": {
         "date": "2024-03-21",
         "tags": [
-            "\u00d6ufi Association",
-            "Fixer"
+            "Fixer",
+            "\u00d6ufi Association"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -7675,18 +7790,18 @@
             }
         ],
         "keywordTags": [
-            "Switch_Vibration",
             "VibrationExplosion",
             "Vibration",
-            "VibrationCollapse"
+            "VibrationCollapse",
+            "Switch_Vibration"
         ],
         "name": "\u00d6ufi Assoc. South Section 3"
     },
     "10709": {
         "date": "2024-08-08",
         "tags": [
-            "Mechanical Amalgam",
             "MultiCrack Office",
+            "Mechanical Amalgam",
             "Fixer"
         ],
         "skillKeywordList": [
@@ -7767,13 +7882,13 @@
             }
         ],
         "keywordTags": [
-            "TakeHpHealReduce",
-            "DefenseDown",
+            "ParryingResultUp",
             "Charge",
-            "PhotoElectricity",
-            "HitTakeDamageUp",
             "Agility",
-            "ParryingResultUp"
+            "DefenseDown",
+            "TakeHpHealReduce",
+            "PhotoElectricity",
+            "HitTakeDamageUp"
         ],
         "name": "MultiCrack Office Fixer"
     },
@@ -7880,13 +7995,13 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "AttackDmgUp",
-            "NightPathfinding",
-            "WildHunt",
             "WanderingFootsteps",
             "Enhancement",
+            "WildHunt",
+            "Sinking",
             "Coffin",
+            "AttackDmgUp",
+            "NightPathfinding",
             "AttackUp"
         ],
         "name": "Wild Hunt"
@@ -7894,8 +8009,8 @@
     "10711": {
         "date": "2025-01-09",
         "tags": [
-            "Full-Stop Office",
-            "Fixer"
+            "Fixer",
+            "Full-Stop Office"
         ],
         "skillKeywordList": [
             "Poise"
@@ -7993,19 +8108,19 @@
         ],
         "keywordTags": [
             "CoveringFire",
-            "PenetrateResistDown",
-            "Bullet_LogicAtelier",
-            "PenetrateTakeDamageUp",
-            "SuperCoin",
-            "PenetrateResultUp",
-            "Bullet",
-            "Retreat_FullStop",
-            "CanDuelGuard",
-            "Agility",
-            "MeleeCover",
-            "Breath",
+            "FullReload",
             "LogicAtelierAM",
-            "FullReload"
+            "PenetrateTakeDamageUp",
+            "Agility",
+            "Bullet",
+            "PenetrateResistDown",
+            "PenetrateResultUp",
+            "Bullet_LogicAtelier",
+            "Retreat_FullStop",
+            "MeleeCover",
+            "CanDuelGuard",
+            "Breath",
+            "SuperCoin"
         ],
         "name": "Full-Stop Office Fixer"
     },
@@ -8102,15 +8217,15 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "AttackDown",
-            "Reduction",
+            "CloudWall",
+            "Laceration",
             "SlashTakeDamageUp",
-            "Endurance",
+            "Reduction",
             "EngageToBattle",
             "BlackCloudBlade",
-            "Laceration",
-            "CloudWall",
+            "Endurance",
+            "AttackDown",
+            "SuperCoin",
             "SlashResultUp"
         ],
         "name": "Kurokumo Clan Wakashu"
@@ -8118,9 +8233,9 @@
     "10801": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -8199,9 +8314,9 @@
             }
         ],
         "keywordTags": [
-            "HitTakeDamageUp",
             "Vibration",
-            "Disarming"
+            "Disarming",
+            "HitTakeDamageUp"
         ],
         "name": "LCB Sinner"
     },
@@ -8288,16 +8403,16 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
-            "Charge"
+            "Charge",
+            "Sinking"
         ],
         "name": "R Corp. 4th Pack Reindeer"
     },
     "10803": {
         "date": "2023-02-27",
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -8384,8 +8499,8 @@
     "10804": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
-            "LCC"
+            "LCC",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -8465,12 +8580,12 @@
             }
         ],
         "keywordTags": [
-            "Burst",
+            "Vulnerable",
             "Vibration",
             "Reduction",
             "Bullet",
-            "Vulnerable",
-            "Paralysis"
+            "Paralysis",
+            "Burst"
         ],
         "name": "LCCB Assistant Manager"
     },
@@ -8558,8 +8673,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "Vibration"
+            "Vibration",
+            "Burst"
         ],
         "name": "Lobotomy E.G.O::Sloshing"
     },
@@ -8738,19 +8853,19 @@
             }
         ],
         "keywordTags": [
+            "Vulnerable",
             "Sinking",
             "Vibration",
-            "DefenseDown",
-            "Vulnerable",
-            "BurstProtection"
+            "BurstProtection",
+            "DefenseDown"
         ],
         "name": "Molar Boatworks Fixer"
     },
     "10808": {
         "date": "2024-02-08",
         "tags": [
-            "Pequod Captain",
-            "The Pequod"
+            "The Pequod",
+            "Pequod Captain"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -8832,17 +8947,17 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
-            "OverHeatedGasHarpoon",
-            "Aggro",
-            "Combustion",
-            "Protection",
-            "DefenseUp",
-            "HeatedGasHarpoon",
+            "CoverAttack",
             "Laceration",
+            "AttackDmgUp",
+            "Combustion",
+            "OverHeatedGasHarpoon",
             "AttackUp",
             "Breath",
-            "CoverAttack"
+            "HeatedGasHarpoon",
+            "DefenseUp",
+            "Aggro",
+            "Protection"
         ],
         "name": "The Pequod Captain"
     },
@@ -8850,8 +8965,8 @@
         "date": "2024-04-18",
         "tags": [
             "Edgar Family",
-            "Butler",
-            "Fixer"
+            "Fixer",
+            "Butler"
         ],
         "skillKeywordList": [
             "Poise",
@@ -8932,20 +9047,20 @@
             }
         ],
         "keywordTags": [
+            "Binding",
             "Sinking",
             "SlashTakeDamageUp",
-            "DefenseDown",
             "Agility",
-            "Breath",
-            "Binding"
+            "DefenseDown",
+            "Breath"
         ],
         "name": "Edgar Family Butler"
     },
     "10810": {
         "date": "2024-10-03",
         "tags": [
-            "Zwei Association",
-            "Fixer"
+            "Fixer",
+            "Zwei Association"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -9023,14 +9138,14 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
+            "VibrationExplosion",
             "Vibration",
             "Reduction",
-            "Aggro",
-            "DefensiveStance",
             "CanDuelGuard",
-            "VibrationExplosion",
-            "DefenseUp"
+            "DefenseUp",
+            "Aggro",
+            "SuperCoin",
+            "DefensiveStance"
         ],
         "name": "Zwei Assoc. West Section 3"
     },
@@ -9118,17 +9233,17 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
-            "AttackDown",
-            "SlashTakeDamageUp",
-            "Protection",
             "Vulnerable",
-            "Endurance",
-            "EngageToBattle",
-            "BlackCloudBlade",
-            "BlackCloud",
             "Laceration",
-            "SlashResultUp"
+            "SlashTakeDamageUp",
+            "EngageToBattle",
+            "BlackCloud",
+            "AttackDmgUp",
+            "BlackCloudBlade",
+            "Endurance",
+            "AttackDown",
+            "SlashResultUp",
+            "Protection"
         ],
         "name": "Kurokumo Clan Captain"
     },
@@ -9227,24 +9342,24 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "SuperCoin",
-            "CheerUpXichun",
-            "DefenseDown",
-            "RetreatForCommon",
             "WaitingXichun",
+            "StartXichun",
+            "DefenseDown",
             "AttackUp",
             "Breath",
-            "StartXichun"
+            "RetreatForCommon",
+            "CheerUpXichun",
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Family Hierarch Candidate"
     },
     "10901": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -9424,16 +9539,16 @@
         ],
         "keywordTags": [
             "Breath",
-            "Protection",
-            "Laceration"
+            "Laceration",
+            "Protection"
         ],
         "name": "Kurokumo Clan Wakashu"
     },
     "10903": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
-            "LCC"
+            "LCC",
+            "Limbus Company"
         ],
         "skillKeywordList": [],
         "sinnerId": 9,
@@ -9512,16 +9627,16 @@
         ],
         "keywordTags": [
             "Paralysis",
-            "DefenseDown",
-            "Disarming"
+            "Disarming",
+            "DefenseDown"
         ],
         "name": "LCCB Assistant Manager"
     },
     "10904": {
         "date": "2023-03-09",
         "tags": [
-            "N Corp. Fanatic",
-            "N Corp."
+            "N Corp.",
+            "N Corp. Fanatic"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -9602,10 +9717,10 @@
             }
         ],
         "keywordTags": [
-            "NailPersonality",
             "Paralysis",
-            "AssemblePersonality",
-            "Laceration"
+            "NailPersonality",
+            "Laceration",
+            "AssemblePersonality"
         ],
         "name": "N Corp. Mittelhammer"
     },
@@ -9694,17 +9809,17 @@
             }
         ],
         "keywordTags": [
-            "VibrationExplosion",
             "Vibration",
-            "Charge"
+            "Charge",
+            "VibrationExplosion"
         ],
         "name": "Rosespanner Workshop Rep"
     },
     "10906": {
         "date": "2023-07-13",
         "tags": [
-            "Zwei Association",
-            "Fixer"
+            "Fixer",
+            "Zwei Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -9791,8 +9906,8 @@
     "10907": {
         "date": "2023-09-21",
         "tags": [
-            "Dieci Association",
-            "Fixer"
+            "Fixer",
+            "Dieci Association"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -9960,8 +10075,8 @@
             }
         ],
         "keywordTags": [
-            "CrimsonDamageUp",
-            "Combustion"
+            "Combustion",
+            "CrimsonDamageUp"
         ],
         "name": "Liu Assoc. South Section 4 Director"
     },
@@ -10048,19 +10163,19 @@
             }
         ],
         "keywordTags": [
+            "Binding",
+            "TimeRentalTwoPersonality",
             "TimeSuspend",
             "Vibration",
-            "TimeRentalTwoPersonality",
-            "VibrationExplosion",
-            "Binding"
+            "VibrationExplosion"
         ],
         "name": "T Corp. Class 2 Collection Staff"
     },
     "10910": {
         "date": "2024-09-19",
         "tags": [
-            "Fixer",
-            "Devyat' Association"
+            "Devyat' Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -10149,21 +10264,21 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "DefenseDown",
-            "DevyatDimensionalSack",
+            "ParryingResultUp",
             "Retreat",
             "Agility",
-            "ParryingResultUp"
+            "DefenseDown",
+            "DevyatDimensionalSack",
+            "Burst"
         ],
         "name": "Devyat' Assoc. North Section 3"
     },
     "10911": {
         "date": "2024-11-14",
         "tags": [
-            "Second Kindred",
             "La Manchaland",
-            "Bloodfiend"
+            "Bloodfiend",
+            "Second Kindred"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -10253,22 +10368,22 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "FestivalFeverRodion",
-            "Enhancement",
-            "Laceration",
-            "BloodDinner",
             "BloomingThornsRodionFirst",
-            "BloodDinner_Accumulation"
+            "Enhancement",
+            "BloodDinner_Accumulation",
+            "Laceration",
+            "FestivalFeverRodion",
+            "BloodDinner",
+            "Burst"
         ],
         "name": "The Princess of La Manchaland"
     },
     "10913": {
         "date": "2025-07-17",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -10383,29 +10498,29 @@
             }
         ],
         "keywordTags": [
-            "ProtectiveSword",
-            "BlessingAlly",
-            "PenetratingSword",
-            "Sinking",
-            "SuperCoin",
-            "AttackDmgUp",
             "ResultEnhancement",
-            "Protection",
-            "Charge",
-            "CanDuelGuard",
-            "DespairAlly",
             "ParryingResultUp",
+            "BlessingAlly",
+            "Sinking",
+            "DespairAlly",
+            "Charge",
+            "AttackDmgUp",
+            "CanDuelGuard",
+            "SwordCutwithTear",
             "BlackTearsAlly",
-            "SwordCutwithTear"
+            "ProtectiveSword",
+            "PenetratingSword",
+            "SuperCoin",
+            "Protection"
         ],
         "name": "Lobotomy E.G.O:: The Sword Sharpened with Tears"
     },
     "11001": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -10576,10 +10691,10 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
             "Enhancement",
-            "Paralysis",
             "Laceration",
+            "AttackDmgUp",
+            "Paralysis",
             "Breath"
         ],
         "name": "Blade Lineage Salsu"
@@ -10587,8 +10702,8 @@
     "11003": {
         "date": "2023-02-27",
         "tags": [
-            "Zwei Association",
-            "Fixer"
+            "Fixer",
+            "Zwei Association"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -10669,9 +10784,9 @@
         "keywordTags": [
             "AttackDmgDown",
             "Vibration",
-            "Protection",
+            "VibrationExplosion",
             "HitTakeDamageUp",
-            "VibrationExplosion"
+            "Protection"
         ],
         "name": "Zwei Assoc. South Section 6"
     },
@@ -10767,8 +10882,8 @@
     "11005": {
         "date": "2023-05-04",
         "tags": [
-            "N Corp. Fanatic",
-            "N Corp."
+            "N Corp.",
+            "N Corp. Fanatic"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -10850,8 +10965,8 @@
         "keywordTags": [
             "HitResultUp",
             "AssemblePersonality",
-            "Laceration",
-            "Combustion"
+            "Combustion",
+            "Laceration"
         ],
         "name": "The One Who Shall Grip"
     },
@@ -10938,8 +11053,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "Talisman"
+            "Talisman",
+            "Burst"
         ],
         "name": "Lobotomy E.G.O::Red Sheet"
     },
@@ -11027,8 +11142,8 @@
             }
         ],
         "keywordTags": [
-            "BurstProtection",
-            "Vibration"
+            "Vibration",
+            "BurstProtection"
         ],
         "name": "Molar Boatworks Fixer"
     },
@@ -11115,10 +11230,10 @@
             }
         ],
         "keywordTags": [
-            "OneOnOneDuel",
             "Vulnerable",
             "Agility",
             "PenetrateDamageUp",
+            "OneOnOneDuel",
             "Breath",
             "DuelDeclaration_Sinclair"
         ],
@@ -11127,8 +11242,8 @@
     "11009": {
         "date": "2024-05-02",
         "tags": [
-            "Dawn Office",
-            "Fixer"
+            "Fixer",
+            "Dawn Office"
         ],
         "skillKeywordList": [
             "Burn"
@@ -11225,8 +11340,8 @@
     "11010": {
         "date": "2024-10-10",
         "tags": [
-            "Zwei Association",
-            "Fixer"
+            "Fixer",
+            "Zwei Association"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -11304,22 +11419,22 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Vibration",
-            "Aggro",
-            "CanDuelGuard",
-            "Agility",
-            "AttackUp",
             "VibrationExplosion",
-            "DefenseUp"
+            "Vibration",
+            "Agility",
+            "CanDuelGuard",
+            "AttackUp",
+            "DefenseUp",
+            "Aggro",
+            "SuperCoin"
         ],
         "name": "Zwei Assoc. West Section 3"
     },
     "11011": {
         "date": "2024-11-28",
         "tags": [
-            "Fixer",
-            "Devyat' Association"
+            "Devyat' Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -11409,12 +11524,12 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "DefenseDown",
+            "ParryingResultUp",
             "Retreat",
             "Agility",
             "DevyatDimensionalSackSinclair",
-            "ParryingResultUp"
+            "DefenseDown",
+            "Burst"
         ],
         "name": "Devyat' Assoc. North Section 3"
     },
@@ -11520,12 +11635,12 @@
             }
         ],
         "keywordTags": [
-            "VendettaMark",
+            "Laceration",
             "Aggro",
             "VengeanceBookSinclair",
-            "Laceration",
             "AttackUp",
-            "DefenseUp"
+            "DefenseUp",
+            "VendettaMark"
         ],
         "name": "The Middle Little Brother"
     },
@@ -11615,23 +11730,23 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "AttackDmgUp",
-            "VibrationIgnition",
+            "FireBulletPropellant",
             "Vibration",
-            "Combustion",
+            "VibrationIgnition",
             "Switch_Vibration",
             "Bullet",
-            "FireBulletPropellant",
-            "VibrationExplosion"
+            "AttackDmgUp",
+            "Combustion",
+            "VibrationExplosion",
+            "SuperCoin"
         ],
         "name": "The Thumb East Soldato II"
     },
     "11014": {
         "date": "2025-08-28",
         "tags": [
-            "H Corp.",
             "Heishou Pack - You Branch",
+            "H Corp.",
             "Heishou Pack"
         ],
         "skillKeywordList": [
@@ -11714,26 +11829,26 @@
             }
         ],
         "keywordTags": [
-            "SuperCoin",
-            "Burst",
-            "CrimsonDamageUp",
-            "HeishouComboCountHonglu",
-            "Combustion",
-            "ShamrockDamageUp",
             "WideAreaRampage",
-            "AttackUp",
-            "HeishouCombo",
+            "HeishouComboCountHonglu",
+            "CrimsonDamageUp",
             "ChickenStance",
-            "DefenseUp"
+            "ShamrockDamageUp",
+            "Combustion",
+            "HeishouCombo",
+            "AttackUp",
+            "DefenseUp",
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Heishou Pack - You Branch"
     },
     "11101": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -11988,11 +12103,11 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
+            "Enhancement",
             "Sinking",
             "Reduction",
-            "Protection",
-            "Enhancement"
+            "AttackDmgUp",
+            "Protection"
         ],
         "name": "G Corp. Head Manager"
     },
@@ -12078,13 +12193,13 @@
             }
         ],
         "keywordTags": [
-            "Burst",
+            "Agility",
+            "DefenseDown",
+            "Endurance",
+            "Paralysis",
             "AttackDown",
             "WeaknessAnalysis",
-            "DefenseDown",
-            "Paralysis",
-            "Endurance",
-            "Agility"
+            "Burst"
         ],
         "name": "Seven Assoc. South Section 6 Director"
     },
@@ -12172,8 +12287,8 @@
             }
         ],
         "keywordTags": [
-            "Vibration",
-            "AttackUp"
+            "AttackUp",
+            "Vibration"
         ],
         "name": "Molar Office Fixer"
     },
@@ -12259,19 +12374,19 @@
             }
         ],
         "keywordTags": [
-            "DuelDeclaration_Outis",
             "Breath",
+            "Binding",
             "Agility",
-            "Binding"
+            "DuelDeclaration_Outis"
         ],
         "name": "Cinq Assoc. South Section 4"
     },
     "11107": {
         "date": "2024-01-11",
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Burn"
@@ -12352,9 +12467,9 @@
         ],
         "keywordTags": [
             "Breath",
-            "DarkFlame",
+            "Combustion",
             "FreischutzShotCount",
-            "Combustion"
+            "DarkFlame"
         ],
         "name": "Lobotomy E.G.O::Magic Bullet"
     },
@@ -12362,8 +12477,8 @@
         "date": "2024-03-28",
         "tags": [
             "Wuthering Heights",
-            "Butler",
-            "Fixer"
+            "Fixer",
+            "Butler"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -12443,17 +12558,17 @@
             }
         ],
         "keywordTags": [
-            "Sinking",
+            "AttackUp",
             "EchoOfMansion",
-            "AttackUp"
+            "Sinking"
         ],
         "name": "Wuthering Heights Chief Butler"
     },
     "11109": {
         "date": "2024-05-16",
         "tags": [
-            "Syndicate",
-            "The Ring"
+            "The Ring",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -12533,14 +12648,14 @@
             }
         ],
         "keywordTags": [
-            "PenetrateResultUp",
-            "Burst",
+            "Laceration",
             "Sinking",
             "Vibration",
-            "Combustion",
+            "PenetrateResultUp",
             "Agility",
+            "Combustion",
             "PenetrateDamageUp",
-            "Laceration"
+            "Burst"
         ],
         "name": "The Ring Pointillist Student"
     },
@@ -12628,21 +12743,21 @@
             }
         ],
         "keywordTags": [
-            "Burst",
+            "Binding",
+            "ParryingResultUp",
+            "ChargeLoad",
             "Charge",
             "ChargeForceField",
-            "ChargeLoad",
-            "ParryingResultUp",
-            "Binding"
+            "Burst"
         ],
         "name": "W Corp. L3 Cleanup Captain"
     },
     "11111": {
         "date": "2024-10-17",
         "tags": [
+            "La Manchaland",
             "Third Kindred",
-            "Bloodfiend",
-            "La Manchaland"
+            "Bloodfiend"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -12723,20 +12838,20 @@
             }
         ],
         "keywordTags": [
+            "BloodDinner_Accumulation",
+            "Laceration",
             "BloodScissorPersonalityFirst",
             "LineCuttingPersonality",
-            "Laceration",
-            "BloodDinner",
-            "BloodDinner_Accumulation"
+            "BloodDinner"
         ],
         "name": "The Barber of La Manchaland"
     },
     "11112": {
         "date": "2025-03-20",
         "tags": [
+            "Heishou Pack - Mao Branch",
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Mao Branch"
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -12817,10 +12932,10 @@
             }
         ],
         "keywordTags": [
-            "BurstAgility",
+            "Agility",
             "LegStrength",
-            "Burst",
-            "Agility"
+            "BurstAgility",
+            "Burst"
         ],
         "name": "Heishou Pack - Mao Branch"
     },
@@ -12907,26 +13022,26 @@
             }
         ],
         "keywordTags": [
-            "TimeSuspend",
-            "SuperCoin",
-            "Vibration",
-            "FusionVibration",
-            "OutisNoHat",
-            "Switch_Vibration",
-            "TimeRentalTwoPersonality",
-            "CanDuelGuard",
             "VibrationChainPersonality",
+            "OutisNoHat",
+            "Binding",
+            "FusionVibration",
+            "TimeRentalTwoPersonality",
+            "Vibration",
+            "TimeSuspend",
+            "Switch_Vibration",
+            "CanDuelGuard",
             "VibrationExplosion",
-            "Binding"
+            "SuperCoin"
         ],
         "name": "T Corp. Class 3 VDCU Staff"
     },
     "11201": {
         "date": "2023-02-27",
         "tags": [
-            "Limbus Company",
             "LCB",
-            "Base Identity"
+            "Base Identity",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -13005,8 +13120,8 @@
             }
         ],
         "keywordTags": [
-            "Burst",
-            "PenetrateTakeDamageUp"
+            "PenetrateTakeDamageUp",
+            "Burst"
         ],
         "name": "LCB Sinner"
     },
@@ -13189,9 +13304,9 @@
     "11204": {
         "date": "2023-04-20",
         "tags": [
+            "R.B.",
             "Syndicate",
-            "The Backstreets",
-            "R.B."
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -13362,17 +13477,17 @@
             }
         ],
         "keywordTags": [
+            "Charge",
             "Vibration",
-            "Burst",
-            "Charge"
+            "Burst"
         ],
         "name": "Rosespanner Workshop Fixer"
     },
     "11206": {
         "date": "2023-08-10",
         "tags": [
-            "Zwei Association",
-            "Fixer"
+            "Fixer",
+            "Zwei Association"
         ],
         "skillKeywordList": [],
         "sinnerId": 12,
@@ -13449,8 +13564,8 @@
         ],
         "keywordTags": [
             "Endurance",
-            "Agility",
-            "DefenseUp"
+            "DefenseUp",
+            "Agility"
         ],
         "name": "Zwei Assoc. South Section 4"
     },
@@ -13539,9 +13654,9 @@
             }
         ],
         "keywordTags": [
-            "Bullet",
             "Breath",
             "PlusCoinValueUp",
+            "Bullet",
             "Laceration"
         ],
         "name": "Twinhook Pirates First Mate"
@@ -13720,21 +13835,21 @@
             }
         ],
         "keywordTags": [
-            "AttackDmgUp",
+            "Vulnerable",
+            "AzureDamageUp",
             "Sinking",
             "PlusCoinValueUp",
-            "Vulnerable",
             "Agility",
-            "AzureDamageUp"
+            "AttackDmgUp"
         ],
         "name": "Edgar Family Heir"
     },
     "11210": {
         "date": "2024-10-31",
         "tags": [
+            "La Manchaland",
             "Third Kindred",
-            "Bloodfiend",
-            "La Manchaland"
+            "Bloodfiend"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -13813,20 +13928,20 @@
             }
         ],
         "keywordTags": [
-            "WornHeartGreg",
-            "Burst",
-            "Aggro",
             "Laceration",
+            "WornHeartGreg",
             "BloodDinner",
-            "BloodyHandGregFirst"
+            "BloodyHandGregFirst",
+            "Aggro",
+            "Burst"
         ],
         "name": "The Priest of La Manchaland"
     },
     "11211": {
         "date": "2025-03-06",
         "tags": [
-            "Firefist Office",
-            "Fixer"
+            "Fixer",
+            "Firefist Office"
         ],
         "skillKeywordList": [
             "Burn"
@@ -13906,9 +14021,9 @@
             }
         ],
         "keywordTags": [
-            "FirePunchFuel",
             "FirePunchFuelOverheated",
             "HitDamageUp",
+            "FirePunchFuel",
             "Combustion"
         ],
         "name": "Firefist Office Survivor"
@@ -13917,8 +14032,8 @@
         "date": "2025-05-15",
         "tags": [
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Si Branch"
+            "Heishou Pack - Si Branch",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -13999,13 +14114,13 @@
             }
         ],
         "keywordTags": [
+            "SnakeStance",
             "BurstPoison",
-            "Burst",
-            "SuperCoin",
             "CanDuelGuard",
             "PenetrateDamageUp",
-            "SnakeStance",
-            "Breath"
+            "Breath",
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Heishou Pack - Si Branch"
     },
@@ -14013,8 +14128,8 @@
         "date": "2025-05-15",
         "tags": [
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Si Branch"
+            "Heishou Pack - Si Branch",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -14095,25 +14210,25 @@
             }
         ],
         "keywordTags": [
-            "BurstPoison",
-            "Burst",
-            "SuperCoin",
-            "AttackDown",
-            "DefenseDown",
             "WideAreaRampage",
-            "CanDuelGuard",
             "SnakeStance",
-            "Breath"
+            "BurstPoison",
+            "DefenseDown",
+            "CanDuelGuard",
+            "Breath",
+            "AttackDown",
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Heishou Pack - Si Branch"
     },
     "10212": {
         "date": "2025-05-22",
         "tags": [
-            "Heishou Pack Adept",
-            "Heishou Pack",
             "Heishou Pack - Mao Branch",
-            "H Corp."
+            "H Corp.",
+            "Heishou Pack Adept",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -14219,18 +14334,18 @@
         ],
         "keywordTags": [
             "BurstAgility",
-            "Burst",
-            "EnhanceZilu",
-            "SuperCoin",
-            "LegStrength",
-            "Protection",
             "SupportProtect",
-            "CanDuelGuard",
-            "Agility",
             "BurstVulnerableZilu",
+            "Agility",
+            "LegStrength",
+            "BurstZilu",
+            "CanDuelGuard",
+            "EnhanceZilu",
+            "Protection",
             "AttackUp",
             "Breath",
-            "BurstZilu"
+            "SuperCoin",
+            "Burst"
         ],
         "name": "Heishou Pack - Mao Branch Adept"
     }
