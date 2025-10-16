@@ -1,9 +1,9 @@
 {
     "10101": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -14,8 +14,8 @@
     },
     "10102": {
         "tags": [
-            "Fixer",
-            "Seven Association"
+            "Seven Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -50,8 +50,8 @@
     },
     "10105": {
         "tags": [
-            "Fixer",
-            "Molar Office"
+            "Molar Office",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -98,8 +98,8 @@
     },
     "10109": {
         "tags": [
-            "Syndicate",
-            "The Ring"
+            "The Ring",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -110,9 +110,9 @@
     },
     "10110": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -123,8 +123,8 @@
     },
     "10111": {
         "tags": [
-            "E.G.O Gear",
             "Limbus Company",
+            "E.G.O Gear",
             "LCE"
         ],
         "skillKeywordList": [
@@ -136,8 +136,8 @@
     },
     "10112": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -148,8 +148,8 @@
     },
     "10113": {
         "tags": [
-            "E.G.O Gear",
-            "N Corp."
+            "N Corp.",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -161,11 +161,11 @@
     },
     "10114": {
         "tags": [
-            "Heishou Pack",
             "Heishou Pack Adept",
+            "Heishou Pack",
+            "H Corp.",
             "Jia Family",
-            "Heishou Pack - Wu Branch",
-            "H Corp."
+            "Heishou Pack - Wu Branch"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -177,9 +177,9 @@
     },
     "10201": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [],
         "sinnerId": 2,
@@ -199,9 +199,9 @@
     },
     "10203": {
         "tags": [
+            "L Corp.",
             "Fixer",
-            "Lobotomy Corp. Branch",
-            "L Corp."
+            "Lobotomy Corp. Branch"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -235,8 +235,8 @@
     },
     "10206": {
         "tags": [
-            "Fixer",
-            "Seven Association"
+            "Seven Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -247,9 +247,9 @@
     },
     "10207": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -273,9 +273,9 @@
     },
     "10209": {
         "tags": [
+            "Wuthering Heights",
             "Fixer",
-            "Butler",
-            "Wuthering Heights"
+            "Butler"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -286,9 +286,9 @@
     },
     "10210": {
         "tags": [
-            "Fixer",
+            "MultiCrack Office",
             "Mechanical Amalgam",
-            "MultiCrack Office"
+            "Fixer"
         ],
         "skillKeywordList": [
             "Charge"
@@ -299,8 +299,8 @@
     },
     "10211": {
         "tags": [
-            "E.G.O Gear",
             "Limbus Company",
+            "E.G.O Gear",
             "LCE"
         ],
         "skillKeywordList": [
@@ -310,11 +310,24 @@
         "rank": 3,
         "name": "LCE E.G.O:: Ardor Blossom Star"
     },
+    "10213": {
+        "tags": [
+            "Fixer",
+            "Shi Association"
+        ],
+        "skillKeywordList": [
+            "Bleed",
+            "Poise"
+        ],
+        "sinnerId": 2,
+        "rank": 3,
+        "name": "Shi Assoc. East Section 3"
+    },
     "10301": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -362,8 +375,8 @@
     },
     "10305": {
         "tags": [
-            "Fixer",
-            "Cinq Association"
+            "Cinq Association",
+            "Fixer"
         ],
         "skillKeywordList": [],
         "sinnerId": 3,
@@ -384,9 +397,9 @@
     },
     "10307": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -420,9 +433,9 @@
     },
     "10310": {
         "tags": [
+            "La Manchaland",
             "Bloodfiend",
-            "Second Kindred",
-            "La Manchaland"
+            "Second Kindred"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -433,8 +446,8 @@
     },
     "10311": {
         "tags": [
-            "Fixer",
-            "Cinq Association"
+            "Cinq Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Poise",
@@ -446,9 +459,9 @@
     },
     "10312": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -461,9 +474,9 @@
     },
     "10401": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Poise"
@@ -474,8 +487,8 @@
     },
     "10402": {
         "tags": [
-            "Fixer",
-            "Seven Association"
+            "Seven Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -498,9 +511,9 @@
     },
     "10404": {
         "tags": [
+            "R.B.",
             "Syndicate",
-            "The Backstreets",
-            "R.B."
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -522,8 +535,8 @@
     },
     "10406": {
         "tags": [
-            "Limbus Company",
-            "LCC"
+            "LCC",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Poise",
@@ -536,8 +549,8 @@
     },
     "10407": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -548,9 +561,9 @@
     },
     "10408": {
         "tags": [
+            "Edgar Family",
             "Fixer",
-            "Butler",
-            "Edgar Family"
+            "Butler"
         ],
         "skillKeywordList": [
             "Poise"
@@ -573,9 +586,9 @@
     },
     "10410": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -587,9 +600,9 @@
     },
     "10411": {
         "tags": [
-            "Heishou Pack",
             "Heishou Pack - Mao Branch",
-            "H Corp."
+            "H Corp.",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -600,8 +613,8 @@
     },
     "10412": {
         "tags": [
-            "E.G.O Gear",
-            "N Corp."
+            "N Corp.",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -613,9 +626,9 @@
     },
     "10501": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -626,8 +639,8 @@
     },
     "10502": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -662,8 +675,8 @@
     },
     "10505": {
         "tags": [
-            "Fixer",
-            "Rosespanner Workshop"
+            "Rosespanner Workshop",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -735,8 +748,8 @@
     },
     "10511": {
         "tags": [
-            "Fixer",
-            "Cinq Association"
+            "Cinq Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -762,9 +775,9 @@
     },
     "10601": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Sinking",
@@ -801,8 +814,8 @@
     },
     "10604": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -836,9 +849,9 @@
     },
     "10607": {
         "tags": [
+            "Hook Office",
             "Fixer",
-            "The Backstreets",
-            "Hook Office"
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -909,8 +922,8 @@
     },
     "10613": {
         "tags": [
-            "H Corp.",
-            "<color=#d40000><s>Jia Family</s></color>"
+            "<color=#d40000><s>Jia Family</s></color>",
+            "H Corp."
         ],
         "skillKeywordList": [
             "Rupture",
@@ -922,9 +935,9 @@
     },
     "10701": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -972,8 +985,8 @@
     },
     "10705": {
         "tags": [
-            "E.G.O Gear",
-            "Technology Liberation Alliance"
+            "Technology Liberation Alliance",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Sinking",
@@ -985,8 +998,8 @@
     },
     "10706": {
         "tags": [
-            "Fixer",
-            "Seven Association"
+            "Seven Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1021,9 +1034,9 @@
     },
     "10709": {
         "tags": [
-            "Fixer",
+            "MultiCrack Office",
             "Mechanical Amalgam",
-            "MultiCrack Office"
+            "Fixer"
         ],
         "skillKeywordList": [
             "Charge"
@@ -1034,9 +1047,8 @@
     },
     "10710": {
         "tags": [
-            "The Wild Hunt",
-            "The Wild Hunt",
-            "Wuthering Heights"
+            "Wuthering Heights",
+            "The Wild Hunt"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -1071,9 +1083,9 @@
     },
     "10801": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1108,8 +1120,8 @@
     },
     "10804": {
         "tags": [
-            "Limbus Company",
-            "LCC"
+            "LCC",
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -1121,8 +1133,8 @@
     },
     "10805": {
         "tags": [
-            "E.G.O Gear",
-            "Technology Liberation Alliance"
+            "Technology Liberation Alliance",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -1134,8 +1146,8 @@
     },
     "10806": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -1146,8 +1158,8 @@
     },
     "10807": {
         "tags": [
-            "Fixer",
-            "Molar Office"
+            "Molar Office",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Sinking",
@@ -1159,8 +1171,8 @@
     },
     "10808": {
         "tags": [
-            "Pequod Captain",
-            "The Pequod"
+            "The Pequod",
+            "Pequod Captain"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -1173,9 +1185,9 @@
     },
     "10809": {
         "tags": [
+            "Edgar Family",
             "Fixer",
-            "Butler",
-            "Edgar Family"
+            "Butler"
         ],
         "skillKeywordList": [
             "Poise",
@@ -1211,8 +1223,8 @@
     },
     "10812": {
         "tags": [
-            "Family Hierarch Candidate",
             "Jia Family",
+            "Family Hierarch Candidate",
             "H Corp."
         ],
         "skillKeywordList": [
@@ -1225,9 +1237,9 @@
     },
     "10901": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1251,8 +1263,8 @@
     },
     "10903": {
         "tags": [
-            "Limbus Company",
-            "LCC"
+            "LCC",
+            "Limbus Company"
         ],
         "skillKeywordList": [],
         "sinnerId": 9,
@@ -1273,8 +1285,8 @@
     },
     "10905": {
         "tags": [
-            "Fixer",
-            "Rosespanner Workshop"
+            "Rosespanner Workshop",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -1310,8 +1322,8 @@
     },
     "10908": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -1333,8 +1345,8 @@
     },
     "10910": {
         "tags": [
-            "Fixer",
-            "Devyat' Association"
+            "Devyat' Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1345,9 +1357,9 @@
     },
     "10911": {
         "tags": [
+            "La Manchaland",
             "Bloodfiend",
-            "Second Kindred",
-            "La Manchaland"
+            "Second Kindred"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -1359,9 +1371,9 @@
     },
     "10913": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -1373,9 +1385,9 @@
     },
     "11001": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1412,8 +1424,8 @@
     "11004": {
         "tags": [
             "Syndicate",
-            "The Backstreets",
-            "Los Mariachis"
+            "Los Mariachis",
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Poise",
@@ -1438,8 +1450,8 @@
     },
     "11006": {
         "tags": [
-            "E.G.O Gear",
-            "Technology Liberation Alliance"
+            "Technology Liberation Alliance",
+            "E.G.O Gear"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1450,8 +1462,8 @@
     },
     "11007": {
         "tags": [
-            "Fixer",
-            "Molar Office"
+            "Molar Office",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1462,8 +1474,8 @@
     },
     "11008": {
         "tags": [
-            "Fixer",
-            "Cinq Association"
+            "Cinq Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Poise"
@@ -1498,8 +1510,8 @@
     },
     "11011": {
         "tags": [
-            "Fixer",
-            "Devyat' Association"
+            "Devyat' Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1536,9 +1548,9 @@
     },
     "11014": {
         "tags": [
-            "Heishou Pack",
             "Heishou Pack - You Branch",
-            "H Corp."
+            "H Corp.",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -1550,9 +1562,9 @@
     },
     "11101": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1586,8 +1598,8 @@
     },
     "11104": {
         "tags": [
-            "Fixer",
-            "Seven Association"
+            "Seven Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1598,8 +1610,8 @@
     },
     "11105": {
         "tags": [
-            "Fixer",
-            "Molar Office"
+            "Molar Office",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1610,8 +1622,8 @@
     },
     "11106": {
         "tags": [
-            "Fixer",
-            "Cinq Association"
+            "Cinq Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Poise"
@@ -1622,9 +1634,9 @@
     },
     "11107": {
         "tags": [
-            "Lobotomy Corp. Headquarters",
             "E.G.O Gear",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Burn"
@@ -1635,9 +1647,9 @@
     },
     "11108": {
         "tags": [
+            "Wuthering Heights",
             "Fixer",
-            "Butler",
-            "Wuthering Heights"
+            "Butler"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -1648,8 +1660,8 @@
     },
     "11109": {
         "tags": [
-            "Syndicate",
-            "The Ring"
+            "The Ring",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1672,9 +1684,9 @@
     },
     "11111": {
         "tags": [
-            "Bloodfiend",
+            "La Manchaland",
             "Third Kindred",
-            "La Manchaland"
+            "Bloodfiend"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1685,9 +1697,9 @@
     },
     "11112": {
         "tags": [
-            "Heishou Pack",
             "Heishou Pack - Mao Branch",
-            "H Corp."
+            "H Corp.",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1709,9 +1721,9 @@
     },
     "11201": {
         "tags": [
+            "LCB",
             "Base Identity",
-            "Limbus Company",
-            "LCB"
+            "Limbus Company"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1722,8 +1734,8 @@
     },
     "11202": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -1745,9 +1757,9 @@
     },
     "11204": {
         "tags": [
+            "R.B.",
             "Syndicate",
-            "The Backstreets",
-            "R.B."
+            "The Backstreets"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1758,8 +1770,8 @@
     },
     "11205": {
         "tags": [
-            "Fixer",
-            "Rosespanner Workshop"
+            "Rosespanner Workshop",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Charge",
@@ -1818,9 +1830,9 @@
     },
     "11210": {
         "tags": [
-            "Bloodfiend",
+            "La Manchaland",
             "Third Kindred",
-            "La Manchaland"
+            "Bloodfiend"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -1844,9 +1856,9 @@
     },
     "11212": {
         "tags": [
-            "Heishou Pack",
+            "H Corp.",
             "Heishou Pack - Si Branch",
-            "H Corp."
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -1858,9 +1870,9 @@
     },
     "10912": {
         "tags": [
-            "Heishou Pack",
+            "H Corp.",
             "Heishou Pack - Si Branch",
-            "H Corp."
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -1872,10 +1884,10 @@
     },
     "10212": {
         "tags": [
-            "Heishou Pack",
-            "Heishou Pack Adept",
             "Heishou Pack - Mao Branch",
-            "H Corp."
+            "H Corp.",
+            "Heishou Pack Adept",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"

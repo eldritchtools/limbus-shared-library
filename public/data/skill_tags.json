@@ -1,68 +1,240 @@
 {
-    "OnSucceedAttack": "[On Hit]",
-    "WhenUse": "[On Use]",
-    "WinDuel": "[Clash Win]",
-    "BeforeAttack": "[Before Attack]",
-    "Wide": "[AoE]",
-    "nxPostLine": "[{n} in Front]",
-    "nxCenterLine": "[{n} in Middle]",
-    "nxBackLine": "[{n} in Back]",
-    "CantIdentify": "[Indiscriminate]",
-    "CRIMSON": "Crimson",
-    "SCARLET": "Scarlet",
-    "AMBER": "Amber",
-    "SHAMROCK": "Shamrock",
-    "AZURE": "Azure",
-    "INDIGO": "Indigo",
-    "VIOLET": "Violet",
-    "WHITE": "White",
-    "BLACK": "Black",
-    "EndSkill": "[After Attack]",
-    "StartBattle": "[Combat Start]",
-    "DefeatDuel": "[Clash Lose]",
-    "OnSucceedAttackHead": "[Heads Hit]",
-    "OnSucceedAttackTail": "[Tails Hit]",
-    "OnSucceedEvade": "[On Evade]",
-    "AlwaysUse": "[Constant]",
-    "CantDuel": "[Unclashable]",
-    "EnemyKill": "[On Kill]",
-    "EnemyKillFail": "[Failed Kill]",
-    "ReUse": "[On Reuse]",
-    "ReUseOnSucceedAttackHead": "[Reuse - Heads Hit]",
-    "CriticalOnSucceedAttack": "[On Crit]",
-    "StartDuel": "[Clash Start]",
-    "EndBattle": "[Turn End]",
-    "OnDefeatEvade": "[Failed Evade]",
-    "EndSkillHead": "[Heads Attack End]",
-    "EndSkillTail": "[Tails Attack End]",
-    "WinDuelAttackHead": "[Heads Hit after Clash Win]",
-    "WinDuelAttack": "[Hit after Clash Win]",
-    "CriticalActivated": "[On Crit]",
-    "CriticalEndSkill": "[Crit Attack End]",
-    "CantChangeTarget": "[Target Fixed]",
-    "TurnStartBattle": "[Turn Start]",
-    "EndSkillAll": "[Skill End]",
-    "WhenUse_Force": "<color=#26cfff>[On Use]</color>",
-    "StartBattle_Force": "<color=#93f13e>[Combat Start]</color>",
-    "TargetKill": "[On Target Kill]",
-    "CriticalTargetKill": "[On Crit Kill]",
-    "BeforeUse": "[Before Use]",
-    "DuelCounter": "[Clashable Counter]",
-    "CantBreak": "[Unbreakable Coin]",
-    "DuelGuard": "[Clashable Guard]",
-    "WhenUseEvade": "[On Evade Use]",
-    "EndCoin": "[After Current Coin Attack]",
-    "CriticalEnemyTargetKillFail": "[On Crit Kill Fail Against Enemy]",
-    "CriticalEnemyTargetKill": "[On Crit Kill Against Enemy]",
-    "DefeatDuelAttack": "[Hit after Clash Lose]",
-    "TargetKillFail": "[On Target Kill Fail]",
-    "AllyKill": "[On Ally Kill]",
-    "AllyKillFail": "[On Ally Kill Fail]",
-    "TabExplain": "",
-    "UnBrokenCoinOnSucceedAttack": "[On Hit without Cracking]",
-    "BeforeHit": "[Before Getting Hit]",
-    "OnDirectAttack": "[On Unopposed Attack]",
-    "ReUseOnSucceedAttack": "[Reuse - On Hit]",
-    "CriticalOnSucceedAttackHead": "[On Crit - Heads Hit]",
-    "OnStartCoin": "[Coin Start]"
+    "OnSucceedAttack": {
+        "text": "[On Hit]",
+        "color": "#8ADF3B"
+    },
+    "WhenUse": {
+        "text": "[On Use]",
+        "color": "#26CDFB"
+    },
+    "WinDuel": {
+        "text": "[Clash Win]",
+        "color": "#FD7E00"
+    },
+    "BeforeAttack": {
+        "text": "[Before Attack]",
+        "color": "#8ADF3B"
+    },
+    "Wide": {
+        "text": "[AoE]"
+    },
+    "nxPostLine": {
+        "text": "[{n} in Front]"
+    },
+    "nxCenterLine": {
+        "text": "[{n} in Middle]"
+    },
+    "nxBackLine": {
+        "text": "[{n} in Back]"
+    },
+    "CantIdentify": {
+        "text": "[Indiscriminate]",
+        "color": "#FD0000"
+    },
+    "CRIMSON": {
+        "text": "Crimson"
+    },
+    "SCARLET": {
+        "text": "Scarlet"
+    },
+    "AMBER": {
+        "text": "Amber"
+    },
+    "SHAMROCK": {
+        "text": "Shamrock"
+    },
+    "AZURE": {
+        "text": "Azure"
+    },
+    "INDIGO": {
+        "text": "Indigo"
+    },
+    "VIOLET": {
+        "text": "Violet"
+    },
+    "WHITE": {
+        "text": "White"
+    },
+    "BLACK": {
+        "text": "Black"
+    },
+    "EndSkill": {
+        "text": "[After Attack]",
+        "color": "#8ADF3B"
+    },
+    "StartBattle": {
+        "text": "[Combat Start]",
+        "color": "#92EF3D"
+    },
+    "DefeatDuel": {
+        "text": "[Clash Lose]",
+        "color": "#E10000"
+    },
+    "OnSucceedAttackHead": {
+        "text": "[Heads Hit]",
+        "color": "#BAEE89"
+    },
+    "OnSucceedAttackTail": {
+        "text": "[Tails Hit]",
+        "color": "#8ADF3B"
+    },
+    "OnSucceedEvade": {
+        "text": "[On Evade]",
+        "color": "#8ADF3B"
+    },
+    "AlwaysUse": {
+        "text": "[Constant]"
+    },
+    "CantDuel": {
+        "text": "[Unclashable]"
+    },
+    "EnemyKill": {
+        "text": "[On Kill]",
+        "color": "#8ADF3B"
+    },
+    "EnemyKillFail": {
+        "text": "[Failed Kill]",
+        "color": "#8ADF3B"
+    },
+    "ReUse": {
+        "text": "[On Reuse]"
+    },
+    "ReUseOnSucceedAttackHead": {
+        "text": "[Reuse - Heads Hit]",
+        "color": "#8ADF3B"
+    },
+    "CriticalOnSucceedAttack": {
+        "text": "[On Crit]",
+        "color": "#8ADF3B"
+    },
+    "StartDuel": {
+        "text": "[Clash Start]"
+    },
+    "EndBattle": {
+        "text": "[Turn End]",
+        "color": "#92EF3D"
+    },
+    "OnDefeatEvade": {
+        "text": "[Failed Evade]",
+        "color": "#E10000"
+    },
+    "EndSkillHead": {
+        "text": "[Heads Attack End]",
+        "color": "#EE55B4"
+    },
+    "EndSkillTail": {
+        "text": "[Tails Attack End]",
+        "color": "#BD0277"
+    },
+    "WinDuelAttackHead": {
+        "text": "[Heads Hit after Clash Win]",
+        "color": "#8ADF3B"
+    },
+    "WinDuelAttack": {
+        "text": "[Hit after Clash Win]",
+        "color": "#8ADF3B"
+    },
+    "CriticalActivated": {
+        "text": "[On Crit]",
+        "color": "#8ADF3B"
+    },
+    "CriticalEndSkill": {
+        "text": "[Crit Attack End]",
+        "color": "#EE55B4"
+    },
+    "CantChangeTarget": {
+        "text": "[Target Fixed]"
+    },
+    "TurnStartBattle": {
+        "text": "[Turn Start]",
+        "color": "#8ADF3B"
+    },
+    "EndSkillAll": {
+        "text": "[Skill End]"
+    },
+    "WhenUse_Force": {
+        "text": "<color=#26cfff>[On Use]</color>"
+    },
+    "StartBattle_Force": {
+        "text": "<color=#93f13e>[Combat Start]</color>"
+    },
+    "TargetKill": {
+        "text": "[On Target Kill]",
+        "color": "#8ADF3B"
+    },
+    "CriticalTargetKill": {
+        "text": "[On Crit Kill]",
+        "color": "#8ADF3B"
+    },
+    "BeforeUse": {
+        "text": "[Before Use]",
+        "color": "#8ADF3B"
+    },
+    "DuelCounter": {
+        "text": "[Clashable Counter]",
+        "color": "#FD6000"
+    },
+    "CantBreak": {
+        "text": "[Unbreakable Coin]",
+        "color": "#9F6A3A"
+    },
+    "DuelGuard": {
+        "text": "[Clashable Guard]",
+        "color": "#9F6A3A"
+    },
+    "WhenUseEvade": {
+        "text": "[On Evade Use]",
+        "color": "#8ADF3B"
+    },
+    "EndCoin": {
+        "text": "[After Current Coin Attack]",
+        "color": "#8ADF3B"
+    },
+    "CriticalEnemyTargetKillFail": {
+        "text": "[On Crit Kill Fail Against Enemy]"
+    },
+    "CriticalEnemyTargetKill": {
+        "text": "[On Crit Kill Against Enemy]",
+        "color": "#8ADF3B"
+    },
+    "DefeatDuelAttack": {
+        "text": "[Hit after Clash Lose]",
+        "color": "#FD0000"
+    },
+    "TargetKillFail": {
+        "text": "[On Target Kill Fail]"
+    },
+    "AllyKill": {
+        "text": "[On Ally Kill]",
+        "color": "#8ADF3B"
+    },
+    "AllyKillFail": {
+        "text": "[On Ally Kill Fail]",
+        "color": "#8ADF3B"
+    },
+    "TabExplain": {
+        "text": ""
+    },
+    "UnBrokenCoinOnSucceedAttack": {
+        "text": "[On Hit without Cracking]",
+        "color": "#8ADF3B"
+    },
+    "BeforeHit": {
+        "text": "[Before Getting Hit]"
+    },
+    "OnDirectAttack": {
+        "text": "[On Unopposed Attack]",
+        "color": "#8ADF3B"
+    },
+    "ReUseOnSucceedAttack": {
+        "text": "[Reuse - On Hit]",
+        "color": "#8ADF3B"
+    },
+    "CriticalOnSucceedAttackHead": {
+        "text": "[On Crit - Heads Hit]"
+    },
+    "OnStartCoin": {
+        "text": "[Coin Start]",
+        "color": "#8ADF3B"
+    }
 }

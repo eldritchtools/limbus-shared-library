@@ -1,0 +1,32 @@
+name: Seed Supabase Data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "public/data/identities.json"
+      - "public/data/egos.json"
+  workflow_dispatch:
+
+jobs:
+  seed-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Supabase seed script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SEEDING_KEY: ${{ secrets.SUPABASE_SEEDING_KEY }}
+        run: node scripts/seed_data.js

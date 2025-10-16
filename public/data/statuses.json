@@ -879,6 +879,31 @@
         "name": "Higher Thunderer",
         "desc": "- Turn Start: gain 2 Offense Level Up and 2 Defense Level Up\n- Turn End: lose 1 Stack\n- Max Stack: 5"
     },
+    "ArrowShiFau": {
+        "buffType": "Neutral",
+        "name": "Arrow - Shi",
+        "desc": "- Min Capacity: 0\n- Max Capacity: 4\n- Arrows spent by certain Skills"
+    },
+    "ArrowInTheEyeFau": {
+        "buffType": "Negative",
+        "name": "Lodged Arrow",
+        "desc": "- Max Stack: 4\n- Turn Start: gain Bleed Potency by Stack\n- Lose Defense Level by Stack\n- Turn End: at 2+ Stack, gain 1 Fragile next turn (once per turn)\n- Expires on: Death, Retreat, buff removal/expiration. When it expires, apply Arrow - Shi to Shi East Section 3 Faust by Stack"
+    },
+    "AimForTheGoal": {
+        "buffType": "Positive",
+        "name": "Target Aim",
+        "desc": "- Max Stack: 4\n- Expires if this unit does not have \"Ready to Loose\""
+    },
+    "SnipingArrowMode": {
+        "buffType": "Positive",
+        "name": "Ready to Loose",
+        "desc": "- When this unit has this effect, activate the following:\n\u00b7 Converts the leftmost Base Attack Skill on the Dashboard to \"Bow's Glimmer\", then uses it at Combat Start\n\u00b7 This unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n\u00b7 Does not trigger <noparse>Assist Attack</noparse>\n\u00b7 Removed if an E.G.O Skill was equipped at Combat Start"
+    },
+    "AStrokeOfDeath": {
+        "buffType": "Positive",
+        "name": "Liferender",
+        "desc": "- Offense Level +2\n- Final Power +1\n- Expires at Turn End"
+    },
     "DuelDeclaration_Camille": {
         "buffType": "Negative",
         "categoryKeywordList": [
@@ -1940,6 +1965,11 @@
         "buffType": "Positive",
         "name": "Trauma Shield",
         "desc": "- Reduce SP damage from enemies by 80%\n- Reduce Sinking damage taken by 80%\n- Reduced by 1 at Turn End"
+    },
+    "ActivatedEgoPassive": {
+        "buffType": "Neutral",
+        "name": "E.G.O Passives",
+        "desc": "Active E.G.O Passives"
     },
     "Choice_90103301": {
         "buffType": "Neutral",
