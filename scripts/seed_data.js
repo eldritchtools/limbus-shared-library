@@ -26,7 +26,7 @@ async function seed() {
 
     console.log('🌱 Seeding egos...');
     const { error: egoError } = await supabase
-        .from('equipment')
+        .from('egos')
         .upsert(
             Object.entries(egos).map(([id, ego]) => ({
                 id: id,
