@@ -1,12 +1,13 @@
 name: Seed Supabase Data
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "public/data/identities.json"
-      - "public/data/egos.json"
+  # Turn off seeding script since it's no longer needed for the database
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - "public/data/identities.json"
+  #     - "public/data/egos.json"
   workflow_dispatch:
 
 jobs:
