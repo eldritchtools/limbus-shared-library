@@ -24,9 +24,9 @@ function EgoImg(_ref) {
     height: "".concat(256 * scale, "px")
   };
   var img = /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/egos/").concat(ego.id, "_").concat(type, "_profile.png"),
-    alt: ego.name,
-    title: ego.name,
+    src: "".concat(ASSETS_ROOT, "/egos/").concat(egoObject.id, "_").concat(type, "_profile.png"),
+    alt: egoObject.name,
+    title: egoObject.name,
     style: scaledStyle
   });
   if (displayName) {
@@ -38,9 +38,7 @@ function EgoImg(_ref) {
         width: scaledStyle.width
       },
       children: [img, /*#__PURE__*/_jsx("span", {
-        children: ego.name
-      }), /*#__PURE__*/_jsx("span", {
-        children: ego.sinner
+        children: egoObject.name
       })]
     });
   } else {

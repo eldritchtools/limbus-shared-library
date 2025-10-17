@@ -25,9 +25,9 @@ function IdentityImg(_ref) {
   };
   var type = uptie > 2 || identityObject.tags.includes("Base Identity") ? "gacksung" : "normal";
   var img = /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/identities/").concat(identity.id, "_").concat(type, "_profile.png"),
-    alt: identity.name,
-    title: identity.name,
+    src: "".concat(ASSETS_ROOT, "/identities/").concat(identityObject.id, "_").concat(type, "_profile.png"),
+    alt: identityObject.name,
+    title: identityObject.name,
     style: scaledStyle
   });
   if (displayName) {
@@ -39,9 +39,7 @@ function IdentityImg(_ref) {
         width: scaledStyle.width
       },
       children: [img, /*#__PURE__*/_jsx("span", {
-        children: identity.name
-      }), /*#__PURE__*/_jsx("span", {
-        children: identity.sinner
+        children: identityObject.name
       })]
     });
   } else {

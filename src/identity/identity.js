@@ -14,13 +14,12 @@ function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 
 
     const scaledStyle = { width: `${256 * scale}px`, height: `${256 * scale}px` };
     const type = (uptie > 2 || identityObject.tags.includes("Base Identity")) ? "gacksung" : "normal";
-    const img = <img src={`${ASSETS_ROOT}/identities/${identity.id}_${type}_profile.png`} alt={identity.name} title={identity.name} style={scaledStyle} />
+    const img = <img src={`${ASSETS_ROOT}/identities/${identityObject.id}_${type}_profile.png`} alt={identityObject.name} title={identityObject.name} style={scaledStyle} />
 
     if (displayName) {
         return <div style={{ display: "flex", flexDirection: "column", textAlign: "center", width: scaledStyle.width }}>
             {img}
-            <span>{identity.name}</span>
-            <span>{identity.sinner}</span>
+            <span>{identityObject.name}</span>
         </div>
     } else {
         return img;
