@@ -86,7 +86,7 @@ function TooltipContent({ gift }) {
                     {gift.enhanceable ? <span>Enhanceable</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
-                    <span>{replaceStatusVariables(gift.descs[0], false)}</span>
+                    <span>{replaceStatusVariables(gift.descs[0], true)}</span>
                     {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
                 </div>
             </div>

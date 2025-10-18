@@ -217,7 +217,7 @@ function TooltipContent(_ref3) {
             textAlign: "left"
           }),
           children: [/*#__PURE__*/_jsx("span", {
-            children: replaceStatusVariables(gift.descs[0], false)
+            children: replaceStatusVariables(gift.descs[0], true)
           }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
         })]
       })]
