@@ -1,7 +1,7 @@
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
-import statuses from "../data/statusesData";
 import { tooltipStyle } from "../styles";
+import { useData } from "../dataProvider/DataProvider";
 
 const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", verticalAlign: "middle", transform: "translateY(-0.1rem)"};
 const nameStyle = { display: "inline", fontSize: "1rem" };
@@ -17,14 +17,22 @@ function getNameStyle(type) {
     }
 }
 
-function Status({ id, includeTooltip = true, includeName = true }) {
-    if (!(id in statuses)) {
-        console.warn(`Status ${id} not found.`);
-        return <span className="error">Unknown status: {id}</span>;
+function Status({ id, status=null, includeTooltip = true, includeName = true }) {
+    const [statuses, statusesLoading] = useData("statuses");
+
+    const statusObject = status;
+    if (!statusObject) {
+        if (statusesLoading) {
+            return null;
+        } else if (!(id in statuses)) {
+            console.warn(`Status ${id} not found.`);
+            return <span className="error">Unknown status: {id}</span>;
+        } else {
+            statusObject = statuses[id];
+        }
     }
 
-    const status = statuses[id];
-    const src = "imageOverride" in status ? status.imageOverride : status.name;
+    const src = "imageOverride" in statusObject ? statusObject.imageOverride : statusObject.name;
 
     return (
         <span
@@ -32,13 +40,14 @@ function Status({ id, includeTooltip = true, includeName = true }) {
             data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline" }}
         >
-            <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={iconStyle} />
-            {includeName ? <span style={getNameStyle(status.buffType)}>{status.name}</span> : null}
+            <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={statusObject.name} style={iconStyle} />
+            {includeName ? <span style={getNameStyle(statusObject.buffType)}>{statusObject.name}</span> : null}
         </span>
     )
 }
 
 function TooltipContent({ status }) {
+    if(!status) return null;
     const src = "imageOverride" in status ? status.imageOverride : status.name;
 
     return <div style={tooltipStyle}>
@@ -55,9 +64,11 @@ function TooltipContent({ status }) {
 }
 
 function StatusTooltip() {
+    const [statuses, statusesLoading] = useData("statuses");
+
     return <Tooltip
         id={"limbus-shared-library-status-tooltip"}
-        render={({ content }) => <TooltipContent status={statuses[content]} />}
+        render={({ content }) => <TooltipContent status={statusesLoading ? null : statuses[content]} />}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />

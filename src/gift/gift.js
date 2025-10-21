@@ -1,6 +1,5 @@
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
-import gifts from "../data/giftsData";
 import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
@@ -47,11 +46,14 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
 }
 
 function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = true }) {
+    const [gifts, giftsLoading] = useData("gifts");
     const size = 96 * scale;
 
     let giftObject = gift;
     if (!giftObject) {
-        if (!(id in gifts)) {
+        if (giftsLoading) {
+            return null;
+        } else if (!(id in gifts)) {
             console.warn(`Gift ${id} not found.`);
             return <div style={resize(giftContainerStyle, size)}>
                 <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
@@ -71,6 +73,8 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = tr
 }
 
 function TooltipContent({ gift }) {
+    if (!gift) return null;
+    
     const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <br />
         <span>Exclusive Theme Packs:</span>
@@ -95,9 +99,11 @@ function TooltipContent({ gift }) {
 }
 
 function GiftTooltip() {
+    const [gifts, giftsLoading] = useData("gifts");
+
     return <Tooltip
         id={"limbus-shared-library-gift-tooltip"}
-        render={({ content }) => <TooltipContent gift={gifts[content]} />}
+        render={({ content }) => <TooltipContent gift={giftsLoading ? null : gifts[content]} />}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />

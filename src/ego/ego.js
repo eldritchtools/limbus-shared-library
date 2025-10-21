@@ -1,10 +1,13 @@
 import { ASSETS_ROOT } from "../paths";
-import egos from "../data/egosData";
 
 function EgoImg({ id, ego = null, type, displayName = false, scale = 1 }) {
+    const [egos, egosLoading] = useData("egos_mini");
+
     let egoObject = ego;
     if (!egoObject) {
-        if (!(id in egos)) {
+        if (egosLoading) {
+            return null;
+        } else if (!(id in egos)) {
             console.warn(`Ego ${id} not found.`);
             return null;
         } else {

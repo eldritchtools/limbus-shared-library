@@ -19,7 +19,7 @@ import { DATA_ROOT } from "../paths";
 import { jsx as _jsx } from "react/jsx-runtime";
 var DataContext = /*#__PURE__*/createContext();
 function preprocess_data(path, data) {
-  if (["egos", "identities_mini", "identities"].includes(path)) {
+  if (["egos_mini", "egos", "identities_mini", "identities"].includes(path)) {
     return Object.entries(data).reduce(function (acc, _ref) {
       var _ref2 = _slicedToArray(_ref, 2),
         k = _ref2[0],

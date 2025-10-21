@@ -4,7 +4,7 @@ import { DATA_ROOT } from "../paths";
 const DataContext = createContext();
 
 function preprocess_data(path, data) {
-    if (["egos", "identities_mini", "identities"].includes(path)) {
+    if (["egos_mini", "egos", "identities_mini", "identities"].includes(path)) {
         return Object.entries(data).reduce((acc, [k, v]) => {
             acc[k] = {id: k, ...v}
             return acc;

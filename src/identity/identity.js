@@ -1,10 +1,13 @@
 import { ASSETS_ROOT } from "../paths";
-import identities from "../data/identitiesData";
 
 function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 1 }) {
+    const [identities, identitiesLoading] = useData("identities_mini");
+
     let identityObject = identity;
     if (!identityObject) {
-        if (!(id in identities)) {
+        if (identitiesLoading) {
+            return null;
+        } else if (!(id in identities)) {
             console.warn(`Identity ${id} not found.`);
             return null;
         } else {
