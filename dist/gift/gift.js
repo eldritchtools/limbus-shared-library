@@ -15,6 +15,7 @@ import { ASSETS_ROOT } from "../paths";
 import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
+import { useData } from "../dataProvider/DataProvider";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",

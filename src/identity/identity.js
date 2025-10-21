@@ -1,3 +1,4 @@
+import { useData } from "../dataProvider/DataProvider";
 import { ASSETS_ROOT } from "../paths";
 
 function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 1 }) {

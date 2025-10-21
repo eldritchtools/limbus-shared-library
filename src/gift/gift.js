@@ -3,6 +3,7 @@ import { ASSETS_ROOT } from "../paths";
 import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
+import { useData } from "../dataProvider/DataProvider";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -74,7 +75,7 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = tr
 
 function TooltipContent({ gift }) {
     if (!gift) return null;
-    
+
     const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <br />
         <span>Exclusive Theme Packs:</span>
