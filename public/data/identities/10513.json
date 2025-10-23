@@ -1,0 +1,483 @@
+{
+    "skills": {
+        "1051301": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 2,
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 2,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "March Conductor",
+                    "desc": "[WhenUse] On self and 1 ally with the lowest max HP: consume up to 10 [BloodDinner] and apply 1 [BloodArmorMeursault] for every 5 [BloodDinner] this unit consumed (once per turn; excludes allies with max Stack)\n- Prioritizes <La Manchaland> and <Bloodfiend>(Higher Kindred) allies\n- If the affected ally is from <La Manchaland>, this unit applies 1 additional [BloodArmorMeursault]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "March Conductor",
+                    "desc": "[WhenUse] On self and 1 ally with the lowest max HP: consume up to 10 [BloodDinner] and apply 1 [BloodArmorMeursault] for every 5 [BloodDinner] this unit consumed (once per turn; excludes allies with max Stack)\n- Prioritizes <La Manchaland> and <Bloodfiend>(Higher Kindred) allies\n- If the affected ally is from <La Manchaland>, this unit applies 1 additional [BloodArmorMeursault]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 4+ [Laceration], Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\">"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "March Conductor",
+                    "desc": "[WhenUse] On self and 1 ally with the lowest max HP: consume up to 10 [BloodDinner] and apply 1 [BloodArmorMeursault] for every 5 [BloodDinner] this unit consumed (once per turn; excludes allies with max Stack)\n- Prioritizes <La Manchaland> and <Bloodfiend>(Higher Kindred) allies\n- If the affected ally is from <La Manchaland>, this unit applies 1 additional [BloodArmorMeursault]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[WhenUse] If target has 4+ [Laceration], Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ [Laceration] Count, Final Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1051302": {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Responsibility to Rebuild",
+                    "desc": "[WhenUse] On self and 1 ally with the highest max HP: consume up to 10 [BloodDinner] and apply 1 [BloodArmorMeursault] for every 5 [BloodDinner] this unit consumed (once per turn; excludes allies with max Stack)\n- Prioritizes <La Manchaland> and <Bloodfiend>(Higher Kindred) allies\n- If the affected ally is from <La Manchaland>, this unit applies 1 additional [BloodArmorMeursault]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Responsibility to Rebuild",
+                    "desc": "[WhenUse] On self and 1 ally with the highest max HP: consume up to 10 [BloodDinner] and apply 1 [BloodArmorMeursault] for every 5 [BloodDinner] this unit consumed (once per turn; excludes allies with max Stack)\n- Prioritizes <La Manchaland> and <Bloodfiend>(Higher Kindred) allies\n- If the affected ally is from <La Manchaland>, this unit applies 1 additional [BloodArmorMeursault]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] If target has 3+ [Laceration] Count, Final Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]",
+                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Responsibility to Rebuild",
+                    "desc": "[WhenUse] On self and 1 ally with the highest max HP: consume up to 10 [BloodDinner] and apply 1 [BloodArmorMeursault] for every 5 [BloodDinner] this unit consumed (once per turn; excludes allies with max Stack)\n- Prioritizes <La Manchaland> and <Bloodfiend>(Higher Kindred) allies\n- If the affected ally is from <La Manchaland>, this unit applies 1 additional [BloodArmorMeursault]\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[WhenUse] Coin Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] <style=\"highlight\">Final Power +1 for every 3 [Laceration] Count on target (max 2)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every [BloodArmorMeursault] on self (max 30%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +<style=\"highlight\">2 [Laceration] Count",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [ScarletTakeDamageUp] next turn (2 times per turn)"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1051303": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Let us wear the coagulated mantle of blood.",
+                    "desc": "On Hit with this Skill: heal 40% of the HP damage dealt (max 50 per Skill)\n[BeforeUse] At 5 [BloodArmorMeursault], activate \"Ouvert\u00fcre\" instead\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] Apply 1 [BloodArmorMeursault] to self and (highest Reson.) allies (2 times per turn; up to 4 allies; prioritizes <La Manchaland> first, and <Bloodfiend>(Higher Kindreds) second; excludes allies with max Stack)\n[EndSkill] If the target is defeated, increase [BloodDinner] by additional 20 (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [ParadeConcentration]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ParadeConcentration] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Let us wear the coagulated mantle of blood.",
+                    "desc": "On Hit with this Skill: heal 40% of the HP damage dealt (max <style=\"highlight\">80 per Skill)\n[BeforeUse] At 5 [BloodArmorMeursault], activate \"Ouvert\u00fcre\" instead\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 2 [Laceration] Count on target (max 40%)\n[WhenUse] Apply 1 [BloodArmorMeursault] to self and (highest Reson.) allies (2 times per turn; up to 4 allies; prioritizes <La Manchaland> first, and <Bloodfiend>(Higher Kindreds) second; excludes allies with max Stack)\n<style=\"highlight\">- If it was a Lust Reson., apply 2 [BloodArmorMeursault] to 2 allies with the lowest max HP as well\n[EndSkill] If the target is defeated, increase [BloodDinner] by additional 20 (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] Inflict 1 [ParadeConcentration]<style=\"highlight\">",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ParadeConcentration] next turn<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1051305": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Ouvert\u00fcre",
+                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 85 per Skill)\n[WhenUse] Clash Power +2 for every 3 [Laceration] on the main target (max 8)\n[WhenUse] Deal +5% damage for every 2 [Laceration] Count on the main target (max 20%)\n[WhenUse] Apply 2 [BloodArmorMeursault] to (highest Reson.) other allies (max 4 allies; prioritizes <La Manchaland> first, and <Bloodfiend>(Higher Kindreds) second; excludes allies with max Stack)\n[EndSkill] Consume all [BloodArmorMeursault] on self\n[EndSkill] If this Skill defeated a target, additionally increase Bloodfeast by 10 for every target defeated by this Skill (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 2 [ParadeConcentration]",
+                            "[UnBrokenCoinOnSucceedAttack] Gain 1 [BloodArmorMeursault] next turn for every target this Skill's damage Staggered, Part Broke, or defeated (max 3)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Ouvert\u00fcre",
+                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max <style=\"highlight\">100 per Skill)\n[WhenUse] Clash Power +2 for every 3 [Laceration] on the main target (max 8)\n[WhenUse] Deal +<style=\"highlight\">10% damage for every 2 [Laceration] Count on the main target (max <style=\"highlight\">40%)\n[WhenUse] Apply 2 [BloodArmorMeursault] to (highest Reson.) other allies (max 4 allies; prioritizes <La Manchaland> first, and <Bloodfiend>(Higher Kindreds) second; excludes allies with max Stack)\n<style=\"highlight\">- If it was a Lust Reson., apply 1 additional [BloodArmorMeursault]\n[EndSkill] Consume all [BloodArmorMeursault] on self\n[EndSkill] If this Skill defeated a target, additionally increase Bloodfeast by 10 for every target defeated by this Skill (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 2 [ParadeConcentration]",
+                            "<style=\"highlight\">- At 2+ [FocusOnActing], also inflict 2 [ParadeConcentration] to 1 of the targets (once per turn)",
+                            "[UnBrokenCoinOnSucceedAttack] Gain 1 [BloodArmorMeursault] next turn for every target this Skill's damage Staggered, Part Broke, or defeated (max 3)<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1051304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 5,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Coagulation",
+                    "desc": "[DuelCounter]\n[WinDuel] Gain 1 [BloodArmorMeursault] (2 times per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Coagulation",
+                    "desc": "[DuelCounter]\n<style=\"highlight\">[WhenUse] To 2 allies, including this unit, apply 5 [Laceration] and activate it once; then, reduce their [Laceration] Count by 1 (once per turn; prioritizes allies with the most [BloodArmorMeursault]; does not activate for Higher Kindreds; this damage does not reduce the allies' HP below 1)\n[WinDuel] Gain 1 [BloodArmorMeursault] (2 times per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Laceration]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1051302,
+                1051303
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1051302,
+                1051303,
+                1051301
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1051302,
+                1051303,
+                1051311
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1051321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1051301": {
+            "name": "'Bloodied, Masked, and as Blood Commands'",
+            "desc": "Combat Start: if this unit has [BloodArmorMeursault], gain the following effects based on Stack:\n- At 3+ Stack: gain 1 [AttackUp] and 1 [DefenseUp]\n- At 4+ Stack: gain 1 [Agility] next turn\n\nOn Hit against enemies with [Laceration]: if this unit has less than 30% HP, heal 30% HP (once per Encounter; rounded down)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 3
+                    },
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1051302": {
+            "name": "Bloodfeast",
+            "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface."
+        },
+        "1051303": {
+            "name": "Responsibility of a Former Prince",
+            "desc": "Turn Start: the following effects activate for La Manchaland Identities with max [BloodArmorMeursault] Stack\n\u00b7 Gain 1 [FocusOnActing]\n\u00b7 When Staggered due to damage, recover from Stagger; then, consume all [BloodArmorMeursault] on self (once per Stage per Identity; unless it's a forced Stagger)\n\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)"
+        },
+        "1051311": {
+            "name": "'Bloodied, Masked, and as Blood Commands'",
+            "desc": "Combat Start: if this unit has [BloodArmorMeursault], gain the following effects based on Stack:\n- At 3+ Stack: gain <style=\"highlight\">2</style> [AttackUp] and <style=\"highlight\">2</style> [DefenseUp]\n- At 4+ Stack: gain <style=\"highlight\">2</style> [Agility] next turn\n\n<style=\"highlight\">Combat Start: if this unit has [FocusOnActing], inflict 1 [ParadeConcentration] On Hit against enemies (2 times per turn; including E.G.O Skills)</style>\n\nOn Hit against enemies with [Laceration]: if this unit has less than 30% HP, heal 30% HP (once per Encounter; rounded down)"
+        },
+        "1051321": {
+            "name": "Flood the Chalice",
+            "desc": "For the turn, multiply the amount of [BloodDinner] generated by 1.5 (2 times per Encounter; rounded down)",
+            "condition": {
+                "type": "res",
+                "requirement": [
+                    {
+                        "type": "lust",
+                        "value": 5
+                    }
+                ]
+            }
+        }
+    }
+}

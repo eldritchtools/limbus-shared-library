@@ -173,7 +173,7 @@
                             "[OnSucceedAttack] Inflict 1 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] If the sum of the target's [Vibration] Potency + Count is 20 or higher, trigger [Switch_Vibration] on target, converting [Vibration] to [VibrationCollapse]"
+                            "[OnSucceedAttack] If target has 20+ ([Vibration] + [Vibration] Count), trigger [Switch_Vibration] on target, converting [Vibration] to [VibrationCollapse]"
                         ]
                     ]
                 },
@@ -189,7 +189,7 @@
                             "[OnSucceedAttack] Inflict 1 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] If the sum of the target's [Vibration] Potency + Count is 20 or higher, trigger [Switch_Vibration] on target, converting [Vibration] to [VibrationCollapse]"
+                            "[OnSucceedAttack] If target has 20+ ([Vibration] + [Vibration] Count), trigger [Switch_Vibration] on target, converting [Vibration] to [VibrationCollapse]"
                         ]
                     ]
                 }

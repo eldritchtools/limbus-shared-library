@@ -422,7 +422,7 @@
         },
         "1081221": {
             "name": "Lingering Resolve [\u9918\u6853]",
-            "desc": "If this unit is defeated in an Encounter, apply [CheerUpXichun] to the subsequently Substituting Identity (the fastest Backup Unit in the Deployment Order) next turn\n\nIn Chain Battles, if this unit is a Backup unit or has Retreated, activate the following:\n- Combat Start: Among the Identities who 1) are at 50% HP or lower, and 2) used a Defense Skill, choose the Identity with the earliest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a [RetreatForCommon] (2 times per Encounter)",
+            "desc": "If this unit is defeated in an Encounter, apply [CheerUpXichun] to the subsequently Substituting Identity (the fastest Backup Unit in the Deployment Order) next turn\n\nIn Chain Battles, if this unit is a Backup unit or has Retreated, activate the following:\n- Combat Start: Among the Identities who 1) are at 50% HP or lower, and 2) used a Defense Skill, choose the Identity with the earliest Deployment order. At Turn End, that Identity recovers from Stagger due to damage and performs a [RetreatForCommon] (2 times per Encounter)",
             "condition": {
                 "type": "res",
                 "requirement": [

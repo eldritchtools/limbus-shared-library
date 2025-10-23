@@ -904,6 +904,26 @@
         "name": "Liferender",
         "desc": "- Offense Level +2\n- Final Power +1\n- Expires at Turn End"
     },
+    "BloodArmorMeursault": {
+        "buffType": "Positive",
+        "name": "Hardblood Armor",
+        "desc": "- Max Stack: 5\n- If this unit isn't at max HP: after its Skill attack, heal 10% of HP damage dealt (once per turn; max 40 healing)\n- After Attack: if this unit dealt HP damage, lose 1 Stack (once per turn)\n\u2022 If Lust Reson. was activated, halve the amount of HP healed, but do not lose any Hardblood Armor Stack"
+    },
+    "FocusOnActing": {
+        "buffType": "Positive",
+        "name": "Focused Performance",
+        "desc": "- Max Stack: 3\n- <La Manchaland> Identities only; includes Empowered Skills\n- Skill 1 and Skill 2 gain Final Power +1; deal +5% damage for every Stack (max 15%)\n- Skill 3 gains Final Power +2; deals +10% damage for every Stack (max 30%)\n- After attacking with Skill 3, or at Turn Start, if this unit does not have Hardblood Armor, lose 1 Stack"
+    },
+    "ParadeConcentration": {
+        "buffType": "Negative",
+        "name": "La Mancha Parade",
+        "desc": "- Max Stack: 4\n- Take +10% damage from Lust Skills\n\u2022 If the target is a <La Manchaland> Identity, take +20% damage regardless of the Skill's Affinity\n\u2022 At max Stack, deal -20% damage against <La Manchaland> Identities\n- Lose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends"
+    },
+    "WOverCharge": {
+        "buffType": "Neutral",
+        "name": "Overcharge",
+        "desc": "- Max Value : 1\n- Become Immobilized\n- Take 10 + (Charge Potency on self x 5)% less damage (max 25%)\n- Turn Start: Gain Charge Barrier based on Charge Potency on self (max 5)\n- Turn End: Gain +10 Charge Count and 2 Attack Power Up next turn, and lose this effect\n- Gain Aggro to this unit's leftmost Slot based on Charge Potency on self (max 5)\n- When hit, gain +1 Charge Count and 1 Load next turn (max 5 per turn)\n- If this unit is in Panic or in E.G.O Corrosion at Turn Start, or if this unit is Staggered, lose this effect"
+    },
     "DuelDeclaration_Camille": {
         "buffType": "Negative",
         "categoryKeywordList": [
@@ -1742,12 +1762,17 @@
     "BloodyCrave": {
         "buffType": "Positive",
         "name": "Bloodtinged Craving",
-        "desc": "- Gain 1 Clash Power Up and 1 Damage Up every turn\n- On Hit, gain 1 Stored Blood\n- If this unit did not gain Stored Blood this turn, gain 2 Fragile, 1 Haste, and 4 Offense Level Up next turn instead of the above effect"
+        "desc": "- Gain 1 Clash Power Up and 1 Damage Up\n- On Hit, gain 1 Stored Blood\n- If this unit did not gain Stored Blood this turn, gain 2 Fragile, 1 Haste, and 4 Offense Level Up next turn instead of the above effect"
     },
     "HardenedBlood": {
         "buffType": "Positive",
         "name": "Coagulated Blood",
         "desc": "Gain Offense Level and Defense Level equal to the value (max 5)"
+    },
+    "BloodArmorCasting": {
+        "buffType": "Positive",
+        "name": "Hardblood Cast",
+        "desc": "- Max Stack: 3\n- When clashing against enemies with Bleed or Unique Bleed, Clash Power +1\n- When consuming Bloodfeast with an Attack Skill, if there isn't enough Bloodfeast, consume 1 HP for every 1 missing Bloodfeast to generate it before consuming it (the damage from this effect does not Stagger or reduce this unit's HP below 1)\n- Reduced by 1 at Turn End"
     },
     "Refraction4A": {
         "buffType": "Neutral",
@@ -2250,6 +2275,11 @@
         "buffType": "Negative",
         "name": "Reflux",
         "desc": "- Max Stack: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for units without SP, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack"
+    },
+    "EmergencyChargeForceField": {
+        "buffType": "Positive",
+        "name": "Emergency Barrier Battery",
+        "desc": "- Max Stack: 7\n- When Staggered, consume all Emergency Barrier Battery Stack and gain Charge Barrier by the Stack consumed"
     },
     "Curse": {
         "buffType": "Negative",

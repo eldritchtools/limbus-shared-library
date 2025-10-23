@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Double Slash - Blast [\u7206]",
-                    "desc": "<style=\"highlight\">Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 2)",
+                    "desc": "<style=\"highlight\">Final Power +1 for every 4 ([Combustion] + [Vibration]) on the main target (max 2)",
                     "coinDescs": [
                         [
                             "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Vibration]"
@@ -70,7 +70,7 @@
                 {
                     "uptie": 4,
                     "name": "Double Slash - Blast [\u7206]",
-                    "desc": "Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max <style=\"highlight\">3)",
+                    "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on the main target (max <style=\"highlight\">3)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\">"
@@ -152,7 +152,7 @@
                 {
                     "uptie": 2,
                     "name": "Triple Slash - Blast [\u7206]",
-                    "desc": "<style=\"highlight\">Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 2)",
+                    "desc": "<style=\"highlight\">Final Power +1 for every 4 ([Combustion] + [Vibration]) on the main target (max 2)",
                     "coinDescs": [
                         [
                             "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Vibration]"
@@ -173,7 +173,7 @@
                 {
                     "uptie": 4,
                     "name": "Triple Slash - Blast [\u7206]",
-                    "desc": "Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max <style=\"highlight\">4)",
+                    "desc": "Final Power +1 for every 4 ([Combustion] + [Vibration]) on the main target (max <style=\"highlight\">4)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\">"
@@ -226,7 +226,7 @@
                 {
                     "uptie": 3,
                     "name": "Tanglecleaver [\u5feb\u5200\u4e82\u9ebb]",
-                    "desc": "If this unit has [BulletPropellantSpecialAlly], activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n- [BeforeUse] If this unit does not have [BulletPropellantSpecialAlly], cancel activation\nIf the main target has 8+ (sum of [Combustion] and [Vibration]), Coin Power +1",
+                    "desc": "If this unit has [BulletPropellantSpecialAlly], activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n- [BeforeUse] If this unit does not have [BulletPropellantSpecialAlly], cancel activation\nIf the main target has 8+ ([Combustion] + [Vibration]), Coin Power +1",
                     "coinDescs": [
                         [
                             "Spend 1 [BulletPropellantAlly]",
@@ -249,7 +249,7 @@
                 {
                     "uptie": 4,
                     "name": "Tanglecleaver [\u5feb\u5200\u4e82\u9ebb]",
-                    "desc": "If this unit has [BulletPropellantSpecialAlly], activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n- [BeforeUse] If this unit does not have [BulletPropellantSpecialAlly], cancel activation\n<style=\"highlight\">Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on the main target), (max 2)",
+                    "desc": "If this unit has [BulletPropellantSpecialAlly], activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n- [BeforeUse] If this unit does not have [BulletPropellantSpecialAlly], cancel activation\n<style=\"highlight\">Coin Power +1 for every 8 ([Combustion] + [Vibration]) on the main target, (max 2)",
                     "coinDescs": [
                         [
                             "Spend 1 [BulletPropellantAlly]<style=\"highlight\">",
@@ -308,7 +308,7 @@
                 {
                     "uptie": 3,
                     "name": "Savage Tigerslayer's Perfected Flurry of Blades [\u8d85\u7d55\u731b\u864e\u6bba\u64ca\u4e82\u65ac]",
-                    "desc": "If the main target has 8+ (sum of [Combustion] and [Vibration]), Coin Power +1",
+                    "desc": "If the main target has 8+ ([Combustion] + [Vibration]), Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]"
@@ -334,7 +334,7 @@
                 {
                     "uptie": 4,
                     "name": "Savage Tigerslayer's Perfected Flurry of Blades [\u8d85\u7d55\u731b\u864e\u6bba\u64ca\u4e82\u65ac]",
-                    "desc": "<style=\"highlight\">Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on the main target) (max 2)",
+                    "desc": "<style=\"highlight\">Coin Power +1 for every 8 ([Combustion] + [Vibration]) on the main target (max 2)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Vibration]"
@@ -390,7 +390,7 @@
                 {
                     "uptie": 1,
                     "name": "I'm Burning Up.",
-                    "desc": "[DuelCounter]\nIf the main target has 4+ (sum of [Combustion] and [Vibration]), Final Power +1\nIf [BulletPropellantAlly] (or [BulletPropellantSpecialAlly]) is at 0, Clash Power +1",
+                    "desc": "[DuelCounter]\nIf the main target has 4+ ([Combustion] + [Vibration]), Final Power +1\nIf [BulletPropellantAlly] (or [BulletPropellantSpecialAlly]) is at 0, Clash Power +1",
                     "coinDescs": [
                         [],
                         [
@@ -401,7 +401,7 @@
                 {
                     "uptie": 4,
                     "name": "I'm Burning Up.",
-                    "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every 4 (sum of [Combustion] and [Vibration] on the main target) (max 2)\nIf [BulletPropellantAlly] (or [BulletPropellantSpecialAlly]) is at 0, Clash Power <style=\"highlight\">+2",
+                    "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every 4 ([Combustion] + [Vibration]) on the main target (max 2)\nIf [BulletPropellantAlly] (or [BulletPropellantSpecialAlly]) is at 0, Clash Power <style=\"highlight\">+2",
                     "coinDescs": [
                         [
                             "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Vibration] (2 times per turn)"

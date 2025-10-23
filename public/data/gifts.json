@@ -3007,7 +3007,8 @@
         ],
         "search_desc": "Turn End: among Identities with 5- Speed, the one with the slowest Speed gains 1 Haste next turn.",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9733": {
@@ -3021,7 +3022,8 @@
         ],
         "search_desc": "When an ally loses HP due to their own Attack Skill effect, heal half of the HP lost due to the Skill effect at the next Turn Start. (rounded down)\n\nWhen an ally heals HP due to an E.G.O Skill effect, heal +12.5% more HP. (rounded down)",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9734": {
@@ -3035,7 +3037,8 @@
         ],
         "search_desc": "Skill 1s that gain Charge Count or 'Unique Charge' gain Clash Power +1 and deal +5% damage.\n\nIf that Skill 1 was a Single-coin Skill, gain Clash Power +1 and deal +12.5% damage instead.\n\nIf a W Corp. Identity dealt damage to an enemy with an Envy Skill(including E.G.O Skills), inflict 2 HP Healing Down. (does not stack)",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9735": {
@@ -3049,7 +3052,8 @@
         ],
         "search_desc": "Skill 1s that gain Charge Count or 'Unique Charge' gain Clash Power +2.\n\nWhen using a Skill 1 that gains Charge Count, gain +2 Charge Count and 1 Charge Barrier. (once per turn)\n\nIf a W Corp. Identity takes HP damage due to any effect other than a direct damage, gain 5 Charge Barrier. (once per turn)",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9736": {
@@ -3063,7 +3067,8 @@
         ],
         "search_desc": "Allies with Charge Count or 'Unique Charge' gain 1 Offense Level with every Clash. (max 6. Resets After Attack)\n\nTurn End: Identities with 10+ (Charge Count + 'Unique Charge') gain 1 Haste next turn. At 18+ (Charge Count + 'Unique Charge'), gain 3 Offense Level Up as well.",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9737": {
@@ -3077,7 +3082,8 @@
         ],
         "search_desc": "When an ally with Charge Count or 'Unique Charge' loses a Clash, gain Shield equal to (Charge Count + 'Unique Charge'). (once per turn)\n\nWhen at 50%- HP, gain ((Charge Count + 'Unique Charge') x 2) Shield instead. (once per turn)\n\nIf a MultiCrack Office Identity received HP damage during this Encounter: next turn, they heal 33% of the HP lost last turn. (rounded down)",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9738": {
@@ -3092,7 +3098,8 @@
         "search_desc": "Next turn: allies gain Haste and Charge Count equal to the number of Charge Count or 'Unique Charge' gaining base Attack Skills they used this turn. (max 2)\n\nWhen a MultiCrack Office Identity gains or consumes Charge Count with a base Attack Skill, they gain +1 additional Charge Count. (max 2)",
         "imageOverride": "Prosthetic Join Servos",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9739": {
@@ -3106,7 +3113,8 @@
         ],
         "search_desc": "Turn End: If this unit has Bleed, halve the Bleed Potency on self and heal (Bleed Potency reduced x Bleed Count on self) HP. (rounded down. Can heal up to 10% of max HP at once)",
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9740": {
@@ -3127,7 +3135,8 @@
             ]
         ],
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9741": {
@@ -3148,7 +3157,8 @@
             ]
         ],
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9742": {
@@ -3169,7 +3179,8 @@
             ]
         ],
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9743": {
@@ -3190,7 +3201,8 @@
             ]
         ],
         "exclusiveTo": [
-            "I6-2"
+            "I6-2",
+            "I6-2B"
         ]
     },
     "9991": {
@@ -4539,9 +4551,9 @@
             "Sorrowful Exhale"
         ],
         "descs": [
-            "If the #5 Deployed ally has 50+ (sum of [Breath] Potency and [Breath] Count): their Skill Coins, when attacking after Clash Win or when using Unopposed Attacks, always flip Heads(for Minus Coins, Tails), and deal +80% damage on Critical Hit. (once per Encounter, except E.G.O Skills)\n\nIf there are 5 or more Deployed allies with Attack Skills that apply or gain [Breath] Potency or [Breath] Count, #5 Deployed ally deals +60% damage on Critical Hit (additional +20% damage on Critical Hit for every 1 Deployed Identity beyond the conditional, including Backup Units)"
+            "If the #5 Deployed ally has 50+ (sum of [Breath] Potency and [Breath] Count): their Skill Coins, when attacking after Clash Win or when using Unopposed Attacks, always flip Heads(for Minus Coins, Tails), and deal +80% damage on Critical Hit. (once per Encounter, except E.G.O Skills)\n\nIf there are 5 or more allies in the Team loadout with Attack Skills that apply or gain [Breath] Potency or [Breath] Count, #5 Deployed ally deals +60% damage on Critical Hit (additional +20% damage on Critical Hit for every 1 Deployed Identity beyond the conditional, including Backup Units)"
         ],
-        "search_desc": "If the #5 Deployed ally has 50+ (sum of Poise Potency and Poise Count): their Skill Coins, when attacking after Clash Win or when using Unopposed Attacks, always flip Heads(for Minus Coins, Tails), and deal +80% damage on Critical Hit. (once per Encounter, except E.G.O Skills)\n\nIf there are 5 or more Deployed allies with Attack Skills that apply or gain Poise Potency or Poise Count, #5 Deployed ally deals +60% damage on Critical Hit (additional +20% damage on Critical Hit for every 1 Deployed Identity beyond the conditional, including Backup Units)",
+        "search_desc": "If the #5 Deployed ally has 50+ (sum of Poise Potency and Poise Count): their Skill Coins, when attacking after Clash Win or when using Unopposed Attacks, always flip Heads(for Minus Coins, Tails), and deal +80% damage on Critical Hit. (once per Encounter, except E.G.O Skills)\n\nIf there are 5 or more allies in the Team loadout with Attack Skills that apply or gain Poise Potency or Poise Count, #5 Deployed ally deals +60% damage on Critical Hit (additional +20% damage on Critical Hit for every 1 Deployed Identity beyond the conditional, including Backup Units)",
         "exclusiveTo": [
             "R5"
         ]
@@ -4553,9 +4565,9 @@
             "Lightning Axe"
         ],
         "descs": [
-            "On Hit with Skills that consume [Charge] Count: inflict 1 [Burst] (3 times per Skill; including 'Unique Charge')\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply [Burst] or gain [Charge] are Deployed. (except E.G.O Skills; includes Backup Units)\n\n- At 6+...\nWhen dealing [Burst] damage to enemies, gain +1 [Charge] Count (3 times per Skill)\n\n- At 8+...\nOn Hit with Skills that consume [Charge] Count, inflict +1 [Burst] Count (3 times per Skill; including 'Unique Charge')"
+            "On Hit with Skills that consume [Charge] Count: inflict 1 [Burst] (3 times per Skill; including 'Unique Charge')\n\nThis E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that apply [Burst] or gain [Charge]. (except E.G.O Skills; counts all units in the Team)\n\n- At 6+...\nWhen dealing [Burst] damage to enemies, gain +1 [Charge] Count (3 times per Skill)\n\n- At 8+...\nOn Hit with Skills that consume [Charge] Count, inflict +1 [Burst] Count (3 times per Skill; including 'Unique Charge')"
         ],
-        "search_desc": "On Hit with Skills that consume Charge Count: inflict 1 Rupture (3 times per Skill; including 'Unique Charge')\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply Rupture or gain Charge are Deployed. (except E.G.O Skills; includes Backup Units)\n\n- At 6+...\nWhen dealing Rupture damage to enemies, gain +1 Charge Count (3 times per Skill)\n\n- At 8+...\nOn Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill; including 'Unique Charge')",
+        "search_desc": "On Hit with Skills that consume Charge Count: inflict 1 Rupture (3 times per Skill; including 'Unique Charge')\n\nThis E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that apply Rupture or gain Charge. (except E.G.O Skills; counts all units in the Team)\n\n- At 6+...\nWhen dealing Rupture damage to enemies, gain +1 Charge Count (3 times per Skill)\n\n- At 8+...\nOn Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill; including 'Unique Charge')",
         "imageOverride": "Lightening Axe",
         "exclusiveTo": [
             "C8-1"
@@ -4568,9 +4580,9 @@
             "Flower in the Mirror"
         ],
         "descs": [
-            "Every Turn Start: inflict 3 [Burst] Potency and +1 [Burst] Count against all enemies (for Focused Encounters, all Parts)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply [Burst] or gain [Breath] are Deployed. (except E.G.O Skills; includes Backup Units)\n\n- At 6+...\nWhen [Burst] damage occurs On Hit with a Skill, gain +1 [Breath] Count (3 times per Skill)\n\n- At 10+...\nOn Crit with a Skill, inflict +1 [Burst] Count (3 times per Skill)"
+            "Every Turn Start: inflict 3 [Burst] Potency and +1 [Burst] Count against all enemies (for Focused Encounters, all Parts)\n\nThis E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that apply [Burst] or gain [Breath]. (except E.G.O Skills; counts all units in the Team)\n\n- At 6+...\nWhen [Burst] damage occurs On Hit with a Skill, gain +1 [Breath] Count (3 times per Skill)\n\n- At 10+...\nOn Crit with a Skill, inflict +1 [Burst] Count (3 times per Skill)"
         ],
-        "search_desc": "Every Turn Start: inflict 3 Rupture Potency and +1 Rupture Count against all enemies (for Focused Encounters, all Parts)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply Rupture or gain Poise are Deployed. (except E.G.O Skills; includes Backup Units)\n\n- At 6+...\nWhen Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per Skill)\n\n- At 10+...\nOn Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
+        "search_desc": "Every Turn Start: inflict 3 Rupture Potency and +1 Rupture Count against all enemies (for Focused Encounters, all Parts)\n\nThis E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that apply Rupture or gain Poise. (except E.G.O Skills; counts all units in the Team)\n\n- At 6+...\nWhen Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per Skill)\n\n- At 10+...\nOn Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
         "exclusiveTo": [
             "C8-2"
         ]
@@ -4582,9 +4594,9 @@
             "Moon in the Water"
         ],
         "descs": [
-            "On Hit against enemies with 5+ [Burst] Potency: gain 1 [Breath] Potency and +1 [Breath] Count (3 times per Skill)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply [Burst] or gain [Breath] are Deployed. (except E.G.O Skills; includes Backup Units)\n\nOn Hit with a Skill: if target has 20+ [Burst], deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every 1 Deployed Identity that fit the above condition)\n\n- At 12+...\nOn Hit with a Skill: if it hit Critically, remove 1 random removable negative effect applied to self (once per turn, per Identity) "
+            "On Hit against enemies with 5+ [Burst] Potency: gain 1 [Breath] Potency and +1 [Breath] Count (3 times per Skill)\n\nThis E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that apply [Burst] or gain [Breath]. (except E.G.O Skills; counts all units in the Team)\n\nOn Hit with a Skill: if target has 20+ [Burst], deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every 1 Deployed Identity that fit the above condition)\n\n- At 12+...\nOn Hit with a Skill: if it hit Critically, remove 1 random removable negative effect applied to self (once per turn, per Identity) "
         ],
-        "search_desc": "On Hit against enemies with 5+ Rupture Potency: gain 1 Poise Potency and +1 Poise Count (3 times per Skill)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply Rupture or gain Poise are Deployed. (except E.G.O Skills; includes Backup Units)\n\nOn Hit with a Skill: if target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every 1 Deployed Identity that fit the above condition)\n\n- At 12+...\nOn Hit with a Skill: if it hit Critically, remove 1 random removable negative effect applied to self (once per turn, per Identity) ",
+        "search_desc": "On Hit against enemies with 5+ Rupture Potency: gain 1 Poise Potency and +1 Poise Count (3 times per Skill)\n\nThis E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that apply Rupture or gain Poise. (except E.G.O Skills; counts all units in the Team)\n\nOn Hit with a Skill: if target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every 1 Deployed Identity that fit the above condition)\n\n- At 12+...\nOn Hit with a Skill: if it hit Critically, remove 1 random removable negative effect applied to self (once per turn, per Identity) ",
         "exclusiveTo": [
             "C8-2"
         ]
@@ -4687,6 +4699,116 @@
         "exclusiveTo": [
             "I6-1B"
         ]
+    },
+    "9840": {
+        "tier": "2",
+        "keyword": "Charge",
+        "names": [
+            "W Corp. Standard Issue Cap"
+        ],
+        "descs": [
+            "After using a Skill that gains [Charge] Count or <noparse>Unique Charge</noparse>, gain [EmergencyChargeForceField] equal to the Count gained (max 7 per Identity)"
+        ],
+        "search_desc": "After using a Skill that gains Charge Count or <noparse>Unique Charge</noparse>, gain Emergency Barrier Battery equal to the Count gained (max 7 per Identity)",
+        "exclusiveTo": [
+            "I6-2B"
+        ]
+    },
+    "9841": {
+        "tier": "4",
+        "keyword": "Charge",
+        "names": [
+            "Cleanup Agent Gear Set C"
+        ],
+        "descs": [
+            "After using a Skill that gains [Charge] Count or <noparse>Unique Charge</noparse>, gain [EmergencyChargeForceField] equal to Count gained (max 7 per Identity)\n\nSkills that consume [Charge] Count or <noparse>Unique Charge</noparse> deal +(number of Identities in the Team with Skills that gain or consume [Charge] Count or <noparse>Unique Charge</noparse>)% damage (counts all units in the Team)\n\nSkills that consume [Charge] Count or <noparse>Unique Charge</noparse> gain Clash Power +3 and deal +15% damage\n- When using said Skills, the unit gains +4 [Charge] Count and 1 [ChargeForceField] (once per Identity per turn)\n\nW Corp. Identities gain the following effects:\n- When dealing damage with a Skill(including E.G.O Skills), inflict 2 [TakeHpHealReduce] (cannot Stack)\n- During the combat phase, when this unit takes HP damage from sources other than direct Skill damage, gain 5 [ChargeForceField] (once per turn per Identity)\n- Skill 2 gains Clash Power +3 and deals +15% damage\n- Turn Start: for this turn, Skill 3 deals +(number of W Corp. Identities on the field x 6.25)% damage\n- Turn Start: W Corp. L2 Agents gain 1 [PlusCoinValueUp]\n- Turn Start: gain (number of W Corp. Identities on the field / 3) [ChargeLoad] (max 2; rounded down)"
+        ],
+        "search_desc": "After using a Skill that gains Charge Count or <noparse>Unique Charge</noparse>, gain Emergency Barrier Battery equal to Count gained (max 7 per Identity)\n\nSkills that consume Charge Count or <noparse>Unique Charge</noparse> deal +(number of Identities in the Team with Skills that gain or consume Charge Count or <noparse>Unique Charge</noparse>)% damage (counts all units in the Team)\n\nSkills that consume Charge Count or <noparse>Unique Charge</noparse> gain Clash Power +3 and deal +15% damage\n- When using said Skills, the unit gains +4 Charge Count and 1 Charge Barrier (once per Identity per turn)\n\nW Corp. Identities gain the following effects:\n- When dealing damage with a Skill(including E.G.O Skills), inflict 2 HP Healing Down (cannot Stack)\n- During the combat phase, when this unit takes HP damage from sources other than direct Skill damage, gain 5 Charge Barrier (once per turn per Identity)\n- Skill 2 gains Clash Power +3 and deals +15% damage\n- Turn Start: for this turn, Skill 3 deals +(number of W Corp. Identities on the field x 6.25)% damage\n- Turn Start: W Corp. L2 Agents gain 1 Plus Coin Boost\n- Turn Start: gain (number of W Corp. Identities on the field / 3) Load (max 2; rounded down)"
+    },
+    "9842": {
+        "tier": "3",
+        "keyword": "Bleed",
+        "names": [
+            "Bloody Flesh, Fleshy Blood"
+        ],
+        "descs": [
+            "This E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that consume [BloodDinner] (number of Identities that meet the condition represented by \"N\" below; except E.G.O Skills; counts all units in the Team)\n\nFirst Turn Start of a wave: increase [BloodDinner] by (N x 20); then, apply 3 [Laceration] and +3 [Laceration] Count to all targets ([BloodDinner] increased by this effect is capped to 100 per activation)\n\nAllies take -(N x 10%) [Laceration] damage (min 1 [Laceration] damage; max 40%)\n- Reduced damage does not affect the amount of [BloodDinner] increased\n\nEnemies take +(N x 5)% [Laceration] damage (max 20%)"
+        ],
+        "search_desc": "This E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that consume Bloodfeast (number of Identities that meet the condition represented by \"N\" below; except E.G.O Skills; counts all units in the Team)\n\nFirst Turn Start of a wave: increase Bloodfeast by (N x 20); then, apply 3 Bleed and +3 Bleed Count to all targets (Bloodfeast increased by this effect is capped to 100 per activation)\n\nAllies take -(N x 10%) Bleed damage (min 1 Bleed damage; max 40%)\n- Reduced damage does not affect the amount of Bloodfeast increased\n\nEnemies take +(N x 5)% Bleed damage (max 20%)",
+        "exclusiveTo": [
+            "I6-2B"
+        ]
+    },
+    "9843": {
+        "tier": "3",
+        "keyword": "Bleed",
+        "names": [
+            "Hardblood Glaive"
+        ],
+        "descs": [
+            "This E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that consume [BloodDinner] (number of Identities that meet the condition represented by \"N\" below; except E.G.O Skills; counts all units in the Team)\n\nEncounter Start: all allies gain (N - 2)[BloodArmorCasting] (max 3)"
+        ],
+        "search_desc": "This E.G.O Gift's effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that consume Bloodfeast (number of Identities that meet the condition represented by \"N\" below; except E.G.O Skills; counts all units in the Team)\n\nEncounter Start: all allies gain (N - 2)Hardblood Cast (max 3)",
+        "exclusiveTo": [
+            "I6-2B"
+        ]
+    },
+    "9818": {
+        "tier": "3",
+        "keyword": "Charge",
+        "names": [
+            "Discarded Dimensional Gauntlet",
+            "Discarded Dimensional Gauntlet+",
+            "Discarded Dimensional Gauntlet++"
+        ],
+        "descs": [
+            "When dealing damage against enemies with Skills that consume [Charge] Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)",
+            "When dealing damage against enemies with Skills that consume [Charge] Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)\n- Also, inflict 1 [VioletResistDown]",
+            "When dealing damage against enemies with Skills that consume [Charge] Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (2 times per turn)\n- Also, inflict 1 [VioletResistDown] and 1 [AzureResistDown]"
+        ],
+        "enhanceable": true,
+        "search_desc": "When dealing damage against enemies with Skills that consume Charge Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn) , When dealing damage against enemies with Skills that consume Charge Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)\n- Also, inflict 1 Envy Resist Down , When dealing damage against enemies with Skills that consume Charge Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (2 times per turn)\n- Also, inflict 1 Envy Resist Down and 1 Gloom Resist Down",
+        "exclusiveTo": [
+            "I6-2B"
+        ]
+    },
+    "9205": {
+        "tier": "2",
+        "keyword": "Bleed",
+        "names": [
+            "WB Flask"
+        ],
+        "descs": [
+            "Activates when an ally with Attack Skills that inflict [Laceration] or <noparse>Unique Bleed</noparse> dies (once per wave; except E.G.O Skills; if more than 1 ally dies at once, use the highest-level ally among them)\n- All allies heal (9% of the dead Identity) HP and increase [BloodDinner] by (dead Identity's level + 9)\n- All allies gain (dead Identity's level / 9) [AttackUp] next turn (max 6; rounded down)"
+        ],
+        "search_desc": "Activates when an ally with Attack Skills that inflict Bleed or <noparse>Unique Bleed</noparse> dies (once per wave; except E.G.O Skills; if more than 1 ally dies at once, use the highest-level ally among them)\n- All allies heal (9% of the dead Identity) HP and increase Bloodfeast by (dead Identity's level + 9)\n- All allies gain (dead Identity's level / 9) Offense Level Up next turn (max 6; rounded down)"
+    },
+    "9206": {
+        "tier": "3",
+        "keyword": "Bleed",
+        "names": [
+            "Sanguine Fragrance Descends"
+        ],
+        "descs": [
+            "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply [Laceration] or <noparse>Unique Bleed</noparse> (2 times per turn)\n\nIn a Clash using Skills that apply [Laceration] or <noparse>Unique Bleed</noparse> against enemies with [Laceration] or <noparse>Unique Bleed</noparse>, Clash Power +1\n- If 5 or more Identities have Attack Skills that apply [Laceration] or <noparse>Unique Bleed</noparse>, Clash Power +1 and deal +10% damage instead (counts all units in the Team)\n- If there are 10 or more Identities that fit the above description, Clash Power +2 and deal +15% damage instead"
+        ],
+        "search_desc": "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply Bleed or <noparse>Unique Bleed</noparse> (2 times per turn)\n\nIn a Clash using Skills that apply Bleed or <noparse>Unique Bleed</noparse> against enemies with Bleed or <noparse>Unique Bleed</noparse>, Clash Power +1\n- If 5 or more Identities have Attack Skills that apply Bleed or <noparse>Unique Bleed</noparse>, Clash Power +1 and deal +10% damage instead (counts all units in the Team)\n- If there are 10 or more Identities that fit the above description, Clash Power +2 and deal +15% damage instead"
+    },
+    "9817": {
+        "tier": "3",
+        "keyword": "Sinking",
+        "names": [
+            "Blue Starshard",
+            "Blue Starshard+",
+            "Blue Starshard++"
+        ],
+        "descs": [
+            "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or <noparse>Unique Sinking</noparse>, inflict 2 [DefenseDown] (2 times per turn)",
+            "Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or <noparse>Unique Sinking</noparse>, inflict 3 [DefenseDown] (2 times per turn)",
+            "Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or <noparse>Unique Sinking</noparse>, inflict 3 [DefenseDown] (3 times per turn)"
+        ],
+        "enhanceable": true,
+        "search_desc": "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or <noparse>Unique Sinking</noparse>, inflict 2 Defense Level Down (2 times per turn) , Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or <noparse>Unique Sinking</noparse>, inflict 3 Defense Level Down (2 times per turn) , Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or <noparse>Unique Sinking</noparse>, inflict 3 Defense Level Down (3 times per turn)"
     },
     "9759": {
         "tier": "1",
