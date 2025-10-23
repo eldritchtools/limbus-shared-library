@@ -1304,6 +1304,59 @@
         "name": "The Third Wave",
         "desc": "The third wave ends after {0} turn(s)"
     },
+    "UnfinishedDreamMirror": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "IN WHICH IS RECOUNTED THE LIBERATION FROM BLOOD THICKER THAN WATER",
+        "desc": "- At every Turn End: gain 1 Haste and 3 Offense Level Up next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 1 Clash Power Up next turn (once per turn)"
+    },
+    "FragmentOfHopeFamilyMirror": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "O compatriots of my dear child",
+        "desc": "Clash Power +1 per Stack (max 4)\nDeal +5% damage"
+    },
+    "FragmentOfHopeTwoFamilyMirror": {
+        "buffType": "Positive",
+        "categoryKeywordList": [],
+        "name": "Dream her dream together in my stead",
+        "desc": "Clash Power +2 for every value (max 8)\n- Apply Shield to self and all allies at Combat Start\n- On Hit, deal 1 fixed damage"
+    },
+    "DerivativeHugeIrritation": {
+        "buffType": "Positive",
+        "name": "Unrelenting Spirit - Shin [\u525b\u6c23-\u5fc3]",
+        "desc": "- Turn Start: gain 1 Damage Up and 1 Power Up for every 15% missing HP on self (max 5 each)\n- Inflict +3 more Tremor Potency and +1 more Tremor Count with this unit's Skills\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Convert the final Coins of 'Double Slash - Blast' and 'Triple Slash - Burst' to Unbreakable Coins"
+    },
+    "GiveMeCandy": {
+        "buffType": "Negative",
+        "name": "Candy",
+        "desc": "Max Stack: 99\n- Are your hoarding candy all for yourself?"
+    },
+    "HungryCharon": {
+        "buffType": "Negative",
+        "name": "Hunger-Rage",
+        "desc": "Max Stack: 3\nI'm starving. I want candy now"
+    },
+    "FullCharon": {
+        "buffType": "Negative",
+        "name": "Indulged",
+        "desc": "Turn Start: for every 2 Stack, gain 1 Clash Power Down (max 5)"
+    },
+    "VerEmergencyCandy": {
+        "buffType": "Positive",
+        "name": "Backup Candy",
+        "desc": "Turn End: at less than 60% HP...\nHeal 30% HP, heal 15 SP, lose 1 Backup Candy, and 1 Hunger\nAt 0 Stack, apply 1 Incandescent Indulgence, then expires"
+    },
+    "VerHunger": {
+        "buffType": "Neutral",
+        "name": "Hunger",
+        "desc": "Max Stack: 3\nTurn End: gain 2 Offense Level Up and 1 Damage Up next turn for every Stack\nAt max Stack(3), lose 5% HP at Turn End"
+    },
+    "VerShiningFullness": {
+        "buffType": "Positive",
+        "name": "Incandescent Indulgence",
+        "desc": "Gain 30% base HP for this Encounter\nTurn Start: fully heal HP and SP (once per Encounter)"
+    },
     "NetherseaBrand": {
         "buffType": "Neutral",
         "categoryKeywordList": [],

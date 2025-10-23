@@ -20,7 +20,7 @@ function getNameStyle(type) {
 function Status({ id, status=null, includeTooltip = true, includeName = true }) {
     const [statuses, statusesLoading] = useData("statuses");
 
-    const statusObject = status;
+    let statusObject = status;
     if (!statusObject) {
         if (statusesLoading) {
             return null;
@@ -46,8 +46,11 @@ function Status({ id, status=null, includeTooltip = true, includeName = true }) 
     )
 }
 
-function TooltipContent({ status }) {
-    if(!status) return null;
+function TooltipContent({ statusId }) {
+    const [statuses, statusesLoading] = useData("statuses");
+    if(!statusId || statusesLoading) return null;
+
+    const status = statuses[statusId];
     const src = "imageOverride" in status ? status.imageOverride : status.name;
 
     return <div style={tooltipStyle}>
@@ -64,11 +67,9 @@ function TooltipContent({ status }) {
 }
 
 function StatusTooltip() {
-    const [statuses, statusesLoading] = useData("statuses");
-
     return <Tooltip
         id={"limbus-shared-library-status-tooltip"}
-        render={({ content }) => <TooltipContent status={statusesLoading ? null : statuses[content]} />}
+        render={({ content }) => <TooltipContent statusId={content} />}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />

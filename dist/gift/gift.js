@@ -16,6 +16,8 @@ import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
+import { GiftModal } from "./GiftModal";
+import { useState } from "react";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -132,11 +134,19 @@ function Gift(_ref2) {
     _ref2$scale = _ref2.scale,
     scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
     _ref2$includeTooltip = _ref2.includeTooltip,
-    includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip;
+    includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip,
+    _ref2$expandable = _ref2.expandable,
+    expandable = _ref2$expandable === void 0 ? true : _ref2$expandable,
+    expandOverride = _ref2.expandOverride,
+    setExpandOverride = _ref2.setExpandOverride;
   var _useData = useData("gifts"),
     _useData2 = _slicedToArray(_useData, 2),
     gifts = _useData2[0],
     giftsLoading = _useData2[1];
+  var _useState = useState(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    modalOpen = _useState2[0],
+    setModalOpen = _useState2[1];
   var size = 96 * scale;
   var giftObject = gift;
   if (!giftObject) {
@@ -156,27 +166,42 @@ function Gift(_ref2) {
       giftObject = gifts[id];
     }
   }
+  var props = {};
   if (includeTooltip) {
-    return /*#__PURE__*/_jsx("div", {
-      "data-tooltip-id": "limbus-shared-library-gift-tooltip",
-      "data-tooltip-content": giftObject.id,
+    props["data-tooltip-id"] = "limbus-shared-library-gift-tooltip";
+    props["data-tooltip-content"] = giftObject.id;
+  }
+  if (expandable) {
+    props.onClick = function () {
+      return setModalOpen(true);
+    };
+  }
+  var handleModalClose = function handleModalClose() {
+    setModalOpen(false);
+    if (setExpandOverride) setExpandOverride(false);
+  };
+  return /*#__PURE__*/_jsxs("div", {
+    children: [/*#__PURE__*/_jsx("div", _objectSpread(_objectSpread({}, props), {}, {
       children: /*#__PURE__*/_jsx(GiftIcon, {
         gift: giftObject,
         enhanceRank: enhanceRank,
         scale: scale
       })
-    });
-  } else {
-    return /*#__PURE__*/_jsx(GiftIcon, {
+    })), /*#__PURE__*/_jsx(GiftModal, {
       gift: giftObject,
-      enhanceRank: enhanceRank,
-      scale: scale
-    });
-  }
+      isOpen: modalOpen || expandOverride,
+      onClose: handleModalClose
+    })]
+  });
 }
 function TooltipContent(_ref3) {
-  var gift = _ref3.gift;
-  if (!gift) return null;
+  var giftId = _ref3.giftId;
+  var _useData3 = useData("gifts"),
+    _useData4 = _slicedToArray(_useData3, 2),
+    gifts = _useData4[0],
+    giftsLoading = _useData4[1];
+  if (!giftId || giftsLoading) return null;
+  var gift = gifts[giftId];
   var exclusiveText = function exclusiveText(list) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
@@ -211,7 +236,8 @@ function TooltipContent(_ref3) {
       }), /*#__PURE__*/_jsxs("div", {
         style: {
           display: "flex",
-          gap: "0.5rem"
+          gap: "0.5rem",
+          marginBottom: "0.5rem"
         },
         children: [/*#__PURE__*/_jsxs("div", {
           style: {
@@ -233,21 +259,24 @@ function TooltipContent(_ref3) {
             children: replaceStatusVariables(gift.descs[0], true)
           }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
         })]
+      }), /*#__PURE__*/_jsx("div", {
+        style: {
+          borderTop: "1px #444 dashed",
+          fontSize: "0.8rem",
+          color: "#999"
+        },
+        children: "Click gift to expand"
       })]
     })
   });
 }
 function GiftTooltip() {
-  var _useData3 = useData("gifts"),
-    _useData4 = _slicedToArray(_useData3, 2),
-    gifts = _useData4[0],
-    giftsLoading = _useData4[1];
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
     render: function render(_ref4) {
       var content = _ref4.content;
       return /*#__PURE__*/_jsx(TooltipContent, {
-        gift: giftsLoading ? null : gifts[content]
+        giftId: content
       });
     },
     getTooltipContainer: function getTooltipContainer() {

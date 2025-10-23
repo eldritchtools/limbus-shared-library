@@ -14,12 +14,12 @@ function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) 
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState, useEffect, useRef } from "react";
 import { DATA_ROOT } from "../paths";
 import { jsx as _jsx } from "react/jsx-runtime";
 var DataContext = /*#__PURE__*/createContext();
 function preprocess_data(path, data) {
-  if (["egos_mini", "egos", "identities_mini", "identities"].includes(path)) {
+  if (["egos_mini", "egos", "identities_mini", "identities", "gifts"].includes(path)) {
     return Object.entries(data).reduce(function (acc, _ref) {
       var _ref2 = _slicedToArray(_ref, 2),
         k = _ref2[0],
@@ -39,33 +39,51 @@ export function DataProvider(_ref3) {
     _useState2 = _slicedToArray(_useState, 2),
     dataStore = _useState2[0],
     setDataStore = _useState2[1];
+  var inFlight = useRef({});
   var getData = /*#__PURE__*/function () {
-    var _ref4 = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee(path) {
-      var res, json, data;
-      return _regenerator().w(function (_context) {
-        while (1) switch (_context.n) {
+    var _ref4 = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee2(path) {
+      var promise;
+      return _regenerator().w(function (_context2) {
+        while (1) switch (_context2.n) {
           case 0:
             if (!(path in dataStore)) {
-              _context.n = 1;
+              _context2.n = 1;
               break;
             }
-            return _context.a(2, dataStore[path]);
+            return _context2.a(2, dataStore[path]);
           case 1:
-            _context.n = 2;
-            return fetch("".concat(DATA_ROOT, "/").concat(path, ".json"));
+            if (!inFlight.current[path]) {
+              _context2.n = 2;
+              break;
+            }
+            return _context2.a(2, inFlight.current[path]);
           case 2:
-            res = _context.v;
-            _context.n = 3;
-            return res.json();
-          case 3:
-            json = _context.v;
-            data = preprocess_data(path, json);
-            setDataStore(function (prev) {
-              return _objectSpread(_objectSpread({}, prev), {}, _defineProperty({}, path, data));
-            });
-            return _context.a(2, data);
+            promise = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee() {
+              var res, json, data;
+              return _regenerator().w(function (_context) {
+                while (1) switch (_context.n) {
+                  case 0:
+                    _context.n = 1;
+                    return fetch("".concat(DATA_ROOT, "/").concat(path, ".json"));
+                  case 1:
+                    res = _context.v;
+                    _context.n = 2;
+                    return res.json();
+                  case 2:
+                    json = _context.v;
+                    data = preprocess_data(path, json);
+                    setDataStore(function (prev) {
+                      return _objectSpread(_objectSpread({}, prev), {}, _defineProperty({}, path, data));
+                    });
+                    delete inFlight.current[path];
+                    return _context.a(2, data);
+                }
+              }, _callee);
+            }))();
+            inFlight.current[path] = promise;
+            return _context2.a(2, promise);
         }
-      }, _callee);
+      }, _callee2);
     }));
     return function getData(_x) {
       return _ref4.apply(this, arguments);

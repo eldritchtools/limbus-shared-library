@@ -1,5 +1,4 @@
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
-function _readOnlyError(r) { throw new TypeError('"' + r + '" is read-only'); }
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -85,7 +84,7 @@ function Status(_ref) {
         children: ["Unknown status: ", id]
       });
     } else {
-      statuses[id], _readOnlyError("statusObject");
+      statusObject = statuses[id];
     }
   }
   var src = "imageOverride" in statusObject ? statusObject.imageOverride : statusObject.name;
@@ -106,8 +105,13 @@ function Status(_ref) {
   });
 }
 function TooltipContent(_ref2) {
-  var status = _ref2.status;
-  if (!status) return null;
+  var statusId = _ref2.statusId;
+  var _useData3 = useData("statuses"),
+    _useData4 = _slicedToArray(_useData3, 2),
+    statuses = _useData4[0],
+    statusesLoading = _useData4[1];
+  if (!statusId || statusesLoading) return null;
+  var status = statuses[statusId];
   var src = "imageOverride" in status ? status.imageOverride : status.name;
   return /*#__PURE__*/_jsx("div", {
     style: tooltipStyle,
@@ -142,16 +146,12 @@ function TooltipContent(_ref2) {
   });
 }
 function StatusTooltip() {
-  var _useData3 = useData("statuses"),
-    _useData4 = _slicedToArray(_useData3, 2),
-    statuses = _useData4[0],
-    statusesLoading = _useData4[1];
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-status-tooltip",
     render: function render(_ref3) {
       var content = _ref3.content;
       return /*#__PURE__*/_jsx(TooltipContent, {
-        status: statusesLoading ? null : statuses[content]
+        statusId: content
       });
     },
     getTooltipContainer: function getTooltipContainer() {

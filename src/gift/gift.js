@@ -4,6 +4,8 @@ import { themePacks } from "../data/mdData";
 import replaceStatusVariables from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
+import { GiftModal } from "./GiftModal";
+import { useState } from "react";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -46,8 +48,9 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
     </div>
 }
 
-function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = true }) {
+function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = true, expandable = true, expandOverride, setExpandOverride }) {
     const [gifts, giftsLoading] = useData("gifts");
+    const [modalOpen, setModalOpen] = useState(false);
     const size = 96 * scale;
 
     let giftObject = gift;
@@ -64,17 +67,32 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = tr
         }
     }
 
+    const props = {};
     if (includeTooltip) {
-        return <div data-tooltip-id={"limbus-shared-library-gift-tooltip"} data-tooltip-content={giftObject.id}>
-            <GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} />
-        </div>
-    } else {
-        return <GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} />
+        props["data-tooltip-id"] = "limbus-shared-library-gift-tooltip"
+        props["data-tooltip-content"] = giftObject.id
     }
+
+    if (expandable) {
+        props.onClick = () => setModalOpen(true);
+    }
+
+    const handleModalClose = () => {
+        setModalOpen(false);
+        if(setExpandOverride) setExpandOverride(false);
+    }
+
+    return <div>
+        <div {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} /></div>
+        <GiftModal gift={giftObject} isOpen={modalOpen || expandOverride} onClose={handleModalClose} />
+    </div>;
 }
 
-function TooltipContent({ gift }) {
-    if (!gift) return null;
+function TooltipContent({ giftId }) {
+    const [gifts, giftsLoading] = useData("gifts");
+    if (!giftId || giftsLoading) return null;
+
+    const gift = gifts[giftId];
 
     const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <br />
@@ -85,7 +103,7 @@ function TooltipContent({ gift }) {
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
             <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
-            <div style={{ display: "flex", gap: "0.5rem" }}>
+            <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.5rem" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <GiftIcon gift={gift} />
                     {gift.enhanceable ? <span>Enhanceable</span> : null}
@@ -95,16 +113,17 @@ function TooltipContent({ gift }) {
                     {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
                 </div>
             </div>
+            <div style={{borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999"}}>
+                Click gift to expand
+            </div>
         </div>
     </div>
 }
 
 function GiftTooltip() {
-    const [gifts, giftsLoading] = useData("gifts");
-
     return <Tooltip
         id={"limbus-shared-library-gift-tooltip"}
-        render={({ content }) => <TooltipContent gift={giftsLoading ? null : gifts[content]} />}
+        render={({ content }) => <TooltipContent giftId={content} />}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />

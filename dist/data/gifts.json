@@ -4707,9 +4707,9 @@
             "W Corp. Standard Issue Cap"
         ],
         "descs": [
-            "After using a Skill that gains [Charge] Count or <noparse>Unique Charge</noparse>, gain [EmergencyChargeForceField] equal to the Count gained (max 7 per Identity)"
+            "After using a Skill that gains [Charge] Count or Unique Charge, gain [EmergencyChargeForceField] equal to the Count gained (max 7 per Identity)"
         ],
-        "search_desc": "After using a Skill that gains Charge Count or <noparse>Unique Charge</noparse>, gain Emergency Barrier Battery equal to the Count gained (max 7 per Identity)",
+        "search_desc": "After using a Skill that gains Charge Count or Unique Charge, gain Emergency Barrier Battery equal to the Count gained (max 7 per Identity)",
         "exclusiveTo": [
             "I6-2B"
         ]
@@ -4721,9 +4721,21 @@
             "Cleanup Agent Gear Set C"
         ],
         "descs": [
-            "After using a Skill that gains [Charge] Count or <noparse>Unique Charge</noparse>, gain [EmergencyChargeForceField] equal to Count gained (max 7 per Identity)\n\nSkills that consume [Charge] Count or <noparse>Unique Charge</noparse> deal +(number of Identities in the Team with Skills that gain or consume [Charge] Count or <noparse>Unique Charge</noparse>)% damage (counts all units in the Team)\n\nSkills that consume [Charge] Count or <noparse>Unique Charge</noparse> gain Clash Power +3 and deal +15% damage\n- When using said Skills, the unit gains +4 [Charge] Count and 1 [ChargeForceField] (once per Identity per turn)\n\nW Corp. Identities gain the following effects:\n- When dealing damage with a Skill(including E.G.O Skills), inflict 2 [TakeHpHealReduce] (cannot Stack)\n- During the combat phase, when this unit takes HP damage from sources other than direct Skill damage, gain 5 [ChargeForceField] (once per turn per Identity)\n- Skill 2 gains Clash Power +3 and deals +15% damage\n- Turn Start: for this turn, Skill 3 deals +(number of W Corp. Identities on the field x 6.25)% damage\n- Turn Start: W Corp. L2 Agents gain 1 [PlusCoinValueUp]\n- Turn Start: gain (number of W Corp. Identities on the field / 3) [ChargeLoad] (max 2; rounded down)"
+            "After using a Skill that gains [Charge] Count or Unique Charge, gain [EmergencyChargeForceField] equal to Count gained (max 7 per Identity)\n\nSkills that consume [Charge] Count or Unique Charge deal +(number of Identities in the Team with Skills that gain or consume [Charge] Count or Unique Charge)% damage (counts all units in the Team)\n\nSkills that consume [Charge] Count or Unique Charge gain Clash Power +3 and deal +15% damage\n- When using said Skills, the unit gains +4 [Charge] Count and 1 [ChargeForceField] (once per Identity per turn)\n\nW Corp. Identities gain the following effects:\n- When dealing damage with a Skill(including E.G.O Skills), inflict 2 [TakeHpHealReduce] (cannot Stack)\n- During the combat phase, when this unit takes HP damage from sources other than direct Skill damage, gain 5 [ChargeForceField] (once per turn per Identity)\n- Skill 2 gains Clash Power +3 and deals +15% damage\n- Turn Start: for this turn, Skill 3 deals +(number of W Corp. Identities on the field x 6.25)% damage\n- Turn Start: W Corp. L2 Agents gain 1 [PlusCoinValueUp]\n- Turn Start: gain (number of W Corp. Identities on the field / 3) [ChargeLoad] (max 2; rounded down)"
         ],
-        "search_desc": "After using a Skill that gains Charge Count or <noparse>Unique Charge</noparse>, gain Emergency Barrier Battery equal to Count gained (max 7 per Identity)\n\nSkills that consume Charge Count or <noparse>Unique Charge</noparse> deal +(number of Identities in the Team with Skills that gain or consume Charge Count or <noparse>Unique Charge</noparse>)% damage (counts all units in the Team)\n\nSkills that consume Charge Count or <noparse>Unique Charge</noparse> gain Clash Power +3 and deal +15% damage\n- When using said Skills, the unit gains +4 Charge Count and 1 Charge Barrier (once per Identity per turn)\n\nW Corp. Identities gain the following effects:\n- When dealing damage with a Skill(including E.G.O Skills), inflict 2 HP Healing Down (cannot Stack)\n- During the combat phase, when this unit takes HP damage from sources other than direct Skill damage, gain 5 Charge Barrier (once per turn per Identity)\n- Skill 2 gains Clash Power +3 and deals +15% damage\n- Turn Start: for this turn, Skill 3 deals +(number of W Corp. Identities on the field x 6.25)% damage\n- Turn Start: W Corp. L2 Agents gain 1 Plus Coin Boost\n- Turn Start: gain (number of W Corp. Identities on the field / 3) Load (max 2; rounded down)"
+        "search_desc": "After using a Skill that gains Charge Count or Unique Charge, gain Emergency Barrier Battery equal to Count gained (max 7 per Identity)\n\nSkills that consume Charge Count or Unique Charge deal +(number of Identities in the Team with Skills that gain or consume Charge Count or Unique Charge)% damage (counts all units in the Team)\n\nSkills that consume Charge Count or Unique Charge gain Clash Power +3 and deal +15% damage\n- When using said Skills, the unit gains +4 Charge Count and 1 Charge Barrier (once per Identity per turn)\n\nW Corp. Identities gain the following effects:\n- When dealing damage with a Skill(including E.G.O Skills), inflict 2 HP Healing Down (cannot Stack)\n- During the combat phase, when this unit takes HP damage from sources other than direct Skill damage, gain 5 Charge Barrier (once per turn per Identity)\n- Skill 2 gains Clash Power +3 and deals +15% damage\n- Turn Start: for this turn, Skill 3 deals +(number of W Corp. Identities on the field x 6.25)% damage\n- Turn Start: W Corp. L2 Agents gain 1 Plus Coin Boost\n- Turn Start: gain (number of W Corp. Identities on the field / 3) Load (max 2; rounded down)",
+        "fusion": true,
+        "recipes": [
+            [
+                9734,
+                9735,
+                9840
+            ]
+        ],
+        "exclusiveTo": [
+            "I6-2",
+            "I6-2B"
+        ]
     },
     "9842": {
         "tier": "3",
@@ -4762,12 +4774,12 @@
             "Discarded Dimensional Gauntlet++"
         ],
         "descs": [
-            "When dealing damage against enemies with Skills that consume [Charge] Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)",
-            "When dealing damage against enemies with Skills that consume [Charge] Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)\n- Also, inflict 1 [VioletResistDown]",
-            "When dealing damage against enemies with Skills that consume [Charge] Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (2 times per turn)\n- Also, inflict 1 [VioletResistDown] and 1 [AzureResistDown]"
+            "When dealing damage against enemies with Skills that consume [Charge] Count or Unique Charge, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)",
+            "When dealing damage against enemies with Skills that consume [Charge] Count or Unique Charge, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)\n- Also, inflict 1 [VioletResistDown]",
+            "When dealing damage against enemies with Skills that consume [Charge] Count or Unique Charge, +0.1 to the lowest Attack Type Resist. for the turn (2 times per turn)\n- Also, inflict 1 [VioletResistDown] and 1 [AzureResistDown]"
         ],
         "enhanceable": true,
-        "search_desc": "When dealing damage against enemies with Skills that consume Charge Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn) , When dealing damage against enemies with Skills that consume Charge Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)\n- Also, inflict 1 Envy Resist Down , When dealing damage against enemies with Skills that consume Charge Count or <noparse>Unique Charge</noparse>, +0.1 to the lowest Attack Type Resist. for the turn (2 times per turn)\n- Also, inflict 1 Envy Resist Down and 1 Gloom Resist Down",
+        "search_desc": "When dealing damage against enemies with Skills that consume Charge Count or Unique Charge, +0.1 to the lowest Attack Type Resist. for the turn (once per turn) , When dealing damage against enemies with Skills that consume Charge Count or Unique Charge, +0.1 to the lowest Attack Type Resist. for the turn (once per turn)\n- Also, inflict 1 Envy Resist Down , When dealing damage against enemies with Skills that consume Charge Count or Unique Charge, +0.1 to the lowest Attack Type Resist. for the turn (2 times per turn)\n- Also, inflict 1 Envy Resist Down and 1 Gloom Resist Down",
         "exclusiveTo": [
             "I6-2B"
         ]
@@ -4779,9 +4791,9 @@
             "WB Flask"
         ],
         "descs": [
-            "Activates when an ally with Attack Skills that inflict [Laceration] or <noparse>Unique Bleed</noparse> dies (once per wave; except E.G.O Skills; if more than 1 ally dies at once, use the highest-level ally among them)\n- All allies heal (9% of the dead Identity) HP and increase [BloodDinner] by (dead Identity's level + 9)\n- All allies gain (dead Identity's level / 9) [AttackUp] next turn (max 6; rounded down)"
+            "Activates when an ally with Attack Skills that inflict [Laceration] or Unique Bleed dies (once per wave; except E.G.O Skills; if more than 1 ally dies at once, use the highest-level ally among them)\n- All allies heal (9% of the dead Identity) HP and increase [BloodDinner] by (dead Identity's level + 9)\n- All allies gain (dead Identity's level / 9) [AttackUp] next turn (max 6; rounded down)"
         ],
-        "search_desc": "Activates when an ally with Attack Skills that inflict Bleed or <noparse>Unique Bleed</noparse> dies (once per wave; except E.G.O Skills; if more than 1 ally dies at once, use the highest-level ally among them)\n- All allies heal (9% of the dead Identity) HP and increase Bloodfeast by (dead Identity's level + 9)\n- All allies gain (dead Identity's level / 9) Offense Level Up next turn (max 6; rounded down)"
+        "search_desc": "Activates when an ally with Attack Skills that inflict Bleed or Unique Bleed dies (once per wave; except E.G.O Skills; if more than 1 ally dies at once, use the highest-level ally among them)\n- All allies heal (9% of the dead Identity) HP and increase Bloodfeast by (dead Identity's level + 9)\n- All allies gain (dead Identity's level / 9) Offense Level Up next turn (max 6; rounded down)"
     },
     "9206": {
         "tier": "3",
@@ -4790,9 +4802,9 @@
             "Sanguine Fragrance Descends"
         ],
         "descs": [
-            "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply [Laceration] or <noparse>Unique Bleed</noparse> (2 times per turn)\n\nIn a Clash using Skills that apply [Laceration] or <noparse>Unique Bleed</noparse> against enemies with [Laceration] or <noparse>Unique Bleed</noparse>, Clash Power +1\n- If 5 or more Identities have Attack Skills that apply [Laceration] or <noparse>Unique Bleed</noparse>, Clash Power +1 and deal +10% damage instead (counts all units in the Team)\n- If there are 10 or more Identities that fit the above description, Clash Power +2 and deal +15% damage instead"
+            "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply [Laceration] or Unique Bleed (2 times per turn)\n\nIn a Clash using Skills that apply [Laceration] or Unique Bleed against enemies with [Laceration] or Unique Bleed, Clash Power +1\n- If 5 or more Identities have Attack Skills that apply [Laceration] or Unique Bleed, Clash Power +1 and deal +10% damage instead (counts all units in the Team)\n- If there are 10 or more Identities that fit the above description, Clash Power +2 and deal +15% damage instead"
         ],
-        "search_desc": "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply Bleed or <noparse>Unique Bleed</noparse> (2 times per turn)\n\nIn a Clash using Skills that apply Bleed or <noparse>Unique Bleed</noparse> against enemies with Bleed or <noparse>Unique Bleed</noparse>, Clash Power +1\n- If 5 or more Identities have Attack Skills that apply Bleed or <noparse>Unique Bleed</noparse>, Clash Power +1 and deal +10% damage instead (counts all units in the Team)\n- If there are 10 or more Identities that fit the above description, Clash Power +2 and deal +15% damage instead"
+        "search_desc": "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply Bleed or Unique Bleed (2 times per turn)\n\nIn a Clash using Skills that apply Bleed or Unique Bleed against enemies with Bleed or Unique Bleed, Clash Power +1\n- If 5 or more Identities have Attack Skills that apply Bleed or Unique Bleed, Clash Power +1 and deal +10% damage instead (counts all units in the Team)\n- If there are 10 or more Identities that fit the above description, Clash Power +2 and deal +15% damage instead"
     },
     "9817": {
         "tier": "3",
@@ -4803,12 +4815,12 @@
             "Blue Starshard++"
         ],
         "descs": [
-            "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or <noparse>Unique Sinking</noparse>, inflict 2 [DefenseDown] (2 times per turn)",
-            "Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or <noparse>Unique Sinking</noparse>, inflict 3 [DefenseDown] (2 times per turn)",
-            "Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or <noparse>Unique Sinking</noparse>, inflict 3 [DefenseDown] (3 times per turn)"
+            "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or Unique Sinking, inflict 2 [DefenseDown] (2 times per turn)",
+            "Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or Unique Sinking, inflict 3 [DefenseDown] (2 times per turn)",
+            "Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ [Sinking])\n- When dealing damage against the affected enemies with Skills that apply [Sinking], [Sinking] Count, or Unique Sinking, inflict 3 [DefenseDown] (3 times per turn)"
         ],
         "enhanceable": true,
-        "search_desc": "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or <noparse>Unique Sinking</noparse>, inflict 2 Defense Level Down (2 times per turn) , Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or <noparse>Unique Sinking</noparse>, inflict 3 Defense Level Down (2 times per turn) , Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or <noparse>Unique Sinking</noparse>, inflict 3 Defense Level Down (3 times per turn)"
+        "search_desc": "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or Unique Sinking, inflict 2 Defense Level Down (2 times per turn) , Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or Unique Sinking, inflict 3 Defense Level Down (2 times per turn) , Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ Sinking)\n- When dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count, or Unique Sinking, inflict 3 Defense Level Down (3 times per turn)"
     },
     "9759": {
         "tier": "1",
