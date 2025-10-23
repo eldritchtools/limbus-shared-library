@@ -1,4 +1,5 @@
 import skillTags from "../data/skillTagsData";
+import { useData } from "../dataProvider/DataProvider";
 import { Status } from "./status";
 
 function replaceStatusVariables(templateText, includeTooltips = true) {
