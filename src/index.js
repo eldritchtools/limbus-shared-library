@@ -13,5 +13,5 @@ export { ThemePackImg } from "./themePack/themePack";
 export { default as replaceStatusVariables } from "./status/statusReplace";
 export { IdentityImg } from "./identity/identity";
 export { EgoImg } from "./ego/ego";
-export { DataProvider, useData } from "./dataProvider/DataProvider";
+export { DataProvider, useData, getMeta } from "./dataProvider/DataProvider";
 export { Icon, RarityImg, SinnerIcon } from "./ImageHandler";

@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, useRef } from "react";
-import { DATA_ROOT } from "../paths";
+import { DATA_ROOT, PUBLIC_ROOT } from "../paths";
 
 const DataContext = createContext();
 
@@ -60,4 +60,8 @@ export function useData(path) {
     }, [path]);
 
     return [data, loading];
+}
+
+export async function getMeta() {
+    return (await fetch(`${PUBLIC_ROOT}/meta.json`)).json();
 }

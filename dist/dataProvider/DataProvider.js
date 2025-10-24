@@ -15,7 +15,7 @@ function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length)
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 import { createContext, useContext, useState, useEffect, useRef } from "react";
-import { DATA_ROOT } from "../paths";
+import { DATA_ROOT, PUBLIC_ROOT } from "../paths";
 import { jsx as _jsx } from "react/jsx-runtime";
 var DataContext = /*#__PURE__*/createContext();
 function preprocess_data(path, data) {
@@ -119,4 +119,21 @@ export function useData(path) {
     });
   }, [path]);
   return [data, loading];
+}
+export function getMeta() {
+  return _getMeta.apply(this, arguments);
+}
+function _getMeta() {
+  _getMeta = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee3() {
+    return _regenerator().w(function (_context3) {
+      while (1) switch (_context3.n) {
+        case 0:
+          _context3.n = 1;
+          return fetch("".concat(PUBLIC_ROOT, "/meta.json"));
+        case 1:
+          return _context3.a(2, _context3.v.json());
+      }
+    }, _callee3);
+  }));
+  return _getMeta.apply(this, arguments);
 }
