@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "public/data/**"
+  workflow_dispatch:
 
 
 jobs:
