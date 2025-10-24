@@ -6,8 +6,6 @@ on:
       - main
     paths:
       - "public/data/**"
-    paths-ignore:
-      - "public/meta.json"
 
 
 jobs:
