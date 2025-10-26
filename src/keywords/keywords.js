@@ -1,10 +1,23 @@
 import { ASSETS_ROOT } from "../paths";
 
 const keywords = ["Burn", "Bleed", "Tremor", "Rupture", "Sinking", "Poise", "Charge", "Slash", "Pierce", "Blunt", "Keywordless"];
-const buttonStyle = {backgroundColor: "#1f1f1f", color: "#ddd", border: "1px #aaa solid", padding: "4px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center"}
+const buttonStyle = {backgroundColor: "#1f1f1f", color: "#ddd", border: "1px #aaa solid", padding: "4px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center"};
+
+const caseMapping = {
+    "slash": "Slash",
+    "pierce": "Pierce",
+    "blunt": "Blunt",
+    "guard": "Guard",
+    "evade": "Evade",
+    "counter": "Counter"
+}
+
+function convertCase(id) {
+    return caseMapping[id] ?? id;
+}
 
 function KeywordIcon({ id, size = 32 }) {
-    return <img src={`${ASSETS_ROOT}/icons/${id}.png`} alt={id} title={id} style={{ width: `${size}px`, height: `${size}px` }} />;
+    return <img src={`${ASSETS_ROOT}/icons/${convertCase(id)}.png`} alt={id} title={id} style={{ width: `${size}px`, height: `${size}px` }} />;
 }
 
 function KeywordSelector({ value, onChange, multiLine = false }) {

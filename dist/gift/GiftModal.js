@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 import { Gift } from "./gift";
 import replaceStatusVariables from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
-import { ThemePackImg } from "../themePack/themePack";
+import { getFloorsForPack, ThemePackImg } from "../themePack/themePack";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var overlayStyle = {
   position: "fixed",
@@ -163,10 +163,44 @@ function GiftDisplay(_ref) {
                 gap: "0.5rem"
               },
               children: gift.exclusiveTo.map(function (packId) {
-                return /*#__PURE__*/_jsx(ThemePackImg, {
-                  id: packId,
-                  displayName: true,
-                  scale: 0.5
+                var _getFloorsForPack = getFloorsForPack(packId),
+                  normal = _getFloorsForPack.normal,
+                  hard = _getFloorsForPack.hard;
+                return /*#__PURE__*/_jsxs("div", {
+                  style: {
+                    display: "flex",
+                    flexDirection: "column"
+                  },
+                  children: [/*#__PURE__*/_jsx(ThemePackImg, {
+                    id: packId,
+                    displayName: true,
+                    scale: 0.5
+                  }), /*#__PURE__*/_jsxs("div", {
+                    style: {
+                      display: "grid",
+                      width: "100%",
+                      gridTemplateColumns: "1fr 1fr"
+                    },
+                    children: [/*#__PURE__*/_jsx("div", {
+                      style: {
+                        color: "#4ade80"
+                      },
+                      children: "Normal"
+                    }), /*#__PURE__*/_jsx("div", {
+                      style: {
+                        color: "#f87171"
+                      },
+                      children: "Hard"
+                    }), /*#__PURE__*/_jsx("div", {
+                      children: normal.length ? normal.map(function (f) {
+                        return "F".concat(f);
+                      }).join(", ") : "None"
+                    }), /*#__PURE__*/_jsx("div", {
+                      children: hard.length ? hard.map(function (f) {
+                        return "F".concat(f);
+                      }).join(", ") : "None"
+                    })]
+                  })]
                 });
               })
             })]

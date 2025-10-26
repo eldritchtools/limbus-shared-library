@@ -23,12 +23,24 @@ var buttonStyle = {
   alignItems: "center",
   justifyContent: "center"
 };
+var caseMapping = {
+  "slash": "Slash",
+  "pierce": "Pierce",
+  "blunt": "Blunt",
+  "guard": "Guard",
+  "evade": "Evade",
+  "counter": "Counter"
+};
+function convertCase(id) {
+  var _caseMapping$id;
+  return (_caseMapping$id = caseMapping[id]) !== null && _caseMapping$id !== void 0 ? _caseMapping$id : id;
+}
 function KeywordIcon(_ref) {
   var id = _ref.id,
     _ref$size = _ref.size,
     size = _ref$size === void 0 ? 32 : _ref$size;
   return /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/icons/").concat(id, ".png"),
+    src: "".concat(ASSETS_ROOT, "/icons/").concat(convertCase(id), ".png"),
     alt: id,
     title: id,
     style: {

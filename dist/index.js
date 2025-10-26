@@ -8,7 +8,7 @@ export { Gift, GiftTooltip } from "./gift/gift";
 export { default as FusionRecipe } from "./gift/FusionRecipe";
 export { keywords, KeywordIcon, KeywordSelector } from "./keywords/keywords";
 export { Status, StatusTooltip } from "./status/status";
-export { ThemePackImg } from "./themePack/themePack";
+export { ThemePackImg, getFloorsPerPack, getFloorsForPack } from "./themePack/themePack";
 export { default as replaceStatusVariables } from "./status/statusReplace";
 export { IdentityImg } from "./identity/identity";
 export { EgoImg } from "./ego/ego";

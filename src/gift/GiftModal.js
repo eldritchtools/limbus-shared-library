@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Gift } from "./gift";
 import replaceStatusVariables from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
-import { ThemePackImg } from "../themePack/themePack";
+import { getFloorsForPack, ThemePackImg } from "../themePack/themePack";
 
 const overlayStyle = {
     position: "fixed",
@@ -66,7 +66,18 @@ function GiftDisplay({ gift }) {
                             <div style={{ display: "flex", flexDirection: "column" }}>
                                 <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Exclusive Theme Packs</span>
                                 <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem" }}>
-                                    {gift.exclusiveTo.map(packId => <ThemePackImg id={packId} displayName={true} scale={0.5} />)}
+                                    {gift.exclusiveTo.map(packId => {
+                                        const { normal, hard } = getFloorsForPack(packId);
+                                        return <div style={{ display: "flex", flexDirection: "column" }}>
+                                            <ThemePackImg id={packId} displayName={true} scale={0.5} />
+                                            <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
+                                                <div style={{ color: "#4ade80" }}>Normal</div>
+                                                <div style={{ color: "#f87171" }}>Hard</div>
+                                                <div>{normal.length ? normal.map(f => `F${f}`).join(", ") : "None"}</div>
+                                                <div>{hard.length ? hard.map(f => `F${f}`).join(", ") : "None"}</div>
+                                            </div>
+                                        </div>
+                                    })}
                                 </div>
                             </div> : null
                     }
