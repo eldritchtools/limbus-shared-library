@@ -1,0 +1,424 @@
+{
+    "skills": {
+        "1081301": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Tsuru-giri [\u9db4\u65ac\u308a]",
+                    "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Tsuru-giri [\u9db4\u65ac\u308a]",
+                    "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] If target has 6+ ([Vibration] + [[Sinking]]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Tsuru-giri [\u9db4\u65ac\u308a]",
+                    "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Vibration] + [[Sinking]]) on target (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count<style=\"highlight\">",
+                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">",
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1081302": {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Susuki Misdirection",
+                    "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Susuki Misdirection",
+                    "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] If target has 6+ ([Vibration] + [[Sinking]]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [[Sinking]]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Vibration]"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Susuki Misdirection",
+                    "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Vibration] + [[Sinking]]) on target (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [[Sinking]]<style=\"highlight\">",
+                            "[OnSucceedAttackHead] Inflict 1 [[Sinking]]<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\">",
+                            "[OnSucceedAttackHead] Inflict 1 [Vibration]<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\">[OnSucceedAttack] Heal 5 SP"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1081303": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Sakura-sen [\u685c\u9583]",
+                    "desc": "Deal +5% damage for every [HanafudaCombo] Potency on self\n[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n[WhenUse] If target has 6+ ([Vibration] + [[Sinking]]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count",
+                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Vibration]",
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]]",
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Sakura-sen [\u685c\u9583]",
+                    "desc": "Deal +<style=\"highlight\">10% damage for every [HanafudaCombo] Potency on self\n[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Vibration] + [[Sinking]]), on target (max 3)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count<style=\"highlight\">",
+                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 3 [[Sinking]]<style=\"highlight\">",
+                            "[OnSucceedAttackHead] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "<style=\"highlight\"> If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +48% damage",
+                            "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1081305": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "K\u014dzan [\u5149\u65ac]",
+                    "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n\n[WhenUse] At less than 3 [HanafudaCombo] Potency, cancel the Skill and gain 2 [Enhancement] next turn\n[WhenUse] At 3+ [HanafudaCombo] Potency, gain the following effects based on Potency:\n- Per 1 Potency: this Skill deals +10% damage\n- At 4+ Potency: Base Power +1\n- At 5 Potency: On Hit with the final Reuse Coin, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 1\n[EndSkillAll] Lose [HanafudaCombo] on self\n[EndSkillAll] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills (once per turn)\n[EndSkillAll] Gain [HanafudaCombo] Potency next turn equal to the # of Coins that weren't used",
+                    "coinDescs": [
+                        [
+                            "Reuse this Coin ([HanafudaCombo] Potency - 1) times (4 times max)",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "K\u014dzan [\u5149\u65ac]",
+                    "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n\n[WhenUse] At less than 3 [HanafudaCombo] Potency, cancel the Skill and gain 2 [Enhancement] next turn\n[WhenUse] At 3+ [HanafudaCombo] Potency, gain the following effects based on Potency:\n- Per 1 Potency: this Skill deals +10% damage\n- At 4+ Potency: Base Power +1\n- At 5 Potency: On Hit with the final Reuse Coin, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 1\n[EndSkillAll] Lose [HanafudaCombo] on self\n[EndSkillAll] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills (once per turn)\n[EndSkillAll] Gain [HanafudaCombo] Potency next turn equal to the # of Coins that weren't used<style=\"highlight\">",
+                    "coinDescs": [
+                        [
+                            "Reuse this Coin ([HanafudaCombo] Potency - 1) times (4 times max)<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count<style=\"highlight\">",
+                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [DefenseDown]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1081304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Shuffle Hands - Floral Deck",
+                    "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Shuffle Hands - Floral Deck",
+                    "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)\n<style=\"highlight\">[StartBattle] 50% chance to gain 1 [HanafudaCombo] Potency (once per turn)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 2 [HanafudaCombo] Potency on self (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [[Sinking]] Count<style=\"highlight\">"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\">"
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1081302
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1081302,
+                1081301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1081321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1081321": {
+            "name": "Relay",
+            "desc": "Combat Start: when 1 ally with the least SP uses a Base Attack Skill to Heads Hit, it heals 5 SP (2 times per turn; excluding allies at -40 or lower SP)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 3
+                    },
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1081301": {
+            "name": "Stacking the Deck",
+            "desc": "On Tails Hit, heal 5 SP (once per turn)\nDeal +10% damage against targets in either Low Morale or Panic states",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "sloth",
+                        "value": 2
+                    },
+                    {
+                        "type": "gloom",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        "1081302": {
+            "name": "Koi-Koi [\u3053\u3044\u3053\u3044]",
+            "desc": "Turn Start: if this unit does not have [HanafudaCombo], gain 0 [HanafudaCombo] Potency and 3 [HanafudaCombo] Count\n\nTurn Start: if this unit does not have a Suit in Hand, gain a random Suit([HanafudaOne], [HanafudaTwo], or [HanafudaThree]) that corresponds to a Base Attack Skill on this unit's leftmost Skill Slot\n\nCombat Start: when this unit uses a Base Attack Skill or an E.G.O Skill equipped on its leftmost Skill Slot, activate the following (once per turn):\n- Next turn, convert the Hand on self to the one corresponding to the used Skill's Affinity\n- If the Skill was either \"Sakura-sen\" or an E.G.O Skill, gain 1 [HanafudaCombo] Potency\n- If the Skill's Affinity matches the Affinity on the current Hand's description(thus \"forming a Hand\"), activate the following:\n  \u00b7 Gain 1 [HanafudaCombo] Potency\n  \u00b7 If this unit formed a Hand last turn and this turn in succession, gain 1 [HanafudaCombo] Potency\n  \u00b7 On Hit with the said Skill: trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n  \u00b7 25% chance to gain 1 E.G.O Resource corresponding to the Skill's Affinity\n- At the Skill's Skill End: at 5 [HanafudaCombo] Potency, or at 0 [HanafudaCombo] Count, use \"K\u014dzan\""
+        }
+    }
+}

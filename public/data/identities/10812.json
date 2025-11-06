@@ -230,12 +230,12 @@
                 {
                     "uptie": 3,
                     "name": "Crimson Spring",
-                    "desc": "[BeforeAttack] If main target has 6+ types of negative effects, Atk Weight +1\n[WhenUse] Coin Power +2 for every 3 types of negative effect on main target (max 4)\n[WhenUse] Coin Power +1 for every 7 (sum of [Burst] + [Burst] Count on main target) (max 3)\n[WinDuel] Gain 4 [Breath]",
+                    "desc": "[BeforeAttack] If main target has 6+ types of negative effects, Atk Weight +1\n[WhenUse] Coin Power +2 for every 3 types of negative effect on the main target (max 4)\n[WhenUse] Coin Power +1 for every 7 ([Burst] + [Burst] Count) on the main target (max 3)\n[WinDuel] Gain 4 [Breath]",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
-                            "Deal +(20 + [Breath] on self + [Burst] on main target)% damage (max 40%)",
-                            "Deal +(45 + [Breath] on self + [Burst] on main target)% damage on Critical Hit (max 65%)",
+                            "Deal +(20 + [Breath] on self + [Burst] on the main target)% damage (max 40%)",
+                            "Deal +(45 + [Breath] on self + [Burst] on the main target)% damage on Critical Hit (max 65%)",
                             "+5% Damage on Critical Hit for every [StartXichun] on self (max 30%)",
                             "[OnSucceedAttack] Inflict 5 [Burst]",
                             "[CriticalOnSucceedAttack] Gain 2 [Breath] and +1 [Breath] Count",
@@ -246,12 +246,12 @@
                 {
                     "uptie": 4,
                     "name": "Crimson Spring",
-                    "desc": "[BeforeAttack] If main target has 5+ types of negative effects, Atk Weight +1\n<style=\"highlight\">[BeforeAttack] At 3+ [StartXichun], Atk Weight +1\n[WhenUse] Coin Power +2 for every 3 types of negative effect on main target (max <style=\"highlight\">6)\n[WhenUse] Coin Power +1 for every 7 (sum of [Burst] + [Burst] Count on main target) (max <style=\"highlight\">5)\n[WinDuel] Gain 4 [Breath]",
+                    "desc": "[BeforeAttack] If main target has 5+ types of negative effects, Atk Weight +1\n<style=\"highlight\">[BeforeAttack] At 3+ [StartXichun], Atk Weight +1\n[WhenUse] Coin Power +2 for every 3 types of negative effect on the main target (max <style=\"highlight\">6)\n[WhenUse] Coin Power +1 for every 7 ([Burst] + [Burst] Count) on the main target (max <style=\"highlight\">5)\n[WinDuel] Gain 4 [Breath]",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
-                            "Deal +(<style=\"highlight\">50 + [Breath] on self + [Burst] on main target)% damage (max <style=\"highlight\">75%)",
-                            "Deal +(<style=\"highlight\">80 + [Breath] on self + [Burst] on main target)% damage on Critical Hit (max <style=\"highlight\">105%)",
+                            "Deal +(<style=\"highlight\">50 + [Breath] on self + [Burst] on the main target)% damage (max <style=\"highlight\">75%)",
+                            "Deal +(<style=\"highlight\">80 + [Breath] on self + [Burst] on the main target)% damage on Critical Hit (max <style=\"highlight\">105%)",
                             "+5% Damage on Critical Hit for every [StartXichun] on self (max 30%)<style=\"highlight\">",
                             "[OnSucceedAttack] Inflict 5 [Burst]<style=\"highlight\">",
                             "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Burst] Count",
@@ -298,7 +298,7 @@
                 {
                     "uptie": 1,
                     "name": "Crimson Strike - Launcher [\u59cb]",
-                    "desc": "[CantDuel]\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count",
+                    "desc": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
                     "coinDescs": [
                         [],
                         [
@@ -309,7 +309,7 @@
                 {
                     "uptie": 2,
                     "name": "Crimson Strike - Launcher [\u59cb]",
-                    "desc": "[CantDuel]\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n<style=\"highlight\">[WhenUse] At 3+ [WaitingXichun], Coin Power +1",
+                    "desc": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n<style=\"highlight\">[WhenUse] At 3+ [WaitingXichun], Coin Power +1\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
                     "coinDescs": [
                         [],
                         [
@@ -320,7 +320,7 @@
                 {
                     "uptie": 4,
                     "name": "Crimson Strike - Launcher [\u59cb]",
-                    "desc": "[CantDuel]\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n[WhenUse] At 3+ [WaitingXichun], Coin Power +<style=\"highlight\">2",
+                    "desc": "[CantDuel]\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n[WhenUse] At 3+ [WaitingXichun], Coin Power +<style=\"highlight\">2\n[BeforeAttack] Consume all [WaitingXichun] on self to gain +([WaitingXichun] on self x 2) Atk Weight (max 5)",
                     "coinDescs": [
                         [],
                         [

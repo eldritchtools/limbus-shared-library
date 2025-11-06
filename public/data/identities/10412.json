@@ -205,7 +205,7 @@
                 {
                     "uptie": 3,
                     "name": "Awe, Contempt",
-                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading <noparse>[GazeRyoshu]</noparse> of <noparse>Awe</noparse> Underneath <noparse>Contempt</noparse>' instead\n[WhenUse] At 8+ ([Laceration] + [Vibration]) on target, Coin Power +1\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 20%)",
+                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading [GazeRyoshu] of Awe Underneath Contempt' instead\n[WhenUse] At 8+ ([Laceration] + [Vibration]) on target, Coin Power +1\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 20%)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Vibration]",
@@ -227,7 +227,7 @@
                 {
                     "uptie": 4,
                     "name": "Awe, Contempt",
-                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency<style=\"highlight\">\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading <noparse>[GazeRyoshu]</noparse> of <noparse>Awe</noparse> Underneath <noparse>Contempt</noparse>' instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 8 ([Laceration] + [Vibration]) on target (max 2)\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max <style=\"highlight\">40%)",
+                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency<style=\"highlight\">\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading [GazeRyoshu] of Awe Underneath Contempt' instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 8 ([Laceration] + [Vibration]) on target (max 2)\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max <style=\"highlight\">40%)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]",
@@ -337,7 +337,7 @@
                 {
                     "uptie": 3,
                     "name": "I Shall Fire / Anytime",
-                    "desc": "[StartBattle] Prioritizes N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ry\u014dsh\u016b\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] At 3+ [Breath] Count, Base Power +1\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+                    "desc": "[StartBattle] Prioritizes N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] At 3+ [Breath] Count, Base Power +1\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
@@ -346,7 +346,7 @@
                         [
                             "[SuperCoin]",
                             "This Coin deals damage only against the sub-targets",
-                            "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ry\u014dsh\u016b survived, 1 random sub-target takes damage\n",
+                            "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b survived, 1 random sub-target takes damage\n",
                             "Deal +30% damage for every [BoseProjektil] on self (max 210%)",
                             "+2.5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">25%)",
                             "+7% Damage on Critical Hit for every [BoseProjektil] on self (max 49%)",
@@ -358,7 +358,7 @@
                 {
                     "uptie": 4,
                     "name": "I Shall Fire / Anytime",
-                    "desc": "[StartBattle] Prioritizes N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ry\u014dsh\u016b\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+                    "desc": "[StartBattle] Prioritizes N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
@@ -367,7 +367,7 @@
                         [
                             "[SuperCoin]",
                             "This Coin deals damage only against the sub-targets",
-                            "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ry\u014dsh\u016b survived, 1 random sub-target takes damage\n",
+                            "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b survived, 1 random sub-target takes damage\n",
                             "Deal +<style=\"highlight\">40% damage for every [BoseProjektil] on self (max <style=\"highlight\">280%)",
                             "+<style=\"highlight\">5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">50%)",
                             "+<style=\"highlight\">10% Damage on Critical Hit for every [BoseProjektil] on self (max <style=\"highlight\">70%)",
