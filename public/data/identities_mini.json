@@ -1,9 +1,9 @@
 {
     "10101": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -17,15 +17,15 @@
             "pierce"
         ],
         "affinities": [
+            "gloom",
             "envy",
-            "sloth",
-            "gloom"
+            "sloth"
         ]
     },
     "10102": {
         "tags": [
-            "Seven Association",
-            "Fixer"
+            "Fixer",
+            "Seven Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -39,8 +39,8 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
@@ -60,9 +60,9 @@
             "counter"
         ],
         "affinities": [
+            "wrath",
             "envy",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10104": {
@@ -77,20 +77,20 @@
         "rank": 3,
         "name": "Effloresced E.G.O::Spicebush",
         "types": [
+            "evade",
             "blunt",
-            "pierce",
-            "evade"
+            "pierce"
         ],
         "affinities": [
-            "sloth",
             "pride",
+            "sloth",
             "gluttony"
         ]
     },
     "10105": {
         "tags": [
-            "Molar Office",
-            "Fixer"
+            "Fixer",
+            "Molar Office"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -104,9 +104,9 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "wrath",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "10106": {
@@ -121,13 +121,13 @@
         "rank": 3,
         "name": "W Corp. L3 Cleanup Agent",
         "types": [
-            "slash",
             "evade",
+            "slash",
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
@@ -143,13 +143,13 @@
         "rank": 2,
         "name": "The Pequod First Mate",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
             "envy",
-            "pride",
-            "gluttony"
+            "gluttony",
+            "pride"
         ]
     },
     "10108": {
@@ -169,8 +169,8 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "lust",
+            "sloth",
             "gluttony"
         ]
     },
@@ -190,16 +190,16 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "gloom",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "10110": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Sinking"
@@ -212,9 +212,9 @@
             "pierce"
         ],
         "affinities": [
+            "gloom",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "10111": {
@@ -230,20 +230,20 @@
         "rank": 2,
         "name": "LCE E.G.O:: Lantern",
         "types": [
-            "blunt",
+            "counter",
             "pierce",
-            "counter"
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "envy",
+            "sloth",
             "gluttony"
         ]
     },
     "10112": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -256,9 +256,9 @@
             "counter"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "envy",
-            "wrath"
+            "sloth"
         ]
     },
     "10113": {
@@ -274,23 +274,23 @@
         "rank": 3,
         "name": "N Corp. E.G.O:: Fell Bullet",
         "types": [
-            "blunt",
+            "counter",
             "pierce",
-            "counter"
+            "blunt"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10114": {
         "tags": [
-            "Heishou Pack",
+            "Heishou Pack - Wu Branch",
             "Heishou Pack Adept",
-            "H Corp.",
+            "Heishou Pack",
             "Jia Family",
-            "Heishou Pack - Wu Branch"
+            "H Corp."
         ],
         "skillKeywordList": [
             "Rupture",
@@ -304,30 +304,30 @@
             "slash"
         ],
         "affinities": [
-            "sloth",
             "envy",
+            "sloth",
             "gluttony"
         ]
     },
     "10201": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [],
         "sinnerId": 2,
         "rank": 1,
         "name": "LCB Sinner",
         "types": [
-            "blunt",
+            "evade",
             "pierce",
-            "evade"
+            "blunt"
         ],
         "affinities": [
+            "gluttony",
             "sloth",
-            "pride",
-            "gluttony"
+            "pride"
         ]
     },
     "10202": {
@@ -346,15 +346,15 @@
         ],
         "affinities": [
             "wrath",
-            "envy",
-            "gloom"
+            "gloom",
+            "envy"
         ]
     },
     "10203": {
         "tags": [
-            "Lobotomy Corp. Branch",
             "Fixer",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Branch"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -364,14 +364,14 @@
         "rank": 2,
         "name": "Lobotomy Corp. Remnant",
         "types": [
-            "slash",
             "evade",
+            "slash",
             "pierce"
         ],
         "affinities": [
-            "envy",
             "gloom",
-            "lust"
+            "lust",
+            "envy"
         ]
     },
     "10204": {
@@ -386,14 +386,14 @@
         "rank": 3,
         "name": "The One Who Grips",
         "types": [
+            "evade",
             "blunt",
-            "pierce",
-            "evade"
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "envy",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10205": {
@@ -406,20 +406,20 @@
         "rank": 2,
         "name": "Zwei Assoc. South Section 4",
         "types": [
+            "guard",
             "slash",
-            "pierce",
-            "guard"
+            "pierce"
         ],
         "affinities": [
-            "lust",
+            "gloom",
             "envy",
-            "gloom"
+            "lust"
         ]
     },
     "10206": {
         "tags": [
-            "Seven Association",
-            "Fixer"
+            "Fixer",
+            "Seven Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -432,17 +432,17 @@
             "slash"
         ],
         "affinities": [
-            "lust",
-            "envy",
             "gloom",
+            "envy",
+            "lust",
             "gluttony"
         ]
     },
     "10207": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -451,14 +451,14 @@
         "rank": 3,
         "name": "Lobotomy E.G.O::Regret",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "gloom",
-            "pride",
-            "wrath"
+            "sloth",
+            "pride"
         ]
     },
     "10208": {
@@ -479,9 +479,9 @@
             "pierce"
         ],
         "affinities": [
+            "gloom",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "10209": {
@@ -498,8 +498,8 @@
         "name": "Wuthering Heights Butler",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
             "wrath",
@@ -510,8 +510,8 @@
     "10210": {
         "tags": [
             "Fixer",
-            "Mechanical Amalgam",
-            "MultiCrack Office"
+            "MultiCrack Office",
+            "Mechanical Amalgam"
         ],
         "skillKeywordList": [
             "Charge"
@@ -521,13 +521,13 @@
         "name": "MultiCrack Office Rep",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
             "gloom",
-            "envy",
-            "lust"
+            "lust",
+            "envy"
         ]
     },
     "10211": {
@@ -543,19 +543,19 @@
         "rank": 3,
         "name": "LCE E.G.O:: Ardor Blossom Star",
         "types": [
-            "blunt",
-            "evade"
+            "evade",
+            "blunt"
         ],
         "affinities": [
+            "wrath",
             "sloth",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10213": {
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -565,22 +565,22 @@
         "rank": 3,
         "name": "Shi Assoc. East Section 3",
         "types": [
+            "evade",
             "guard",
             "slash",
-            "evade",
             "pierce"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10301": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -589,12 +589,12 @@
         "rank": 1,
         "name": "LCB Sinner",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
-            "envy",
             "lust",
+            "envy",
             "gluttony"
         ]
     },
@@ -610,20 +610,20 @@
         "rank": 3,
         "name": "W Corp. L3 Cleanup Agent",
         "types": [
-            "slash",
             "evade",
+            "slash",
             "pierce"
         ],
         "affinities": [
+            "gloom",
             "envy",
-            "sloth",
-            "gloom"
+            "sloth"
         ]
     },
     "10303": {
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -632,13 +632,13 @@
         "rank": 2,
         "name": "Shi Assoc. South Section 5 Director",
         "types": [
-            "slash",
-            "evade"
+            "evade",
+            "slash"
         ],
         "affinities": [
-            "lust",
+            "wrath",
             "envy",
-            "wrath"
+            "lust"
         ]
     },
     "10304": {
@@ -666,27 +666,27 @@
     },
     "10305": {
         "tags": [
-            "Cinq Association",
-            "Fixer"
+            "Fixer",
+            "Cinq Association"
         ],
         "skillKeywordList": [],
         "sinnerId": 3,
         "rank": 3,
         "name": "Cinq Assoc. South Section 5 Director",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "gloom",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10306": {
         "tags": [
-            "The Middle",
-            "Syndicate"
+            "Syndicate",
+            "The Middle"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -695,20 +695,20 @@
         "rank": 3,
         "name": "The Middle Little Sister",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
-            "pride",
+            "wrath",
             "envy",
-            "wrath"
+            "pride"
         ]
     },
     "10307": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -739,9 +739,9 @@
         "rank": 2,
         "name": "Blade Lineage Salsu",
         "types": [
+            "evade",
             "slash",
-            "pierce",
-            "evade"
+            "pierce"
         ],
         "affinities": [
             "envy",
@@ -761,20 +761,20 @@
         "name": "T Corp. Class 3 Collection Staff",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "pride",
+            "sloth",
             "gluttony"
         ]
     },
     "10310": {
         "tags": [
             "La Manchaland",
-            "Second Kindred",
-            "Bloodfiend"
+            "Bloodfiend",
+            "Second Kindred"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -783,19 +783,19 @@
         "rank": 3,
         "name": "The Manager of La Manchaland",
         "types": [
-            "pierce",
-            "counter"
+            "counter",
+            "pierce"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "sloth",
-            "wrath"
+            "sloth"
         ]
     },
     "10311": {
         "tags": [
-            "Cinq Association",
-            "Fixer"
+            "Fixer",
+            "Cinq Association"
         ],
         "skillKeywordList": [
             "Poise",
@@ -805,20 +805,20 @@
         "rank": 3,
         "name": "Cinq Assoc. East Section 3",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "wrath",
+            "pride",
             "gluttony"
         ]
     },
     "10312": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -833,15 +833,15 @@
             "blunt"
         ],
         "affinities": [
-            "envy",
-            "wrath"
+            "wrath",
+            "envy"
         ]
     },
     "10401": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Poise"
@@ -850,19 +850,19 @@
         "rank": 1,
         "name": "LCB Sinner",
         "types": [
-            "slash",
-            "evade"
+            "evade",
+            "slash"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
     "10402": {
         "tags": [
-            "Seven Association",
-            "Fixer"
+            "Fixer",
+            "Seven Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -871,20 +871,20 @@
         "rank": 2,
         "name": "Seven Assoc. South Section 6",
         "types": [
-            "blunt",
+            "counter",
             "slash",
-            "counter"
+            "blunt"
         ],
         "affinities": [
+            "gluttony",
             "sloth",
-            "pride",
-            "gluttony"
+            "pride"
         ]
     },
     "10403": {
         "tags": [
-            "Kurokumo Clan",
-            "Syndicate"
+            "Syndicate",
+            "Kurokumo Clan"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -897,8 +897,8 @@
             "pierce"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
@@ -915,14 +915,14 @@
         "rank": 3,
         "name": "R.B. Chef de Cuisine",
         "types": [
-            "slash",
             "evade",
+            "slash",
             "pierce"
         ],
         "affinities": [
-            "lust",
+            "wrath",
             "envy",
-            "wrath"
+            "lust"
         ]
     },
     "10405": {
@@ -936,13 +936,13 @@
         "rank": 3,
         "name": "W Corp. L3 Cleanup Agent",
         "types": [
-            "slash",
-            "evade"
+            "evade",
+            "slash"
         ],
         "affinities": [
+            "lust",
             "envy",
-            "pride",
-            "lust"
+            "pride"
         ]
     },
     "10406": {
@@ -960,19 +960,19 @@
         "name": "LCCB Assistant Manager",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
     "10407": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -986,16 +986,16 @@
             "pierce"
         ],
         "affinities": [
-            "lust",
             "wrath",
+            "lust",
             "gluttony"
         ]
     },
     "10408": {
         "tags": [
-            "Edgar Family",
             "Fixer",
-            "Butler"
+            "Butler",
+            "Edgar Family"
         ],
         "skillKeywordList": [
             "Poise"
@@ -1004,19 +1004,19 @@
         "rank": 3,
         "name": "Edgar Family Chief Butler",
         "types": [
-            "slash",
-            "evade"
+            "evade",
+            "slash"
         ],
         "affinities": [
             "wrath",
-            "pride",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10409": {
         "tags": [
-            "Syndicate",
-            "Yurodiviye"
+            "Yurodiviye",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1026,20 +1026,20 @@
         "name": "District 20 Yurodivy",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "lust",
+            "sloth",
             "gluttony"
         ]
     },
     "10410": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -1049,20 +1049,20 @@
         "rank": 3,
         "name": "Lobotomy E.G.O:: Red Eyes & Penitence",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
-            "lust",
+            "gloom",
             "envy",
-            "gloom"
+            "lust"
         ]
     },
     "10411": {
         "tags": [
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Mao Branch"
+            "Heishou Pack - Mao Branch",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1075,8 +1075,8 @@
             "counter"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
@@ -1100,15 +1100,15 @@
             "wrath",
             "pride",
             "envy",
-            "sloth",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "10501": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1121,15 +1121,15 @@
             "blunt"
         ],
         "affinities": [
+            "gloom",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "10502": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -1139,13 +1139,13 @@
         "name": "Liu Assoc. South Section 6",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "wrath",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "10503": {
@@ -1164,9 +1164,9 @@
             "slash"
         ],
         "affinities": [
-            "pride",
+            "gloom",
             "envy",
-            "gloom"
+            "pride"
         ]
     },
     "10504": {
@@ -1182,13 +1182,13 @@
         "name": "N Corp. Gro\u00dfhammer",
         "types": [
             "blunt",
-            "pierce",
-            "counter"
+            "counter",
+            "pierce"
         ],
         "affinities": [
+            "wrath",
             "sloth",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10505": {
@@ -1208,9 +1208,9 @@
             "blunt"
         ],
         "affinities": [
-            "pride",
+            "gloom",
             "sloth",
-            "gloom"
+            "pride"
         ]
     },
     "10506": {
@@ -1226,19 +1226,19 @@
         "name": "R Corp. 4th Pack Rhino",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
-            "lust",
+            "gloom",
             "envy",
-            "gloom"
+            "lust"
         ]
     },
     "10507": {
         "tags": [
-            "The Middle",
-            "Syndicate"
+            "Syndicate",
+            "The Middle"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1247,13 +1247,13 @@
         "rank": 2,
         "name": "The Middle Little Brother",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "envy",
-            "wrath"
+            "sloth"
         ]
     },
     "10508": {
@@ -1272,9 +1272,9 @@
             "counter"
         ],
         "affinities": [
+            "wrath",
             "envy",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10509": {
@@ -1289,9 +1289,9 @@
         "rank": 2,
         "name": "Dead Rabbits Boss",
         "types": [
-            "blunt",
+            "counter",
             "pierce",
-            "counter"
+            "blunt"
         ],
         "affinities": [
             "wrath",
@@ -1312,19 +1312,19 @@
         "name": "Dieci Assoc. South Section 4 Director",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
     "10511": {
         "tags": [
-            "Cinq Association",
-            "Fixer"
+            "Fixer",
+            "Cinq Association"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -1334,20 +1334,20 @@
         "rank": 3,
         "name": "Cinq Assoc. West Section 3",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "gloom",
-            "gluttony"
+            "gluttony",
+            "pride"
         ]
     },
     "10512": {
         "tags": [
-            "Capo IIII",
             "Syndicate",
-            "The Thumb"
+            "The Thumb",
+            "Capo IIII"
         ],
         "skillKeywordList": [
             "Burn",
@@ -1357,21 +1357,21 @@
         "rank": 3,
         "name": "The Thumb East Capo IIII",
         "types": [
-            "blunt",
+            "counter",
             "slash",
-            "counter"
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "wrath",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "10513": {
         "tags": [
-            "Third Kindred",
+            "La Manchaland",
             "Bloodfiend",
-            "La Manchaland"
+            "Third Kindred"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -1385,16 +1385,16 @@
             "counter"
         ],
         "affinities": [
-            "pride",
             "envy",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10601": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Sinking",
@@ -1404,20 +1404,20 @@
         "rank": 1,
         "name": "LCB Sinner",
         "types": [
-            "blunt",
+            "evade",
             "slash",
-            "evade"
+            "blunt"
         ],
         "affinities": [
+            "lust",
             "sloth",
-            "pride",
-            "lust"
+            "pride"
         ]
     },
     "10602": {
         "tags": [
-            "Kurokumo Clan",
-            "Syndicate"
+            "Syndicate",
+            "Kurokumo Clan"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1430,9 +1430,9 @@
             "slash"
         ],
         "affinities": [
+            "lust",
             "sloth",
-            "pride",
-            "lust"
+            "pride"
         ]
     },
     "10603": {
@@ -1448,8 +1448,8 @@
         "rank": 3,
         "name": "Tingtang Gang Gangleader",
         "types": [
-            "slash",
             "evade",
+            "slash",
             "pierce"
         ],
         "affinities": [
@@ -1460,8 +1460,8 @@
     },
     "10604": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -1491,13 +1491,13 @@
         "name": "K Corp. Class 3 Excision Staff",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
+            "gluttony",
             "sloth",
-            "pride",
-            "gluttony"
+            "pride"
         ]
     },
     "10606": {
@@ -1512,21 +1512,21 @@
         "rank": 2,
         "name": "W Corp. L2 Cleanup Agent",
         "types": [
+            "guard",
             "slash",
-            "pierce",
-            "guard"
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "wrath",
-            "gluttony"
+            "gluttony",
+            "pride"
         ]
     },
     "10607": {
         "tags": [
+            "Fixer",
             "The Backstreets",
-            "Hook Office",
-            "Fixer"
+            "Hook Office"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1535,13 +1535,13 @@
         "rank": 2,
         "name": "Hook Office Fixer",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10608": {
@@ -1556,20 +1556,20 @@
         "rank": 3,
         "name": "Dieci Assoc. South Section 4",
         "types": [
-            "blunt",
+            "evade",
             "slash",
-            "evade"
+            "blunt"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "gloom",
-            "wrath"
+            "sloth"
         ]
     },
     "10609": {
         "tags": [
-            "Syndicate",
-            "Yurodiviye"
+            "Yurodiviye",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1579,19 +1579,19 @@
         "name": "District 20 Yurodivy",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
     "10610": {
         "tags": [
-            "Fanghunt Office",
-            "Fixer"
+            "Fixer",
+            "Fanghunt Office"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1604,8 +1604,8 @@
             "blunt"
         ],
         "affinities": [
-            "pride",
             "wrath",
+            "pride",
             "gluttony"
         ]
     },
@@ -1621,15 +1621,15 @@
         "rank": 3,
         "name": "Full-Stop Office Rep",
         "types": [
-            "slash",
-            "pierce",
+            "evade",
             "counter",
-            "evade"
+            "slash",
+            "pierce"
         ],
         "affinities": [
-            "pride",
+            "gloom",
             "sloth",
-            "gloom"
+            "pride"
         ]
     },
     "10612": {
@@ -1648,8 +1648,8 @@
             "blunt"
         ],
         "affinities": [
-            "envy",
             "wrath",
+            "envy",
             "gluttony"
         ]
     },
@@ -1671,16 +1671,16 @@
             "counter"
         ],
         "affinities": [
-            "pride",
             "gloom",
+            "pride",
             "gluttony"
         ]
     },
     "10701": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1689,19 +1689,19 @@
         "rank": 1,
         "name": "LCB Sinner",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
-            "lust",
+            "wrath",
             "envy",
-            "wrath"
+            "lust"
         ]
     },
     "10702": {
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -1710,14 +1710,14 @@
         "rank": 2,
         "name": "Shi Assoc. South Section 5",
         "types": [
-            "slash",
             "counter",
+            "slash",
             "pierce"
         ],
         "affinities": [
             "wrath",
-            "envy",
-            "lust"
+            "lust",
+            "envy"
         ]
     },
     "10703": {
@@ -1733,12 +1733,12 @@
         "rank": 3,
         "name": "R Corp. 4th Pack Rabbit",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
-            "envy",
             "wrath",
+            "envy",
             "gluttony"
         ]
     },
@@ -1759,9 +1759,9 @@
             "pierce"
         ],
         "affinities": [
-            "lust",
+            "gloom",
             "envy",
-            "gloom"
+            "lust"
         ]
     },
     "10705": {
@@ -1777,21 +1777,21 @@
         "rank": 3,
         "name": "Lobotomy E.G.O:: Sunshower",
         "types": [
-            "blunt",
+            "counter",
             "pierce",
-            "counter"
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "wrath",
+            "gloom",
             "envy",
-            "gloom"
+            "sloth"
         ]
     },
     "10706": {
         "tags": [
-            "Seven Association",
-            "Fixer"
+            "Fixer",
+            "Seven Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -1805,8 +1805,8 @@
             "pierce"
         ],
         "affinities": [
-            "envy",
             "wrath",
+            "envy",
             "gluttony"
         ]
     },
@@ -1822,19 +1822,19 @@
         "rank": 3,
         "name": "The Pequod Harpooneer",
         "types": [
-            "pierce",
-            "counter"
+            "counter",
+            "pierce"
         ],
         "affinities": [
+            "wrath",
             "envy",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10708": {
         "tags": [
-            "\u00d6ufi Association",
-            "Fixer"
+            "Fixer",
+            "\u00d6ufi Association"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1848,16 +1848,16 @@
             "pierce"
         ],
         "affinities": [
-            "pride",
+            "gloom",
             "envy",
-            "gloom"
+            "pride"
         ]
     },
     "10709": {
         "tags": [
             "Fixer",
-            "Mechanical Amalgam",
-            "MultiCrack Office"
+            "MultiCrack Office",
+            "Mechanical Amalgam"
         ],
         "skillKeywordList": [
             "Charge"
@@ -1867,13 +1867,13 @@
         "name": "MultiCrack Office Fixer",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
+            "wrath",
             "gloom",
-            "envy",
-            "wrath"
+            "envy"
         ]
     },
     "10710": {
@@ -1888,15 +1888,15 @@
         "rank": 3,
         "name": "Wild Hunt",
         "types": [
-            "blunt",
+            "counter",
             "slash",
-            "counter"
+            "blunt"
         ],
         "affinities": [
-            "lust",
+            "wrath",
             "gloom",
             "envy",
-            "wrath"
+            "lust"
         ]
     },
     "10711": {
@@ -1911,20 +1911,20 @@
         "rank": 3,
         "name": "Full-Stop Office Fixer",
         "types": [
+            "evade",
             "guard",
-            "pierce",
-            "evade"
+            "pierce"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "pride"
         ]
     },
     "10712": {
         "tags": [
-            "Kurokumo Clan",
-            "Syndicate"
+            "Syndicate",
+            "Kurokumo Clan"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -1937,9 +1937,9 @@
             "counter"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10713": {
@@ -1958,16 +1958,16 @@
             "blunt"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "gluttony"
         ]
     },
     "10801": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -1980,8 +1980,8 @@
             "blunt"
         ],
         "affinities": [
-            "gloom",
             "wrath",
+            "gloom",
             "gluttony"
         ]
     },
@@ -1997,19 +1997,19 @@
         "rank": 3,
         "name": "R Corp. 4th Pack Reindeer",
         "types": [
-            "blunt",
-            "evade"
+            "evade",
+            "blunt"
         ],
         "affinities": [
-            "envy",
+            "wrath",
             "gloom",
-            "wrath"
+            "envy"
         ]
     },
     "10803": {
         "tags": [
-            "Shi Association",
-            "Fixer"
+            "Fixer",
+            "Shi Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -2018,9 +2018,9 @@
         "rank": 2,
         "name": "Shi Assoc. South Section 5",
         "types": [
+            "counter",
             "slash",
-            "pierce",
-            "counter"
+            "pierce"
         ],
         "affinities": [
             "wrath",
@@ -2045,8 +2045,8 @@
             "blunt"
         ],
         "affinities": [
-            "pride",
             "gloom",
+            "pride",
             "gluttony"
         ]
     },
@@ -2067,15 +2067,15 @@
             "blunt"
         ],
         "affinities": [
-            "gloom",
             "wrath",
+            "gloom",
             "gluttony"
         ]
     },
     "10806": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -2084,19 +2084,19 @@
         "rank": 3,
         "name": "Liu Assoc. South Section 4",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
             "wrath",
-            "envy",
-            "lust"
+            "lust",
+            "envy"
         ]
     },
     "10807": {
         "tags": [
-            "Molar Office",
-            "Fixer"
+            "Fixer",
+            "Molar Office"
         ],
         "skillKeywordList": [
             "Sinking",
@@ -2106,19 +2106,19 @@
         "rank": 3,
         "name": "Molar Boatworks Fixer",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
+            "gloom",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "10808": {
         "tags": [
-            "Pequod Captain",
-            "The Pequod"
+            "The Pequod",
+            "Pequod Captain"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -2133,16 +2133,16 @@
             "pierce"
         ],
         "affinities": [
-            "pride",
+            "wrath",
             "envy",
-            "wrath"
+            "pride"
         ]
     },
     "10809": {
         "tags": [
-            "Edgar Family",
             "Fixer",
-            "Butler"
+            "Butler",
+            "Edgar Family"
         ],
         "skillKeywordList": [
             "Poise",
@@ -2152,13 +2152,13 @@
         "rank": 2,
         "name": "Edgar Family Butler",
         "types": [
-            "blunt",
+            "evade",
             "slash",
-            "evade"
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
@@ -2179,14 +2179,14 @@
         ],
         "affinities": [
             "envy",
-            "pride",
-            "gluttony"
+            "gluttony",
+            "pride"
         ]
     },
     "10811": {
         "tags": [
-            "Kurokumo Clan",
-            "Syndicate"
+            "Syndicate",
+            "Kurokumo Clan"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -2195,13 +2195,13 @@
         "rank": 3,
         "name": "Kurokumo Clan Captain",
         "types": [
-            "slash",
-            "evade"
+            "evade",
+            "slash"
         ],
         "affinities": [
-            "pride",
             "envy",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10812": {
@@ -2218,20 +2218,20 @@
         "rank": 3,
         "name": "Family Hierarch Candidate",
         "types": [
-            "blunt",
+            "evade",
             "slash",
-            "evade"
+            "blunt"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "gluttony"
         ]
     },
     "10813": {
         "tags": [
-            "Associate Office - \u00d6ufi Association",
             "Fixer",
+            "Associate Office - \u00d6ufi",
             "Jeong's Office"
         ],
         "skillKeywordList": [
@@ -2240,13 +2240,14 @@
         ],
         "sinnerId": 8,
         "rank": 3,
+        "name": "Jeong's Office Rep",
         "types": [
             "slash",
             "counter"
         ],
         "affinities": [
-            "gloom",
             "wrath",
+            "gloom",
             "pride",
             "envy",
             "sloth"
@@ -2254,9 +2255,9 @@
     },
     "10901": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -2269,15 +2270,15 @@
             "counter"
         ],
         "affinities": [
-            "pride",
             "wrath",
+            "pride",
             "gluttony"
         ]
     },
     "10902": {
         "tags": [
-            "Kurokumo Clan",
-            "Syndicate"
+            "Syndicate",
+            "Kurokumo Clan"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -2291,9 +2292,9 @@
             "counter"
         ],
         "affinities": [
-            "pride",
             "gloom",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10903": {
@@ -2311,8 +2312,8 @@
         ],
         "affinities": [
             "envy",
-            "pride",
-            "gluttony"
+            "gluttony",
+            "pride"
         ]
     },
     "10904": {
@@ -2328,13 +2329,13 @@
         "name": "N Corp. Mittelhammer",
         "types": [
             "blunt",
-            "pierce",
-            "counter"
+            "counter",
+            "pierce"
         ],
         "affinities": [
             "wrath",
-            "pride",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10905": {
@@ -2351,14 +2352,14 @@
         "name": "Rosespanner Workshop Rep",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
+            "gloom",
             "envy",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "10906": {
@@ -2377,9 +2378,9 @@
             "blunt"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "gloom",
-            "wrath"
+            "sloth"
         ]
     },
     "10907": {
@@ -2398,15 +2399,15 @@
             "blunt"
         ],
         "affinities": [
+            "gloom",
             "envy",
-            "sloth",
-            "gloom"
+            "sloth"
         ]
     },
     "10908": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -2415,14 +2416,14 @@
         "rank": 3,
         "name": "Liu Assoc. South Section 4 Director",
         "types": [
-            "blunt",
+            "counter",
             "pierce",
-            "counter"
+            "blunt"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "10909": {
@@ -2440,15 +2441,15 @@
             "blunt"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "envy",
-            "wrath"
+            "sloth"
         ]
     },
     "10910": {
         "tags": [
-            "Devyat' Association",
-            "Fixer"
+            "Fixer",
+            "Devyat' Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -2469,8 +2470,8 @@
     "10911": {
         "tags": [
             "La Manchaland",
-            "Second Kindred",
-            "Bloodfiend"
+            "Bloodfiend",
+            "Second Kindred"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -2480,20 +2481,20 @@
         "rank": 3,
         "name": "The Princess of La Manchaland",
         "types": [
-            "pierce",
-            "counter"
+            "counter",
+            "pierce"
         ],
         "affinities": [
             "envy",
-            "pride",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "10913": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Charge",
@@ -2504,20 +2505,20 @@
         "name": "Lobotomy E.G.O:: The Sword Sharpened with Tears",
         "types": [
             "guard",
-            "pierce",
-            "counter"
+            "counter",
+            "pierce"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "pride"
         ]
     },
     "11001": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -2530,9 +2531,9 @@
             "counter"
         ],
         "affinities": [
+            "wrath",
             "envy",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "11002": {
@@ -2548,13 +2549,13 @@
         "rank": 3,
         "name": "Blade Lineage Salsu",
         "types": [
+            "counter",
             "slash",
-            "pierce",
-            "counter"
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "wrath",
+            "pride",
             "gluttony"
         ]
     },
@@ -2574,9 +2575,9 @@
             "blunt"
         ],
         "affinities": [
-            "sloth",
+            "wrath",
             "gloom",
-            "wrath"
+            "sloth"
         ]
     },
     "11004": {
@@ -2593,13 +2594,13 @@
         "rank": 2,
         "name": "Los Mariachis Jefe",
         "types": [
-            "blunt",
-            "evade"
+            "evade",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
+            "gloom",
             "envy",
-            "gloom"
+            "sloth"
         ]
     },
     "11005": {
@@ -2619,10 +2620,10 @@
             "blunt"
         ],
         "affinities": [
-            "pride",
             "wrath",
             "gloom",
-            "lust"
+            "lust",
+            "pride"
         ]
     },
     "11006": {
@@ -2638,19 +2639,19 @@
         "name": "Lobotomy E.G.O::Red Sheet",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
     "11007": {
         "tags": [
-            "Molar Office",
-            "Fixer"
+            "Fixer",
+            "Molar Office"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -2660,19 +2661,19 @@
         "name": "Molar Boatworks Fixer",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "gluttony"
         ]
     },
     "11008": {
         "tags": [
-            "Cinq Association",
-            "Fixer"
+            "Fixer",
+            "Cinq Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -2681,12 +2682,12 @@
         "rank": 3,
         "name": "Cinq Assoc. South Section 4 Director",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
@@ -2707,10 +2708,10 @@
             "pierce"
         ],
         "affinities": [
-            "envy",
-            "lust",
+            "wrath",
             "gloom",
-            "wrath"
+            "envy",
+            "lust"
         ]
     },
     "11010": {
@@ -2726,19 +2727,19 @@
         "name": "Zwei Assoc. West Section 3",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "gloom",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "11011": {
         "tags": [
-            "Devyat' Association",
-            "Fixer"
+            "Fixer",
+            "Devyat' Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -2747,8 +2748,8 @@
         "rank": 3,
         "name": "Devyat' Assoc. North Section 3",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
             "wrath",
@@ -2758,8 +2759,8 @@
     },
     "11012": {
         "tags": [
-            "The Middle",
-            "Syndicate"
+            "Syndicate",
+            "The Middle"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -2768,8 +2769,8 @@
         "rank": 3,
         "name": "The Middle Little Brother",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
             "envy",
@@ -2778,9 +2779,9 @@
     },
     "11013": {
         "tags": [
-            "The Thumb",
+            "Soldato II",
             "Syndicate",
-            "Soldato II"
+            "The Thumb"
         ],
         "skillKeywordList": [
             "Burn",
@@ -2790,22 +2791,22 @@
         "rank": 3,
         "name": "The Thumb East Soldato II",
         "types": [
+            "guard",
             "slash",
-            "pierce",
-            "guard"
+            "pierce"
         ],
         "affinities": [
-            "sloth",
             "wrath",
-            "pride",
-            "lust"
+            "lust",
+            "sloth",
+            "pride"
         ]
     },
     "11014": {
         "tags": [
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - You Branch"
+            "Heishou Pack - You Branch",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -2826,9 +2827,9 @@
     },
     "11101": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -2837,14 +2838,14 @@
         "rank": 1,
         "name": "LCB Sinner",
         "types": [
+            "evade",
             "slash",
-            "pierce",
-            "evade"
+            "pierce"
         ],
         "affinities": [
+            "gloom",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "11102": {
@@ -2859,14 +2860,14 @@
         "rank": 2,
         "name": "Blade Lineage Salsu",
         "types": [
-            "slash",
             "evade",
+            "slash",
             "pierce"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "pride",
-            "wrath"
+            "pride"
         ]
     },
     "11103": {
@@ -2885,15 +2886,15 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
     "11104": {
         "tags": [
-            "Seven Association",
-            "Fixer"
+            "Fixer",
+            "Seven Association"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -2903,19 +2904,19 @@
         "name": "Seven Assoc. South Section 6 Director",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "lust",
+            "sloth",
             "gluttony"
         ]
     },
     "11105": {
         "tags": [
-            "Molar Office",
-            "Fixer"
+            "Fixer",
+            "Molar Office"
         ],
         "skillKeywordList": [
             "Tremor"
@@ -2925,19 +2926,19 @@
         "name": "Molar Office Fixer",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "sloth",
-            "wrath"
+            "sloth"
         ]
     },
     "11106": {
         "tags": [
-            "Cinq Association",
-            "Fixer"
+            "Fixer",
+            "Cinq Association"
         ],
         "skillKeywordList": [
             "Poise"
@@ -2946,20 +2947,20 @@
         "rank": 2,
         "name": "Cinq Assoc. South Section 4",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
+            "gloom",
             "lust",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "11107": {
         "tags": [
             "E.G.O Gear",
-            "Lobotomy Corp. Headquarters",
-            "L Corp."
+            "L Corp.",
+            "Lobotomy Corp. Headquarters"
         ],
         "skillKeywordList": [
             "Burn"
@@ -2969,12 +2970,12 @@
         "name": "Lobotomy E.G.O::Magic Bullet",
         "types": [
             "guard",
-            "blunt",
-            "pierce"
+            "pierce",
+            "blunt"
         ],
         "affinities": [
-            "pride",
-            "wrath"
+            "wrath",
+            "pride"
         ]
     },
     "11108": {
@@ -2990,13 +2991,13 @@
         "rank": 3,
         "name": "Wuthering Heights Chief Butler",
         "types": [
-            "blunt",
-            "evade"
+            "evade",
+            "blunt"
         ],
         "affinities": [
+            "gloom",
             "lust",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "11109": {
@@ -3033,20 +3034,20 @@
         "name": "W Corp. L3 Cleanup Captain",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
+            "gloom",
             "envy",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "11111": {
         "tags": [
-            "Third Kindred",
+            "La Manchaland",
             "Bloodfiend",
-            "La Manchaland"
+            "Third Kindred"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -3067,8 +3068,8 @@
     "11112": {
         "tags": [
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Mao Branch"
+            "Heishou Pack - Mao Branch",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -3081,8 +3082,8 @@
             "counter"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
@@ -3101,16 +3102,16 @@
             "blunt"
         ],
         "affinities": [
+            "lust",
             "sloth",
-            "pride",
-            "lust"
+            "pride"
         ]
     },
     "11201": {
         "tags": [
+            "LCB",
             "Limbus Company",
-            "Base Identity",
-            "LCB"
+            "Base Identity"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -3124,15 +3125,15 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
     "11202": {
         "tags": [
-            "Fixer",
-            "Liu Association"
+            "Liu Association",
+            "Fixer"
         ],
         "skillKeywordList": [
             "Burn"
@@ -3145,9 +3146,9 @@
             "blunt"
         ],
         "affinities": [
+            "wrath",
             "lust",
-            "sloth",
-            "wrath"
+            "sloth"
         ]
     },
     "11203": {
@@ -3166,8 +3167,8 @@
             "pierce"
         ],
         "affinities": [
-            "sloth",
             "lust",
+            "sloth",
             "gluttony"
         ]
     },
@@ -3185,12 +3186,12 @@
         "name": "R.B. Sous-chef",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
-            "envy",
             "lust",
+            "envy",
             "gluttony"
         ]
     },
@@ -3213,8 +3214,8 @@
             "pierce"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "gluttony"
         ]
     },
@@ -3232,15 +3233,15 @@
             "slash"
         ],
         "affinities": [
-            "sloth",
             "gloom",
+            "sloth",
             "gluttony"
         ]
     },
     "11207": {
         "tags": [
-            "Syndicate",
-            "Twinhook Pirates"
+            "Twinhook Pirates",
+            "Syndicate"
         ],
         "skillKeywordList": [
             "Poise",
@@ -3250,19 +3251,19 @@
         "rank": 3,
         "name": "Twinhook Pirates First Mate",
         "types": [
-            "pierce",
-            "evade"
+            "evade",
+            "pierce"
         ],
         "affinities": [
+            "gloom",
             "sloth",
-            "pride",
-            "gloom"
+            "pride"
         ]
     },
     "11208": {
         "tags": [
-            "Kurokumo Clan",
-            "Syndicate"
+            "Syndicate",
+            "Kurokumo Clan"
         ],
         "skillKeywordList": [
             "Bleed"
@@ -3272,13 +3273,13 @@
         "name": "Kurokumo Clan Captain",
         "types": [
             "guard",
-            "blunt",
-            "slash"
+            "slash",
+            "blunt"
         ],
         "affinities": [
-            "sloth",
             "gloom",
-            "lust"
+            "lust",
+            "sloth"
         ]
     },
     "11209": {
@@ -3292,20 +3293,20 @@
         "rank": 3,
         "name": "Edgar Family Heir",
         "types": [
-            "slash",
-            "evade"
+            "evade",
+            "slash"
         ],
         "affinities": [
-            "lust",
+            "gloom",
             "envy",
-            "gloom"
+            "lust"
         ]
     },
     "11210": {
         "tags": [
-            "Third Kindred",
+            "La Manchaland",
             "Bloodfiend",
-            "La Manchaland"
+            "Third Kindred"
         ],
         "skillKeywordList": [
             "Bleed",
@@ -3319,8 +3320,8 @@
             "blunt"
         ],
         "affinities": [
-            "pride",
             "lust",
+            "pride",
             "gluttony"
         ]
     },
@@ -3336,8 +3337,8 @@
         "rank": 3,
         "name": "Firefist Office Survivor",
         "types": [
-            "blunt",
-            "counter"
+            "counter",
+            "blunt"
         ],
         "affinities": [
             "wrath",
@@ -3347,8 +3348,8 @@
     },
     "11213": {
         "tags": [
-            "Night Awls",
-            "Syndicate"
+            "Syndicate",
+            "Night Awls"
         ],
         "skillKeywordList": [
             "Tremor",
@@ -3356,21 +3357,22 @@
         ],
         "sinnerId": 12,
         "rank": 3,
+        "name": "Night Awls Capitano",
         "types": [
             "guard",
             "pierce"
         ],
         "affinities": [
+            "lust",
             "sloth",
-            "pride",
-            "lust"
+            "pride"
         ]
     },
     "11212": {
         "tags": [
+            "Heishou Pack - Si Branch",
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Si Branch"
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -3386,15 +3388,15 @@
         ],
         "affinities": [
             "envy",
-            "pride",
-            "gluttony"
+            "gluttony",
+            "pride"
         ]
     },
     "10912": {
         "tags": [
+            "Heishou Pack - Si Branch",
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Si Branch"
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture",
@@ -3409,17 +3411,17 @@
             "pierce"
         ],
         "affinities": [
-            "envy",
             "gloom",
+            "envy",
             "gluttony"
         ]
     },
     "10212": {
         "tags": [
-            "Heishou Pack Adept",
             "H Corp.",
-            "Heishou Pack",
-            "Heishou Pack - Mao Branch"
+            "Heishou Pack - Mao Branch",
+            "Heishou Pack Adept",
+            "Heishou Pack"
         ],
         "skillKeywordList": [
             "Rupture"
@@ -3433,9 +3435,9 @@
             "counter"
         ],
         "affinities": [
+            "gluttony",
             "sloth",
-            "pride",
-            "gluttony"
+            "pride"
         ]
     }
 }
