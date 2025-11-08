@@ -56,7 +56,7 @@ function TooltipContent({ statusId }) {
     return <div style={tooltipStyle}>
         <div style={{display: "flex", flexDirection: "column", padding: "0.5rem"}}>
             <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-                <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={tooltipIconStyle} />
+                <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={tooltipIconStyle} onError={(e) => (e.currentTarget.style.display = "none")} />
                 <span>{status.name}</span>
             </div>
             <div style={tooltipDescStyle}>

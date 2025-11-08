@@ -132,7 +132,10 @@ function TooltipContent(_ref2) {
         children: [/*#__PURE__*/_jsx("img", {
           src: "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png"),
           alt: status.name,
-          style: tooltipIconStyle
+          style: tooltipIconStyle,
+          onError: function onError(e) {
+            return e.currentTarget.style.display = "none";
+          }
         }), /*#__PURE__*/_jsx("span", {
           children: status.name
         })]

@@ -924,6 +924,41 @@
         "name": "Overcharge",
         "desc": "- Max Value : 1\n- Become Immobilized\n- Take 10 + (Charge Potency on self x 5)% less damage (max 25%)\n- Turn Start: Gain Charge Barrier based on Charge Potency on self (max 5)\n- Turn End: Gain +10 Charge Count and 2 Attack Power Up next turn, and lose this effect\n- Gain Aggro to this unit's leftmost Slot based on Charge Potency on self (max 5)\n- When hit, gain +1 Charge Count and 1 Load next turn (max 5 per turn)\n- If this unit is in Panic or in E.G.O Corrosion at Turn Start, or if this unit is Staggered, lose this effect"
     },
+    "HanafudaOne": {
+        "buffType": "Neutral",
+        "name": "Hand - Pine Crane Suit",
+        "desc": "- Skill 1 Base Power +2\n- When this unit equips and uses a <color=#ff0000>Wrath</color> Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the \"forming a Hand\" effects on the \"Koi-Koi\" Passive"
+    },
+    "HanafudaTwo": {
+        "buffType": "Neutral",
+        "name": "Hand - Susuki Grass Suit",
+        "desc": "- Skill 2 Base Power +1\n- When this unit equips and uses a <color=#fbc82b>Sloth</color> Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the \"forming a Hand\" effects on the \"Koi-Koi\" Passive"
+    },
+    "HanafudaThree": {
+        "buffType": "Neutral",
+        "name": "Hand - Blue Sakura Suit",
+        "desc": "- Skill 3 Base Power +1\n- When this unit equips and uses a <color=#15c3ee>Gloom</color> Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the \"forming a Hand\" effects on the \"Koi-Koi\" Passive"
+    },
+    "HanafudaCombo": {
+        "buffType": "Positive",
+        "name": "Bright\u3010\u5149\u3011",
+        "desc": "- Potency : Base 0, Max 5\n- Count : Base 3, Max 3\n\n- Turn Start: gain 1 Offense Level Up for every Potency\n- Turn Start: lose 1 Stack"
+    },
+    "HurtNightStiletto": {
+        "buffType": "Negative",
+        "name": "Open Wound",
+        "desc": "- Max Stack: 2\n- Turn End: Gain 1 Bind next turn\n- Turn End: At 2 Stack, replace this effect with Deep Wound next turn"
+    },
+    "CriHurtNightStiletto": {
+        "buffType": "Negative",
+        "name": "Deep Wound",
+        "desc": "- Base Stack: 3\n- On Tremor Burst, gain +1 Bleed Count (2 times per turn)\n- Cannot gain Open Wound (in Focused Encounters, the Part)\n- Turn End: Gain (Stack - 1) Bind next turn\n- Turn End: Reduce Stack by 1"
+    },
+    "HorrHurtNightStiletto": {
+        "buffType": "Negative",
+        "name": "Fatal Wound",
+        "desc": "- Base Stack: 3\n- On Tremor Burst, gain +3 Bleed Count (2 times per turn)\n- Cannot gain Open Wound (in Focused Encounters, the Part)\n- Turn End: Gain Bind equal to Stack next turn\n- Turn End: Reduce Stack by 1"
+    },
     "DuelDeclaration_Camille": {
         "buffType": "Negative",
         "categoryKeywordList": [
