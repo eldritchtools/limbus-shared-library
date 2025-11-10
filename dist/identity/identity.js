@@ -7,6 +7,11 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 import { useData } from "../dataProvider/DataProvider";
 import { ASSETS_ROOT } from "../paths";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+function getIdentityImgSrc(identityObject) {
+  var uptie = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4;
+  var type = uptie > 2 || identityObject.tags.includes("Base Identity") ? "gacksung" : "normal";
+  return "".concat(ASSETS_ROOT, "/identities/").concat(identityObject.id, "_").concat(type, "_profile.png");
+}
 function IdentityImg(_ref) {
   var id = _ref.id,
     _ref$identity = _ref.identity,
@@ -35,9 +40,8 @@ function IdentityImg(_ref) {
     width: "".concat(256 * scale, "px"),
     height: "".concat(256 * scale, "px")
   };
-  var type = uptie > 2 || identityObject.tags.includes("Base Identity") ? "gacksung" : "normal";
   var img = /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/identities/").concat(identityObject.id, "_").concat(type, "_profile.png"),
+    src: getIdentityImgSrc(identityObject, uptie),
     alt: identityObject.name,
     title: identityObject.name,
     style: scaledStyle
@@ -58,4 +62,4 @@ function IdentityImg(_ref) {
     return img;
   }
 }
-export { IdentityImg };
+export { IdentityImg, getIdentityImgSrc };

@@ -119,6 +119,11 @@ function GiftDisplay(_ref) {
               })
             });
           })
+        }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
+          style: {
+            color: "#f87171"
+          },
+          children: "Hard Only"
         }) : null]
       }), /*#__PURE__*/_jsxs("div", {
         style: {

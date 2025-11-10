@@ -55,6 +55,7 @@ function GiftDisplay({ gift }) {
                     </div>)}
                 </div> : null
                 }
+                {gift.hardonly ? <span style={{color: "#f87171"}}>Hard Only</span> : null}
             </div>
             <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
                 <div style={{ display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" }}>

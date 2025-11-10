@@ -107,6 +107,7 @@ function TooltipContent({ giftId }) {
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <GiftIcon gift={gift} />
                     {gift.enhanceable ? <span>Enhanceable</span> : null}
+                    {gift.hardonly ? <span style={{color: "#f87171"}}>Hard Only</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
                     <span>{replaceStatusVariables(gift.descs[0], true)}</span>

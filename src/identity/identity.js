@@ -1,6 +1,11 @@
 import { useData } from "../dataProvider/DataProvider";
 import { ASSETS_ROOT } from "../paths";
 
+function getIdentityImgSrc(identityObject, uptie = 4) {
+    const type = (uptie > 2 || identityObject.tags.includes("Base Identity")) ? "gacksung" : "normal";
+    return `${ASSETS_ROOT}/identities/${identityObject.id}_${type}_profile.png`;
+}
+
 function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 1 }) {
     const [identities, identitiesLoading] = useData("identities_mini");
 
@@ -17,8 +22,7 @@ function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 
     }
 
     const scaledStyle = { width: `${256 * scale}px`, height: `${256 * scale}px` };
-    const type = (uptie > 2 || identityObject.tags.includes("Base Identity")) ? "gacksung" : "normal";
-    const img = <img src={`${ASSETS_ROOT}/identities/${identityObject.id}_${type}_profile.png`} alt={identityObject.name} title={identityObject.name} style={scaledStyle} />
+    const img = <img src={getIdentityImgSrc(identityObject, uptie)} alt={identityObject.name} title={identityObject.name} style={scaledStyle} />
 
     if (displayName) {
         return <div style={{ display: "flex", flexDirection: "column", textAlign: "center", width: scaledStyle.width }}>
@@ -30,4 +34,4 @@ function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 
     }
 }
 
-export { IdentityImg };
+export { IdentityImg, getIdentityImgSrc };

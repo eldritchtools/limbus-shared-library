@@ -18,8 +18,27 @@ function RarityImg({ rarity, style = {} }) {
     }
 }
 
-function SinnerIcon({num, style={}}) {
-    return <img src={`${ASSETS_ROOT}/sinners/${num}.png`} alt={num} title={num} style={style} />
+const sinnerMapping = {
+    1: "Yi Sang",
+    2: "Faust",
+    3: "Don Quixote",
+    4: "Ryōshū",
+    5: "Meursault",
+    6: "Hong Lu",
+    7: "Heathcliff",
+    8: "Ishmael",
+    9: "Rodion",
+    10: "Sinclair",
+    11: "Outis",
+    12: "Gregor"
 }
 
-export { Icon, RarityImg, SinnerIcon };
+function getSinnerIconSrc(num) {
+    return `${ASSETS_ROOT}/sinners/${num}.png`;
+}
+
+function SinnerIcon({num, style={}}) {
+    return <img src={getSinnerIconSrc(num)} alt={sinnerMapping[num]} title={sinnerMapping[num]} style={style} />
+}
+
+export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon };

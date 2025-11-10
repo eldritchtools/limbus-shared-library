@@ -98,15 +98,32 @@ function RarityImg(_ref2) {
       return null;
   }
 }
+var sinnerMapping = {
+  1: "Yi Sang",
+  2: "Faust",
+  3: "Don Quixote",
+  4: "Ryōshū",
+  5: "Meursault",
+  6: "Hong Lu",
+  7: "Heathcliff",
+  8: "Ishmael",
+  9: "Rodion",
+  10: "Sinclair",
+  11: "Outis",
+  12: "Gregor"
+};
+function getSinnerIconSrc(num) {
+  return "".concat(ASSETS_ROOT, "/sinners/").concat(num, ".png");
+}
 function SinnerIcon(_ref3) {
   var num = _ref3.num,
     _ref3$style = _ref3.style,
     style = _ref3$style === void 0 ? {} : _ref3$style;
   return /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/sinners/").concat(num, ".png"),
-    alt: num,
-    title: num,
+    src: getSinnerIconSrc(num),
+    alt: sinnerMapping[num],
+    title: sinnerMapping[num],
     style: style
   });
 }
-export { Icon, RarityImg, SinnerIcon };
+export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon };

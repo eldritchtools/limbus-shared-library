@@ -248,6 +248,11 @@ function TooltipContent(_ref3) {
             gift: gift
           }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
             children: "Enhanceable"
+          }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
+            style: {
+              color: "#f87171"
+            },
+            children: "Hard Only"
           }) : null]
         }), /*#__PURE__*/_jsxs("div", {
           style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {
