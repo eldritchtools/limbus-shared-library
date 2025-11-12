@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import * as React from "react";
 import { Gift } from "./gift";
 import replaceStatusVariables from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
@@ -41,7 +41,7 @@ const buttonStyle = { border: "1px #aaa solid", padding: "4px", cursor: "pointer
 const iconTextStyle = { fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: "20px", color: "#ffd84d" };
 
 function GiftDisplay({ gift }) {
-    const [enhanceLevel, setEnhanceLevel] = useState(0);
+    const [enhanceLevel, setEnhanceLevel] = React.useState(0);
     let level = Math.min(enhanceLevel, gift.descs.length - 1);
 
     return <div style={{ display: "flex", flexDirection: "column", width: "100%", gap: "0.5rem" }}>
@@ -96,7 +96,7 @@ function GiftDisplay({ gift }) {
 }
 
 export function GiftModal({ gift, isOpen, onClose }) {
-    useEffect(() => {
+    React.useEffect(() => {
         if (!isOpen) return;
 
         const handleKeyDown = (e) => {

@@ -1,4 +1,4 @@
-import { ASSETS_ROOT } from "../paths";
+import { ASSETS_ROOT } from "../paths.js";
 import { jsx as _jsx } from "react/jsx-runtime";
 function KeywordIcon(_ref) {
   var id = _ref.id,

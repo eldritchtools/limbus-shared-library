@@ -1,5 +1,5 @@
-import floorPacks from './md_floor_packs.json';
-import themePacks from './md_theme_packs.json';
+import floorPacks from './md_floor_packs.json' with {type: 'json'};
+import themePacks from './md_theme_packs.json' with {type: 'json'};
 
 
 // Add floors available to theme packs

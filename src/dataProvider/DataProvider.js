@@ -1,7 +1,7 @@
-import { createContext, useContext, useState, useEffect, useRef } from "react";
+import * as React from "react";
 import { DATA_ROOT, PUBLIC_ROOT } from "../paths";
 
-const DataContext = createContext();
+const DataContext = React.createContext();
 
 function preprocess_data(path, data) {
     if (["egos_mini", "egos", "identities_mini", "identities", "gifts"].includes(path)) {
@@ -15,8 +15,8 @@ function preprocess_data(path, data) {
 }
 
 export function DataProvider({ children }) {
-    const [dataStore, setDataStore] = useState({});
-    const inFlight = useRef({});
+    const [dataStore, setDataStore] = React.useState({});
+    const inFlight = React.useRef({});
 
     const getData = async (path) => {
         if (path in dataStore) return dataStore[path];
@@ -46,11 +46,11 @@ export function DataProvider({ children }) {
 
 
 export function useData(path) {
-    const { dataStore, getData } = useContext(DataContext);
-    const [data, setData] = useState(path in dataStore ? dataStore[path] : null);
-    const [loading, setLoading] = useState(!data);
+    const { dataStore, getData } = React.useContext(DataContext);
+    const [data, setData] = React.useState(path in dataStore ? dataStore[path] : null);
+    const [loading, setLoading] = React.useState(!data);
 
-    useEffect(() => {
+    React.useEffect(() => {
         if (!path || data) return;
         setLoading(true);
 

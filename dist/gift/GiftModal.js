@@ -10,11 +10,11 @@ function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) 
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-import { useEffect, useState } from "react";
-import { Gift } from "./gift";
-import replaceStatusVariables from "../status/statusReplace";
-import FusionRecipe from "./FusionRecipe";
-import { getFloorsForPack, ThemePackImg } from "../themePack/themePack";
+import * as React from "react";
+import { Gift } from "./gift.js";
+import replaceStatusVariables from "../status/statusReplace.js";
+import FusionRecipe from "./FusionRecipe.js";
+import { getFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var overlayStyle = {
   position: "fixed",
@@ -63,10 +63,10 @@ var iconTextStyle = {
 };
 function GiftDisplay(_ref) {
   var gift = _ref.gift;
-  var _useState = useState(0),
-    _useState2 = _slicedToArray(_useState, 2),
-    enhanceLevel = _useState2[0],
-    setEnhanceLevel = _useState2[1];
+  var _React$useState = React.useState(0),
+    _React$useState2 = _slicedToArray(_React$useState, 2),
+    enhanceLevel = _React$useState2[0],
+    setEnhanceLevel = _React$useState2[1];
   var level = Math.min(enhanceLevel, gift.descs.length - 1);
   return /*#__PURE__*/_jsxs("div", {
     style: {
@@ -239,7 +239,7 @@ export function GiftModal(_ref2) {
   var gift = _ref2.gift,
     isOpen = _ref2.isOpen,
     onClose = _ref2.onClose;
-  useEffect(function () {
+  React.useEffect(function () {
     if (!isOpen) return;
     var handleKeyDown = function handleKeyDown(e) {
       if (e.key === "Escape") {

@@ -1,4 +1,4 @@
-import gifts from './gifts.json';
+import gifts from './gifts.json' with {type: 'json'};
 
 const preprocessed = Object.entries(gifts).reduce((acc, [k, v]) => {
     acc[k] = {id: k, ...v};

@@ -5,7 +5,7 @@ import replaceStatusVariables from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
 import { GiftModal } from "./GiftModal";
-import { useState } from "react";
+import * as React from "react";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -50,7 +50,7 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
 
 function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = true, expandable = true, expandOverride, setExpandOverride }) {
     const [gifts, giftsLoading] = useData("gifts");
-    const [modalOpen, setModalOpen] = useState(false);
+    const [modalOpen, setModalOpen] = React.useState(false);
     const size = 96 * scale;
 
     let giftObject = gift;

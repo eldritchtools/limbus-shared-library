@@ -1,4 +1,4 @@
-import egos from './egos.json';
+import egos from './egos.json' with {type: 'json'};
 
 const preprocessed = Object.entries(egos).reduce((acc, [k, v]) => {
     acc[k] = { id: k, ...v };

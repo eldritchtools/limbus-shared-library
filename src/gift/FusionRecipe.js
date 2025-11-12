@@ -1,4 +1,4 @@
-import { Gift } from "@eldritchtools/limbus-shared-library";
+import { Gift } from "./gift";
 
 function FusionRecipe({ recipe, includeProduct=true }) {
     const fontStyle = { color: "#ECCDA3", fontSize: "2.5em" }

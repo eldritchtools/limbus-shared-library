@@ -1,12 +1,13 @@
 {
     "name": "@eldritchtools/limbus-shared-library",
+    "type": "module",
     "version": "0.1.0",
     "main": "dist/index.js",
     "files": [
         "dist"
     ],
     "scripts": {
-        "build": "babel src --out-dir dist && copyfiles -u 1 public/data/* dist/"
+        "build": "babel src --out-dir dist && copyfiles -u 1 public/data/* dist/ && node scripts/postbuild-fix-extensions.cjs"
     },
     "peerDependencies": {
         "react": ">=19.0.0 <20.0.0",
@@ -35,8 +36,5 @@
                 }
             ]
         ]
-    },
-    "dependencies": {
-        "@supabase/supabase-js": "^2.75.0"
     }
 }

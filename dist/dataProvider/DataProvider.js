@@ -14,10 +14,10 @@ function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) 
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-import { createContext, useContext, useState, useEffect, useRef } from "react";
-import { DATA_ROOT, PUBLIC_ROOT } from "../paths";
+import * as React from "react";
+import { DATA_ROOT, PUBLIC_ROOT } from "../paths.js";
 import { jsx as _jsx } from "react/jsx-runtime";
-var DataContext = /*#__PURE__*/createContext();
+var DataContext = /*#__PURE__*/React.createContext();
 function preprocess_data(path, data) {
   if (["egos_mini", "egos", "identities_mini", "identities", "gifts"].includes(path)) {
     return Object.entries(data).reduce(function (acc, _ref) {
@@ -35,11 +35,11 @@ function preprocess_data(path, data) {
 }
 export function DataProvider(_ref3) {
   var children = _ref3.children;
-  var _useState = useState({}),
-    _useState2 = _slicedToArray(_useState, 2),
-    dataStore = _useState2[0],
-    setDataStore = _useState2[1];
-  var inFlight = useRef({});
+  var _React$useState = React.useState({}),
+    _React$useState2 = _slicedToArray(_React$useState, 2),
+    dataStore = _React$useState2[0],
+    setDataStore = _React$useState2[1];
+  var inFlight = React.useRef({});
   var getData = /*#__PURE__*/function () {
     var _ref4 = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee2(path) {
       var promise;
@@ -98,18 +98,18 @@ export function DataProvider(_ref3) {
   });
 }
 export function useData(path) {
-  var _useContext = useContext(DataContext),
-    dataStore = _useContext.dataStore,
-    getData = _useContext.getData;
-  var _useState3 = useState(path in dataStore ? dataStore[path] : null),
-    _useState4 = _slicedToArray(_useState3, 2),
-    data = _useState4[0],
-    setData = _useState4[1];
-  var _useState5 = useState(!data),
-    _useState6 = _slicedToArray(_useState5, 2),
-    loading = _useState6[0],
-    setLoading = _useState6[1];
-  useEffect(function () {
+  var _React$useContext = React.useContext(DataContext),
+    dataStore = _React$useContext.dataStore,
+    getData = _React$useContext.getData;
+  var _React$useState3 = React.useState(path in dataStore ? dataStore[path] : null),
+    _React$useState4 = _slicedToArray(_React$useState3, 2),
+    data = _React$useState4[0],
+    setData = _React$useState4[1];
+  var _React$useState5 = React.useState(!data),
+    _React$useState6 = _slicedToArray(_React$useState5, 2),
+    loading = _React$useState6[0],
+    setLoading = _React$useState6[1];
+  React.useEffect(function () {
     if (!path || data) return;
     setLoading(true);
     getData(path).then(function (fetched) {

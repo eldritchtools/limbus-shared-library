@@ -11,13 +11,13 @@ function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 import { Tooltip } from "react-tooltip";
-import { ASSETS_ROOT } from "../paths";
-import { themePacks } from "../data/mdData";
-import replaceStatusVariables from "../status/statusReplace";
-import { tooltipStyle } from "../styles";
-import { useData } from "../dataProvider/DataProvider";
-import { GiftModal } from "./GiftModal";
-import { useState } from "react";
+import { ASSETS_ROOT } from "../paths.js";
+import { themePacks } from "../data/mdData.js";
+import replaceStatusVariables from "../status/statusReplace.js";
+import { tooltipStyle } from "../styles.js";
+import { useData } from "../dataProvider/DataProvider.js";
+import { GiftModal } from "./GiftModal.js";
+import * as React from "react";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -143,10 +143,10 @@ function Gift(_ref2) {
     _useData2 = _slicedToArray(_useData, 2),
     gifts = _useData2[0],
     giftsLoading = _useData2[1];
-  var _useState = useState(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    modalOpen = _useState2[0],
-    setModalOpen = _useState2[1];
+  var _React$useState = React.useState(false),
+    _React$useState2 = _slicedToArray(_React$useState, 2),
+    modalOpen = _React$useState2[0],
+    setModalOpen = _React$useState2[1];
   var size = 96 * scale;
   var giftObject = gift;
   if (!giftObject) {
