@@ -67,7 +67,7 @@
                 {
                     "uptie": 4,
                     "name": "Adherence to Propriety.",
-                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] If target has 'Unique [Vibration]' as [Vibration], Clash Power +1",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] If target has 'Unique Tremor' as [Vibration], Clash Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count"
@@ -154,7 +154,7 @@
                 {
                     "uptie": 4,
                     "name": "Respect the Thumb.",
-                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] Deal +10% damage for every 4 (sum of [Combustion] and [Vibration] on target) (max 30%)\n[WhenUse] If target has 10+ 'Unique [Vibration]', Base Power +2",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] Deal +10% damage for every 4 (sum of [Combustion] and [Vibration] on target) (max 30%)\n[WhenUse] If target has 10+ 'Unique Tremor', Base Power +2",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]",
