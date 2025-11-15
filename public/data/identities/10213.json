@@ -333,9 +333,7 @@
                     "name": "Unfold Bowblade [\u5f13\u5200]",
                     "desc": "",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -343,9 +341,7 @@
                     "name": "Unfold Bowblade [\u5f13\u5200]",
                     "desc": "If this unit does not have [ArrowShiFau], activate \"Evade\" instead\n\n[StartBattle] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead\n[StartBattle] If this unit has [SnipingArrowMode], gain (36 / [AimForTheGoal] Stack) Shield for the turn (once per turn)\n\n[EndBattle] If this unit has [SnipingArrowMode], and did not use an Attack Skill this turn, gain 1 [AimForTheGoal] next turn (once per turn)\n[EndBattle] If this unit does not have [SnipingArrowMode], and has 1+ [ArrowShiFau], gain 1 of each [SnipingArrowMode] and [AimForTheGoal] next turn (once per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -353,9 +349,7 @@
                     "name": "Unfold Bowblade [\u5f13\u5200]",
                     "desc": "If this unit does not have [ArrowShiFau], activate \"Evade\" instead\n\n[StartBattle] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead\n[StartBattle] If this unit has [SnipingArrowMode], gain (60 / [AimForTheGoal] Stack) Shield for the turn (once per turn)\n\n[EndBattle] If this unit has [SnipingArrowMode], and did not use an Attack Skill this turn, gain 1 [AimForTheGoal] next turn (once per turn)\n[EndBattle] If this unit does not have [SnipingArrowMode], and has 1+ [ArrowShiFau], gain 1 of each [SnipingArrowMode] and [AimForTheGoal] next turn (once per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]
@@ -386,9 +380,7 @@
                     "name": "Evade",
                     "desc": "[OnSucceedEvade] Gain +1 [Breath] Count (2 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -396,9 +388,7 @@
                     "name": "Evade",
                     "desc": "[OnSucceedEvade] Gain +1 [Breath] Count (3 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]

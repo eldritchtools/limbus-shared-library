@@ -271,9 +271,7 @@
                     "name": "Variant Sancho Hardblood Arts 6 - Whip",
                     "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Gain 20 [Laceration]\n[WhenUse] Inflict +1 more [Laceration] On Hit for every 10 [BloodArmorPersonalityFirst]. (max 2) After Attack, consume 10 [BloodArmorPersonalityFirst]",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[SuperCoin]",
                             "[OnSucceedAttack] Inflict 2 [Laceration]"

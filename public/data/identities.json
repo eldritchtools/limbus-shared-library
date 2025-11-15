@@ -442,8 +442,7 @@
         ],
         "keywordTags": [
             "DefenseDown",
-            "Vibration",
-            "VibrationExplosion"
+            "Vibration"
         ],
         "name": "Molar Office Fixer"
     },
@@ -1464,7 +1463,10 @@
             }
         ],
         "keywordTags": [
-            "Charge"
+            "Binding",
+            "Charge",
+            "Paralysis",
+            "Reduction"
         ],
         "name": "W Corp. L2 Cleanup Agent"
     },
@@ -1644,6 +1646,7 @@
             }
         ],
         "keywordTags": [
+            "AssemblePersonality",
             "HitDamageUp",
             "Laceration",
             "MarkOfHeresy",
@@ -4125,8 +4128,7 @@
             "Breath",
             "Bullet",
             "Burst",
-            "Vibration",
-            "VibrationExplosion"
+            "Vibration"
         ],
         "name": "LCCB Assistant Manager"
     },
@@ -8787,7 +8789,6 @@
             "Paralysis",
             "Reduction",
             "Vibration",
-            "VibrationExplosion",
             "Vulnerable"
         ],
         "name": "LCCB Assistant Manager"
@@ -8877,8 +8878,7 @@
         ],
         "keywordTags": [
             "Burst",
-            "Vibration",
-            "VibrationExplosion"
+            "Vibration"
         ],
         "name": "Lobotomy E.G.O::Sloshing"
     },
@@ -11458,8 +11458,7 @@
         ],
         "keywordTags": [
             "BurstProtection",
-            "Vibration",
-            "VibrationExplosion"
+            "Vibration"
         ],
         "name": "Molar Boatworks Fixer"
     },
@@ -11897,24 +11896,6 @@
                 "id": 1101204,
                 "type": {
                     "tier": 1,
-                    "affinity": "envy",
-                    "type": "counter",
-                    "atkType": "blunt"
-                }
-            },
-            {
-                "id": 1101205,
-                "type": {
-                    "tier": 2,
-                    "affinity": "envy",
-                    "type": "counter",
-                    "atkType": "blunt"
-                }
-            },
-            {
-                "id": 1101206,
-                "type": {
-                    "tier": 3,
                     "affinity": "envy",
                     "type": "counter",
                     "atkType": "blunt"
@@ -12604,8 +12585,7 @@
         ],
         "keywordTags": [
             "AttackUp",
-            "Vibration",
-            "VibrationExplosion"
+            "Vibration"
         ],
         "name": "Molar Office Fixer"
     },
@@ -13796,8 +13776,7 @@
         "keywordTags": [
             "Burst",
             "Charge",
-            "Vibration",
-            "VibrationExplosion"
+            "Vibration"
         ],
         "name": "Rosespanner Workshop Fixer"
     },
@@ -14721,15 +14700,6 @@
                     "tier": 1,
                     "affinity": "gluttony",
                     "type": "guard"
-                }
-            },
-            {
-                "id": 1021207,
-                "type": {
-                    "tier": 3,
-                    "affinity": "gluttony",
-                    "type": "counter",
-                    "atkType": "slash"
                 }
             }
         ],

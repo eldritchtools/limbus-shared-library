@@ -116,7 +116,7 @@
                     "desc": "If this Skill is Discarded, gain +3 [Vibration] Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 2"
+                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 2"
                         ]
                     ]
                 },
@@ -127,7 +127,7 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +2 [Vibration] Count",
-                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 2"
+                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 2"
                         ]
                     ]
                 },
@@ -138,7 +138,7 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +3 [Vibration] Count",
-                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 2"
+                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 2"
                         ]
                     ]
                 }
@@ -180,12 +180,12 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 4 [Vibration]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
                         ],
                         [],
                         [
                             "[OnSucceedAttackHead] Inflict 2 [DefenseDown]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
                         ]
                     ]
                 },
@@ -196,12 +196,12 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 4 [Vibration]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
                         ],
                         [],
                         [
                             "[OnSucceedAttack] Inflict 2 [DefenseDown]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
                         ]
                     ]
                 }
@@ -271,7 +271,7 @@
     "passiveData": {
         "1010521": {
             "name": "Cleaning Up the Mess",
-            "desc": "When 1 ally with the lowest Max HP triggers [VibrationExplosion] on an enemy, inflict 1 [DefenseDown] per 4 Stagger Threshold raised (Max 3 per 1 enemy every turn)",
+            "desc": "When 1 ally with the lowest Max HP triggers [Vibration] Burst on an enemy, inflict 1 [DefenseDown] per 4 Stagger Threshold raised (Max 3 per 1 enemy every turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -284,7 +284,7 @@
         },
         "1010501": {
             "name": "In Times Like These...",
-            "desc": "Upon triggering [VibrationExplosion] on an enemy, inflict 1 [DefenseDown] per 4 Stagger Threshold raised (Max 5 per 1 enemy every turn)",
+            "desc": "Upon triggering [Vibration] Burst on an enemy, inflict 1 [DefenseDown] per 4 Stagger Threshold raised (Max 5 per 1 enemy every turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [

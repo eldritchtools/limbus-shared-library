@@ -191,12 +191,8 @@
                     "name": "Rip Space - CCA Overdrive",
                     "desc": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
-                        [
-                            ""
-                        ],
+                        [],
+                        [],
                         [
                             "[OnSucceedAttackHead] Gain +2 [Charge] Count"
                         ],

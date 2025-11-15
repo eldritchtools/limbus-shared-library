@@ -262,9 +262,7 @@
                     "name": "FromTheCoffinAButterflyTakesFlight",
                     "desc": "[StartBattle] [ReloadLament] (once per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -272,9 +270,7 @@
                     "name": "FromTheCoffinAButterflyTakesFlight",
                     "desc": "[StartBattle] [ReloadLament] (once per turn)\n[StartBattle] Gain Shield equal to (the sum of both [SinkingWhite] on the selected target)% HP. (max 20% per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]
@@ -357,6 +353,6 @@
     },
     "notes": {
         "short": "Applies {status:SinkingWhite} on targets causing hits to heal the attacker's SP or deal bonus {keyword:Gloom} damage based on ammo spent. Cancels skills early if out of ammo. Only use S3 at 8+ total {status:BulletLament}.",
-        "full": "{status:BulletLament} is a special type of ammo that has 2 types corresponding to the Potency and Count. Each ammo use randomly chooses between the two types and applies the corresponding {status:SinkingWhite} on the target. The Potency version makes attackers heal SP when hitting the target, and the Count version makes the target take additional {keyword:Gloom} damage based on the {status:Sinking} Potency on it. Every turn end, the Count version of {status:SinkingWhite} expires, and the Potency version gets converted to Count.\nHe'll cancel skills early if he runs out of {status:BulletLament}, but will automatically {status:ReloadLament} after that. You can also force {status:ReloadLament} with S3 or S2 at 4+ A-Reson. or partially regain some with lower Resons on S2. Triggering {status:ReloadLament} will consume SP depending on how much he had remaining. At negative SP he has a higher chance of gaining the Potency version (heal SP), otherwise he has a higher chance of gaining the Count version (bonus damage)."
+        "full": "{status:BulletLament} is a special type of ammo that has 2 types corresponding to the Potency and Count. Each ammo use randomly chooses between the two types and applies the corresponding {status:SinkingWhite} on the target. The Potency version makes attackers heal SP when hitting the target, and the Count version makes the target take additional {keyword:Gloom} damage based on the {status:Sinking} Potency on it. Every turn end, the Count version of {status:SinkingWhite} expires, and the Potency version gets converted to Count.\n\nHe'll cancel skills early if he runs out of {status:BulletLament}, but will automatically {status:ReloadLament} after that. You can also force {status:ReloadLament} with S3 or S2 at 4+ A-Reson. or partially regain some with lower Resons on S2. Triggering {status:ReloadLament} will consume SP depending on how much he had remaining. At negative SP he has a higher chance of gaining the Potency version (heal SP), otherwise he has a higher chance of gaining the Count version (bonus damage)."
     }
 }

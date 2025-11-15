@@ -324,5 +324,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Sinking} identity. Inflicts {status:EchoOfMansion} on S3.",
+        "full": "Decent {status:Sinking} Count applier with {status:EchoOfMansion} on S3. {status:EchoOfMansion} applies bonus {status:Sinking} Count when the target gains {status:Sinking} Potency or Count and reduces Heads chance by 10% of enemies without SP. It also spreads to 2 other enemies if you trigger panic on the enemy with it."
+    }
 }

@@ -39,9 +39,7 @@
                     "name": "Flying Sword",
                     "desc": "",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttackHead] Gain 2 [Breath]"
                         ]
@@ -52,9 +50,7 @@
                     "name": "Flying Sword",
                     "desc": "At less than 50% HP, this skill gives 1 additional [Breath]",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ]
@@ -65,9 +61,7 @@
                     "name": "Flying Sword",
                     "desc": "At less than 50% HP, this skill gives 3 additional [Breath]",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ]

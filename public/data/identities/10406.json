@@ -195,7 +195,7 @@
                             "[CriticalOnSucceedAttack] Double the application of [Vibration] & [Burst] Potency and Count",
                             "[OnSucceedAttack] Inflict 3 [Vibration] and +1 [Vibration] Count",
                             "[OnSucceedAttack] Inflict 3 [Burst] and +1 [Burst] Count",
-                            "[OnSucceedAttackHead] Trigger [VibrationExplosion]"
+                            "[OnSucceedAttackHead] Trigger [Vibration] Burst"
                         ]
                     ]
                 },
@@ -215,7 +215,7 @@
                             "[CriticalOnSucceedAttack] Double the application of [Vibration] & [Burst] Potency and Count",
                             "[OnSucceedAttack] Inflict 4 [Vibration] and +2 [Vibration] Count",
                             "[OnSucceedAttack] Inflict 4 [Burst] and +2 [Burst] Count",
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst"
                         ]
                     ]
                 }

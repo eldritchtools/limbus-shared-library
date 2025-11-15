@@ -199,13 +199,13 @@
                     "desc": "[StartBattle] Spend 5 [Vibration] Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nDeal +3% Damage for every type of negative effect on target (Max 15%)\n[EnemyKill] Gain +2 [Vibration] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion],\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by [VibrationExplosion]. (Max 13)"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst,\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by [Vibration] Burst. (Max 13)"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion],\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by [VibrationExplosion]. (Max 13)"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst,\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by [Vibration] Burst. (Max 13)"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion],\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by [VibrationExplosion]. (Max 13)\nReduce [Vibration] Count by 3"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst,\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by [Vibration] Burst. (Max 13)\nReduce [Vibration] Count by 3"
                         ]
                     ]
                 },
@@ -215,13 +215,13 @@
                     "desc": "[StartBattle] Spend 5 [Vibration] Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nDeal +6% Damage for every type of negative effect on target (Max 30%)\n[EnemyKill] Gain +2 [Vibration] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion],\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by [VibrationExplosion]. (Max 20)"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst,\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by [Vibration] Burst. (Max 20)"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion],\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by [VibrationExplosion]. (Max 20)"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst,\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by [Vibration] Burst. (Max 20)"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion],\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by [VibrationExplosion]. (Max 20)\nReduce [Vibration] Count by 3"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst,\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by [Vibration] Burst. (Max 20)\nReduce [Vibration] Count by 3"
                         ]
                     ]
                 }
@@ -335,5 +335,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Generate {status:Vibration} Count with S1 and S2. Consume it with S2 and S3 to give them Atk weight. Has {status:PlusCoinValueDown} on S2 and 3 {status:VibrationExplosion}s on S3.",
+        "full": "Build {status:Vibration} Count with S1(+6) and S2(+5). Consume 5 Count per atk weight for S2 (max 1) and S2 (max 2). Her S2 inflicts {status:PlusCoinValueDown} and S3 triggers 3 {status:VibrationExplosion}s with some bonus {keyword:Wrath} damage."
+    }
 }

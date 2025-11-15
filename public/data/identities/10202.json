@@ -115,7 +115,7 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 Bind next turn"
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 [Binding] next turn"
                         ]
                     ]
                 },
@@ -126,7 +126,7 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 Bind next turn"
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 [Binding] next turn"
                         ]
                     ]
                 },
@@ -139,7 +139,7 @@
                             "[OnSucceedAttack] Gain +3 [Charge] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 Bind next turn"
+                            "[OnSucceedAttack] Spend 3 [Charge] Count to inflict 4 [Binding] next turn"
                         ]
                     ]
                 }
@@ -182,7 +182,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Spend 5 [Charge] Count to inflict 2 Attack Power Down and 3 Paralyze next turn"
+                            "[OnSucceedAttack] Spend 5 [Charge] Count to inflict 2 [Reduction] and 3 [Paralysis] next turn"
                         ]
                     ]
                 },
@@ -194,7 +194,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Spend 5 [Charge] Count to inflict 2 Attack Power Down and 3 Paralyze next turn"
+                            "[OnSucceedAttack] Spend 5 [Charge] Count to inflict 2 [Reduction] and 3 [Paralysis] next turn"
                         ]
                     ]
                 }
@@ -296,5 +296,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Build {status:Charge} with S1 and S2. Spend it on S3 at 5+ Count.",
+        "full": "Pretty straightforward. Build {status:Charge} using S1(+4) and S2(+3). Spend it on S3 at 5+ Count. Applies debuffs on the target. Passives gives additional Count to self and an ally."
+    }
 }

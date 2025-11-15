@@ -104,12 +104,8 @@
                     "name": "Riposte",
                     "desc": "[WinDuel] Inflict 3 [Paralysis] next turn",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
-                        [
-                            ""
-                        ]
+                        [],
+                        []
                     ]
                 },
                 {
@@ -117,9 +113,7 @@
                     "name": "Riposte",
                     "desc": "[WinDuel] Inflict 3 [Paralysis] next turn",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
                         ]
@@ -130,9 +124,7 @@
                     "name": "Riposte",
                     "desc": "[WinDuel] Inflict 3 [Paralysis] next turn\n[WinDuel] Inflict 1 [Burst] Count",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn",
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -285,6 +277,6 @@
     },
     "notes": {
         "short": "Self-explanatory identity",
-        "full": "Nothing particularly special with early 00s before PM established their design for the statuses.\nInflicts {status:Paralysis} on clash win with S2 and Pierce Fragility next turn with s3."
+        "full": "Nothing particularly special with early 00s before PM established their design for the statuses.\n\nInflicts {status:Paralysis} on clash win with S2 and Pierce Fragility next turn with s3."
     }
 }

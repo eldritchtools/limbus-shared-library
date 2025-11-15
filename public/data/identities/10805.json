@@ -168,7 +168,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]\nAfter triggering [VibrationExplosion], reduce [Vibration] Count by 4. Inflict 5 [Burst]"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst\nAfter triggering [Vibration] Burst, reduce [Vibration] Count by 4. Inflict 5 [Burst]"
                         ]
                     ]
                 },
@@ -178,7 +178,7 @@
                     "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[DefeatDuel] Inflict 5 [Vibration] and 5 [Burst]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]\nAfter triggering [VibrationExplosion], reduce [Vibration] Count by 4. Inflict 5 [Burst]"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst\nAfter triggering [Vibration] Burst, reduce [Vibration] Count by 4. Inflict 5 [Burst]"
                         ]
                     ]
                 }
@@ -251,7 +251,7 @@
     "passiveData": {
         "1080521": {
             "name": "Corrosive Slime",
-            "desc": "When 1 ally with the fastest Speed triggers [VibrationExplosion], they inflict 2 [Burst].",
+            "desc": "When 1 ally with the fastest Speed triggers [Vibration] Burst, they inflict 2 [Burst].",
             "condition": {
                 "type": "owned",
                 "requirement": [

@@ -260,9 +260,7 @@
                     "name": "Courier Assistance & Crisis Control System",
                     "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!.' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair] / 2)% of this unit's max HP as Shield (max 15%, once per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -270,9 +268,7 @@
                     "name": "Courier Assistance & Crisis Control System",
                     "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 25%, once per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]
@@ -303,9 +299,7 @@
                     "name": "W-wait, I need to do some maintenance...!",
                     "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 15%, once per turn)\n[EndBattle] Activate [Retreat]",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -313,9 +307,7 @@
                     "name": "W-wait, I need to do some maintenance...!",
                     "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 25%, once per turn)\n[EndBattle] Activate [Retreat]",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]

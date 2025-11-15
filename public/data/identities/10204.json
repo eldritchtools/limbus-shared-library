@@ -281,7 +281,7 @@
     "passiveData": {
         "1020401": {
             "name": "Whistles",
-            "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 [AssemblePersonality].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -294,7 +294,7 @@
         },
         "1020411": {
             "name": "Whistles",
-            "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 2 Fanatic.",
+            "desc": "At the start of the combat phase, heal 2 allies with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 2 [AssemblePersonality].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -307,7 +307,7 @@
         },
         "1020421": {
             "name": "Whispers",
-            "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 1 [AssemblePersonality].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -320,7 +320,7 @@
         },
         "1020431": {
             "name": "Whispers",
-            "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 2 Fanatic.",
+            "desc": "At the start of the combat phase, heal 1 ally with the least SP for 15 SP.\nIf the ally is an 'N Corp. Fanatic', also apply 2 [AssemblePersonality].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -332,5 +332,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "SP, {keyword:Pierce}, and {keyword:Blunt} support with {status:Laceration} Count application via {status:NailPersonality}.",
+        "full": "Heals SP on 4 {keyword:Lust} Res with her passive or killing enemies with S3. S2 inflicts {status:MarkOfHeresy} next turn, which increases {keyword:Pierce} and {keyword:Blunt} damage by 20% and heals SP to the attacker if the target dies. She also applies a decent amount of {status:Laceration} Count thanks to {status:NailPersonality}."
+    }
 }

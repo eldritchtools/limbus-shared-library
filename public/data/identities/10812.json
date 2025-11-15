@@ -361,9 +361,7 @@
                     "name": "Adept Evasion",
                     "desc": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -371,9 +369,7 @@
                     "name": "Adept Evasion",
                     "desc": "[StartBattle] At 3+ [StartXichun], perform a [RetreatForCommon] at Turn End.\n- Upon Retreat, move to the frontmost place in the Backup units' Deployment order (Returns first before the other Backup units Substitute in)\n[WhenUse] Gain +1 [Breath] Count (2 times per turn)\n[OnSucceedEvade] Gain 2 [Breath] (2 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]

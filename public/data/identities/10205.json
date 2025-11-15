@@ -319,5 +319,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Defensive support",
+        "full": "Passively applies {status:DefenseUp} to herself and allies with her skills and passive, decreasing damage taken."
+    }
 }

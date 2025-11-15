@@ -121,7 +121,7 @@
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nIf the Coin is reused twice, inflict [Vibration], then trigger [VibrationExplosion]\nAfter [VibrationExplosion], reduce [Vibration] Count by 1"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nIf the Coin is reused twice, inflict [Vibration], then trigger [Vibration] Burst\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
                         ]
                     ]
                 },
@@ -134,7 +134,7 @@
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [VibrationExplosion]\nAfter [VibrationExplosion], reduce [Vibration] Count by 1"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [Vibration] Burst\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
                         ]
                     ]
                 },
@@ -147,7 +147,7 @@
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [VibrationExplosion]\nAfter [VibrationExplosion], reduce [Vibration] Count by 1"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [Vibration] Burst\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -183,10 +183,10 @@
                         ],
                         [
                             "[OnSucceedAttackHead] Inflict 2 [Vibration]",
-                            "[OnSucceedAttack] Trigger [VibrationExplosion].\nAfter [VibrationExplosion], reduce [Vibration] Count by 1"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst.\nAfter [Vibration] Burst, reduce [Vibration] Count by 1"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion].\nAfter [VibrationExplosion], reduce [Vibration] Count by 1",
+                            "[OnSucceedAttack] Trigger [Vibration] Burst.\nAfter [Vibration] Burst, reduce [Vibration] Count by 1",
                             "[OnSucceedAttack] If target is Staggered, deal 25% of damage dealt as bonus damage"
                         ]
                     ]

@@ -44,9 +44,7 @@
                     "name": "By Manager Esquire's Orders, I Am Here!",
                     "desc": "[WhenUse] Gain +2 [ThePowerOfLoveAndHate] Count",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -58,9 +56,7 @@
                     "name": "By Manager Esquire's Orders, I Am Here!",
                     "desc": "[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
                             "[OnSucceedAttack] Inflict 2 [Burst]"
@@ -282,9 +278,7 @@
                     "name": "Where are... the villains...?",
                     "desc": "Deal +3% damage for every [HystericGauge] on self (max 9%)\n[WhenUse] Gain +2 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 5 SP",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
                             "[OnSucceedAttack] Inflict 1 [Sinking]"
@@ -296,9 +290,7 @@
                     "name": "Where are... the villains...?",
                     "desc": "Deal +4% damage for every [HystericGauge] on self (max 12%)\n[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 5 SP",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
                             "[OnSucceedAttack] Inflict 2 [Sinking]"

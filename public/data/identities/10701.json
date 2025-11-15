@@ -99,9 +99,7 @@
                     "name": "Smackdown",
                     "desc": "[WhenUse] Gain 1 [Enhancement] next turn",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -109,9 +107,7 @@
                     "name": "Smackdown",
                     "desc": "[WhenUse] Gain 1 [Enhancement] and [AttackDmgUp] next turn",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -162,7 +158,7 @@
                             "[OnSucceedAttackHead] Next Coin has +2 Power"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst"
                         ]
                     ]
                 }

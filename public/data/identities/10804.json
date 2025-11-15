@@ -167,7 +167,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst"
                         ],
                         [
                             "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
@@ -186,7 +186,7 @@
                     "desc": "If target has 5+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst"
                         ],
                         [
                             "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"

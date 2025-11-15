@@ -194,9 +194,7 @@
                         [
                             "[OnSucceedAttackHead] Inflict 3 [Combustion]"
                         ],
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict +3 [Combustion] Count",
                             "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] on 2 random enemies"
@@ -211,9 +209,7 @@
                         [
                             "[OnSucceedAttackHead] Inflict 3 [Combustion]"
                         ],
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict +3 [Combustion] Count",
                             "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] on 2 random enemies"

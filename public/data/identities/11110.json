@@ -260,9 +260,7 @@
                     "name": "Deploy Plasma",
                     "desc": "[WhenUse] Base Power +1 for every 2 [Charge] Count on self (max 5)\n[WhenUse] Gain +2 [Charge] Count (2 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -270,9 +268,7 @@
                     "name": "Deploy Plasma",
                     "desc": "[WhenUse] Base Power +1 for every [Charge] Count on self (max 10)\n[WhenUse] Gain +2 [Charge] Count (3 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]

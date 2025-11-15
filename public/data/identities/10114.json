@@ -444,6 +444,7 @@
         }
     },
     "notes": {
-        "short": ""
+        "short": "Standard Heishou (S3 or defense gives a 3 turn buff, works with {identity:10613} mechanics) + Adept (builds a resource that's consumed to use a stronger S3) mechanics. Use S3 at 5 {status:BreakthroughHorse}. Buffs {identity:10812} if both are active.",
+        "full": "Use his S3 or defense to gain {status:LegStrengthHorseYisang} for 3 turns, giving {status: Agility}, {status:Aggro}, and bonus {status:Vibration} application. Always keep it up to help with {status:BreakthroughHorse} generation.\n\n{status:BreakthroughHorse} is gained when attacking slower enemies, triggering {status:VibrationExplosion}, or winning a clash with {status:LegStrengthHorseYisang} (max 3 per turn), as long as you have his passive active, so you'll mostly be gaining it passively without thinking about it too much.\n\nUsing S3 when you have 5 {status:BreakthroughHorse} will consume all of it and use S3-2 instead which also buffs everyone's clashing next turn.\n\nBoth versions of S3 apply {status:ConcussionYisang} buffing the effects of {status:VibrationExplosion} and {status:Burst} by 20%. S2 also applies it when the target doesn't have any Deathrite.\n\nHis buff for {identity:10613} gives him one {status:VibrationExplosion} per turn when attacking.\n\nHe passively gives bonus {status:Breath} and {status:Enhancement} to {identity:10812}, as well as triggering her S3 for free whenever he uses his S3-2."
     }
 }

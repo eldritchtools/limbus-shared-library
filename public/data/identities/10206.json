@@ -44,9 +44,7 @@
                     "name": "Predictive Analysis",
                     "desc": "",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 3 [Burst]"
                         ]
@@ -57,9 +55,7 @@
                     "name": "Predictive Analysis",
                     "desc": "If target has 3+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 3 [Burst]"
                         ]
@@ -70,9 +66,7 @@
                     "name": "Predictive Analysis",
                     "desc": "Coin Power +1 for every 3 [Burst] on target (Max 2)",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 3 [Burst]"
                         ]
@@ -200,9 +194,7 @@
                     "name": "Profiling",
                     "desc": "[WhenUse] Deal +10% damage for every 3 [Burst] on target (Max 20%)",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 3 [Burst]"
                         ],
@@ -216,9 +208,7 @@
                     "name": "Profiling",
                     "desc": "[WhenUse] Deal +10% damage for every 3 [Burst] on target (Max 50%)\n[WinDuel] Inflict +2 [Burst] Count",
                     "coinDescs": [
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Inflict 3 [Burst]"
                         ],
@@ -256,9 +246,7 @@
                     "name": "Let's Wrap It Up",
                     "desc": "[WhenUse] Gain 1 [Agility] next turn (3 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 },
                 {
@@ -266,9 +254,7 @@
                     "name": "Let's Wrap It Up",
                     "desc": "[WhenUse] Gain 1 [Agility] next turn (3 times per turn)",
                     "coinDescs": [
-                        [
-                            ""
-                        ]
+                        []
                     ]
                 }
             ]
@@ -337,5 +323,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Burst} identity. Applies {status:WeaknessAnalysis}.",
+        "full": "Inflicts {status:Burst} on all her skills. Count neutral on S2 and negative on S1 and S3. Can weaken endure or normal enemy resists with S2 inflicting {status:WeaknessAnalysis}."
+    }
 }

@@ -195,9 +195,7 @@
                         [
                             "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply 3 [DefenseUp] next turn"
                         ],
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Consume up to 8 [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target",
                             "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
@@ -212,9 +210,7 @@
                         [
                             "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply 4 [DefenseUp] next turn"
                         ],
-                        [
-                            ""
-                        ],
+                        [],
                         [
                             "[OnSucceedAttack] Consume up to 8 [Vibration] Count on self, and inflict the same amount of [Vibration] Count on target",
                             "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
