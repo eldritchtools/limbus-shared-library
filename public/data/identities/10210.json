@@ -353,7 +353,7 @@
         }
     },
     "notes": {
-        "short": "",
-        "full": ""
+        "short": "Generate {status:Charge} Count with S1 and S3 and consume mainly with S2. Gains {status:Charge} Potency as she spends Count, increasing effects of her skills and passive. Use S3 to setup S2 since it also inflicts {status:VioletTakeDamageUp} next turn.",
+        "full": "Most of her {status:Charge} Count will come from her S3, with a bit of extra from S1 and her passive (on kill). S1 consumes some Count, but you'll want most Count to be spent on S2. At 5-9 {status:Charge} Count, S2 will consume HP to raise Count to 10, then spend 10 to gain Coin Power. At more than 10 Count and 3 Reson, she consumes the rest of it on the final coin to deal bonus damage based on Potency. You can use S3 to setup S2 since it generates enough {status:Charge} and inflicts {status:VioletTakeDamageUp} next turn.\n\nShe gains {status:Charge} Potency for every 10 Count spent. The Potency increases her damage on all skills, her Count generation from her S3 and passive, and the {status:VioletTakeDamageUp} inflicted by her S3."
     }
 }

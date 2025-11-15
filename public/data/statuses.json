@@ -897,7 +897,7 @@
     "SnipingArrowMode": {
         "buffType": "Positive",
         "name": "Ready to Loose",
-        "desc": "- When this unit has this effect, activate the following:\n\u00b7 Converts the leftmost Base Attack Skill on the Dashboard to \"Bow's Glimmer\", then uses it at Combat Start\n\u00b7 This unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n\u00b7 Does not trigger <noparse>Assist Attack</noparse>\n\u00b7 Removed if an E.G.O Skill was equipped at Combat Start"
+        "desc": "- When this unit has this effect, activate the following:\n\u00b7 Converts the leftmost Base Attack Skill on the Dashboard to \"Bow's Glimmer\", then uses it at Combat Start\n\u00b7 This unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n\u00b7 Does not trigger Assist Attack\n\u00b7 Removed if an E.G.O Skill was equipped at Combat Start"
     },
     "AStrokeOfDeath": {
         "buffType": "Positive",
