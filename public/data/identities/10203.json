@@ -260,7 +260,7 @@
         },
         "1020301": {
             "name": "Resolution",
-            "desc": "At the start of the turn, if at 4+ Poise Count, gain 2 Haste.",
+            "desc": "At the start of the turn, if at 4+ [Breath] Count, gain 2 [Agility].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -271,5 +271,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

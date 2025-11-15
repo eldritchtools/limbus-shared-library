@@ -52,7 +52,7 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Trigger [Vibration] Burst",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttackHead] Inflict 4 [Paralysis]"
                     ]
@@ -65,7 +65,7 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Trigger [Vibration] Burst",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]",
                         "[OnSucceedAttack] Inflict 6 [Vibration]",
                         "[OnSucceedAttack] Inflict 4 [Paralysis]"
                     ]
@@ -76,9 +76,10 @@
     "passiveList": [
         {
             "name": "Maggots",
-            "desc": "On hit, inflict 5 Maggots at a (Gluttony A-Reson. x8)% chance."
+            "desc": "On hit, inflict 5 [Muckworm] at a (Gluttony A-Reson. x8)% chance."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

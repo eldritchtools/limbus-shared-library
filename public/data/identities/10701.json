@@ -162,7 +162,7 @@
                             "[OnSucceedAttackHead] Next Coin has +2 Power"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger Tremor Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ]
                     ]
                 }
@@ -240,5 +240,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Suppressing.",
-                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain <style=\"highlight\">2 [DefenseUp]\n<style=\"highlight\">[WhenUse] If target has 4+ [Vibration] Count, Clash Power +1\n[WinDuel] Gain +2 [Vibration] Count",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 2 [DefenseUp]\n[WhenUse] If target has 4+ [Vibration] Count, Clash Power +1\n[WinDuel] Gain +2 [Vibration] Count",
                     "coinDescs": [
                         [
                             "[WinDuelAttack] Inflict +2 [Vibration] Count"
@@ -68,7 +68,7 @@
                 {
                     "uptie": 4,
                     "name": "Suppressing.",
-                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 2 [DefenseUp]\n[WhenUse] If target has 4+ [Vibration] Count, Clash Power +<style=\"highlight\">2\n[WinDuel] Gain +<style=\"highlight\">3 [Vibration] Count",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 2 [DefenseUp]\n[WhenUse] If target has 4+ [Vibration] Count, Clash Power +2\n[WinDuel] Gain +3 [Vibration] Count",
                     "coinDescs": [
                         [
                             "[WinDuelAttack] Inflict +2 [Vibration] Count"
@@ -133,26 +133,26 @@
                 {
                     "uptie": 2,
                     "name": "Combat Preparation",
-                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] At 4+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +<style=\"highlight\">3 [Vibration] Count",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] At 4+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +3 [Vibration] Count",
                     "coinDescs": [
                         [
                             "[WinDuelAttack] On 1 other ally with the lowest HP percentage, apply 2 [DefenseUp] next turn"
                         ],
                         [
-                            "[OnSucceedAttack] On 1 other ally with [DefenseUp], apply (([DefenseUp] on the ally)/<style=\"highlight\">2) [AttackUp] next turn (once per turn, max 3)"
+                            "[OnSucceedAttack] On 1 other ally with [DefenseUp], apply (([DefenseUp] on the ally)/2) [AttackUp] next turn (once per turn, max 3)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Combat Preparation",
-                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] At 4+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +3 [Vibration] Count<style=\"highlight\">",
+                    "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] At 4+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +3 [Vibration] Count",
                     "coinDescs": [
                         [
-                            "[WinDuelAttack] On <style=\"highlight\">2 other allies with the lowest HP percentage, apply 2 [DefenseUp] next turn"
+                            "[WinDuelAttack] On 2 other allies with the lowest HP percentage, apply 2 [DefenseUp] next turn"
                         ],
                         [
-                            "[OnSucceedAttack] On <style=\"highlight\">2 other allies with [DefenseUp], apply (([DefenseUp] on the ally)/2) [AttackUp] next turn (once per turn, max 3)"
+                            "[OnSucceedAttack] On 2 other allies with [DefenseUp], apply (([DefenseUp] on the ally)/2) [AttackUp] next turn (once per turn, max 3)"
                         ]
                     ]
                 }
@@ -207,10 +207,10 @@
                 {
                     "uptie": 4,
                     "name": "Fence",
-                    "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">4)\n[WhenUse] Coin Power +1 for every 3 [DefenseUp] on self (max <style=\"highlight\">3)",
+                    "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 4)\n[WhenUse] Coin Power +1 for every 3 [DefenseUp] on self (max 3)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply <style=\"highlight\">4 [DefenseUp] next turn"
+                            "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply 4 [DefenseUp] next turn"
                         ],
                         [
                             ""
@@ -262,7 +262,7 @@
                 {
                     "uptie": 4,
                     "name": "Zwei Knight's Greatsword Form - Guard",
-                    "desc": "[CanDuelGuard]\n[StartBattle] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +<style=\"highlight\">3 [Vibration] Count (once per turn)\n[WinDuel] Trigger [VibrationExplosion]",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +3 [Vibration] Count (once per turn)\n[WinDuel] Trigger [VibrationExplosion]",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
@@ -315,5 +315,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

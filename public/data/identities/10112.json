@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Flame Hew",
-                    "desc": "If target has <style=\"highlight\">3+ [Combustion], Coin Power +1",
+                    "desc": "If target has 3+ [Combustion], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Combustion]"
@@ -68,7 +68,7 @@
                 {
                     "uptie": 4,
                     "name": "Flame Hew",
-                    "desc": "<style=\"highlight\">Coin Power +1 for every 3 [Combustion] on target (max 2)\n<style=\"highlight\">Deal +10% damage for every 10 [Combustion] on target (max 30%)",
+                    "desc": "Coin Power +1 for every 3 [Combustion] on target (max 2)\nDeal +10% damage for every 10 [Combustion] on target (max 30%)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Combustion]",
@@ -154,7 +154,7 @@
                         ],
                         [
                             "Deal +2.5% damage for every [Combustion] on target (max 30%)",
-                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target"
                         ]
                     ]
                 },
@@ -170,8 +170,8 @@
                             "[OnSucceedAttack] Inflict 2 [Combustion]"
                         ],
                         [
-                            "Deal +<style=\"highlight\">5% damage for every [Combustion] on target (max <style=\"highlight\">60%)",
-                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target<style=\"highlight\">"
+                            "Deal +5% damage for every [Combustion] on target (max 60%)",
+                            "[OnSucceedAttack] If target has 6+ [Combustion], inflict +2 [Combustion] Count on target"
                         ]
                     ]
                 }
@@ -224,7 +224,7 @@
                 {
                     "uptie": 4,
                     "name": "Flow of the Sword",
-                    "desc": "<style=\"highlight\">Coin Power +1 for every 6 [Combustion] on target (max 2)\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal <style=\"highlight\">15 SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
+                    "desc": "Coin Power +1 for every 6 [Combustion] on target (max 2)\nDeal +10% damage for every 6 [Combustion] on target (max 30%)\n[EndSkill] Heal 15 SP for 1 other ally with the least SP\n- If this attack killed the target, or if target had 10+ [Combustion], heal 1 more ally",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Combustion]"
@@ -376,5 +376,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "Straightforward {status:Combustion} id. Heals SP to allies based on Reson.",
+        "full": "Pretty straightforward id. He heals a lot of SP with his passive and S3."
     }
 }

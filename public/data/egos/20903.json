@@ -75,9 +75,10 @@
     "passiveList": [
         {
             "name": "Coldness",
-            "desc": "On hit, if the target has 5+ Sinking, inflict 1 Bind and Attack Power Down.\n(3 times per unit)"
+            "desc": "On hit, if the target has 5+ [Sinking], inflict 1 Bind and Attack Power Down.\n(3 times per unit)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

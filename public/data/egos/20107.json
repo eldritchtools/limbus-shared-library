@@ -58,19 +58,19 @@
                 "uptie": 3,
                 "name": "Fell Bullet",
                 "abName": "Der Fluchsch\u00fctze",
-                "desc": "Prioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]<style=\"highlight\">",
+                "desc": "Prioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
                 "coinDescs": [
                     [
-                        "This Coin deals damage only against the main target.<style=\"highlight\">",
-                        "If the main target is an ally, deal <style=\"highlight\">+10% damage for every [BoseProjektil] (max <style=\"highlight\">70%)",
-                        "[AllyKill] Apply 3 [Breath] to self and 2 random allies<style=\"highlight\">",
-                        "<style=\"highlight\">[AllyKill] +1 E.G.O resource for the killed ally's Skill 1 Affinity",
-                        "[AllyKillFail] Gain <style=\"highlight\">3 [Breath]"
+                        "This Coin deals damage only against the main target.",
+                        "If the main target is an ally, deal +10% damage for every [BoseProjektil] (max 70%)",
+                        "[AllyKill] Apply 3 [Breath] to self and 2 random allies",
+                        "[AllyKill] +1 E.G.O resource for the killed ally's Skill 1 Affinity",
+                        "[AllyKillFail] Gain 3 [Breath]"
                     ],
                     [
-                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage<style=\"highlight\">",
-                        "<style=\"highlight\">+5% Damage on Critical Hit for every [BoseProjektil] (max <style=\"highlight\">35%)",
-                        "[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\">"
+                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
+                        "+5% Damage on Critical Hit for every [BoseProjektil] (max 35%)",
+                        "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
                     ]
                 ]
             },
@@ -78,19 +78,19 @@
                 "uptie": 4,
                 "name": "Fell Bullet",
                 "abName": "Der Fluchsch\u00fctze",
-                "desc": "Prioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n<style=\"highlight\">- If the said Reson. was a Pride Reson., gain (highest Reson. x 2) [BoseProjektil] instead (max 7)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
+                "desc": "Prioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n- If the said Reson. was a Pride Reson., gain (highest Reson. x 2) [BoseProjektil] instead (max 7)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
                 "coinDescs": [
                     [
-                        "This Coin deals damage only against the main target.<style=\"highlight\">",
-                        "If the main target is an ally, deal <style=\"highlight\">+15% damage for every [BoseProjektil] (max <style=\"highlight\">105%)",
-                        "[AllyKill] Apply 3 [Breath] to self and 2 random allies<style=\"highlight\">",
-                        "<style=\"highlight\">[AllyKill] +1 E.G.O resource for the killed ally's Skill 1 and 2 Affinities",
-                        "[AllyKillFail] Gain <style=\"highlight\">3 [Breath]"
+                        "This Coin deals damage only against the main target.",
+                        "If the main target is an ally, deal +15% damage for every [BoseProjektil] (max 105%)",
+                        "[AllyKill] Apply 3 [Breath] to self and 2 random allies",
+                        "[AllyKill] +1 E.G.O resource for the killed ally's Skill 1 and 2 Affinities",
+                        "[AllyKillFail] Gain 3 [Breath]"
                     ],
                     [
-                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage<style=\"highlight\">",
-                        "<style=\"highlight\">+9% Damage on Critical Hit for every [BoseProjektil] (max <style=\"highlight\">63%)",
-                        "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">3 [Laceration]"
+                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
+                        "+9% Damage on Critical Hit for every [BoseProjektil] (max 63%)",
+                        "[CriticalOnSucceedAttack] Inflict 3 [Laceration]"
                     ]
                 ]
             }
@@ -102,6 +102,7 @@
             "desc": "After Attack: if the target is killed, gain +2 [Breath] Count (2 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -164,21 +165,21 @@
                 "uptie": 3,
                 "name": "Fell Bullet",
                 "abName": "Der Fluchsch\u00fctze",
-                "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Deal <style=\"highlight\">+3% damage for every [BoseProjektil] (max <style=\"highlight\">21%)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
+                "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n[BeforeAttack] Deal +3% damage for every [BoseProjektil] (max 21%)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
                 "coinDescs": [
                     [
-                        "This Coin deals damage only against the main target.<style=\"highlight\">",
-                        "If the main target is an ally, deal <style=\"highlight\">+12% damage for every [BoseProjektil] (max <style=\"highlight\">84%)",
-                        "If the main target is an ally, deal +2% damage for every [Breath] on self (max 50%)<style=\"highlight\">",
-                        "[AllyKill] Apply 3 [Breath] to self and <style=\"highlight\">3 random allies",
-                        "[AllyKill] The next Coin deals <style=\"highlight\">+5% damage for every [BoseProjektil] (max <style=\"highlight\">35%)",
-                        "<style=\"highlight\">[AllyKill] +1 E.G.O resource for the killed ally's Skill 1, 2, and 3 Affinities",
-                        "[AllyKillFail] Gain <style=\"highlight\">2 [Breath]"
+                        "This Coin deals damage only against the main target.",
+                        "If the main target is an ally, deal +12% damage for every [BoseProjektil] (max 84%)",
+                        "If the main target is an ally, deal +2% damage for every [Breath] on self (max 50%)",
+                        "[AllyKill] Apply 3 [Breath] to self and 3 random allies",
+                        "[AllyKill] The next Coin deals +5% damage for every [BoseProjektil] (max 35%)",
+                        "[AllyKill] +1 E.G.O resource for the killed ally's Skill 1, 2, and 3 Affinities",
+                        "[AllyKillFail] Gain 2 [Breath]"
                     ],
                     [
-                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage<style=\"highlight\">",
-                        "<style=\"highlight\">+3% Damage on Critical Hit for every [BoseProjektil] (max <style=\"highlight\">21%)",
-                        "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">4 [Laceration]"
+                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
+                        "+3% Damage on Critical Hit for every [BoseProjektil] (max 21%)",
+                        "[CriticalOnSucceedAttack] Inflict 4 [Laceration]"
                     ]
                 ]
             },
@@ -186,22 +187,22 @@
                 "uptie": 4,
                 "name": "Fell Bullet",
                 "abName": "Der Fluchsch\u00fctze",
-                "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n<style=\"highlight\">- If the said Reson. was a Pride Reson., gain (highest Reson. x 2) [BoseProjektil] instead (max 7)\n[BeforeAttack] Deal <style=\"highlight\">+4% damage for every [BoseProjektil] (max 28%)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
+                "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\n[BeforeAttack] Gain (highest Reson. + 1) [BoseProjektil] (max 7)\n- If the said Reson. was a Pride Reson., gain (highest Reson. x 2) [BoseProjektil] instead (max 7)\n[BeforeAttack] Deal +4% damage for every [BoseProjektil] (max 28%)\n[BeforeAttack] Gain 1 [Breath] for every [BoseProjektil] (max 7)\n[EndSkill] Lose every [BoseProjektil]",
                 "coinDescs": [
                     [
-                        "This Coin deals damage only against the main target.<style=\"highlight\">",
-                        "If the main target is an ally, deal +15% damage for every [BoseProjektil] (max 105%)<style=\"highlight\">",
-                        "If the main target is an ally, deal +2% damage for every [Breath] on self (max 50%)<style=\"highlight\">",
-                        "<style=\"highlight\">+30% Damage on Critical Hit",
-                        "[AllyKill] Apply 3 [Breath] to self and <style=\"highlight\">4 random allies",
-                        "[AllyKill] The next Coin deals <style=\"highlight\">+7% damage for every [BoseProjektil] (max <style=\"highlight\">49%)",
-                        "[AllyKill] +1 E.G.O resource for the killed ally's Skill 1, 2, and 3 Affinities<style=\"highlight\">",
-                        "[AllyKillFail] Gain <style=\"highlight\">3 [Breath]"
+                        "This Coin deals damage only against the main target.",
+                        "If the main target is an ally, deal +15% damage for every [BoseProjektil] (max 105%)",
+                        "If the main target is an ally, deal +2% damage for every [Breath] on self (max 50%)",
+                        "+30% Damage on Critical Hit",
+                        "[AllyKill] Apply 3 [Breath] to self and 4 random allies",
+                        "[AllyKill] The next Coin deals +7% damage for every [BoseProjektil] (max 49%)",
+                        "[AllyKill] +1 E.G.O resource for the killed ally's Skill 1, 2, and 3 Affinities",
+                        "[AllyKillFail] Gain 3 [Breath]"
                     ],
                     [
-                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage<style=\"highlight\">",
-                        "<style=\"highlight\">+4% Damage on Critical Hit for every [BoseProjektil] (max 28%)",
-                        "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">5 [Laceration]"
+                        "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
+                        "+4% Damage on Critical Hit for every [BoseProjektil] (max 28%)",
+                        "[CriticalOnSucceedAttack] Inflict 5 [Laceration]"
                     ]
                 ]
             }

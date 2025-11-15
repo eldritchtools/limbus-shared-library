@@ -50,24 +50,24 @@
                 {
                     "uptie": 2,
                     "name": "See Through Defenses",
-                    "desc": "[WhenUse] Deal +<style=\"highlight\">10% damage for every [BoseProjektil] on self (max <style=\"highlight\">70%)\n<style=\"highlight\">[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] At 3+ [Breath] Count, Base Power +1 \n[WhenUse] Gain <style=\"highlight\">+1 [Breath] Count and 1 [BoseProjektil]",
+                    "desc": "[WhenUse] Deal +10% damage for every [BoseProjektil] on self (max 70%)\n[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] At 3+ [Breath] Count, Base Power +1 \n[WhenUse] Gain +1 [Breath] Count and 1 [BoseProjektil]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttackHead] Inflict +1 [Laceration] Count",
-                            "<style=\"highlight\">[CriticalOnSucceedAttackHead] Gain 1 [BoseProjektil]"
+                            "[OnSucceedAttack] Gain +1 [Breath] Count",
+                            "[CriticalOnSucceedAttackHead] Inflict +1 [Laceration] Count",
+                            "[CriticalOnSucceedAttackHead] Gain 1 [BoseProjektil]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "See Through Defenses",
-                    "desc": "[WhenUse] Deal +<style=\"highlight\">15% damage for every [BoseProjektil] on self (max <style=\"highlight\">105%)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain +<style=\"highlight\">2 [Breath] Count and 1 [BoseProjektil]",
+                    "desc": "[WhenUse] Deal +15% damage for every [BoseProjektil] on self (max 105%)\n[WhenUse] Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain +2 [Breath] Count and 1 [BoseProjektil]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Laceration] Count",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [BoseProjektil]"
+                            "[OnSucceedAttack] Gain +1 [Breath] Count",
+                            "[CriticalOnSucceedAttack] Inflict +1 [Laceration] Count",
+                            "[CriticalOnSucceedAttack] Gain 1 [BoseProjektil]"
                         ]
                     ]
                 }
@@ -136,36 +136,36 @@
                 {
                     "uptie": 2,
                     "name": "Punch Through",
-                    "desc": "[WhenUse] Deal +10% damage for every [BoseProjektil] on self (max 70%)\n<style=\"highlight\">[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] Gain 2 [Breath]",
+                    "desc": "[WhenUse] Deal +10% damage for every [BoseProjektil] on self (max 70%)\n[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] Gain 2 [Breath]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttackHead] Inflict 2 [Laceration]"
+                            "[OnSucceedAttack] Gain 2 [Breath]",
+                            "[CriticalOnSucceedAttackHead] Inflict 2 [Laceration]"
                         ],
                         [
-                            "[SuperCoin]<style=\"highlight\">",
-                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">",
-                            "[OnSucceedAttack] Gain 1 [BoseProjektil]<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 1 [Laceration]",
-                            "[CriticalOnSucceedAttack] Gain 2 [BoseProjektil]<style=\"highlight\">"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Gain 2 [Breath]",
+                            "[OnSucceedAttack] Gain 1 [BoseProjektil]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Laceration]",
+                            "[CriticalOnSucceedAttack] Gain 2 [BoseProjektil]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Punch Through",
-                    "desc": "[WhenUse] Deal +<style=\"highlight\">15% damage for every [BoseProjektil] on self (max <style=\"highlight\">105%)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] Gain 2 [Breath]",
+                    "desc": "[WhenUse] Deal +15% damage for every [BoseProjektil] on self (max 105%)\n[WhenUse] Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] Gain 2 [Breath]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 2 [Laceration]<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain 2 [Breath]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
                         ],
                         [
-                            "[SuperCoin]<style=\"highlight\">",
-                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">",
-                            "[OnSucceedAttack] Gain 1 [BoseProjektil]<style=\"highlight\">",
-                            "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]",
-                            "[CriticalOnSucceedAttack] Gain 2 [BoseProjektil]<style=\"highlight\">"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Gain 2 [Breath]",
+                            "[OnSucceedAttack] Gain 1 [BoseProjektil]",
+                            "[CriticalOnSucceedAttack] Inflict 2 [Laceration]",
+                            "[CriticalOnSucceedAttack] Gain 2 [BoseProjektil]"
                         ]
                     ]
                 }
@@ -218,7 +218,7 @@
                             "- If the first Coin failed to kill an ally, 1 random sub-target takes damage\n",
                             "Deal +15% damage for every [BoseProjektil] on self (max 105%)",
                             "- If the first Coin killed an ally, deal +30% damage for every [BoseProjektil] on self instead (max 210%)\n",
-                            "+2.5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">25%)",
+                            "+2.5% Damage on Critical Hit for every [Breath] Potency (max 25%)",
                             "+7% Damage on Critical Hit for every [BoseProjektil] on self (max 49%)",
                             "Deal +(HP percentage the first Coin removed from the main target)% damage (max 100%)",
                             "[OnSucceedAttack] Inflict 2 [Laceration]",
@@ -229,7 +229,7 @@
                 {
                     "uptie": 4,
                     "name": "Target Readjustment Fire",
-                    "desc": "[StartBattle] Targets the unit with the least HP\n- At 7 [BoseProjektil], primarily targets among allies as the main target\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all\n- If this unit lost all [BoseProjektil], and if an ally is killed, heal 20 SP on self",
+                    "desc": "[StartBattle] Targets the unit with the least HP\n- At 7 [BoseProjektil], primarily targets among allies as the main target\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all\n- If this unit lost all [BoseProjektil], and if an ally is killed, heal 20 SP on self",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
@@ -243,13 +243,13 @@
                             "This Coin deals damage only against the sub-targets",
                             "- However, if the main target was an enemy, deal damage against the main target",
                             "- If the first Coin failed to kill an ally, 1 random sub-target takes damage\n",
-                            "Deal +<style=\"highlight\">20% damage for every [BoseProjektil] on self (max <style=\"highlight\">140%)",
-                            "- If the first Coin killed an ally, deal +<style=\"highlight\">40% damage for every [BoseProjektil] on self instead (max <style=\"highlight\">280%)\n",
-                            "+<style=\"highlight\">5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">50%)",
-                            "+<style=\"highlight\">10% Damage on Critical Hit for every [BoseProjektil] on self (max <style=\"highlight\">70%)",
+                            "Deal +20% damage for every [BoseProjektil] on self (max 140%)",
+                            "- If the first Coin killed an ally, deal +40% damage for every [BoseProjektil] on self instead (max 280%)\n",
+                            "+5% Damage on Critical Hit for every [Breath] Potency (max 50%)",
+                            "+10% Damage on Critical Hit for every [BoseProjektil] on self (max 70%)",
                             "Deal +(HP percentage the first Coin removed from the main target)% damage (max 100%)",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Laceration]",
-                            "- If the first Coin killed an ally, inflict <style=\"highlight\">5 [Laceration] and +<style=\"highlight\">2 [Laceration] Count instead"
+                            "[OnSucceedAttack] Inflict 3 [Laceration]",
+                            "- If the first Coin killed an ally, inflict 5 [Laceration] and +2 [Laceration] Count instead"
                         ]
                     ]
                 }
@@ -344,7 +344,7 @@
         },
         "1011301": {
             "name": "Fell Bullet",
-            "desc": "If this unit killed an allied unit with its attack, gain [FellBulletPersonality] for the next turn (including with this unit's 'E.G.O Corrosion' and attacks against allies)\nIf this unit uses its E.G.O 'Fell Bullet' and consumes [BoseProjektil]: next turn, gain [BoseProjektil] equal to the amount of it consumed by the end of the last turn.",
+            "desc": "If this unit killed an allied unit with its attack, gain [FellBulletPersonality] for the next turn (including with this unit's 'E.G.O Corrosion' and attacks against allies)\nIf this unit uses its E.G.O '[FellBulletPersonality]' and consumes [BoseProjektil]: next turn, gain [BoseProjektil] equal to the amount of it consumed by the end of the last turn.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -359,5 +359,9 @@
             "name": "Volatilized Memory",
             "desc": "Turn End: lose all [BoseProjektil] on self. Next turn, gain [BoseProjektil] equal to the amount lost."
         }
+    },
+    "notes": {
+        "short": "Attacks allies when using S3 with 7 {status:BoseProjektil}. Deals big aoe damage when killing allies. Trigger passive before comboing with {ego:20107}. {id:10412} can give him an extra free attack before his S3 that's similar but prioritizes her as the main target.",
+        "full": "Generates {status:BoseProjektil} on his skills except S3 (note that {ego:20107} consumes his {status:BoseProjektil} after attack so he doesn't maintain any unless you trigger his passive). His S3 prioritizes the target with the least HP, and with 7 {status:BoseProjektil} it will prioritize allies only. If an ally is targeted, the first coin will deal damage as if they're fatal to {keyword:Pierce}, and if it kills them, his 2nd coin will deal massively increased damage against all the sub-targets (likely 3 targets since he'll have an atk weight of 4). Otherwise, he'll just deal a normal amount of damage to one random sub-target.\nUsing his S3 while {id:10412} is on the field and has {status:ContemptPersonality} will trigger an additional attack that's similar to his S3 but targeting {sinner:4} instead."
     }
 }

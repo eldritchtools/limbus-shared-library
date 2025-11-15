@@ -59,7 +59,7 @@
                 "uptie": 3,
                 "name": "Lasso",
                 "abName": "Rose Hunter",
-                "desc": "<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn\n[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight",
+                "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict +2 [Burst] Count"
@@ -76,7 +76,7 @@
                 "uptie": 4,
                 "name": "Lasso",
                 "abName": "Rose Hunter",
-                "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n<style=\"highlight\">- If the said Reson. was a Gluttony Reson., Atk Weight +1",
+                "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n- If the said Reson. was a Gluttony Reson., Atk Weight +1",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict +2 [Burst] Count"
@@ -97,6 +97,7 @@
             "desc": "After Attack, if the target is Staggered or defeated, inflict +1 [Burst] Count against 2 random enemies (once per turn; cannot stack; in Focused Encounters, against 2 random Parts)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -157,7 +158,7 @@
                 "uptie": 3,
                 "name": "Lasso",
                 "abName": "Rose Hunter",
-                "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn",
+                "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict +1 [Burst] Count"
@@ -175,7 +176,7 @@
                 "uptie": 4,
                 "name": "Lasso",
                 "abName": "Rose Hunter",
-                "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n<style=\"highlight\">[EndSkill] If target is Staggered or defeated, gain 1 [ShamrockResultUp] next turn",
+                "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n[EndSkill] If target is Staggered or defeated, gain 1 [ShamrockResultUp] next turn",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict +2 [Burst] Count"

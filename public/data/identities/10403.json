@@ -254,7 +254,7 @@
     "passiveData": {
         "1040321": {
             "name": "Muscle in Charge",
-            "desc": "1 ally with the fastest Speed inflicts +1 Bleed.",
+            "desc": "1 ally with the fastest Speed inflicts +1 [Laceration].",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -278,5 +278,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

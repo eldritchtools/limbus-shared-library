@@ -54,7 +54,7 @@
                 {
                     "uptie": 2,
                     "name": "To Me!",
-                    "desc": "[WhenUse] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(highest Reson.) [Aggro] (Once per turn)\n- At 4+ highest A-Reson., apply 1 [Protection] to the ally next turn when they gain Aggro (Once per turn)",
+                    "desc": "[WhenUse] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(highest Reson.) [Aggro] (Once per turn)\n- At 4+ highest A-Reson., apply 1 [Protection] to the ally next turn when they gain [Aggro] (Once per turn)",
                     "coinDescs": [
                         [],
                         [
@@ -65,7 +65,7 @@
                 {
                     "uptie": 4,
                     "name": "To Me!",
-                    "desc": "<style=\"highlight\">[StartBattle] Apply 2 [DefenseUp] to 2 allies adjacent to this unit on the Dashboard\n[WhenUse] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(highest Reson.) [Aggro] (Once per turn)\n- At 4+ highest A-Reson., apply 1 [Protection] to the ally next turn when they gain Aggro (Once per turn)",
+                    "desc": "[StartBattle] Apply 2 [DefenseUp] to 2 allies adjacent to this unit on the Dashboard\n[WhenUse] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(highest Reson.) [Aggro] (Once per turn)\n- At 4+ highest A-Reson., apply 1 [Protection] to the ally next turn when they gain [Aggro] (Once per turn)",
                     "coinDescs": [
                         [],
                         [
@@ -323,7 +323,7 @@
         },
         "1080811": {
             "name": "Captain of the Pequod",
-            "desc": "- After Attack: if the enemy is defeated after this unit's attack,\n<style=\"highlight\">- gain 4 Poise, +2 Poise Count. Then, gain [OverHeatedGasHarpoon] next turn.</style>\n<style=\"highlight\">- 2 other allies with the least SP heal 7 SP and gain 4 Poise.</style>\n- If the allies are from The Pequod, heal an additional 5 SP. <style=\"highlight\">Then, once per turn, apply 1 Pierce Power Up next turn.</style>",
+            "desc": "- After Attack: if the enemy is defeated after this unit's attack,\n- gain 4 [Breath], +2 [Breath] Count. Then, gain [OverHeatedGasHarpoon] next turn.\n- 2 other allies with the least SP heal 7 SP and gain 4 [Breath].\n- If the allies are from The Pequod, heal an additional 5 SP. Then, once per turn, apply 1 Pierce Power Up next turn.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -336,7 +336,7 @@
         },
         "1080821": {
             "name": "Captain's Orders",
-            "desc": "1 ally with the highest SP gains 2 Poise when the target is defeated after that unit's attack (2 times per turn)",
+            "desc": "1 ally with the highest SP gains 2 [Breath] when the target is defeated after that unit's attack (2 times per turn)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -349,7 +349,7 @@
         },
         "1080831": {
             "name": "Captain's Orders",
-            "desc": "After Attack: 1 ally with the highest SP gains 2 Poise and <style=\"highlight\">+2 Poise Count</style> when the target is defeated after that unit's attack (2 times per turn)",
+            "desc": "After Attack: 1 ally with the highest SP gains 2 [Breath] and +2 [Breath] Count when the target is defeated after that unit's attack (2 times per turn)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -360,5 +360,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

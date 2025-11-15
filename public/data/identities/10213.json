@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Cleave",
-                    "desc": "<style=\"highlight\">[WhenUse] At 4+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain <style=\"highlight\">2 [Breath]",
+                    "desc": "[WhenUse] At 4+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain 2 [Breath]",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]"
@@ -68,13 +68,13 @@
                 {
                     "uptie": 4,
                     "name": "Cleave",
-                    "desc": "[WhenUse] At 4+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain 2 [Breath] <style=\"highlight\">",
+                    "desc": "[WhenUse] At 4+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain 2 [Breath] ",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]"
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
                         ]
                     ]
                 }
@@ -147,13 +147,13 @@
                 {
                     "uptie": 2,
                     "name": "Positioning Maneuver",
-                    "desc": "<style=\"highlight\">[WhenUse] Clash Power +1 for every 4 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] Deal +11% damage for every 4 [Breath] on self (max 44%)\n[WhenUse] Gain +1 [Breath] Count",
+                    "desc": "[WhenUse] Clash Power +1 for every 4 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] Deal +11% damage for every 4 [Breath] on self (max 44%)\n[WhenUse] Gain +1 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +1 [Laceration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Gain <style=\"highlight\">2 [Breath]"
+                            "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
                             "[CriticalOnSucceedAttack] Inflict 2 [Laceration]"
@@ -163,16 +163,16 @@
                 {
                     "uptie": 4,
                     "name": "Positioning Maneuver",
-                    "desc": "[WhenUse] Clash Power +1 for every 4 ([Breath] on self + [Laceration] on target) (max <style=\"highlight\">4)\n[WhenUse] Deal +11% damage for every 4 [Breath] on self (max 44%)\n<style=\"highlight\">[WhenUse] Deal +11% damage for every [ArrowShiFau] spent (max 44%)\n[WhenUse] Gain +1 [Breath] Count",
+                    "desc": "[WhenUse] Clash Power +1 for every 4 ([Breath] on self + [Laceration] on target) (max 4)\n[WhenUse] Deal +11% damage for every 4 [Breath] on self (max 44%)\n[WhenUse] Deal +11% damage for every [ArrowShiFau] spent (max 44%)\n[WhenUse] Gain +1 [Breath] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +<style=\"highlight\">2 [Laceration] Count"
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [Laceration]"
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
                         ]
                     ]
                 }
@@ -233,21 +233,21 @@
                 {
                     "uptie": 4,
                     "name": "Glimmering Bow [\u5f13\u9583]",
-                    "desc": "[WhenUse] Coin Power +1 for every 4 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] Deal +11% damage for every 4 [Breath] on self (max 44%)\n<style=\"highlight\">[WhenUse] Deal +11% damage for every [ArrowShiFau] spent (max 44%)\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] Coin Power +1 for every 4 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] Deal +11% damage for every 4 [Breath] on self (max 44%)\n[WhenUse] Deal +11% damage for every [ArrowShiFau] spent (max 44%)\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain <style=\"highlight\">2 [Breath]",
+                            "[OnSucceedAttack] Gain 2 [Breath]",
                             "[CriticalOnSucceedAttack] Gain +1 [Breath] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +<style=\"highlight\">2 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count",
                             "[CriticalOnSucceedAttack] Inflict +1 [Laceration] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 4 [Laceration]"
                         ],
                         [
-                            "[CriticalOnSucceedAttack] Inflict <style=\"highlight\">2 [DefenseDown] next turn (once per turn)"
+                            "[CriticalOnSucceedAttack] Inflict 2 [DefenseDown] next turn (once per turn)"
                         ]
                     ]
                 }
@@ -292,12 +292,12 @@
                 {
                     "uptie": 4,
                     "name": "Bow's Glimmer [\u9583\u5f13]",
-                    "desc": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nDeal +<style=\"highlight\">48% damage for every [AimForTheGoal] (max <style=\"highlight\">144%)\nDeal +<style=\"highlight\">48% damage on Critical Hit for every [AimForTheGoal] (max <style=\"highlight\">144%)\n- At 4 [AimForTheGoal], instead of the two above effects, deal +444% damage on Critical Hit\n[WhenUse] <style=\"highlight\">Base Power +2 for every 4 [Breath] on self (max 10)\n[WhenUse] Coin Power +<style=\"highlight\">4 for every [AimForTheGoal] (max <style=\"highlight\">10)\n[WhenUse] Gain 5 [Breath] for every [AimForTheGoal]\n[EndSkill] Lose (<style=\"highlight\">([AimForTheGoal] - 1) x 5) [Breath]\n[EndSkill] Remove [SnipingArrowMode] and [AimForTheGoal] from self",
+                    "desc": "[CantDuel]\nExternal effects cannot trigger this Skill to be Reused\nDeal +48% damage for every [AimForTheGoal] (max 144%)\nDeal +48% damage on Critical Hit for every [AimForTheGoal] (max 144%)\n- At 4 [AimForTheGoal], instead of the two above effects, deal +444% damage on Critical Hit\n[WhenUse] Base Power +2 for every 4 [Breath] on self (max 10)\n[WhenUse] Coin Power +4 for every [AimForTheGoal] (max 10)\n[WhenUse] Gain 5 [Breath] for every [AimForTheGoal]\n[EndSkill] Lose (([AimForTheGoal] - 1) x 5) [Breath]\n[EndSkill] Remove [SnipingArrowMode] and [AimForTheGoal] from self",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [ArrowInTheEyeFau]; once inflicted, lose 1 [ArrowShiFau]",
                             "[EnemyKill] Gain 1 [AStrokeOfDeath] next turn",
-                            "<style=\"highlight\">[CriticalEnemyTargetKill] Gain +4 [Breath] Count"
+                            "[CriticalEnemyTargetKill] Gain +4 [Breath] Count"
                         ]
                     ]
                 }
@@ -341,7 +341,7 @@
                 {
                     "uptie": 3,
                     "name": "Unfold Bowblade [\u5f13\u5200]",
-                    "desc": "<style=\"highlight\">If this unit does not have [ArrowShiFau], activate \"Evade\" instead\n\n[StartBattle] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead\n[StartBattle] If this unit has [SnipingArrowMode], gain (36 / [AimForTheGoal] Stack) Shield for the turn (once per turn)\n\n[EndBattle] If this unit has [SnipingArrowMode], and did not use an Attack Skill this turn, gain 1 [AimForTheGoal] next turn (once per turn)\n[EndBattle] If this unit does not have [SnipingArrowMode], and has 1+ [ArrowShiFau], gain 1 of each [SnipingArrowMode] and [AimForTheGoal] next turn (once per turn)",
+                    "desc": "If this unit does not have [ArrowShiFau], activate \"Evade\" instead\n\n[StartBattle] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead\n[StartBattle] If this unit has [SnipingArrowMode], gain (36 / [AimForTheGoal] Stack) Shield for the turn (once per turn)\n\n[EndBattle] If this unit has [SnipingArrowMode], and did not use an Attack Skill this turn, gain 1 [AimForTheGoal] next turn (once per turn)\n[EndBattle] If this unit does not have [SnipingArrowMode], and has 1+ [ArrowShiFau], gain 1 of each [SnipingArrowMode] and [AimForTheGoal] next turn (once per turn)",
                     "coinDescs": [
                         [
                             ""
@@ -351,7 +351,7 @@
                 {
                     "uptie": 4,
                     "name": "Unfold Bowblade [\u5f13\u5200]",
-                    "desc": "If this unit does not have [ArrowShiFau], activate \"Evade\" instead\n\n[StartBattle] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead\n[StartBattle] If this unit has [SnipingArrowMode], gain (<style=\"highlight\">60 / [AimForTheGoal] Stack) Shield for the turn (once per turn)\n\n[EndBattle] If this unit has [SnipingArrowMode], and did not use an Attack Skill this turn, gain 1 [AimForTheGoal] next turn (once per turn)\n[EndBattle] If this unit does not have [SnipingArrowMode], and has 1+ [ArrowShiFau], gain 1 of each [SnipingArrowMode] and [AimForTheGoal] next turn (once per turn)",
+                    "desc": "If this unit does not have [ArrowShiFau], activate \"Evade\" instead\n\n[StartBattle] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead\n[StartBattle] If this unit has [SnipingArrowMode], gain (60 / [AimForTheGoal] Stack) Shield for the turn (once per turn)\n\n[EndBattle] If this unit has [SnipingArrowMode], and did not use an Attack Skill this turn, gain 1 [AimForTheGoal] next turn (once per turn)\n[EndBattle] If this unit does not have [SnipingArrowMode], and has 1+ [ArrowShiFau], gain 1 of each [SnipingArrowMode] and [AimForTheGoal] next turn (once per turn)",
                     "coinDescs": [
                         [
                             ""
@@ -467,7 +467,8 @@
         },
         "1021311": {
             "name": "Shi-no-Yumi",
-            "desc": "At 4 [ArrowShiFau] Stack: when this unit gains [Breath] Potency from Base Attack Skill effects, gain +1 [Breath] Count (<style=\"highlight\">3</style> times per Encounter; per-Encounter cap resets when [ArrowShiFau] drops to 3)\nIf this unit used \"Bow's Glimmer\" Skill at 2+ [AimForTheGoal], gain <style=\"highlight\">2</style> [SlashDamageUp] next turn"
+            "desc": "At 4 [ArrowShiFau] Stack: when this unit gains [Breath] Potency from Base Attack Skill effects, gain +1 [Breath] Count (3 times per Encounter; per-Encounter cap resets when [ArrowShiFau] drops to 3)\nIf this unit used \"Bow's Glimmer\" Skill at 2+ [AimForTheGoal], gain 2 [SlashDamageUp] next turn"
         }
-    }
+    },
+    "notes": {}
 }

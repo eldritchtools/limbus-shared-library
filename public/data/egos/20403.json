@@ -73,9 +73,10 @@
     "passiveList": [
         {
             "name": "Spider's Webs",
-            "desc": "On clash win, inflict 1 Bind next turn. (3 times per turn)"
+            "desc": "On clash win, inflict 1 [Binding] next turn. (3 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

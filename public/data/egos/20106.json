@@ -32,10 +32,10 @@
                 "uptie": 1,
                 "name": "Bygone Days",
                 "abName": "Portrait of a Certain Day",
-                "desc": "[EndSkill] Randomly inflict (6 + Gloom Reson.) [[Sinking]] between targets",
+                "desc": "[EndSkill] Randomly inflict (6 + Gloom Reson.) [Sinking] between targets",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 1 [Binding] next turn"
+                        "[OnSucceedAttack] If target has 6+ [Sinking], inflict 1 [Binding] next turn"
                     ]
                 ]
             },
@@ -43,10 +43,10 @@
                 "uptie": 3,
                 "name": "Bygone Days",
                 "abName": "Portrait of a Certain Day",
-                "desc": "[EndSkill] Randomly inflict (6 + Gloom Reson.) [[Sinking]] between targets",
+                "desc": "[EndSkill] Randomly inflict (6 + Gloom Reson.) [Sinking] between targets",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 2 [Binding] next turn"
+                        "[OnSucceedAttack] If target has 6+ [Sinking], inflict 2 [Binding] next turn"
                     ]
                 ]
             },
@@ -54,10 +54,10 @@
                 "uptie": 4,
                 "name": "Bygone Days",
                 "abName": "Portrait of a Certain Day",
-                "desc": "[EndSkill] Randomly inflict (6 + (<style=\"highlight\">Gloom Reson. x1.5)) [[Sinking]] between targets",
+                "desc": "[EndSkill] Randomly inflict (6 + (Gloom Reson. x1.5)) [Sinking] between targets",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 2 [Binding] next turn"
+                        "[OnSucceedAttack] If target has 6+ [Sinking], inflict 2 [Binding] next turn"
                     ]
                 ]
             }
@@ -69,6 +69,7 @@
             "desc": "If the target has 6+ [Sinking] Potency, Clash Power +1\nIf the target has 4+ [Sinking] Count, Clash Power +1"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -105,8 +106,8 @@
                 "desc": "[CantIdentify]\nTargets randomly",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 2 [[Sinking]]. Inflict 2 [Binding] next turn",
-                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 1 [Binding] next turn"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]. Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] If target has 6+ [Sinking], inflict 1 [Binding] next turn"
                     ]
                 ]
             },
@@ -117,8 +118,8 @@
                 "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 3+ (Gloom Reson.), Atk Weight +1",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 2 [[Sinking]]. Inflict 2 [Binding] next turn",
-                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 1 [Binding] next turn"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]. Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] If target has 6+ [Sinking], inflict 1 [Binding] next turn"
                     ]
                 ]
             },
@@ -129,8 +130,8 @@
                 "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 3+ (Gloom Reson.), Atk Weight +1\n[BeforeAttack] At 5+ (Gloom Reson.), additional Atk Weight +1",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 2 [[Sinking]]. Inflict 2 [Binding] next turn",
-                        "[OnSucceedAttack] If target has 6+ [[Sinking]], inflict 2 [Binding] next turn"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]. Inflict 2 [Binding] next turn",
+                        "[OnSucceedAttack] If target has 6+ [Sinking], inflict 2 [Binding] next turn"
                     ]
                 ]
             }

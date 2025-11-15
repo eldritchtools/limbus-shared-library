@@ -43,7 +43,7 @@
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
@@ -56,7 +56,7 @@
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
@@ -69,7 +69,7 @@
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
                             "[CriticalOnSucceedAttack] Gain 1 [Agility] next turn"
                         ]
                     ]
@@ -120,7 +120,7 @@
                             "[OnSucceedAttack] Inflict 2 [DefenseDown]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 4 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 4 [Sinking]"
                         ]
                     ]
                 },
@@ -134,7 +134,7 @@
                             "[OnSucceedAttack] Inflict 2 [DefenseDown]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 4 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 4 [Sinking]"
                         ]
                     ]
                 },
@@ -145,11 +145,11 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [Agility] next turn",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Binding] next turn",
                             "[OnSucceedAttack] Inflict 2 [DefenseDown]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 4 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 4 [Sinking]"
                         ]
                     ]
                 }
@@ -190,13 +190,13 @@
                     "desc": "[WhenUse] Gain 6 [Breath]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
                             "[OnSucceedAttack] Inflict 1 [Binding] next turn",
                             "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] next turn"
                         ]
@@ -208,13 +208,13 @@
                     "desc": "If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Gain 6 [Breath]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
                             "[OnSucceedAttack] Inflict 2 [Binding] next turn",
                             "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] next turn"
                         ]
@@ -328,5 +328,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

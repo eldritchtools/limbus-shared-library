@@ -73,9 +73,10 @@
     "passiveList": [
         {
             "name": "Ember",
-            "desc": "On clash win, inflict Burn by (Wrath A-Reson. / 2).\n(Once per skill.)"
+            "desc": "On clash win, inflict [Combustion] by (Wrath A-Reson. / 2).\n(Once per skill.)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

@@ -42,11 +42,11 @@
                 "uptie": 1,
                 "name": "Tidal Elegy",
                 "abName": "Skadi",
-                "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [[Sinking]], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +2% damage for every 0.1 excess Resist. (max 10%)\n[BeforeAttack] At 2+ Gloom Reson., deal +5% damage for every Gloom Reson. (max 20%)\n[EndSkill] If 1 or more targets are killed, deal ([[Sinking]] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [[Sinking]] Potency)",
+                "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [Sinking], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +2% damage for every 0.1 excess Resist. (max 10%)\n[BeforeAttack] At 2+ Gloom Reson., deal +5% damage for every Gloom Reson. (max 20%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
                 "coinDescs": [
                     [
                         "[SuperCoin]",
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 1 [Sinking]",
                         "[OnSucceedAttack] Inflict 1 [Vibration]"
                     ],
                     [
@@ -55,7 +55,7 @@
                     ],
                     [
                         "[SuperCoin]",
-                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [[Sinking]] against a random non-targeted enemy (once per turn; in Focused Encounters, each Part count as 1 target)",
+                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [Sinking] against a random non-targeted enemy (once per turn; in Focused Encounters, each Part count as 1 target)",
                         "- If there is just a single target, apply it to 3 targets instead",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ]
@@ -65,22 +65,22 @@
                 "uptie": 3,
                 "name": "Tidal Elegy",
                 "abName": "Skadi",
-                "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [[Sinking]], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +<style=\"highlight\">3% damage for every 0.1 excess Resist. (max <style=\"highlight\">15%)\n[BeforeAttack] At 2+ Gloom Reson., deal +<style=\"highlight\">8% damage for every Gloom Reson. (max <style=\"highlight\">32%)\n[EndSkill] If 1 or more targets are killed, deal ([[Sinking]] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [[Sinking]] Potency)",
+                "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [Sinking], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +3% damage for every 0.1 excess Resist. (max 15%)\n[BeforeAttack] At 2+ Gloom Reson., deal +8% damage for every Gloom Reson. (max 32%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
                 "coinDescs": [
                     [
                         "[SuperCoin]",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">2 [[Sinking]]",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]",
+                        "[OnSucceedAttack] Inflict 2 [Vibration]"
                     ],
                     [
                         "[SuperCoin]",
-                        "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\">"
+                        "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Binding] next turn"
                     ],
                     [
                         "[SuperCoin]",
-                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [[Sinking]] against a random non-targeted enemy (once per turn; for Focused Encounters, each Part count as 1 target)<style=\"highlight\">",
-                        "- When attacking just a single target, apply it to 3 targets instead<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [Sinking] against a random non-targeted enemy (once per turn; for Focused Encounters, each Part count as 1 target)",
+                        "- When attacking just a single target, apply it to 3 targets instead",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ]
                 ]
             },
@@ -88,22 +88,22 @@
                 "uptie": 4,
                 "name": "Tidal Elegy",
                 "abName": "Skadi",
-                "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 4 [[Sinking]] on the main target (max 2)\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +<style=\"highlight\">5% damage for every 0.1 excess Resist. (max <style=\"highlight\">20%)\n[BeforeAttack] At 2+ Gloom Reson., deal +<style=\"highlight\">10% damage for every Gloom Reson. (max <style=\"highlight\">40%)\n[EndSkill] If 1 or more targets are killed, deal ([[Sinking]] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [[Sinking]] Potency)",
+                "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] Clash Power +1 for every 4 [Sinking] on the main target (max 2)\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +5% damage for every 0.1 excess Resist. (max 20%)\n[BeforeAttack] At 2+ Gloom Reson., deal +10% damage for every Gloom Reson. (max 40%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
                 "coinDescs": [
                     [
                         "[SuperCoin]",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">3 [[Sinking]]",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Vibration]"
+                        "[OnSucceedAttack] Inflict 3 [Sinking]",
+                        "[OnSucceedAttack] Inflict 3 [Vibration]"
                     ],
                     [
                         "[SuperCoin]",
-                        "[UnBrokenCoinOnSucceedAttack] Inflict <style=\"highlight\">2 [Binding] next turn"
+                        "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Binding] next turn"
                     ],
                     [
                         "[SuperCoin]",
-                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [[Sinking]] against a random non-targeted enemy (once per turn; in Focused Encounters, each Part count as 1 target)<style=\"highlight\">",
-                        "- When attacking just a single target, apply it to 3 targets instead<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 2 [Sinking] against a random non-targeted enemy (once per turn; in Focused Encounters, each Part count as 1 target)",
+                        "- When attacking just a single target, apply it to 3 targets instead",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ]
                 ]
             }
@@ -115,6 +115,7 @@
             "desc": "- Combat Start: if there is just a single enemy, this unit's leftmost Attack Skill on the Dashboard gains Clash Power +1, and deals +11.5% damage on Hit after Clash Win (including E.G.O Skills)\n- For the turns in which this unit Returned or Substituted in: Min & Max Speed +1, Clash Power +1"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -161,13 +162,13 @@
                 "uptie": 1,
                 "name": "Tidal Elegy",
                 "abName": "Skadi",
-                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] If main target has 5+ [[Sinking]], Clash Power +1\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)",
+                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] If main target has 5+ [Sinking], Clash Power +1\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 1 [Vibration]"
@@ -182,21 +183,21 @@
                 "uptie": 3,
                 "name": "Tidal Elegy",
                 "abName": "Skadi",
-                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 5 [[Sinking]] on the main target (max 2)\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n<style=\"highlight\">- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well",
+                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Clash Power +1 for every 5 [Sinking] on the main target (max 2)\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 1 [Vibration]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 1 [Vibration]",
-                        "<style=\"highlight\">[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 1 [AzureTakeDamageUp] next turn against a random non-targeted enemy (once per turn; for Focused Encounters, each Part counts as 1 target)",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 1 [AzureTakeDamageUp] next turn against a random non-targeted enemy (once per turn; for Focused Encounters, each Part counts as 1 target)",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ]
                 ]
             },
@@ -204,21 +205,21 @@
                 "uptie": 4,
                 "name": "Tidal Elegy",
                 "abName": "Skadi",
-                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Clash Power +1 for every 5 [[Sinking]] on the main target (max <style=\"highlight\">3)\n[BeforeAttack] Gain the following effects for every 3 highest Reson. <style=\"highlight\">(if it was a Gloom Reson., for every 2 highest Reson.)\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well",
+                "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Clash Power +1 for every 5 [Sinking] on the main target (max 3)\n[BeforeAttack] Gain the following effects for every 3 highest Reson. (if it was a Gloom Reson., for every 2 highest Reson.)\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">2 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 1 [Vibration]"
                     ],
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]",
-                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 1 [AzureTakeDamageUp] next turn against a random non-targeted enemy (once per turn; for Focused Encounters, each Part counts as 1 target)<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 2 [Vibration]",
+                        "[OnSucceedAttack] If there are Staggered, Part broken, or killed units among the targets, inflict 1 [AzureTakeDamageUp] next turn against a random non-targeted enemy (once per turn; for Focused Encounters, each Part counts as 1 target)",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ]
                 ]
             }

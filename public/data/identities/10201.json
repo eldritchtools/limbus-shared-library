@@ -204,7 +204,7 @@
     "passiveData": {
         "1020121": {
             "name": "Keen Observation",
-            "desc": "1 ally with the highest Max HP inflicts 2 Offense Level Down with attacks at a 25% chance.",
+            "desc": "1 ally with the highest Max HP inflicts 2 [AttackDown] with attacks at a 25% chance.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -228,5 +228,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

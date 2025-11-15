@@ -60,30 +60,30 @@
                 {
                     "uptie": 2,
                     "name": "Sewing",
-                    "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1",
+                    "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
-                            "<style=\"highlight\">[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count"
+                            "[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
-                            "<style=\"highlight\">[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count"
+                            "[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Sewing",
-                    "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on target (max 2)",
+                    "desc": "On Hit with this Skill: heal 10% of the HP damage dealt (max 10)\n[WhenUse] Consume up to 40 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 8 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +2 [Laceration] Count\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
-                            "[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
-                            "[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has [LineCuttingPersonality], inflict +1 [Laceration] Count"
                         ]
                     ]
                 }
@@ -158,7 +158,7 @@
                 {
                     "uptie": 2,
                     "name": "Scission",
-                    "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1",
+                    "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
@@ -176,7 +176,7 @@
                 {
                     "uptie": 4,
                     "name": "Scission",
-                    "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1<style=\"highlight\">",
+                    "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
@@ -246,19 +246,19 @@
                 {
                     "uptie": 4,
                     "name": "I'll Make You a New Dress!",
-                    "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n<style=\"highlight\">- At 20+ [BloodScissorPersonalityFirst], replace the above effect with Atk Weight +2 instead\n[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] Consume <style=\"highlight\">10 [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If target is killed, increase [BloodDinner] by <style=\"highlight\">20. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)\n<style=\"highlight\">- If target is [LineCuttingPersonality], additionally increase [BloodDinner] by 20 more, and gain 5 [BloodScissorPersonalityFirst] (once per turn)",
+                    "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n- At 20+ [BloodScissorPersonalityFirst], replace the above effect with Atk Weight +2 instead\n[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] Consume 10 [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If target is killed, increase [BloodDinner] by 20. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)\n- If target is [LineCuttingPersonality], additionally increase [BloodDinner] by 20 more, and gain 5 [BloodScissorPersonalityFirst] (once per turn)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]"
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]"
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Laceration]"
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] At 10+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x <style=\"highlight\">3)% damage (max <style=\"highlight\">57%)\n- At 20+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x <style=\"highlight\">4)% damage instead (max <style=\"highlight\">120%)"
+                            "[OnSucceedAttack] At 10+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x 3)% damage (max 57%)\n- At 20+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x 4)% damage instead (max 120%)"
                         ]
                     ]
                 }
@@ -303,7 +303,7 @@
                 {
                     "uptie": 4,
                     "name": "Quite Discourteous!",
-                    "desc": "[WhenUse] At 10+ [BloodScissorPersonalityFirst], Base Power +1<style=\"highlight\">\n- At 20+ [BloodScissorPersonalityFirst], gain Base Power +2 instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Laceration] on self (max 3)",
+                    "desc": "[WhenUse] At 10+ [BloodScissorPersonalityFirst], Base Power +1\n- At 20+ [BloodScissorPersonalityFirst], gain Base Power +2 instead\n[WhenUse] Coin Power +1 for every 5 [Laceration] on self (max 3)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +1 [Laceration] Count"
@@ -387,5 +387,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

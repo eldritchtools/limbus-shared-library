@@ -57,9 +57,10 @@
     "passiveList": [
         {
             "name": "Temperamental Discharge",
-            "desc": "When hit, spend 1 Charge Count to heal 2.5% of Max HP\nAt less than 40% HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)"
+            "desc": "When hit, spend 1 [Charge] Count to heal 2.5% of Max HP\nAt less than 40% HP, gain 1 [Charge] Count before activating the healing effect. (Can gain up to 10 [Charge] Count per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

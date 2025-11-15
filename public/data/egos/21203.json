@@ -57,9 +57,10 @@
     "passiveList": [
         {
             "name": "Nutrient Absorption",
-            "desc": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Reson.)% of Max HP."
+            "desc": "After defeating an enemy that has [Burst], heal HP by (Gluttony A-Reson.)% of Max HP."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

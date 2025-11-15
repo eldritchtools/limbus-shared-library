@@ -72,9 +72,10 @@
     "passiveList": [
         {
             "name": "Flamebrand",
-            "desc": "On Heads Hit with a Lust affinity Skill, inflict 1 Burn on target (6 times per turn)"
+            "desc": "On Heads Hit with a Lust affinity Skill, inflict 1 [Combustion] on target (6 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

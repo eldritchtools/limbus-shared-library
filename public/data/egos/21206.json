@@ -45,7 +45,7 @@
                 "uptie": 3,
                 "name": "Bygone Days",
                 "abName": "Portrait of a Certain Day",
-                "desc": "[EndSkill] Heal <style=\"highlight\">12 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume 5 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] and <style=\"highlight\">1 [Curse] on 2 random enemies (For Focused Encounters, random Parts)",
+                "desc": "[EndSkill] Heal 12 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume 5 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] and 1 [Curse] on 2 random enemies (For Focused Encounters, random Parts)",
                 "coinDescs": [
                     []
                 ]
@@ -54,7 +54,7 @@
                 "uptie": 4,
                 "name": "Bygone Days",
                 "abName": "Portrait of a Certain Day",
-                "desc": "[EndSkill] Heal <style=\"highlight\">15 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume <style=\"highlight\">3 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] and 1 [Curse] on <style=\"highlight\">3 random enemies (For Focused Encounters, random Parts)",
+                "desc": "[EndSkill] Heal 15 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume 3 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] and 1 [Curse] on 3 random enemies (For Focused Encounters, random Parts)",
                 "coinDescs": [
                     []
                 ]
@@ -67,6 +67,7 @@
             "desc": "After Attack: If the target is defeated after this unit's attack, gain 1 E.G.O resource for the least-owned E.G.O resource.\nGain 1 additional E.G.O resource for every 5 ([Sinking] Potency + Count) (max 3)\n(If there are 2 or more \"least-owned E.G.O resource\", select 1 of those Affinities at random to gain an E.G.O resource)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -108,8 +109,8 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 2 [AzureTakeDamageUp]. At 3+ Gloom Reson., inflict 1 additional [AzureTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict +3 [[Sinking]] Count",
-                        "[OnSucceedAttack] Inflict 1 [[Curse]]"
+                        "[OnSucceedAttack] Inflict +3 [Sinking] Count",
+                        "[OnSucceedAttack] Inflict 1 [Curse]"
                     ]
                 ]
             },
@@ -121,8 +122,8 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 2 [AzureTakeDamageUp]. Inflict 1 additional [AzureTakeDamageUp] for every 3 Gloom Reson. (max 2)",
-                        "[OnSucceedAttack] Inflict +3 [[Sinking]] Count",
-                        "[OnSucceedAttack] Inflict 2 [[Curse]]"
+                        "[OnSucceedAttack] Inflict +3 [Sinking] Count",
+                        "[OnSucceedAttack] Inflict 2 [Curse]"
                     ]
                 ]
             },
@@ -130,12 +131,12 @@
                 "uptie": 4,
                 "name": "Bygone Days",
                 "abName": "Portrait of a Certain Day",
-                "desc": "[CantIdentify]\nTargets randomly\nIf target has [[Curse]], deal +50% damage",
+                "desc": "[CantIdentify]\nTargets randomly\nIf target has [Curse], deal +50% damage",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 2 [AzureTakeDamageUp]. Inflict 1 additional [AzureTakeDamageUp] for every 2 Gloom Reson. (max 2)",
-                        "[OnSucceedAttack] Inflict +3 [[Sinking]] Count",
-                        "[OnSucceedAttack] Inflict 3 [[Curse]]"
+                        "[OnSucceedAttack] Inflict +3 [Sinking] Count",
+                        "[OnSucceedAttack] Inflict 3 [Curse]"
                     ]
                 ]
             }

@@ -71,9 +71,10 @@
     "passiveList": [
         {
             "name": "Roar",
-            "desc": "After defeating an enemy, gain Charge Count by half that turn\u2019s Envy A-Reson.\n(Envy A-Reson. / 2)"
+            "desc": "After defeating an enemy, gain [Charge] Count by half that turn\u2019s Envy A-Reson.\n(Envy A-Reson. / 2)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

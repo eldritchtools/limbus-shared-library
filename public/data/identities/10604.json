@@ -238,7 +238,7 @@
     "passiveData": {
         "1060401": {
             "name": "Flaring Up~",
-            "desc": "At 30+ SP, inflict +1 Burn Count with the effects of attack skills/coins.",
+            "desc": "At 30+ SP, inflict +1 [Combustion] Count with the effects of attack skills/coins.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -251,7 +251,7 @@
         },
         "1060421": {
             "name": "Isn\u2019t It Warm?",
-            "desc": "1 ally with the most SP inflicts +1 Burn Count with the effects of their attack skills/coins.",
+            "desc": "1 ally with the most SP inflicts +1 [Combustion] Count with the effects of their attack skills/coins.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -262,5 +262,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

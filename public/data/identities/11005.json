@@ -196,7 +196,7 @@
                             "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 5+ Bleed, inflict 5 [Combustion]",
+                            "[OnSucceedAttack] If target has 5+ [Laceration], inflict 5 [Combustion]",
                             "[EnemyKill] Gain 1 [HitResultUp] next turn"
                         ]
                     ]
@@ -211,7 +211,7 @@
                             "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 5+ Bleed, inflict 7 [Combustion]",
+                            "[OnSucceedAttack] If target has 5+ [Laceration], inflict 7 [Combustion]",
                             "[EnemyKill] Gain 1 [HitResultUp] next turn"
                         ]
                     ]
@@ -309,5 +309,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

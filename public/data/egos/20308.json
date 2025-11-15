@@ -57,12 +57,12 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
                     ],
                     [
-                        "<style=\"highlight\">Deal +3% damage for every [EntangledCurseTalisman] on target (max 30%)",
-                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)<style=\"highlight\">"
+                        "Deal +3% damage for every [EntangledCurseTalisman] on target (max 30%)",
+                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)",
+                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
                     ]
                 ]
             },
@@ -73,12 +73,12 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
                     ],
                     [
-                        "Deal +<style=\"highlight\">5% damage for every [EntangledCurseTalisman] on target (max <style=\"highlight\">50%)",
-                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max <style=\"highlight\">4, rounded down)",
-                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)<style=\"highlight\">"
+                        "Deal +5% damage for every [EntangledCurseTalisman] on target (max 50%)",
+                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 4, rounded down)",
+                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
                     ]
                 ]
             }
@@ -90,6 +90,7 @@
             "desc": "On Hit with this unit's Skills: if the target either has 15+ [Burst], or if this unit dealt a Critical Hit, inflict 1 [DefenseDown] (max 6)\n- When this Passive activates, its effects do not stack with the effects of E.G.O Gift \"Old Wooden Doll\"."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -149,12 +150,12 @@
                 "desc": "[CantIdentify]\nTargets randomly",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
                     ],
                     [
-                        "Deal +<style=\"highlight\">10% damage for every [EntangledCurseTalisman] on target (max <style=\"highlight\">100%)",
-                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)<style=\"highlight\">"
+                        "Deal +10% damage for every [EntangledCurseTalisman] on target (max 100%)",
+                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)",
+                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
                     ]
                 ]
             },
@@ -165,12 +166,12 @@
                 "desc": "[CantIdentify]\nTargets randomly",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
                     ],
                     [
-                        "Deal +10% damage for every [EntangledCurseTalisman] on target (max 100%)<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max <style=\"highlight\">4, rounded down)",
-                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)<style=\"highlight\">"
+                        "Deal +10% damage for every [EntangledCurseTalisman] on target (max 100%)",
+                        "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 4, rounded down)",
+                        "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
                     ]
                 ]
             }

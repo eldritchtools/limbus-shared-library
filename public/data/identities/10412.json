@@ -67,7 +67,7 @@
                 {
                     "uptie": 4,
                     "name": "Contemptuous Thing",
-                    "desc": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)",
+                    "desc": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
@@ -147,7 +147,7 @@
                             "[SuperCoin]",
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
                             "[OnSucceedAttack] Inflict +1 [Laceration] Count",
-                            "[OnSucceedAttack] Inflict 1 [GazeRyoshu]<style=\"highlight\">",
+                            "[OnSucceedAttack] Inflict 1 [GazeRyoshu]",
                             "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
@@ -155,7 +155,7 @@
                 {
                     "uptie": 4,
                     "name": "Be Awed",
-                    "desc": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)",
+                    "desc": "[WhenUse] If target has [GazeRyoshu] or [ContemptRyoshu], Clash Power +1\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]",
@@ -165,7 +165,7 @@
                             "[SuperCoin]",
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
                             "[OnSucceedAttack] Inflict +1 [Laceration] Count",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [GazeRyoshu]",
+                            "[OnSucceedAttack] Inflict 2 [GazeRyoshu]",
                             "[OnSucceedAttack] If target has 3+ [Vibration] Count, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
@@ -205,7 +205,7 @@
                 {
                     "uptie": 3,
                     "name": "Awe, Contempt",
-                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading [GazeRyoshu] of Awe Underneath Contempt' instead\n[WhenUse] At 8+ ([Laceration] + [Vibration]) on target, Coin Power +1\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 20%)",
+                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading Gaze of Awe Underneath Contempt' instead\n[WhenUse] At 8+ ([Laceration] + [Vibration]) on target, Coin Power +1\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 20%)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Vibration]",
@@ -227,7 +227,7 @@
                 {
                     "uptie": 4,
                     "name": "Awe, Contempt",
-                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency<style=\"highlight\">\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading [GazeRyoshu] of Awe Underneath Contempt' instead\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 8 ([Laceration] + [Vibration]) on target (max 2)\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max <style=\"highlight\">40%)",
+                    "desc": "If target has [GazeRyoshu], this Skill inflicts +2 more [Laceration] and [Vibration] potency\n[BeforeUse] At 7+ (sum of [GazeRyoshu] on all enemies), or at 1+ (sum of [ContemptRyoshu] on all enemies), activates 'Cascading Gaze of Awe Underneath Contempt' instead\n[WhenUse] Coin Power +1 for every 8 ([Laceration] + [Vibration]) on target (max 2)\n[WhenUse] Deal +1% damage for every ([Laceration] + [Vibration]) on target (max 40%)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]",
@@ -239,7 +239,7 @@
                         ],
                         [
                             "[SuperCoin]",
-                            "Deal +<style=\"highlight\">10% damage for every 1 [GazeRyoshu] on target (max <style=\"highlight\">70%)",
+                            "Deal +10% damage for every 1 [GazeRyoshu] on target (max 70%)",
                             "[OnSucceedAttack] Inflict 3 [GazeRyoshu]",
                             "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]",
                             "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
@@ -292,11 +292,11 @@
                 {
                     "uptie": 4,
                     "name": "Cascading Gaze of Awe Underneath Contempt",
-                    "desc": "External effects cannot trigger this Skill to be Reused\nPrioritizes targeting enemies with [GazeRyoshu] or [ContemptRyoshu] as sub-targets<style=\"highlight\">\n- Deals -50% damage against sub-targets\nIf there is just a single target, deal +200% damage (for Focused Encounters, a Part)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on the main target (max <style=\"highlight\">4)\n[WhenUse] Deal +2% damage for every ([Laceration] + [Vibration]) on the main target (max <style=\"highlight\">100%)\n[WhenUse] Deal +10% damage for every 1 (sum of [GazeRyoshu] on all attack targets) (max 70%)\n[EndSkill] Consumes [GazeRyoshu] or [ContemptRyoshu] on all targets that were hit",
+                    "desc": "External effects cannot trigger this Skill to be Reused\nPrioritizes targeting enemies with [GazeRyoshu] or [ContemptRyoshu] as sub-targets\n- Deals -50% damage against sub-targets\nIf there is just a single target, deal +200% damage (for Focused Encounters, a Part)\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on the main target (max 4)\n[WhenUse] Deal +2% damage for every ([Laceration] + [Vibration]) on the main target (max 100%)\n[WhenUse] Deal +10% damage for every 1 (sum of [GazeRyoshu] on all attack targets) (max 70%)\n[EndSkill] Consumes [GazeRyoshu] or [ContemptRyoshu] on all targets that were hit",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
-                            "If target has [ContemptRyoshu], deal +<style=\"highlight\">235% damage",
+                            "If target has [ContemptRyoshu], deal +235% damage",
                             "[OnSucceedAttack] Inflict 4 [Vibration] and +2 [Vibration] Count",
                             "[OnSucceedAttack] Inflict 4 [Laceration] and +2 [Laceration] Count",
                             "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]",
@@ -348,7 +348,7 @@
                             "This Coin deals damage only against the sub-targets",
                             "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b survived, 1 random sub-target takes damage\n",
                             "Deal +30% damage for every [BoseProjektil] on self (max 210%)",
-                            "+2.5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">25%)",
+                            "+2.5% Damage on Critical Hit for every [Breath] Potency (max 25%)",
                             "+7% Damage on Critical Hit for every [BoseProjektil] on self (max 49%)",
                             "Deal +1% damage for every 1% missing HP on the main target (max 100%)",
                             "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
@@ -358,7 +358,7 @@
                 {
                     "uptie": 4,
                     "name": "I Shall Fire / Anytime",
-                    "desc": "[StartBattle] Prioritizes N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] <style=\"highlight\">Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
+                    "desc": "[StartBattle] Prioritizes N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b\n[StartBattle] Gain +1 Atk Weight for every 3 [BoseProjektil] on self (max 2)\n[WhenUse] Coin Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] Base Power +1 for every 3 [Breath] Count on self (max 2)\n[WhenUse] Gain 1 [Breath] for every [BoseProjektil] on self (max 7)\n[EndSkill] Lose ([BoseProjektil] on self x 2) SP (max 14)\n[EndSkill] If this unit has 7 [BoseProjektil] at Combat Start, lose them all and heal 20 SP on self",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
@@ -368,9 +368,9 @@
                             "[SuperCoin]",
                             "This Coin deals damage only against the sub-targets",
                             "- If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b survived, 1 random sub-target takes damage\n",
-                            "Deal +<style=\"highlight\">40% damage for every [BoseProjektil] on self (max <style=\"highlight\">280%)",
-                            "+<style=\"highlight\">5% Damage on Critical Hit for every [Breath] Potency (max <style=\"highlight\">50%)",
-                            "+<style=\"highlight\">10% Damage on Critical Hit for every [BoseProjektil] on self (max <style=\"highlight\">70%)",
+                            "Deal +40% damage for every [BoseProjektil] on self (max 280%)",
+                            "+5% Damage on Critical Hit for every [Breath] Potency (max 50%)",
+                            "+10% Damage on Critical Hit for every [BoseProjektil] on self (max 70%)",
                             "Deal +1% damage for every 1% missing HP on the main target (max 100%)",
                             "[OnSucceedAttack] Inflict 5 [Laceration] and +2 [Laceration] Count"
                         ]
@@ -485,11 +485,11 @@
         },
         "1041203": {
             "name": "Let me show everyone something very interesting",
-            "desc": "Combat Start: N Corp. E.G.O::<noparse>Fell Bullet</noparse> Yi Sang's 'Target Readjustment Fire' Skill gains the following effects:\n- Before using the Skill, if N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ry\u014dsh\u016b has [ContemptPersonality] and can use her base Skills, use \"I Shall Fire / Anytime\" against Ry\u014dsh\u016b (once per turn; 'I Shall Fire / Anytime' reflects Yi Sang's Uptie Tier)\n- Before using the Skill, if the Skill's main target isn't N Corp. E.G.O::<noparse>Contempt</noparse>, Awe Ry\u014dsh\u016b, and if she can use her base Skills, Ry\u014dsh\u016b uses her Skill 1 as an Unopposed Attack against the main target (once per turn; [CantIdentify]; Skill 1 deals -50% damage; the Skill does not kill the main target)"
+            "desc": "Combat Start: N Corp. E.G.O::Fell Bullet Yi Sang's 'Target Readjustment Fire' Skill gains the following effects:\n- Before using the Skill, if N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b has [ContemptPersonality] and can use her base Skills, use \"I Shall Fire / Anytime\" against Ry\u014dsh\u016b (once per turn; 'I Shall Fire / Anytime' reflects Yi Sang's Uptie Tier)\n- Before using the Skill, if the Skill's main target isn't N Corp. E.G.O::Contempt, Awe Ry\u014dsh\u016b, and if she can use her base Skills, Ry\u014dsh\u016b uses her Skill 1 as an Unopposed Attack against the main target (once per turn; [CantIdentify]; Skill 1 deals -50% damage; the Skill does not kill the main target)"
         },
         "1041211": {
             "name": "@#$'s Hand I Let Slip",
-            "desc": "On Hit against enemies, inflict <style=\"highlight\">2</style> [GazeRyoshu] (once per turn per enemy)\n- If this unit has [GazePersonality], inflict +1 more [GazeRyoshu]\n\nWhen hit by an enemy, inflict 1 [GazeRyoshu] against the attacker (once per Skill; 3 times per turn)\n- If this unit has [ContemptPersonality]: when hit by the attacker's final Coin, inflict (<style=\"highlight\">20</style>% of the damage dealt by that final Coin) Sloth damage (max <style=\"highlight\">20</style> per Skill; max <style=\"highlight\">60</style> per turn)\n\nIf this unit used its Base Attack Skills to consume [GazeRyoshu] or [ContemptRyoshu] on an enemy:\nNext turn, gain ((enemy's [GazeRyoshu] consumed/2) + (enemy's [ContemptRyoshu] consumed x 3)) [GazePersonality] (6 per turn; rounded down)",
+            "desc": "On Hit against enemies, inflict 2 [GazeRyoshu] (once per turn per enemy)\n- If this unit has [GazePersonality], inflict +1 more [GazeRyoshu]\n\nWhen hit by an enemy, inflict 1 [GazeRyoshu] against the attacker (once per Skill; 3 times per turn)\n- If this unit has [ContemptPersonality]: when hit by the attacker's final Coin, inflict (20% of the damage dealt by that final Coin) Sloth damage (max 20 per Skill; max 60 per turn)\n\nIf this unit used its Base Attack Skills to consume [GazeRyoshu] or [ContemptRyoshu] on an enemy:\nNext turn, gain ((enemy's [GazeRyoshu] consumed/2) + (enemy's [ContemptRyoshu] consumed x 3)) [GazePersonality] (6 per turn; rounded down)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -500,5 +500,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

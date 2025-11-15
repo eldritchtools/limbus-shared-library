@@ -258,7 +258,7 @@
     "passiveData": {
         "1020201": {
             "name": "Self-charging",
-            "desc": "Gain +1 Charge Count after an attack.",
+            "desc": "Gain +1 [Charge] Count after an attack.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -271,7 +271,7 @@
         },
         "1020211": {
             "name": "Self-charging",
-            "desc": "Gain +1 Charge Count after an attack.\nA random ally gains +1 Charge Count after an attack.",
+            "desc": "Gain +1 [Charge] Count after an attack.\nA random ally gains +1 [Charge] Count after an attack.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -284,7 +284,7 @@
         },
         "1020221": {
             "name": "Radio Comms",
-            "desc": "1 ally with the lowest Max HP gains +1 Charge Count.",
+            "desc": "1 ally with the lowest Max HP gains +1 [Charge] Count.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -295,5 +295,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

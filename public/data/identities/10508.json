@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Draw of the Sword",
-                    "desc": "<style=\"highlight\">[StartBattle] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[StartBattle] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [Breath]"
@@ -81,7 +81,7 @@
                 {
                     "uptie": 4,
                     "name": "Draw of the Sword",
-                    "desc": "<style=\"highlight\">At 5+ [Breath], Coin Power +1\n[StartBattle] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n<style=\"highlight\">- If there are 6 or more allied Blade Lineage Identities in the Encounter, apply 2 instead\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "At 5+ [Breath], Coin Power +1\n[StartBattle] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n- If there are 6 or more allied Blade Lineage Identities in the Encounter, apply 2 instead\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [Breath]"
@@ -152,7 +152,7 @@
                 {
                     "uptie": 2,
                     "name": "Acupuncture",
-                    "desc": "<style=\"highlight\">[StartBattle] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 [SlashResultUp] next turn",
+                    "desc": "[StartBattle] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 [SlashResultUp] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 3 [Breath]"
@@ -180,7 +180,7 @@
                 {
                     "uptie": 4,
                     "name": "Acupuncture",
-                    "desc": "<style=\"highlight\">At 7+ [Breath], Coin Power +1\n[StartBattle] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n<style=\"highlight\">- If there are 6 or more allied Blade Lineage Identities in the Encounter, apply 2 instead\n[WhenUse] Gain +3 [Breath] Count\n[WinDuel] Gain 1 [SlashResultUp] next turn",
+                    "desc": "At 7+ [Breath], Coin Power +1\n[StartBattle] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n- If there are 6 or more allied Blade Lineage Identities in the Encounter, apply 2 instead\n[WhenUse] Gain +3 [Breath] Count\n[WinDuel] Gain 1 [SlashResultUp] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 3 [Breath]"
@@ -274,7 +274,7 @@
                 {
                     "uptie": 4,
                     "name": "Overthrow",
-                    "desc": "[WhenUse] Gain 1 [SlashResultUp] next turn (1 time max)\n<style=\"highlight\">Deal +0.5% damage for every 1% missing HP on self (Max 25%)",
+                    "desc": "[WhenUse] Gain 1 [SlashResultUp] next turn (1 time max)\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]"
@@ -331,7 +331,7 @@
                 {
                     "uptie": 4,
                     "name": "To Claim Their Bones",
-                    "desc": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +2)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every [Breath] Potency on self (Max 50%)\n+<style=\"highlight\">30% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% damage (In Focused Encounters, a single Part)",
+                    "desc": "[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +2)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +2% damage on Critical Hit for every [Breath] Potency on self (Max 50%)\n+30% Damage on Critical Hit\nDeal +0.5% damage for every 1% missing HP on self (Max 25%)\nIf this Skill targets only a single enemy, deal +100% damage (In Focused Encounters, a single Part)",
                     "coinDescs": [
                         [],
                         [],
@@ -391,7 +391,7 @@
         },
         "1050802": {
             "name": "In Memoriam",
-            "desc": "When 3 or more other Blade Lineage allies are defeated:\n- When gaining Poise Potency/Count with this unit's own Skills and Coin effects: gain 1 more of each\n- When 5 or more other Blade Lineage allies are defeated, gain 2 more of each instead\n- Combat Start: Apply [SwordPlayOfTheHomeland] on self"
+            "desc": "When 3 or more other Blade Lineage allies are defeated:\n- When gaining [Breath] Potency/Count with this unit's own Skills and Coin effects: gain 1 more of each\n- When 5 or more other Blade Lineage allies are defeated, gain 2 more of each instead\n- Combat Start: Apply [SwordPlayOfTheHomeland] on self"
         },
         "1050811": {
             "name": "Swordplay of the Homeland",
@@ -419,5 +419,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

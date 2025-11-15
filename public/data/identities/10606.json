@@ -191,7 +191,7 @@
                 {
                     "uptie": 3,
                     "name": "Deploy Charge Barrier",
-                    "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+                    "desc": "[WhenUse] At 10+ [Charge] Count, consume all [Charge] Count to apply (Consumed [Charge] Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
                     "coinDescs": [
                         [],
                         [],
@@ -204,7 +204,7 @@
                 {
                     "uptie": 4,
                     "name": "Deploy Charge Barrier",
-                    "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+                    "desc": "[WhenUse] At 10+ [Charge] Count, consume all [Charge] Count to apply (Consumed [Charge] Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
                     "coinDescs": [
                         [],
                         [],
@@ -254,7 +254,7 @@
                 {
                     "uptie": 4,
                     "name": "Guard",
-                    "desc": "[WhenUse] Gain <style=\"highlight\">3 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (3 times per turn)",
+                    "desc": "[WhenUse] Gain 3 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">[ChargeForceField]</color></link></u> (3 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -287,7 +287,7 @@
     "passiveData": {
         "1060601": {
             "name": "Cleanup Mastery",
-            "desc": "If at 5+ Charge Count at the start of the combat phase, gain 2 Haste next turn",
+            "desc": "If at 5+ [Charge] Count at the start of the combat phase, gain 2 Haste next turn",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -300,7 +300,7 @@
         },
         "1060611": {
             "name": "Cleanup Mastery",
-            "desc": "If at 5+ Charge Count at the start of the combat phase, gain 2 Haste. <style=\"highlight\">At 10+ Charge Count, gain 1 additional Haste.</style>",
+            "desc": "If at 5+ [Charge] Count at the start of the combat phase, gain 2 Haste. At 10+ [Charge] Count, gain 1 additional Haste.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -313,7 +313,7 @@
         },
         "1060621": {
             "name": "Train Cleanup Manual",
-            "desc": "An ally with the slowest Speed gains 2 Haste next turn if at 5+ Charge Count at the start of the combat phase",
+            "desc": "An ally with the slowest Speed gains 2 Haste next turn if at 5+ [Charge] Count at the start of the combat phase",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -324,5 +324,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

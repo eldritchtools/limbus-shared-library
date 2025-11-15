@@ -61,34 +61,34 @@
                 {
                     "uptie": 2,
                     "name": "Oh, Let the Smell of Burning Blood...",
-                    "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
+                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
                     "coinDescs": [
                         [
                             ""
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Oh, Let the Smell of Burning Blood...",
-                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\">",
+                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
                     "coinDescs": [
                         [
                             ""
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict 1 [Combustion]"
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count",
+                            "[OnSucceedAttackHead] Inflict +1 [Burst] Count"
                         ]
                     ]
                 }
@@ -148,42 +148,42 @@
                             "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\">"
+                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "... Fuel My Rampage.",
-                    "desc": "<style=\"highlight\">[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
+                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\">"
+                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "... Fuel My Rampage.",
-                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1<style=\"highlight\">",
+                    "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[OnSucceedAttackHead] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Wrath damage"
+                            "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)",
+                            "[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Wrath damage"
                         ]
                     ]
                 }
@@ -246,24 +246,24 @@
                 {
                     "uptie": 4,
                     "name": "Bloodflame Massacre [\u8840\u708e\u4e82\u821e]",
-                    "desc": "[WideAreaRampage]\n<style=\"highlight\">Deal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on target (max 2)\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 20% missing HP on self (max 2)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+                    "desc": "[WideAreaRampage]\nDeal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%)\n[StartBattle] If this unit has [ChickenStance], or if this unit has less than 50% HP, convert all Coins to [SuperCoin]\n[WhenUse] Gain 1 [ChickenStance]\n[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Burst]) on target (max 2)\n[WhenUse] Clash Power +1 for every 20% missing HP on self (max 2)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
                     "coinDescs": [
                         [
                             ""
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Combustion] Count<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Combustion] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Gluttony damage"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Gluttony damage"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Deal (20% of this Coin's final damage) bonus Gluttony damage against all targets"
+                            "[OnSucceedAttack] Inflict 2 [Combustion]",
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttackHead] Deal (20% of this Coin's final damage) bonus Gluttony damage against all targets"
                         ]
                     ]
                 }
@@ -308,13 +308,13 @@
                 {
                     "uptie": 4,
                     "name": "Rooster's Deathstrike [\u9dc4\u7aae\u5247\u6bba]",
-                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n<style=\"highlight\">[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n<style=\"highlight\">[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ]
                     ]
                 }
@@ -383,5 +383,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

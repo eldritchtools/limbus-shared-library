@@ -42,7 +42,7 @@
                     "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count"
+                            "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
                         ]
                     ]
                 },
@@ -52,7 +52,7 @@
                     "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Clash Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count",
+                            "[OnSucceedAttackHead] Inflict +1 [Sinking] Count",
                             "[OnSucceedAttack] At 3+ [KnowledgeExplored], reuse Coin once"
                         ]
                     ]
@@ -63,7 +63,7 @@
                     "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Clash Power +([KnowledgeExplored] - 1)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttackHead] Inflict +1 [[Sinking]] Count",
+                            "[OnSucceedAttackHead] Inflict +1 [Sinking] Count",
                             "[OnSucceedAttack] Reuse Coin ([KnowledgeExplored] - 1) times"
                         ]
                     ]
@@ -120,7 +120,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttackHead] Inflict 3 [[Sinking]]"
+                            "[OnSucceedAttackHead] Inflict 3 [Sinking]"
                         ]
                     ]
                 },
@@ -132,7 +132,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 3 [Sinking]"
                         ]
                     ]
                 },
@@ -144,7 +144,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 4 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 4 [Sinking]"
                         ]
                     ]
                 }
@@ -182,12 +182,12 @@
                 {
                     "uptie": 3,
                     "name": "Cyclical Knowledge",
-                    "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +1.5% damage per [[Sinking]] on target (Max 15%)",
+                    "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +1.5% damage per [Sinking] on target (Max 15%)",
                     "coinDescs": [
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count",
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count",
                             "[EndSkill] If target is Staggered or defeated, heal 10 SP"
                         ]
                     ]
@@ -195,12 +195,12 @@
                 {
                     "uptie": 4,
                     "name": "Cyclical Knowledge",
-                    "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +3% damage per [[Sinking]] on target (Max 30%)",
+                    "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +3% damage per [Sinking] on target (Max 30%)",
                     "coinDescs": [
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +4 [[Sinking]] Count",
+                            "[OnSucceedAttack] Inflict +4 [Sinking] Count",
                             "[EndSkill] If target is Staggered or defeated, heal 10 SP"
                         ]
                     ]
@@ -315,5 +315,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

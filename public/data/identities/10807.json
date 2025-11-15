@@ -284,7 +284,7 @@
     "passiveData": {
         "1080721": {
             "name": "Crab Driver",
-            "desc": "When an ally with the lowest Max HP hits with Heads Coins, they inflict +1 Sinking Count when inflicting Tremor Count on their target with Coin effects.",
+            "desc": "When an ally with the lowest Max HP hits with Heads Coins, they inflict +1 [Sinking] Count when inflicting [Vibration] Count on their target with Coin effects.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -297,7 +297,7 @@
         },
         "1080701": {
             "name": "Crushin' Crabs",
-            "desc": "On hit against a target with [Vibration], inflict +1 Sinking Count",
+            "desc": "On hit against a target with [Vibration], inflict +1 [Sinking] Count",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -308,5 +308,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

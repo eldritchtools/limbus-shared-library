@@ -63,7 +63,7 @@
                 {
                     "uptie": 4,
                     "name": "Dotting",
-                    "desc": "If target has 6+ [Laceration], Clash Power +1\n<style=\"highlight\">If target has 10+ [Laceration], Coin Power +1 ",
+                    "desc": "If target has 6+ [Laceration], Clash Power +1\nIf target has 10+ [Laceration], Coin Power +1 ",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]"
@@ -201,7 +201,7 @@
                         [
                             "[OnSucceedAttack] Inflict 3 [Laceration]",
                             "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
-                            "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP. <style=\"highlight\">If the affected ally is a member of the Ring, apply 1 [PenetrateResultUp] as well"
+                            "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP. If the affected ally is a member of the Ring, apply 1 [PenetrateResultUp] as well"
                         ]
                     ]
                 }
@@ -330,7 +330,7 @@
         },
         "1110911": {
             "name": "Multitude of Dots",
-            "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on <style=\"highlight\">2</style> enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, Parts)",
+            "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on 2 enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, Parts)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -341,5 +341,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

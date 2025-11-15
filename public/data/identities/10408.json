@@ -45,7 +45,7 @@
                 {
                     "uptie": 2,
                     "name": "Receiving Arts 1: The Hunt",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Clash Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "If this unit's Speed is faster than the target's by 3 or more, Clash Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +2 [Breath] Count"
@@ -58,7 +58,7 @@
                 {
                     "uptie": 4,
                     "name": "Receiving Arts 1: The Hunt",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain Clash Power +1 for every 2 Speed difference (max 3)\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "If this unit's Speed is faster than the target's, gain Clash Power +1 for every 2 Speed difference (max 3)\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +2 [Breath] Count"
@@ -142,7 +142,7 @@
                 {
                     "uptie": 4,
                     "name": "Receiving Arts 7: Capture",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the main target's, gain Clash Power +1 for every 2 Speed difference (max 3)\n[StartBattle] Consume 6 [Breath] Count on self to gain +2 Atk Weight for this Skill",
+                    "desc": "If this unit's Speed is faster than the main target's, gain Clash Power +1 for every 2 Speed difference (max 3)\n[StartBattle] Consume 6 [Breath] Count on self to gain +2 Atk Weight for this Skill",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 3 [Breath]",
@@ -201,7 +201,7 @@
                 {
                     "uptie": 4,
                     "name": "Receiving Arts 2: S.Y.N.C.",
-                    "desc": "If target has [MarkOfButler], Clash Power +1\n<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power +1 for every 2 Speed difference (max 2)\n[WhenUse] Gain +7 [Breath] Count",
+                    "desc": "If target has [MarkOfButler], Clash Power +1\nIf this unit's Speed is faster than the target's, gain Coin Power +1 for every 2 Speed difference (max 2)\n[WhenUse] Gain +7 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 5 [Breath]",
@@ -254,7 +254,7 @@
                 {
                     "uptie": 4,
                     "name": "Mediocre",
-                    "desc": "[OnSucceedEvade] Heal 3 SP (<style=\"highlight\">5 times per turn)\n<style=\"highlight\">[OnSucceedEvade] Gain +1 [Breath] Count(5 times per turn)",
+                    "desc": "[OnSucceedEvade] Heal 3 SP (5 times per turn)\n[OnSucceedEvade] Gain +1 [Breath] Count(5 times per turn)",
                     "coinDescs": [
                         [
                             ""
@@ -345,5 +345,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

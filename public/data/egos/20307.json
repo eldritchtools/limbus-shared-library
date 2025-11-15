@@ -71,23 +71,23 @@
                 "uptie": 3,
                 "name": "Yearning - Mircalla",
                 "abName": "Four-hundred Roses",
-                "desc": "This unit's HP does not drop below 1 while using this Skill.\n<style=\"highlight\">If target has 10+ [Laceration], Coin Power +1\nClash Power +1 for every 100 [BloodDinner_Accumulation] by this unit (max <style=\"highlight\">3)\n[BeforeAttack] At less than <style=\"highlight\">75 [BloodDinner], inflict 1 [Laceration] with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
+                "desc": "This unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ [Laceration], Coin Power +1\nClash Power +1 for every 100 [BloodDinner_Accumulation] by this unit (max 3)\n[BeforeAttack] At less than 75 [BloodDinner], inflict 1 [Laceration] with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
                 "coinDescs": [
                     [
                         "[SuperCoin]",
-                        "Deal +0.1% damage for every [BloodDinner_Common_Accumulation] (max 10%)<style=\"highlight\">"
+                        "Deal +0.1% damage for every [BloodDinner_Common_Accumulation] (max 10%)"
                     ],
                     [
                         "[SuperCoin]",
-                        "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max <style=\"highlight\">15%)"
+                        "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 15%)"
                     ],
                     [
                         "[SuperCoin]",
-                        "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max <style=\"highlight\">25%)"
+                        "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 25%)"
                     ],
                     [
                         "[SuperCoin]",
-                        "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max <style=\"highlight\">40%)",
+                        "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 40%)",
                         "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 3)"
                     ]
                 ]
@@ -96,7 +96,7 @@
                 "uptie": 4,
                 "name": "Yearning - Mircalla",
                 "abName": "Four-hundred Roses",
-                "desc": "This unit's HP does not drop below 1 while using this Skill.\n<style=\"highlight\">Coin Power +1 for every 10 [Laceration] on target (max 2)\nClash Power +1 for every 100 [BloodDinner_Accumulation] by this unit (max <style=\"highlight\">5)\n[BeforeAttack] At less than <style=\"highlight\">100 [BloodDinner], inflict 1 [Laceration] with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
+                "desc": "This unit's HP does not drop below 1 while using this Skill.\nCoin Power +1 for every 10 [Laceration] on target (max 2)\nClash Power +1 for every 100 [BloodDinner_Accumulation] by this unit (max 5)\n[BeforeAttack] At less than 100 [BloodDinner], inflict 1 [Laceration] with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
                 "coinDescs": [
                     [
                         "[SuperCoin]",
@@ -104,16 +104,16 @@
                     ],
                     [
                         "[SuperCoin]",
-                        "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max <style=\"highlight\">20%)"
+                        "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 20%)"
                     ],
                     [
                         "[SuperCoin]",
-                        "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max <style=\"highlight\">30%)"
+                        "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 30%)"
                     ],
                     [
                         "[SuperCoin]",
-                        "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max <style=\"highlight\">50%)",
-                        "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max <style=\"highlight\">4)"
+                        "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 50%)",
+                        "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 4)"
                     ]
                 ]
             }
@@ -125,6 +125,7 @@
             "desc": "Every time 10+ [Laceration] damage occurs, heal 1 SP on self (10 per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -183,15 +184,15 @@
                 "uptie": 3,
                 "name": "Yearning - Mircalla",
                 "abName": "Four-hundred Roses",
-                "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ [Laceration], Coin Power -1\n<style=\"highlight\">At 200+ [BloodDinner_Accumulation] by this unit, Coin Power -1\n[BeforeAttack] At less than 150 [BloodDinner], inflict 1 [Laceration] with every hit\n[BeforeAttack] Gain 20 [Laceration], and activate [Laceration] on self immediately. Lose 2 [Laceration] Count",
+                "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ [Laceration], Coin Power -1\nAt 200+ [BloodDinner_Accumulation] by this unit, Coin Power -1\n[BeforeAttack] At less than 150 [BloodDinner], inflict 1 [Laceration] with every hit\n[BeforeAttack] Gain 20 [Laceration], and activate [Laceration] on self immediately. Lose 2 [Laceration] Count",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [Laceration] for every 50 [BloodDinner_Common_Accumulation] (max 10)<style=\"highlight\">",
-                        "[OnSucceedAttack] At 100- [BloodDinner], inflict 10 [Laceration]<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 1 [Laceration] for every 50 [BloodDinner_Common_Accumulation] (max 10)",
+                        "[OnSucceedAttack] At 100- [BloodDinner], inflict 10 [Laceration]"
                     ],
                     [
-                        "Deal +<style=\"highlight\">10% damage for every 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">50%)",
-                        "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max <style=\"highlight\">4)",
+                        "Deal +10% damage for every 100 [BloodDinner_Common_Accumulation] (max 50%)",
+                        "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 4)",
                         "[WinDuelAttack] Heal by 50% of the HP damage dealt (max 10)"
                     ]
                 ]
@@ -200,15 +201,15 @@
                 "uptie": 4,
                 "name": "Yearning - Mircalla",
                 "abName": "Four-hundred Roses",
-                "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ [Laceration], Coin Power -1\nAt 200+ [BloodDinner_Accumulation] by this unit, Coin Power -1\n[BeforeAttack] At less than 150 [BloodDinner], inflict 1 [Laceration] with every hit\n[BeforeAttack] Gain 20 [Laceration], and activate [Laceration] on self immediately. Lose 2 [Laceration] Count<style=\"highlight\">",
+                "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ [Laceration], Coin Power -1\nAt 200+ [BloodDinner_Accumulation] by this unit, Coin Power -1\n[BeforeAttack] At less than 150 [BloodDinner], inflict 1 [Laceration] with every hit\n[BeforeAttack] Gain 20 [Laceration], and activate [Laceration] on self immediately. Lose 2 [Laceration] Count",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [Laceration] for every 50 [BloodDinner_Common_Accumulation] (max 10)<style=\"highlight\">",
-                        "[OnSucceedAttack] At 100- [BloodDinner], inflict 10 [Laceration]<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 1 [Laceration] for every 50 [BloodDinner_Common_Accumulation] (max 10)",
+                        "[OnSucceedAttack] At 100- [BloodDinner], inflict 10 [Laceration]"
                     ],
                     [
-                        "Deal +<style=\"highlight\">20% damage for every 100 [BloodDinner_Common_Accumulation] (max <style=\"highlight\">100%)",
-                        "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max <style=\"highlight\">5)",
+                        "Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)",
+                        "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 5)",
                         "[WinDuelAttack] Heal by 50% of the HP damage dealt (max 10)"
                     ]
                 ]

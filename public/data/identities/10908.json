@@ -135,7 +135,7 @@
                         ],
                         [
                             "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
-                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count"
                         ]
                     ]
                 },
@@ -152,7 +152,7 @@
                         ],
                         [
                             "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
-                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has 6+ [Combustion] Count, apply 3 [Combustion] to 2 targets with no [Combustion] or with the least [Combustion] Count"
                         ]
                     ]
                 }
@@ -212,7 +212,7 @@
                 {
                     "uptie": 4,
                     "name": "Pinpoint Blitz",
-                    "desc": "<style=\"highlight\">If target has 6+ [Combustion], Coin Power +1\nIf target has 6+ [Combustion] and [Combustion] Count, deal +30% damage",
+                    "desc": "If target has 6+ [Combustion], Coin Power +1\nIf target has 6+ [Combustion] and [Combustion] Count, deal +30% damage",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Combustion]"
@@ -333,5 +333,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

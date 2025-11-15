@@ -59,9 +59,10 @@
     "passiveList": [
         {
             "name": "Stew Spewage",
-            "desc": "Tails Coins inflict 1 Burn if hitting an enemy."
+            "desc": "Tails Coins inflict 1 [Combustion] if hitting an enemy."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

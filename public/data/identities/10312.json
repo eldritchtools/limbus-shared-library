@@ -56,26 +56,26 @@
                 {
                     "uptie": 2,
                     "name": "By Manager Esquire's Orders, I Am Here!",
-                    "desc": "<style=\"highlight\">[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">3 [ThePowerOfLoveAndHate] Count",
+                    "desc": "[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count",
                     "coinDescs": [
                         [
                             ""
                         ],
                         [
-                            "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]"
+                            "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "By Manager Esquire's Orders, I Am Here!",
-                    "desc": "[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 2 [ThePowerOfLoveAndHate] (max 2)\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count",
+                    "desc": "[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Coin Power +1 for every 2 [ThePowerOfLoveAndHate] (max 2)\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">3 [ThePowerOfLoveAndHate] Count",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Burst]"
+                            "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count",
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
                         ]
                     ]
                 }
@@ -142,28 +142,28 @@
                 {
                     "uptie": 2,
                     "name": "With Love! Hyah!",
-                    "desc": "<style=\"highlight\">[WhenUse] Deal +7.5% damage for every [ThePowerOfLoveAndHate] on self (max 30%)\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count",
+                    "desc": "[WhenUse] Deal +7.5% damage for every [ThePowerOfLoveAndHate] on self (max 30%)\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">4 [ThePowerOfLoveAndHate] Count"
+                            "[OnSucceedAttack] Gain +4 [ThePowerOfLoveAndHate] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]",
-                            "<style=\"highlight\">[OnSucceedAttackHead] Inflict [VillainMark] against the main target next turn"
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttackHead] Inflict [VillainMark] against the main target next turn"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "With Love! Hyah!",
-                    "desc": "[WhenUse] Deal +<style=\"highlight\">12.5% damage for every [ThePowerOfLoveAndHate] on self (max <style=\"highlight\">75%)\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">5 [ThePowerOfLoveAndHate] Count",
+                    "desc": "[WhenUse] Deal +12.5% damage for every [ThePowerOfLoveAndHate] on self (max 75%)\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Coin Power +1\n[WhenUse] Gain +5 [ThePowerOfLoveAndHate] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +4 [ThePowerOfLoveAndHate] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +4 [ThePowerOfLoveAndHate] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict [VillainMark] against the main target next turn"
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] Inflict [VillainMark] against the main target next turn"
                         ]
                     ]
                 }
@@ -220,7 +220,7 @@
                 {
                     "uptie": 4,
                     "name": "Arcana Beats!! / Minor Arcana Slave!!!",
-                    "desc": "Deal +<style=\"highlight\">30% damage for every [ArcanaQueenOfHate] on self (max <style=\"highlight\">90%)\n[WhenUse] At 2+ [ThePowerOfLoveAndHate], deal +([ThePowerOfLoveAndHate] x <style=\"highlight\">25)% damage <style=\"highlight\">(max 125%)\n[WhenUse] At 2+ [ThePowerOfLoveAndHate], Base Power +<style=\"highlight\">2\n[WhenUse] Consume [ThePowerOfLoveAndHate] Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max <style=\"highlight\">4)\n[WhenUse] Gain +6 [ThePowerOfLoveAndHate] Count\n[EndSkill] Gain 1 [ArcanaQueenOfHate]",
+                    "desc": "Deal +30% damage for every [ArcanaQueenOfHate] on self (max 90%)\n[WhenUse] At 2+ [ThePowerOfLoveAndHate], deal +([ThePowerOfLoveAndHate] x 25)% damage (max 125%)\n[WhenUse] At 2+ [ThePowerOfLoveAndHate], Base Power +2\n[WhenUse] Consume [ThePowerOfLoveAndHate] Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 4)\n[WhenUse] Gain +6 [ThePowerOfLoveAndHate] Count\n[EndSkill] Gain 1 [ArcanaQueenOfHate]",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
@@ -287,33 +287,33 @@
                         ],
                         [
                             "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
-                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "Where are... the villains...?",
-                    "desc": "Deal <style=\"highlight\">+4% damage for every [HystericGauge] on self <style=\"highlight\">(max 12%)\n<style=\"highlight\">[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain <style=\"highlight\">+3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 5 SP",
+                    "desc": "Deal +4% damage for every [HystericGauge] on self (max 12%)\n[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 5 SP",
                     "coinDescs": [
                         [
                             ""
                         ],
                         [
-                            "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [[Sinking]]"
+                            "[OnSucceedAttack] Gain +2 [ThePowerOfLoveAndHate] Count",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Where are... the villains...?",
-                    "desc": "Deal <style=\"highlight\">+5% damage for every [HystericGauge] on self <style=\"highlight\">(max 15%)\n<style=\"highlight\">[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n<style=\"highlight\">[WhenUse] Base Power +1 for every 2 [ThePowerOfLoveAndHate] on self (max 2)\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 5 SP",
+                    "desc": "Deal +5% damage for every [HystericGauge] on self (max 15%)\n[WhenUse] Consume 5 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Base Power +1 for every 2 [ThePowerOfLoveAndHate] on self (max 2)\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 5 SP",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">3 [ThePowerOfLoveAndHate] Count",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [[Sinking]]"
+                            "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count",
+                            "[OnSucceedAttack] Inflict 3 [Sinking]"
                         ]
                     ]
                 }
@@ -368,35 +368,35 @@
                             "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "Get out of my head...",
-                    "desc": "If this unit has [HystericGauge], <style=\"highlight\">Base Power +1\n<style=\"highlight\">[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
+                    "desc": "If this unit has [HystericGauge], Base Power +1\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +3 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [[Sinking]]",
-                            "<style=\"highlight\">[OnSucceedAttackTail] Inflict [VillainMark] against the main target next turn"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttackTail] Inflict [VillainMark] against the main target next turn"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Get out of my head...",
-                    "desc": "<style=\"highlight\">Base Power +1 for every [HystericGauge] on self (max 2)\n- At 3 [HystericGauge], gain +1 Atk Weight\n- Deal -50% damage against sub-targets\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +<style=\"highlight\">5 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
+                    "desc": "Base Power +1 for every [HystericGauge] on self (max 2)\n- At 3 [HystericGauge], gain +1 Atk Weight\n- Deal -50% damage against sub-targets\n[WhenUse] Consume 6 [ThePowerOfLoveAndHate] Count on self to gain Base Power +1\n[WhenUse] Gain +5 [ThePowerOfLoveAndHate] Count\n[WhenUse] Lose 8 SP",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +3 [ThePowerOfLoveAndHate] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict [VillainMark] against the main target next turn"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttack] Inflict [VillainMark] against the main target next turn"
                         ]
                     ]
                 }
@@ -442,29 +442,29 @@
                         ],
                         [
                             "[SuperCoin]",
-                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                         ],
                         [
                             "[SuperCoin]",
-                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Reversed Beats / Reversed Arcana Slave",
-                    "desc": "This Skill deals -50% damage against sub-targets\n\n[WhenUse] Consume all [HystericGauge]; <style=\"highlight\">Clash Power +1 for every Stack consumed (max 3)\n[WhenUse] Consume [ThePowerOfLoveAndHate] Count to gain Clash Power (Clash Power +1 for every <style=\"highlight\">5 Count consumed, max <style=\"highlight\">4)\n[WhenUse] Deal +<style=\"highlight\">30% damage for every [ThePowerOfLoveAndHate] on self (max <style=\"highlight\">150%)\n[BeforeAttack] Consume all [ArcanaQueenOfHate] on self; <style=\"highlight\">gain +1 Atk Weight for every Stack consumed (max 3)\n- If this Skill consumed 3 [HystericGauge], gain +1 Atk Weight\n[BeforeAttack] If this Skill only has a single target(for Focused Encounters, a Part), <style=\"highlight\">deal +(20 x (Atk Weight - 1))% damage (max 80%)\n[BeforeAttack] Base Power -6 for every Cracked Coin (max -18)\n[EndBattle] If this unit isn't at -45 SP, and is at less than 0 SP, heal 10 SP. Heal more SP the further this unit's SP value is from 0 (2 SP healed for every missing SP, max 50 SP)\n[WhenUse] Lose 10 SP",
+                    "desc": "This Skill deals -50% damage against sub-targets\n\n[WhenUse] Consume all [HystericGauge]; Clash Power +1 for every Stack consumed (max 3)\n[WhenUse] Consume [ThePowerOfLoveAndHate] Count to gain Clash Power (Clash Power +1 for every 5 Count consumed, max 4)\n[WhenUse] Deal +30% damage for every [ThePowerOfLoveAndHate] on self (max 150%)\n[BeforeAttack] Consume all [ArcanaQueenOfHate] on self; gain +1 Atk Weight for every Stack consumed (max 3)\n- If this Skill consumed 3 [HystericGauge], gain +1 Atk Weight\n[BeforeAttack] If this Skill only has a single target(for Focused Encounters, a Part), deal +(20 x (Atk Weight - 1))% damage (max 80%)\n[BeforeAttack] Base Power -6 for every Cracked Coin (max -18)\n[EndBattle] If this unit isn't at -45 SP, and is at less than 0 SP, heal 10 SP. Heal more SP the further this unit's SP value is from 0 (2 SP healed for every missing SP, max 50 SP)\n[WhenUse] Lose 10 SP",
                     "coinDescs": [
                         [
-                            "[SuperCoin]<style=\"highlight\">"
+                            "[SuperCoin]"
                         ],
                         [
-                            "[SuperCoin]<style=\"highlight\">",
-                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [[Sinking]]<style=\"highlight\">"
+                            "[SuperCoin]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                         ],
                         [
-                            "[SuperCoin]<style=\"highlight\">",
-                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [[Sinking]]<style=\"highlight\">"
+                            "[SuperCoin]",
+                            "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 }
@@ -509,7 +509,7 @@
                 {
                     "uptie": 4,
                     "name": "Rapid Chant",
-                    "desc": "[CanDuelGuard]\n[WhenUse] Base Power +1 for every [HystericGauge] <style=\"highlight\">(max 3)\n[WhenUse] Gain +<style=\"highlight\">4 [ThePowerOfLoveAndHate] Count (2 times per turn)",
+                    "desc": "[CanDuelGuard]\n[WhenUse] Base Power +1 for every [HystericGauge] (max 3)\n[WhenUse] Gain +4 [ThePowerOfLoveAndHate] Count (2 times per turn)",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
@@ -593,5 +593,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

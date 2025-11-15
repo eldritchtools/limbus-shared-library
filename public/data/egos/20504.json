@@ -79,9 +79,10 @@
     "passiveList": [
         {
             "name": "Untempered Agitation",
-            "desc": "At the start of the combat phase, if targeted by 2 or more skills, this unit\u2019s skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn.)"
+            "desc": "At the start of the combat phase, if targeted by 2 or more skills, this unit\u2019s skills have +1 Base Power; when hit, inflict 1 [Combustion] on the attacker. (5 times per turn.)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

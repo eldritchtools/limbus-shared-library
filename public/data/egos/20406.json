@@ -71,9 +71,10 @@
     "passiveList": [
         {
             "name": "Dream Devouring",
-            "desc": "On Crit with a Pride affinity Skill, gain 1 Poise Count (3 times per turn)"
+            "desc": "On Crit with a Pride affinity Skill, gain 1 [Breath] Count (3 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

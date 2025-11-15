@@ -184,7 +184,7 @@
                 {
                     "uptie": 3,
                     "name": "Dimensional Rift",
-                    "desc": "[WhenUse] At less than 15 Charge Count, consume 10 Charge Count to gain +1 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +2 Coin Power",
+                    "desc": "[WhenUse] At less than 15 [Charge] Count, consume 10 [Charge] Count to gain +1 Coin Power\n[WhenUse] Consume 15 [Charge] Count to gain +2 Coin Power",
                     "coinDescs": [
                         [
                             "[OnSucceedAttackHead] Inflict 1 [Burst]"
@@ -193,8 +193,8 @@
                             "[OnSucceedAttackHead] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst] for every 5 Charge Count consumed by the Skill (Max 6)",
-                            "[OnSucceedAttack] If the Skill consumed 15 Charge Count upon use, inflict 2 [DimensionRift]",
+                            "[OnSucceedAttack] Inflict 2 [Burst] for every 5 [Charge] Count consumed by the Skill (Max 6)",
+                            "[OnSucceedAttack] If the Skill consumed 15 [Charge] Count upon use, inflict 2 [DimensionRift]",
                             "[EnemyKill] Gain 3 [ChargeForceField]"
                         ]
                     ]
@@ -202,7 +202,7 @@
                 {
                     "uptie": 4,
                     "name": "Dimensional Rift",
-                    "desc": "[WhenUse] At less than 15 Charge Count, consume 10 Charge Count to gain +1 Coin Power\n[WhenUse] Consume 15 Charge Count to gain +2 Coin Power\n[BeforeAttack] If 15 Charge Count has been consumed, inflict +3 [Burst] Count",
+                    "desc": "[WhenUse] At less than 15 [Charge] Count, consume 10 [Charge] Count to gain +1 Coin Power\n[WhenUse] Consume 15 [Charge] Count to gain +2 Coin Power\n[BeforeAttack] If 15 [Charge] Count has been consumed, inflict +3 [Burst] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttackHead] Inflict 1 [Burst]"
@@ -211,8 +211,8 @@
                             "[OnSucceedAttackHead] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 3 [Burst] for every 5 Charge Count consumed by the Skill (Max 9)",
-                            "[OnSucceedAttack] If the Skill consumed 15 Charge Count upon use, inflict 2 [DimensionRift]",
+                            "[OnSucceedAttack] Inflict 3 [Burst] for every 5 [Charge] Count consumed by the Skill (Max 9)",
+                            "[OnSucceedAttack] If the Skill consumed 15 [Charge] Count upon use, inflict 2 [DimensionRift]",
                             "[EnemyKill] Gain 5 [ChargeForceField]"
                         ]
                     ]
@@ -256,7 +256,7 @@
                 {
                     "uptie": 4,
                     "name": "Hollow Dimension",
-                    "desc": "Base Power +1 per 5 [Charge] Count (Max 2)\n[OnSucceedEvade] +1 Potency when applying Rupture for the first time with a Skill effect next turn (Max +3 per turn)",
+                    "desc": "Base Power +1 per 5 [Charge] Count (Max 2)\n[OnSucceedEvade] +1 Potency when applying [Burst] for the first time with a Skill effect next turn (Max +3 per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -289,7 +289,7 @@
     "passiveData": {
         "1010601": {
             "name": "Emptied Thought",
-            "desc": "- At Turn End, gain 1 Haste per 5 Charge Count on self next turn. (Max 2)\n- If this unit's Skill consumed Charge Count, apply 3 Charge Barrier to 1 ally with the lowest HP percentage",
+            "desc": "- At Turn End, gain 1 Haste per 5 [Charge] Count on self next turn. (Max 2)\n- If this unit's Skill consumed [Charge] Count, apply 3 [ChargeForceField] to 1 ally with the lowest HP percentage",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -302,7 +302,7 @@
         },
         "1010611": {
             "name": "Emptied Thought",
-            "desc": "- At Turn End, gain 1 Haste per 5 Charge Count on self next turn. (Max 3)\n- If this unit's Skill consumed Charge Count, apply 3 Charge Barrier to 1 ally with the lowest HP percentage",
+            "desc": "- At Turn End, gain 1 Haste per 5 [Charge] Count on self next turn. (Max 3)\n- If this unit's Skill consumed [Charge] Count, apply 3 [ChargeForceField] to 1 ally with the lowest HP percentage",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -315,7 +315,7 @@
         },
         "1010621": {
             "name": "Cleanup Demonstration",
-            "desc": "1 Ally with the highest Charge Count deals more damage against targets with <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u> based on Rupture on target (+1.5% per Rupture. Max +15% damage)",
+            "desc": "1 Ally with the highest [Charge] Count deals more damage against targets with [Burst] based on [Burst] on target (+1.5% per [Burst]. Max +15% damage)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -326,5 +326,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "S1 and S2 generates {status:Charge} Count. Use S3 at 15+ {status:Charge} Count.",
+        "full": "Generate {status:Charge} Count with S1(+4) and S2(+7). Skills get boosted at 10+ {status:Charge} Count, with S3 further boosted at 15. S3 will consume 10 or 15 depending on how much Yi Sang has. S2 is {status:Burst} Count neutral and S3 is Count positive at 10 and 15 {status:Charge} Count."
     }
 }

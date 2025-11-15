@@ -125,7 +125,7 @@
                             "[OnSucceedAttackHead] Inflict 1 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] At 6+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] At 6+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 },
@@ -141,7 +141,7 @@
                             "[OnSucceedAttack] Inflict 1 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] At 6+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] At 6+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 },
@@ -157,7 +157,7 @@
                             "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] At 6+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] At 6+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -204,13 +204,13 @@
                             "[OnSucceedAttack] If the Skill spent [Vibration] Count, inflict +3 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttackHead] Trigger [Vibration] Burst; after [Vibration] Burst, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttackHead] Trigger [VibrationExplosion]; after [VibrationExplosion], reduce target's [Vibration] Count by 1"
                         ],
                         [
-                            "[OnSucceedAttackHead] Trigger [Vibration] Burst; after [Vibration] Burst, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttackHead] Trigger [VibrationExplosion]; after [VibrationExplosion], reduce target's [Vibration] Count by 1"
                         ],
                         [
-                            "[OnSucceedAttackHead] Trigger [Vibration] Burst; after [Vibration] Burst, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttackHead] Trigger [VibrationExplosion]; after [VibrationExplosion], reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 },
@@ -224,13 +224,13 @@
                             "[OnSucceedAttack] If the Skill spent [Vibration] Count, inflict +3 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst; after [Vibration] Burst, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; after [VibrationExplosion], reduce target's [Vibration] Count by 1"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst; after [Vibration] Burst, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; after [VibrationExplosion], reduce target's [Vibration] Count by 1"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst; after [Vibration] Burst, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; after [VibrationExplosion], reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -297,7 +297,7 @@
     "passiveData": {
         "1110521": {
             "name": "Carrot & Stick",
-            "desc": "1 ally with the most Tremor Count gains +1 more Tremor Count from Skill effects",
+            "desc": "1 ally with the most [Vibration] Count gains +1 more [Vibration] Count from Skill effects",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -310,7 +310,7 @@
         },
         "1110501": {
             "name": "Drinking Boast",
-            "desc": "Upon triggering Tremor Burst on an enemy, inflict 30% of Raised Stagger Threshold as Sloth damage (Max 20; rounded down)",
+            "desc": "Upon triggering [VibrationExplosion] on an enemy, inflict 30% of Raised Stagger Threshold as Sloth damage (Max 20; rounded down)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -321,5 +321,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

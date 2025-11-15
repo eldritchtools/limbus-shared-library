@@ -69,7 +69,7 @@
                         [],
                         [
                             "[OnSucceedAttack] Inflict 2 [Burst]",
-                            "[OnSucceedAttack] If target has 5+ Tremor Count, inflict 3 [Burst]"
+                            "[OnSucceedAttack] If target has 5+ [Vibration] Count, inflict 3 [Burst]"
                         ]
                     ]
                 }
@@ -181,7 +181,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2;\nSpend up to 4 Charge Count to inflict [Burst] Count equal to Charge Count spent"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 2;\nSpend up to 4 [Charge] Count to inflict [Burst] Count equal to [Charge] Count spent"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -199,7 +199,7 @@
                     "desc": "If target has 5+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2;\nSpend up to 4 Charge Count to inflict [Burst] Count equal to Charge Count spent"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 2;\nSpend up to 4 [Charge] Count to inflict [Burst] Count equal to [Charge] Count spent"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -271,7 +271,7 @@
     "passiveData": {
         "1120521": {
             "name": "Sawblade Maintenance",
-            "desc": "1 ally with the slowest Speed inflicts +1 Rupture to targets with [Vibration]",
+            "desc": "1 ally with the slowest Speed inflicts +1 [Burst] to targets with [Vibration]",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -284,7 +284,7 @@
         },
         "1120501": {
             "name": "Sawblade Fired Up",
-            "desc": "Inflict +1 Rupture to targets with [Vibration]",
+            "desc": "Inflict +1 [Burst] to targets with [Vibration]",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -295,5 +295,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -288,7 +288,7 @@
     "passiveData": {
         "1010721": {
             "name": "The First Mate's Acumen",
-            "desc": "On Crit, 1 ally with the most [Breath] inflicts 2 additional Bleed Potency with a Skill (6 times per turn)",
+            "desc": "On Crit, 1 ally with the most [Breath] inflicts 2 additional [Laceration] Potency with a Skill (6 times per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -301,7 +301,7 @@
         },
         "1010701": {
             "name": "The First Mate's Harpoon",
-            "desc": "On Crit, inflict 2 more Bleed Potency with a Skill (6 times per turn)",
+            "desc": "On Crit, inflict 2 more [Laceration] Potency with a Skill (6 times per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -312,5 +312,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "S2 can go up to 5 coins, but requires a lot of external {status:Breath} to be remotely consistent.",
+        "full": "He reuses his 2nd coin on the S2 when he crits, but his {status:Breath} generation is extremely low, making it very inconsistent unless you have external support. He can inflict a lot of {status:Laceration} with it because of his passive if you can get it to work."
     }
 }

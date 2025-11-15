@@ -77,9 +77,10 @@
     "passiveList": [
         {
             "name": "Shower of Fire",
-            "desc": "On hit, if the target had [Combustion], inflict 1 Burn on 3 random enemies."
+            "desc": "On hit, if the target had [Combustion], inflict 1 [Combustion] on 3 random enemies."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

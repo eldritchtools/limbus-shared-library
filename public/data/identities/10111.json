@@ -133,7 +133,7 @@
                 {
                     "uptie": 4,
                     "name": "when juxtaposed with E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
-                    "desc": "[StartBattle] <style=\"highlight\">On Clash Lose, gain (# of Skills targeting this unit x 2) Final Power (max 6)\n[WhenUse] Gain +4 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects\n[DefeatDuel] [Burst] Count inflicted by this Skill +2",
+                    "desc": "[StartBattle] On Clash Lose, gain (# of Skills targeting this unit x 2) Final Power (max 6)\n[WhenUse] Gain +4 [Aggro] next turn\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] Count with its effects\n[DefeatDuel] [Burst] Count inflicted by this Skill +2",
                     "coinDescs": [
                         [
                             "[SuperCoin]",
@@ -303,7 +303,7 @@
         },
         "1011111": {
             "name": "This is reflected in their appearance, more closely resembling the source Abnormality than E.G.O of the former L Corp. do",
-            "desc": "On death, inflict <style=\"highlight\">5</style> [Burst] and +<style=\"highlight\">3</style> [Burst] Count against the target that attacked this unit last; then, gain 2 E.G.O resources for 4 least-owned E.G.O resources.\n- If no one attacked this unit, or if an ally killed this unit, inflict 5 [Burst] and +3 [Burst] Count against the enemy with the least [Burst] Count\n- If this unit is in a [GlowingLantern] state, inflict double the [Burst] potency with this effect",
+            "desc": "On death, inflict 5 [Burst] and +3 [Burst] Count against the target that attacked this unit last; then, gain 2 E.G.O resources for 4 least-owned E.G.O resources.\n- If no one attacked this unit, or if an ally killed this unit, inflict 5 [Burst] and +3 [Burst] Count against the enemy with the least [Burst] Count\n- If this unit is in a [GlowingLantern] state, inflict double the [Burst] potency with this effect",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -314,5 +314,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "Suicidal {status:Aggro} tank. Inflicts a lot of {status:Burst} while taking damage, then dies and generates bonus E.G.O resources on death.",
+        "full": "All skills produce {status:Aggro}. Inflicts more {status:Burst} but less damage on clash lose with S1 and S2. S3 and defense gives {status:GlowingLantern} which further increases {status:Aggro} and damage taken and inflicts bonus {status:Burst} on the attacker when hit."
     }
 }

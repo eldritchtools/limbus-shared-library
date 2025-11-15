@@ -40,7 +40,7 @@
                 "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 50%)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s Rupture x 7.5)% of the damage dealt, and reduce Rupture Count by 5 (Max 75%)"
+                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 7.5)% of the damage dealt, and reduce [Burst] Count by 5 (Max 75%)"
                     ]
                 ]
             },
@@ -48,11 +48,11 @@
                 "uptie": 3,
                 "name": "Dimension Shredder",
                 "abName": "Wayward Passenger",
-                "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max <style=\"highlight\">75%)",
+                "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] <style=\"highlight\">If Charge Count was spent, inflict 3 [DimensionRift]",
-                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s Rupture x <style=\"highlight\">10)% of the damage dealt, and reduce Rupture Count by 5 (Max <style=\"highlight\">100%)"
+                        "[OnSucceedAttack] If Charge Count was spent, inflict 3 [DimensionRift]",
+                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100%)"
                     ]
                 ]
             },
@@ -60,11 +60,11 @@
                 "uptie": 4,
                 "name": "Dimension Shredder",
                 "abName": "Wayward Passenger",
-                "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)<style=\"highlight\">",
+                "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If Charge Count was spent, inflict <style=\"highlight\">5 [DimensionRift]",
-                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s Rupture x 10)% of the damage dealt, and reduce Rupture Count by 5 (Max 100)<style=\"highlight\">"
+                        "[OnSucceedAttack] If Charge Count was spent, inflict 5 [DimensionRift]",
+                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100)"
                     ]
                 ]
             }
@@ -73,9 +73,10 @@
     "passiveList": [
         {
             "name": "Rambling Man",
-            "desc": "At the start of the turn, if this unit took no damage last turn, gain +4 Charge Count.\nAfter successfully hitting an enemy with lower Speed, inflict +1 Rupture Count. (3 times per turn)"
+            "desc": "At the start of the turn, if this unit took no damage last turn, gain +4 Charge Count.\nAfter successfully hitting an enemy with lower Speed, inflict +1 [Burst] Count. (3 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -127,12 +128,12 @@
                 "uptie": 3,
                 "name": "Dimension Shredder",
                 "abName": "Wayward Passenger",
-                "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max <style=\"highlight\">75%)",
+                "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)",
                 "coinDescs": [
                     [
-                        "<style=\"highlight\">[OnSucceedAttack] If Charge Count was spent, inflict 3 [DimensionRift]",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">6 [Burst]",
-                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x <style=\"highlight\">10)% of the damage dealt, and reduce [Burst] Count by 5 (Max <style=\"highlight\">100%)"
+                        "[OnSucceedAttack] If Charge Count was spent, inflict 3 [DimensionRift]",
+                        "[OnSucceedAttack] Inflict 6 [Burst]",
+                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100%)"
                     ]
                 ]
             },
@@ -140,12 +141,12 @@
                 "uptie": 4,
                 "name": "Dimension Shredder",
                 "abName": "Wayward Passenger",
-                "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)<style=\"highlight\">",
+                "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend Charge Count to deal more damage (Max 75%)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If Charge Count was spent, inflict <style=\"highlight\">5 [DimensionRift]",
-                        "[OnSucceedAttack] Inflict 6 [Burst]<style=\"highlight\">",
-                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100)<style=\"highlight\">"
+                        "[OnSucceedAttack] If Charge Count was spent, inflict 5 [DimensionRift]",
+                        "[OnSucceedAttack] Inflict 6 [Burst]",
+                        "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100)"
                     ]
                 ]
             }

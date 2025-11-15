@@ -61,34 +61,34 @@
                 {
                     "uptie": 2,
                     "name": "Return Fire",
-                    "desc": "[WhenUse] Gain +2 [Breath] Count\n<style=\"highlight\">[WhenUse] Gain 1 [Agility] next turn (once per turn)",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count\n[WhenUse] Gain 1 [Agility] next turn (once per turn)",
                     "coinDescs": [
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] Gain +1 [Breath] Count"
+                            "Spend 1 [Bullet]",
+                            "[OnSucceedAttack] Gain +1 [Breath] Count"
                         ],
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">"
+                            "Spend 1 [Bullet]"
                         ],
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">"
+                            "Spend 1 [Bullet]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Return Fire",
-                    "desc": "[WhenUse] Gain +2 [Breath] Count\n[WhenUse] Gain <style=\"highlight\">2 [Agility] next turn (once per turn)",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count\n[WhenUse] Gain 2 [Agility] next turn (once per turn)",
                     "coinDescs": [
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">",
-                            "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\">"
+                            "Spend 1 [Bullet]",
+                            "[OnSucceedAttack] Gain +1 [Breath] Count"
                         ],
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">"
+                            "Spend 1 [Bullet]"
                         ],
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">"
+                            "Spend 1 [Bullet]"
                         ]
                     ]
                 }
@@ -144,26 +144,26 @@
                 {
                     "uptie": 2,
                     "name": "Headshot",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 30%)\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n<style=\"highlight\">[WhenUse] Gain 2 [Agility] next turn (once per turn)",
+                    "desc": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 30%)\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n[WhenUse] Gain 2 [Agility] next turn (once per turn)",
                     "coinDescs": [
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">",
-                            "<style=\"highlight\">+30% Damage on Critical Hit",
-                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] (2 times per turn)<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn (once per turn)"
+                            "Spend 1 [Bullet]",
+                            "+30% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] (2 times per turn)",
+                            "[CriticalOnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn (once per turn)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Headshot",
-                    "desc": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference <style=\"highlight\">(max 50%)\n[WhenUse] Gain 3 [Breath] and +<style=\"highlight\">2 [Breath] Count\n[WhenUse] Gain 2 [Agility] next turn (once per turn)",
+                    "desc": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 50%)\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WhenUse] Gain 2 [Agility] next turn (once per turn)",
                     "coinDescs": [
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">",
-                            "<style=\"highlight\">+50% Damage on Critical Hit",
-                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] (2 times per turn)<style=\"highlight\">",
-                            "[CriticalOnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn (once per turn)<style=\"highlight\">"
+                            "Spend 1 [Bullet]",
+                            "+50% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] (2 times per turn)",
+                            "[CriticalOnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn (once per turn)"
                         ]
                     ]
                 }
@@ -210,13 +210,13 @@
                 {
                     "uptie": 4,
                     "name": "Goin' for the Bullseye",
-                    "desc": "[BeforeUse] If this unit has [Bullet_LogicAtelier], activate 'AL-HV Pulverisation Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 50%)\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Consume all [LogicAtelierAM] on self, gain (value consumed x 2) [Breath] Potency, and deal +(value consumed x 12.5)% damage\n<style=\"highlight\">[EndSkill] Gain +2 [Breath] Count",
+                    "desc": "[BeforeUse] If this unit has [Bullet_LogicAtelier], activate 'AL-HV Pulverisation Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 50%)\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Consume all [LogicAtelierAM] on self, gain (value consumed x 2) [Breath] Potency, and deal +(value consumed x 12.5)% damage\n[EndSkill] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
-                            "Spend 1 [Bullet]<style=\"highlight\">",
-                            "<style=\"highlight\">+80% Damage on Critical Hit",
-                            "<style=\"highlight\">+(target's Pierce Res. x 50)% Damage on Critical Hit",
-                            "[CriticalOnSucceedAttack] At more than 30 [Breath] Potency, consume up to 10 of [Breath] Potency over 30 to deal +([Breath] Potency consumed x 10)% damage<style=\"highlight\">"
+                            "Spend 1 [Bullet]",
+                            "+80% Damage on Critical Hit",
+                            "+(target's Pierce Res. x 50)% Damage on Critical Hit",
+                            "[CriticalOnSucceedAttack] At more than 30 [Breath] Potency, consume up to 10 of [Breath] Potency over 30 to deal +([Breath] Potency consumed x 10)% damage"
                         ]
                     ]
                 }
@@ -262,13 +262,13 @@
                 {
                     "uptie": 4,
                     "name": "AL-HV Pulverisation Round",
-                    "desc": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 50%)\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Consume all [LogicAtelierAM] on self, gain (value consumed x 2) [Breath] Potency, and deal +(value consumed x 25)% damage\n<style=\"highlight\">[EndSkill] Gain +5 [Breath] Count",
+                    "desc": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (max 50%)\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Consume all [LogicAtelierAM] on self, gain (value consumed x 2) [Breath] Potency, and deal +(value consumed x 25)% damage\n[EndSkill] Gain +5 [Breath] Count",
                     "coinDescs": [
                         [
-                            "Spend 1 [Bullet_LogicAtelier]<style=\"highlight\">",
-                            "<style=\"highlight\">+130% Damage on Critical Hit",
-                            "<style=\"highlight\">+(target's Pierce Res. x 50)% Damage on Critical Hit",
-                            "[CriticalOnSucceedAttack] At more than 30 [Breath] Potency, consume up to 10 of [Breath] Potency over 30 to deal +([Breath] Potency consumed x 10)% damage<style=\"highlight\">"
+                            "Spend 1 [Bullet_LogicAtelier]",
+                            "+130% Damage on Critical Hit",
+                            "+(target's Pierce Res. x 50)% Damage on Critical Hit",
+                            "[CriticalOnSucceedAttack] At more than 30 [Breath] Potency, consume up to 10 of [Breath] Potency over 30 to deal +([Breath] Potency consumed x 10)% damage"
                         ]
                     ]
                 }
@@ -299,7 +299,7 @@
                 {
                     "uptie": 1,
                     "name": "Combat Poise",
-                    "desc": "Turn Start: At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
+                    "desc": "Turn Start: At 0 [Bullet], this Skill activates as 'Taking Cover' instead\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -307,7 +307,7 @@
                 {
                     "uptie": 4,
                     "name": "Combat Poise",
-                    "desc": "Turn Start: At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n<style=\"highlight\">[OnSucceedEvade] Gain 3 [Breath] (3 times per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
+                    "desc": "Turn Start: At 0 [Bullet], this Skill activates as 'Taking Cover' instead\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n[OnSucceedEvade] Gain 3 [Breath] (3 times per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -342,17 +342,17 @@
                     "desc": "[CanDuelGuard]\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
                     "coinDescs": [
                         [
-                            "[SuperCoin]<style=\"highlight\">"
+                            "[SuperCoin]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Taking Cover",
-                    "desc": "[CanDuelGuard]\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n<style=\"highlight\">[WinDuel] Inflict 1 [PenetrateResistDown] (once per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
+                    "desc": "[CanDuelGuard]\n[WhenUse] If Full-Stop Office Rep. Hong Lu is on the field, request [MeleeCover] from that unit (once per turn)\n[WinDuel] Inflict 1 [PenetrateResistDown] (once per turn)\n[EndBattle] Gain 1 [LogicAtelierAM] next turn (once per turn)",
                     "coinDescs": [
                         [
-                            "[SuperCoin]<style=\"highlight\">"
+                            "[SuperCoin]"
                         ]
                     ]
                 }
@@ -399,7 +399,7 @@
     "passiveData": {
         "1071111": {
             "name": "Precision Aim",
-            "desc": "Turn End: gain 1 [Agility] next turn for every 10 [Breath] on self (max 2)\n\n<style=\"highlight\">Combat Start: if this unit is not set to use any Attack Skills (including E.G.O Skills), apply 3 [Breath] to 1 ally with the least Poise Potency</style>\n\nTurn End: if this unit did not use any Attack Skills (including E.G.O Skills, excluding [CoveringFire]), gain 10 [Breath] and 1 [PenetrateResultUp] next turn",
+            "desc": "Turn End: gain 1 [Agility] next turn for every 10 [Breath] on self (max 2)\n\nCombat Start: if this unit is not set to use any Attack Skills (including E.G.O Skills), apply 3 [Breath] to 1 ally with the least [Breath] Potency\n\nTurn End: if this unit did not use any Attack Skills (including E.G.O Skills, excluding [CoveringFire]), gain 10 [Breath] and 1 [PenetrateResultUp] next turn",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -442,7 +442,8 @@
         },
         "1071103": {
             "name": "Snipe",
-            "desc": "Encounter Start: gain 3 [PenetrateResultUp]\n\n<style=\"highlight\">When this unit enters the Encounter, gain 1 [Bullet_LogicAtelier] (once per Encounter)</style>\n\nTurn End: If this unit does not have any remaining [Bullet] of any kind, activate [Retreat_FullStop] (once per Encounter)\n\nIf this unit is Substituted in, or is rejoining battle after [Retreat_FullStop], gain max [LogicAtelierAM], 3 [PenetrateResultUp], and [FullReload]\n(Except [Bullet_LogicAtelier]; once per Encounter)"
+            "desc": "Encounter Start: gain 3 [PenetrateResultUp]\n\nWhen this unit enters the Encounter, gain 1 [Bullet_LogicAtelier] (once per Encounter)\n\nTurn End: If this unit does not have any remaining [Bullet] of any kind, activate [Retreat_FullStop] (once per Encounter)\n\nIf this unit is Substituted in, or is rejoining battle after [Retreat_FullStop], gain max [LogicAtelierAM], 3 [PenetrateResultUp], and [FullReload]\n(Except [Bullet_LogicAtelier]; once per Encounter)"
         }
-    }
+    },
+    "notes": {}
 }

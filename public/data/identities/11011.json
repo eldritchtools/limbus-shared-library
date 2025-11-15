@@ -162,10 +162,10 @@
                             "[OnSucceedAttack] Gain 1 [DevyatDimensionalSackSinclair]\n- If this unit has less than 15 [DevyatDimensionalSackSinclair], gain 2 additional [DevyatDimensionalSackSinclair]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +<style=\"highlight\">2 [Burst] Count"
+                            "[OnSucceedAttack] Inflict 2 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +2 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 3 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +<style=\"highlight\">2 [Burst] Count"
+                            "[OnSucceedAttack] Inflict 3 [Burst]\n- At 15+ [DevyatDimensionalSackSinclair], inflict +2 [Burst] Count"
                         ]
                     ]
                 }
@@ -222,10 +222,10 @@
                     "desc": "Coin Power +1 for every 10 [DevyatDimensionalSackSinclair] on self or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] or [Burst] Count with its On Hit effects; instead, the final Coin gains +4 Coin Power\n[WhenUse] If target has 15+ [Burst], deal +4% damage for every [DevyatDimensionalSackSinclair] (max 120%)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count\n- Inflict +1 additional [Burst] Count for every 10 [DevyatDimensionalSackSinclair] (max <style=\"highlight\">3)"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count\n- Inflict +1 additional [Burst] Count for every 10 [DevyatDimensionalSackSinclair] (max 3)"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 3 [Burst]\n- Inflict +1 additional [Burst] for every <style=\"highlight\">8 [DevyatDimensionalSackSinclair] (max <style=\"highlight\">4)"
+                            "[OnSucceedAttack] Inflict 3 [Burst]\n- Inflict +1 additional [Burst] for every 8 [DevyatDimensionalSackSinclair] (max 4)"
                         ],
                         [
                             "[OnSucceedAttack] If this Skill's effect to raise its final Coin Power did not activate, gain 2 [Agility] next turn"
@@ -268,7 +268,7 @@
                 {
                     "uptie": 4,
                     "name": "Courier Assistance & Crisis Control System",
-                    "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max <style=\"highlight\">25%, once per turn)",
+                    "desc": "[StartBattle] At 15+ [DevyatDimensionalSackSinclair], activate 'W-wait, I need to do some maintenance...!' instead (once per turn)\n[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 25%, once per turn)",
                     "coinDescs": [
                         [
                             ""
@@ -311,7 +311,7 @@
                 {
                     "uptie": 4,
                     "name": "W-wait, I need to do some maintenance...!",
-                    "desc": "[StartBattle] If this Skill is to be activated, gain <style=\"highlight\">([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max <style=\"highlight\">25%, once per turn)\n[EndBattle] Activate [Retreat]",
+                    "desc": "[StartBattle] If this Skill is to be activated, gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 25%, once per turn)\n[EndBattle] Activate [Retreat]",
                     "coinDescs": [
                         [
                             ""
@@ -395,5 +395,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

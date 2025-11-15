@@ -269,7 +269,7 @@
     "passiveData": {
         "1050521": {
             "name": "Leave by Suggestion",
-            "desc": "1 ally with the fastest Speed lowers the Clash Power of opponents with Tremor by 1.",
+            "desc": "1 ally with the fastest Speed lowers the Clash Power of opponents with [Vibration] by 1.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -282,7 +282,7 @@
         },
         "1050501": {
             "name": "Chronic Fatigue",
-            "desc": "In a clash, the opponent has -1 Clash Power if they have 5+ Tremor.\nWhen recovering from Stagger, heal 5% of Max HP.",
+            "desc": "In a clash, the opponent has -1 Clash Power if they have 5+ [Vibration].\nWhen recovering from Stagger, heal 5% of Max HP.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -293,5 +293,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

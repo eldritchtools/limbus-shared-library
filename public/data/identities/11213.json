@@ -70,7 +70,7 @@
                 {
                     "uptie": 4,
                     "name": "Gap Attack",
-                    "desc": "<style=\"highlight\">[WhenUse] Gain 1 [Agility] next turn (once per turn)\n[WhenUse] Coin Power +1 <style=\"highlight\">for every 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)",
+                    "desc": "[WhenUse] Gain 1 [Agility] next turn (once per turn)\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]",
@@ -161,7 +161,7 @@
                 {
                     "uptie": 4,
                     "name": "Stiletto Doppio",
-                    "desc": "[WhenUse] Coin Power +1 <style=\"highlight\">for every 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)\n[WinDuel] <style=\"highlight\">Inflict 1 [Vibration] and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)\n[WinDuel] Inflict 1 [Vibration] and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
@@ -171,7 +171,7 @@
                             "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
                         ],
                         [
-                            "[OnSucceedAttack] If the enemy(Core) has 20%- HP, or <style=\"highlight\">if target has [HorrHurtNightStiletto], use 'Merc\u00e9'"
+                            "[OnSucceedAttack] If the enemy(Core) has 20%- HP, or if target has [HorrHurtNightStiletto], use 'Merc\u00e9'"
                         ]
                     ]
                 }
@@ -233,13 +233,13 @@
                 {
                     "uptie": 4,
                     "name": "Execution",
-                    "desc": "[BeforeUse] If target has [CriHurtNightStiletto], activate 'The Night's Awl' instead (once per turn)\n[WhenUse] Coin Power +1 <style=\"highlight\">for every 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)\n[WinDuel] <style=\"highlight\">Inflict 2 [Vibration] and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                    "desc": "[BeforeUse] If target has [CriHurtNightStiletto], activate 'The Night's Awl' instead (once per turn)\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)\n[WinDuel] Inflict 2 [Vibration] and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 3 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Vibration] and <style=\"highlight\">+1 [Vibration] Count"
+                            "[OnSucceedAttack] Inflict 3 [Vibration] and +1 [Vibration] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
@@ -292,12 +292,12 @@
                 {
                     "uptie": 4,
                     "name": "Merc\u00e9",
-                    "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills and cannot gain E.G.O resources\nCoin Power +1 for every 20% missing HP on the enemy(Core) (max <style=\"highlight\">4)\n<style=\"highlight\">Deal +1% damage for every 1% missing HP on the enemy(Core)\n- If the enemy(Core) has 20%- HP, <style=\"highlight\">deal +120% damage instead\n<style=\"highlight\">[WhenUse] Gain 1 [Agility] next turn (once per turn)",
+                    "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills and cannot gain E.G.O resources\nCoin Power +1 for every 20% missing HP on the enemy(Core) (max 4)\nDeal +1% damage for every 1% missing HP on the enemy(Core)\n- If the enemy(Core) has 20%- HP, deal +120% damage instead\n[WhenUse] Gain 1 [Agility] next turn (once per turn)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Laceration]",
                             "[OnSucceedAttack] Inflict 1 [Vibration]",
-                            "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
                         ]
                     ]
                 }
@@ -363,14 +363,14 @@
                 {
                     "uptie": 4,
                     "name": "The Night's Awl",
-                    "desc": "Deal +<style=\"highlight\">15% damage for every 1 ([Agility] on self + [Binding] on target) (max <style=\"highlight\">60%)\n<style=\"highlight\">If target has Shield, deal +30% damage (in Focused Encounters, the Core or Parts)\n<style=\"highlight\">Deal +1% damage for every 1% missing HP on the enemy(Core)\n- If the enemy(Core) has 20%- HP, <style=\"highlight\">deal +100% damage instead\n<style=\"highlight\">[WhenUse] Inflict 5 [DefenseDown]\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on target (max <style=\"highlight\">3)\n[WinDuel] <style=\"highlight\">Inflict 4 [Vibration] and trigger [VibrationExplosion]",
+                    "desc": "Deal +15% damage for every 1 ([Agility] on self + [Binding] on target) (max 60%)\nIf target has Shield, deal +30% damage (in Focused Encounters, the Core or Parts)\nDeal +1% damage for every 1% missing HP on the enemy(Core)\n- If the enemy(Core) has 20%- HP, deal +100% damage instead\n[WhenUse] Inflict 5 [DefenseDown]\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on target (max 3)\n[WinDuel] Inflict 4 [Vibration] and trigger [VibrationExplosion]",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
                         ],
                         [
                             "[SuperCoin]",
-                            "[OnSucceedAttack] Inflict 4 [Laceration] and <style=\"highlight\">+1 [Laceration] Count"
+                            "[OnSucceedAttack] Inflict 4 [Laceration] and +1 [Laceration] Count"
                         ],
                         [
                             "[SuperCoin]",
@@ -423,7 +423,7 @@
                 {
                     "uptie": 4,
                     "name": "Dire Straits",
-                    "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] For this turn, increase the number of times 'Merc\u00e9' can be used when triggered by the effect of 'Purge Enforcer of the Famiglie' to 2 per turn\n[StartBattle] Gain 1 [Agility] next turn (once per turn)\n[WhenUse] Coin Power +1 <style=\"highlight\">for every 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)\n[WinDuel] <style=\"highlight\"> Inflict 2 [Vibration]",
+                    "desc": "[CanDuelGuard]\n[StartBattle] For this turn, increase the number of times 'Merc\u00e9' can be used when triggered by the effect of 'Purge Enforcer of the Famiglie' to 2 per turn\n[StartBattle] Gain 1 [Agility] next turn (once per turn)\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Vibration]) on target (max 2)\n[WinDuel]  Inflict 2 [Vibration]",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
@@ -509,5 +509,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

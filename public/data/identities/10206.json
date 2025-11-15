@@ -312,7 +312,7 @@
         },
         "1020621": {
             "name": "Seven Association Tea Time",
-            "desc": "1 ally with the fastest Speed deals more damage based on the target's <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u> when attacking with a damage type that the target is \"Fatal\"(Resistance>x1.5) to \n+1.5% per 1 Rupture (Max 15%)",
+            "desc": "1 ally with the fastest Speed deals more damage based on the target's [Burst] when attacking with a damage type that the target is \"Fatal\"(Resistance>x1.5) to \n+1.5% per 1 [Burst] (Max 15%)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -325,7 +325,7 @@
         },
         "1020631": {
             "name": "Seven Association Tea Time",
-            "desc": "1 ally with the fastest Speed deals more damage based on the target's <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u> when attacking with a damage type that the target is <style=\"highlight\">\"Weak\" or \"Fatal\"(Resistance>x1)</style> to\n(+1.5% per 1 Rupture; Max 15%)\n<style=\"highlight\">If the ally is a Seven Association Fixer, deal further increased damage\n(+0.5% per 1 Rupture; Max 5%)</style>",
+            "desc": "1 ally with the fastest Speed deals more damage based on the target's [Burst] when attacking with a damage type that the target is \"Weak\" or \"Fatal\"(Resistance>x1) to\n(+1.5% per 1 [Burst]; Max 15%)\nIf the ally is a Seven Association Fixer, deal further increased damage\n(+0.5% per 1 [Burst]; Max 5%)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -336,5 +336,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

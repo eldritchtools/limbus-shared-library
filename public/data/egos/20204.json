@@ -77,9 +77,10 @@
     "passiveList": [
         {
             "name": "Adaptive Release",
-            "desc": "While this unit has [Charge], deal +2% damage per Charge Count.\nSkills spend -2 Charge Count."
+            "desc": "While this unit has [Charge], deal +2% damage per [Charge] Count.\nSkills spend -2 [Charge] Count."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

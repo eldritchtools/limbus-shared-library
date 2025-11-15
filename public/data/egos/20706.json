@@ -36,7 +36,7 @@
                 "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] Next turn, gain 20 [Binding], 1 [ForwardToTheKing], and 1 [Enhancement]",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 4 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 4 [Sinking]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
@@ -50,7 +50,7 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 4 [Sinking]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
@@ -64,7 +64,7 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 4 [Sinking]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
@@ -78,6 +78,7 @@
             "desc": "- Combat Start: At 4+ highest Reson. that includes this unit's Skills, apply 3 [AttackUp] and 3 [DefenseUp] to self and all allies who were a part of that Reson.\n- If the said Reson. was an A-Reson., apply 2 additional [AttackUp] and [DefenseUp]"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -117,7 +118,7 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 3 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 4 [Sinking]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
@@ -127,11 +128,11 @@
                 "uptie": 3,
                 "name": "Binds",
                 "abName": "The King in Binds",
-                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Next turn, gain 20 [Binding], 1 [ForwardToTheKing], and 2 [Enhancement]\n[EndSkill] Next turn, apply 20 [Binding], 3 [Enhancement], and 1 <style=\"highlight\">[AzureDamageUp] to 2 other allies in the order of Deployment\n- The number of affected allies grows by (highest Gloom or Pride Reson. - 2) (max <style=\"highlight\">3)",
+                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Next turn, gain 20 [Binding], 1 [ForwardToTheKing], and 2 [Enhancement]\n[EndSkill] Next turn, apply 20 [Binding], 3 [Enhancement], and 1 [AzureDamageUp] to 2 other allies in the order of Deployment\n- The number of affected allies grows by (highest Gloom or Pride Reson. - 2) (max 3)",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 3 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 4 [Sinking]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
@@ -141,11 +142,11 @@
                 "uptie": 4,
                 "name": "Binds",
                 "abName": "The King in Binds",
-                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Next turn, gain 20 [Binding], 1 [ForwardToTheKing], and 3 [Enhancement]\n[EndSkill] Next turn, apply 20 [Binding], 3 [Enhancement], and <style=\"highlight\">2 [AzureDamageUp] to 2 other allies in the order of Deployment\n- The number of affected allies grows by (highest Gloom or Pride Reson. - 2) (max <style=\"highlight\">4)",
+                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Next turn, gain 20 [Binding], 1 [ForwardToTheKing], and 3 [Enhancement]\n[EndSkill] Next turn, apply 20 [Binding], 3 [Enhancement], and 2 [AzureDamageUp] to 2 other allies in the order of Deployment\n- The number of affected allies grows by (highest Gloom or Pride Reson. - 2) (max 4)",
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 3 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [[Sinking]]",
+                        "[OnSucceedAttack] Inflict 4 [Sinking]",
                         "[OnSucceedAttack] Inflict 4 [Vibration]",
                         "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]

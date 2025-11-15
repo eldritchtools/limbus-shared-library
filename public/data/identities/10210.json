@@ -37,33 +37,33 @@
                 {
                     "uptie": 1,
                     "name": "40Y-3 Activation",
-                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1",
+                    "desc": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +1",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Gain +2 [[Charge]] Count"
+                            "[OnSucceedAttack] Gain +2 [Charge] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "40Y-3 Activation",
-                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "desc": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +1",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">3 [[Charge]] Count"
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "40Y-3 Activation",
-                    "desc": "[WhenUse] Consume 5 [[Charge]] Count to gain Coin Power <style=\"highlight\">+2",
+                    "desc": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +2",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Gain +3 [[Charge]] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
                         ]
                     ]
                 }
@@ -120,36 +120,36 @@
                 {
                     "uptie": 1,
                     "name": "Charge Countercurrent",
-                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1",
+                    "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
                     "coinDescs": [
                         [],
                         [],
                         [
-                            "At 3+ Reson. including this Skill, consume all [[Charge]] Count on self and deal +([[Charge]])% damage for every [[Charge]] Count consumed by this Skill (max 60%)"
+                            "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge])% damage for every [Charge] Count consumed by this Skill (max 60%)"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "Charge Countercurrent",
-                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power +1<style=\"highlight\">",
+                    "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +1",
                     "coinDescs": [
                         [],
                         [],
                         [
-                            "At 3+ Reson. including this Skill, consume all [[Charge]] Count on self and deal +<style=\"highlight\">([[Charge]] + 3)% damage for every [[Charge]] Count consumed by this Skill (max <style=\"highlight\">120%)"
+                            "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge] + 3)% damage for every [Charge] Count consumed by this Skill (max 120%)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Charge Countercurrent",
-                    "desc": "[WhenUse] At 5~9 [[Charge]] Count, consume 2(10 - current [[Charge]] Count)% HP to raise [[Charge]] Count to 10\n[WhenUse] Consume 10 [[Charge]] Count to gain Coin Power <style=\"highlight\">+2",
+                    "desc": "[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +2",
                     "coinDescs": [
                         [],
                         [],
                         [
-                            "At 3+ Reson. including this Skill, consume all [[Charge]] Count on self and deal +<style=\"highlight\">([[Charge]] + 4)% damage for every [[Charge]] Count consumed by this Skill (max <style=\"highlight\">180%)"
+                            "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge] + 4)% damage for every [Charge] Count consumed by this Skill (max 180%)"
                         ]
                     ]
                 }
@@ -190,35 +190,35 @@
                 {
                     "uptie": 3,
                     "name": "40Y-3 Charge",
-                    "desc": "At 2+ [[Charge]], Coin Power +2",
+                    "desc": "At 2+ [Charge], Coin Power +2",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +([[Charge]] + 4) [[Charge]] Count (max 7)"
+                            "[OnSucceedAttack] Gain +([Charge] + 4) [Charge] Count (max 7)"
                         ],
                         [
-                            "[OnSucceedAttack] Gain +([[Charge]] + 4) [[Charge]] Count (max 7)"
+                            "[OnSucceedAttack] Gain +([Charge] + 4) [Charge] Count (max 7)"
                         ],
                         [],
                         [
-                            "At 3+ [[Charge]], deal +4% damage for every [[Charge]] (max 20%)"
+                            "At 3+ [Charge], deal +4% damage for every [Charge] (max 20%)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "40Y-3 Charge",
-                    "desc": "<style=\"highlight\">Coin Power +1 for every [[Charge]] (max 4)",
+                    "desc": "Coin Power +1 for every [Charge] (max 4)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +([[Charge]] + <style=\"highlight\">5) [[Charge]] Count (max <style=\"highlight\">8)"
+                            "[OnSucceedAttack] Gain +([Charge] + 5) [Charge] Count (max 8)"
                         ],
                         [
-                            "[OnSucceedAttack] Gain +([[Charge]] + <style=\"highlight\">5) [[Charge]] Count (max <style=\"highlight\">8)"
+                            "[OnSucceedAttack] Gain +([Charge] + 5) [Charge] Count (max 8)"
                         ],
                         [],
                         [
-                            "At 3+ [[Charge]], deal <style=\"highlight\">+8% damage for every [[Charge]] (max <style=\"highlight\">40%)",
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] next turn\n- At 2+ [[Charge]], inflict 1 additional [VioletTakeDamageUp]"
+                            "At 3+ [Charge], deal +8% damage for every [Charge] (max 40%)",
+                            "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] next turn\n- At 2+ [Charge], inflict 1 additional [VioletTakeDamageUp]"
                         ]
                     ]
                 }
@@ -254,7 +254,7 @@
                 {
                     "uptie": 1,
                     "name": "Charge",
-                    "desc": "[WhenUse] Gain +2 [[Charge]] Count (2 times per turn)",
+                    "desc": "[WhenUse] Gain +2 [Charge] Count (2 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -262,7 +262,7 @@
                 {
                     "uptie": 4,
                     "name": "Charge",
-                    "desc": "[WhenUse] Gain +<style=\"highlight\">4 [[Charge]] Count (2 times per turn)",
+                    "desc": "[WhenUse] Gain +4 [Charge] Count (2 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -314,7 +314,7 @@
         },
         "1021011": {
             "name": "Electrocurrent Dismantling",
-            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAt 2+ [Charge], deal +([Charge] x 3)% damage (max 15%)\n<style=\"highlight\">- If the target is at less than 50% HP, deal +([Charge] x 5)% additionally increased damage (max 25%)</style>\n\nOn Kill, this unit and <style=\"highlight\">2 allies</style> with the least [Charge] Count gains [Charge] Count equal to <style=\"highlight\">([Charge] + 2)</style> (max <style=\"highlight\">5</style>, prioritizes allies that consume or gain [Charge])",
+            "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAt 2+ [Charge], deal +([Charge] x 3)% damage (max 15%)\n- If the target is at less than 50% HP, deal +([Charge] x 5)% additionally increased damage (max 25%)\n\nOn Kill, this unit and 2 allies with the least [Charge] Count gains [Charge] Count equal to ([Charge] + 2) (max 5, prioritizes allies that consume or gain [Charge])",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -351,5 +351,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

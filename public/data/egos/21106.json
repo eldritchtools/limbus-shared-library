@@ -79,6 +79,7 @@
             "desc": "After Attack from this unit: if the target is Staggered or defeated, gain +1 Pride E.G.O resource and +1 E.G.O resource for 1 other random Affinity (3 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -137,7 +138,7 @@
                         "[OnSucceedAttack] Inflict +2 [Vibration] Count",
                         "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
                         "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
                 ]
             },
@@ -152,8 +153,8 @@
                         "[OnSucceedAttack] Inflict +3 [Vibration] Count",
                         "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
                         "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
-                        "[OnSucceedAttackTail] Trigger [VibrationExplosion]<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]<style=\"highlight\">"
+                        "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]"
                     ]
                 ]
             }

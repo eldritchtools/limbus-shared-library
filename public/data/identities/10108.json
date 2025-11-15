@@ -68,7 +68,7 @@
                 {
                     "uptie": 4,
                     "name": "Expend Knowledge",
-                    "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [[Sinking]], Coin Power +1",
+                    "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]"
@@ -129,10 +129,10 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                            "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
                         ],
                         [
-                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                            "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
                         ]
                     ]
                 },
@@ -143,24 +143,24 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                            "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
                         ],
                         [
-                            "[OnSucceedAttackHead] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                            "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Seal Shut",
-                    "desc": "Gain ([KnowledgeExplored] x 6% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [[Sinking]], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+                    "desc": "Gain ([KnowledgeExplored] x 6% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                            "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict [[Sinking]] equal to [KnowledgeExplored]"
+                            "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]"
                         ]
                     ]
                 }
@@ -206,7 +206,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                         ]
                     ]
                 },
@@ -219,7 +219,7 @@
                         [],
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                         ]
                     ]
                 }
@@ -306,7 +306,7 @@
     "passiveData": {
         "1010801": {
             "name": "Sinking Knowledge",
-            "desc": "When attacked, inflict 1 Sinking to the attacker (4 times max)",
+            "desc": "When attacked, inflict 1 [Sinking] to the attacker (4 times max)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -319,7 +319,7 @@
         },
         "1010811": {
             "name": "Sinking Knowledge",
-            "desc": "When attacked, inflict 1 Sinking on the attacker. When attacked while Shielded, inflict 1 additional Sinking on the attacker. (4 times max)",
+            "desc": "When attacked, inflict 1 [Sinking] on the attacker. When attacked while Shielded, inflict 1 additional [Sinking] on the attacker. (4 times max)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -356,5 +356,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "{status:Aggro} and {status:KnowledgeExplored} id. Use defend trick if not tanking.",
+        "full": "Mainly a tank with some {status:Sinking} support. Gains {status:Aggro} with S2 and S3 and shield when his S1, S2, or defend triggers a {status:Discard}. His passive applies {status:Sinking} when he's hit and more if he's hit while shielded.\nYou can use the defend trick if you want to maintain his {status:KnowledgeExplored} level. Generate the defense skill and use the skill that wasn't replaced. This will stop skills from being discarded, but also prevent you from gaining the shields from discarding skills."
     }
 }

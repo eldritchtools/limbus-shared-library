@@ -55,15 +55,15 @@
                 "uptie": 3,
                 "name": "Tears of the Tarnished Blood",
                 "abName": "Yinglong",
-                "desc": "<style=\"highlight\">At 6+ [YesdragonSelf], Coin Power +1\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "desc": "At 6+ [YesdragonSelf], Coin Power +1\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count"
                     ],
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Burst]",
-                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\">",
-                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 3 [Burst]",
+                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
+                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
                     ]
                 ]
             },
@@ -71,16 +71,16 @@
                 "uptie": 4,
                 "name": "Tears of the Tarnished Blood",
                 "abName": "Yinglong",
-                "desc": "<style=\"highlight\">Coin Power +1 for every 6 [YesdragonSelf] on self (max 3)\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "desc": "Coin Power +1 for every 6 [YesdragonSelf] on self (max 3)\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count"
                     ],
                     [
-                        "<style=\"highlight\"> Deal +1% damage for every 2% missing HP on self (max 40%)",
-                        "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\">",
-                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\">",
-                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\">"
+                        " Deal +1% damage for every 2% missing HP on self (max 40%)",
+                        "[OnSucceedAttack] Inflict 3 [Burst]",
+                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
+                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
                     ]
                 ]
             }
@@ -92,6 +92,7 @@
             "desc": "- Turn End: If this unit had a negative effect or lost its HP or SP, heal 5 SP.\n- If this unit or an ally is defeated, inflict 1 [Vulnerable] to all enemies next turn (once per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -148,15 +149,15 @@
                 "uptie": 3,
                 "name": "Tears of the Tarnished Blood",
                 "abName": "Yinglong",
-                "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">At 10+ [YesdragonSelf], Base Power +1\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
+                "desc": "[CantIdentify]\nTargets randomly\nAt 10+ [YesdragonSelf], Base Power +1\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Burst]"
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                        "[OnSucceedAttack] Inflict 3 [Burst]"
                     ],
                     [
-                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\">",
-                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\">"
+                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
+                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
                     ]
                 ]
             },
@@ -164,16 +165,16 @@
                 "uptie": 4,
                 "name": "Tears of the Tarnished Blood",
                 "abName": "Yinglong",
-                "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">Base Power +1 for every 10 [YesdragonSelf] on self (max 2)\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
+                "desc": "[CantIdentify]\nTargets randomly\nBase Power +1 for every 10 [YesdragonSelf] on self (max 2)\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                        "[OnSucceedAttack] Inflict 3 [Burst]"
                     ],
                     [
-                        "<style=\"highlight\"> Deal +1% damage for every 2% missing HP on self (max 40%)",
-                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)<style=\"highlight\">",
-                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\">"
+                        " Deal +1% damage for every 2% missing HP on self (max 40%)",
+                        "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
+                        "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
                     ]
                 ]
             }

@@ -41,7 +41,7 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttackHead] Trigger Tremor Burst",
+                        "[OnSucceedAttackHead] Trigger [VibrationExplosion]",
                         "[OnSucceedAttack] Deal 15 SP damage"
                     ]
                 ]
@@ -53,7 +53,7 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]",
                         "[OnSucceedAttack] Deal 25 SP damage",
                         "If target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage"
                     ]
@@ -66,7 +66,7 @@
                 "desc": "",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Trigger Tremor Burst",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]",
                         "[OnSucceedAttack] Deal 25 SP damage",
                         "If target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage",
                         "[OnSucceedAttack] Inflict 2 [Sinking]"
@@ -81,6 +81,7 @@
             "desc": "The target of the rightmost skill on the Dashboard loses SP by (2x Gloom A-Reson.) after the attack.\n(Targets without SP values take Gloom damage instead.)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

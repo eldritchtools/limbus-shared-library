@@ -60,28 +60,28 @@
                 {
                     "uptie": 2,
                     "name": "Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] Gain +1 [Vibration] Count<style=\"highlight\">",
-                            "[WinDuelAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +1 [Vibration] Count",
+                            "[WinDuelAttack] Inflict +1 [Vibration] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 6 [Vibration] on target (max 2)",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] Gain +1 [Vibration] Count<style=\"highlight\">",
-                            "[WinDuelAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +1 [Vibration] Count",
+                            "[WinDuelAttack] Inflict +1 [Vibration] Count"
                         ]
                     ]
                 }
@@ -147,11 +147,11 @@
                 {
                     "uptie": 2,
                     "name": "T Corp. Martial Suppression",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +2 [Vibration] Count<style=\"highlight\">",
-                            "<style=\"highlight\">[WinDuelAttack] Inflict +2 [Vibration] Count"
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                            "[WinDuelAttack] Inflict +2 [Vibration] Count"
                         ],
                         []
                     ]
@@ -159,15 +159,15 @@
                 {
                     "uptie": 4,
                     "name": "T Corp. Martial Suppression",
-                    "desc": "<style=\"highlight\">Deal +5% damage for every [Binding] on target (max 15%)\n[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 6 [Vibration] on target (max 2)",
+                    "desc": "Deal +5% damage for every [Binding] on target (max 15%)\n[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +2 [Vibration] Count<style=\"highlight\">",
-                            "[WinDuelAttack] Inflict +<style=\"highlight\">3 [Vibration] Count"
+                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                            "[WinDuelAttack] Inflict +3 [Vibration] Count"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                            "<style=\"highlight\">[OnSucceedAttack] If target has 6+ [Vibration], inflict 1 [Binding] next turn"
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 6+ [Vibration], inflict 1 [Binding] next turn"
                         ]
                     ]
                 }
@@ -227,22 +227,22 @@
                 {
                     "uptie": 4,
                     "name": "Execute Collections",
-                    "desc": "<style=\"highlight\">Deal +5% damage for every [Binding] on target (max 20%)\n[WhenUse] If target has 8+ [Vibration], Clash Power +<style=\"highlight\">2\n[WhenUse] Consume 8 [Vibration] Count on self to gain Coin Power +1",
+                    "desc": "Deal +5% damage for every [Binding] on target (max 20%)\n[WhenUse] If target has 8+ [Vibration], Clash Power +2\n[WhenUse] Consume 8 [Vibration] Count on self to gain Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +<style=\"highlight\">3 [Vibration] Count"
+                            "[OnSucceedAttack] Inflict +3 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] If this unit consumed [Vibration] Count with Skill use, inflict 2 [Binding] next turn",
-                            "[OnSucceedAttack] If this unit is in a [TimeRentalTwoPersonality] state, inflict 2 [TimeSuspend]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] If this unit consumed [Vibration] Count with Skill use, inflict 2 [Binding] next turn",
+                            "[OnSucceedAttack] If this unit is in a [TimeRentalTwoPersonality] state, inflict 2 [TimeSuspend]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -287,7 +287,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 3 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict 2 [Vibration] on target next turn (<style=\"highlight\">6 times per turn)"
+                            "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 3 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict 2 [Vibration] on target next turn (6 times per turn)"
                         ]
                     ]
                 }
@@ -337,5 +337,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -281,7 +281,7 @@
     "passiveData": {
         "1080601": {
             "name": "Intense Blaze",
-            "desc": "Deal +10% Blunt damage for every 3 Burn Count on target. (Max 30%)",
+            "desc": "Deal +10% Blunt damage for every 3 [Combustion] Count on target. (Max 30%)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -294,7 +294,7 @@
         },
         "1080621": {
             "name": "Intense Blaze",
-            "desc": "1 ally with the slowest Speed deals +5% Blunt damage for every 3 Burn Count on target. (Max 15%)",
+            "desc": "1 ally with the slowest Speed deals +5% Blunt damage for every 3 [Combustion] Count on target. (Max 15%)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -305,5 +305,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

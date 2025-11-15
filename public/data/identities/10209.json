@@ -41,7 +41,7 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttackHead] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttackHead] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
@@ -52,18 +52,18 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Confiscation",
-                    "desc": "[WhenUse] If target has 6+ [[Sinking]], Coin Power +1",
+                    "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +1",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 }
@@ -115,29 +115,29 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttackHead] Inflict +2 [[Sinking]] Count"
+                            "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "Interloper Reception",
-                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Clash Power +1",
+                    "desc": "[WhenUse] If target has 5+ [Sinking], Clash Power +1",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +2 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +2 [Sinking] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Interloper Reception",
-                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Clash Power +1\n[WhenUse] If target has 3+ [[Sinking]] Count, Coin Power +1",
+                    "desc": "[WhenUse] If target has 5+ [Sinking], Clash Power +1\n[WhenUse] If target has 3+ [Sinking] Count, Coin Power +1",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                         ]
                     ]
                 }
@@ -173,29 +173,29 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                         ],
                         [],
                         [],
                         [
                             "[OnSucceedAttack] Inflict 2 [EchoOfMansion] next turn",
-                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict +3 [Sinking] Count"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Reception Arts 4: Heartseal",
-                    "desc": "[WhenUse] If target has 5+ [[Sinking]] Count, Coin Power +2",
+                    "desc": "[WhenUse] If target has 5+ [Sinking] Count, Coin Power +2",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
                         ],
                         [],
                         [],
                         [
                             "[OnSucceedAttack] Inflict 2 [EchoOfMansion] next turn",
-                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict +3 [[Sinking]] Count"
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict +3 [Sinking] Count"
                         ]
                     ]
                 }
@@ -226,7 +226,7 @@
                 {
                     "uptie": 1,
                     "name": "Hunting Plans",
-                    "desc": "[WhenUse] If target has 10+ [[Sinking]], Coin Power +3",
+                    "desc": "[WhenUse] If target has 10+ [Sinking], Coin Power +3",
                     "coinDescs": [
                         []
                     ]
@@ -234,7 +234,7 @@
                 {
                     "uptie": 4,
                     "name": "Hunting Plans",
-                    "desc": "[WhenUse] If target has 10+ [[Sinking]], Coin Power +7",
+                    "desc": "[WhenUse] If target has 10+ [Sinking], Coin Power +7",
                     "coinDescs": [
                         []
                     ]
@@ -323,5 +323,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

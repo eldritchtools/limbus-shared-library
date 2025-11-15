@@ -55,28 +55,28 @@
                 {
                     "uptie": 2,
                     "name": "Serpent Glint",
-                    "desc": "<style=\"highlight\">[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">2 [Breath] Count",
+                    "desc": "[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict 1 [Burst]"
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict 1 [Burst]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Serpent Glint",
-                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict <style=\"highlight\">2 [Burst]"
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[CriticalOnSucceedAttack] If this unit has [SnakeStance], inflict 2 [Burst]"
                         ]
                     ]
                 }
@@ -141,33 +141,33 @@
                 {
                     "uptie": 2,
                     "name": "Snake Fang",
-                    "desc": "<style=\"highlight\">[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +<style=\"highlight\">2 [Breath] Count",
+                    "desc": "[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)",
-                            "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\">"
+                            "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)",
+                            "[OnSucceedAttack] Inflict [BurstPoison]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Snake Fang",
-                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict [BurstPoison]<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [SnakeStance]"
+                            "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)",
+                            "[OnSucceedAttack] Inflict [BurstPoison]",
+                            "[CriticalOnSucceedAttack] Gain 1 [SnakeStance]"
                         ]
                     ]
                 }
@@ -218,18 +218,18 @@
                 {
                     "uptie": 4,
                     "name": "Serpent's Mortal Flurry",
-                    "desc": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and the main target's [Burst] Potency) (max 2)\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
+                    "desc": "[WideAreaRampage]\n[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and the main target's [Burst] Potency) (max 2)\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +2 [Breath] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
-                            "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 1<style=\"highlight\">",
-                            "[CriticalOnSucceedAttack] Reuse this Coin once (2 times per Skill)<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 1",
+                            "[CriticalOnSucceedAttack] Reuse this Coin once (2 times per Skill)"
                         ]
                     ]
                 }
@@ -275,10 +275,10 @@
                 {
                     "uptie": 4,
                     "name": "Reversal Kick",
-                    "desc": "[CanDuelGuard]\n[StartBattle] Gain 3 [SnakeStance] next turn\n<style=\"highlight\">[WhenUse] At 10+ [Breath] Count, Coin Power +1",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain 3 [SnakeStance] next turn\n[WhenUse] At 10+ [Breath] Count, Coin Power +1",
                     "coinDescs": [
                         [
-                            "[SuperCoin]<style=\"highlight\">"
+                            "[SuperCoin]"
                         ]
                     ]
                 }
@@ -328,5 +328,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

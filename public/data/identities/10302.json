@@ -183,7 +183,7 @@
                 {
                     "uptie": 3,
                     "name": "Rip Space",
-                    "desc": "[WhenUse] Spend 10 Charge Count to gain +4 Coin Power\nAt less than 10 Charge Count, lose 20% HP",
+                    "desc": "[WhenUse] Spend 10 [Charge] Count to gain +4 Coin Power\nAt less than 10 [Charge] Count, lose 20% HP",
                     "coinDescs": [
                         [
                             ""
@@ -254,7 +254,7 @@
     "passiveData": {
         "1030201": {
             "name": "Quick Recharge",
-            "desc": "At the start of the combat phase, gain Charge Count by (Gloom Reson. / 3).",
+            "desc": "At the start of the combat phase, gain [Charge] Count by (Gloom Reson. / 3).",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -278,5 +278,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

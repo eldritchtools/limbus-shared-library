@@ -76,7 +76,7 @@
                 {
                     "uptie": 4,
                     "name": "Moonlit Blade Dance",
-                    "desc": "<style=\"highlight\">At 5+ [Breath], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "At 5+ [Breath], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [],
                         [
@@ -156,14 +156,14 @@
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\">"
+                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Acupuncture",
-                    "desc": "<style=\"highlight\">At 7+ [Breath], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "At 7+ [Breath], Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +2 [Breath] Count",
@@ -171,7 +171,7 @@
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\">"
+                            "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]"
                         ]
                     ]
                 }
@@ -220,7 +220,7 @@
                 {
                     "uptie": 4,
                     "name": "Red Plum Blossoms Scatter",
-                    "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n<style=\"highlight\">Coin Power +1 for every 7 [Breath] on self (Max 3)\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)\n<style=\"highlight\">This Skill does not consume [RedApricotBlossom] On Crit",
+                    "desc": "Deal +3% damage for every [RedApricotBlossom] on target\nCoin Power +1 for every 7 [Breath] on self (Max 3)\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)\nThis Skill does not consume [RedApricotBlossom] On Crit",
                     "coinDescs": [
                         [
                             "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
@@ -341,5 +341,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

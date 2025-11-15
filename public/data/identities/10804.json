@@ -112,10 +112,10 @@
                             "[OnSucceedAttackHead] Inflict 1 [Reduction]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 [Vibration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Vibration]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 [Vibration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Vibration]"
                         ]
                     ]
                 },
@@ -128,10 +128,10 @@
                             "[OnSucceedAttack] Inflict 1 [Reduction]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 8 [Vibration]; Inflict +2 [Vibration] Count"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 8 [Vibration]; Inflict +2 [Vibration] Count"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 8 [Vibration]; Inflict +2 [Vibration] Count"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 8 [Vibration]; Inflict +2 [Vibration] Count"
                         ]
                     ]
                 }
@@ -167,16 +167,16 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 5 [Vulnerable]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 5 [Vulnerable]"
                         ]
                     ]
                 },
@@ -186,16 +186,16 @@
                     "desc": "If target has 5+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 4 [Burst]; Inflict +2 [Burst] Count"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 5 [Vulnerable]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 5 [Vulnerable]"
                         ]
                     ]
                 }
@@ -265,7 +265,7 @@
     "passiveData": {
         "1080401": {
             "name": "Eye for Weakness",
-            "desc": "Attacks inflict 1 Tremor in a won clash.",
+            "desc": "Attacks inflict 1 [Vibration] in a won clash.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -289,5 +289,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

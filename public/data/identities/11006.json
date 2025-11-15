@@ -202,7 +202,7 @@
                             "[OnSucceedAttack] Spend 5 [Talisman] on self; Give 5 [Talisman]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has [[Talisman]], inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] If target has [Talisman], inflict +1 [Burst] Count"
                         ]
                     ]
                 },
@@ -215,7 +215,7 @@
                             "[OnSucceedAttack] Spend 5 [Talisman] on self; Give 5 [Talisman]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has [[Talisman]], inflict +3 [Burst] Count"
+                            "[OnSucceedAttack] If target has [Talisman], inflict +3 [Burst] Count"
                         ]
                     ]
                 }
@@ -277,7 +277,7 @@
     "passiveData": {
         "1100601": {
             "name": "Unfixing Talismans",
-            "desc": "On hit, if the target had [Burst], gain 1 Talisman.",
+            "desc": "On hit, if the target had [Burst], gain 1 [Talisman].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -290,7 +290,7 @@
         },
         "1100621": {
             "name": "Wishing Talisman",
-            "desc": "1 ally with the highest current HP inflicts +1 more Rupture Potency with Attack and Counter Skills",
+            "desc": "1 ally with the highest current HP inflicts +1 more [Burst] Potency with Attack and Counter Skills",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -301,5 +301,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

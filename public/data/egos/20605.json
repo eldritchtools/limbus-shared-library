@@ -53,7 +53,7 @@
                     [
                         "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
                         "[OnSucceedAttackHead] Inflict 2 [ShamrockTakeDamageUp] next turn",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
                     ]
                 ]
             },
@@ -66,7 +66,7 @@
                     [
                         "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
                         "[OnSucceedAttack] Inflict 2 [ShamrockTakeDamageUp] next turn",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
                     ]
                 ]
             }
@@ -75,9 +75,10 @@
     "passiveList": [
         {
             "name": "Green Slime",
-            "desc": "If struck at less than 50% HP, inflict 1 Rupture on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)"
+            "desc": "If struck at less than 50% HP, inflict 1 [Burst] on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

@@ -64,7 +64,7 @@
                 {
                     "uptie": 4,
                     "name": "Baile y Rola",
-                    "desc": "If target has 4+ [[Sinking]], Coin Power +1",
+                    "desc": "If target has 4+ [Sinking], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 4 [Sinking]"
@@ -153,7 +153,7 @@
                 {
                     "uptie": 4,
                     "name": "Danza de Pasi\u00f3n",
-                    "desc": "If target has 6+ [[Sinking]], Coin Power +2",
+                    "desc": "If target has 6+ [Sinking], Coin Power +2",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]",
@@ -301,5 +301,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

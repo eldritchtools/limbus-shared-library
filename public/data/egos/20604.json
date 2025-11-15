@@ -80,6 +80,7 @@
             "desc": "When an enemy is defeated, the ally with the least SP heals 1 SP.\nWhenever an enemy is defeated, the amount of SP healed increases by 2. (Max 9)\nThe amount is reset at the start of a new wave."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

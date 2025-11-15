@@ -145,7 +145,7 @@
                             "[OnSucceedAttackTail] Inflict 3 [Burst]"
                         ],
                         [
-                            "Spend 5 Sinking to deal +20% damage",
+                            "Spend 5 [Sinking] to deal +20% damage",
                             "[OnSucceedAttackTail] Trigger Tremor Burst"
                         ]
                     ]
@@ -163,7 +163,7 @@
                             "[OnSucceedAttackTail] Inflict 3 [Burst]"
                         ],
                         [
-                            "Spend 5 Sinking to deal +20% damage",
+                            "Spend 5 [Sinking] to deal +20% damage",
                             "[OnSucceedAttackTail] Trigger Tremor Burst"
                         ]
                     ]
@@ -292,7 +292,7 @@
         },
         "1070501": {
             "name": "Rain of Tears",
-            "desc": "At the start of the combat phase, spend 1 Sinking Count and lose SP by the current amount of Sinking.\nBefore being hit by an attack, gain Protection equal to this unit's Sinking. (Up to 5 Protection can be gained per turn)\nWhen hit, gain 1 Blunt DMG Up next turn. (3 per turn)",
+            "desc": "At the start of the combat phase, spend 1 [Sinking] Count and lose SP by the current amount of [Sinking].\nBefore being hit by an attack, gain Protection equal to this unit's [Sinking]. (Up to 5 Protection can be gained per turn)\nWhen hit, gain 1 Blunt DMG Up next turn. (3 per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -303,5 +303,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

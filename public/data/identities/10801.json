@@ -152,7 +152,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger Tremor Burst; Inflict 1 [HitTakeDamageUp]"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; Inflict 1 [HitTakeDamageUp]"
                         ]
                     ]
                 }
@@ -234,5 +234,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

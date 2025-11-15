@@ -260,7 +260,7 @@
     "passiveData": {
         "1050401": {
             "name": "Obsessive Hammer",
-            "desc": "When below 50% HP, remove 1 negative status effect and gain 1 Fanatic, 1 Attack Power Up, and 3 Protection at the start of the combat phase.",
+            "desc": "When below 50% HP, remove 1 negative status effect and gain 1 Fanatic, 1 Attack Power Up, and 3 [Protection] at the start of the combat phase.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -273,7 +273,7 @@
         },
         "1050421": {
             "name": "Highest Honor",
-            "desc": "Apply 1 Attack Power Up and 1 Protection to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "desc": "Apply 1 Attack Power Up and 1 [Protection] to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -284,5 +284,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

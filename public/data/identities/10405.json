@@ -324,7 +324,7 @@
     "passiveData": {
         "1040521": {
             "name": "Dimensional Refraction Edge - Type: Blade Mk7",
-            "desc": "When an ally with the lowest Max HP defeats an enemy, they gain +2 Charge Count (Once per turn)",
+            "desc": "When an ally with the lowest Max HP defeats an enemy, they gain +2 [Charge] Count (Once per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -337,7 +337,7 @@
         },
         "1040531": {
             "name": "Dimensional Refraction Edge - Type: Blade Mk7",
-            "desc": "When an ally with the lowest Max HP defeats an enemy, they gain +3 Charge Count (Once per turn)",
+            "desc": "When an ally with the lowest Max HP defeats an enemy, they gain +3 [Charge] Count (Once per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -350,7 +350,7 @@
         },
         "1040501": {
             "name": "Dimensional Demon Edge",
-            "desc": "Upon defeating an enemy, gain +2 Charge Count (3 times per turn)",
+            "desc": "Upon defeating an enemy, gain +2 [Charge] Count (3 times per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -363,7 +363,7 @@
         },
         "1040511": {
             "name": "Dimensional Demon Edge",
-            "desc": "Upon defeating an enemy, gain +3 Charge Count (3 times per turn)",
+            "desc": "Upon defeating an enemy, gain +3 [Charge] Count (3 times per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -374,5 +374,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

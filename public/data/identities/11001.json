@@ -215,7 +215,7 @@
     "passiveData": {
         "1100121": {
             "name": "Grudge",
-            "desc": "1 ally with the least SP gains 1 Attack Power Up the turn after an ally is defeated.",
+            "desc": "1 ally with the least SP gains 1 [Enhancement] the turn after an ally is defeated.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -228,7 +228,7 @@
         },
         "1100101": {
             "name": "Pluckiness",
-            "desc": "When an ally is defeated, gain 1 Attack Power Up next turn.",
+            "desc": "When an ally is defeated, gain 1 [Enhancement] next turn.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -239,5 +239,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

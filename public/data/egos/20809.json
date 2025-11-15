@@ -37,7 +37,7 @@
                 "desc": "[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 5)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -49,10 +49,10 @@
                 "uptie": 3,
                 "name": "Hundred-Footed Death Maggot [\u874d\u86c6\u6bba]",
                 "abName": "Centipede Apostle",
-                "desc": "[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max <style=\"highlight\">8)",
+                "desc": "[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 8)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 1 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 1 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -64,14 +64,14 @@
                 "uptie": 4,
                 "name": "Hundred-Footed Death Maggot [\u874d\u86c6\u6bba]",
                 "abName": "Centipede Apostle",
-                "desc": "[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max <style=\"highlight\">10)",
+                "desc": "[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 10)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">2 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]"
                     ],
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]",
-                        "[OnSucceedAttack] At 4+ Gluttony or Gloom Reson., inflict [CentipedePoison] by Reson. (max <style=\"highlight\">5)"
+                        "[OnSucceedAttack] Inflict 2 [Burst]",
+                        "[OnSucceedAttack] At 4+ Gluttony or Gloom Reson., inflict [CentipedePoison] by Reson. (max 5)"
                     ]
                 ]
             }
@@ -80,9 +80,10 @@
     "passiveList": [
         {
             "name": "Reversal Death by Gu Poison",
-            "desc": "Whenever this unit inflicts [Sinking] Potency, [Sinking] Count, or 'Unique Sinking' using its Attack Skills, gain 1 [AttackUp] next turn (max 2)\n- At 3+ A-Reson., with the same conditionals, gain 1 [AttackUp] next turn instead (max 3)"
+            "desc": "Whenever this unit inflicts [Sinking] Potency, [Sinking] Count, or 'Unique [Sinking]' using its Attack Skills, gain 1 [AttackUp] next turn (max 2)\n- At 3+ A-Reson., with the same conditionals, gain 1 [AttackUp] next turn instead (max 3)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -121,7 +122,7 @@
                 "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 8)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -133,10 +134,10 @@
                 "uptie": 3,
                 "name": "Hundred-Footed Death Maggot [\u874d\u86c6\u6bba]",
                 "abName": "Centipede Apostle",
-                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max <style=\"highlight\">10)",
+                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 10)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -148,14 +149,14 @@
                 "uptie": 4,
                 "name": "Hundred-Footed Death Maggot [\u874d\u86c6\u6bba]",
                 "abName": "Centipede Apostle",
-                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 10<style=\"highlight\">)",
+                "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Inflict [CentipedePoison] equal to the sum of the types of negative effects on self and the main target (max 10)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                        "[OnSucceedAttack] Inflict 2 [Sinking]"
                     ],
                     [
                         "[OnSucceedAttack] Inflict 2 [Burst]",
-                        "[OnSucceedAttack] At 4+ Gluttony or Gloom Reson., inflict [CentipedePoison] by Reson. (max <style=\"highlight\">5)"
+                        "[OnSucceedAttack] At 4+ Gluttony or Gloom Reson., inflict [CentipedePoison] by Reson. (max 5)"
                     ]
                 ]
             }

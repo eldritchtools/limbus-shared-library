@@ -295,7 +295,7 @@
     "passiveData": {
         "1120201": {
             "name": "Ignition",
-            "desc": "The 3rd and subsequent Coins of a skill inflict 1 Burn on hit.",
+            "desc": "The 3rd and subsequent Coins of a skill inflict 1 [Combustion] on hit.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -319,5 +319,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

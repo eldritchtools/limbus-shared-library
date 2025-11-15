@@ -264,7 +264,7 @@
     "passiveData": {
         "1040401": {
             "name": "Rustle Up",
-            "desc": "After defeating an enemy, heal the ally with the least HP for 15 HP. (Once per turn.)\nIf this unit has an Appetite, spend it to boost the healing based on its Count.",
+            "desc": "After defeating an enemy, heal the ally with the least HP for 15 HP. (Once per turn.)\nIf this unit has an [Thirst], spend it to boost the healing based on its Count.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -288,5 +288,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

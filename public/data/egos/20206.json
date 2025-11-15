@@ -60,21 +60,21 @@
                 "uptie": 3,
                 "name": "Everlasting",
                 "abName": "Time Duck",
-                "desc": "If target's Speed is slower than this unit's, deal +(<style=\"highlight\">3.5 x (Speed difference))% damage (max <style=\"highlight\">35%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 5)\n<style=\"highlight\">- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max 5)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "desc": "If target's Speed is slower than this unit's, deal +(3.5 x (Speed difference))% damage (max 35%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 5)\n- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max 5)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count",
+                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]"
                     ],
                     [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ],
                     [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ],
                     [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">",
-                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn"
                     ]
                 ]
             },
@@ -82,22 +82,22 @@
                 "uptie": 4,
                 "name": "Everlasting",
                 "abName": "Time Duck",
-                "desc": "If target's Speed is slower than this unit's, deal +(<style=\"highlight\">5 x (Speed difference))% damage (max <style=\"highlight\">50%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by (<style=\"highlight\">2 x (highest Reson.)) (max <style=\"highlight\">10)\n- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max <style=\"highlight\">10)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                "desc": "If target's Speed is slower than this unit's, deal +(5 x (Speed difference))% damage (max 50%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by (2 x (highest Reson.)) (max 10)\n- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max 10)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">10 [Vibration] and <style=\"highlight\">+10 [Vibration] Count",
-                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\">",
-                        "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                        "[OnSucceedAttack] Inflict 10 [Vibration] and +10 [Vibration] Count",
+                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ],
                     [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ],
                     [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                     ],
                     [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">",
-                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\">"
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn"
                     ]
                 ]
             }
@@ -109,6 +109,7 @@
             "desc": "When this unit uses a Skill to trigger [VibrationExplosion] on an enemy, gain 1 [Agility] next turn. (4 times per turn, including E.G.O Skills)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -157,14 +158,14 @@
                 "uptie": 3,
                 "name": "Everlasting",
                 "abName": "Time Duck",
-                "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(<style=\"highlight\">2 x (Speed difference))% damage (max <style=\"highlight\">16%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 4)\n<style=\"highlight\">- [BeforeAttack] If the highest Reson. was a Sloth A-Reson., inflict +2 [Vibration] Count",
+                "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(2 x (Speed difference))% damage (max 16%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 4)\n- [BeforeAttack] If the highest Reson. was a Sloth A-Reson., inflict +2 [Vibration] Count",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">",
-                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count",
+                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn"
                     ]
                 ]
             },
@@ -172,15 +173,15 @@
                 "uptie": 4,
                 "name": "Everlasting",
                 "abName": "Time Duck",
-                "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(<style=\"highlight\">2.5 x (Speed difference))% damage (max <style=\"highlight\">20%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max <style=\"highlight\">5)\n- [BeforeAttack] If the highest Reson. was a Sloth A-Reson., <style=\"highlight\">inflict [Vibration] Count by [Vibration] Potency inflicted (max 5)",
+                "desc": "[CantIdentify]\nTargets randomly\nIf the main target's Speed is slower than this unit's, deal +(2.5 x (Speed difference))% damage (max 20%)\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by highest Reson. (max 5)\n- [BeforeAttack] If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max 5)",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">5 [Vibration] and <style=\"highlight\">+5 [Vibration] Count",
-                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">",
-                        "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
-                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn<style=\"highlight\">"
+                        "[OnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count",
+                        "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationContinue]",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                        "[OnSucceedAttack] Reduce target's Max Speed by half next turn"
                     ]
                 ]
             }

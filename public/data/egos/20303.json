@@ -74,9 +74,10 @@
     "passiveList": [
         {
             "name": "Haphazard Discharge",
-            "desc": "At the start of the combat phase, a random ally with [Charge] gains +(Envy A-Reson. / 2) Charge Count."
+            "desc": "At the start of the combat phase, a random ally with [Charge] gains +(Envy A-Reson. / 2) [Charge] Count."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

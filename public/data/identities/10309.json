@@ -57,24 +57,24 @@
                 {
                     "uptie": 2,
                     "name": "Let Us Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Let Us Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] Gain Clash Power +1 for every 6 [Vibration] on target (max 2)\n[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Gain Clash Power +1 for every 6 [Vibration] on target (max 2)\n[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn",
                     "coinDescs": [
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Gain +4 [Aggro] to this Skill Slot next turn"
+                            "[OnSucceedAttack] Gain +4 [Aggro] to this Skill Slot next turn"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ]
                     ]
                 }
@@ -143,32 +143,32 @@
                 {
                     "uptie": 2,
                     "name": "T Corp. Accelerated Amputator",
-                    "desc": "[WhenUse] Gain +3 [Vibration] Count\n<style=\"highlight\">[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+                    "desc": "[WhenUse] Gain +3 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Consume up to 3 [Vibration] on target, and gain the same amount of [Vibration] Count on self"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Vibration]"
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] If this Skill's Coin effects consumed [Vibration] on target, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] If this Skill's Coin effects consumed [Vibration] on target, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "T Corp. Accelerated Amputator",
-                    "desc": "[WhenUse] Gain +3 [Vibration] Count\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 6 [Vibration] on target (max 2)",
+                    "desc": "[WhenUse] Gain +3 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Consume up to 3 [Vibration] on target, and gain <style=\"highlight\">double the amount consumed as [Vibration] Count on self\n<style=\"highlight\">Inflict ([Vibration] consumed - 1) [Binding] next turn"
+                            "[OnSucceedAttack] Consume up to 3 [Vibration] on target, and gain double the amount consumed as [Vibration] Count on self\nInflict ([Vibration] consumed - 1) [Binding] next turn"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] If this Skill's Coin effects consumed [Vibration] on target, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                            "[OnSucceedAttack] If this Skill's Coin effects consumed [Vibration] on target, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -225,19 +225,19 @@
                 {
                     "uptie": 4,
                     "name": "I Command Thee, Halt!",
-                    "desc": "[WhenUse] <style=\"highlight\">Clash Power +1 for every 6 [Vibration] on target (max 2)\n<style=\"highlight\">[WhenUse] If target has [Binding], gain Clash Power +1\n[WhenUse] Consume 10 [Vibration] Count on self to gain Coin Power +2",
+                    "desc": "[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)\n[WhenUse] If target has [Binding], gain Clash Power +1\n[WhenUse] Consume 10 [Vibration] Count on self to gain Coin Power +2",
                     "coinDescs": [
                         [],
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 3 [Vibration]"
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 10+ [Vibration], consume 10 [Vibration] on target and inflict 2 [TimeSuspend]\n- If this unit is in a [TimeRentalTwoPersonality] state, this effect does not consume the target's [Vibration]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
-                            "[OnSucceedAttack] If target's Speed is slower than this unit's, trigger [Switch_Vibration] into [VibrationChainPersonality]<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has 10+ [Vibration], consume 10 [Vibration] on target and inflict 2 [TimeSuspend]\n- If this unit is in a [TimeRentalTwoPersonality] state, this effect does not consume the target's [Vibration]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                            "[OnSucceedAttack] If target's Speed is slower than this unit's, trigger [Switch_Vibration] into [VibrationChainPersonality]"
                         ]
                     ]
                 }
@@ -277,7 +277,7 @@
                 {
                     "uptie": 4,
                     "name": "I Shall Summon the Time",
-                    "desc": "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict <style=\"highlight\">3 [Vibration] on target next turn (<style=\"highlight\">6 times per turn)",
+                    "desc": "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 4 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict 3 [Vibration] on target next turn (6 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -328,5 +328,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

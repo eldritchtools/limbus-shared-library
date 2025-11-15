@@ -242,7 +242,7 @@
     "passiveData": {
         "1060201": {
             "name": "H\u0113iy\u00fand\u00e0o",
-            "desc": "The last Coin on the last skill in the chain inflicts 3 Bleed.",
+            "desc": "The last Coin on the last skill in the chain inflicts 3 [Laceration].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -255,7 +255,7 @@
         },
         "1060221": {
             "name": "Syndicate Payback",
-            "desc": "1 ally with the fastest Speed inflicts +1 Bleed.",
+            "desc": "1 ally with the fastest Speed inflicts +1 [Laceration].",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -266,5 +266,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -298,7 +298,7 @@
     "passiveData": {
         "1120601": {
             "name": "Combat Shield",
-            "desc": "If targeted by 2 or more attacks at the start of the combat phase, gain 2 Defense Level Up.\nIf at 50% or less HP at the start of the combat phase, gain 3 Defense Level Up.",
+            "desc": "If targeted by 2 or more attacks at the start of the combat phase, gain 2 [DefenseUp].\nIf at 50% or less HP at the start of the combat phase, gain 3 [DefenseUp].",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -311,7 +311,7 @@
         },
         "1120621": {
             "name": "Your Shield",
-            "desc": "If 1 ally with the highest Max HP is targeted by 2 or more attacks, gain 3 Defense Level Up",
+            "desc": "If 1 ally with the highest Max HP is targeted by 2 or more attacks, gain 3 [DefenseUp]",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -322,5 +322,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

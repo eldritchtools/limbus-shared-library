@@ -261,7 +261,7 @@
     "passiveData": {
         "1090601": {
             "name": "Defensive Breathing",
-            "desc": "At the start of the combat phase, gain 2 Shield per 1 Poise Count. (Max 20)",
+            "desc": "At the start of the combat phase, gain 2 Shield per 1 [Breath] Count. (Max 20)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -274,7 +274,7 @@
         },
         "1090621": {
             "name": "Designated Protection",
-            "desc": "At the start of the combat phase, 1 ally with the lowest HP percentage gains 1 Shield per 1 Poise Count next turn. (Max 10)",
+            "desc": "At the start of the combat phase, 1 ally with the lowest HP percentage gains 1 Shield per 1 [Breath] Count next turn. (Max 10)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -285,5 +285,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

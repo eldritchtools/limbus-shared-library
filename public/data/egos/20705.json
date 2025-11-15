@@ -76,6 +76,7 @@
             "desc": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\n- Inflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n- Gain +1 more Poise and Charge Count with Skill effects or Coin effects"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

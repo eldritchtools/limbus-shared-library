@@ -72,9 +72,10 @@
     "passiveList": [
         {
             "name": "4th Match Flame",
-            "desc": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn with each of its attacks."
+            "desc": "Every 4th skill used gains +4 Final Power and inflicts 4 [Combustion] with each of its attacks."
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

@@ -258,7 +258,7 @@
     "passiveData": {
         "1090401": {
             "name": "Joy of Execution",
-            "desc": "After an enemy is defeated, gain 1 Haste and 1 Damage Up next turn.\nIf this unit defeated an enemy, also gain 1 Fanatic. (Once per turn.)",
+            "desc": "After an enemy is defeated, gain 1 Haste and 1 Damage Up next turn.\nIf this unit defeated an enemy, also gain 1 [AssemblePersonality]. (Once per turn.)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -282,5 +282,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

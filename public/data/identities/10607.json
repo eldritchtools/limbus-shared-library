@@ -300,7 +300,7 @@
     "passiveData": {
         "1060721": {
             "name": "Mass-produced Bionic Gear",
-            "desc": "When 1 ally with the fastest Speed defeats an enemy inflicted with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Bleed</color></link></u>, gain 1 Attack Power Up next turn (Once per turn)",
+            "desc": "When 1 ally with the fastest Speed defeats an enemy inflicted with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, gain 1 Attack Power Up next turn (Once per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -324,5 +324,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

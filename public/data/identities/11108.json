@@ -36,7 +36,7 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
@@ -47,18 +47,18 @@
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Knocking",
-                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Coin Power +1",
+                    "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 }
@@ -97,42 +97,42 @@
                 {
                     "uptie": 1,
                     "name": "Dusting",
-                    "desc": "[WinDuel] Inflict +1 [[Sinking]] Count",
+                    "desc": "[WinDuel] Inflict +1 [Sinking] Count",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 3 [Sinking]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "Dusting",
-                    "desc": "[WinDuel] Inflict +2 [[Sinking]] Count",
+                    "desc": "[WinDuel] Inflict +2 [Sinking] Count",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 3 [Sinking]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Dusting",
-                    "desc": "[WhenUse] If target has 5+ [[Sinking]], Coin Power +1\n[WinDuel] Inflict +2 [[Sinking]] Count",
+                    "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
                     "coinDescs": [
                         [],
                         [
-                            "[OnSucceedAttack] Inflict 3 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 3 [Sinking]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [[Sinking]]"
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
                         ]
                     ]
                 }
@@ -172,28 +172,28 @@
                 {
                     "uptie": 3,
                     "name": "As Mistress Commands",
-                    "desc": "[WinDuel] Inflict +3 [[Sinking]] Count",
+                    "desc": "[WinDuel] Inflict +3 [Sinking] Count",
                     "coinDescs": [
                         [],
                         [],
                         [],
                         [
                             "[OnSucceedAttack] Inflict 3 [EchoOfMansion] next turn",
-                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to half of [[Sinking]] Potency on target (max 20)"
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to half of [Sinking] Potency on target (max 20)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "As Mistress Commands",
-                    "desc": "[WhenUse] If target has 7+ [[Sinking]], Coin Power +1\n[WinDuel] Inflict +3 [[Sinking]] Count",
+                    "desc": "[WhenUse] If target has 7+ [Sinking], Coin Power +1\n[WinDuel] Inflict +3 [Sinking] Count",
                     "coinDescs": [
                         [],
                         [],
                         [],
                         [
                             "[OnSucceedAttack] Inflict 3 [EchoOfMansion] next turn",
-                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to [[Sinking]] Potency on target (max 30)"
+                            "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to [Sinking] Potency on target (max 30)"
                         ]
                     ]
                 }
@@ -225,7 +225,7 @@
                 {
                     "uptie": 1,
                     "name": "Insolent Fool...!",
-                    "desc": "[OnSucceedEvade] Inflict 1 [[Sinking]] (3 times per turn)",
+                    "desc": "[OnSucceedEvade] Inflict 1 [Sinking] (3 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -233,7 +233,7 @@
                 {
                     "uptie": 4,
                     "name": "Insolent Fool...!",
-                    "desc": "[OnSucceedEvade] Inflict 1 [[Sinking]] (6 times per turn)",
+                    "desc": "[OnSucceedEvade] Inflict 1 [Sinking] (6 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -303,5 +303,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

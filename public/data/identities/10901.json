@@ -263,7 +263,7 @@
         },
         "1090101": {
             "name": "Split Evil",
-            "desc": "On hit, inflict 1 Bleed at a 50% chance.",
+            "desc": "On hit, inflict 1 [Laceration] at a 50% chance.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -274,5 +274,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

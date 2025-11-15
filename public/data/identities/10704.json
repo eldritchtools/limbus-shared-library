@@ -260,7 +260,7 @@
         },
         "1070421": {
             "name": "Cantillation",
-            "desc": "1 ally with the fastest Speed inflicts +1 Nails.",
+            "desc": "1 ally with the fastest Speed inflicts +1 [NailPersonality].",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -271,5 +271,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

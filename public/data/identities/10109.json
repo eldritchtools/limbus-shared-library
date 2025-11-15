@@ -329,7 +329,7 @@
         },
         "1010931": {
             "name": "Practices on Aesthetics",
-            "desc": "1 ally with the least SP heals 2 SP On Hit for every type of negative effect on the target. (max 6)\n<style=\"highlight\">If the target has [Laceration], heal 3 additional SP.</style>\n(This Passive activates 2 times max per turn)",
+            "desc": "1 ally with the least SP heals 2 SP On Hit for every type of negative effect on the target. (max 6)\nIf the target has [Laceration], heal 3 additional SP.\n(This Passive activates 2 times max per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -359,7 +359,7 @@
         },
         "1010911": {
             "name": "Assignment Evaluation",
-            "desc": "On Hit, if the target has <style=\"highlight\">4</style>+ [Laceration], heal 2 SP.\nHeal 1 additional SP for every type of negative effect on the target. (max 3)\nIf this unit's SP is at max, gain <style=\"highlight\">2</style> [AttackUp] next turn when this unit heals SP with this effect.\n(This Passive activates 4 times max per turn)",
+            "desc": "On Hit, if the target has 4+ [Laceration], heal 2 SP.\nHeal 1 additional SP for every type of negative effect on the target. (max 3)\nIf this unit's SP is at max, gain 2 [AttackUp] next turn when this unit heals SP with this effect.\n(This Passive activates 4 times max per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -370,5 +370,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "Generally self-sufficient with his 3+ types of negative effects conditionals. Very powerful S2.",
+        "full": "Every negative status counts as another \"type of negative effect\", and he only needs 3 for most of his conditionals. 5 to max out his S3's damage. Most teams should be able to maintain this easily."
     }
 }

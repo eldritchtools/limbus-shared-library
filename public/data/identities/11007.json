@@ -196,7 +196,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 6 [Vibration] and trigger [Vibration] Burst on self\nDeal Blunt damage equal to [Vibration] Burst damage"
+                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 6 [Vibration] and trigger [VibrationExplosion] on self\nDeal Blunt damage equal to [VibrationExplosion] damage"
                         ]
                     ]
                 },
@@ -206,7 +206,7 @@
                     "desc": "Coin Power +1 for every 10 [Vibration] Count on self (Max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 10 [Vibration] and trigger [Vibration] Burst on self\nDeal Blunt damage equal to [Vibration] Burst damage"
+                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 10 [Vibration] and trigger [VibrationExplosion] on self\nDeal Blunt damage equal to [VibrationExplosion] damage"
                         ]
                     ]
                 }
@@ -270,7 +270,7 @@
     "passiveData": {
         "1100721": {
             "name": "Modified Power Output",
-            "desc": "1 ally with the most Max HP inflicts +1 Tremor with the effects of their attack skills/coins.",
+            "desc": "1 ally with the most Max HP inflicts +1 [Vibration] with the effects of their attack skills/coins.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -283,7 +283,7 @@
         },
         "1100701": {
             "name": "Unstable Power Output",
-            "desc": "On hit with Heads Coins at 10+ Tremor Count on self, Inflict +1 Tremor and Tremor Count with Coin effects.",
+            "desc": "On hit with Heads Coins at 10+ [Vibration] Count on self, Inflict +1 [Vibration] and [Vibration] Count with Coin effects.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -294,5 +294,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -63,7 +63,7 @@
                 {
                     "uptie": 4,
                     "name": "Deduction Start",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">At 6+ [Vibration] Count, Coin Power +1",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\nAt 6+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]"
@@ -136,32 +136,32 @@
                 {
                     "uptie": 2,
                     "name": "Morph Cane Technique",
-                    "desc": "<style=\"highlight\">[WhenUse] If target has 8+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Vibration] Count\n<style=\"highlight\">At 6+ [Vibration] Count, Coin Power +1",
+                    "desc": "[WhenUse] If target has 8+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Vibration] Count\nAt 6+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +3 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Vibration]"
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has <style=\"highlight\">7+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] If target has 7+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Morph Cane Technique",
-                    "desc": "[WhenUse] If target has <style=\"highlight\">6+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Vibration] Count\nAt <style=\"highlight\">5+ [Vibration] Count, Coin Power +1",
+                    "desc": "[WhenUse] If target has 6+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Vibration] Count\nAt 5+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +3 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has <style=\"highlight\">6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -218,7 +218,7 @@
                 {
                     "uptie": 4,
                     "name": "You're the Culprit!",
-                    "desc": "[WhenUse] Clash Power +1 for every <style=\"highlight\">6 [Vibration] on target <style=\"highlight\">(max 2)\n[WhenUse] At <style=\"highlight\"> less than 15 [Vibration] Count on self, consume 10 [Vibration] Count to gain Coin Power +2\n<style=\"highlight\">[WhenUse] Consume 15 [Vibration] Count on self to gain Coin Power +3",
+                    "desc": "[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)\n[WhenUse] At  less than 15 [Vibration] Count on self, consume 10 [Vibration] Count to gain Coin Power +2\n[WhenUse] Consume 15 [Vibration] Count on self to gain Coin Power +3",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] If this Skill consumed [Vibration] Count on use, trigger [FusionVibration] into [VibrationEcho]"
@@ -227,10 +227,10 @@
                             "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- If this unit consumed less than 15 [Vibration] Count, trigger [VibrationExplosion] on self after activating the above effect"
+                            "[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- If this unit consumed less than 15 [Vibration] Count, trigger [VibrationExplosion] on self after activating the above effect"
                         ]
                     ]
                 }
@@ -269,7 +269,7 @@
                 {
                     "uptie": 4,
                     "name": "Wait?!",
-                    "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max <style=\"highlight\">13)",
+                    "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max 13)",
                     "coinDescs": [
                         []
                     ]
@@ -296,7 +296,7 @@
     "passiveData": {
         "1060921": {
             "name": "In the Culprit's Shoes",
-            "desc": "When #1 Deployed Identity triggers Tremor Burst with Skill or Coin effects, 25% chance to trigger an additional Tremor Burst (once per turn)",
+            "desc": "When #1 Deployed Identity triggers [VibrationExplosion] with Skill or Coin effects, 25% chance to trigger an additional [VibrationExplosion] (once per turn)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -320,5 +320,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

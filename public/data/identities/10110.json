@@ -47,7 +47,7 @@
                 {
                     "uptie": 2,
                     "name": "Celebration for the Departed",
-                    "desc": "If the sum of the target's [[Sinking]] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [[Sinking]] Count",
+                    "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
                     "coinDescs": [
                         [
                             "Consume 1 of [BulletLament]",
@@ -62,7 +62,7 @@
                 {
                     "uptie": 4,
                     "name": "Celebration for the Departed",
-                    "desc": "<style=\"highlight\">At 10+ [BulletLament], Clash Power +1\nIf the sum of the target's [[Sinking]] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [[Sinking]] Count",
+                    "desc": "At 10+ [BulletLament], Clash Power +1\nIf the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
                     "coinDescs": [
                         [
                             "Consume 1 of [BulletLament]",
@@ -127,7 +127,7 @@
                 {
                     "uptie": 2,
                     "name": "Solemn Lament for the Living",
-                    "desc": "If the sum of the target's [[Sinking]] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [[Sinking]] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
+                    "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
                     "coinDescs": [
                         [
                             "Consume 5 of [BulletLament]",
@@ -142,7 +142,7 @@
                 {
                     "uptie": 4,
                     "name": "Solemn Lament for the Living",
-                    "desc": "At 10+ [BulletLament], Clash Power +1\n<style=\"highlight\">Coin Power +1 for every 6 value of the sum of the target's [[Sinking]] and both [SinkingWhite] <style=\"highlight\">(max 2)\n[WinDuel] Inflict +1 [[Sinking]] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n- If the said Reson. was at 4+ A-Reson., [ReloadLament] instead",
+                    "desc": "At 10+ [BulletLament], Clash Power +1\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n- If the said Reson. was at 4+ A-Reson., [ReloadLament] instead",
                     "coinDescs": [
                         [
                             "Consume 5 of [BulletLament]",
@@ -190,7 +190,7 @@
                 {
                     "uptie": 3,
                     "name": "Goodbye Now, A Sorrow In You",
-                    "desc": "Base Power +1 for every 10 value of [BulletLament] (max 2)\n[WinDuel] Inflict +3 [[Sinking]] Count\n[EndSkill] [ReloadLament]",
+                    "desc": "Base Power +1 for every 10 value of [BulletLament] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
                     "coinDescs": [
                         [
                             "Consume 1 of [BulletLament]",
@@ -213,7 +213,7 @@
                 {
                     "uptie": 4,
                     "name": "Goodbye Now, A Sorrow In You",
-                    "desc": "Base Power +1 for every <style=\"highlight\">5 value of [BulletLament] <style=\"highlight\">(max 4)\nCoin Power +1 for every 6 value of the sum of the target's [[Sinking]] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +3 [[Sinking]] Count\n[EndSkill] [ReloadLament]",
+                    "desc": "Base Power +1 for every 5 value of [BulletLament] (max 4)\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +3 [Sinking] Count\n[EndSkill] [ReloadLament]",
                     "coinDescs": [
                         [
                             "Consume 1 of [BulletLament]",
@@ -354,5 +354,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "Applies {status:SinkingWhite} on targets causing hits to heal the attacker's SP or deal bonus {keyword:Gloom} damage based on ammo spent. Cancels skills early if out of ammo. Only use S3 at 8+ total {status:BulletLament}.",
+        "full": "{status:BulletLament} is a special type of ammo that has 2 types corresponding to the Potency and Count. Each ammo use randomly chooses between the two types and applies the corresponding {status:SinkingWhite} on the target. The Potency version makes attackers heal SP when hitting the target, and the Count version makes the target take additional {keyword:Gloom} damage based on the {status:Sinking} Potency on it. Every turn end, the Count version of {status:SinkingWhite} expires, and the Potency version gets converted to Count.\nHe'll cancel skills early if he runs out of {status:BulletLament}, but will automatically {status:ReloadLament} after that. You can also force {status:ReloadLament} with S3 or S2 at 4+ A-Reson. or partially regain some with lower Resons on S2. Triggering {status:ReloadLament} will consume SP depending on how much he had remaining. At negative SP he has a higher chance of gaining the Potency version (heal SP), otherwise he has a higher chance of gaining the Count version (bonus damage)."
     }
 }

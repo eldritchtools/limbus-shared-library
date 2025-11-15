@@ -54,10 +54,10 @@
                 {
                     "uptie": 2,
                     "name": "Adherence to Propriety.",
-                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Vibration]"
@@ -67,10 +67,10 @@
                 {
                     "uptie": 4,
                     "name": "Adherence to Propriety.",
-                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n<style=\"highlight\">[WhenUse] If target has 'Unique [Vibration]' as [Vibration], Clash Power +1",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] If target has 'Unique [Vibration]' as [Vibration], Clash Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Vibration]"
@@ -139,30 +139,30 @@
                 {
                     "uptie": 2,
                     "name": "Respect the Thumb.",
-                    "desc": "<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Vibration]",
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict +1 [Combustion] Count",
-                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict +1 [Combustion] Count",
+                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Respect the Thumb.",
-                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n<style=\"highlight\">[WhenUse] Deal +10% damage for every 4 (sum of [Combustion] and [Vibration] on target) (max 30%)\n[WhenUse] If target has 10+ 'Unique [Vibration]', Base Power +2",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] Deal +10% damage for every 4 (sum of [Combustion] and [Vibration] on target) (max 30%)\n[WhenUse] If target has 10+ 'Unique [Vibration]', Base Power +2",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 2 [Vibration]",
+                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict <style=\"highlight\">+2 [Combustion] Count",
-                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\">"
+                            "[OnSucceedAttack] If target has 10+ [VibrationIgnition], inflict +2 [Combustion] Count",
+                            "[OnSucceedAttack] If target has 6+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -229,29 +229,29 @@
                 {
                     "uptie": 4,
                     "name": "Thruster Compression",
-                    "desc": "[WhenUse] Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] At 3+ [FireBulletPropellant], <style=\"highlight\">Base Power +3, deal +30% damage, and convert the Coins to [SuperCoin]s",
+                    "desc": "[WhenUse] Coin Power +1 for every 8 (sum of [Combustion] and [Vibration] on target) (max 2)\n[WhenUse] At 3+ [FireBulletPropellant], Base Power +3, deal +30% damage, and convert the Coins to [SuperCoin]s",
                     "coinDescs": [
                         [
                             "Spend 1 [FireBulletPropellant]",
-                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25% damage",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +25% damage",
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">+3 [Combustion] Count",
+                            "[OnSucceedAttack] Inflict +3 [Combustion] Count",
                             "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
                         ],
                         [
                             "Spend 1 [FireBulletPropellant]",
-                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25% damage",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +25% damage",
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
                             "[OnSucceedAttack] Inflict 3 [Combustion]"
                         ],
                         [
                             "Spend 1 [FireBulletPropellant]",
-                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal <style=\"highlight\">+25% damage",
+                            "If this unit spent [FireBulletPropellant] due to this Coin's effect, deal +25% damage",
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count",
                             "[OnSucceedAttack] Inflict 4 [Combustion]",
                             "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
                             "[OnSucceedAttack] If this unit spent [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1",
-                            "<style=\"highlight\">[OnSucceedAttack] If this Skill spent 3 [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                            "[OnSucceedAttack] If this Skill spent 3 [FireBulletPropellant], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -290,7 +290,7 @@
                 {
                     "uptie": 4,
                     "name": "Ferrous Guard",
-                    "desc": "Inflict <style=\"highlight\">2 [Vibration] against the Attacker when hit as long as this unit has remaining Shield (<style=\"highlight\">4 times per turn)",
+                    "desc": "Inflict 2 [Vibration] against the Attacker when hit as long as this unit has remaining Shield (4 times per turn)",
                     "coinDescs": [
                         []
                     ]
@@ -362,7 +362,7 @@
         },
         "1101311": {
             "name": "Ammunition Tribute",
-            "desc": "When the 1 ally Identity with the earliest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. <style=\"highlight\">(can spend up to 5 ammunition)</style> (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
+            "desc": "When the 1 ally Identity with the earliest Deployment order among those using [Bullet] finishes their attack, if their current [Bullet] count is fewer than half (rounded up), spend [FireBulletPropellant] on self equal to the total [Bullet] count the affected unit spent and supply them with the same amount of [Bullet] as [FireBulletPropellant] this unit just spent. (can spend up to 5 ammunition) (once per Encounter)\n\n- If the [Bullet] receiving Identity is a Thumb Identity of a higher rank, supply 1 additional [Bullet] they use\n- If the [Bullet] receiving Identity has separate values for Potency and Count, they will be supplied at random.\n- If either Potency or Count is maxed out, supply whichever is not maxed.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -373,5 +373,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

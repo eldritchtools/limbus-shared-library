@@ -55,7 +55,7 @@
                 {
                     "uptie": 4,
                     "name": "Order",
-                    "desc": "If target has 5+ [[Sinking]], Coin Power +2",
+                    "desc": "If target has 5+ [Sinking], Coin Power +2",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Apply 2 [Protection] to the ally with the slowest Speed"
@@ -235,7 +235,7 @@
     "passiveData": {
         "1110321": {
             "name": "Valor",
-            "desc": "1 ally with the most HP randomly gains 1 Attack Power Up, 1 Defense Power Up, or 1 Protection at the start of the combat phase.",
+            "desc": "1 ally with the most HP randomly gains 1 [Enhancement], 1 Defense Power Up, or 1 [Protection] at the start of the combat phase.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -259,5 +259,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

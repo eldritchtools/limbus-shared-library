@@ -59,7 +59,7 @@
                 {
                     "uptie": 4,
                     "name": "Bat Strike",
-                    "desc": "If target has 5+ [Burst], Coin Power +<style=\"highlight\">2",
+                    "desc": "If target has 5+ [Burst], Coin Power +2",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Burst]"
@@ -134,7 +134,7 @@
                 {
                     "uptie": 4,
                     "name": "Smackdown",
-                    "desc": "<style=\"highlight\">[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
+                    "desc": "[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
                     "coinDescs": [
                         [],
                         [
@@ -186,7 +186,7 @@
                 {
                     "uptie": 4,
                     "name": "Relentless",
-                    "desc": "<style=\"highlight\">[WhenUse] If target has 3+ [Burst], Clash Power +1\n[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+                    "desc": "[WhenUse] If target has 3+ [Burst], Clash Power +1\n[WhenUse] If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
                     "coinDescs": [
                         [],
                         [],
@@ -321,5 +321,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

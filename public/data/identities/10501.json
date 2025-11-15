@@ -115,7 +115,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger Tremor Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ]
                     ]
                 },
@@ -125,7 +125,7 @@
                     "desc": "[WhenUse] Gain 3 [Endurance] next turn",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger Tremor Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ]
                     ]
                 }
@@ -263,7 +263,7 @@
         },
         "1050101": {
             "name": "Staunchness",
-            "desc": "At less than 50% HP, gain 1 Protection at the start of the combat phase.",
+            "desc": "At less than 50% HP, gain 1 [Protection] at the start of the combat phase.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -274,5 +274,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

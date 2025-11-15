@@ -71,9 +71,10 @@
     "passiveList": [
         {
             "name": "Alternating Discharge",
-            "desc": "On hit with a Heads coin, spend 2 Charge Count to give +1 Charge Count to the Charge-possessing ally with the lowest Charge Count"
+            "desc": "On hit with a Heads coin, spend 2 [Charge] Count to give +1 [Charge] Count to the [Charge]-possessing ally with the lowest [Charge] Count"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",

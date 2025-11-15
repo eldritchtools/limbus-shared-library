@@ -278,7 +278,7 @@
     "passiveData": {
         "1050201": {
             "name": "Great Mountain",
-            "desc": "When attacked, inflict 1 Burn on a random enemy.\n(Up to 4 times)",
+            "desc": "When attacked, inflict 1 [Combustion] on a random enemy.\n(Up to 4 times)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -291,7 +291,7 @@
         },
         "1050221": {
             "name": "Friction Point",
-            "desc": "1 ally with the slowest Speed inflicts +1 Burn.",
+            "desc": "1 ally with the slowest Speed inflicts +1 [Combustion].",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -302,5 +302,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -55,10 +55,10 @@
                 {
                     "uptie": 2,
                     "name": "Got a Screw Loose?",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] At 5+ [Vibration] Count, Clash Power +2",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At 5+ [Vibration] Count, Clash Power +2",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain [Vibration] Count equal to (([Vibration] Count on target)/2) (max <style=\"highlight\">3)"
+                            "[OnSucceedAttack] Gain [Vibration] Count equal to (([Vibration] Count on target)/2) (max 3)"
                         ],
                         [
                             "[OnSucceedAttack] Inflict +1 [Vibration] Count"
@@ -68,13 +68,13 @@
                 {
                     "uptie": 4,
                     "name": "Got a Screw Loose?",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At <style=\"highlight\">4+ [Vibration] Count, Clash Power +2",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At 4+ [Vibration] Count, Clash Power +2",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain [Vibration] Count equal to ([Vibration] Count on target) (max <style=\"highlight\">4)"
+                            "[OnSucceedAttack] Gain [Vibration] Count equal to ([Vibration] Count on target) (max 4)"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +<style=\"highlight\">2 [Vibration] Count"
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
                         ]
                     ]
                 }
@@ -133,7 +133,7 @@
                 {
                     "uptie": 2,
                     "name": "Compression Wind-up Spanner",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">At 5+ [Vibration] Count, Coin Power +1",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\nAt 5+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [],
                         [
@@ -147,7 +147,7 @@
                 {
                     "uptie": 4,
                     "name": "Compression Wind-up Spanner",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">[WhenUse] At 4+ [Vibration] Count, Clash Power +1\nAt <style=\"highlight\">4+ [Vibration] Count, Coin Power +1",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] At 4+ [Vibration] Count, Clash Power +1\nAt 4+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [],
                         [
@@ -208,7 +208,7 @@
                 {
                     "uptie": 4,
                     "name": "Percussive Maintenance",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\nConsume <style=\"highlight\">8 [Vibration] Count on self to gain Coin Power +1\n<style=\"highlight\">If target has 6+ [Vibration], Coin Power +1",
+                    "desc": "[WhenUse] Gain +2 [Vibration] Count\nConsume 8 [Vibration] Count on self to gain Coin Power +1\nIf target has 6+ [Vibration], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 2 [Vibration]"
@@ -217,7 +217,7 @@
                             "[OnSucceedAttack] Inflict 2 [Vibration]"
                         ],
                         [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by <style=\"highlight\">1"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
                         ]
                     ]
                 }
@@ -256,7 +256,7 @@
                 {
                     "uptie": 4,
                     "name": "Guard",
-                    "desc": "[WhenUse] Gain 2 x ([Vibration] Count on self) as Shield HP (max <style=\"highlight\">10)",
+                    "desc": "[WhenUse] Gain 2 x ([Vibration] Count on self) as Shield HP (max 10)",
                     "coinDescs": [
                         []
                     ]
@@ -283,7 +283,7 @@
     "passiveData": {
         "1040921": {
             "name": "The A.I.",
-            "desc": "#1 Deployed ally gains +1 more Tremor Count from their Skill or Coin effects (2 times per turn)",
+            "desc": "#1 Deployed ally gains +1 more [Vibration] Count from their Skill or Coin effects (2 times per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -307,5 +307,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

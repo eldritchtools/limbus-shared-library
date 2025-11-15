@@ -202,7 +202,7 @@
                 {
                     "uptie": 4,
                     "name": "Magic Bullet Fire",
-                    "desc": "<style=\"highlight\">Deal +1% damage for every [Combustion] on target (Max 30%)\n\n[BeforeAttack] Gain 1 [FreischutzShotCount]\n- Lose (([FreischutzShotCount] -1)x5) SP\n- Atk Weight becomes equal to [FreischutzShotCount] value\n- At 10 or less SP, 50% chance to attack indiscriminately\n\n[EndSkill] If at 7 [FreischutzShotCount], reset to 0 (Counts as spending the last Ammo)",
+                    "desc": "Deal +1% damage for every [Combustion] on target (Max 30%)\n\n[BeforeAttack] Gain 1 [FreischutzShotCount]\n- Lose (([FreischutzShotCount] -1)x5) SP\n- Atk Weight becomes equal to [FreischutzShotCount] value\n- At 10 or less SP, 50% chance to attack indiscriminately\n\n[EndSkill] If at 7 [FreischutzShotCount], reset to 0 (Counts as spending the last Ammo)",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict [DarkFlame] equal to [FreischutzShotCount] next turn"
@@ -338,5 +338,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

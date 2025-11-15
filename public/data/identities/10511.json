@@ -171,9 +171,9 @@
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "<style=\"highlight\">If this unit does not inflict [Burst], +5% Damage on Critical Hit for every [Burst] Potency and Count it would have inflicted",
-                            "[OnSucceedAttack] Inflict 4 [Burst]<style=\"highlight\">",
-                            "[OnSucceedAttack] At 7+ Speed, inflict +2 [Burst] Count<style=\"highlight\">"
+                            "If this unit does not inflict [Burst], +5% Damage on Critical Hit for every [Burst] Potency and Count it would have inflicted",
+                            "[OnSucceedAttack] Inflict 4 [Burst]",
+                            "[OnSucceedAttack] At 7+ Speed, inflict +2 [Burst] Count"
                         ]
                     ]
                 }
@@ -228,7 +228,7 @@
                 {
                     "uptie": 4,
                     "name": "Salut",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 3)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not consume [Burst] Count On Hit\n[WinDuel] Gain 5 [Breath]\n- If target has [ConcentratedAttackMeursault], gain 5 additional [Breath]",
+                    "desc": "If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 3)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not consume [Burst] Count On Hit\n[WinDuel] Gain 5 [Breath]\n- If target has [ConcentratedAttackMeursault], gain 5 additional [Breath]",
                     "coinDescs": [
                         [
                             "[WinDuelAttack] The final Coin deals +10% damage"
@@ -237,10 +237,10 @@
                             "[WinDuelAttack] The final Coin deals +10% damage"
                         ],
                         [
-                            "Deal <style=\"highlight\">+20% damage for every [ConcentratedAttackMeursault] on the Slot",
+                            "Deal +20% damage for every [ConcentratedAttackMeursault] on the Slot",
                             "+30% Damage on Critical Hit",
-                            "<style=\"highlight\">- Deal +2% Damage on Critical Hit for every [Burst] on target (max 30%)",
-                            "<style=\"highlight\">[EndSkill] If this Coin defeated the target or destroyed the Part, Reuse this Skill once against a random target (does not activate on Reuse)"
+                            "- Deal +2% Damage on Critical Hit for every [Burst] on target (max 30%)",
+                            "[EndSkill] If this Coin defeated the target or destroyed the Part, Reuse this Skill once against a random target (does not activate on Reuse)"
                         ]
                     ]
                 }
@@ -350,7 +350,7 @@
         },
         "1051111": {
             "name": "Duel Livestream",
-            "desc": "Gain 1 [Agility] next turn for every 3 [Breath] Potency on self at Turn End (max 2)\nOn Hit with base Attack Skills: inflict [ConcentratedAttackMeursault] next turn. (once per Skill)\n<style=\"highlight\">If this unit attacked the Slot with [ConcentratedAttackMeursault] and defeated its owner or broke the Part, heal 7 SP</style>",
+            "desc": "Gain 1 [Agility] next turn for every 3 [Breath] Potency on self at Turn End (max 2)\nOn Hit with base Attack Skills: inflict [ConcentratedAttackMeursault] next turn. (once per Skill)\nIf this unit attacked the Slot with [ConcentratedAttackMeursault] and defeated its owner or broke the Part, heal 7 SP",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -365,5 +365,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -300,7 +300,7 @@
     "passiveData": {
         "1070601": {
             "name": "Instinctive Read",
-            "desc": "When attacking a target with a damage type the target is \"Fatal\" (Resistance>x1.5) to, inflict +1 more Rupture with Skill effects",
+            "desc": "When attacking a target with a damage type the target is \"Fatal\" (Resistance>x1.5) to, inflict +1 more [Burst] with Skill effects",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -313,7 +313,7 @@
         },
         "1070611": {
             "name": "Instinctive Read",
-            "desc": "When attacking a target with a damage type the target is \"Fatal\" (Resistance>x1.5) to, inflict +1 more Rupture with Skill effects\n<style=\"highlight\">If 4 or more surviving units, including this unit, are Seven Association Fixers, additional +1 more Rupture</style>",
+            "desc": "When attacking a target with a damage type the target is \"Fatal\" (Resistance>x1.5) to, inflict +1 more [Burst] with Skill effects\nIf 4 or more surviving units, including this unit, are Seven Association Fixers, additional +1 more [Burst]",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -326,7 +326,7 @@
         },
         "1070621": {
             "name": "Connect The Dots",
-            "desc": "1 ally with the highest Max HP inflicts +1 more Rupture with Skill effects when attacking a target with a damage type that the target is \"Fatal\"(Resistance>x1.5) to",
+            "desc": "1 ally with the highest Max HP inflicts +1 more [Burst] with Skill effects when attacking a target with a damage type that the target is \"Fatal\"(Resistance>x1.5) to",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -339,7 +339,7 @@
         },
         "1070631": {
             "name": "Connect The Dots",
-            "desc": "1 ally with the highest Max HP inflicts +1 more Rupture with Skill effects when attacking a target with a damage type that the target is \"Fatal\"(Resistance>x1.5) to\n<style=\"highlight\">If the ally is a Seven Association Fixer, additional +1 more Rupture</style>",
+            "desc": "1 ally with the highest Max HP inflicts +1 more [Burst] with Skill effects when attacking a target with a damage type that the target is \"Fatal\"(Resistance>x1.5) to\nIf the ally is a Seven Association Fixer, additional +1 more [Burst]",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -350,5 +350,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

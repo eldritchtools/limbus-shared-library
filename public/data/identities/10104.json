@@ -218,7 +218,7 @@
                             "[OnSucceedAttack] Inflict +1 [Sinking] Count"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 6+ [[Sinking]], cause [Sinking] Deluge",
+                            "[OnSucceedAttack] If target has 6+ [Sinking], cause [Sinking] Deluge",
                             "[OnSucceedAttack] If user has 10+ [Vibration] Count, deal 30% of damage dealt as bonus damage"
                         ]
                     ]
@@ -235,7 +235,7 @@
                             "[OnSucceedAttack] Inflict +1 [Sinking] Count"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 6+ [[Sinking]], cause [Sinking] Deluge",
+                            "[OnSucceedAttack] If target has 6+ [Sinking], cause [Sinking] Deluge",
                             "[OnSucceedAttack] If user has 10+ [Vibration] Count, deal 40% of damage dealt as bonus damage"
                         ]
                     ]
@@ -318,5 +318,9 @@
                 ]
             }
         }
+    },
+    "notes": {
+        "short": "S3 triggers {status:SinkingSurge}. Needs external sources of {status:Sinking} Count.\nS2 consumes 6+ {status:Vibration} Count to become 3 atk weight.",
+        "full": "S3 triggers {status:SinkingSurge} which consumes all of the target's {status:Sinking} to deal Count*Potency SP/{keyword:gloom} damage. He has a lot of coins and doesn't inflict much Count on his own, so he needs other sinners/EGOs to maintain the stack before he can nuke the boss.\nHe also gains {status:Vibration} Count from S1(+3) and S3(+6), which he can consume with S2(-6) to convert it to a 3 atk weight aoe.\nIf he has 10+ {status:Vibration} Count, his S3 deals bonus damage. Since this check happens on hit and he gains 6 Count on use, you can get the bonus as long as he has at least 4 Count at the start of the turn."
     }
 }

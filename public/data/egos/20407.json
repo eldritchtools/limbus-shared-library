@@ -53,11 +53,11 @@
                 "uptie": 3,
                 "name": "Contempt, Awe",
                 "abName": "Spiral of Contempt",
-                "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max <style=\"highlight\">4)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] (max 7)\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+                "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max 4)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] (max 7)\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
                 "coinDescs": [
                     [],
                     [
-                        "[EndSkill] Evenly inflict <style=\"highlight\">15 [Laceration] between all targets"
+                        "[EndSkill] Evenly inflict 15 [Laceration] between all targets"
                     ]
                 ]
             },
@@ -65,11 +65,11 @@
                 "uptie": 4,
                 "name": "Contempt, Awe",
                 "abName": "Spiral of Contempt",
-                "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max <style=\"highlight\">6)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] <style=\"highlight\">this turn and next turn (max 7)\n<style=\"highlight\">[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+                "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max 6)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] this turn and next turn (max 7)\n[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
                 "coinDescs": [
                     [],
                     [
-                        "[EndSkill] Evenly inflict 15 [Laceration] between all targets<style=\"highlight\">"
+                        "[EndSkill] Evenly inflict 15 [Laceration] between all targets"
                     ]
                 ]
             }
@@ -81,6 +81,7 @@
             "desc": "Whenever this unit uses a base Attack Skill against an enemy, gain 1 additional E.G.O resource for a random, least-owned Affinity that doesn't correspond to the Affinity of the Attack Skill used (2 times per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -136,9 +137,9 @@
                 "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max <style=\"highlight\">40%)",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">(3 + (highest Reson. x 2)) [Laceration] (max <style=\"highlight\">15, rounded down)",
-                        "[OnSucceedAttack] Inflict +<style=\"highlight\">3 [Laceration] Count"
+                        "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 40%)",
+                        "[OnSucceedAttack] Inflict (3 + (highest Reson. x 2)) [Laceration] (max 15, rounded down)",
+                        "[OnSucceedAttack] Inflict +3 [Laceration] Count"
                     ]
                 ]
             },
@@ -146,12 +147,12 @@
                 "uptie": 4,
                 "name": "Contempt, Awe",
                 "abName": "Spiral of Contempt",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]\n<style=\"highlight\">[EndSkill] If this Skill was a part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]\n[EndSkill] If this Skill was a part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills",
                 "coinDescs": [
                     [
-                        "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max <style=\"highlight\">60%)",
-                        "[OnSucceedAttack] Inflict <style=\"highlight\">(10 + (highest Reson. x 2.5)) [Laceration] (max <style=\"highlight\">25, rounded down)",
-                        "[OnSucceedAttack] Inflict +<style=\"highlight\">5 [Laceration] Count"
+                        "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 60%)",
+                        "[OnSucceedAttack] Inflict (10 + (highest Reson. x 2.5)) [Laceration] (max 25, rounded down)",
+                        "[OnSucceedAttack] Inflict +5 [Laceration] Count"
                     ]
                 ]
             }

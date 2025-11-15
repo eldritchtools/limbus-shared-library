@@ -39,10 +39,10 @@
                 "uptie": 3,
                 "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                 "abName": "Yinglong",
-                "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]<style=\"highlight\">",
+                "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]",
                 "coinDescs": [
                     [
-                        "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1<style=\"highlight\">"
+                        "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1"
                     ]
                 ]
             },
@@ -50,10 +50,10 @@
                 "uptie": 4,
                 "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                 "abName": "Yinglong",
-                "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]<style=\"highlight\">",
+                "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]",
                 "coinDescs": [
                     [
-                        "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1<style=\"highlight\">"
+                        "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1"
                     ]
                 ]
             }
@@ -65,6 +65,7 @@
             "desc": "If the target is defeated after this unit's Attack or Counter Skills:\n- Gain 2 [Agility] next turn (once per turn)\n- To all allies, including this unit: next turn, apply 1 DMG Up to the Damage Type & Affinity of the Skill used to activate this effect (once per turn)\n- Inflict 1 [Reduction] to all enemies next turn (once per turn)\n\nWhen this unit dies:\n- Apply 1 [ShamrockDamageUp] and [PenetrateDamageUp] to all allies next turn (once per turn)\n- Inflict 1 [Reduction] to all enemies next turn (once per turn)"
         }
     ],
+    "notes": {},
     "corrosionSkill": {
         "tier": 3,
         "type": "corrosion",
@@ -114,17 +115,17 @@
                 "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
                 "coinDescs": [
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict +2 [Burst] Count"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">"
+                        "[SuperCoin]"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">"
+                        "[SuperCoin]"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">"
+                        "[SuperCoin]"
                     ]
                 ]
             },
@@ -132,23 +133,23 @@
                 "uptie": 3,
                 "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                 "abName": "Yinglong",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]<style=\"highlight\">",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
                 "coinDescs": [
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict +2 [Burst] Count"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
                     ]
                 ]
             },
@@ -156,23 +157,23 @@
                 "uptie": 4,
                 "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                 "abName": "Yinglong",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n<style=\"highlight\">- At 6+ highest Reson., Atk Weight +2 instead\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
+                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n- At 6+ highest Reson., Atk Weight +2 instead\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
                 "coinDescs": [
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict +2 [Burst] Count"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
                     ],
                     [
-                        "[SuperCoin]<style=\"highlight\">",
-                        "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                        "[SuperCoin]",
+                        "[OnSucceedAttack] Inflict 1 [Burst]"
                     ]
                 ]
             }

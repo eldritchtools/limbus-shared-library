@@ -40,7 +40,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +3 [[Charge]] Count"
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -50,27 +50,27 @@
                 {
                     "uptie": 2,
                     "name": "Congestion Cleanup",
-                    "desc": "<style=\"highlight\">[WhenUse] At 6+ [[Charge]] Count, Clash Power +1",
+                    "desc": "[WhenUse] At 6+ [Charge] Count, Clash Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +3 [[Charge]] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +3 [Charge] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Congestion Cleanup",
-                    "desc": "<style=\"highlight\">[WhenUse] At 3+ [[Charge]], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [[Charge]] Count on self (max 2)",
+                    "desc": "[WhenUse] At 3+ [Charge], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Charge] Count on self (max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">4 [[Charge]] Count",
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] Gain +4 [Charge] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]"
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
                         ]
                     ]
                 }
@@ -114,10 +114,10 @@
                 {
                     "uptie": 1,
                     "name": "Boost: Elbow Blade",
-                    "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [[Charge]] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [[Charge]] Count to gain +1 Coin Power",
+                    "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +4 [[Charge]] Count"
+                            "[OnSucceedAttack] Gain +4 [Charge] Count"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -127,28 +127,28 @@
                 {
                     "uptie": 2,
                     "name": "Boost: Elbow Blade",
-                    "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [[Charge]] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [[Charge]] Count to gain +1 Coin Power<style=\"highlight\">",
+                    "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">5 [[Charge]] Count",
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] Gain +5 [Charge] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Burst]"
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Boost: Elbow Blade",
-                    "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [[Charge]] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [[Charge]] Count to gain +1 Coin Power\n<style=\"highlight\">[WhenUse] At 3+ [[Charge]], Coin Power +1",
+                    "desc": "[StartBattle] Gain [ChargeForceField] equal to (2 + [Charge] Potency on self) (max 6, 1 per turn)\n[WhenUse] Consume 6 [Charge] Count to gain +1 Coin Power\n[WhenUse] At 3+ [Charge], Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +<style=\"highlight\">6 [[Charge]] Count",
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +6 [Charge] Count",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">3 [Burst]"
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
                         ]
                     ]
                 }
@@ -189,7 +189,7 @@
                 {
                     "uptie": 3,
                     "name": "Rip Space - CCA Overdrive",
-                    "desc": "[StartBattle] If this unit has 3+ [[Charge]] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [[Charge]] Count, consume 10 [[Charge]] Count to gain +4 Coin Power",
+                    "desc": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power",
                     "coinDescs": [
                         [
                             ""
@@ -198,33 +198,33 @@
                             ""
                         ],
                         [
-                            "[OnSucceedAttackHead] Gain +2 [[Charge]] Count"
+                            "[OnSucceedAttackHead] Gain +2 [Charge] Count"
                         ],
                         [
-                            "[OnStartCoin] Consume up to 10 [[Charge]] Count to gain Coin Power for this Coin equal to ([[Charge]] Count consumed for this Coin)",
+                            "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)",
                             "[OnSucceedAttack] Inflict 2 [Burst]",
-                            "[OnSucceedAttack] Deal Slash damage equal to ([[Charge]] Potency x 5)% of this Coin's final damage (max 25%)"
+                            "[OnSucceedAttack] Deal Slash damage equal to ([Charge] Potency x 5)% of this Coin's final damage (max 25%)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Rip Space - CCA Overdrive",
-                    "desc": "[StartBattle] If this unit has 3+ [[Charge]] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [[Charge]] Count, consume 10 [[Charge]] Count to gain +4 Coin Power\n<style=\"highlight\">[WhenUse] Gain Clash Power equal to [[Charge]] Potency on self (max 5)",
+                    "desc": "[StartBattle] If this unit has 3+ [Charge] Potency or less than 50% HP, convert all Coins in this Skill into [SuperCoin]\n- If this unit loses a Clash while this effect is active, Final Power +3\n[WhenUse] At 10+ [Charge] Count, consume 10 [Charge] Count to gain +4 Coin Power\n[WhenUse] Gain Clash Power equal to [Charge] Potency on self (max 5)",
                     "coinDescs": [
                         [
-                            "<style=\"highlight\">[OnSucceedAttackHead] Gain +1 [[Charge]] Count"
+                            "[OnSucceedAttackHead] Gain +1 [Charge] Count"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttackHead] Gain +1 [[Charge]] Count"
+                            "[OnSucceedAttackHead] Gain +1 [Charge] Count"
                         ],
                         [
-                            "[OnSucceedAttackHead] Gain +2 [[Charge]] Count<style=\"highlight\">"
+                            "[OnSucceedAttackHead] Gain +2 [Charge] Count"
                         ],
                         [
-                            "[OnStartCoin] Consume up to 10 [[Charge]] Count to gain Coin Power for this Coin equal to ([[Charge]] Count consumed for this Coin)<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict 2 [Burst]<style=\"highlight\">",
-                            "[OnSucceedAttack] Deal Slash damage equal to ([[Charge]] Potency x <style=\"highlight\">10)% of this Coin's final damage (max <style=\"highlight\">50%)"
+                            "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)",
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] Deal Slash damage equal to ([Charge] Potency x 10)% of this Coin's final damage (max 50%)"
                         ]
                     ]
                 }
@@ -269,10 +269,10 @@
                 {
                     "uptie": 4,
                     "name": "CCA Overcharge",
-                    "desc": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)\n<style=\"highlight\">- Turn End: Add 1 Rip Space - CCA Overdrive to the list of Skills for the next upcoming turn (once per turn)",
+                    "desc": "[CanDuelGuard]\n[StartBattle] At less than 15 [Charge] Count, gain the following effects:\n- Gain [WOverCharge] next turn (max 1 per turn)\n- Turn End: Remove this unit's first Stagger Threshold (once per Encounter)\n- Turn End: Add 1 Rip Space - CCA Overdrive to the list of Skills for the next upcoming turn (once per turn)",
                     "coinDescs": [
                         [
-                            "[SuperCoin]<style=\"highlight\">"
+                            "[SuperCoin]"
                         ]
                     ]
                 }
@@ -333,5 +333,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

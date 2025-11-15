@@ -55,28 +55,28 @@
                 {
                     "uptie": 2,
                     "name": "Blinkstep",
-                    "desc": "[WhenUse] If target has <style=\"highlight\">4+ [Burst], Coin Power +1\n<style=\"highlight\">[WinDuel] Inflict +1 [Burst] Count",
+                    "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Blinkstep",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+                    "desc": "If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
-                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
                         ]
                     ]
                 }
@@ -137,29 +137,29 @@
                 {
                     "uptie": 2,
                     "name": "As Written",
-                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n[WhenUse] If target has <style=\"highlight\">4+ [Burst], Coin Power +1\n<style=\"highlight\">[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "<style=\"highlight\">[OnSucceedAttack] At 10+ Speed, inflict +1 [Burst] Count"
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] At 10+ Speed, inflict +1 [Burst] Count"
                         ],
                         [
-                            "At 10+ Speed, deal +<style=\"highlight\">20% damage"
+                            "At 10+ Speed, deal +20% damage"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "As Written",
-                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">",
-                            "[OnSucceedAttack] At 10+ Speed, inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] At 10+ Speed, inflict +1 [Burst] Count"
                         ],
                         [
-                            "At 10+ Speed, deal +<style=\"highlight\">30% damage",
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]"
+                            "At 10+ Speed, deal +30% damage",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ]
                     ]
                 }
@@ -216,20 +216,20 @@
                 {
                     "uptie": 4,
                     "name": "I'll gut you with a curse-engraved blade",
-                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's, <style=\"highlight\">gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WhenUse] If target has 15+ [Burst], Coin Power +1\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count",
+                    "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WhenUse] If target has 15+ [Burst], Coin Power +1\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict [BurstAgility]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict [BurstAgility]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "At 10+ Speed, deal +30% damage<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\">",
-                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\">",
-                            "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [BurstAgility]"
+                            "At 10+ Speed, deal +30% damage",
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)",
+                            "[ReUseOnSucceedAttack] Inflict [BurstAgility]"
                         ]
                     ]
                 }
@@ -269,10 +269,10 @@
                 {
                     "uptie": 4,
                     "name": "Strider. Unleashed. Heh",
-                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [LegStrength]\n<style=\"highlight\">[WhenUse] If this unit's Speed is faster than the target's, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)",
+                    "desc": "[DuelCounter]\n[WhenUse] Gain 3 [LegStrength]\n[WhenUse] If this unit's Speed is faster than the target's, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
                         ]
                     ]
                 }
@@ -341,5 +341,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

@@ -59,27 +59,27 @@
                 {
                     "uptie": 2,
                     "name": "Fa Jin",
-                    "desc": "If this unit's Speed is faster than the target's by <style=\"highlight\">2 or more, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Combustion]"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Combustion]"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Fa Jin",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WhenUse] Gain +<style=\"highlight\">3 [Breath] Count",
+                    "desc": "If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WhenUse] Gain +3 [Breath] Count",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">",
-                            "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]",
+                            "[CriticalOnSucceedAttack] Inflict +1 [Combustion] Count"
                         ]
                     ]
                 }
@@ -152,34 +152,34 @@
                 {
                     "uptie": 2,
                     "name": "Virescent Flame Palm",
-                    "desc": "If this unit's Speed is faster than the target's by <style=\"highlight\">2 or more, Coin Power +1\n[WinDuel] Gain 3 [Breath]",
+                    "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WinDuel] Gain 3 [Breath]",
                     "coinDescs": [
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Gain +2 [Breath] Count"
+                            "[OnSucceedAttack] Gain +2 [Breath] Count"
                         ],
                         [
-                            "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Combustion]"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every 6 [Combustion] on target (max <style=\"highlight\">3, once per turn)"
+                            "[OnSucceedAttack] Inflict 2 [Combustion]",
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every 6 [Combustion] on target (max 3, once per turn)"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
                     "name": "Virescent Flame Palm",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WinDuel] Gain 3 [Breath]\n<style=\"highlight\">- Gain additional [Breath] Count equal to [DianxueDonQuixote] on target",
+                    "desc": "If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WinDuel] Gain 3 [Breath]\n- Gain additional [Breath] Count equal to [DianxueDonQuixote] on target",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Gain +2 [Breath] Count<style=\"highlight\">"
+                            "[OnSucceedAttack] Gain +2 [Breath] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict <style=\"highlight\">2 [Combustion]"
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\">",
-                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every 6 [Combustion] on target (max <style=\"highlight\">5, once per turn)\n<style=\"highlight\">- Inflict additional [DefenseDown] equal to [DianxueDonQuixote] on target"
+                            "[OnSucceedAttack] Inflict 2 [Combustion]",
+                            "[OnSucceedAttack] Inflict 1 [DefenseDown] for every 6 [Combustion] on target (max 5, once per turn)\n- Inflict additional [DefenseDown] equal to [DianxueDonQuixote] on target"
                         ]
                     ]
                 }
@@ -239,20 +239,20 @@
                 {
                     "uptie": 4,
                     "name": "Prithee, let this be an enlightening bout",
-                    "desc": "Deal <style=\"highlight\">+15% damage for every 1 [DianxueDonQuixote] on target (max <style=\"highlight\">45%)\n<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WinDuel] Gain 5 [Breath]\n- If target has [DianxueDonQuixote], gain 3 additional [Breath]",
+                    "desc": "Deal +15% damage for every 1 [DianxueDonQuixote] on target (max 45%)\nIf this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)\n[WinDuel] Gain 5 [Breath]\n- If target has [DianxueDonQuixote], gain 3 additional [Breath]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]<style=\"highlight\">"
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
                         ],
                         [
-                            "Deal +([Breath] on self + [Combustion] on target)% damage on Critical Hit (max <style=\"highlight\">50%)",
-                            "<style=\"highlight\">[OnSucceedAttack] If target has [DianxueDonQuixote], inflict 3 [DefenseDown]"
+                            "Deal +([Breath] on self + [Combustion] on target)% damage on Critical Hit (max 50%)",
+                            "[OnSucceedAttack] If target has [DianxueDonQuixote], inflict 3 [DefenseDown]"
                         ]
                     ]
                 }
@@ -291,7 +291,7 @@
                 {
                     "uptie": 4,
                     "name": "Thou'rt in dire need of a lesson in table manners!",
-                    "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, gain +1 Coin Power for every 2 Speed difference (max 2)",
+                    "desc": "If this unit's Speed is faster than the target's, gain +1 Coin Power for every 2 Speed difference (max 2)",
                     "coinDescs": [
                         []
                     ]
@@ -330,7 +330,7 @@
     "passiveData": {
         "1031121": {
             "name": "Featherstride Technique",
-            "desc": "1 ally with the fastest Speed : On Clash Win against enemies with [Combustion] or 'Unique Burn', gain 1 [Agility] next turn (once per turn)",
+            "desc": "1 ally with the fastest Speed : On Clash Win against enemies with [Combustion] or 'Unique [Combustion]', gain 1 [Agility] next turn (once per turn)",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -343,7 +343,7 @@
         },
         "1031131": {
             "name": "Featherstride Technique",
-            "desc": "1 ally with the fastest Speed : On Clash Win against enemies with [Combustion] or 'Unique Burn', gain 1 [Agility] next turn (once per turn)\n<style=\"highlight\">- If the target has 20+ [Combustion] Potency, gain 1 additional [Agility]</style>",
+            "desc": "1 ally with the fastest Speed : On Clash Win against enemies with [Combustion] or 'Unique [Combustion]', gain 1 [Agility] next turn (once per turn)\n- If the target has 20+ [Combustion] Potency, gain 1 additional [Agility]",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -373,7 +373,7 @@
         },
         "1031111": {
             "name": "Virescent Pyrojade",
-            "desc": "Turn End: gain 1 [Agility] next turn for every <style=\"highlight\">3</style> [Breath] Potency on self (max 2)\n\nAgainst the target(or the Part) a Base Attack Skill hit last, inflict [DianxueDonQuixote] next turn (once per turn)\n\nDeal +([Combustion] Potency on the target)% damage on Critical Hit (max 15%)\n<style=\"highlight\">- Increase max cap by 5% for every 1 [DianxueDonQuixote] on the target</style>",
+            "desc": "Turn End: gain 1 [Agility] next turn for every 3 [Breath] Potency on self (max 2)\n\nAgainst the target(or the Part) a Base Attack Skill hit last, inflict [DianxueDonQuixote] next turn (once per turn)\n\nDeal +([Combustion] Potency on the target)% damage on Critical Hit (max 15%)\n- Increase max cap by 5% for every 1 [DianxueDonQuixote] on the target",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -388,5 +388,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }

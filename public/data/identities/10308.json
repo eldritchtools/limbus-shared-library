@@ -60,7 +60,7 @@
                 {
                     "uptie": 4,
                     "name": "Draw of the Sword",
-                    "desc": "<style=\"highlight\">At 5+ [Breath] on self, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "At 5+ [Breath] on self, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [Breath]"
@@ -140,13 +140,13 @@
                 {
                     "uptie": 4,
                     "name": "Blade Arc",
-                    "desc": "<style=\"highlight\">At 7+ [Breath] on self, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "At 7+ [Breath] on self, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]"
                         ],
                         [
-                            "[CriticalOnSucceedAttack] To 1 ally either with no [Breath] or with the least [Breath] Potency, apply 2 [Breath]\n<style=\"highlight\">If the affected ally is from the Blade Lineage, apply 2 additional [Breath]"
+                            "[CriticalOnSucceedAttack] To 1 ally either with no [Breath] or with the least [Breath] Potency, apply 2 [Breath]\nIf the affected ally is from the Blade Lineage, apply 2 additional [Breath]"
                         ]
                     ]
                 }
@@ -201,7 +201,7 @@
                 {
                     "uptie": 4,
                     "name": "Fare Thee Well!",
-                    "desc": "<style=\"highlight\">At 10+ [Breath] on self, Coin Power +1\n[WhenUse] Gain 5 [Breath]",
+                    "desc": "At 10+ [Breath] on self, Coin Power +1\n[WhenUse] Gain 5 [Breath]",
                     "coinDescs": [
                         [
                             "[OnSucceedAttackHead] The final Coin deals +10% damage"
@@ -211,8 +211,8 @@
                         ],
                         [
                             "+30% Damage on Critical Hit",
-                            "[CriticalOnSucceedAttack] To 2 allies either with no [Breath] or with the least [Breath] Count, apply +2 [Breath] Count.\n<style=\"highlight\">If the affected ally is from the Blade Lineage, apply 2 additional [Breath] Count",
-                            "[EndSkill] If target is defeated, <style=\"highlight\">apply 1 [SlashDamageUp] to self and 1 random other ally next turn"
+                            "[CriticalOnSucceedAttack] To 2 allies either with no [Breath] or with the least [Breath] Count, apply +2 [Breath] Count.\nIf the affected ally is from the Blade Lineage, apply 2 additional [Breath] Count",
+                            "[EndSkill] If target is defeated, apply 1 [SlashDamageUp] to self and 1 random other ally next turn"
                         ]
                     ]
                 }
@@ -345,5 +345,6 @@
                 ]
             }
         }
-    }
+    },
+    "notes": {}
 }
