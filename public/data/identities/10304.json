@@ -300,5 +300,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward identity. {status:VibrationExplosion} on S2.",
+        "full": "Inflicts {status:Vibration} and {status:NailPersonality}. Triggers {status:VibrationExplosion} on S2. S3 inflicts {status:Reduction} and {status:Paralysis} on heads hit if the target has 5+ {status:NailPersonality}."
+    }
 }

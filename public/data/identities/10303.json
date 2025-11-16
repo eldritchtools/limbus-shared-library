@@ -264,5 +264,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Builds {status:Agility}. Buffs S3 at 10+ speed.",
+        "full": "Gains {status:Agility} next turn with S1, S2, or {keyword:Wrath} Res. S3 gains an additional 5 power at 10+ speed, but given her base speed, she'll need to meet her less than 50% HP conditional on her S2 or to trigger her passive to even have a chance of reaching 10 speed unless you get external help or multi-slot her."
+    }
 }

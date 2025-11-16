@@ -359,5 +359,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{keyword:Aggro} tank with some self healing and (conditionally) count positive {keyword:Burst} application.",
+        "full": "All her attacks give her {keyword:Aggro}, which also gives her bonus power if her passive is active. Her passive also heals her when hitting enemies that targeted her.\n\nHer S3 heals her and gains a coin reuse at 50%-HP while healing her even more.\n\nHer {keyword:Burst} application is mostly Count positive, only losing Count on her S2 when the enemy has too much (3 or more on the last coin) or too little (expired before the last coin) Count or her S3 if the coin reuse was triggered."
+    }
 }

@@ -182,11 +182,11 @@
                     "desc": "At 4+ Envy Reson., Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 1 [PlusCoinValueDown] next turn"
+                            "[OnSucceedAttack] If target has [RetaliationBook], inflict 1 [PlusCoinValueDown] next turn"
                         ],
                         [],
                         [
-                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 1 [VioletTakeDamageUp] next turn"
+                            "[OnSucceedAttack] If target has [RetaliationBook], inflict 1 [VioletTakeDamageUp] next turn"
                         ]
                     ]
                 },
@@ -196,11 +196,11 @@
                     "desc": "At 4+ Envy Reson., Coin Power +1\nAt 6+ Envy A-Reson., Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 1 [PlusCoinValueDown] next turn"
+                            "[OnSucceedAttack] If target has [RetaliationBook], inflict 1 [PlusCoinValueDown] next turn"
                         ],
                         [],
                         [
-                            "[OnSucceedAttack] If target has Vengeance Mark, inflict 2 [VioletTakeDamageUp] next turn"
+                            "[OnSucceedAttack] If target has [RetaliationBook], inflict 2 [VioletTakeDamageUp] next turn"
                         ]
                     ]
                 }
@@ -296,7 +296,7 @@
         },
         "1050701": {
             "name": "Loyalty",
-            "desc": "- Apply <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Vengeance Mark</color></link></u> to the unit that dealt the most Skill damage to an ally.\n- If the main target has Vengeance Mark, Final Power +1\n- If there is another surviving ally from the Middle, heal 6 SP at every Turn End",
+            "desc": "- Apply [RetaliationBook] to the unit that dealt the most Skill damage to an ally.\n- If the main target has [RetaliationBook], Final Power +1\n- If there is another surviving ally from the Middle, heal 6 SP at every Turn End",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -309,7 +309,7 @@
         },
         "1050711": {
             "name": "Loyalty",
-            "desc": "- Apply <sprite name=\"RetaliationBook\"><color=#e30000><u><link=\"RetaliationBook\">Vengeance Mark</color></link></u> to the unit that dealt the most Skill damage to an ally.\n- If the main target has Vengeance Mark, Final Power +1\n- If there is another surviving ally from the Middle other than this unit, this unit and the surviving ally from the Middle with the least SP both heal 6 SP at every Turn End",
+            "desc": "- Apply [RetaliationBook] to the unit that dealt the most Skill damage to an ally.\n- If the main target has [RetaliationBook], Final Power +1\n- If there is another surviving ally from the Middle other than this unit, this unit and the surviving ally from the Middle with the least SP both heal 6 SP at every Turn End",
             "condition": {
                 "type": "owned",
                 "requirement": [

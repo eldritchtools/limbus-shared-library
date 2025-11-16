@@ -286,5 +286,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Applies {status:DuelDeclaration_DonQuixote} with S3, increasing Clash Power and giving {status:Agility} on hit. Increased damage based on Clash count and Speed.",
+        "full": "Her S3 inflicts {status:DuelDeclaration_DonQuixote} which increaser her own Clash Power and gives her {status:Agility} on hit against that target. It can only be on one enemy at a time, so using her S3 again on a different target will cause the first instance to expire.\n\nHer S1 and S2 gives her {status:Agility} and inflicts {status:Binding}. Her attacks are stronger with more Speed and Clash count.\n\nHer passive gives her more damage if the entire party is faster than the entire enemy party."
+    }
 }

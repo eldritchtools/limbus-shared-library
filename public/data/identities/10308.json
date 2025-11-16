@@ -342,5 +342,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{keyword:Breath} support, especially for Blade Lineage identities.",
+        "full": "Her S2 and S3 provides {keyword:Breath} Potency and Count respectively to allies with the least {keyword:Breath} on crit. The amount is doubled for Blade Lineage identities.\n\nHer passive also gives allies bonus {keyword:Breath} Potency whenever she gains some, which happens on all her attack skills. It needs 2 {keyword:Pride} Res, which will naturally happen on most turns if you're using a Blade Lineage team."
+    }
 }
