@@ -362,5 +362,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Inflicts {status:ConcentratedAttackMeursault} when his passive is active. Keep hitting the same attack slot with {status:ConcentratedAttackMeursault}. Does not apply or consume {status:Burst} on hit when the target has 15/3 {status:Burst}.",
+        "full": "When his passive is active, his attacks inflict {status:ConcentratedAttackMeursault} on the specific attack slot targeted. Successive turns attacking the same slot increases the stack of this status, which gives him Base and/or Coin Power as the stack increases and causes his S3 to generate additional {status:Breath} and deal more damage. Applying the debuff on another target or attack slot causes the previous instance to expire. Having someone else apply another instance of Focused Attack also causes it to expire.\n\nIf his target has 15+ Potency and 3+ Count of {status:Burst}, his skills stop inflicting {status:Burst} but also stops consuming {status:Burst} Count when triggering it. His S2 also deals additional crit damage instead for each {status:Burst} it would have inflicted.\n\nAll of his skills generate {status:Breath} which gives him {status:Agility} every turn if his passive is active, helping him with his skills' Power conditionals since they're all reliant on his speed difference from his target's.\n\nHis S3 is reused against a random target if its last coin kills its target or destroys a part."
+    }
 }

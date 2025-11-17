@@ -322,5 +322,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Burst} identity with {status:AttackDown} application.",
+        "full": "Inflicts {status:AttackDown} with his S2 and S3 if his target has enough {status:Burst}. Otherwise, just does normal {status:Burst} things."
+    }
 }

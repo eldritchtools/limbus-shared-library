@@ -279,5 +279,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Some {status:Laceration} application and various debuffs ({status:Paralysis}, {status:AttackDmgDown}, and {status:AttackDown}.",
+        "full": "Read the short version."
+    }
 }

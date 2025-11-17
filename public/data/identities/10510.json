@@ -269,5 +269,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{status:KnowledgeExplored} identity with shield and clashing support for other identities that use {status:Discard}.",
+        "full": "His S1 and S2 {status:Discard}s lower rank skills. {status:KnowledgeExplored} is set to whatever rank the discarded skill was, buffing each of his skills depending on the value. S1 gets clash Power, S2 and S3 get bonus damage and {status:Sinking} application. His S1 also gives some shields if ever it's discarded. You can use the discard trick to prevent him from discarding skills if you want to maintain his {status:KnowledgeExplored} level. Generate his defense skill, then use the upper skill (the one that wasn't replaced by the defense skill). This stops him from discarding any skills.\n\nHe gains {status:KnowledgeTraining} on his S1 and S2 (S2 also grants it to allies), which gives shields and clash power when discarding skills. It's reduced when taking damage and completely expires when staggered. His passive also gives himself and his allies {status:KnowledgeTraining} when an ally discards a skill (and gives him damage up).\n\nHis S3 consumes all his {status:KnowledgeTraining} to temporarily grant him additional {status:KnowledgeExplored}, increasing its damage and {status:Sinking} application. At the end of the skill, it automatically resets to 1 (or 3 if the skill kills its target) if it ended up being 4 or higher."
+    }
 }

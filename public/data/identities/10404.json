@@ -134,7 +134,7 @@
                             "[OnSucceedAttackHead] Inflict 1 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has [Laceration] or Paralyze, inflict 1 [TakeHpHealReduce] next turn"
+                            "[OnSucceedAttack] If target has [Laceration] or [Paralysis], inflict 1 [TakeHpHealReduce] next turn"
                         ]
                     ]
                 },
@@ -150,7 +150,7 @@
                             "[OnSucceedAttackHead] Inflict 2 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has [Laceration] or Paralyze, inflict 3 [TakeHpHealReduce] next turn"
+                            "[OnSucceedAttack] If target has [Laceration] or [Paralysis], inflict 3 [TakeHpHealReduce] next turn"
                         ]
                     ]
                 },
@@ -166,7 +166,7 @@
                             "[OnSucceedAttackHead] Inflict 3 [Laceration]"
                         ],
                         [
-                            "[OnSucceedAttack] If target has [Laceration] or Paralyze, inflict 4 [TakeHpHealReduce] next turn"
+                            "[OnSucceedAttack] If target has [Laceration] or [Paralysis], inflict 4 [TakeHpHealReduce] next turn"
                         ]
                     ]
                 }
@@ -289,5 +289,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Some {status:Laceration} application and self HP healing on kill. S3 deals bonus damage based on target's missing HP.",
+        "full": "Her S3 deals bonus damage based on how much how much HP her target is missing.\n\nShe heals whenever she kills an enemy. The amount is increased for every {status:Thirst} on her, which is gained from her S1 and S2.\n\nHer S2 also inflicts {status:TakeHpHealReduce}."
+    }
 }

@@ -294,5 +294,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gains {status:Charge} Count during his S3 then spends all of it on his last coin to raise the target's Stagger Threshold.",
+        "full": "Applies {status:Vibration} and triggers {status:VibrationExplosion} on his S3. Each Heads hit on the first 3 coins of his S3 gives him {status:Charge}, which he immediately spends on the last coin to further raise the target's stagger threshold."
+    }
 }

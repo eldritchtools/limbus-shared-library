@@ -299,5 +299,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Combustion} identity",
+        "full": "Inflicts and spreads {status:Combustion} to multiple enemies. Also inflicts {status:Combustion} when hit."
+    }
 }

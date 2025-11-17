@@ -308,5 +308,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gains {status:Vibration} Count on all attack skills then transfers it to her target with S2 or consumes it for power with S3. Passive causes her to use an extra S1 against targets that are staggered by allies once per turn.",
+        "full": "Gains {status:Vibration} Count on all her attack skills and gains additional Count based on the enemy's Count with her S1. Her S2 can transfer the Count to her target or her S3 can consume the Count for Coin Power.\n\nWhen her passive is active, she follows up with a free S1 whenever an ally staggers an enemy (once per turn).\n\nShe triggers {status:VibrationExplosion} On her S3 and on the follow up S1s."
+    }
 }

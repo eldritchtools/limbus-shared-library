@@ -3946,6 +3946,7 @@
             "Agility",
             "Binding",
             "Laceration",
+            "Paralysis",
             "TakeHpHealReduce",
             "Thirst"
         ],
@@ -4695,7 +4696,7 @@
                 "id": 1041206,
                 "num": 0,
                 "type": {
-                    "tier": 3,
+                    "tier": 4,
                     "affinity": "pride",
                     "type": "pierce"
                 }
@@ -5071,7 +5072,9 @@
             }
         ],
         "keywordTags": [
+            "AssemblePersonality",
             "Binding",
+            "Enhancement",
             "NailPersonality",
             "Protection",
             "Reduction"
@@ -5344,6 +5347,7 @@
             "PlusCoinValueDown",
             "RetaliationBook",
             "VioletDamageUp",
+            "VioletResultUp",
             "VioletTakeDamageUp"
         ],
         "name": "The Middle Little Brother"

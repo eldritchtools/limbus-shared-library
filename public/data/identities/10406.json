@@ -367,5 +367,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Applies {status:Vibration} and {status:Burst} on her S3. Her Support Passive buffs identities that use {status:Bullet}.",
+        "full": "Gains {status:Breath} and applies various debuffs on her target (SP loss on S1, {status:AttackDown} on S2, {status:Vibration} and {status:Burst} on S3). Mainly relevant for her Support Passive which gives {status:Breath} to allies that spend {status:Bullet} and bonus damage when spending their last {status:Bullet}."
+    }
 }

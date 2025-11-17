@@ -375,5 +375,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Build {status:Charge} Count with her S1 and S2. Spend 15 Count with S3. Spend HP to cover the missing count at 7-14 Count.",
+        "full": "Gains {status:Charge} Count with her S1(+4) and S2(+7), or when killing an enemy(+3) from her passive. Spend 15 Count with her S3. At 7-14 Count, her S3 will consume HP to cover the missing Count. If her S3's last coin kills the target and she spent 15 Count without consuming HP, she gives {status:ChargeForceField} to herself and an ally. Her S2 can inflict additional {status:SlashTakeDamageUp} to help her get the kill on her S3."
+    }
 }

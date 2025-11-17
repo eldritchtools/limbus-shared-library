@@ -448,5 +448,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Has 2 versions of {status:Charge}, one giving {status:Laceration} buffs and the other giving SP on hit and shield buffs. At 15+ of both, consumes all of both when using S3 to use S3-2 instead.",
+        "full": "She has 2 Unique Charges. {status:RedEyeFirst} gives her bonus {status:Laceration} application. {status:PenanceFirst} gives SP healing on hit and a passive HP shield every turn. Both versions give bonus damage an increase their effects based on their stage. The stage is based on how much Count you have of that Charge with stage 1 being 1-7, stage 2 being 8-15, and stage 3 being 16-20. Both versions are gained with all skills as well as passively on hit if the target has {status:Laceration} for {status:RedEyeFirst} and if {sinner:4} has 20+ SP for {status:PenanceFirst}. Gaining {status:Charge} Count from external sources will randomly assign it to one of the two.\n\nAt 15+ of both versions, her S3 will be converted into S3-2, consuming all Count of both in the process. Her S3-2 inflicts additional {status:Laceration}, deals more damage, and heals HP and SP for herself and an ally based on how much of the two Charges she consumed (Her regular S3 also inflicts {status:Laceration} and heals HP and SP, but does less without consuming either Charge). Using it with Res also increases the number of allies healed. It also inflicts {status:Binding} and {status:Reduction} next turn. After using S3-2, she gains {status:Emptiness} preventing her from building either Charge versions for a turn. Gaining {status:RedEyeFirst} will instead heal her and an ally's HP, while gaining {status:PenanceFirst} heals their SP. Both versions will drain her SP by 15 on use."
+    }
 }

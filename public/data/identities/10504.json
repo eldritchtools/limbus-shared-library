@@ -260,7 +260,7 @@
     "passiveData": {
         "1050401": {
             "name": "Obsessive Hammer",
-            "desc": "When below 50% HP, remove 1 negative status effect and gain 1 Fanatic, 1 Attack Power Up, and 3 [Protection] at the start of the combat phase.",
+            "desc": "When below 50% HP, remove 1 negative status effect and gain 1 [AssemblePersonality], 1 [Enhancement], and 3 [Protection] at the start of the combat phase.",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -273,7 +273,7 @@
         },
         "1050421": {
             "name": "Highest Honor",
-            "desc": "Apply 1 Attack Power Up and 1 [Protection] to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 Fanatic.",
+            "desc": "Apply 1 [Enhancement] and 1 [Protection] to the ally with the least HP below 50%.\nIf the ally is an 'N Corp. Fanatic', also apply 1 [AssemblePersonality].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -285,5 +285,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{status:Aggro} tank with {status:NailPersonality} application.",
+        "full": "All attack skills give him {status:Aggro} with her S2 and S3 inflicting a small amount of {status:NailPersonality}. His S2 inflicts {status:Binding} and {status:Reduction} and his S3 heals him. His passive gives him some bonuses when he's below half hp, namely {status:AssemblePersonality}, {status:Enhancement}, and {status:Protection}, and cleansing 1 debuff."
+    }
 }
