@@ -373,5 +373,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Build {status:Charge} Count with S1 and S3. Spend 10 Count with S2. At 5-9 Count, gains {status:Sinking} to raise Count to 10, also adds Indiscriminate, {status:WideAreaRampage} and +1 atk weight to the skill.",
+        "full": "Gains {status:Charge} Count with S1(+3-6) and S3(+10-15) or defense(+3) with each {status:Count} Potency increasing his generation by 1. His S2 consumes 10 Count to get +2 Coin Power, and if he still has 8 more Count after that, consumes the 8 to deal 40% more bonus damage. If he has 5-9 Count, he gains 10 {status:Sinking} to raise his Count to 10, so he can spend it. He also adds Indiscriminate, {status:WideAreaRampage}, and +1 atk weight to the skill. This means he chooses one other random target outside of his main target (both allies and enemies), then every coin he uses will hit either one of the two at random. At 5+ {status:Charge} Potency, it stops gaining Indiscriminate, which removes the chance of him selecting allies as the secondary target, but he'll still choose a second target and randomly hit between the two.\n\n{status:Charge} Potency gives his skills additional Power and damage, and if his passive is active, he inflicts more {status:Sinking} and even more damage with his skills at 2+ Potency."
+    }
 }

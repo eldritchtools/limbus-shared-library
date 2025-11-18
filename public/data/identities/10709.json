@@ -336,5 +336,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Build {status:Charge} Count with S1 and S3, spend with S2. Inflicts {status:PhotoElectricity} giving allies more {status:Charge} Count.",
+        "full": "Gains {status:Charge} Count from S1(+4), S3(+7, +3 per {status:Charge} Potency up to 9), and defense(+3). S2 consumes 10 Count to gain Coin Power. At 5-9 Count, it consumes HP to raise the Count to 10 before spending it. S1 also consumes some Count if he has enough. He gains 1 {status:Charge} Potency for every 10 cumulative Count spent, increasing his S3's {status:Charge} Count generation and giving it {status:HitTakeDamageUp} application. His passive also gives him {status:Agility} and {status:ParryingResultUp} with {status:Charge} Potency.\n\nBoth S2 and S3 inflict {status:PhotoElectricity} based on his {status:Charge} Potency (up to 3 stacks), which gives attackers bonus {status:Charge} Count equal to the stack and an additional +3 more if they have 5 or less Count."
+    }
 }

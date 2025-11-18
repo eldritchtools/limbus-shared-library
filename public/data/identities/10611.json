@@ -657,5 +657,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gains buffs from {identity:10711} when he is also fielded or in backup. Does not work if he is in the loadout but not deployed. If both are fielded, also causes {identity:10711} to use additional attacks. Can reload once per encounter at 0 {status:Bullet} with defense skill.",
+        "full": "Starts with 18 {status:Bullet} with each skill spending 3 {status:Bullet}, unless it ends early. S2 and S3 both gain Base Power equal to the {status:Bullet} it's about to spend. When he's out of {status:Bullet}, his coins spending {status:Bullet} don't get cancelled, but lose their [On Hit] effects instead. For S1, this removes his {status:Breath} generation. For S2, it removes bonus damage. For S3, it removes bonus damage and raising the target's Stagger Threshold. If he's at 0 {status:Bullet}, his defense changes from an Evade to a Clashable Counter that triggers {status:FullReload} bringing him back to 18 {status:Bullet} once per encounter.\n\nHis S2 and S3 gains additional effects depending on whether {identity:10711} is on the field or in backup (being in the loadout but not deployed does not count). If {sinner:7} is on the field, both skills can trigger {status:CoveringFire} allowing him to use his S2 as a follow-up skill on the same target. The S2 has a 25% chance to trigger {status:CoveringFire} per Reson. (100% at 4 Reson.) and the S3 always triggers it. If {sinner:7} is in backup, both skills gain an additional {status:SuperCoin} turning them from 3-coin to 4-coin skills. They also get +5 Final Power on clash lose.\n\nHis S2 and S3 applies some debuffs. Both inflicting {status:Binding}, S2 inflicting {status:Reduction}, and S3 inflicting {status:PenetrateTakeDamageUp}. His passive also gives him an additional {status:Breath} Count every turn he's at 20+ Potency.\n\nHis S1-2 is used on the attacker whenever {identity:10711} uses his defense skill."
+    }
 }

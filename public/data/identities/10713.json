@@ -330,5 +330,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Builds {status:Charge} Count with S1 or S2. Spends Count with S3. Use defense to immobilize him for a turn, but give him {status:Charge} Count, {status:ChargeForceField}, Power/Damage buffs, and a free use of his S3 on the succeeding turn. Defense also removes his first Stagger Threshold.",
+        "full": "He gains {status:Charge} Count from his S1(+4) or his S2(+6). S2 also gives him {status:ChargeForceField} depending on his {status:Charge} Potency. His S3 consumes 10 {status:Charge} Count for +4 Coin Power. Its first 3 coins gives him additional {status:Charge} Count on Heads Hit, and its last coin consumes up to 10 additional {status:Charge} Count to gain even more Coin Power. S2 also consumes 6 Count when available. He gains 1 {status:Charge} Potency for every 10 cumulative Count he consumes, giving additional Power to his skills, converting his S3 to all {status:SuperCoin}s at 3+ Potency, and passively giving him {status:DefenseUp}. His S3 also gains {status:SuperCoin}s at less than 50% HP.\n\nUsing his defense skill at less than 15{status:Charge} Count immobilizes him on the next turn, but gives him damage reduction while immobilized, {status:ChargeForceField} and {status:Aggro} based on {status:Charge} Potency, and +10 {status:Charge} Count and +2 {status:Enhancement} on the succeeding turn. Additionally for each hit he takes while immobilized, he gains another {status:Charge} Count and 1 {status:ChargeLoad} on the next turn. It also gives him a free use of his S3 on the following turn guaranteeing that this sets up a full S3 with its conditionals.\n\nHis passive gives him shields based on his {status:Charge} Potency and increases damage dealt by his skills if they produce enough {status:Charge} to go over his max."
+    }
 }

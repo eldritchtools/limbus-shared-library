@@ -267,5 +267,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{status:Laceration} identity that wants the enemy to have low Count. S3 inflicts {status:Paralysis}.",
+        "full": "His S2 is a low clashing but high damage skill that only works if the enemy has low {status:Laceration} count. His S3 has an unconditional 6 {status:Paralysis} application."
+    }
 }

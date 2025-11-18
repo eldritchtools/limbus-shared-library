@@ -234,7 +234,7 @@
     "passiveData": {
         "1070401": {
             "name": "Bugger\u2026",
-            "desc": "When an ally is defeated, lose 10 SP and gain 1 Blunt Power Up next turn.",
+            "desc": "When an ally is defeated, lose 10 SP and gain 1 [HitResultUp] next turn.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -247,7 +247,7 @@
         },
         "1070411": {
             "name": "Bugger\u2026",
-            "desc": "When an ally is defeated, lose 10 SP and gain 1 Blunt Power Up next turn.\nIf 4 or more surviving units in the team, including this unit, are 'N Corp. Fanatics', Coin Power +1.",
+            "desc": "When an ally is defeated, lose 10 SP and gain 1 [HitResultUp] next turn.\nIf 4 or more surviving units in the team, including this unit, are 'N Corp. Fanatics', Coin Power +1.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -272,5 +272,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Buffed by other N. Corp Fanatic identities. Inflicts {status:PlusCoinValueDown}.",
+        "full": "S1 inflicts {status:NailPersonality}. S2 inflicts {status:PlusCoinValueDown} on heads hit. His passive buffs his Coin Power if there are 4 or more N. Corp Fanatics on the team (including himself). He loses 10SP but gains 1 {status:HitResultUp} if an ally dies."
+    }
 }

@@ -128,7 +128,7 @@
                             "[OnSucceedAttackTail] Inflict 2 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttackTail] Trigger Tremor Burst"
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]"
                         ]
                     ]
                 },
@@ -146,7 +146,7 @@
                         ],
                         [
                             "Spend 5 [Sinking] to deal +20% damage",
-                            "[OnSucceedAttackTail] Trigger Tremor Burst"
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]"
                         ]
                     ]
                 },
@@ -164,7 +164,7 @@
                         ],
                         [
                             "Spend 5 [Sinking] to deal +20% damage",
-                            "[OnSucceedAttackTail] Trigger Tremor Burst"
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]"
                         ]
                     ]
                 }
@@ -279,7 +279,7 @@
     "passiveData": {
         "1070521": {
             "name": "Ragged Umbrella",
-            "desc": "1 ally with the least SP loses 10 SP when hit by an attack and gains 1 Blunt DMG Up next turn. (Once per turn)",
+            "desc": "1 ally with the least SP loses 10 SP when hit by an attack and gains 1 [HitDamageUp] next turn. (Once per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -292,7 +292,7 @@
         },
         "1070501": {
             "name": "Rain of Tears",
-            "desc": "At the start of the combat phase, spend 1 [Sinking] Count and lose SP by the current amount of [Sinking].\nBefore being hit by an attack, gain Protection equal to this unit's [Sinking]. (Up to 5 Protection can be gained per turn)\nWhen hit, gain 1 Blunt DMG Up next turn. (3 per turn)",
+            "desc": "At the start of the combat phase, spend 1 [Sinking] Count and lose SP by the current amount of [Sinking].\nBefore being hit by an attack, gain [Protection] equal to this unit's [Sinking]. (Up to 5 [Protection] can be gained per turn)\nWhen hit, gain 1 [HitDamageUp] next turn. (3 per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -304,5 +304,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Negative coin identity who loses SP by gaining {status:Sinking} and passively triggering it once per turn.",
+        "full": "Negative coin identity. He gains {status:Sinking} from his S1, S3, and counter defense. His passive automatically triggers it once per turn. He also wants to get hit to trigger it more, gaining {status:Protection} equal to his {status:Sinking} (up to 5) from his passive and having a counter for his defense skill to facilitate this.\n\nHis main damage skill is his S2, which gains more Power below -15SP and even more below -25SP. He can also consume 5 {status:Sinking} for more damage. His S3 and counter can be used as setup since they give him {status:Paralysis} on Tails Hit, the S3 inflicts {status:Vulnerable} and the counter gives him {status:HitDamageUp} thanks to his passisve."
+    }
 }

@@ -39,10 +39,10 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "Spend 1 Ammo"
+                            "Spend 1 [Bullet]"
                         ],
                         [
-                            "Spend 1 Ammo"
+                            "Spend 1 [Bullet]"
                         ],
                         [
                             "[OnSucceedAttack] Gain +1 [Charge] Count"
@@ -55,10 +55,10 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "Spend 1 Ammo"
+                            "Spend 1 [Bullet]"
                         ],
                         [
-                            "Spend 1 Ammo"
+                            "Spend 1 [Bullet]"
                         ],
                         [
                             "[OnSucceedAttack] Gain +3 [Charge] Count"
@@ -108,13 +108,13 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         []
                     ]
@@ -125,13 +125,13 @@
                     "desc": "Coin Power +1 at 6+ Speed",
                     "coinDescs": [
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 1 [Laceration]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 1 [Laceration]"
                         ],
                         []
                     ]
@@ -166,10 +166,10 @@
                     "desc": "Coin Power +2 at 6+ Speed",
                     "coinDescs": [
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 2 [Vulnerable]"
                         ],
                         [
-                            "Spend 1 Ammo\n[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                            "Spend 1 [Bullet]\n[OnSucceedAttack] Inflict 2 [Vulnerable]"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -263,7 +263,7 @@
         },
         "1070301": {
             "name": "Raring to Graze",
-            "desc": "Gain (Wrath Reson.) [Charge] Count next turn.\nAt 5+ [Charge] Count, gain 1 Haste and Attack Power Up.",
+            "desc": "Gain (Wrath Reson.) [Charge] Count next turn.\nAt 5+ [Charge] Count, gain 1 [Agility] and [Enhancement].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -276,7 +276,7 @@
         },
         "1070311": {
             "name": "Raring to Graze",
-            "desc": "Gain (Wrath Reson.) [Charge] Count next turn.\nAt 5+ [Charge] Count, gain 1 Haste and Attack Power Up.\nAlways Activate: At the start of the stage, gain +3 Ammo.",
+            "desc": "Gain (Wrath Reson.) [Charge] Count next turn.\nAt 5+ [Charge] Count, gain 1 [Agility] and [Enhancement].\nAlways Activate: At the start of the stage, gain +3 [Bullet].",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -288,5 +288,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Use S3 at 6+ speed. Also applies {status:Vulnerable}.",
+        "full": "Starts with 16 {status:Bullet} (13 at Uptie III and below). Coins that use {status:Bullet} don't deal damage when out of {status:Bullet}, but still clash normally. His S2 and S3 both gain Coin Power at 6+ speed and his S3 inflicts 4 {status:Vulnerable}. You'll want him to use this before the rest of your team attacks since the {status:Vulnerable} affects the target on the current turn. You can use {ego:20701} for its {status:Agility} to guarantee his 6+ speed next turn.\n\nGains {status:Charge} Count on S1(+3), defense(+1), or on 3+ {keyword:Wrath} Reson. At 5+ {status:Charge} Count, he gains {status:Agility} and {status:Enhancement}."
+    }
 }

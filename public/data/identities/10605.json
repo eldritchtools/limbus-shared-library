@@ -270,5 +270,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Heals and gains {status:KCorpSerum} at less than 20% HP. Dies at 4 {status:KCorpSerum}.",
+        "full": "His passive heals him by 90% of his max HP at less than 20% HP and gives him 1 {status:KCorpSerum}. The {status:KCorpSerum} heals him for 5% HP every turn per stack, but instantly kills him at 4 stacks. This essentially gives him 3 extra lives as long as his passive is active and he doesn't die from 20+% HP in one hit. He also gains {status:KCorpSerum} from his defense, giving him the healing per turn but sacrificing the 'extra life'. His S1, S2, and defense all give him {status:Aggro}, while the S3 applies additional {status:Burst} Count depending on his {status:KCorpSerum} stacks."
+    }
 }

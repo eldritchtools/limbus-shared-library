@@ -300,7 +300,7 @@
     "passiveData": {
         "1060721": {
             "name": "Mass-produced Bionic Gear",
-            "desc": "When 1 ally with the fastest Speed defeats an enemy inflicted with <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, gain 1 Attack Power Up next turn (Once per turn)",
+            "desc": "When 1 ally with the fastest Speed defeats an enemy inflicted with [Laceration], gain 1 Attack Power Up next turn (Once per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -325,5 +325,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "S2 applies {status:Laceration} Count based on speed difference. S3 deals more damage based on target's missing HP.",
+        "full": "His S2 and defense give him {status:Agility} which boosts all his skills (2+ stacks for S1 or 6+ speed for S2 and S3). S2 applies more {status:Laceration} Count based on speed difference from her target, and S3 deals more damage based on its target's missing HP."
+    }
 }

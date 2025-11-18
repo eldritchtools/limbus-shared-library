@@ -279,5 +279,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "S2 gets reuse coin on heads hit if its target is below 25% HP. S3 gets reused if it kills its target.",
+        "full": "Read the short section above. He also gets SP healing on evade and {keyword:Gluttony} Res with his passive."
+    }
 }

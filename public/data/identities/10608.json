@@ -316,5 +316,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{status:Discard}s skills to set {status:KnowledgeExplored}. All skills buffed depending on its value.",
+        "full": "S1, S2, and defense all {status:Discard}s skills to set his {status:KnowledgeExplored} to the rank of the discarded skill. His skills all gain buffs depending on the value of his {status:KnowledgeExplored}. S1 gains Clash Power and Coin Reuse, and S2 and S3 gain Coin Power. You can use the discard trick if you want him to preserve his {status:KnowledgeExplored} level. Generate his defense skill, then use the skill that wasn't replaced. This prevents him from discarding any skill.\n\nHis passive gives him {status:AttackDmgUp} when discarding skills and when an ally discards a skill of a rank higher than {sinner:6}'s {status:KnowledgeExplored}, he gains +1 stack."
+    }
 }

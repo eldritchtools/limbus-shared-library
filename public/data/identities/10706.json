@@ -349,5 +349,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Burst} identity. Inflicts decent Count with S2.",
+        "full": "Pretty straightforward {status:Burst} inflicting identity. Applies additional {status:Burst} when hitting with a Fatal damage type on the target. Applies even more additional {status:Burst} with 4 or more Seven Association identities deployed. S2 inflicts decent Count. S3 inflicts Count on another enemy on kill with the last coin."
+    }
 }
