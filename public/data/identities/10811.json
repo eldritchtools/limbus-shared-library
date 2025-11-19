@@ -343,5 +343,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Buffs other Kurokumo Clan identities and gives them {status:SuperCoin}. S3 activates {status:Laceration} 3 additional times.",
+        "full": "If there are 2 or more Kurokumo identities on the field (including herself so she only needs 1 more), she gains {status:BlackCloudBlade} giving her {status:SlashResultUp} and bonus {status:Laceration} application. For each Kurokumo ally that dies, she gains a permanent {status:SlashResultUp}, and if 3 have died she gains {status:EngageToBattle}.\n\nWhen triggering her passive at 3 {keyword:Lust} Res., she gives one Kurokumo ally {status:BlackCloud}, converting their skills to {status:SuperCoin}, increasing their {status:Laceration} application, and nullifying Stagger on them. At 4 Res., she gives it to all Kurokumo allies instead of only 1.\n\nHer S2 gives {status:AttackDmgUp} to 2 Kurokumo allies, and if 6+ Kurokumo units are deployed (including herself), she gives 4 stacks to all 5 of the others instead. Having 6+ Kurokumo units also adds {status:Vulnerable} application to it.\n\nHer S3 triggers {status:Laceration} an additional 3 times, making it very strong if the enemy has a high {status:Laceration} stack, but also risks breaking the stack early."
+    }
 }

@@ -306,5 +306,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Combustion} identity. Gains {status:PlusCoinValueUp} when staggering or killing enemies with the last Coin of her S3.",
+        "full": "Straightforward {status:Combustion} identity mechanics (application and skill buffs based on the stack on the enemy). She gains {status:PlusCoinValueUp} for a turn if the last coin on her S3 staggers or kills her target."
+    }
 }

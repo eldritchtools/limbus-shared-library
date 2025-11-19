@@ -290,5 +290,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Uses {status:Bullet} to apply high stacks of debuffs.",
+        "full": "Starts with 13 {status:Bullet}. She spends 2 {status:Bullet} on her S2 to inflict 8 Potency and 2 Count of {status:Vibration} per {status:Bullet} and 3 on her S3 to inflict 4 Potency and 2 Count of {status:Burst} each for the first two and 5 {status:Vulnerable} on the last {status:Bullet}. She also applies 3 {status:Paralysis} on her S1, 1 {status:Reduction} on her S2, and {status:VibrationExplosion} on her S3 regardless of her remaining {status:Bullet}.\n\nShe also gains {status:Aggro} on her S1 and defense skills."
+    }
 }

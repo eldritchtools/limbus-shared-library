@@ -327,5 +327,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gives self {status:Agility} while inflicting {status:Binding} on targets. Stronger against slower targets.",
+        "full": "Her S1 and S2 both give her {status:Agility}, while her S2 and S3 both inflict {status:Binding}. She's stronger against slower enemies. Her evade heals her SP on evade."
+    }
 }

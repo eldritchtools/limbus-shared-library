@@ -307,5 +307,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Applies some {status:Vibration} and a lot of {status:Sinking}. Has a high base power evade skill.",
+        "full": "Inflicts {status:Vibration} and {status:Sinking}. Also gains {status:Vibration} Count on S1(+6) and S2(+2) and spends it on S3 to gain Coin Power and inflict 1 {status:Vulnerable} at 5 Count and 3 at 10 Count. Has a high base power evade skill."
+    }
 }

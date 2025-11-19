@@ -295,5 +295,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gain buffs at less than 50% HP. S3 heals self on crit at less than 25% HP.",
+        "full": "At less than 50% HP, her S1 gives additional {status:Breath}, her S2's coins gain Coin Reuse, and she gains additional {status:Breath} generation. Her S3 also heals her on crit at less than 25% HP."
+    }
 }
