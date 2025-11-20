@@ -1,0 +1,411 @@
+{
+    "skills": {
+        "1031301": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Breakthrough",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Breakthrough",
+                    "desc": "If target has 6+ ([Burst] + [Sinking]), Coin Power +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Breakthrough",
+                    "desc": "If target has [CrushMarks], deal +25% damage\nCoin Power +1 for every 6 ([Burst] + [Sinking]) on target (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1031302": {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Seize the Momentum, Shatter the Wall",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Seize the Momentum, Shatter the Wall",
+                    "desc": "If target has 6+ ([Burst] + [Sinking]), Coin Power +1\n[StartBattle] If this unit has [GrownHorns], convert the last Coin of this Skill into [SuperCoin]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [Sinking]",
+                            "[OnSucceedAttack] Deal Slash damage equal to 5% of this Coin's final damage for every [GrownHorns] Stack on this unit (max 15%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Seize the Momentum, Shatter the Wall",
+                    "desc": "Coin Power +1 for every 6 ([Burst] + [Sinking]) on target (max 2)\n[StartBattle] If this unit has [GrownHorns], convert the last Coin of this Skill into [SuperCoin]; the last Coin deals +5% damage for every [GrownHorns] Stack on this unit (max 15%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]",
+                            "[OnSucceedAttack] Deal Slash damage equal to 10% of this Coin's final damage for every [GrownHorns] Stack on this unit (max 30%)"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1031303": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 2,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Crushing Horns [\u7834\u788e\u89d2]",
+                    "desc": "If target has 6+ ([Burst] + [Sinking]), Coin Power +1\n[StartBattle] If this unit has [GrownHorns], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [GrownHorns]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                            "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
+                        ],
+                        [
+                            "- If target has any of the Panic type changing effects, +5% damage for every Stack (max 15%)",
+                            "[OnSucceedAttack] Deal (25% of this Coin's final damage) Slash damage",
+                            "[OnSucceedAttack] Inflict 3 [CrushMarks] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Crushing Horns [\u7834\u788e\u89d2]",
+                    "desc": "Coin Power +1 for every 6 ([Burst] + [Sinking]) on target (max 2)\n[StartBattle] If this unit has [GrownHorns], convert all Coins of this Skill into [SuperCoin] and deal +10% damage for every [GrownHorns] Stack on this unit (max 30%)\n[WhenUse] Gain 3 [GrownHorns]",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count",
+                            "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
+                        ],
+                        [
+                            "- If target has any of the Panic type changing effects, +10% damage for every Stack (max 30%)",
+                            "[OnSucceedAttack] Deal (25% of this Coin's final damage) Slash damage\n- If target has [CrushMarks], strengthen this effect and deal (50% of this Coin's final damage) Slash damage instead",
+                            "[OnSucceedAttack] Inflict 3 [CrushMarks] next turn\n- If target has any of the Panic type changing effects, inflict +3 [Sinking] Count (once per turn)"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1031304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "blunt",
+                    "defType": "counter",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 5,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "I shall crush all that standeth in our way!",
+                    "desc": "[DuelCounter] \n[WhenUse] Gain 3 [GrownHorns] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "I shall crush all that standeth in our way!",
+                    "desc": "[DuelCounter]\nFinal Power +1 for every 3 ([Burst] + [Sinking]) on target (max 3)\n[WhenUse] Gain 3 [GrownHorns] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Sinking]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1031302
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1031302,
+                1031301
+            ]
+        },
+        {
+            "level": 4,
+            "passives": [
+                1031302,
+                1031311
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1031321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1031321": {
+            "name": "Flesh-Rending Horn Growth",
+            "desc": "Ally with the fastest Speed: On Hit with a Base Attack Skill against enemies with 2+ [Burst] Count or [Sinking] Count, inflict 1 [DefenseDown] (2 times per turn)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    },
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1031301": {
+            "name": "Explosive Battering Ram",
+            "desc": "Deal +1% damage for every 2 ([Burst] + [Sinking]) on target (max 15%)\n- Double this effect and max value against targets without SP\n\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deals +10% damage\n- When attacking Skill Slot equipped with a Defense Skill, the last coin deals +20% damage instead\n- When Clashing with a Clashable Guard Skill, Clash Power +1",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    },
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1031302": {
+            "name": "Lament of the Lost Sheep [\u4ea1\u7f8a\u4e4b\u5606]",
+            "desc": "When activating [HeishouCombo], The Lord of Hongyuan Hong Lu gains the following effect as the [HeishouComboCountHonglu] effect:\n- Inflict 1 [Sinking] upon inflicting [Burst] Potency or Count by using a Skill (3 times per turn)\n\nOn the turn this unit Substituted or Returned to the field, gain 3 [GrownHorns]"
+        },
+        "1031311": {
+            "name": "Explosive Battering Ram",
+            "desc": "Deal (-Target's SP / 3)% more damage against targets at less than 0 SP (max 15%, rounded down)\n\nDeal +1% damage for every 2 ([Burst] + [Sinking]) on target (max 15%)\n- Double this effect and max value against targets without SP\n\nIf this unit has [GrownHorns], the last coin of this unit's Base Skills deals +15% damage\n- When attacking Skill Slot equipped with a Defense Skill, the last coin deals +30% damage instead\n- When Clashing with a Clashable Guard Skill, Clash Power +3",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    },
+                    {
+                        "type": "gloom",
+                        "value": 3
+                    }
+                ]
+            }
+        }
+    },
+    "notes": {}
+}

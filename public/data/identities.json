@@ -3585,6 +3585,102 @@
         ],
         "name": "Lobotomy E.G.O:: In the Name of Love and Hate"
     },
+    "10313": {
+        "date": "2025-11-20",
+        "tags": [
+            "H Corp.",
+            "Heishou Pack",
+            "Heishou Pack - Wei Branch"
+        ],
+        "skillKeywordList": [
+            "Rupture",
+            "Sinking"
+        ],
+        "sinnerId": 3,
+        "season": 6,
+        "rank": 3,
+        "hp": {
+            "base": 82,
+            "level": 2.82
+        },
+        "speedList": [
+            [
+                2,
+                5
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            65,
+            35
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 2,
+            "blunt": 1
+        },
+        "defenseSkillTypes": [
+            {
+                "id": 1031304,
+                "type": {
+                    "tier": 1,
+                    "affinity": "gluttony",
+                    "type": "counter",
+                    "atkType": "blunt"
+                }
+            }
+        ],
+        "skillTypes": [
+            {
+                "id": 1031301,
+                "num": 3,
+                "type": {
+                    "tier": 1,
+                    "affinity": "lust",
+                    "type": "blunt"
+                }
+            },
+            {
+                "id": 1031302,
+                "num": 2,
+                "type": {
+                    "tier": 2,
+                    "affinity": "gluttony",
+                    "type": "blunt"
+                }
+            },
+            {
+                "id": 1031303,
+                "num": 1,
+                "type": {
+                    "tier": 3,
+                    "affinity": "gloom",
+                    "type": "blunt"
+                }
+            }
+        ],
+        "keywordTags": [
+            "Burst",
+            "CrushMarks",
+            "DefenseDown",
+            "GrownHorns",
+            "HeishouCombo",
+            "HeishouComboCountHonglu",
+            "Sinking",
+            "SuperCoin"
+        ]
+    },
     "10401": {
         "date": "2023-02-27",
         "tags": [
@@ -8447,6 +8543,112 @@
             "WOverCharge"
         ],
         "name": "W Corp. L4 Cleanup Agent - CCA"
+    },
+    "10714": {
+        "date": "2025-11-20",
+        "tags": [
+            "H Corp.",
+            "Heishou Pack",
+            "Heishou Pack - You Branch",
+            "Heishou Pack Adept"
+        ],
+        "skillKeywordList": [
+            "Burn",
+            "Rupture"
+        ],
+        "sinnerId": 7,
+        "season": 6,
+        "rank": 3,
+        "hp": {
+            "base": 92,
+            "level": 2.51
+        },
+        "speedList": [
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                4,
+                7
+            ],
+            [
+                4,
+                7
+            ]
+        ],
+        "breakSection": [
+            70
+        ],
+        "resists": {
+            "slash": 0.5,
+            "pierce": 1,
+            "blunt": 2
+        },
+        "defenseSkillTypes": [
+            {
+                "id": 1071404,
+                "type": {
+                    "tier": 1,
+                    "affinity": "gluttony",
+                    "type": "counter",
+                    "atkType": "slash"
+                }
+            }
+        ],
+        "skillTypes": [
+            {
+                "id": 1071401,
+                "num": 3,
+                "type": {
+                    "tier": 1,
+                    "affinity": "envy",
+                    "type": "slash"
+                }
+            },
+            {
+                "id": 1071402,
+                "num": 2,
+                "type": {
+                    "tier": 2,
+                    "affinity": "gluttony",
+                    "type": "slash"
+                }
+            },
+            {
+                "id": 1071403,
+                "num": 1,
+                "type": {
+                    "tier": 3,
+                    "affinity": "wrath",
+                    "type": "slash"
+                }
+            },
+            {
+                "id": 1071405,
+                "num": 0,
+                "type": {
+                    "tier": 3,
+                    "affinity": "wrath",
+                    "type": "slash"
+                }
+            }
+        ],
+        "keywordTags": [
+            "Burst",
+            "ChickenFightlust",
+            "ChickenStance",
+            "Combustion",
+            "HeishouCombo",
+            "HeishouComboCountHonglu",
+            "ParryingResultUp",
+            "SuperCoin",
+            "WideAreaRampage"
+        ]
     },
     "10801": {
         "date": "2023-02-27",

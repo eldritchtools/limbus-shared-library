@@ -68,7 +68,7 @@
                 "uptie": 4,
                 "name": "To Remain Oneself [\u5b81\u4f5c\u543e]",
                 "abName": "Ling",
-                "desc": "[WhenUse] Gain 4 [Breath]\n[BeforeAttack] Final Power +1 for every 5 ([Breath] Potency + [Breath] Count) (max 3)\n[BeforeAttack] If this unit does not have [Cianjing] or [SeniorCianjing], recuperate half of E.G.O resources and SP consumed by this Skill (rounded down)\n[BeforeAttack] If this unit has [Cianjing], gain +1 Atk Weight and deal +25% damage\n[BeforeAttack] If this unit has [SeniorCianjing], gain +2 Atk Weight and deal +45% damage\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
+                "desc": "[WhenUse] Gain 4 [Breath]\n[BeforeAttack] Final Power +1 for every 5 ([Breath] Potency + [Breath] Count) (max 3)\n[BeforeAttack] If this unit does not have [Cianjing] or [SeniorCianjing], recuperate half of E.G.O resources and SP consumed by this Skill (rounded down; this effect applies to Corrosion Skill as well if it activated due to the \"To Corrode\" probability when using the Awakening Skill)\n[BeforeAttack] If this unit has [Cianjing], gain +1 Atk Weight and deal +25% damage\n[BeforeAttack] If this unit has [SeniorCianjing], gain +2 Atk Weight and deal +45% damage\n[EndSkill] Gain 5 [Cianjing]\n- If this unit has [Cianjing] or [SeniorCianjing], consume all of it and gain 5 [SeniorCianjing]",
                 "coinDescs": [
                     [],
                     [

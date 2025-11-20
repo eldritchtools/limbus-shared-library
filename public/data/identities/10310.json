@@ -200,7 +200,7 @@
                 {
                     "uptie": 3,
                     "name": "I Shall Impale",
-                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 10)\n[WhenUse] Clash Power +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] If target has 10+ [Laceration], Coin Power +1\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +10% damage for every 100 [BloodDinner_Accumulation] by self (max 50%)\n[EndSkill] If target is defeated, increase [BloodDinner] by 30; gain 10 [BloodArmorPersonalityFirst] (once per turn)",
+                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 10)\n[WhenUse] Clash Power +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] If target has 10+ [Laceration], Coin Power +1\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\nDeal +5% damage for every [Laceration] on target (max 50%)\nDeal +10% damage for every 100 [BloodDinner_Accumulation] by self (max 50%)\n[EndSkill] If target is defeated, increase [BloodDinner] by 30; gain 10 [BloodArmorPersonalityFirst] (once per turn)",
                     "coinDescs": [
                         [],
                         [],
@@ -212,7 +212,7 @@
                 {
                     "uptie": 4,
                     "name": "I Shall Impale",
-                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 10)\n[WhenUse] Clash Power +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Accumulation] by self (max 100%)\n[EndSkill] If target is defeated, increase [BloodDinner] by 60; gain 10 [BloodArmorPersonalityFirst] (once per turn)",
+                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 10)\n[WhenUse] Clash Power +1 for every 10 [BloodArmorPersonalityFirst] (max 2)\n[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Consume up to 50 [BloodDinner] and gain 1 [BloodArmorPersonalityFirst] for every 10 [BloodDinner] consumed\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration]\nDeal +5% damage for every [Laceration] on target (max 50%)\nDeal +20% damage for every 100 [BloodDinner_Accumulation] by self (max 100%)\n[EndSkill] If target is defeated, increase [BloodDinner] by 60; gain 10 [BloodArmorPersonalityFirst] (once per turn)",
                     "coinDescs": [
                         [],
                         [],
@@ -455,7 +455,7 @@
                 {
                     "uptie": 3,
                     "name": "Ascendant Sancho Hardblood Arts - La Sangre",
-                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Base Power +1 for every 10 [BloodArmorPersonalityFirst] on self (max 2)\n[WhenUse] If target has 10+ [Laceration], Coin Power +1\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every 10 [BloodArmorPersonalityFirst]\n[EndSkill] If target is defeated, increase [BloodDinner] by 50. Regain half of [BloodArmorPersonalityFirst] consumed by this Skill (once per turn)",
+                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Base Power +1 for every 10 [BloodArmorPersonalityFirst] on self (max 2)\n[WhenUse] If target has 10+ [Laceration], Coin Power +1\nDeal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every 10 [BloodArmorPersonalityFirst]\n[EndSkill] If target is defeated, increase [BloodDinner] by 50. Regain half of [BloodArmorPersonalityFirst] consumed by this Skill (once per turn)",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
@@ -476,7 +476,7 @@
                 {
                     "uptie": 4,
                     "name": "Ascendant Sancho Hardblood Arts - La Sangre",
-                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Base Power +1 for every 10 [BloodArmorPersonalityFirst] on self (max 3)\n[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Deal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every 10 [BloodArmorPersonalityFirst]\n[EndSkill] If target is defeated, increase [BloodDinner] by 100. Regain half of [BloodArmorPersonalityFirst] consumed by this Skill (once per turn)",
+                    "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 20)\n[WhenUse] Base Power +1 for every 10 [BloodArmorPersonalityFirst] on self (max 3)\n[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\nDeal +5% damage for every [Laceration] on target (max 50%)\n[WhenUse] Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)\n[EndSkill] Consume 10 [BloodArmorPersonalityFirst] for every 10 [BloodArmorPersonalityFirst]\n[EndSkill] If target is defeated, increase [BloodDinner] by 100. Regain half of [BloodArmorPersonalityFirst] consumed by this Skill (once per turn)",
                     "coinDescs": [
                         [
                             "[SuperCoin]"
