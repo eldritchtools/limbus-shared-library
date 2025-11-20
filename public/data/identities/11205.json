@@ -181,7 +181,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2;\nSpend up to 4 [Charge] Count to inflict [Burst] Count equal to [Charge] Count spent"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2 and consume up to 4 [Charge] Count on self to inflict [Burst] Count equal to [Charge] Count consumed"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -199,7 +199,7 @@
                     "desc": "If target has 5+ [Vibration] Count, Coin Power +1",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2;\nSpend up to 4 [Charge] Count to inflict [Burst] Count equal to [Charge] Count spent"
+                            "[OnSucceedAttack] Trigger [Vibration] Burst, then reduce [Vibration] Count by 2 and consume up to 4 [Charge] Count on self to inflict [Burst] Count equal to [Charge] Count consumed"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]",

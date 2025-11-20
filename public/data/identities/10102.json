@@ -169,10 +169,10 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                            "[OnSucceedAttack] Final Coin inflicts +1 more Stack of its effect"
                         ],
                         [
-                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                            "[OnSucceedAttack] Final Coin inflicts +1 more Stack of its effect"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn"
@@ -185,10 +185,10 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                            "[OnSucceedAttack] Final Coin inflicts +1 more Stack of its effect"
                         ],
                         [
-                            "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
+                            "[OnSucceedAttack] Final Coin inflicts +1 more Stack of its effect"
                         ],
                         [
                             "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn",
