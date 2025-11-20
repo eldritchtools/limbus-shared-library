@@ -309,7 +309,7 @@
         },
         "1090811": {
             "name": "Burning Passion",
-            "desc": "Deal +10% damage for every 6 [Combustion] Potency on target (Max 30%)\nCombat Start: If all enemies have 6+ [Combustion] Potency, apply 1 [CrimsonDamageUp] to (highest Wrath A-Reson.) allies in Deployment order\n- In Focused Encounters, the above activates when all enemy Parts have 6+ [Combustion] Potency\n- If the ally is a Liu Association Fixer, apply 1 Attack Power Up",
+            "desc": "Deal +10% damage for every 6 [Combustion] Potency on target (Max 30%)\nCombat Start: If all enemies have 6+ [Combustion] Potency, apply 1 [CrimsonDamageUp] to (highest Wrath A-Reson.) allies in Deployment order\n- In Focused Encounters, the above activates when all enemy Parts have 6+ [Combustion] Potency\n- If the ally is a Liu Association Fixer, apply 1 [Enhancement]",
             "condition": {
                 "type": "res",
                 "requirement": [
@@ -334,5 +334,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Combustion} identity. Has bonuses against enemies with at least 6 Potency.",
+        "full": "Straightforward {status:Combustion} skills. S2 has some {status:Combustion} spreading to other targets. S3 has bonus damage based on {status:Combustion}. Her passive buffs her damage and the {keyword:Wrath} damage of allies if enemies have 6+ {status:Combustion} Potency. Liu Association allies also get {status:Enhancement}."
+    }
 }

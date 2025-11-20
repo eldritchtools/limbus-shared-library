@@ -267,5 +267,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Inflicts various debuffs on her target.",
+        "full": "Inflicts {status:Paralysis} with her S1 and S3, {status:Disarming} on her S2 and S3, and {status:DefenseDown} on her S3."
+    }
 }

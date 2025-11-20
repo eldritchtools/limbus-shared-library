@@ -68,7 +68,7 @@
                 {
                     "uptie": 4,
                     "name": "Careful Obstruction",
-                    "desc": "[WhenUse] Gain +2 Aggro to this Skill Slot next turn\n[DefeatDuel] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[DefeatDuel] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +1 [Breath] Count"
@@ -137,7 +137,7 @@
                 {
                     "uptie": 4,
                     "name": "Focused Defense",
-                    "desc": "[WhenUse] At 15+ Shield, gain +2 [Breath] Count\n[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] At 15+ Shield, gain +2 [Breath] Count\n[WhenUse] Gain +4 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +2 [Breath] Count"
@@ -233,7 +233,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[WhenUse] Gain +5 Aggro to this Skill Slot next turn"
+                            "[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn"
                         ]
                     ]
                 }
@@ -284,5 +284,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gains {status:Aggro} and some {status:Breath}. Gains shields based on {status:Breath}.",
+        "full": "Gains {status:Aggro} from her skills. Gains shield based on {status:Breath} Count, which she builds through her skills. S3 inflicts {status:Vulnerable}."
+    }
 }
