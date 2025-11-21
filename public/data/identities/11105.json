@@ -322,5 +322,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Vibration} identity with {status:Discard}. Has 3 {status:VibrationExplosion} on her S3. Deals bonus damage when triggering {status:VibrationExplosion}.",
+        "full": "S2, S3, and defend {status:Discard} skills and any S1 discarded gives her +4 {status:Vibration} Count. She also gets 2 Count when using her S1. Her S3 can consume 10 Count to gain Coin Power and additional {status:Vibration} Count application. She triggers 3 {status:VibrationExplosion}s on her S3 and if her passive is active, every {status:VibrationExplosion} deals bonus {keyword:Sloth} damage."
+    }
 }

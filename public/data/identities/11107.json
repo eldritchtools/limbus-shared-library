@@ -339,5 +339,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Builds {status:FreischutzShotCount} using her S2, S3, defense skill, or by using {ego:21108}. Her S3 gains Power and atk weight based on the stacks. Resets to 0 if her S3 is used at 7 stacks. Inflicts {status:DarkFlame} on her targets, inflicting {status:DefenseDown} and dealing bonus {keyword:Pride} damage based on their {status:Combustion}.",
+        "full": "Gains 1 {status:FreischutzShotCount} for every use of S2, S3, or her defense. S2 can't bring her above 4 stacks. Her S3's Base and Coin Power changes depending on her number of stacks. At 0-3, it's 15 +4. At 4-6, it's 17 +6. At 7, it's 30 +10. It also changes its atk weight to the value of her stacks, but she loses 5 SP per stack above 1 and if her SP hits 10 or lower, she has a 50% chance to attack indiscriminately. This means at 7 stacks, she needs to be at 41 or above SP for her not to attack indiscriminately. It will also consume all her {status:FreischutzShotCount} if she uses it at 7 stacks. This counts as 'spending' her last ammo for any relevant passives from other identities.\n\nHer skills also inflict {status:DarkFlame} (1 from S1, and equal to her {status:FreischutzShotCount} stacks for S2 and S3), which inflicts {status:DefenseDown} and {keyword:Pride} damage based on {status:Combustion} Potency depending on the stacks of {status:DarkFlame}.\n\nHer passive gives her {status:Breath} before attacking based on the enemy's {status:Combustion} if they have 4 or more {status:DefenseDown}.\n\n{ego:21108} interacts with her mechanics, generating {status:FreischutzShotCount} based on Reson and inflicting {status:DarkFlame}."
+    }
 }

@@ -201,7 +201,7 @@
                 {
                     "uptie": 3,
                     "name": "Foregone Conclusion",
-                    "desc": "[WhenUse] Gain 1 [Breath] per 3 [Laceration] on target (Max 5)\nAt 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u>, Coin Power +1",
+                    "desc": "[WhenUse] Gain 1 [Breath] per 3 [Laceration] on target (Max 5)\nAt 7+ [Breath], Coin Power +1",
                     "coinDescs": [
                         [
                             "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count"
@@ -215,7 +215,7 @@
                 {
                     "uptie": 4,
                     "name": "Foregone Conclusion",
-                    "desc": "[WhenUse] Gain 1 [Breath] for every 3 [Laceration] on target (Max 10)\nGain Coin Power +1 for every 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u> on self (Max +3)",
+                    "desc": "[WhenUse] Gain 1 [Breath] for every 3 [Laceration] on target (Max 10)\nGain Coin Power +1 for every 7 [Breath] on self (Max +3)",
                     "coinDescs": [
                         [
                             "[CriticalOnSucceedAttack] Inflict +2 [Laceration] Count"
@@ -312,7 +312,7 @@
         },
         "1120701": {
             "name": "Bullets are Pricey",
-            "desc": "- On Heads Hit against target with [Laceration], gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n- If this unit Critical Hits when out of [Bullet], spend all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage.",
+            "desc": "- On Heads Hit against target with [Laceration], gain [Unjust_Enrichment]. (Max 4)\n- If this unit Critical Hits when out of [Bullet], spend all [Unjust_Enrichment] and deal additional (5 x [Unjust_Enrichment] consumed)% of damage dealt as bonus damage.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -325,7 +325,7 @@
         },
         "1120702": {
             "name": "Bullets are Pricey",
-            "desc": "- Always Active : begin encounters with 7 [Bullet]\n- On Heads Hit against target with [Laceration], gain <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u>. (Max 4)\n If a Coin that uses [Bullet] Hits, consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (25 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage as bonus damage.\n- If this unit Critical Hits when out of [Bullet], consume all <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> and deal additional (5 x <sprite name=\"Unjust_Enrichment\"><color=#f8c200><u><link=\"Unjust_Enrichment\">Unjust Enrichment</color></link></u> consumed)% of damage dealt as bonus damage.",
+            "desc": "- Always Active : begin encounters with 7 [Bullet]\n- On Heads Hit against target with [Laceration], gain [Unjust_Enrichment]. (Max 4)\n If a Coin that uses [Bullet] Hits, consume all [Unjust_Enrichment] and deal additional (25 x [Unjust_Enrichment] consumed)% of damage as bonus damage.\n- If this unit Critical Hits when out of [Bullet], consume all [Unjust_Enrichment] and deal additional (5 x [Unjust_Enrichment] consumed)% of damage dealt as bonus damage.",
             "condition": {
                 "type": "owned",
                 "requirement": [
@@ -337,5 +337,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gains {status:Unjust_Enrichment} on Heads hit against targets with {status:Laceration}. Consumes all stacks to deal bonus damage on his S3.",
+        "full": "Starts an encounter with 7 {status:Bullet}. When his passive is active he gains 1 {status:Unjust_Enrichment} on Heads hit against targets with {status:Laceration}, stacking up to 4. His S3 consumes 1 {status:Bullet} on its 2nd coin, then he consumes all stacks of {status:Unjust_Enrichment} to deal bonus damage on that coin. If he is at 0 {status:Bullet}, his 2nd coin will only consume {status:Unjust_Enrichment} if he crits and its bonus damage will be reduced. He also gains {status:PlusCoinValueUp} on kill with the second coin of his S3."
+    }
 }

@@ -59,7 +59,7 @@
                 {
                     "uptie": 4,
                     "name": "Shove",
-                    "desc": "[WhenUse] Gain 2 [Breath] Count\nAt 7+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></color></link></u>, Coin Power +1",
+                    "desc": "[WhenUse] Gain 2 [Breath] Count\nAt 7+ [Breath], Coin Power +1",
                     "coinDescs": [
                         [
                             "[CriticalOnSucceedAttack] Target loses 8 SP"

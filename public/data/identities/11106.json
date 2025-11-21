@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Marche",
-                    "desc": "[WhenUse] Gain 2 [Agility] next turn\n[WhenUse] This slot gains 1 Aggro next turn",
+                    "desc": "[WhenUse] Gain 2 [Agility] next turn\n[WhenUse] This slot gains 1 [Aggro] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +1 [Breath] Count"
@@ -68,7 +68,7 @@
                 {
                     "uptie": 4,
                     "name": "Marche",
-                    "desc": "[WhenUse] Gain 2 [Agility] next turn\n[WhenUse] This Skill Slot gains 3 Aggro next turn",
+                    "desc": "[WhenUse] Gain 2 [Agility] next turn\n[WhenUse] This Skill Slot gains 3 [Aggro] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +1 [Breath] Count"
@@ -135,7 +135,7 @@
                 {
                     "uptie": 2,
                     "name": "Punition",
-                    "desc": "If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count\n[WhenUse] This Skill Slot gains 2 Aggro next turn",
+                    "desc": "If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count\n[WhenUse] This Skill Slot gains 2 [Aggro] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]"
@@ -148,7 +148,7 @@
                 {
                     "uptie": 4,
                     "name": "Punition",
-                    "desc": "If this unit's Speed is faster than the target's, Coin Power +2\n[WhenUse] Gain +2 [Breath] Count\n[WhenUse] This Skill Slot gains 4 Aggro next turn",
+                    "desc": "If this unit's Speed is faster than the target's, Coin Power +2\n[WhenUse] Gain +2 [Breath] Count\n[WhenUse] This Skill Slot gains 4 [Aggro] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 2 [Breath]"
@@ -334,5 +334,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Applies {status:DuelDeclaration_Outis} to give her Clash Power and {status:Agility} on hit.",
+        "full": "Her S3 applies {status:DuelDeclaration_Outis} increasing her Clash Power and giving her 1 {status:Agility} on hit on that target. The debuff expires when she applies it to another target or if another sinner applies another Declared Duel on the same enemy. She gains Coin Power on her S2 if she's faster than her target. She gains {status:Aggro} with her S1 and S2."
+    }
 }

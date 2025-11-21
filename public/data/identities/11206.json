@@ -145,7 +145,7 @@
                 {
                     "uptie": 2,
                     "name": "Flexible Suppression",
-                    "desc": "[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] Gain +2 Aggro to this Skill Slot next turn",
+                    "desc": "[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [DefenseUp] next turn"
@@ -162,7 +162,7 @@
                 {
                     "uptie": 4,
                     "name": "Flexible Suppression",
-                    "desc": "[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn\nAt 6+ [DefenseUp], Clash Power +1",
+                    "desc": "[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\nAt 6+ [DefenseUp], Clash Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [DefenseUp] next turn"
@@ -271,7 +271,7 @@
                 {
                     "uptie": 4,
                     "name": "The Best Defense",
-                    "desc": "[StartBattle] Gain Shield by (2 * [DefenseUp] on self)\n[WhenUse] Gain +5 Aggro to this Skill Slot next turn",
+                    "desc": "[StartBattle] Gain Shield by (2 * [DefenseUp] on self)\n[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn",
                     "coinDescs": [
                         []
                     ]
@@ -323,5 +323,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Gains {status:Aggro}. Gains {status:DefenseUp} and applies it to allies. Gains more Power and damage with {status:DefenseUp}",
+        "full": "Gains {status:Aggro} on his S2 and defense. Gains {status:DefenseUp} for a turn from his S1(+2, +4 on clash lose), S2(+5), S3(+6). His passive also gives him +2 stacks if targeted by 2 or more attacks and +3 if at 50% or less HP. The {status:DefenseUp} he gains from his S3 is for his entire party and he also gives 2 {status:Endurance} to everyone. At 6+ {status:DefenseUp}, his S2 gains Clash Power and damage and his S3 gains Coin Power. At 10+ stacks, his S3 deals more damage."
+    }
 }

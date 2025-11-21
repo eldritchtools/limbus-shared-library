@@ -342,5 +342,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Inflicts random debuffs with her S3 and passive. Gains buffs depending on number of debuffs on her target.",
+        "full": "Using her S3 or triggering her passive randomly applies {status:Combustion}, {status:Laceration}, {status:Vibration}, {status:Burst}, or {status:Sinking}. Her S2 gains Coin Reuses and {status:Laceration} Count application and her S3 gains damage depending on the number of debuffs on the target. Her S3 also gives her allies {status:Agility} on use and {status:PenetrateDamageUp} on stagger or kill and an additional {status:PenetrateResultUp} if it's another Ring identity.\n\nHer support passive heals SP on kills for {status:Laceration} teams."
+    }
 }

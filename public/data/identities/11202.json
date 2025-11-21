@@ -320,5 +320,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Combustion} identity. Inflicts a lot of {status:Combustion} Potency, but no Count.",
+        "full": "See short version above."
+    }
 }

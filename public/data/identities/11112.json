@@ -324,5 +324,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Standard Heishou (S3 or defense gives a 3 turn buff, works with {identity:10613} mechanics) mechanics. All skills buffed at 10+ speed, use S3 at the start or at 10+ speed.",
+        "full": "Using her S3 or her defense gives her {status:LegStrength} which gives her 5 {status:Agility} every turn for 3 turns. At 10+ Speed, her S1 and S3 gain a coin reuse and her S2 deals more damage. Her S3 will also inflict an additional stack of {status:BurstAgility}. Her conditionals are dependent on her speed difference from her target's, so she'll always need {status:LegStrength} to be active. Her passive just gives bonus damage if she has {status:LegStrength} and her target has {status:BurstAgility}.\n\n{status:BurstAgility} inflicts {status:Burst} Count on the target if a unit with 10+ speed triggers {status:Burst} on it up to 3 times, then deals bonus {keyword:Gluttony} damage on it based on its {status:Burst} when all 3 times are consumed. It basically prevents its {status:Burst} Count from going down for those 3 hits. Any additional applications of {status:BurstAgility} won't work until it's fully consumed.\n\nHer S2 and S3 inflict more {status:Burst} Count if she uses it unopposed.\n\nHer buff for {identity:10613} is inflict {status:Burst} Count on hit with an unopposed attack (once per turn)."
+    }
 }

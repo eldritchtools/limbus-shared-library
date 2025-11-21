@@ -284,5 +284,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Inflicts {status:Laceration} and {status:Paralysis} and heals self on his S3. Passive heals him every turn. Support passive heals an ally every turn.",
+        "full": "See short version above."
+    }
 }

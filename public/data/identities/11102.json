@@ -273,5 +273,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Straightforward {status:Breath} identity",
+        "full": "Gains {status:Breath} and deals damage."
+    }
 }

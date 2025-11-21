@@ -285,5 +285,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "{status:Aggro} tank with some {status:Protection}, {status:Vibration}, and some debuffs.",
+        "full": "Gains {status:Aggro} with S2, S3, and defense. Gains {status:Protection} and can give allies {status:DefenseUp} and {status:Protection} with his passive. His S2 and S3 inflict {status:AttackDmgDown} and {status:HitTakeDamageUp} respectively."
+    }
 }

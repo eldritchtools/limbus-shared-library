@@ -292,5 +292,8 @@
             }
         }
     },
-    "notes": {}
+    "notes": {
+        "short": "Inflicts {status:Burst} and heals self on his skills. Passive heals him on clash win at less than 25% HP.",
+        "full": "See short version above."
+    }
 }
