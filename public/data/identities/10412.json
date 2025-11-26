@@ -514,7 +514,7 @@
             "{status:ContemptRyoshu} reduces damage dealt to and received from {sinner:4} by 50%.",
             "{status:GazePersonality} increases any damage she deals by 7% per stack (49% at max stacks) and increases her {status:GazeRyoshu} on hit by +1.",
             "{status:ContemptPersonality} gives her 7 {status:Protection} and {status:AttackDmgDown} and 20 {status:Aggro} for a turn, making her very weak but tanky during that turn. She also reflects a bit of damage taken as {keyword:Sloth} damage.",
-            "Both versions of S3 trigger {status:Switch_Vibration} into {status:VibrationBleeding} causing any {status:VibrationExplosion} to deal bonus {keyword:Lust} damage based on the average of their {status:Tremor} and {status:Laceration} Potencies.",
+            "Both versions of S3 trigger {status:Switch_Vibration} into {status:VibrationBleeding} causing any {status:VibrationExplosion} to deal bonus {keyword:Lust} damage based on the average of their {status:Vibration} and {status:Laceration} Potencies.",
             "Her defense skill gets a significant buff while she has {status:ContemptPersonality} if you want to use it to help her tank the damage for that turn. She can also gain {status:ContemptPersonality} by using it (if she didn't already have it) when the enemies have the 7 cumulative {status:GazeRyoshu} or at least 1 {status:ContemptRyoshu}.",
             "She also gets {status:ContemptPersonality} the first time she gets staggered."
         ]
