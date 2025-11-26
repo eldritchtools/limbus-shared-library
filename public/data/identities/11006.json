@@ -303,7 +303,12 @@
         }
     },
     "notes": {
-        "short": "Gains {status:Talisman} then passes them to an enemy. Having the status gives {status:Burst} application at the cost of Count on hit, but also gain {status:Burst} when hit.",
-        "full": "Gains {status:Talisman} with his S1, S2 and defense. At 5 stacks, his S3 can pass his stacks to his target. At 6+ stacks, it expires at the end of the turn and deals damage equal to the stack. Having the status causes attacks to inflict half of the target's current {status:Burst} stack as additional Potency at the cost of {status:Burst} Count, but it also causes hits received to inflict the same {status:Burst} on self at the cost of a stack of {status:Talisman} instead of {status:Burst} Count.\n\nAssuming his passive isn't activated, using his S2 when the target is at 0 or low {status:Burst} count is enough to give him exactly 5 {status:Talisman} which should let him use his S3's effect on the following turn."
+        "main": [
+            "Gains {status:Talisman} with his skills. At 5 stacks, his S3 can pass his stacks to his target.",
+            "Assuming his passive isn't activated, using his S2 when the target is at 0 or low {status:Burst} count is enough to give him exactly 5 {status:Talisman} which should let him use his S3's effect on the following turn."
+        ],
+        "other": [
+            "{status:Talisman} causes attacks to inflict half of the target's current {status:Burst} stack as additional Potency at the cost of {status:Burst} Count, but it also causes hits received to inflict the same {status:Burst} on self at the cost of a stack of {status:Talisman} instead of {status:Burst} Count. At 6+ stacks, it expires at the end of the turn and deals damage equal to the stack."
+        ]
     }
 }

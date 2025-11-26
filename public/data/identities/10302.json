@@ -274,7 +274,9 @@
         }
     },
     "notes": {
-        "short": "Build {status:Charge} Count with S1, S2, or passively with {keyword:Gloom} Res. Use S3 at 10+ {status:Charge} Count.",
-        "full": "Generate  {status:Charge} Count with S1(+4), S2(+8), or passively with {keyword:Gloom Res}. Use S3 at 10+ {status:Charge} Count only. It deals a lot of damage to her without even buffing the skill if you don't have enough. Try to use her S2 on the turn before you use the S3 to apply the 2 {status:Vulnerable}."
+        "main": [
+            "Spend 10 {status:Charge} Count on her S3 to gain Coin Power. Gains Count from her S1, S2, or passively with {keyword:Gloom} Res.",
+            "Her S2 applies 2 {status:Vulnerable} on the last coin if it rolls heads."
+        ]
     }
 }

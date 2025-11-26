@@ -319,7 +319,13 @@
         }
     },
     "notes": {
-        "short": "Builds {status:Charge} Count on all her skills. Spends it on her S2 or S3. Inflicts {status:ChargeLoad} on allies increasing the damage of their {status:Charge} consuming skills.",
-        "full": "Gains {status:Charge} Count on her S1(+4), S2(+6), S3(+0-5) and defense(+2). Her S2 consumes 6 Count to gain Coin Power, apply {status:ChargeForceField} to herself and 2 allies, and inflict additional {status:Binding} on her target. Her S3 consumes 15 Count to gain Coin Power.\n\nShe gains {status:Charge} Potency for every 10 Count she spends. This increases the {status:ChargeForceField} applied by her S2. It also lets her S3 apply {status:ChargeLoad} equal to her Potency to Reson allies, increasing the damage of their {status:Charge} consuming skills for the turn. Being at 2+ Potency also allows her to spend 7-14 Count instead of 15 to grant the Coin Power for her S3. Her S3 also gives Count at the end, but the amount is reduced for each Potency she has.\n\nHer passive gives {status:ParryingResultUp} to W Corp. allies depending on her {status:Charge} Potency."
+        "main": [
+            "S2 consumes 6 {status:Charge} Count to gain Coin Power, apply {status:ChargeForceField} to herself and 2 allies, increased by her {status:Charge} Potency, and inflict additional {status:Binding} on her target.",
+            "S3 consumes 15 Count to gain Coin Power. Applies {status:ChargeLoad} equal to her {status:Charge} Potency to Reson allies, increasing the damage of their {status:Charge} consuming skills for the turn. Being at 2+ {status:Charge} Potency will allow her to spend 7-14 Count instead of 15 to get the Coin Power."
+        ],
+        "other": [
+            "Gains {status:Charge} Potency for every 10 Count she spends.",
+            "Her passive gives {status:ParryingResultUp} to W Corp. allies depending on her {status:Charge} Potency."
+        ]
     }
 }

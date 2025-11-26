@@ -343,7 +343,14 @@
         }
     },
     "notes": {
-        "short": "Inflicts {status:MarkOfButler} giving herself {status:Breath} Count and {status:Agility} on hit on the target. Consumes {status:MarkOfButler} on crit to deal bonus damage. Also Reuses S3 on kill with the last coin on any target with {status:MarkOfButler}.",
-        "full": "All attack skills inflict {status:MarkOfButler} on her target, with her defense giving additional SP heal instead. Hitting enemies with {status:MarkOfButler} gives her {status:Breath} Count and {status:Agility}, while critting will consume the {status:MarkOfButler} to deal bonus damage based on her speed over the target's. Her skills gain Power based on speed difference as well, so use {status:MarkOfButler} to give her {status:Agility}."
+        "main": [
+            "Inflicts {status:MarkOfButler} on her targets.",
+            "Killing with her S3's second coin reuses it on another target with {status:MarkOfButler} (max once).",
+            "Passive makes hits on enemies with {status:MarkOfButler} give her {status:Breath} Count and {status:Agility}. Crits consume {status:MarkOfButler} to deal bonus damage based on her speed over the target's."
+        ],
+        "other": [
+            "Heals SP on evade.",
+            "Skills gain Power based on speed difference, making {status:MarkOfButler} useful to give her {status:Agility}."
+        ]
     }
 }

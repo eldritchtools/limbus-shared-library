@@ -376,7 +376,12 @@
         }
     },
     "notes": {
-        "short": "Build {status:Charge} Count with her S1 and S2. Spend 15 Count with S3. Spend HP to cover the missing count at 7-14 Count.",
-        "full": "Gains {status:Charge} Count with her S1(+4) and S2(+7), or when killing an enemy(+3) from her passive. Spend 15 Count with her S3. At 7-14 Count, her S3 will consume HP to cover the missing Count. If her S3's last coin kills the target and she spent 15 Count without consuming HP, she gives {status:ChargeForceField} to herself and an ally. Her S2 can inflict additional {status:SlashTakeDamageUp} to help her get the kill on her S3."
+        "main": [
+            "Spend 15 {status:Charge} Count with her S3 to gain Coin Power. At 7-14 Count, she spends HP to cover for the missing Count. Applies {status:ChargeForceField} to herself and an ally if she spent the full 15 Count and killed with her last coin."
+        ],
+        "other": [
+            "Generates {status:Charge} Count with her S1 and S2. If her passive is active, she gets another +3 on kills.",
+            "S2 inflicts {status:SlashTakeDamageUp} at 10+ Count. Can be used to setup for her S3."
+        ]
     }
 }

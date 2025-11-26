@@ -290,7 +290,12 @@
         }
     },
     "notes": {
-        "short": "Some {status:Laceration} application and self HP healing on kill. S3 deals bonus damage based on target's missing HP.",
-        "full": "Her S3 deals bonus damage based on how much how much HP her target is missing.\n\nShe heals whenever she kills an enemy. The amount is increased for every {status:Thirst} on her, which is gained from her S1 and S2.\n\nHer S2 also inflicts {status:TakeHpHealReduce}."
+        "main": [
+            "S3 deals bonus damage based on how much how much HP her target is missing."
+        ],
+        "other": [
+            "Heals on kill. The amount is increased for every {status:Thirst} on her, which is gained from her S1 and S2.",
+            "S2 inflicts {status:TakeHpHealReduce}."
+        ]
     }
 }

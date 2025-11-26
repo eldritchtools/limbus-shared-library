@@ -280,7 +280,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. Just applies sinking and sometimes fragile.\n\nSupport passive heals SP when SP is lost which is useful for EGO spamming in MD."
+        "main": [
+            "Base identity, simple, straightforward",
+            "Support passive heals SP for an ally who lost SP during the turn, which is useful for E.G.O spamming in MD."
+        ]
     }
 }

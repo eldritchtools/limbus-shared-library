@@ -338,7 +338,13 @@
         }
     },
     "notes": {
-        "short": "Gains {status:Unjust_Enrichment} on Heads hit against targets with {status:Laceration}. Consumes all stacks to deal bonus damage on his S3.",
-        "full": "Starts an encounter with 7 {status:Bullet}. When his passive is active he gains 1 {status:Unjust_Enrichment} on Heads hit against targets with {status:Laceration}, stacking up to 4. His S3 consumes 1 {status:Bullet} on its 2nd coin, then he consumes all stacks of {status:Unjust_Enrichment} to deal bonus damage on that coin. If he is at 0 {status:Bullet}, his 2nd coin will only consume {status:Unjust_Enrichment} if he crits and its bonus damage will be reduced. He also gains {status:PlusCoinValueUp} on kill with the second coin of his S3."
+        "main": [
+            "Starts encounters with 7 {status:Bullet}.",
+            "When his passive is active he gains 1 {status:Unjust_Enrichment} on Heads hit against targets with {status:Laceration}, stacking up to 4.",
+            "S3 consumes 1 {status:Bullet} on its 2nd coin, then he consumes all stacks of {status:Unjust_Enrichment} to deal bonus damage on that coin. At 0 {status:Bullet}, his 2nd coin will only consume {status:Unjust_Enrichment} if it crits and its bonus damage will be reduced."
+        ],
+        "other": [
+            "Gains {status:PlusCoinValueUp} on kill with the second coin of his S3."
+        ]
     }
 }

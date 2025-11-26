@@ -264,7 +264,8 @@
         }
     },
     "notes": {
-        "short": "Straightforward {status:Combustion} identity with extra SP healing and buffs on high SP.",
-        "full": "He heals SP with his S1 and S3, then gets additional {status:Combustion} Count application at 30+ SP. At 45 SP, his S2 inflicts even more Count."
+        "main": [
+            "Straightforward {status:Combustion} identity with high Count application at 30+ SP."
+        ]
     }
 }

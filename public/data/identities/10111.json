@@ -316,7 +316,15 @@
         }
     },
     "notes": {
-        "short": "Suicidal {status:Aggro} tank. Inflicts a lot of {status:Burst} while taking damage, then dies and generates bonus E.G.O resources on death.",
-        "full": "All skills produce {status:Aggro}. Inflicts more {status:Burst} but less damage on clash lose with S1 and S2. S3 and defense gives {status:GlowingLantern} which further increases {status:Aggro} and damage taken and inflicts bonus {status:Burst} on the attacker when hit."
+        "main": [
+            "{status:Aggro} tank who wants to die.",
+            "S3 and defense gives {status:GlowingLantern} passively giving {status:Aggro} and damage taken and inflicts bonus {status:Burst} on the attacker when hit.",
+            "Generates bonus E.G.O resources and inflicts {status:Burst} on enemies on death.",
+            "Inflicts more {status:Burst} when losing clashes."
+        ],
+        "other": [
+            "Stops {status:Burst} application when the target has 15+ Potency and 3+ Count.",
+            "Gains {status:Aggro} from all skills."
+        ]
     }
 }

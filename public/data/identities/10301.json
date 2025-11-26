@@ -254,7 +254,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. Just buffs herself on clash win. She gains {status:Agility} from her s1, but given her base speed it's still impossible to meet the requirement for her S3's conditional without external help or multi-slotting."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "Buffs herself when winning clashes. S3 10+ speed conditional is unrealistic without external help."
+        ]
     }
 }

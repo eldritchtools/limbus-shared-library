@@ -307,7 +307,8 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity. Needs {status:Breath} Count support.",
-        "full": "Straightforward {status:Breath} id. Gains Coin Power with {status:Breath} count so try to use him with other ids and EGOs that can provide count."
+        "main": [
+            "Gains Coin Power with {status:Breath} Count but has slow Count generation, so try to use him with other ids and EGOs that can provide Count."
+        ]
     }
 }

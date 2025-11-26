@@ -336,7 +336,16 @@
         }
     },
     "notes": {
-        "short": "Standard Heishou (S3 or defense gives a 3 turn buff, works with {identity:10613} mechanics) mechanics. Inflicts {status:BurstPoison}, giving enemies {status:AttackDown} and {status:DefenseDown} when their {status:Burst} is triggered by a crit. His buff gives him most of his {status:Breath} generation which is needed to meet most of his conditionals.",
-        "full": "Using his S3 or his defense gives him {status:SnakeStance} which gives him a passive {status:Breath} generation per turn and gives him additional {status:Breath} Potency generation when using skills against enemies with {status:Burst}. It also gives him additional {status:Burst} application on his S1 and Coin Power on his S3. His S2's final coin also lets him generate an extra stack of the buff on crit.\n\nHis S2 consumes 10 {status:Breath} Potency to give him a Coin reuse at 30+ Potency. His S3 gains additional crit damage if he has {status:SnakeStance}.\n\nBoth his S2 and S3 inflict {status:BurstPoison} which applies {status:AttackDown} and {status:DefenseDown} on the enemy whenever their {status:Burst} stack is triggered by a crit up to 5 times. When the debuff is fully consumed, it deals additional {keyword:Gluttony} damage based on the enemy's {status:Burst} Potency. His S3 consumes stacks of it before applying it again, fully consuming it if it crits and only partially consuming it otherwise.\n\nHis passive increases his damage dealt based on his {status:SnakeStance} when his target has {status:BurstPoison} and gives him {status:PenetrateDamageUp} if he fully consumes their {status:BurstPoison}.\n\nHis buff for {identity:10613} gives him one {status:Breath} Count whenever he triggers {status:Burst} (1 per turn)."
+        "main": [
+            "Standard Heishou mechanic: Using S3 or defense gives a 3 turn buff corresponding to their Heishou Pack. {status:SnakeStance} which gives him a passive {status:Breath} generation per turn and gives him additional {status:Breath} Potency generation when using skills against enemies with {status:Burst}.",
+            "Standard Heishou mechanic: Combos with {identity:10613}'s S3. The buff gives him 1 {status:Breath} Count whenever he triggers {status:Burst} (1 per turn).",
+            "S2 consumes 10 {status:Breath} Potency to give him a Coin reuse at 30+ Potency.",
+            "S3 gains additional crit damage if he has {status:SnakeStance}."
+        ],
+        "other": [
+            "{status:SnakeStance} gives him additional {status:Burst} application on his S1 and Coin Power on his S3. His S2's final coin also lets him generate an extra stack of the buff on crit.",
+            "Both his S2 and S3 inflict {status:BurstPoison} which applies {status:AttackDown} and {status:DefenseDown} on the enemy whenever their {status:Burst} stack is triggered by a crit up to 5 times. When the debuff is fully consumed, it deals additional {keyword:Gluttony} damage based on the enemy's {status:Burst} Potency. His S3 consumes stacks of it before applying it again, fully consuming it if it crits and only partially consuming it otherwise.",
+            "His passive increases his damage dealt based on his {status:SnakeStance} when his target has {status:BurstPoison} and gives him {status:PenetrateDamageUp} if he fully consumes their {status:BurstPoison}."
+        ]
     }
 }

@@ -336,7 +336,10 @@
         }
     },
     "notes": {
-        "short": "Generate {status:Vibration} Count with S1 and S2. Consume it with S2 and S3 to give them Atk weight. Has {status:PlusCoinValueDown} on S2 and 3 {status:VibrationExplosion}s on S3.",
-        "full": "Build {status:Vibration} Count with S1(+6) and S2(+5). Consume 5 Count per atk weight for S2 (max 1) and S2 (max 2). Her S2 inflicts {status:PlusCoinValueDown} and S3 triggers 3 {status:VibrationExplosion}s with some bonus {keyword:Wrath} damage."
+        "main": [
+            "Consume 5 {status:Vibration} Count to get +1 atk weight for S2 (max +1) and S3 (max +2). Count gained from S1 and S2.",
+            "S2 inflicts {status:PlusCoinValueDown}.",
+            "S3 triggers 3 {status:VibrationExplosion}s and deals some bonus {keyword:Wrath} damage."
+        ]
     }
 }

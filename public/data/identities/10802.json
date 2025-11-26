@@ -337,7 +337,11 @@
         }
     },
     "notes": {
-        "short": "Build {status:Charge} Count with S1 and S2. S3 spends 8 Count, but becomes Indiscriminate at less than 8 Count. Loses SP if she doesn't deal damage in a turn.",
-        "full": "Gains {status:Charge} Count with S1(+6) and S2(+7). S3 spends 8 Count, but targets a random unit (including allies) if she is unable to consume 8 Count.\n\nHer passive gives her bonus {status:Enhancement} based on {keyword:Gloom} Res. She loses 15SP every turn she fails to deal damage."
+        "main": [
+            "S3 spends 8 {status:Charge} Count, but targets a random unit (including allies) if she is unable to consume 8 Count."
+        ],
+        "other": [
+            "Her passive gives her bonus {status:Enhancement} based on {keyword:Gloom} Res. She loses 15SP every turn she fails to deal damage."
+        ]
     }
 }

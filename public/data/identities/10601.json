@@ -267,7 +267,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. He just inflicts {status:Sinking} and {status:Burst} and gains Coin Power if he didn't take damage the previous turn. His support passive is particularly useful giving a passive SP heal every turn."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "Useful support passive heals SP every turn."
+        ]
     }
 }

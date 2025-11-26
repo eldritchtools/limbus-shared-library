@@ -378,7 +378,9 @@
         }
     },
     "notes": {
-        "short": "Straightforward {status:Combustion} identity. Heals SP to allies based on Reson.",
-        "full": "Pretty straightforward id. He heals a lot of SP with his passive and S3."
+        "main": [
+            "Straightforward {status:Combustion} identity.",
+            "Heals SP to allies with his S3 and passive. The passive heals more with Reson and heals 2 allies at 4+ {keyword:Wrath} Reson."
+        ]
     }
 }

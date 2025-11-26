@@ -275,7 +275,12 @@
         }
     },
     "notes": {
-        "short": "Builds {status:Charge} Count with her S1 and S3. Her S2 gains a Coin Reuse on Heads Hit if she has enough count without consuming it. Her passive consumes the Count to increase the stagger threshold increase from {status:VibrationExplosion}.",
-        "full": "Gains {status:Charge} Count from her S1(+6), S3(+6), or defense(+2). If she has at least 3 Count, her S2's 2nd coin gets reused up to 2 times on a Heads Hit. Her Count is only consumed if her passive is active and she triggers {status:VibrationExplosion}, where consuming Count increases the stagger threshold increased. This happens on her S2 if her Reuse Coin triggers twice or on her S3. Her passive also gives her {status:Agility} and {status:HitDamageUp} on {status:VibrationExplosion}."
+        "main": [
+            "Her S2's 2nd coin gets reused up to 2 times on a Heads Hit if she has at least 3 {status:Charge} Count. If it is reused twice, it triggers {status:VibrationExplosion}.",
+            "Her {status:Charge} Count is only consumed when she triggers {status:VibrationExplosion}. Count is consumed to increase the stagger threshold increased."
+        ],
+        "other": [
+            "Her passive gives her {status:Agility} and {status:HitDamageUp} on {status:VibrationExplosion}."
+        ]
     }
 }

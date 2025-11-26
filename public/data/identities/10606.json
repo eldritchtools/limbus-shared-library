@@ -326,7 +326,13 @@
         }
     },
     "notes": {
-        "short": "Consumes {status:Charge} Count to give {status:ChargeForceField} to allies.",
-        "full": "Gains {status:Charge} Count with his S1(+6) and S2(+6). His S2, S3, and defense give himself {status:ChargeForceField}, while his S3 consumes all his {status:Charge} Count to give allies {status:ChargeForceField}. {status:ChargeForceField} gives the unit extra shields, which then convert into {status:Charge} Count if they aren't consumed by the end of the turn. Each stack of {status:ChargeForceField} counts as 3 shield or 5 on a W Corp. identity.\n\nHe also gains 2 {status:Agility} at 5+ {status:Charge} Count, and 3 at 10+."
+        "main": [
+            "S3 consumes all his {status:Charge} Count to give allies {status:ChargeForceField}.",
+            "S2 gives him {status:ChargeForceField} at 5+ {status:Charge} Count and defense gives it regardless."
+        ],
+        "other": [
+            "{status:ChargeForceField} gives the unit extra shields, which then convert into {status:Charge} Count if they aren't consumed by the end of the turn. Each stack of {status:ChargeForceField} counts as 3 shield or 5 on a W Corp. identity.",
+            "His passive gives him 2 {status:Agility} at 5+ {status:Charge} Count, and 3 at 10+."
+        ]
     }
 }

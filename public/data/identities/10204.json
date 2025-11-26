@@ -333,7 +333,10 @@
         }
     },
     "notes": {
-        "short": "SP, {keyword:Pierce}, and {keyword:Blunt} support with {status:Laceration} Count application via {status:NailPersonality}.",
-        "full": "Heals SP on 4 {keyword:Lust} Res with her passive or killing enemies with S3. S2 inflicts {status:MarkOfHeresy} next turn, which increases {keyword:Pierce} and {keyword:Blunt} damage by 20% and heals SP to the attacker if the target dies. She also applies a decent amount of {status:Laceration} Count thanks to {status:NailPersonality}."
+        "main": [
+            "Heals SP on 4 {keyword:Lust} Res with her passive. Also heals SP on kill with her S3.",
+            "S2 inflicts {status:MarkOfHeresy} next turn, which increases {keyword:Pierce} and {keyword:Blunt} damage by 20% and heals SP to the attacker if the target dies.",
+            "Applies a decent amount of {status:Laceration} Count thanks to {status:NailPersonality}."
+        ]
     }
 }

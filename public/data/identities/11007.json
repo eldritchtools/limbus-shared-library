@@ -294,7 +294,9 @@
         }
     },
     "notes": {
-        "short": "Gains {status:Vibration} Count and spends it to apply a large amount of Count on his target.",
-        "full": "Gains {status:Vibration} Count with his S1(+4) and S2(+6). At 10+ Count, his S3 can consume all his Count to inflict the same amount on the target. At less than 10 Count, his S3 gives him {status:Vibration}, triggers {status:VibrationExplosion} on himself, and deals damage to him instead. At 10+ {status:Vibration}, his passive also increases his {status:Vibration} application."
+        "main": [
+            "At 10+ {status:Vibration} Count, his S3 consumes all his Count to inflict the same amount on the target. At less than 10 Count, his S3 gives him {status:Vibration}, triggers {status:VibrationExplosion} on himself, and deals damage to him instead.",
+            "At 10+ {status:Vibration} Count, his passive also increases his {status:Vibration} application."
+        ]
     }
 }

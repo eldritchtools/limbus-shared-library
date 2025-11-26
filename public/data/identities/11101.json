@@ -275,7 +275,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. She just deals bonus damage on her skills. Her support passive is pretty useful for some additional damage."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "Her support passive is useful for some additional damage."
+        ]
     }
 }

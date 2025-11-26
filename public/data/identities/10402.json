@@ -238,7 +238,9 @@
         }
     },
     "notes": {
-        "short": "Inflicts a lot of {status:SlashTakeDamageUp} with her S3. Has a {keyword:Blunt} skill named 'Slash' because why not.",
-        "full": "Read the short version."
+        "main": [
+            "Inflicts a lot of {status:SlashTakeDamageUp} with her S3.",
+            "Has a {keyword:Blunt} skill named 'Slash' because why not."
+        ]
     }
 }

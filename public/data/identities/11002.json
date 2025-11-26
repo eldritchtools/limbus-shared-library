@@ -319,7 +319,9 @@
         }
     },
     "notes": {
-        "short": "Straightforward {status:Breath} identity. High rolling single coin S3.",
-        "full": "50% chance to gain {status:Breath} Count when allies gain {status:Breath} Count when his passive is active (2x {keyword:Pride} Res is very common in a Blade Lineage team). S3 is a high rolling single coin skill with high {status:Paralysis} application."
+        "main": [
+            "When his passive is active, 50% chance to gain {status:Breath} Count when allies gain {status:Breath} Count. (2x {keyword:Pride} Res is very common in a Blade Lineage team.)",
+            "S3 is a high rolling single coin skill with high {status:Paralysis} application."
+        ]
     }
 }

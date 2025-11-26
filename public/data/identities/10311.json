@@ -390,7 +390,13 @@
         }
     },
     "notes": {
-        "short": "When her passive is active, inflicts {status:DianxueDonQuixote} on the last enemy hit per turn. Stacks when repeatedly inflicting on the same target, but expires when applied to a new target. Skills gain buffs and additional effects when hitting enemies with {status:DianxueDonQuixote}",
-        "full": "Activate her passive as soon as possible. When it's active, she inflicts {status:DianxueDonQuixote} on the last enemy she hits every turn. This stacks up to 3 times if you keep applying it on the same enemy. If you apply it to another enemy, the stack on the previous enemy expires, and it restarts at 1 stack on the new one. Her skills gain bonus Clash and/or Base Power against the enemy with the debuff depending on how many stacks it has. She also generates additional {status:Breath} and inflicts additional {status:DefenseDown} on her S2 and S3 when hitting targets with it.\n\nHer conditionals are based on her speed over her target's. Her passive provides {status:Agility} to help with that as long as you keep her {status:Breath} up. All her conditionals max out at 4 speed higher than her target's."
+        "main": [
+            "Her passive inflicts {status:DianxueDonQuixote} on the last enemy she hits every turn. This stacks up to 3 times if you keep applying it on the same enemy. Applying it on another enemy, the stack on the previous enemy expires, and it restarts at 1 stack on the new one.",
+            "Skills gain bonus Clash and/or Base Power against the enemy with {status:DianxueDonQuixote} depending on how many stacks it has. S2 and S3 also gets additional {status:Breath} generation and inflicts additional {status:DefenseDown}."
+        ],
+        "other": [
+            "Her Coin Power conditionals are based on her speed over her target's. Her passive provides {status:Agility} to help with that as long as you keep her {status:Breath} up. All her conditionals max out at 4 speed higher than her target's.",
+            "{status:DianxueDonQuixote} increases her max damage bonus against targets with {status:Combustion}."
+        ]
     }
 }

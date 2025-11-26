@@ -343,7 +343,12 @@
         }
     },
     "notes": {
-        "short": "Inflicts {status:RedApricotBlossom} increasing crit chance and damage on the target.",
-        "full": "Inflicts {status:RedApricotBlossom} whenever she crits, which increases crit chance and damage on the target for everyone and inflicts {status:Bleed} whenever someone crits on the target. 1 {status:RedApricotBlossom} is consumed per hit regardless of whether it was a crit or not, so don't expect to maintain it for your entire team unless you multislot Faust. If the enemy is at max {status:RedApricotBlossom} (10), her S3 inflicts {status:SlashTakeDamageUp} and her passive inflicts {status:DefenseDown}\n\nHer {status:Breath} generation is very low, so she'll need outside support. Her S3 will convert some of her Count to Potency."
+        "main": [
+            "Inflicts {status:RedApricotBlossom} through her passive whenever she crits, each stack increases crit chance and damage on the target for everyone and inflicts {status:Bleed} whenever someone crits on them. Her skills also inflict it but all under [On Crit] conditionals. If the enemy is at max {status:RedApricotBlossom} (10), her S3 inflicts {status:SlashTakeDamageUp} and her passive inflicts {status:DefenseDown} instead.",
+            "1 {status:RedApricotBlossom} is consumed per hit regardless of whether it was a crit or not, so don't expect to maintain it for your entire team unless you multislot Faust."
+        ],
+        "other": [
+            "Her {status:Breath} generation is very low, so she'll need outside support. Her S3 will convert some of her Count to Potency."
+        ]
     }
 }

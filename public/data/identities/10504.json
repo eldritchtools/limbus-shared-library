@@ -286,7 +286,10 @@
         }
     },
     "notes": {
-        "short": "{status:Aggro} tank with {status:NailPersonality} application.",
-        "full": "All attack skills give him {status:Aggro} with her S2 and S3 inflicting a small amount of {status:NailPersonality}. His S2 inflicts {status:Binding} and {status:Reduction} and his S3 heals him. His passive gives him some bonuses when he's below half hp, namely {status:AssemblePersonality}, {status:Enhancement}, and {status:Protection}, and cleansing 1 debuff."
+        "main": [
+            "{status:Aggro} tank with {status:NailPersonality} application.",
+            "Has some other various extra effects ({status:Binding} and {status:Reduction} on S2, healing on S3).",
+            "When below 50% HP, his passive gives him {status:AssemblePersonality}, {status:Enhancement}, and {status:Protection}, and cleanses 1 debuff."
+        ]
     }
 }

@@ -427,7 +427,16 @@
         }
     },
     "notes": {
-        "short": "Consumes {status:BloodDinner} to give {status:BloomingThornsRodionFirst} (inflict {status:Laceration} against attackers) to self and allies. Consume 25 stacks to convert S3 to S3-2. Both S3s gives {status:FestivalFeverRodion} (more damage to enemies with {status:Laceration}) to allies.",
-        "full": "Gives {status:BloomingThornsRodionFirst} to self and an ally by consuming {status:BloodDinner} using her S1 and S2. She also gives it to herself and Reson allies using her S3. When her passive is active, she also gains a stack whenever an ally takes {status:Laceration} damage or consumes {status:BloodDinner}. Allies with {status:BloomingThornsRodionFirst} gain {status:DefenseUp} and inflict {status:Laceration} against attackers when taking damage, consuming a stack. {sinner:9} can gain up to 30 stacks instead of 10, and at 10+ or 20+ stacks, she inflicts an additional 1 or 2 more {status:Laceration} and {status:Burst} on her skills respectively. At 25+ stacks, her S3 consumes all the stacks and uses S3-2 instead, which gives it +2 atk weight and increases its damage and status applications. Both S3s apply {status:FestivalFeverRodion} to self and Reson allies based on her {status:BloodDinner_Accumulation}, increasing damage against targets with {status:Laceration}. They also apply more {status:BloomingThornsRodionFirst}.\n\nHer defense is a clashable counter that lowers {status:Laceration} Count on allies while still generating the {status:BloodDinner} that would have been generated if they received the {status:Laceration} damage. It also gives her some {status:BloomingThornsRodionFirst}\n\nHer passive, in addition to the {status:BloomingThornsRodionFirst} generation, heals her based on her damage dealt. Any excess healing will go to the ally with the least HP%."
+        "main": [
+            "Consumes {status:BloodDinner} to give {status:BloomingThornsRodionFirst} to self and an ally. She also gives it to herself and Reson allies using her S3.",
+            "At 25+ stacks, her S3 consumes all stacks of {status:BloomingThornsRodionFirst} and uses S3-2 instead, which gets +2 atk weight and increased damage and status applications. Both S3s apply {status:FestivalFeverRodion} to self and Reson allies based on her {status:BloodDinner_Accumulation}, increasing damage against targets with {status:Laceration}. S3-2 also applies more {status:BloomingThornsRodionFirst}."
+        ],
+        "other": [
+            "When her passive is active, she gains {status:BloomingThornsRodionFirst} whenever an ally takes {status:Laceration} damage or consumes {status:BloodDinner}.",
+            "Allies with {status:BloomingThornsRodionFirst} gain {status:DefenseUp} and inflict {status:Laceration} against attackers when taking damage, consuming a stack.",
+            "Can gain up to 30 stacks of {status:BloomingThornsRodionFirst} instead of 10, and at 10+ or 20+ stacks, she inflicts an additional 1 or 2 more {status:Laceration} and {status:Burst} on her skills respectively.",
+            "Her defense is a clashable counter that lowers {status:Laceration} Count on allies while still generating the {status:BloodDinner} that would have been generated if they received the {status:Laceration} damage. It also gives her some {status:BloomingThornsRodionFirst}.",
+            "Her passive heals her based on her damage dealt. Any excess healing will go to the ally with the least HP%."
+        ]
     }
 }

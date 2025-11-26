@@ -389,7 +389,16 @@
         }
     },
     "notes": {
-        "short": "Gains {status:DevyatDimensionalSackSinclair} over time, increasing his Power, damage, and status applications on skills. At 30+ stacks, starts passively getting HP and SP damage until he dies. At 15+ stacks, his defense makes him retreat and halves his stacks when returning. At 15/3 {status:Burst}, stops inflicting {status:Burst} but S1 and S2 inflict {status:DefenseDown} and S3 gains Coin Power.",
-        "full": "Gains {status:DevyatDimensionalSackSinclair} over time passively at a rate of 3 per turn, with an additional 1 (2 at less than 15 stacks) gained per use of his S1 or S2. This buff increases his Coin Power and damage for his skills as well as increasing their {status:Burst} application. He also gains +1 speed at 10+ stack and +1 {status:ParryingResultUp} and {status:HitDamageUp} at 20+ stack. At 30+ stack, he starts receiving increasing HP and SP damage every turn until he dies. At 15+ stack, his defense skill causes him to retreat instead. This halves his stacks when he returns.\n\nAt 15 Potency and 3 Count of {status:Burst} on his target, his S1 and S2 stops applying {status:Burst} and instead inflicts {status:DefenseDown}. His S3 also stops applying {status:Burst}, but instead gives him +4 Coin Power.\n\nHis passive gives him a shield based on his {status:DevyatDimensionalSackSinclair} stacks at 6+ speed or if he has {status:Agility} (gained on S2 at 30- {status:DevyatDimensionalSackSinclair} or S3 without the Coin Power conditional). He also gives {status:ParryingResultUp} to 2 allies next turn when he retreats."
+        "main": [
+            "Gains {status:DevyatDimensionalSackSinclair} over time passively at a rate of 3 per turn.",
+            "Gains additional {status:DevyatDimensionalSackSinclair} per use of S1 or S2.",
+            "This buff increases his Coin Power and damage for his skills as well as increasing their {status:Burst} application. He also gains +1 speed at 10+ stack and +1 {status:ParryingResultUp} and {status:HitDamageUp} at 20+ stack. At 30+ stack, he starts receiving increasing HP and SP damage every turn until he dies.",
+            "At 15+ stack, his defense skill causes him to retreat instead. This halves his stacks when he returns."
+        ],
+        "other": [
+            "At 15 Potency and 3 Count of {status:Burst} on his target, his S1 and S2 stops applying {status:Burst} and instead inflicts {status:DefenseDown}. His S3 also stops applying {status:Burst}, but instead gives him +4 Coin Power.",
+            "His passive gives him a shield based on his {status:DevyatDimensionalSackSinclair} stacks at 6+ speed or if he has {status:Agility} (gained on S2 at 30- {status:DevyatDimensionalSackSinclair} or S3 without the Coin Power conditional).",
+            "He gives {status:ParryingResultUp} to 2 allies next turn when he retreats."
+        ]
     }
 }

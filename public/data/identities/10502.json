@@ -300,7 +300,8 @@
         }
     },
     "notes": {
-        "short": "Straightforward {status:Combustion} identity",
-        "full": "Inflicts and spreads {status:Combustion} to multiple enemies. Also inflicts {status:Combustion} when hit."
+        "main": [
+            "Straightforward {status:Combustion} identity. Spreads some {status:Combustion} to other enemies on S2 and S3."
+        ]
     }
 }

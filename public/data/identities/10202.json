@@ -297,7 +297,9 @@
         }
     },
     "notes": {
-        "short": "Build {status:Charge} with S1 and S2. Spend it on S3 at 5+ Count.",
-        "full": "Pretty straightforward. Build {status:Charge} using S1(+4) and S2(+3). Spend it on S3 at 5+ Count. Applies debuffs on the target. Passives gives additional Count to self and an ally."
+        "main": [
+            "Spend 5 {status:Charge} Count on S3 to apply {status:Reduction} and {status:Paralysis}. Gains it from S1 and S2.",
+            "Passive gives +1 {status:Charge} Count to herself and an ally when attacking."
+        ]
     }
 }

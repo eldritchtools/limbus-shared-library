@@ -408,7 +408,14 @@
         }
     },
     "notes": {
-        "short": "Standard Heishou (S3 or defense gives a 3 turn buff, works with {identity:10613} mechanics) mechanics. Inflicts {status:CrushMarks}, increasing {keyword:Gluttony} and {keyword:Gloom} damage taken and changing enemy panic types to reduce Clash Power.",
-        "full": "Using her S3 or her defense gives her {status:GrownHorns} which gives her more {status:Burst} and {status:Sinking} application and converting some of her coins to {status:SuperCoin}s for 3 turns. If her passive is active, the buff also increases the damage of the last coin on her skills, especially against defense skills.\n\n Her S3 inflicts {status:CrushMarks} for 3 turns, increasing the target's {keyword:Gluttony} and {keyword:Gloom} damage taken and increases the damage dealt by her S1 on the target. It also changes their panic type to reduce Clash Power and inflict {status:DefenseDown}. For enemies without SP, it reduces their heads chance by 10%.\n\nHer passive also increases against enemies at less than 0 SP and enemies with {status:Burst} and {status:Sinking}.\n\nHer buff for {identity:10613} is to inflict 1 {status:Sinking} whenever he inflicts {status:Burst}."
+        "main": [
+            "Standard Heishou mechanic: Using S3 or defense gives a 3 turn buff corresponding to their Heishou Pack. {status:GrownHorns} gives her more {status:Burst} and {status:Sinking} application and converts some of her coins to {status:SuperCoin}s (last coin of S2, all coins of S3). Her passive increases the damage of the last coin on her skills if she has the buff and increases it further if it's against a defense skill.",
+            "Standard Heishou mechanic: Combos with {identity:10613}'s S3. The buff lets him inflict 1 {status:Sinking} whenever he inflicts {status:Burst}.",
+            "S3 inflicts {status:CrushMarks} for 3 turns. It's a panic changing debuff that increases the target's {keyword:Gluttony} and {keyword:Gloom} damage taken. Enemies with SP lose Clash Power and inflict {status:DefenseDown} on low SP or panic. Enemies without SP lose 1 Clash Power."
+        ],
+        "other": [
+            "S1 and S3 deal increased damage if the target has {status:CrushMarks}",
+            "Her passive increases damage against enemies at less than 0 SP and enemies with {status:Burst} and {status:Sinking}."
+        ]
     }
 }

@@ -327,7 +327,13 @@
         }
     },
     "notes": {
-        "short": "{status:Discard}s skills to set {status:KnowledgeExplored}. Gains shields on {status:Discard} depending on its value and the discarded skill. Gains {status:HitDamageUp} every turn based on damage taken the previous turn.",
-        "full": "All of her skills trigger a {status:Discard} which sets her {status:KnowledgeExplored} and gives her shields based on her {status:KnowledgeExplored} (before {status:Discard} changes it) and the rank of the skill that was discarded. They also give her {status:Aggro} making her an Aggro-Shield tank with a decent number of coins and damage. Her {status:KnowledgeExplored} only buffs her S1 with Coin Power, so it's generally not worth worrying about it too much. Her passive gives her {status:HitDamageUp} depending on the damage she took on the previous turn."
+        "main": [
+            "Her skills trigger a {status:Discard} which sets her {status:KnowledgeExplored}.",
+            "Her {status:KnowledgeExplored} only buffs her S1 with Coin Power, so it's generally not worth worrying about the value too much."
+        ],
+        "other": [
+            "All her skills give her {status:Aggro} and shields based on her {status:KnowledgeExplored} (before {status:Discard} changes it) and the rank of the skill that was discarded.",
+            "Her passive gives her {status:HitDamageUp} depending on the damage she took on the previous turn."
+        ]
     }
 }

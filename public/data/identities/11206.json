@@ -324,7 +324,11 @@
         }
     },
     "notes": {
-        "short": "Gains {status:Aggro}. Gains {status:DefenseUp} and applies it to allies. Gains more Power and damage with {status:DefenseUp}",
-        "full": "Gains {status:Aggro} on his S2 and defense. Gains {status:DefenseUp} for a turn from his S1(+2, +4 on clash lose), S2(+5), S3(+6). His passive also gives him +2 stacks if targeted by 2 or more attacks and +3 if at 50% or less HP. The {status:DefenseUp} he gains from his S3 is for his entire party and he also gives 2 {status:Endurance} to everyone. At 6+ {status:DefenseUp}, his S2 gains Clash Power and damage and his S3 gains Coin Power. At 10+ stacks, his S3 deals more damage."
+        "main": [
+            "Gains {status:Aggro} and {status:DefenseUp} from skills.",
+            "Gains {status:DefenseUp} from his passive if targeted by 2 or more attacks or if at 50% or less HP.",
+            "S3 gives {status:DefenseUp} and {status:Endurance} to the entire party.",
+            "At 6+ {status:DefenseUp}, his S2 gains Clash Power and damage and his S3 gains Coin Power. At 10+ stacks, his S3 deals more damage."
+        ]
     }
 }

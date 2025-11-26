@@ -360,7 +360,15 @@
         }
     },
     "notes": {
-        "short": "Causes allies to use a free S1. Gives buffs and SP healing to allies. Loses SP when allies kill a higher level enemy.",
-        "full": "Her S1 and S2 give defensive and offensive buffs respectively to the allies ajdacent to her in the dashboard with stronger buffs being applies at 4+ A-Reson. Her S2 also has a 20% chance per Reson (100% at 5-Res) to trigger {status:CoverAttack} on the ally that comes immediately after her on the dashboard, giving them a free S1 on the same target after {sinner:8} attacks. Her S3 heals SP for allies and gives them {status:Breath} if it kills its target. The number of allies affected increases with A-Reson. Her defense also heals SP for her allies adjacent on the dashboard.\n\nIf her passive is active, kills will give her {status:Breath} and give allies {status:Breath} and SP healing. Pequod identities heal more SP and get {status:PenetrateResultUp}. She also gains {status:OverHeatedGasHarpoon} for a turn, inflicting additional {status:Combustion} on Hit. Kills with her S3 still provide its regular bonuses on top of these."
+        "main": [
+            "Loses SP when allies kill an enemy of a higher level.",
+            "S1 and S2 give defensive and offensive buffs respectively to the allies adjacent to her in the dashboard. Stronger buffs applied at 4+ A-Reson.",
+            "S2 has a 20% chance per Reson (100% at 5-Res) to trigger {status:CoverAttack} on the ally that comes immediately after her on the dashboard, giving them a free S1 on the same target after {sinner:8} attacks.",
+            "S3 heals SP for allies and gives them {status:Breath} if it kills its target. The number of allies affected increases with A-Reson.",
+            "Defense heals SP for her allies adjacent on the dashboard."
+        ],
+        "other": [
+            "If her passive is active, kills will give her {status:Breath} and give allies {status:Breath} and SP healing. Pequod identities heal more SP and get {status:PenetrateResultUp}. She also gains {status:OverHeatedGasHarpoon} for a turn, inflicting additional {status:Combustion} on Hit. Kills with her S3 still provide its regular bonuses on top of these."
+        ]
     }
 }

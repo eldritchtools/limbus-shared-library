@@ -360,7 +360,8 @@
         }
     },
     "notes": {
-        "short": "Straightforward {status:Combustion} identity",
-        "full": "Just applies {status:Combustion} on all her skills and meets conditionals based on {status:Combustion}. Spreads some {status:Combustion} on kill."
+        "main": [
+            "Straightforward {status:Combustion} identity. Spreads some {status:Combustion} on kill."
+        ]
     }
 }

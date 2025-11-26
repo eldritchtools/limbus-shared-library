@@ -431,7 +431,16 @@
         }
     },
     "notes": {
-        "short": "Number of turns spent active buffs her S3 and a buff to allies on retreat. Number of turns spent in retreat or backup buffs a bonus unopposed skill she uses when returning. Gains {status:Breath} based on {status:Rupture} on target. More damage based on {status:Breath}, {status:Rupture}, and negative effects. Gains buffs from {identity:10114}.",
-        "full": "Each turn she spends on the field gives her a stack of {status:StartXichun} which gives additional damage on her S3 and gives it +1 atk weight at 3 stacks. At 3+ stacks, her defense skill triggers a {status:RetreatForCommon} making her retreat to the front of the backups units. When she retreats she consumes all her {status:StartXichun} to apply 1 {status:AttackUp} to an ally for each stack, or 2 {status:AttackUp} for Jia Family identities. Allies are prioritized by deployment order.\n\nEach turn she spends in retreat or backup gives her a stack of {status:WaitingXichun}. On the turn she substitutes or returns to the field, she uses her S1-2 at combat start, consuming all {status:WaitingXichun} to gain Atk Weight and Coin Power.\n\nHer skills and passive (on kill) generate {status:Breath} on their own and based on {status:Burst} on her target and gain significant damage bonuses based on {status:Breath} on herself and {status:Burst} on her target.\n\nHaving {identity:10114} on the field further increases her {status:Breath} generation, gives her {status:Enhancement} every turn, and triggers her S3 whenever he triggers his S3-2."
+        "main": [
+            "Each turn spent on the field gives her a stack of {status:StartXichun}.",
+            "At 3 stacks of {status:StartXichun}, her S3 gains +1 atk weight and her defense skill triggers a {status:RetreatForCommon} making her retreat to the front of the backups units.",
+            "When retreating she consumes all her {status:StartXichun} to apply 1 {status:AttackUp} to an ally for each stack, or 2 {status:AttackUp} for Jia Family identities. Allies are prioritized by deployment order.",
+            "Each turn spent in retreat or backup gives her a stack of {status:WaitingXichun}",
+            "On the turn she substitutes or returns to the field, she uses her S1-2 at combat start, consuming all {status:WaitingXichun} to gain Atk Weight and Coin Power."
+        ],
+        "other": [
+            "Each stack of {status:StartXichun} increases the damage on her S3.",
+            "Having {identity:10114} on the field increases her {status:Breath} generation, gives her {status:Enhancement} every turn, and triggers her S3 whenever he triggers his S3-2."
+        ]
     }
 }

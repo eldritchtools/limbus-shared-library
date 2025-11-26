@@ -284,7 +284,10 @@
         }
     },
     "notes": {
-        "short": "Inflicts {status:Laceration} and {status:NailPersonality}. Gains {status:AssemblePersonality}.",
-        "full": "Gains {status:AssemblePersonality} on S2 clash win or on kill when her passive is active. Her passive also gives her {status:Agility} and {status:AttackDmgUp} after any enemy death, not necessarily by her. She inflicts some {status:NailPersonality} on her skills and {status:Paralysis} on her S2."
+        "main": [
+            "Inflicts some {status:NailPersonality} on her skills and {status:Paralysis} on her S2.",
+            "Gains {status:AssemblePersonality} on S2 clash win or on kill when her passive is active.",
+            "Her passive gives her {status:Agility} and {status:AttackDmgUp} after any enemy death, not necessarily by her."
+        ]
     }
 }

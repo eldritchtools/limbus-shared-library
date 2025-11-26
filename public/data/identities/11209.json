@@ -339,7 +339,12 @@
         }
     },
     "notes": {
-        "short": "S3 final coin consumes 10 {status:Sinking} Potency on his target to give him {status:PlusCoinValueUp} and 3 {status:AttackDmgUp}, with a 50% chance to gain the buffs without consuming {status:Sinking}.",
-        "full": "See short version above. Additionally, his passive gives him 1 stack each of {status:AttackDmgUp} and {status:Vulnerable} for every 5 total SP that he gained or lost on the last turn. It also increases his damage against targets based on their {status:Sinking} Potency."
+        "main": [
+            "S3 final coin consumes 10 {status:Sinking} Potency on his target to give him {status:PlusCoinValueUp} and 3 {status:AttackDmgUp}, with a 50% chance to gain the buffs without consuming {status:Sinking}."
+        ],
+        "other": [
+            "His passive gives him 1 stack each of {status:AttackDmgUp} and {status:Vulnerable} for every 5 total SP that he gained or lost on the last turn.",
+            "His passive also increases his damage against targets based on their {status:Sinking} Potency."
+        ]
     }
 }

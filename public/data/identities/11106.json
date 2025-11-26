@@ -335,7 +335,12 @@
         }
     },
     "notes": {
-        "short": "Applies {status:DuelDeclaration_Outis} to give her Clash Power and {status:Agility} on hit.",
-        "full": "Her S3 applies {status:DuelDeclaration_Outis} increasing her Clash Power and giving her 1 {status:Agility} on hit on that target. The debuff expires when she applies it to another target or if another sinner applies another Declared Duel on the same enemy. She gains Coin Power on her S2 if she's faster than her target. She gains {status:Aggro} with her S1 and S2."
+        "main": [
+            "S3 applies {status:DuelDeclaration_Outis} increasing her Clash Power and giving her 1 {status:Agility} on hit on that target. The debuff expires when she applies it to another target or if another sinner applies another Declared Duel on the same enemy."
+        ],
+        "other": [
+            "Gains Coin Power on her S2 if she's faster than her target.",
+            "Gains {status:Aggro} with her S1 and S2."
+        ]
     }
 }

@@ -241,7 +241,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. Inflicts some {status:Burst}. Worthless passive."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "Inflicts some {status:Burst}. Worthless passive."
+        ]
     }
 }

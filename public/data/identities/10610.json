@@ -336,7 +336,13 @@
         }
     },
     "notes": {
-        "short": "Gains buffs against Bloodfiends or Bloodbags. At 15/3 {status:Burst}, S2 and S3 gain Coin Power instead of inflicting {status:Burst}.",
-        "full": "Pretty straightforward {status:Burst} identity. He gains Coin Power and damage against BloodFiends and Bloodbags. At 15+ Potency and 3+ Count of {status:Burst}, his S2 and S3 gains Coin Power instead of inflicting {status:Burst}. He inflicts additional {status:Bursts} when he has {status:Laceration} and gets a Coin Reuse on his S3 if his target has 15+ {status:Burst} or less than 30% HP."
+        "main": [
+            "Gains Coin Power and damage against BloodFiends and Bloodbags.",
+            "At 15+ Potency and 3+ Count of {status:Burst}, his S2 and S3 gains Coin Power instead of inflicting {status:Burst}."
+        ],
+        "other": [
+            "His passive lets him inflict additional {status:Burst} when he has {status:Laceration}.",
+            "His S3 gets a Coin Reuse if his target has 15+ {status:Burst} or less than 30% HP."
+        ]
     }
 }

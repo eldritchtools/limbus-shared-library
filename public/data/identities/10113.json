@@ -361,7 +361,12 @@
         }
     },
     "notes": {
-        "short": "Attacks allies when using S3 with 7 {status:BoseProjektil}. Deals big aoe damage when killing allies. Trigger passive before comboing with {ego:20107}. {identity:10412} can give him an extra free attack before his S3 that's similar but prioritizes her as the main target.",
-        "full": "Generates {status:BoseProjektil} on his skills except S3 (note that {ego:20107} consumes his {status:BoseProjektil} after attack so he doesn't maintain any unless you trigger his passive). His S3 prioritizes the target with the least HP, and with 7 {status:BoseProjektil} it will prioritize allies only. If an ally is targeted, the first coin will deal damage as if they're fatal to {keyword:Pierce}, and if it kills them, his 2nd coin will deal massively increased damage against all the sub-targets (likely 3 targets since he'll have an atk weight of 4). Otherwise, he'll just deal a normal amount of damage to one random sub-target.\n\nUsing his S3 while {identity:10412} is on the field and has {status:ContemptPersonality} will trigger an additional attack that's similar to his S3 but targeting {sinner:4} instead."
+        "main": [
+            "Except for S3, skills generate {status:BoseProjektil} up to 7 for his S3. {ego:20107} also generates it but his passive needs to be active otherwise the E.G.O will consume all the stacks.",
+            "S3 targets 1 main and 1-3 sub targets. It normally prioritizes the target with the least HP for its main target. Having 7 {status:BoseProjektil} causes it to prioritize allies. Targeting allies forces it to deal fatal damage. Killing allies causes its 2nd coin to deal more damage and to hit all sub targets. Failing to kill the ally or targeting an enemy causes the 2nd coin to deal damage against one random sub target."
+        ],
+        "other": [
+            "Using his S3 while {identity:10412} is on the field and has {status:ContemptPersonality} will trigger an additional attack that's similar to his S3 but targeting {sinner:4} instead."
+        ]
     }
 }

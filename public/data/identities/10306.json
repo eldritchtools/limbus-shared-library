@@ -416,7 +416,13 @@
         }
     },
     "notes": {
-        "short": "Use as much {keyword:Envy} A-Reson. as possible. Defense turns into a free S3 at 6+ {keyword:Envy} A-Reson. Coin Power against enemy with {status:RetaliationBook}.",
-        "full": "Her S2 and S3 gain Offense Level by A-Reson, and even more when it's {keyword:Envy}. Her Counter also turns into a free S3 with 6+ {keyword:Envy} A-Reson.\n\nEvery turn, her passive inflicts {status:RetaliationBook} on the enemy that dealt the most damage to allies on the previous turn, giving her bonus Coin Power against that enemy. She also gains {status:VioletDamageUp} when enemies get hits in."
+        "main": [
+            "Counter turns into a free S3 with 6+ {keyword:Envy} A-Reson.",
+            "S2 and S3 gain Offense Level by A-Reson, double when it's {keyword:Envy}."
+        ],
+        "other": [
+            "Every turn, her passive inflicts {status:RetaliationBook} on the enemy that dealt the most damage to allies on the previous turn, giving her bonus Coin Power against that enemy.",
+            "Her passive also gives her {status:VioletDamageUp} for every 3 hits that enemies deal against allies."
+        ]
     }
 }

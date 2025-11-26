@@ -252,7 +252,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. His passives give an HP heal every turn."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "His passives give an HP heal every turn."
+        ]
     }
 }

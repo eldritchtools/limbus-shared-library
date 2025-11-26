@@ -276,7 +276,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Nothing particularly special with early 00s before PM established their design for the statuses.\n\nInflicts {status:Paralysis} on clash win with S2 and Pierce Fragility next turn with s3."
+        "main": [
+            "S3 can inflict up to 3 {status:PenetrateTakeDamageUp} if no coins were lost.",
+            "S2 inflicts {status:Paralysis} on clash win."
+        ]
     }
 }

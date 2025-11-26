@@ -305,7 +305,11 @@
         }
     },
     "notes": {
-        "short": "Negative coin identity who loses SP by gaining {status:Sinking} and passively triggering it once per turn.",
-        "full": "Negative coin identity. He gains {status:Sinking} from his S1, S3, and counter defense. His passive automatically triggers it once per turn. He also wants to get hit to trigger it more, gaining {status:Protection} equal to his {status:Sinking} (up to 5) from his passive and having a counter for his defense skill to facilitate this.\n\nHis main damage skill is his S2, which gains more Power below -15SP and even more below -25SP. He can also consume 5 {status:Sinking} for more damage. His S3 and counter can be used as setup since they give him {status:Paralysis} on Tails Hit, the S3 inflicts {status:Vulnerable} and the counter gives him {status:HitDamageUp} thanks to his passisve."
+        "main": [
+            "Negative coin identity who loses SP by gaining {status:Sinking}.",
+            "Passive automatically triggers {status:Sinking} and gives him {status:Protection} equal to his {status:Sinking} (up to 5). Defense is a counter that gives him more {status:Sinking}.",
+            "S2 gains more Power below -15SP and even more below -25SP. Also consumes 5 {status:Sinking} for more damage.",
+            "S3 and counter can be used as setup since they give him {status:Paralysis} on Tails Hit. S3 inflicts {status:Vulnerable} and counter gives him {status:HitDamageUp} thanks to his passive."
+        ]
     }
 }

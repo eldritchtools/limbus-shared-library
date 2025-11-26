@@ -280,7 +280,8 @@
         }
     },
     "notes": {
-        "short": "Some {status:Laceration} application and various debuffs ({status:Paralysis}, {status:AttackDmgDown}, and {status:AttackDown}.",
-        "full": "Read the short version."
+        "main": [
+            "Some {status:Laceration} application and various debuffs ({status:Paralysis} on S1, {status:AttackDmgDown} on S2, and {status:AttackDown} on S3."
+        ]
     }
 }

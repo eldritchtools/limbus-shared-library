@@ -251,7 +251,8 @@
         }
     },
     "notes": {
-        "short": "Gain buffs at below half HP.",
-        "full": "S1 and S2 get Skill Power and S3 gains atk weight when below 50% HP. His S3 and defense both make him lose a bit of HP."
+        "main": [
+            "Skills gain buffs at below 50% HP. S3 gains atk weight."
+        ]
     }
 }

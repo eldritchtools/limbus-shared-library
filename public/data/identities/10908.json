@@ -335,7 +335,11 @@
         }
     },
     "notes": {
-        "short": "Straightforward {status:Combustion} identity. Has bonuses against enemies with at least 6 Potency.",
-        "full": "Straightforward {status:Combustion} skills. S2 has some {status:Combustion} spreading to other targets. S3 has bonus damage based on {status:Combustion}. Her passive buffs her damage and the {keyword:Wrath} damage of allies if enemies have 6+ {status:Combustion} Potency. Liu Association allies also get {status:Enhancement}."
+        "main": [
+            "Straightforward {status:Combustion} skills.",
+            "S2 has some {status:Combustion} spreading to other targets.",
+            "S3 has bonus damage based on {status:Combustion}.",
+            "Her passive buffs her damage and the {keyword:Wrath} damage of allies if enemies have 6+ {status:Combustion} Potency. Liu Association allies also get {status:Enhancement}."
+        ]
     }
 }

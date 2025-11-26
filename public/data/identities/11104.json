@@ -292,7 +292,9 @@
         }
     },
     "notes": {
-        "short": "Applies debuffs on enemies.",
-        "full": "She permanently has +2 Clash Power on her skills (or rather enemies have -2 Clash Power but only when clashing with her skills). S1 inflicts {status:Paralysis}. S2 inflicts {status:DefenseDown}. S3 inflicts {status:AttackDown} and {status:WeaknessAnalysis} weakening a random Endure or Normal resistance by a +0.2 multiplier for a turn."
+        "main": [
+            "Has +2 Clash Power on her skills (or rather enemies have -2 Clash Power but only when clashing with her skills).",
+            "Inflicts debuffs. S1 inflicts {status:Paralysis}. S2 inflicts {status:DefenseDown}. S3 inflicts {status:AttackDown} and {status:WeaknessAnalysis} weakening a random Endure or Normal resistance by a +0.2 multiplier for a turn."
+        ]
     }
 }

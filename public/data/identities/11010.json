@@ -313,7 +313,10 @@
         }
     },
     "notes": {
-        "short": "{status:Aggro} tank that gives {status:DefenseUp} to himself and allies. Gains {status:Vibration} Count and consumes it to pass it on to his target.",
-        "full": "Gains {status:Aggro} and {status:Vibration} Count with his S1, S2, and defense. Consumes up to 8 Count with his S3 to inflict it on his target. His passive gives him {status:DefenseUp} based on his {status:Vibration} Count. He also gains more from his S1 and gives it to his allies with his S2 and S3. His S3 and defense trigger {status:VibrationExplosion}."
+        "main": [
+            "Gains {status:Aggro} and {status:Vibration} Count with his skills. Also gives himself and his allies {status:DefenseUp}.",
+            "Consumes up to 8 {status:Vibration} Count with his S3 to inflict it on his target.",
+            "His passive gives him {status:DefenseUp} based on his {status:Vibration} Count."
+        ]
     }
 }

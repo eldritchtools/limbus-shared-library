@@ -338,7 +338,13 @@
         }
     },
     "notes": {
-        "short": "Gain {status:Charge} Count with S1, defense, when hit, or when losing clashes. Spend Count on S2 and S3 to apply defense debuffs.",
-        "full": "Gains {status:Charge Count} with S1(+6), defense(+2), when hit(+1 each hit) or when losing clashes(+1 per clash lost). Spends 3 on S2 to apply {status:SlashTakeDamageUp} and up to 8 on S3 for 2 {status:DefenseDown} per 2 Count spent."
+        "main": [
+            "Spends up to 8 {status:Charge} Count on S3 to inflict 2 {status:DefenseDown} for every 2 Count spent.",
+            "Spends 3 {status:Charge} Count on S2 to apply 2 {status:SlashTakeDamageUp}"
+        ],
+        "other": [
+            "Gains {status:Charge} Count from S1 or defense.",
+            "Passive gives additional {status:Charge} Count when hit or when losing clashes."
+        ]
     }
 }

@@ -285,7 +285,9 @@
         }
     },
     "notes": {
-        "short": "Gains {status:Aggro} and some {status:Breath}. Gains shields based on {status:Breath}.",
-        "full": "Gains {status:Aggro} from her skills. Gains shield based on {status:Breath} Count, which she builds through her skills. S3 inflicts {status:Vulnerable}."
+        "main": [
+            "Gains {status:Aggro} from her skills. Gains shield based on {status:Breath} Count.",
+            "S3 inflicts {status:Vulnerable}."
+        ]
     }
 }

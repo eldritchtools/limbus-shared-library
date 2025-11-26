@@ -238,7 +238,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. Does {status:Vibration} stuff and his S2 buffs him next turn."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "Does {status:Vibration} stuff and his S2 buffs him next turn."
+        ]
     }
 }

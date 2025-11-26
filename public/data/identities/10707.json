@@ -358,7 +358,14 @@
         }
     },
     "notes": {
-        "short": "Deals bonus damage based on missing HP%. S2 gives {status:Breath} and inflicts {status:Laceration} Count based on {status:Laceration} Potency on the target.",
-        "full": "Gains {status:Aggro} on S1, S2, and defense to facilitate its increased damage based on missing HP%. His S2 gains {status:Breath} Potency for every 3 {status:Laceration} (up to 10 at 30 {status:Laceration}) and on crit inflicts {status:Laceration} Count of the same amount. His S3 gains Power at 3, 4 {keyword:Envy} Reson and even more at 6 A-Reson. It also inflicts more {status:Laceration} at lower HP%.\n\nHis passive gives him {status:AttackUp} and {status:DefenseUp} whenever allies are attacked."
+        "main": [
+            "Deals bonus damage based on missing HP%.",
+            "S2 gives {status:Breath} and inflicts {status:Laceration} Count based on {status:Laceration} Potency on the target.",
+            "S3 gains Power with {keyword:Envy} Reson and even more at 6 A-Reson and inflicts more {status:Laceration} at lower HP%."
+        ],
+        "other": [
+            "Gains {status:Aggro} on skills.",
+            "Passive gives him {status:AttackUp} and {status:DefenseUp} whenever allies are attacked."
+        ]
     }
 }

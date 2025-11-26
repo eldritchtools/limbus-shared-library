@@ -329,7 +329,13 @@
         }
     },
     "notes": {
-        "short": "Gains {status:Charge} Count on his S1 and S2. S3 spends up to 10 Count to apply {status:Laceration} Count.",
-        "full": "Gains {status:Charge} Count with S1(+4) or S2(+8). Spend up to 10 Count to apply up to 4 bonus {status:Laceration} Count on his S3. Gains speed and {status:Aggro} every turn at 5+ {status:Charge} Count. His skills gain some buffs at 7+ speed (damage for S1 and {status:Laceration} application on S2) or 10+ {status:Charge} Count (power for S1 and S3)."
+        "main": [
+            "Spends up to 10 {status:Charge} Count on S3 to apply up to 4 bonus {status:Laceration} Count. Also gains Coin Power at 10+ Count."
+        ],
+        "other": [
+            "Generates {status:Charge} Count on S1 and S2.",
+            "Passive gives speed and {status:Aggro} every turn at 5+ {status:Charge} Count.",
+            "S1 gains more damage and S2 inflicts additional {status:Laceration} Count at 7+ speed."
+        ]
     }
 }

@@ -417,7 +417,12 @@
         }
     },
     "notes": {
-        "short": "Inflicts {status:Combustion} on both herself and her targets. At 30+ {status:Combustion}, her S3 triggers S3-2 instead, then kills herself. Cannot die from {status:Combustion} damage.",
-        "full": "She gains {status:Combustion} when using any of her attacks, and loses it when using her evade. She passively gains {status:AttackUp} based on her own {status:Combustion} and can't die from {status:Combustion} damage.\n\nWhen she has 30+ {status:Combustion}, using her S3 triggers S3-2 instead, which has increased power and atk weight based on missing HP, but also kills her after use. The first time she goes below 20% HP, she instantly hits 30 {status:Combustion} if she has less than that.\n\nOn death, she spreads some of the {status:Combustion} on herself across all enemies and generates bonus EGO resources. If it was due to using S3-2, she inflicts more {status:Combustion}."
+        "main": [
+            "Gains {status:Combustion} on attacks and loses some on evade. Her passive gives her {status:AttackUp} based on her {status:Combustion}.",
+            "At 30+ {status:Combustion}, her S3 triggers S3-2 instead. S3-2 has increased power and atk weight based on missing HP but kills her after use. Max atk weight (5) at 20% HP and max power at 10% HP.",
+            "The first time she goes below 20% HP, she brings her {status:Combustion} up to 30 if she has less than that, so she can use her S3-2 immediately.",
+            "On death, she spreads some of the {status:Combustion} on herself across all enemies and generates bonus EGO resources. If it was due to using S3-2, she inflicts more {status:Combustion}.",
+            "Cannot be staggered or die from {status:Combustion} damage."
+        ]
     }
 }

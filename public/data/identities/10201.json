@@ -230,7 +230,9 @@
         }
     },
     "notes": {
-        "short": "Self-explanatory identity",
-        "full": "Not much to say with most base ids. Just applies a bunch of debuffs on the enemy."
+        "main": [
+            "Base identity, simple, straightforward.",
+            "Applies a bunch of offensive debuffs ({status:Paralysis}, {status:AttackDown}, {status:Reduction}."
+        ]
     }
 }

@@ -331,7 +331,10 @@
         }
     },
     "notes": {
-        "short": "Inflicts offensive debuffs on enemies, with stronger debuffs if the enemies have 7+ {status:Laceration}.",
-        "full": "Inflicts a small amount of {status:Laceration}. Inflicts {status:AttackDown} on her S2 and at 7+ {status:Laceration} on the target, inflict an additional {status:Reduction}. Inflicts 2 {status:AttackDown} on her S3 and at 7+ {status:Laceration} on the target, inflicts an additional 2 {status:AttackDown} and 1 {status:PlusCoinValueDown}."
+        "main": [
+            "Inflicts offensive debuffs on enemies, stronger if the enemies have 7+ {status:Laceration}.",
+            "Inflicts {status:AttackDown} on his S2 and at 7+ {status:Laceration} on the target, inflict an additional {status:Reduction}.",
+            "Inflicts 2 {status:AttackDown} on his S3 and at 7+ {status:Laceration} on the target, inflicts an additional 2 {status:AttackDown} and 1 {status:PlusCoinValueDown}."
+        ]
     }
 }

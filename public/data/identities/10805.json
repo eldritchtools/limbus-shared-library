@@ -290,7 +290,10 @@
         }
     },
     "notes": {
-        "short": "{status:Aggro} tank. Inflicts more {status:Vibration} and {status:Rupture} on Clash Lose.",
-        "full": "Gains {status:Aggro} on all skills. She inflicts most of her {status:Vibration} and {status:Rupture} application when she loses clashes. Her S3 triggers {status:VibrationExplosion} but consumes 4 {status:Vibration} Count instead of the typical 1.\n\nHer passive gives her shields whenever she fails to deal damage on the previous turn, helping her survive the damage from repeated clash losses."
+        "main": [
+            "{status:Aggro} tank that inflicts most of its {status:Vibration} and {status:Rupture} on Clash Lose.",
+            "Her S3 triggers {status:VibrationExplosion} but consumes 4 {status:Vibration} Count instead of the typical 1.",
+            "Her passive gives her shields whenever she fails to deal damage on the previous turn, helping her survive the damage from repeated clash losses."
+        ]
     }
 }

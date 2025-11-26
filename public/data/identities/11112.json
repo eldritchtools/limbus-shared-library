@@ -325,7 +325,14 @@
         }
     },
     "notes": {
-        "short": "Standard Heishou (S3 or defense gives a 3 turn buff, works with {identity:10613} mechanics) mechanics. All skills buffed at 10+ speed, use S3 at the start or at 10+ speed.",
-        "full": "Using her S3 or her defense gives her {status:LegStrength} which gives her 5 {status:Agility} every turn for 3 turns. At 10+ Speed, her S1 and S3 gain a coin reuse and her S2 deals more damage. Her S3 will also inflict an additional stack of {status:BurstAgility}. Her conditionals are dependent on her speed difference from her target's, so she'll always need {status:LegStrength} to be active. Her passive just gives bonus damage if she has {status:LegStrength} and her target has {status:BurstAgility}.\n\n{status:BurstAgility} inflicts {status:Burst} Count on the target if a unit with 10+ speed triggers {status:Burst} on it up to 3 times, then deals bonus {keyword:Gluttony} damage on it based on its {status:Burst} when all 3 times are consumed. It basically prevents its {status:Burst} Count from going down for those 3 hits. Any additional applications of {status:BurstAgility} won't work until it's fully consumed.\n\nHer S2 and S3 inflict more {status:Burst} Count if she uses it unopposed.\n\nHer buff for {identity:10613} is inflict {status:Burst} Count on hit with an unopposed attack (once per turn)."
+        "main": [
+            "Standard Heishou mechanic: Using S3 or defense gives a 3 turn buff corresponding to their Heishou Pack. {status:LegStrength} gives her 5 {status:Agility} every turn. All her skills gain more Power or damage based on speed and some get additional buffs at 10+ speed (S1 and S3 gain coin reuse, S2 and S3 gain more damage, S3 inflicts an additional {status:BurstAgility}).",
+            "Standard Heishou mechanic: Combos with {identity:10613}'s S3. The buff gives him {status:Burst} Count on hit with an unopposed attack (once per turn)."
+        ],
+        "other": [
+            "Inflicts {status:BurstAgility} with her S3, which inflicts +1 {status:Burst} Count when triggering {status:Burst} at 10+ speed and deals additional {keyword:Gluttony} damage based on {status:Burst} when fully consumed. The coin reuse on her S3 inflicts an additional stack of {status:BurstAgility} after she fully consumes the stack inflicted by the first coin.",
+            "Her passive gives bonus damage if she has {status:LegStrength} and her target has {status:BurstAgility}.",
+            "Her S2 and S3 inflict more {status:Burst} Count if she uses it unopposed."
+        ]
     }
 }

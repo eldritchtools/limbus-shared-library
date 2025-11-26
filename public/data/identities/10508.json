@@ -421,7 +421,10 @@
         }
     },
     "notes": {
-        "short": "Buffs Power and crit damage on other Blade Lineage identities. Gives them {status:Breath} when gaining {status:Breath} himself. Uses a much stronger skill with atk weight after the enemy attacks when his S3 loses a clash.",
-        "full": "His S1 and S2 buff other Blade Lineage allies' corresponding skills with +1 Power (+2 if 6 Blade Lineage identities are deployed) through {status:BladeResultUpTier1} and {status:BladeResultUpTier2}. A-Reson Blade Lineage allies are buffed and prioritizes slower allies first.\n\nHis S3 is a negative coin skill, so it purposely rolls lower at high SP. He wants it to lose clashes because he'll use a much stronger 4-coin high damage skill with atk weight and {status:Paralysis} application after the enemy attacks him. His S3 prevents stagger and he has a 1 time death nullification from his passive so he can pull off his damage skill regardless of how much the enemy's attack damages him.\n\nHis passive applies {status:SwordPlayOfTheHomeland} to all Blade Lineage allies when you trigger 3 {keyword:Poise} Res. giving their S1 and S2 coin power, their S3 damage, and all their skills crit damage. His passive also provides {status:Breath} Potency and Count to Blade Lineage allies whenever he gains {status:Breath} himself. He also applies the same effects to himself if enough Blade Lineage allies die."
+        "main": [
+            "S1 and S2 buff other Blade Lineage allies' corresponding skills with +1 Power (+2 if 6 Blade Lineage identities are deployed) through {status:BladeResultUpTier1} and {status:BladeResultUpTier2}. A-Reson Blade Lineage allies are buffed and prioritizes slower allies first.",
+            "S3 is a negative coin skill that wants to lose clashes because he'll use a much stronger 4-coin high damage skill with atk weight and {status:Paralysis} application after the enemy attacks him. His S3 prevents stagger and he has a 1 time death nullification from his passive so he can pull off his damage skill regardless of how much the enemy's attack damages him.",
+            "His passive applies {status:SwordPlayOfTheHomeland} to all Blade Lineage allies when you trigger 3 {keyword:Poise} Res. giving their S1 and S2 coin power, their S3 damage, and all their skills crit damage. His passive also provides {status:Breath} Potency and Count to Blade Lineage allies whenever he gains {status:Breath} himself. He also applies the same effects to himself if enough Blade Lineage allies die."
+        ]
     }
 }

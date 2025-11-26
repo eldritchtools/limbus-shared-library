@@ -125,7 +125,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ]
                     ]
                 },
@@ -135,7 +135,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]",
                             "+20% Damage to targets with 5+ [NailPersonality]"
                         ]
                     ]
@@ -146,7 +146,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]",
                             "+30% damage to targets with 5+ [NailPersonality]"
                         ]
                     ]
@@ -301,7 +301,10 @@
         }
     },
     "notes": {
-        "short": "Straightforward identity. {status:VibrationExplosion} on S2.",
-        "full": "Inflicts {status:Vibration} and {status:NailPersonality}. Triggers {status:VibrationExplosion} on S2. S3 inflicts {status:Reduction} and {status:Paralysis} on heads hit if the target has 5+ {status:NailPersonality}."
+        "main": [
+            "Inflicts {status:Vibration} and {status:NailPersonality}.",
+            "Triggers {status:VibrationExplosion} on S2",
+            "S3 inflicts {status:Reduction} and {status:Paralysis} on heads hit if the target has 5+ {status:NailPersonality}."
+        ]
     }
 }

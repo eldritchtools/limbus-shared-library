@@ -273,7 +273,9 @@
         }
     },
     "notes": {
-        "short": "Buffed by other N. Corp Fanatic identities. Inflicts {status:PlusCoinValueDown}.",
-        "full": "S1 inflicts {status:NailPersonality}. S2 inflicts {status:PlusCoinValueDown} on heads hit. His passive buffs his Coin Power if there are 4 or more N. Corp Fanatics on the team (including himself). He loses 10SP but gains 1 {status:HitResultUp} if an ally dies."
+        "main": [
+            "Buffed with 4 other N. Corp Fanatic identities deployed. Loses 10 SP but gains 1 {status:HitResultUp} if an ally dies.",
+            "S2 inflicts {status:PlusCoinValueDown} on heads hit."
+        ]
     }
 }
