@@ -19,6 +19,7 @@
         "@babel/core": "^7.28.3",
         "@babel/preset-env": "^7.28.3",
         "@babel/preset-react": "^7.27.1",
+        "baseline-browser-mapping": "^2.8.32",
         "copyfiles": "^2.4.1"
     },
     "babel": {

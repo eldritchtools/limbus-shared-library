@@ -22,6 +22,8 @@ function EgoImg(_ref) {
     displayName = _ref$displayName === void 0 ? false : _ref$displayName,
     _ref$scale = _ref.scale,
     scale = _ref$scale === void 0 ? 1 : _ref$scale,
+    size = _ref.size,
+    width = _ref.width,
     _ref$style = _ref.style,
     style = _ref$style === void 0 ? {} : _ref$style;
   var _useData = useData("egos_mini"),
@@ -39,15 +41,23 @@ function EgoImg(_ref) {
       egoObject = egos[id];
     }
   }
-  var scaledStyle = _objectSpread({
+  var scaledStyle = width ? {
+    width: width,
+    height: "auto"
+  } : size ? {
+    width: "".concat(size, "px"),
+    height: "".concat(size, "px")
+  } : {
     width: "".concat(256 * scale, "px"),
     height: "".concat(256 * scale, "px")
-  }, style);
+  };
   var img = /*#__PURE__*/_jsx("img", {
     src: "".concat(ASSETS_ROOT, "/egos/").concat(egoObject.id, "_").concat(type, "_profile.png"),
     alt: egoObject.name,
     title: egoObject.name,
-    style: scaledStyle
+    style: _objectSpread({
+      scaledStyle: scaledStyle
+    }, style)
   });
   if (displayName) {
     return /*#__PURE__*/_jsxs("div", {

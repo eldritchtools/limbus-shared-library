@@ -20,7 +20,9 @@ function IdentityImg(_ref) {
     _ref$displayName = _ref.displayName,
     displayName = _ref$displayName === void 0 ? false : _ref$displayName,
     _ref$scale = _ref.scale,
-    scale = _ref$scale === void 0 ? 1 : _ref$scale;
+    scale = _ref$scale === void 0 ? 1 : _ref$scale,
+    size = _ref.size,
+    width = _ref.width;
   var _useData = useData("identities_mini"),
     _useData2 = _slicedToArray(_useData, 2),
     identities = _useData2[0],
@@ -36,7 +38,13 @@ function IdentityImg(_ref) {
       identityObject = identities[id];
     }
   }
-  var scaledStyle = {
+  var scaledStyle = width ? {
+    width: width,
+    height: "auto"
+  } : size ? {
+    width: "".concat(size, "px"),
+    height: "".concat(size, "px")
+  } : {
     width: "".concat(256 * scale, "px"),
     height: "".concat(256 * scale, "px")
   };

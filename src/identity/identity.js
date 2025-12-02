@@ -6,7 +6,7 @@ function getIdentityImgSrc(identityObject, uptie = 4) {
     return `${ASSETS_ROOT}/identities/${identityObject.id}_${type}_profile.png`;
 }
 
-function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 1 }) {
+function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 1, size, width }) {
     const [identities, identitiesLoading] = useData("identities_mini");
 
     let identityObject = identity;
@@ -21,7 +21,12 @@ function IdentityImg({ id, identity = null, uptie, displayName = false, scale = 
         }
     }
 
-    const scaledStyle = { width: `${256 * scale}px`, height: `${256 * scale}px` };
+    const scaledStyle = width ?
+        { width: width, height: "auto" } :
+        size ?
+            { width: `${size}px`, height: `${size}px` } :
+            { width: `${256 * scale}px`, height: `${256 * scale}px` };
+
     const img = <img src={getIdentityImgSrc(identityObject, uptie)} alt={identityObject.name} title={identityObject.name} style={scaledStyle} />
 
     if (displayName) {
