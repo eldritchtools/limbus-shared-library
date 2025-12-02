@@ -8,3 +8,5 @@ Provides `IdentityImg` components to display identities.
 - `uptie` - (integer) Uptie level of id (1-4). Used to pick regular or uptie image.
 - `displayName` - (boolean) Whether to include the name of the identity below the image.
 - `scale` - (decimal) The scale of the image. At the default value of 1 scale, the image is set to 256x256 pixels.
+- `size` - (integer) Optional size in pixels, overrides `scale`.
+- `width` - (string) Optional width css parameter, overrides `scale` and `size`.

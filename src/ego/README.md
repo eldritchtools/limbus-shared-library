@@ -8,3 +8,6 @@ Provides `EgoImg` components to display identities.
 - `type` - Determines which image to display. Either `"awaken"` or `"erosion"`, any other string will fail to find the correct image. 
 - `displayName` - (boolean) Whether to include the name of the identity below the image.
 - `scale` - (decimal) The scale of the image. At the default value of 1 scale, the image is set to 256x256 pixels.
+- `size` - (integer) Optional size in pixels, overrides `scale`.
+- `width` - (string) Optional width css parameter, overrides `scale` and `size`.
+- `style` - Optional inline style parameter.
