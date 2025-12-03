@@ -55,9 +55,7 @@ function EgoImg(_ref) {
     src: "".concat(ASSETS_ROOT, "/egos/").concat(egoObject.id, "_").concat(type, "_profile.png"),
     alt: egoObject.name,
     title: egoObject.name,
-    style: _objectSpread({
-      scaledStyle: scaledStyle
-    }, style)
+    style: _objectSpread(_objectSpread({}, scaledStyle), style)
   });
   if (displayName) {
     return /*#__PURE__*/_jsxs("div", {

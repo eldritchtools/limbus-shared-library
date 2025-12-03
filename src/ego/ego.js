@@ -22,7 +22,7 @@ function EgoImg({ id, ego = null, type, displayName = false, scale = 1, size, wi
             { width: `${size}px`, height: `${size}px` } :
             { width: `${256 * scale}px`, height: `${256 * scale}px` };
 
-    const img = <img src={`${ASSETS_ROOT}/egos/${egoObject.id}_${type}_profile.png`} alt={egoObject.name} title={egoObject.name} style={{ scaledStyle, ...style }} />
+    const img = <img src={`${ASSETS_ROOT}/egos/${egoObject.id}_${type}_profile.png`} alt={egoObject.name} title={egoObject.name} style={{ ...scaledStyle, ...style }} />
 
     if (displayName) {
         return <div style={{ display: "flex", flexDirection: "column", textAlign: "center", width: scaledStyle.width }}>
