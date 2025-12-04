@@ -1,606 +1,707 @@
 {
     "20101": {
         "sinnerId": 1,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Crow\u2019s Eye View",
         "affinity": "sloth"
     },
     "20102": {
         "sinnerId": 1,
+        "season": 1,
         "rank": "TETH",
         "name": "4th Match Flame",
         "affinity": "wrath"
     },
     "20103": {
         "sinnerId": 1,
+        "season": 0,
         "rank": "TETH",
         "name": "Wishing Cairn",
         "affinity": "sloth"
     },
     "20104": {
         "sinnerId": 1,
+        "season": 0,
         "rank": "HE",
         "name": "Dimension Shredder",
         "affinity": "pride"
     },
     "20105": {
         "sinnerId": 1,
+        "season": 2,
         "rank": "WAW",
         "name": "Sunshower",
         "affinity": "sloth"
     },
     "20106": {
         "sinnerId": 1,
+        "season": 4,
         "rank": "ZAYIN",
         "name": "Bygone Days",
         "affinity": "gloom"
     },
     "20107": {
         "sinnerId": 1,
+        "season": 5,
         "rank": "HE",
         "name": "Fell Bullet",
         "affinity": "pride"
     },
     "21001": {
         "sinnerId": 10,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Branch of Knowledge",
         "affinity": "gluttony"
     },
     "21002": {
         "sinnerId": 10,
+        "season": 1,
         "rank": "TETH",
         "name": "Impending Day",
         "affinity": "wrath"
     },
     "21003": {
         "sinnerId": 10,
+        "season": 1,
         "rank": "TETH",
         "name": "Lifetime Stew",
         "affinity": "lust"
     },
     "21004": {
         "sinnerId": 10,
+        "season": 0,
         "rank": "HE",
         "name": "Lantern",
         "affinity": "gluttony"
     },
     "21006": {
         "sinnerId": 10,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Cavernous Wailing",
         "affinity": "gloom"
     },
     "21007": {
         "sinnerId": 10,
+        "season": 5,
         "rank": "TETH",
         "name": "Hex Nail",
         "affinity": "envy"
     },
     "21101": {
         "sinnerId": 11,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "To P\u00e1thos M\u00e1thos",
         "affinity": "pride"
     },
     "21102": {
         "sinnerId": 11,
+        "season": 1,
         "rank": "HE",
         "name": "Ebony Stem",
         "affinity": "gluttony"
     },
     "21103": {
         "sinnerId": 11,
+        "season": 0,
         "rank": "TETH",
         "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
         "affinity": "lust"
     },
     "21104": {
         "sinnerId": 11,
+        "season": 2,
         "rank": "TETH",
         "name": "Sunshower",
         "affinity": "gluttony"
     },
     "21105": {
         "sinnerId": 11,
+        "season": 3,
         "rank": "HE",
         "name": "Holiday",
         "affinity": "wrath"
     },
     "21106": {
         "sinnerId": 11,
+        "season": 4,
         "rank": "WAW",
         "name": "Binds",
         "affinity": "pride"
     },
     "21107": {
         "sinnerId": 11,
+        "season": 4,
         "rank": "HE",
         "name": "Dimension Shredder",
         "affinity": "envy"
     },
     "21108": {
         "sinnerId": 11,
+        "season": 9105,
         "rank": "HE",
         "name": "Magic Bullet",
         "affinity": "pride"
     },
     "21201": {
         "sinnerId": 12,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Suddenly, One Day",
         "affinity": "sloth"
     },
     "21202": {
         "sinnerId": 12,
+        "season": 1,
         "rank": "ZAYIN",
         "name": "Legerdemain",
         "affinity": "gluttony"
     },
     "21203": {
         "sinnerId": 12,
+        "season": 0,
         "rank": "TETH",
         "name": "Lantern",
         "affinity": "gluttony"
     },
     "21204": {
         "sinnerId": 12,
+        "season": 2,
         "rank": "HE",
         "name": "AEDD",
         "affinity": "gloom"
     },
     "21205": {
         "sinnerId": 12,
+        "season": 3,
         "rank": "WAW",
         "name": "Garden of Thorns",
         "affinity": "lust"
     },
     "21206": {
         "sinnerId": 12,
+        "season": 4,
         "rank": "TETH",
         "name": "Bygone Days",
         "affinity": "gloom"
     },
     "21207": {
         "sinnerId": 12,
+        "season": 9104,
         "rank": "HE",
         "name": "Solemn Lament",
         "affinity": "gloom"
     },
     "21208": {
         "sinnerId": 12,
+        "season": 5,
         "rank": "HE",
         "name": "Christmas Nightmare",
         "affinity": "sloth"
     },
     "21209": {
         "sinnerId": 12,
+        "season": 8000,
         "rank": "WAW",
         "name": "Unbrilliant Glory",
         "affinity": "sloth"
     },
     "20201": {
         "sinnerId": 2,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Representation Emitter",
         "affinity": "pride"
     },
     "20202": {
         "sinnerId": 2,
+        "season": 1,
         "rank": "HE",
         "name": "Fluid Sac",
         "affinity": "gloom"
     },
     "20203": {
         "sinnerId": 2,
+        "season": 0,
         "rank": "TETH",
         "name": "Hex Nail",
         "affinity": "envy"
     },
     "20204": {
         "sinnerId": 2,
+        "season": 0,
         "rank": "HE",
         "name": "Telepole",
         "affinity": "envy"
     },
     "20206": {
         "sinnerId": 2,
+        "season": 4,
         "rank": "WAW",
         "name": "Everlasting",
         "affinity": "sloth"
     },
     "20207": {
         "sinnerId": 2,
+        "season": 5,
         "rank": "TETH",
         "name": "Lasso",
         "affinity": "gluttony"
     },
     "20208": {
         "sinnerId": 2,
+        "season": 5,
         "rank": "HE",
         "name": "Thoracalgia",
         "affinity": "pride"
     },
     "20209": {
         "sinnerId": 2,
+        "season": 8000,
         "rank": "HE",
         "name": "Command : Meltdown",
         "affinity": "gluttony"
     },
     "20301": {
         "sinnerId": 3,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "La Sangre de Sancho",
         "affinity": "lust"
     },
     "20302": {
         "sinnerId": 3,
+        "season": 1,
         "rank": "HE",
         "name": "Fluid Sac",
         "affinity": "gloom"
     },
     "20303": {
         "sinnerId": 3,
+        "season": 0,
         "rank": "HE",
         "name": "Telepole",
         "affinity": "envy"
     },
     "20304": {
         "sinnerId": 3,
+        "season": 1,
         "rank": "TETH",
         "name": "Lifetime Stew",
         "affinity": "lust"
     },
     "20305": {
         "sinnerId": 3,
+        "season": 0,
         "rank": "TETH",
         "name": "Wishing Cairn",
         "affinity": "sloth"
     },
     "20306": {
         "sinnerId": 3,
+        "season": 4,
         "rank": "TETH",
         "name": "Electric Screaming",
         "affinity": "envy"
     },
     "20307": {
         "sinnerId": 3,
+        "season": 5,
         "rank": "WAW",
         "name": "Yearning-Mircalla",
         "affinity": "lust"
     },
     "20309": {
         "sinnerId": 3,
+        "season": 9106,
         "rank": "WAW",
         "name": "In the Name of Love and Hate",
         "affinity": "envy"
     },
     "20401": {
         "sinnerId": 4,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Forest for the Flames",
         "affinity": "lust"
     },
     "20402": {
         "sinnerId": 4,
+        "season": 1,
         "rank": "HE",
         "name": "4th Match Flame",
         "affinity": "wrath"
     },
     "20403": {
         "sinnerId": 4,
+        "season": 0,
         "rank": "TETH",
         "name": "Red Eyes",
         "affinity": "lust"
     },
     "20404": {
         "sinnerId": 4,
+        "season": 0,
         "rank": "HE",
         "name": "Red Eyes (Open)",
         "affinity": "envy"
     },
     "20405": {
         "sinnerId": 4,
+        "season": 2,
         "rank": "ZAYIN",
         "name": "Soda",
         "affinity": "gloom"
     },
     "20407": {
         "sinnerId": 4,
+        "season": 4,
         "rank": "WAW",
         "name": "Contempt, Awe",
         "affinity": "lust"
     },
     "20408": {
         "sinnerId": 4,
+        "season": 5,
         "rank": "HE",
         "name": "Thoracalgia",
         "affinity": "pride"
     },
     "20501": {
         "sinnerId": 5,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Chains of Others",
         "affinity": "pride"
     },
     "20502": {
         "sinnerId": 5,
+        "season": 1,
         "rank": "TETH",
         "name": "Screwloose Wallop",
         "affinity": "envy"
     },
     "20503": {
         "sinnerId": 5,
+        "season": 0,
         "rank": "HE",
         "name": "Pursuance",
         "affinity": "sloth"
     },
     "20504": {
         "sinnerId": 5,
+        "season": 2,
         "rank": "HE",
         "name": "Capote",
         "affinity": "wrath"
     },
     "20505": {
         "sinnerId": 5,
+        "season": 9101,
         "rank": "TETH",
         "name": "Regret",
         "affinity": "wrath"
     },
     "20506": {
         "sinnerId": 5,
+        "season": 4,
         "rank": "TETH",
         "name": "Electric Screaming",
         "affinity": "envy"
     },
     "20507": {
         "sinnerId": 5,
+        "season": 5,
         "rank": "WAW",
         "name": "Yearning-Mircalla",
         "affinity": "lust"
     },
     "20508": {
         "sinnerId": 5,
+        "season": 6,
         "rank": "WAW",
         "name": "Crushbound Past",
         "affinity": "sloth"
     },
     "20601": {
         "sinnerId": 6,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Land of Illusion",
         "affinity": "gloom"
     },
     "20602": {
         "sinnerId": 6,
+        "season": 1,
         "rank": "TETH",
         "name": "Roseate Desire",
         "affinity": "lust"
     },
     "20603": {
         "sinnerId": 6,
+        "season": 0,
         "rank": "HE",
         "name": "Dimension Shredder",
         "affinity": "pride"
     },
     "20604": {
         "sinnerId": 6,
+        "season": 2,
         "rank": "TETH",
         "name": "Soda",
         "affinity": "envy"
     },
     "20606": {
         "sinnerId": 6,
+        "season": 0,
         "rank": "TETH",
         "name": "Cavernous Wailing",
         "affinity": "sloth"
     },
     "20607": {
         "sinnerId": 6,
+        "season": 5,
         "rank": "TETH",
         "name": "Lasso",
         "affinity": "gluttony"
     },
     "20609": {
         "sinnerId": 6,
+        "season": 8000,
         "rank": "HE",
         "name": "To Remain Oneself [\u5b81\u4f5c\u543e]",
         "affinity": "pride"
     },
     "20701": {
         "sinnerId": 7,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Bodysack",
         "affinity": "envy"
     },
     "20702": {
         "sinnerId": 7,
+        "season": 1,
         "rank": "HE",
         "name": "Telepole",
         "affinity": "envy"
     },
     "20703": {
         "sinnerId": 7,
+        "season": 2,
         "rank": "TETH",
         "name": "AEDD",
         "affinity": "gloom"
     },
     "20704": {
         "sinnerId": 7,
+        "season": 0,
         "rank": "HE",
         "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
         "affinity": "lust"
     },
     "20705": {
         "sinnerId": 7,
+        "season": 3,
         "rank": "ZAYIN",
         "name": "Holiday",
         "affinity": "gluttony"
     },
     "20706": {
         "sinnerId": 7,
+        "season": 4,
         "rank": "WAW",
         "name": "Binds",
         "affinity": "gloom"
     },
     "20707": {
         "sinnerId": 7,
+        "season": 0,
         "rank": "TETH",
         "name": "Fell Bullet",
         "affinity": "pride"
     },
     "20708": {
         "sinnerId": 7,
+        "season": 0,
         "rank": "HE",
         "name": "Asymmetrical Inertia",
         "affinity": "sloth"
     },
     "20801": {
         "sinnerId": 8,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "Snagharpoon",
         "affinity": "gloom"
     },
     "20802": {
         "sinnerId": 8,
+        "season": 1,
         "rank": "TETH",
         "name": "Roseate Desire",
         "affinity": "lust"
     },
     "20803": {
         "sinnerId": 8,
+        "season": 0,
         "rank": "HE",
         "name": "Ardor Blossom Star",
         "affinity": "wrath"
     },
     "20804": {
         "sinnerId": 8,
+        "season": 2,
         "rank": "TETH",
         "name": "Capote",
         "affinity": "wrath"
     },
     "20806": {
         "sinnerId": 8,
+        "season": 9103,
         "rank": "HE",
         "name": "Wingbeat",
         "affinity": "gluttony"
     },
     "20807": {
         "sinnerId": 8,
+        "season": 0,
         "rank": "TETH",
         "name": "Bygone Days",
         "affinity": "gloom"
     },
     "20808": {
         "sinnerId": 8,
+        "season": 5,
         "rank": "HE",
         "name": "Christmas Nightmare",
         "affinity": "sloth"
     },
     "20810": {
         "sinnerId": 8,
+        "season": 8000,
         "rank": "HE",
         "name": "Tidal Elegy",
         "affinity": "gloom"
     },
     "20901": {
         "sinnerId": 9,
+        "season": 0,
         "rank": "ZAYIN",
         "name": "What is Cast",
         "affinity": "pride"
     },
     "20902": {
         "sinnerId": 9,
+        "season": 1,
         "rank": "HE",
         "name": "4th Match Flame",
         "affinity": "wrath"
     },
     "20903": {
         "sinnerId": 9,
+        "season": 1,
         "rank": "TETH",
         "name": "Rime Shank",
         "affinity": "gloom"
     },
     "20905": {
         "sinnerId": 9,
+        "season": 0,
         "rank": "HE",
         "name": "Pursuance",
         "affinity": "sloth"
     },
     "20906": {
         "sinnerId": 9,
+        "season": 9103,
         "rank": "WAW",
         "name": "Sanguine Desire",
         "affinity": "lust"
     },
     "20907": {
         "sinnerId": 9,
+        "season": 5,
         "rank": "HE",
         "name": "Hex Nail",
         "affinity": "envy"
     },
     "20908": {
         "sinnerId": 9,
+        "season": 5,
         "rank": "WAW",
         "name": "Indicant's Trial",
         "affinity": "wrath"
     },
     "20205": {
         "sinnerId": 2,
+        "season": 3,
         "rank": "TETH",
         "name": "9:2",
         "affinity": "lust"
     },
     "20605": {
         "sinnerId": 6,
+        "season": 3,
         "rank": "HE",
         "name": "Effervescent Corrosion",
         "affinity": "gluttony"
     },
     "20406": {
         "sinnerId": 4,
+        "season": 3,
         "rank": "TETH",
         "name": "Blind Obsession",
         "affinity": "pride"
     },
     "20805": {
         "sinnerId": 8,
+        "season": 3,
         "rank": "WAW",
         "name": "Blind Obsession",
         "affinity": "pride"
     },
     "20904": {
         "sinnerId": 9,
+        "season": 3,
         "rank": "TETH",
         "name": "Effervescent Corrosion",
         "affinity": "gluttony"
     },
     "21005": {
         "sinnerId": 10,
+        "season": 3,
         "rank": "HE",
         "name": "9:2",
         "affinity": "lust"
     },
     "20308": {
         "sinnerId": 3,
+        "season": 6,
         "rank": "HE",
         "name": "Red Sheet",
         "affinity": "gluttony"
     },
     "20809": {
         "sinnerId": 8,
+        "season": 6,
         "rank": "ZAYIN",
         "name": "Hundred-Footed Death Maggot [\u874d\u86c6\u6bba]",
         "affinity": "gloom"
     },
     "20608": {
         "sinnerId": 6,
+        "season": 6,
         "rank": "WAW",
         "name": "Tears of the Tarnished Blood [\u6c5a\u8840\u6ce3\u6dda]",
         "affinity": "gluttony"
     },
     "21008": {
         "sinnerId": 10,
+        "season": 6,
         "rank": "WAW",
         "name": "Tears of the Tarnished Blood [\u6c5a\u8840\u6ce3\u6dda]",
         "affinity": "gluttony"
