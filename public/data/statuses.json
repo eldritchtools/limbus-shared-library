@@ -974,6 +974,11 @@
         "name": "Shattermark",
         "desc": "- Take +10% damage from Gluttony and Gloom Skills\n- Units with SP: change their Panic Type to \"Shattermark\"\n- Units without SP: Clash Power -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n\u203b Shattermark Panic-type Effects\n- Low Morale: Clash Power -1, Defense Level -2 on self\n- Panic: Clash Power -2, Defense Level -3 on self"
     },
+    "ProtectStanceRyoshu": {
+        "buffType": "Positive",
+        "name": "Protector's Stance",
+        "desc": "- Max Stack: 2\n- Take (Stack x 10)% less damage\n- Turn Start: Gain Shield by Poise on self (max 20)\n- Turn End: Gain 3 Poise Potency and +1 Poise Count; this unit's leftmost Skill Slot gains +5 Aggro next turn\n- Turn End: Lose 1 Stack"
+    },
     "DuelDeclaration_Camille": {
         "buffType": "Negative",
         "categoryKeywordList": [
@@ -2960,7 +2965,7 @@
     "Duress": {
         "buffType": "Negative",
         "name": "Captivity",
-        "desc": "Become Staggered for 3 turns; disable any Retreat-related abilities\nTurn Start: If kqe-1j-23 is Staggered, remove this effect"
+        "desc": "Become Staggered for 3 turns; disable any Retreat-related abilities\nRemove this effect when kqe-1j-23 becomes Staggered"
     },
     "Bull_FadedHeat": {
         "buffType": "Neutral",
@@ -3071,6 +3076,16 @@
         "buffType": "Neutral",
         "name": "Accumulated Past",
         "desc": "Gain 11 at the end of the Turn.\nSpent completely when the Body Part is broken."
+    },
+    "AggressiveBokgak": {
+        "buffType": "Neutral",
+        "name": "Instincts",
+        "desc": "Max Stack: 5\nTurn End: At 4+ Stack, change to an \u201caggressive\u201d state."
+    },
+    "DeadEGOResource": {
+        "buffType": "Positive",
+        "name": "Lingering Determination",
+        "desc": "When defeated, gain E.G.O Resources based on the Affinity & Rank of each Attack Skill this Identity has"
     },
     "ATL_Agility": {
         "buffType": "Positive",
@@ -3542,7 +3557,7 @@
     "AaCePcBr": {
         "buffType": "Neutral",
         "name": "Assist Barrier",
-        "desc": "Reduce value by the amount of damage taken\nDoes not expire at the end of the turn.\nTurn End: If this value is at 0, get Staggered next turn."
+        "desc": "Reduce value by the amount of damage taken.\nDoes not expire at the end of the turn.\nTurn End: If this value is at 0, get Staggered next turn."
     },
     "AaCePcBs": {
         "buffType": "Neutral",

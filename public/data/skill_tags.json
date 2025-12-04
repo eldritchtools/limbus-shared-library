@@ -236,5 +236,8 @@
     "OnStartCoin": {
         "text": "[Coin Start]",
         "color": "#8ADF3B"
+    },
+    "BeforeBehavior": {
+        "text": "[Before Action]"
     }
 }

@@ -55,7 +55,7 @@
                 {
                     "uptie": 2,
                     "name": "Serpent Glint",
-                    "desc": "[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] At 10+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -69,7 +69,7 @@
                 {
                     "uptie": 4,
                     "name": "Serpent Glint",
-                    "desc": "[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -141,7 +141,7 @@
                 {
                     "uptie": 2,
                     "name": "Snake Fang",
-                    "desc": "[WhenUse] If the sum of [Breath] Potency on self and target's [Burst] Potency is 10 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] At 10+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [],
                         [
@@ -156,7 +156,7 @@
                 {
                     "uptie": 4,
                     "name": "Snake Fang",
-                    "desc": "[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+                    "desc": "[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]"
@@ -200,7 +200,7 @@
                 {
                     "uptie": 3,
                     "name": "Serpent's Mortal Flurry",
-                    "desc": "[WideAreaRampage]\n[WhenUse] If the sum of [Breath] Potency on self and the main target's [Burst] Potency is 10 or higher, Coin Power +1\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count against all targets",
+                    "desc": "[WideAreaRampage]\n[WhenUse] At 10+ ([Breath] on self + [Burst] on the main target), Coin Power +1\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count against all targets",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +2 [Breath] Count"
@@ -218,7 +218,7 @@
                 {
                     "uptie": 4,
                     "name": "Serpent's Mortal Flurry",
-                    "desc": "[WideAreaRampage]\n[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and the main target's [Burst] Potency) (max 2)\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
+                    "desc": "[WideAreaRampage]\n[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on the main target) (max 2)\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +2 [Breath] Count"

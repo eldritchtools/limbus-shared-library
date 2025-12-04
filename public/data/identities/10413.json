@@ -1,0 +1,357 @@
+{
+    "skills": {
+        "1041301": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 5,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Hey, Back Off",
+                    "desc": "[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Hey, Back Off",
+                    "desc": "[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Hey, Back Off",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)\n[WhenUse] Gain +1 [Breath] Count\n[OnDirectAttack] Inflict +1 [Burst] Count",
+                    "coinDescs": [
+                        [
+                            "+20% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1041302": {
+            "tier": 2,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 2,
+                    "baseValue": 3,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 4
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Engraved in Flesh and Bone [\u9298\u808c\u93e4\u9aa8]",
+                    "desc": "[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 2,
+                    "name": "Engraved in Flesh and Bone [\u9298\u808c\u93e4\u9aa8]",
+                    "desc": "[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 1) (max 6; rounded down)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Engraved in Flesh and Bone [\u9298\u808c\u93e4\u9aa8]",
+                    "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Gain [Breath] equal to (([Burst] on target / 5) + 2) (max 6; rounded down)"
+                        ],
+                        [
+                            "+20% Damage on Critical Hit",
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1041303": {
+            "tier": 3,
+            "data": [
+                {
+                    "uptie": 3,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 3,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 4,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 3,
+                    "name": "Aiding Strike [\u52a0\u65a5\u6211\u63f4]",
+                    "desc": "[WhenUse] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] If target has 3+ types of negative effects, Final Power +1\n[WhenUse] At 6+ ([Breath] on self + [Burst] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count\n[WhenUse] Gain 3 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) (max 100%)",
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Aiding Strike [\u52a0\u65a5\u6211\u63f4]",
+                    "desc": "[WhenUse] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] If target has 3+ types of negative effects, Final Power +1\n[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Burst] on target) (max 2)\n[WhenUse] Gain +3 [Breath] Count\n[WhenUse] Gain 3 [Breath]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[CriticalOnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) (max 120%)",
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "1041304": {
+            "tier": 1,
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "none",
+                    "atkType": null,
+                    "defType": "guard",
+                    "atkWeight": 1,
+                    "levelCorrection": 4,
+                    "baseValue": 2,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "affinity": "pride",
+                    "baseValue": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Sentinel",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Sentinel",
+                    "desc": "[CanDuelGuard]\n[StartBattle] Gain 2 [ProtectStanceRyoshu]\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WinDuel] Gain [Breath] by [Burst] on target (max 5; once per turn)",
+                    "coinDescs": [
+                        [
+                            "[SuperCoin]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    "combatPassives": [
+        {
+            "level": 1,
+            "passives": [
+                1041302
+            ]
+        },
+        {
+            "level": 2,
+            "passives": [
+                1041302,
+                1041301
+            ]
+        }
+    ],
+    "supportPassives": [
+        {
+            "level": 3,
+            "passives": [
+                1041321
+            ]
+        }
+    ],
+    "passiveData": {
+        "1041321": {
+            "name": "Drifter",
+            "desc": "Combat Start: The ally with the earliest Deployment order gains 1 Shield for every [Breath] on self (max 10)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "gluttony",
+                        "value": 3
+                    },
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1041301": {
+            "name": "Loyal Warrior",
+            "desc": "If an ally is killed by enemy attack, or if the attacked ally's HP is at less than 25% after the attack: After that Attack, Drifting Blade of Hongyuan Ry\u014dsh\u016b uses \"Aiding Strike\" as an Unopposed Attack against that enemy (once per Encounter)\n- The Lord of Hongyuan Hong Lu may activate this effect 1 more time past its usage limit\n\nIf \"Hey, Back Off\" is activated via the Passive 'I.L.T.L.T', the Skill deals +30% damage on Critical Hit and heals 2~4 SP for 1 other ally with the lowest SP (once per turn; excluding allies at -40 or lower SP)",
+            "condition": {
+                "type": "owned",
+                "requirement": [
+                    {
+                        "type": "pride",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        "1041302": {
+            "name": "I.L.T.L.T.\n(I would've Liked to walk The Lord's path Together)",
+            "desc": "When another ally's Skill hits an enemy: After that Attack, use \"Hey, Back Off\" as an Unopposed Attack against the enemy (once per turn)\n\nIn the same turn this unit Substituted in or Returned to the battlefield, gain 2 [ProtectStanceRyoshu]\nWhen this unit activates an Unopposed Attack due to The Lord of Hongyuan Hong Lu's \"The Heishou Lord\" Passive, treat this unit as if it has \"Heishou Pack\" or \"Jia Family\" Trait Keywords"
+        }
+    },
+    "notes": {}
+}
