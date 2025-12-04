@@ -353,5 +353,14 @@
             "desc": "When another ally's Skill hits an enemy: After that Attack, use \"Hey, Back Off\" as an Unopposed Attack against the enemy (once per turn)\n\nIn the same turn this unit Substituted in or Returned to the battlefield, gain 2 [ProtectStanceRyoshu]\nWhen this unit activates an Unopposed Attack due to The Lord of Hongyuan Hong Lu's \"The Heishou Lord\" Passive, treat this unit as if it has \"Heishou Pack\" or \"Jia Family\" Trait Keywords"
         }
     },
-    "notes": {}
+    "notes": {
+        "main": [
+            "Gains {status:ProtectStanceRyoshu} for 2 turns with S3 or defense. Gives her damage mitigation, {status:Aggro}, and bonus {status:Breath} per turn.",
+            "Uses S1 as a follow up to an ally's attack (once per turn). Deals bonus crit damage and heals an ally's SP if passive is active.",
+            "Passive uses S3 against enemies that kill or damage allies to below 25% HP (one per turn). {identity:10613} can trigger a 2nd time."
+        ],
+        "other": [
+            "{identity:10613}'s passive counts her as a Jia Family identity. Uses S3 instead of S1 and heals more SP on substitute/return."
+        ]
+    }
 }
