@@ -12,65 +12,157 @@ function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" !=
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 import { useData } from "../dataProvider/DataProvider.js";
 import { ASSETS_ROOT } from "../paths.js";
+import { RarityImg } from "../ImageHandler.js";
+import { affinityColorMapping } from "../utils.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-function EgoImg(_ref) {
-  var id = _ref.id,
-    _ref$ego = _ref.ego,
-    ego = _ref$ego === void 0 ? null : _ref$ego,
+function EgoImgMain(_ref) {
+  var ego = _ref.ego,
     type = _ref.type,
-    _ref$displayName = _ref.displayName,
-    displayName = _ref$displayName === void 0 ? false : _ref$displayName,
-    _ref$scale = _ref.scale,
-    scale = _ref$scale === void 0 ? 1 : _ref$scale,
-    size = _ref.size,
-    width = _ref.width,
-    _ref$style = _ref.style,
-    style = _ref$style === void 0 ? {} : _ref$style;
+    banner = _ref.banner,
+    displayName = _ref.displayName,
+    displayRarity = _ref.displayRarity,
+    style = _ref.style;
+  var src = "".concat(ASSETS_ROOT, "/egos/").concat(ego.id, "_").concat(type, "_profile.png");
+  style.aspectRatio = banner ? "4/1" : "1/1";
+  style.height = null;
+  style.objectFit = "cover";
+  var img = /*#__PURE__*/_jsx("img", {
+    src: src,
+    alt: ego.name,
+    title: ego.name,
+    style: style
+  });
+  if (displayName || displayRarity) {
+    return /*#__PURE__*/_jsxs("div", {
+      style: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "relative",
+        width: style.width,
+        aspectRatio: style.aspectRatio,
+        containerType: "size"
+      },
+      children: [img, displayRarity ? /*#__PURE__*/_jsx(RarityImg, {
+        rarity: ego.rank.toLowerCase(),
+        style: {
+          position: "absolute",
+          top: "4px",
+          left: "4px",
+          height: "1.5rem",
+          objectFit: "contain",
+          pointerEvents: "none"
+        }
+      }) : null, displayName ? banner ? /*#__PURE__*/_jsx("div", {
+        style: {
+          position: "absolute",
+          fontSize: "0.75rem",
+          maxHeight: "100%",
+          overflow: "hidden",
+          textWrap: "balance",
+          textAlign: "center",
+          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000",
+          color: affinityColorMapping[ego.affinity || ego.awakeningType.affinity]
+        },
+        children: ego.name
+      }) : /*#__PURE__*/_jsx("div", {
+        style: {
+          position: "absolute",
+          bottom: "4px",
+          right: "4px",
+          maxWidth: "100%",
+          maxHeight: "70%",
+          overflow: "hidden",
+          display: "block",
+          textAlign: "right",
+          color: "#ddd",
+          fontWeight: "600",
+          lineHeight: "1.1",
+          textWrap: "balance",
+          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000",
+          fontSize: "clamp(0.6rem, calc(10cqw - (".concat(ego.name.length, " * 0.02px)), 1rem)")
+        },
+        children: ego.name
+      }) : null]
+    });
+  } else {
+    return img;
+  }
+}
+function EgoImgFetch(_ref2) {
+  var id = _ref2.id,
+    type = _ref2.type,
+    banner = _ref2.banner,
+    displayName = _ref2.displayName,
+    displayRarity = _ref2.displayRarity,
+    style = _ref2.style;
   var _useData = useData("egos_mini"),
     _useData2 = _slicedToArray(_useData, 2),
     egos = _useData2[0],
     egosLoading = _useData2[1];
-  var egoObject = ego;
-  if (!egoObject) {
-    if (egosLoading) {
-      return null;
-    } else if (!(id in egos)) {
-      console.warn("Ego ".concat(id, " not found."));
-      return null;
-    } else {
-      egoObject = egos[id];
-    }
+  if (egosLoading) {
+    return null;
+  } else if (!(id in egos)) {
+    console.warn("Ego ".concat(id, " not found."));
+    return null;
+  } else {
+    return /*#__PURE__*/_jsx(EgoImgMain, {
+      ego: egos[id],
+      type: type,
+      banner: banner,
+      displayName: displayName,
+      displayRarity: displayRarity,
+      style: style
+    });
   }
-  var scaledStyle = width ? {
+}
+function EgoImg(_ref3) {
+  var id = _ref3.id,
+    _ref3$ego = _ref3.ego,
+    ego = _ref3$ego === void 0 ? null : _ref3$ego,
+    type = _ref3.type,
+    _ref3$banner = _ref3.banner,
+    banner = _ref3$banner === void 0 ? false : _ref3$banner,
+    _ref3$displayName = _ref3.displayName,
+    displayName = _ref3$displayName === void 0 ? false : _ref3$displayName,
+    _ref3$displayRarity = _ref3.displayRarity,
+    displayRarity = _ref3$displayRarity === void 0 ? false : _ref3$displayRarity,
+    scale = _ref3.scale,
+    size = _ref3.size,
+    width = _ref3.width,
+    _ref3$style = _ref3.style,
+    style = _ref3$style === void 0 ? {} : _ref3$style;
+  var newStyle = width ? _objectSpread({
     width: width,
     height: "auto"
-  } : size ? {
+  }, style) : size ? _objectSpread({
     width: "".concat(size, "px"),
     height: "".concat(size, "px")
-  } : {
+  }, style) : scale ? _objectSpread({
     width: "".concat(256 * scale, "px"),
     height: "".concat(256 * scale, "px")
-  };
-  var img = /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/egos/").concat(egoObject.id, "_").concat(type, "_profile.png"),
-    alt: egoObject.name,
-    title: egoObject.name,
-    style: _objectSpread(_objectSpread({}, scaledStyle), style)
-  });
-  if (displayName) {
-    return /*#__PURE__*/_jsxs("div", {
-      style: {
-        display: "flex",
-        flexDirection: "column",
-        textAlign: "center",
-        width: scaledStyle.width
-      },
-      children: [img, /*#__PURE__*/_jsx("span", {
-        children: egoObject.name
-      })]
+  }, style) : _objectSpread({
+    width: "100%",
+    height: "auto"
+  }, style);
+  if (ego) {
+    return /*#__PURE__*/_jsx(EgoImgMain, {
+      ego: ego,
+      type: type,
+      banner: banner,
+      displayName: displayName,
+      displayRarity: displayRarity,
+      style: newStyle
     });
   } else {
-    return img;
+    return /*#__PURE__*/_jsx(EgoImgFetch, {
+      id: id,
+      type: type,
+      banner: banner,
+      displayName: displayName,
+      displayRarity: displayRarity,
+      style: newStyle
+    });
   }
 }
 export { EgoImg };

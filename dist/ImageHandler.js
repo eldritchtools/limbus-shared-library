@@ -20,7 +20,9 @@ function Icon(_ref) {
 function RarityImg(_ref2) {
   var rarity = _ref2.rarity,
     _ref2$style = _ref2.style,
-    style = _ref2$style === void 0 ? {} : _ref2$style;
+    style = _ref2$style === void 0 ? {} : _ref2$style,
+    _ref2$alt = _ref2.alt,
+    alt = _ref2$alt === void 0 ? false : _ref2$alt;
   switch (rarity) {
     case 1:
       return /*#__PURE__*/_jsx("img", {
@@ -51,7 +53,7 @@ function RarityImg(_ref2) {
       });
     case "zayin":
       return /*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/icons/zayin.png"),
+        src: "".concat(ASSETS_ROOT, "/icons/zayin").concat(alt ? "-letter" : "", ".png"),
         alt: "zayin",
         title: "zayin",
         style: _objectSpread({
@@ -60,7 +62,7 @@ function RarityImg(_ref2) {
       });
     case "teth":
       return /*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/icons/teth.png"),
+        src: "".concat(ASSETS_ROOT, "/icons/teth").concat(alt ? "-letter" : "", ".png"),
         alt: "teth",
         title: "teth",
         style: _objectSpread({
@@ -69,7 +71,7 @@ function RarityImg(_ref2) {
       });
     case "he":
       return /*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/icons/he.png"),
+        src: "".concat(ASSETS_ROOT, "/icons/he").concat(alt ? "-letter" : "", ".png"),
         alt: "he",
         title: "he",
         style: _objectSpread({
@@ -78,7 +80,7 @@ function RarityImg(_ref2) {
       });
     case "waw":
       return /*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/icons/waw.png"),
+        src: "".concat(ASSETS_ROOT, "/icons/waw").concat(alt ? "-letter" : "", ".png"),
         alt: "waw",
         title: "waw",
         style: _objectSpread({
@@ -87,7 +89,7 @@ function RarityImg(_ref2) {
       });
     case "aleph":
       return /*#__PURE__*/_jsx("img", {
-        src: "".concat(ASSETS_ROOT, "/icons/aleph.png"),
+        src: "".concat(ASSETS_ROOT, "/icons/aleph").concat(alt ? "-letter" : "", ".png"),
         alt: "aleph",
         title: "aleph",
         style: _objectSpread({

@@ -15,3 +15,4 @@ export { IdentityImg, getIdentityImgSrc } from "./identity/identity";
 export { EgoImg } from "./ego/ego";
 export { DataProvider, useData, getMeta } from "./dataProvider/DataProvider";
 export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon } from "./ImageHandler";
+export { affinityColorMapping } from "./utils";
