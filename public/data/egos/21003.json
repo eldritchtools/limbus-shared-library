@@ -50,7 +50,7 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttackHead] If target is an ally, heal them for 10% of user\u2019s Max HP",
-                        "[OnSucceedAttackTail] Inflict 7 [Combustion]; if target is an ally, give 2 [Agility] and 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">[GainSinStockAdder]</color></link></u> next turn"
+                        "[OnSucceedAttackTail] Inflict 7 [Combustion]; if target is an ally, give 2 [Agility] and 1 [GainSinStockAdder] next turn"
                     ]
                 ]
             }

@@ -9102,6 +9102,7 @@
             "Paralysis",
             "Reduction",
             "Vibration",
+            "VibrationExplosion",
             "Vulnerable"
         ],
         "name": "LCCB Assistant Manager"
@@ -9191,7 +9192,8 @@
         ],
         "keywordTags": [
             "Burst",
-            "Vibration"
+            "Vibration",
+            "VibrationExplosion"
         ],
         "name": "Lobotomy E.G.O::Sloshing"
     },
@@ -12904,7 +12906,8 @@
         ],
         "keywordTags": [
             "AttackUp",
-            "Vibration"
+            "Vibration",
+            "VibrationExplosion"
         ],
         "name": "Molar Office Fixer"
     },
@@ -14096,7 +14099,8 @@
         "keywordTags": [
             "Burst",
             "Charge",
-            "Vibration"
+            "Vibration",
+            "VibrationExplosion"
         ],
         "name": "Rosespanner Workshop Fixer"
     },

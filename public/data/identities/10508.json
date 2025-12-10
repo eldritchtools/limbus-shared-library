@@ -68,7 +68,7 @@
                 {
                     "uptie": 3,
                     "name": "Draw of the Sword",
-                    "desc": "[StartBattle_Force] <color=#EBCAA2>Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)</color>\n[WhenUse] Gain +2 [Breath] Count",
+                    "desc": "[StartBattle_Force] Apply 1 [BladeResultUpTier1] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n[WhenUse] Gain +2 [Breath] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 1 [Breath]"
@@ -166,7 +166,7 @@
                 {
                     "uptie": 3,
                     "name": "Acupuncture",
-                    "desc": "[StartBattle_Force] <color=#EBCAA2>Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)</color>\n[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 [SlashResultUp] next turn",
+                    "desc": "[StartBattle_Force] Apply 1 [BladeResultUpTier2] to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max)\n[WhenUse] Gain +2 [Breath] Count\n[WinDuel] Gain 1 [SlashResultUp] next turn",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain 3 [Breath]"

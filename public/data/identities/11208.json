@@ -59,7 +59,7 @@
                 {
                     "uptie": 3,
                     "name": "Lenticular Rend",
-                    "desc": "[WhenUse_Force] <color=#EBCAA2>If target has 7+ [Laceration], Clash Power +1</color>\n[WinDuel] Inflict 1 [Laceration]",
+                    "desc": "[WhenUse_Force] If target has 7+ [Laceration], Clash Power +1\n[WinDuel] Inflict 1 [Laceration]",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +1 [Laceration] Count"

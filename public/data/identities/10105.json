@@ -116,7 +116,7 @@
                     "desc": "If this Skill is Discarded, gain +3 [Vibration] Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 2"
+                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 2"
                         ]
                     ]
                 },
@@ -127,7 +127,7 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +2 [Vibration] Count",
-                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 2"
+                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 2"
                         ]
                     ]
                 },
@@ -138,7 +138,7 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +3 [Vibration] Count",
-                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [Vibration] Burst. Reduce target's [Vibration] Count by 2"
+                            "[OnSucceedAttack] At 5+ [Vibration] Count, trigger [VibrationExplosion]. Reduce target's [Vibration] Count by 2"
                         ]
                     ]
                 }
@@ -180,12 +180,12 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 4 [Vibration]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
                         ],
                         [],
                         [
                             "[OnSucceedAttackHead] Inflict 2 [DefenseDown]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
                         ]
                     ]
                 },
@@ -196,12 +196,12 @@
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 4 [Vibration]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
                         ],
                         [],
                         [
                             "[OnSucceedAttack] Inflict 2 [DefenseDown]",
-                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [Vibration] Burst"
+                            "[OnSucceedAttack] If the Skill spent [Vibration] Count, trigger [VibrationExplosion]"
                         ]
                     ]
                 }

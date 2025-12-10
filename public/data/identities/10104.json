@@ -218,7 +218,7 @@
                             "[OnSucceedAttack] Inflict +1 [Sinking] Count"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 6+ [Sinking], cause [Sinking] Deluge",
+                            "[OnSucceedAttack] If target has 6+ [Sinking], cause [SinkingSurge]",
                             "[OnSucceedAttack] If user has 10+ [Vibration] Count, deal 30% of damage dealt as bonus damage"
                         ]
                     ]
@@ -235,7 +235,7 @@
                             "[OnSucceedAttack] Inflict +1 [Sinking] Count"
                         ],
                         [
-                            "[OnSucceedAttack] If target has 6+ [Sinking], cause [Sinking] Deluge",
+                            "[OnSucceedAttack] If target has 6+ [Sinking], cause [SinkingSurge]",
                             "[OnSucceedAttack] If user has 10+ [Vibration] Count, deal 40% of damage dealt as bonus damage"
                         ]
                     ]

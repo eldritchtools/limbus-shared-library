@@ -53,7 +53,7 @@
                 {
                     "uptie": 2,
                     "name": "Predictive Analysis",
-                    "desc": "If target has 3+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
+                    "desc": "If target has 3+ [Burst], Coin Power +1",
                     "coinDescs": [
                         [],
                         [
@@ -126,21 +126,21 @@
                         ],
                         [],
                         [
-                            "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, inflict [WeaknessAnalysis] next turn"
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict [WeaknessAnalysis] next turn"
                         ]
                     ]
                 },
                 {
                     "uptie": 2,
                     "name": "Dissect Target",
-                    "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1\n[WinDuel] Inflict +3 [Burst] Count",
+                    "desc": "If target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict +3 [Burst] Count",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 3 [Burst]"
                         ],
                         [],
                         [
-                            "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, inflict [WeaknessAnalysis] next turn"
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict [WeaknessAnalysis] next turn"
                         ]
                     ]
                 },
@@ -154,7 +154,7 @@
                         ],
                         [],
                         [
-                            "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, inflict [WeaknessAnalysis] next turn"
+                            "[OnSucceedAttack] If target has 6+ [Burst], inflict [WeaknessAnalysis] next turn"
                         ]
                     ]
                 }

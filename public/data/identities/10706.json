@@ -68,7 +68,7 @@
                 {
                     "uptie": 4,
                     "name": "Intuition",
-                    "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
+                    "desc": "If target has 6+ [Burst], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -211,7 +211,7 @@
                 {
                     "uptie": 4,
                     "name": "Forensics",
-                    "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">[Burst]</color></link></u>, Coin Power +1",
+                    "desc": "If target has 6+ [Burst], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Inflict +3 [Burst] Count"

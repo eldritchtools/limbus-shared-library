@@ -67,7 +67,7 @@
                 {
                     "uptie": 4,
                     "name": "Negotiation Start",
-                    "desc": "[WhenUse] Gain 3 [Breath]\nIf target has 7+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">[Laceration]</color></link></u>, Coin Power +1",
+                    "desc": "[WhenUse] Gain 3 [Breath]\nIf target has 7+ [Laceration], Coin Power +1",
                     "coinDescs": [
                         [
                             "[OnSucceedAttack] Gain +1 [Breath] Count",
@@ -299,7 +299,7 @@
     "passiveData": {
         "1120721": {
             "name": "New Breathing Hole",
-            "desc": "If 1 ally with the most <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">[Breath]</color></link></u> defeats an enemy, gain 1 Pierce DMG Up next turn. (Once per turn)",
+            "desc": "If 1 ally with the most [Breath] defeats an enemy, gain 1 Pierce DMG Up next turn. (Once per turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [

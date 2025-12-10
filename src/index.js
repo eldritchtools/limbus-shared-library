@@ -7,7 +7,7 @@ export { default as skillTags } from "./data/skillTagsData";
 
 export { Gift, GiftTooltip } from "./gift/gift";
 export { default as FusionRecipe } from "./gift/FusionRecipe";
-export { keywords, KeywordIcon, KeywordSelector } from "./keywords/keywords";
+export { keywords, KeywordIcon } from "./keywords/keywords";
 export { Status, StatusTooltip } from "./status/status";
 export { ThemePackImg, getFloorsPerPack, getFloorsForPack } from "./themePack/themePack";
 export { default as replaceStatusVariables } from "./status/statusReplace";

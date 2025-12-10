@@ -196,7 +196,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 6 [Vibration] and trigger [Vibration] Burst on self\nDeal Blunt damage equal to [Vibration] Burst damage"
+                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 6 [Vibration] and trigger [VibrationExplosion] on self\nDeal Blunt damage equal to [VibrationExplosion] damage"
                         ]
                     ]
                 },
@@ -206,7 +206,7 @@
                     "desc": "Coin Power +1 for every 10 [Vibration] Count on self (Max 2)",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 10 [Vibration] and trigger [Vibration] Burst on self\nDeal Blunt damage equal to [Vibration] Burst damage"
+                            "[OnSucceedAttack] At 10+ [Vibration] Count, spend all [Vibration] Count to inflict target with the same amount of [Vibration] Count\n[OnSucceedAttack] At less than 10 [Vibration] Count, gain 10 [Vibration] and trigger [VibrationExplosion] on self\nDeal Blunt damage equal to [VibrationExplosion] damage"
                         ]
                     ]
                 }

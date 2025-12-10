@@ -115,7 +115,7 @@
                     "desc": "",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ]
                     ]
                 },
@@ -125,7 +125,7 @@
                     "desc": "[WhenUse] Gain 3 [Endurance] next turn",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Trigger [Vibration] Burst"
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
                         ]
                     ]
                 }
