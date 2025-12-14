@@ -179,7 +179,8 @@ function GiftDisplay(_ref) {
                 return /*#__PURE__*/_jsxs("div", {
                   style: {
                     display: "flex",
-                    flexDirection: "column"
+                    flexDirection: "column",
+                    textAlign: "center"
                   },
                   children: [/*#__PURE__*/_jsx(ThemePackImg, {
                     id: packId,
