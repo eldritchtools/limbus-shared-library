@@ -72,7 +72,7 @@ function GiftDisplay({ gift, enhanceRank }) {
                                 <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem" }}>
                                     {gift.exclusiveTo.map((packId, i) => {
                                         const { normal, hard } = getFloorsForPack(packId);
-                                        return <div key={i} style={{ display: "flex", flexDirection: "column" }}>
+                                        return <div key={i} style={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
                                             <ThemePackImg id={packId} displayName={true} scale={0.5} />
                                             <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
                                                 <div style={{ color: "#4ade80" }}>Normal</div>
