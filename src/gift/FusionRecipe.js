@@ -10,8 +10,8 @@ function FusionRecipe({ recipe, includeProduct=true }) {
             components.push(<div style={{ ...fontStyle, display: "flex", flexDirection: "row", alignItems: "center", gap: "5px" }}>
                 {ingredient.count}x
                 <div>
-                    <div style={{ display: "flex", flexDirection: "row" }}>{ingredient.options.slice(0, half).map(option => <Gift id={option} scale={0.5} />)}</div>
-                    <div style={{ display: "flex", flexDirection: "row" }}>{ingredient.options.slice(half).map(option => <Gift id={option} scale={0.5} />)}</div>
+                    <div style={{ display: "flex", flexDirection: "row" }}>{ingredient.options.slice(0, half).map((option, i) => <Gift key={i} id={option} scale={0.5} />)}</div>
+                    <div style={{ display: "flex", flexDirection: "row" }}>{ingredient.options.slice(half).map((option, i) => <Gift key={i} id={option} scale={0.5} />)}</div>
                 </div>
             </div>)
         } else {

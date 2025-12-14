@@ -15,6 +15,7 @@ import { Gift } from "./gift.js";
 import replaceStatusVariables from "../status/statusReplace.js";
 import FusionRecipe from "./FusionRecipe.js";
 import { getFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
+import { createPortal } from "react-dom";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var overlayStyle = {
   position: "fixed",
@@ -62,8 +63,9 @@ var iconTextStyle = {
   color: "#ffd84d"
 };
 function GiftDisplay(_ref) {
-  var gift = _ref.gift;
-  var _React$useState = React.useState(0),
+  var gift = _ref.gift,
+    enhanceRank = _ref.enhanceRank;
+  var _React$useState = React.useState(enhanceRank),
     _React$useState2 = _slicedToArray(_React$useState, 2),
     enhanceLevel = _React$useState2[0],
     setEnhanceLevel = _React$useState2[1];
@@ -94,10 +96,13 @@ function GiftDisplay(_ref) {
           display: "flex",
           flexDirection: "column"
         },
-        children: [/*#__PURE__*/_jsx(Gift, {
-          gift: gift,
-          includeTooltip: false,
-          expandable: false
+        children: [/*#__PURE__*/_jsx("div", {
+          children: /*#__PURE__*/_jsx(Gift, {
+            gift: gift,
+            includeTooltip: false,
+            enhanceRank: enhanceLevel,
+            expandable: false
+          })
         }), gift.enhanceable ? /*#__PURE__*/_jsx("div", {
           style: {
             display: "grid",
@@ -117,7 +122,7 @@ function GiftDisplay(_ref) {
                 style: iconTextStyle,
                 children: "+".repeat(index)
               })
-            });
+            }, index);
           })
         }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
           style: {
@@ -167,7 +172,7 @@ function GiftDisplay(_ref) {
                 flexDirection: "row",
                 gap: "0.5rem"
               },
-              children: gift.exclusiveTo.map(function (packId) {
+              children: gift.exclusiveTo.map(function (packId, i) {
                 var _getFloorsForPack = getFloorsForPack(packId),
                   normal = _getFloorsForPack.normal,
                   hard = _getFloorsForPack.hard;
@@ -206,7 +211,7 @@ function GiftDisplay(_ref) {
                       }).join(", ") : "None"
                     })]
                   })]
-                });
+                }, i);
               })
             })]
           }) : null, gift.recipes ? /*#__PURE__*/_jsxs("div", {
@@ -221,13 +226,13 @@ function GiftDisplay(_ref) {
                 textAlign: "start"
               },
               children: "Fusion Recipes"
-            }), gift.recipes.map(function (recipe) {
+            }), gift.recipes.map(function (recipe, i) {
               return /*#__PURE__*/_jsx(FusionRecipe, {
                 recipe: {
                   ingredients: recipe
                 },
                 includeProduct: false
-              });
+              }, i);
             })]
           }) : null]
         })]
@@ -237,6 +242,7 @@ function GiftDisplay(_ref) {
 }
 export function GiftModal(_ref2) {
   var gift = _ref2.gift,
+    enhanceRank = _ref2.enhanceRank,
     isOpen = _ref2.isOpen,
     onClose = _ref2.onClose;
   React.useEffect(function () {
@@ -252,7 +258,7 @@ export function GiftModal(_ref2) {
     };
   }, [isOpen, onClose]);
   if (!isOpen) return null;
-  return /*#__PURE__*/_jsx("div", {
+  return /*#__PURE__*/createPortal(/*#__PURE__*/_jsx("div", {
     style: overlayStyle,
     onClick: onClose,
     children: /*#__PURE__*/_jsxs("div", {
@@ -265,8 +271,9 @@ export function GiftModal(_ref2) {
         onClick: onClose,
         children: "\u2715"
       }), /*#__PURE__*/_jsx(GiftDisplay, {
-        gift: gift
+        gift: gift,
+        enhanceRank: enhanceRank
       })]
     })
-  });
+  }), document.body);
 }

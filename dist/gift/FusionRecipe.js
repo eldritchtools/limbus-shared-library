@@ -35,22 +35,22 @@ function FusionRecipe(_ref) {
               display: "flex",
               flexDirection: "row"
             },
-            children: ingredient.options.slice(0, half).map(function (option) {
+            children: ingredient.options.slice(0, half).map(function (option, i) {
               return /*#__PURE__*/_jsx(Gift, {
                 id: option,
                 scale: 0.5
-              });
+              }, i);
             })
           }), /*#__PURE__*/_jsx("div", {
             style: {
               display: "flex",
               flexDirection: "row"
             },
-            children: ingredient.options.slice(half).map(function (option) {
+            children: ingredient.options.slice(half).map(function (option, i) {
               return /*#__PURE__*/_jsx(Gift, {
                 id: option,
                 scale: 0.5
-              });
+              }, i);
             })
           })]
         })]

@@ -3,6 +3,7 @@ import { Gift } from "./gift";
 import replaceStatusVariables from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
 import { getFloorsForPack, ThemePackImg } from "../themePack/themePack";
+import { createPortal } from "react-dom";
 
 const overlayStyle = {
     position: "fixed",
@@ -40,22 +41,24 @@ const closeStyle = {
 const buttonStyle = { border: "1px #aaa solid", padding: "4px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", transiton: "background-color 0.2s, border-color 0.2s" };
 const iconTextStyle = { fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: "20px", color: "#ffd84d" };
 
-function GiftDisplay({ gift }) {
-    const [enhanceLevel, setEnhanceLevel] = React.useState(0);
+function GiftDisplay({ gift, enhanceRank }) {
+    const [enhanceLevel, setEnhanceLevel] = React.useState(enhanceRank);
     let level = Math.min(enhanceLevel, gift.descs.length - 1);
 
     return <div style={{ display: "flex", flexDirection: "column", width: "100%", gap: "0.5rem" }}>
         <div style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>{gift.names[level]}</div>
         <div style={{ display: "flex", flexDirection: "row", gap: "1rem", width: "100%" }}>
             <div style={{ display: "flex", flexDirection: "column" }}>
-                <Gift gift={gift} includeTooltip={false} expandable={false} />
+                <div>
+                    <Gift gift={gift} includeTooltip={false} enhanceRank={enhanceLevel} expandable={false} />
+                </div>
                 {gift.enhanceable ? <div style={{ display: "grid", gridTemplateColumns: `repeat(${gift.names.length}, 1fr)` }}>
-                    {Array.from({ length: gift.names.length }, (_, index) => <div style={{ ...buttonStyle, backgroundColor: enhanceLevel === index ? "#3f3f3f" : "#1f1f1f" }} onClick={() => setEnhanceLevel(index)}>
+                    {Array.from({ length: gift.names.length }, (_, index) => <div key={index} style={{ ...buttonStyle, backgroundColor: enhanceLevel === index ? "#3f3f3f" : "#1f1f1f" }} onClick={() => setEnhanceLevel(index)}>
                         {index === 0 ? "-" : <span style={iconTextStyle}>{"+".repeat(index)}</span>}
                     </div>)}
                 </div> : null
                 }
-                {gift.hardonly ? <span style={{color: "#f87171"}}>Hard Only</span> : null}
+                {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
             </div>
             <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
                 <div style={{ display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" }}>
@@ -67,9 +70,9 @@ function GiftDisplay({ gift }) {
                             <div style={{ display: "flex", flexDirection: "column" }}>
                                 <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Exclusive Theme Packs</span>
                                 <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem" }}>
-                                    {gift.exclusiveTo.map(packId => {
+                                    {gift.exclusiveTo.map((packId, i) => {
                                         const { normal, hard } = getFloorsForPack(packId);
-                                        return <div style={{ display: "flex", flexDirection: "column" }}>
+                                        return <div key={i} style={{ display: "flex", flexDirection: "column" }}>
                                             <ThemePackImg id={packId} displayName={true} scale={0.5} />
                                             <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
                                                 <div style={{ color: "#4ade80" }}>Normal</div>
@@ -86,7 +89,7 @@ function GiftDisplay({ gift }) {
                         gift.recipes ?
                             <div style={{ display: "flex", flexDirection: "column" }}>
                                 <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Fusion Recipes</span>
-                                {gift.recipes.map(recipe => <FusionRecipe recipe={{ ingredients: recipe }} includeProduct={false} />)}
+                                {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} />)}
                             </div> : null
                     }
                 </div>
@@ -95,7 +98,7 @@ function GiftDisplay({ gift }) {
     </div>
 }
 
-export function GiftModal({ gift, isOpen, onClose }) {
+export function GiftModal({ gift, enhanceRank, isOpen, onClose }) {
     React.useEffect(() => {
         if (!isOpen) return;
 
@@ -111,14 +114,13 @@ export function GiftModal({ gift, isOpen, onClose }) {
 
     if (!isOpen) return null;
 
-    return (
+    return createPortal(
         <div style={overlayStyle} onClick={onClose}>
             <div style={contentStyle} onClick={(e) => e.stopPropagation()}>
                 <button style={closeStyle} onClick={onClose}>
                     ✕
                 </button>
-                <GiftDisplay gift={gift} />
+                <GiftDisplay gift={gift} enhanceRank={enhanceRank} />
             </div>
-        </div>
-    );
+        </div>, document.body);
 }

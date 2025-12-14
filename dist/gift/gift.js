@@ -54,7 +54,9 @@ var giftKeywordStyle = {
 var giftEnhanceStyle = {
   position: "absolute",
   top: "5%",
-  right: "5%"
+  right: "5%",
+  fontWeight: "bold",
+  color: "#ffd84d"
 };
 var tooltipDescStyle = {
   display: "inline-block",
@@ -116,7 +118,7 @@ function GiftIcon(_ref) {
       style: rescaleFont(giftTierStyle, scale),
       children: tier
     }), enhanceRank > 0 ? /*#__PURE__*/_jsx("span", {
-      style: rescaleFont(giftEnhanceStyle, scale),
+      style: rescaleFont(giftEnhanceStyle, scale * 1.2),
       children: "+".repeat(enhanceRank)
     }) : null, gift.keyword !== "Keywordless" ? /*#__PURE__*/_jsx("img", {
       src: "".concat(ASSETS_ROOT, "/icons/").concat(gift.keyword, ".png"),
@@ -161,7 +163,7 @@ function Gift(_ref2) {
           children: "Gift not found"
         });
       } else {
-        return /*#__PURE__*/_jsx("div", {
+        return /*#__PURE__*/_jsx("span", {
           style: resize(giftContainerStyle, size),
           children: /*#__PURE__*/_jsx("img", {
             src: "".concat(ASSETS_ROOT, "/ego_gift_background.png"),
@@ -177,7 +179,7 @@ function Gift(_ref2) {
   var props = {};
   if (includeTooltip) {
     props["data-tooltip-id"] = "limbus-shared-library-gift-tooltip";
-    props["data-tooltip-content"] = giftObject.id;
+    props["data-tooltip-content"] = "".concat(giftObject.id, ":").concat(enhanceRank);
   }
   if (expandable) {
     props.onClick = function () {
@@ -189,33 +191,36 @@ function Gift(_ref2) {
     if (setExpandOverride) setExpandOverride(false);
   };
   if (text) {
-    return /*#__PURE__*/_jsxs("div", {
-      children: [/*#__PURE__*/_jsx("div", _objectSpread(_objectSpread({}, props), {}, {
+    return /*#__PURE__*/_jsxs("span", {
+      children: [/*#__PURE__*/_jsx("span", _objectSpread(_objectSpread({}, props), {}, {
         children: giftObject.names[enhanceRank]
-      })), /*#__PURE__*/_jsx(GiftModal, {
+      })), expandable ? /*#__PURE__*/_jsx(GiftModal, {
         gift: giftObject,
+        enhanceRank: enhanceRank,
         isOpen: modalOpen || expandOverride,
         onClose: handleModalClose
-      })]
+      }) : null]
     });
   } else {
-    return /*#__PURE__*/_jsxs("div", {
-      children: [/*#__PURE__*/_jsx("div", _objectSpread(_objectSpread({}, props), {}, {
+    return /*#__PURE__*/_jsxs("span", {
+      children: [/*#__PURE__*/_jsx("span", _objectSpread(_objectSpread({}, props), {}, {
         children: /*#__PURE__*/_jsx(GiftIcon, {
           gift: giftObject,
           enhanceRank: enhanceRank,
           scale: scale
         })
-      })), /*#__PURE__*/_jsx(GiftModal, {
+      })), expandable ? /*#__PURE__*/_jsx(GiftModal, {
         gift: giftObject,
+        enhanceRank: enhanceRank,
         isOpen: modalOpen || expandOverride,
         onClose: handleModalClose
-      })]
+      }) : null]
     });
   }
 }
 function TooltipContent(_ref3) {
-  var giftId = _ref3.giftId;
+  var giftId = _ref3.giftId,
+    enhanceRank = _ref3.enhanceRank;
   var _useData3 = useData("gifts"),
     _useData4 = _slicedToArray(_useData3, 2),
     gifts = _useData4[0],
@@ -252,7 +257,7 @@ function TooltipContent(_ref3) {
           fontWeight: "bold",
           textAlign: "center"
         },
-        children: gift.names[0]
+        children: gift.names[enhanceRank]
       }), /*#__PURE__*/_jsxs("div", {
         style: {
           display: "flex",
@@ -265,7 +270,8 @@ function TooltipContent(_ref3) {
             flexDirection: "column"
           },
           children: [/*#__PURE__*/_jsx(GiftIcon, {
-            gift: gift
+            gift: gift,
+            enhanceRank: enhanceRank
           }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
             children: "Enhanceable"
           }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
@@ -281,14 +287,15 @@ function TooltipContent(_ref3) {
             textAlign: "left"
           }),
           children: [/*#__PURE__*/_jsx("span", {
-            children: replaceStatusVariables(gift.descs[0], true)
+            children: replaceStatusVariables(gift.descs[enhanceRank], true)
           }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
         })]
       }), /*#__PURE__*/_jsx("div", {
         style: {
           borderTop: "1px #444 dashed",
           fontSize: "0.8rem",
-          color: "#999"
+          color: "#999",
+          textAlign: "center"
         },
         children: "Click gift to expand"
       })]
@@ -300,8 +307,14 @@ function GiftTooltip() {
     id: "limbus-shared-library-gift-tooltip",
     render: function render(_ref4) {
       var content = _ref4.content;
+      if (!content) return null;
+      var _content$split = content.split(":"),
+        _content$split2 = _slicedToArray(_content$split, 2),
+        id = _content$split2[0],
+        rank = _content$split2[1];
       return /*#__PURE__*/_jsx(TooltipContent, {
-        giftId: content
+        giftId: id,
+        enhanceRank: Number(rank)
       });
     },
     getTooltipContainer: function getTooltipContainer() {

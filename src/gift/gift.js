@@ -12,7 +12,7 @@ const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", tra
 const giftStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
 const giftTierStyle = { position: "absolute", top: "5%", left: "5%", fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: "24px", color: "#ffd84d", transform: "scaleY(1.4)" }
 const giftKeywordStyle = { position: "absolute", bottom: "5%", right: "5%" };
-const giftEnhanceStyle = { position: "absolute", top: "5%", right: "5%" };
+const giftEnhanceStyle = { position: "absolute", top: "5%", right: "5%", fontWeight: "bold", color: "#ffd84d" };
 const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", inlineSize: "50ch", textWrap: "wrap", whiteSpace: "pre-wrap" };
 
 function resize(style, size) {
@@ -43,7 +43,7 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
         <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
         <img src={`${ASSETS_ROOT}/gifts/${"imageOverride" in gift ? gift["imageOverride"] : gift.names[0]}.png`} alt={gift.names[0]} title={gift.names[0]} style={resize(giftStyle, size * 0.75)} />
         <span style={rescaleFont(giftTierStyle, scale)}>{tier}</span>
-        {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale)}>{"+".repeat(enhanceRank)}</span> : null}
+        {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale*1.2)}>{"+".repeat(enhanceRank)}</span> : null}
         {gift.keyword !== "Keywordless" ? <img src={`${ASSETS_ROOT}/icons/${gift.keyword}.png`} alt="" style={resize(giftKeywordStyle, size * 0.3)} /> : null}
     </div>
 }
@@ -62,9 +62,9 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
             if (text) {
                 return <span>Gift not found</span>;
             } else {
-                return <div style={resize(giftContainerStyle, size)}>
+                return <span style={resize(giftContainerStyle, size)}>
                     <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
-                </div>
+                </span>
             }
         } else {
             giftObject = gifts[id];
@@ -74,7 +74,7 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
     const props = {};
     if (includeTooltip) {
         props["data-tooltip-id"] = "limbus-shared-library-gift-tooltip"
-        props["data-tooltip-content"] = giftObject.id
+        props["data-tooltip-content"] = `${giftObject.id}:${enhanceRank}`
     }
 
     if (expandable) {
@@ -87,19 +87,19 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
     }
 
     if (text) {
-        return <div>
-            <div {...props}>{giftObject.names[enhanceRank]}</div>
-            <GiftModal gift={giftObject} isOpen={modalOpen || expandOverride} onClose={handleModalClose} />
-        </div>;
+        return <span>
+            <span {...props}>{giftObject.names[enhanceRank]}</span>
+            {expandable ? <GiftModal gift={giftObject} enhanceRank={enhanceRank} isOpen={modalOpen || expandOverride} onClose={handleModalClose} /> : null}
+        </span>;
     } else {
-        return <div>
-            <div {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} /></div>
-            <GiftModal gift={giftObject} isOpen={modalOpen || expandOverride} onClose={handleModalClose} />
-        </div>;
+        return <span>
+            <span {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} /></span>
+            {expandable ? <GiftModal gift={giftObject} enhanceRank={enhanceRank} isOpen={modalOpen || expandOverride} onClose={handleModalClose} /> : null}
+        </span>;
     }
 }
 
-function TooltipContent({ giftId }) {
+function TooltipContent({ giftId, enhanceRank }) {
     const [gifts, giftsLoading] = useData("gifts");
     if (!giftId || giftsLoading) return null;
 
@@ -113,19 +113,19 @@ function TooltipContent({ giftId }) {
 
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
-            <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[0]}</div>
+            <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[enhanceRank]}</div>
             <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.5rem" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                    <GiftIcon gift={gift} />
+                    <GiftIcon gift={gift} enhanceRank={enhanceRank} />
                     {gift.enhanceable ? <span>Enhanceable</span> : null}
                     {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
-                    <span>{replaceStatusVariables(gift.descs[0], true)}</span>
+                    <span>{replaceStatusVariables(gift.descs[enhanceRank], true)}</span>
                     {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
                 </div>
             </div>
-            <div style={{ borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999" }}>
+            <div style={{ borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999", textAlign: "center" }}>
                 Click gift to expand
             </div>
         </div>
@@ -135,7 +135,11 @@ function TooltipContent({ giftId }) {
 function GiftTooltip() {
     return <Tooltip
         id={"limbus-shared-library-gift-tooltip"}
-        render={({ content }) => <TooltipContent giftId={content} />}
+        render={({ content }) => {
+            if (!content) return null;
+            const [id, rank] = content.split(":");
+            return <TooltipContent giftId={id} enhanceRank={Number(rank)} />
+        }}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />
