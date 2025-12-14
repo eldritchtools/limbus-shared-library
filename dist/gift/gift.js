@@ -133,6 +133,8 @@ function Gift(_ref2) {
     enhanceRank = _ref2$enhanceRank === void 0 ? 0 : _ref2$enhanceRank,
     _ref2$scale = _ref2.scale,
     scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
+    _ref2$text = _ref2.text,
+    text = _ref2$text === void 0 ? false : _ref2$text,
     _ref2$includeTooltip = _ref2.includeTooltip,
     includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip,
     _ref2$expandable = _ref2.expandable,
@@ -154,14 +156,20 @@ function Gift(_ref2) {
       return null;
     } else if (!(id in gifts)) {
       console.warn("Gift ".concat(id, " not found."));
-      return /*#__PURE__*/_jsx("div", {
-        style: resize(giftContainerStyle, size),
-        children: /*#__PURE__*/_jsx("img", {
-          src: "".concat(ASSETS_ROOT, "/ego_gift_background.png"),
-          alt: "",
-          style: resize(giftBackgroundStyle, size)
-        })
-      });
+      if (text) {
+        return /*#__PURE__*/_jsx("span", {
+          children: "Gift not found"
+        });
+      } else {
+        return /*#__PURE__*/_jsx("div", {
+          style: resize(giftContainerStyle, size),
+          children: /*#__PURE__*/_jsx("img", {
+            src: "".concat(ASSETS_ROOT, "/ego_gift_background.png"),
+            alt: "",
+            style: resize(giftBackgroundStyle, size)
+          })
+        });
+      }
     } else {
       giftObject = gifts[id];
     }
@@ -180,19 +188,31 @@ function Gift(_ref2) {
     setModalOpen(false);
     if (setExpandOverride) setExpandOverride(false);
   };
-  return /*#__PURE__*/_jsxs("div", {
-    children: [/*#__PURE__*/_jsx("div", _objectSpread(_objectSpread({}, props), {}, {
-      children: /*#__PURE__*/_jsx(GiftIcon, {
+  if (text) {
+    return /*#__PURE__*/_jsxs("div", {
+      children: [/*#__PURE__*/_jsx("div", _objectSpread(_objectSpread({}, props), {}, {
+        children: giftObject.names[enhanceRank]
+      })), /*#__PURE__*/_jsx(GiftModal, {
         gift: giftObject,
-        enhanceRank: enhanceRank,
-        scale: scale
-      })
-    })), /*#__PURE__*/_jsx(GiftModal, {
-      gift: giftObject,
-      isOpen: modalOpen || expandOverride,
-      onClose: handleModalClose
-    })]
-  });
+        isOpen: modalOpen || expandOverride,
+        onClose: handleModalClose
+      })]
+    });
+  } else {
+    return /*#__PURE__*/_jsxs("div", {
+      children: [/*#__PURE__*/_jsx("div", _objectSpread(_objectSpread({}, props), {}, {
+        children: /*#__PURE__*/_jsx(GiftIcon, {
+          gift: giftObject,
+          enhanceRank: enhanceRank,
+          scale: scale
+        })
+      })), /*#__PURE__*/_jsx(GiftModal, {
+        gift: giftObject,
+        isOpen: modalOpen || expandOverride,
+        onClose: handleModalClose
+      })]
+    });
+  }
 }
 function TooltipContent(_ref3) {
   var giftId = _ref3.giftId;

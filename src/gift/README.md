@@ -7,6 +7,7 @@ Provides `Gift`, `GiftTooltip`, and `FusionRecipe` components to display gifts a
 - `gift` - Optional gift object. Prioritized over `id` if provided. 
 - `enhanceRank` - (integer) Rank of enhancement (0-2). Defaults to 0.
 - `scale` - (decimal) The scale of the image. At the default value of 1 scale, the image is set to 96x96 pixels.
+- `text` - (boolean) Whether to display text instead of the icon. Defaults to `false`.
 - `includeTooltip` - (boolean) Whether to display a tooltip when hovering over this instance of the gift. Defaults to `true`.
 - `expandable` - (boolean) Whether clicking on the gift will show a modal that shows its complete information. Defaults to `true`.
 - `expandOverride` - (boolean) An override to the expand state. Used if you want to show the modal through another condition outside of just clicking the modal.

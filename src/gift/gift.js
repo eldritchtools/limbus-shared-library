@@ -48,7 +48,7 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
     </div>
 }
 
-function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = true, expandable = true, expandOverride, setExpandOverride }) {
+function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, includeTooltip = true, expandable = true, expandOverride, setExpandOverride }) {
     const [gifts, giftsLoading] = useData("gifts");
     const [modalOpen, setModalOpen] = React.useState(false);
     const size = 96 * scale;
@@ -59,9 +59,13 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = tr
             return null;
         } else if (!(id in gifts)) {
             console.warn(`Gift ${id} not found.`);
-            return <div style={resize(giftContainerStyle, size)}>
-                <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
-            </div>
+            if (text) {
+                return <span>Gift not found</span>;
+            } else {
+                return <div style={resize(giftContainerStyle, size)}>
+                    <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
+                </div>
+            }
         } else {
             giftObject = gifts[id];
         }
@@ -79,13 +83,20 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, includeTooltip = tr
 
     const handleModalClose = () => {
         setModalOpen(false);
-        if(setExpandOverride) setExpandOverride(false);
+        if (setExpandOverride) setExpandOverride(false);
     }
 
-    return <div>
-        <div {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} /></div>
-        <GiftModal gift={giftObject} isOpen={modalOpen || expandOverride} onClose={handleModalClose} />
-    </div>;
+    if (text) {
+        return <div>
+            <div {...props}>{giftObject.names[enhanceRank]}</div>
+            <GiftModal gift={giftObject} isOpen={modalOpen || expandOverride} onClose={handleModalClose} />
+        </div>;
+    } else {
+        return <div>
+            <div {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} /></div>
+            <GiftModal gift={giftObject} isOpen={modalOpen || expandOverride} onClose={handleModalClose} />
+        </div>;
+    }
 }
 
 function TooltipContent({ giftId }) {
@@ -107,14 +118,14 @@ function TooltipContent({ giftId }) {
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <GiftIcon gift={gift} />
                     {gift.enhanceable ? <span>Enhanceable</span> : null}
-                    {gift.hardonly ? <span style={{color: "#f87171"}}>Hard Only</span> : null}
+                    {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
                     <span>{replaceStatusVariables(gift.descs[0], true)}</span>
                     {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
                 </div>
             </div>
-            <div style={{borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999"}}>
+            <div style={{ borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999" }}>
                 Click gift to expand
             </div>
         </div>

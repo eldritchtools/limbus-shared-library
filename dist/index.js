@@ -6,7 +6,7 @@ export { default as egos } from "./data/egosData.js";
 export { default as skillTags } from "./data/skillTagsData.js";
 export { Gift, GiftTooltip } from "./gift/gift.js";
 export { default as FusionRecipe } from "./gift/FusionRecipe.js";
-export { keywords, KeywordIcon, KeywordSelector } from "./keywords/keywords.js";
+export { keywords, KeywordIcon } from "./keywords/keywords.js";
 export { Status, StatusTooltip } from "./status/status.js";
 export { ThemePackImg, getFloorsPerPack, getFloorsForPack } from "./themePack/themePack.js";
 export { default as replaceStatusVariables } from "./status/statusReplace.js";
