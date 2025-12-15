@@ -14,6 +14,7 @@ import { useData } from "../dataProvider/DataProvider.js";
 import { ASSETS_ROOT } from "../paths.js";
 import { RarityImg } from "../ImageHandler.js";
 import { affinityColorMapping } from "../utils.js";
+import { TierComponent } from "../TierComponent.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 function EgoImgMain(_ref) {
   var ego = _ref.ego,
@@ -21,6 +22,7 @@ function EgoImgMain(_ref) {
     banner = _ref.banner,
     displayName = _ref.displayName,
     displayRarity = _ref.displayRarity,
+    threadspin = _ref.threadspin,
     style = _ref.style;
   var src = "".concat(ASSETS_ROOT, "/egos/").concat(ego.id, "_").concat(type, "_profile.png");
   style.aspectRatio = banner ? "4/1" : "1/1";
@@ -53,6 +55,27 @@ function EgoImgMain(_ref) {
           objectFit: "contain",
           pointerEvents: "none"
         }
+      }) : null, threadspin ? banner ? /*#__PURE__*/_jsx("div", {
+        style: {
+          position: "absolute",
+          right: "4px",
+          textAlign: "right",
+          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
+        },
+        children: /*#__PURE__*/_jsx(TierComponent, {
+          tier: threadspin
+        })
+      }) : /*#__PURE__*/_jsx("div", {
+        style: {
+          position: "absolute",
+          top: "4px",
+          right: "4px",
+          textAlign: "right",
+          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
+        },
+        children: /*#__PURE__*/_jsx(TierComponent, {
+          tier: threadspin
+        })
       }) : null, displayName ? banner ? /*#__PURE__*/_jsx("div", {
         style: {
           position: "absolute",
@@ -95,6 +118,7 @@ function EgoImgFetch(_ref2) {
     banner = _ref2.banner,
     displayName = _ref2.displayName,
     displayRarity = _ref2.displayRarity,
+    threadspin = _ref2.threadspin,
     style = _ref2.style;
   var _useData = useData("egos_mini"),
     _useData2 = _slicedToArray(_useData, 2),
@@ -112,6 +136,7 @@ function EgoImgFetch(_ref2) {
       banner: banner,
       displayName: displayName,
       displayRarity: displayRarity,
+      threadspin: threadspin,
       style: style
     });
   }
@@ -127,6 +152,8 @@ function EgoImg(_ref3) {
     displayName = _ref3$displayName === void 0 ? false : _ref3$displayName,
     _ref3$displayRarity = _ref3.displayRarity,
     displayRarity = _ref3$displayRarity === void 0 ? false : _ref3$displayRarity,
+    _ref3$threadspin = _ref3.threadspin,
+    threadspin = _ref3$threadspin === void 0 ? null : _ref3$threadspin,
     scale = _ref3.scale,
     size = _ref3.size,
     width = _ref3.width,
@@ -152,6 +179,7 @@ function EgoImg(_ref3) {
       banner: banner,
       displayName: displayName,
       displayRarity: displayRarity,
+      threadspin: threadspin,
       style: newStyle
     });
   } else {
@@ -161,6 +189,7 @@ function EgoImg(_ref3) {
       banner: banner,
       displayName: displayName,
       displayRarity: displayRarity,
+      threadspin: threadspin,
       style: newStyle
     });
   }

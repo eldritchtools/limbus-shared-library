@@ -1,13 +1,14 @@
 import { useData } from "../dataProvider/DataProvider";
 import { ASSETS_ROOT } from "../paths";
 import { RarityImg } from "../ImageHandler";
+import { TierComponent } from "../TierComponent";
 
 function getIdentityImgSrc(identity, uptie = 4) {
     const type = (uptie > 2 || identity.tags.includes("Base Identity")) ? "gacksung" : "normal";
     return `${ASSETS_ROOT}/identities/${identity.id}_${type}_profile.png`;
 }
 
-function IdentityImgMain({ identity, uptie, displayName, displayRarity, style }) {
+function IdentityImgMain({ identity, uptie, displayName, displayRarity, displayUptie, level, style }) {
     const img = <img src={getIdentityImgSrc(identity, uptie)} alt={identity.name} title={identity.name} style={{ ...style, objectFit: "cover" }} />
 
     if (displayName || displayRarity) {
@@ -24,13 +25,20 @@ function IdentityImgMain({ identity, uptie, displayName, displayRarity, style })
             }}>
                 {identity.name}
             </div> : null}
+            {displayUptie || level ? <div style={{
+                position: "absolute", top: "4px", right: "4px", display: "flex", flexDirection: "column", textAlign: "right",
+                textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
+            }}>
+                {displayUptie ? <TierComponent tier={uptie} /> : null}
+                <span style={{ color: "#ddd", fontWeight: "600", lineHeight: "1.1", fontSize: `1rem` }}>{level ? `Lv.${level}` : null}</span>
+            </div> : null}
         </div>
     } else {
         return img;
     }
 }
 
-function IdentityImgFetch({ id, uptie, displayName, displayRarity, style }) {
+function IdentityImgFetch({ id, uptie, displayName, displayRarity, displayUptie, level, style }) {
     const [identities, identitiesLoading] = useData("identities_mini");
 
     if (identitiesLoading) {
@@ -39,11 +47,11 @@ function IdentityImgFetch({ id, uptie, displayName, displayRarity, style }) {
         console.warn(`Identity ${id} not found.`);
         return null;
     } else {
-        return <IdentityImgMain identity={identities[id]} uptie={uptie} displayName={displayName} displayRarity={displayRarity} style={style} />
+        return <IdentityImgMain identity={identities[id]} uptie={uptie} displayName={displayName} displayRarity={displayRarity} displayUptie={displayUptie} level={level} style={style} />
     }
 }
 
-function IdentityImg({ id, identity = null, uptie, displayName = false, displayRarity = false, scale, size, width, style = {} }) {
+function IdentityImg({ id, identity = null, uptie, displayName = false, displayRarity = false, displayUptie = false, level = null, scale, size, width, style = {} }) {
     const newStyle = width ?
         { width: width, height: "auto", ...style } :
         size ?
@@ -53,9 +61,9 @@ function IdentityImg({ id, identity = null, uptie, displayName = false, displayR
                 { width: "100%", height: "auto", ...style };
 
     if (identity) {
-        return <IdentityImgMain identity={identity} uptie={uptie} displayName={displayName} displayRarity={displayRarity} style={newStyle} />
+        return <IdentityImgMain identity={identity} uptie={uptie} displayName={displayName} displayRarity={displayRarity} displayUptie={displayUptie} level={level} style={newStyle} />
     } else {
-        return <IdentityImgFetch id={id} uptie={uptie} displayName={displayName} displayRarity={displayRarity} style={newStyle} />
+        return <IdentityImgFetch id={id} uptie={uptie} displayName={displayName} displayRarity={displayRarity} displayUptie={displayUptie} level={level} style={newStyle} />
     }
 }
 

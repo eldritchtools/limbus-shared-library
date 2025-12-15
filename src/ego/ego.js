@@ -2,8 +2,9 @@ import { useData } from "../dataProvider/DataProvider";
 import { ASSETS_ROOT } from "../paths";
 import { RarityImg } from "../ImageHandler";
 import { affinityColorMapping } from "../utils";
+import { TierComponent } from "../TierComponent";
 
-function EgoImgMain({ ego, type, banner, displayName, displayRarity, style }) {
+function EgoImgMain({ ego, type, banner, displayName, displayRarity, threadspin, style }) {
     const src = `${ASSETS_ROOT}/egos/${ego.id}_${type}_profile.png`;
 
     style.aspectRatio = banner ? "4/1" : "1/1";
@@ -17,6 +18,18 @@ function EgoImgMain({ ego, type, banner, displayName, displayRarity, style }) {
             {displayRarity ?
                 <RarityImg rarity={ego.rank.toLowerCase()} style={{ position: "absolute", top: "4px", left: "4px", height: "1.5rem", objectFit: "contain", pointerEvents: "none" }} /> :
                 null}
+            {threadspin ? (
+                banner ? <div style={{
+                    position: "absolute", right: "4px", textAlign: "right",
+                    textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
+                }}>
+                    <TierComponent tier={threadspin} />
+                </div> : <div style={{
+                    position: "absolute", top: "4px", right: "4px", textAlign: "right",
+                    textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
+                }}>
+                    <TierComponent tier={threadspin} />
+                </div>) : null}
             {displayName ? (
                 banner ? <div style={{
                     position: "absolute", fontSize: "0.75rem", maxHeight: "100%", overflow: "hidden", textWrap: "balance", textAlign: "center",
@@ -39,7 +52,7 @@ function EgoImgMain({ ego, type, banner, displayName, displayRarity, style }) {
 
 }
 
-function EgoImgFetch({ id, type, banner, displayName, displayRarity, style }) {
+function EgoImgFetch({ id, type, banner, displayName, displayRarity, threadspin, style }) {
     const [egos, egosLoading] = useData("egos_mini");
     if (egosLoading) {
         return null;
@@ -47,12 +60,12 @@ function EgoImgFetch({ id, type, banner, displayName, displayRarity, style }) {
         console.warn(`Ego ${id} not found.`);
         return null;
     } else {
-        return <EgoImgMain ego={egos[id]} type={type} banner={banner} displayName={displayName} displayRarity={displayRarity} style={style} />
+        return <EgoImgMain ego={egos[id]} type={type} banner={banner} displayName={displayName} displayRarity={displayRarity} threadspin={threadspin} style={style} />
     }
 
 }
 
-function EgoImg({ id, ego = null, type, banner = false, displayName = false, displayRarity = false, scale, size, width, style = {} }) {
+function EgoImg({ id, ego = null, type, banner = false, displayName = false, displayRarity = false, threadspin = null, scale, size, width, style = {} }) {
     const newStyle = width ?
         { width: width, height: "auto", ...style } :
         size ?
@@ -62,9 +75,9 @@ function EgoImg({ id, ego = null, type, banner = false, displayName = false, dis
                 { width: "100%", height: "auto", ...style };
 
     if (ego) {
-        return <EgoImgMain ego={ego} type={type} banner={banner} displayName={displayName} displayRarity={displayRarity} style={newStyle} />
+        return <EgoImgMain ego={ego} type={type} banner={banner} displayName={displayName} displayRarity={displayRarity} threadspin={threadspin} style={newStyle} />
     } else {
-        return <EgoImgFetch id={id} type={type} banner={banner} displayName={displayName} displayRarity={displayRarity} style={newStyle} />
+        return <EgoImgFetch id={id} type={type} banner={banner} displayName={displayName} displayRarity={displayRarity} threadspin={threadspin} style={newStyle} />
     }
 }
 

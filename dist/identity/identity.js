@@ -13,6 +13,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 import { useData } from "../dataProvider/DataProvider.js";
 import { ASSETS_ROOT } from "../paths.js";
 import { RarityImg } from "../ImageHandler.js";
+import { TierComponent } from "../TierComponent.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 function getIdentityImgSrc(identity) {
   var uptie = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 4;
@@ -24,6 +25,8 @@ function IdentityImgMain(_ref) {
     uptie = _ref.uptie,
     displayName = _ref.displayName,
     displayRarity = _ref.displayRarity,
+    displayUptie = _ref.displayUptie,
+    level = _ref.level,
     style = _ref.style;
   var img = /*#__PURE__*/_jsx("img", {
     src: getIdentityImgSrc(identity, uptie),
@@ -69,6 +72,27 @@ function IdentityImgMain(_ref) {
           fontSize: "clamp(0.6rem, calc(10cqw - (".concat(identity.name.length, " * 0.02px)), 1rem)")
         },
         children: identity.name
+      }) : null, displayUptie || level ? /*#__PURE__*/_jsxs("div", {
+        style: {
+          position: "absolute",
+          top: "4px",
+          right: "4px",
+          display: "flex",
+          flexDirection: "column",
+          textAlign: "right",
+          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
+        },
+        children: [displayUptie ? /*#__PURE__*/_jsx(TierComponent, {
+          tier: uptie
+        }) : null, /*#__PURE__*/_jsx("span", {
+          style: {
+            color: "#ddd",
+            fontWeight: "600",
+            lineHeight: "1.1",
+            fontSize: "1rem"
+          },
+          children: level ? "Lv.".concat(level) : null
+        })]
       }) : null]
     });
   } else {
@@ -80,6 +104,8 @@ function IdentityImgFetch(_ref2) {
     uptie = _ref2.uptie,
     displayName = _ref2.displayName,
     displayRarity = _ref2.displayRarity,
+    displayUptie = _ref2.displayUptie,
+    level = _ref2.level,
     style = _ref2.style;
   var _useData = useData("identities_mini"),
     _useData2 = _slicedToArray(_useData, 2),
@@ -96,6 +122,8 @@ function IdentityImgFetch(_ref2) {
       uptie: uptie,
       displayName: displayName,
       displayRarity: displayRarity,
+      displayUptie: displayUptie,
+      level: level,
       style: style
     });
   }
@@ -109,6 +137,10 @@ function IdentityImg(_ref3) {
     displayName = _ref3$displayName === void 0 ? false : _ref3$displayName,
     _ref3$displayRarity = _ref3.displayRarity,
     displayRarity = _ref3$displayRarity === void 0 ? false : _ref3$displayRarity,
+    _ref3$displayUptie = _ref3.displayUptie,
+    displayUptie = _ref3$displayUptie === void 0 ? false : _ref3$displayUptie,
+    _ref3$level = _ref3.level,
+    level = _ref3$level === void 0 ? null : _ref3$level,
     scale = _ref3.scale,
     size = _ref3.size,
     width = _ref3.width,
@@ -133,6 +165,8 @@ function IdentityImg(_ref3) {
       uptie: uptie,
       displayName: displayName,
       displayRarity: displayRarity,
+      displayUptie: displayUptie,
+      level: level,
       style: newStyle
     });
   } else {
@@ -141,6 +175,8 @@ function IdentityImg(_ref3) {
       uptie: uptie,
       displayName: displayName,
       displayRarity: displayRarity,
+      displayUptie: displayUptie,
+      level: level,
       style: newStyle
     });
   }

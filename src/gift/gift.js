@@ -6,11 +6,12 @@ import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
 import { GiftModal } from "./GiftModal";
 import * as React from "react";
+import { TierComponent } from "../TierComponent";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
 const giftStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
-const giftTierStyle = { position: "absolute", top: "5%", left: "5%", fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: "24px", color: "#ffd84d", transform: "scaleY(1.4)" }
+const giftTierStyle = { position: "absolute", top: "8%", left: "8%" };
 const giftKeywordStyle = { position: "absolute", bottom: "5%", right: "5%" };
 const giftEnhanceStyle = { position: "absolute", top: "5%", right: "5%", fontWeight: "bold", color: "#ffd84d" };
 const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", inlineSize: "50ch", textWrap: "wrap", whiteSpace: "pre-wrap" };
@@ -23,26 +24,13 @@ function rescaleFont(style, scale) {
     return { ...style, fontSize: `${24 * scale}px` }
 }
 
-function tierToString(tier) {
-    switch (tier) {
-        case "1": return "I";
-        case "2": return "II";
-        case "3": return "III";
-        case "4": return "IV";
-        case "5": return "V";
-        case "EX": return "EX";
-        default: return "";
-    }
-}
-
 function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
-    const tier = tierToString(gift.tier);
     const size = 96 * scale;
 
     return <div style={resize(giftContainerStyle, size)}>
         <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
         <img src={`${ASSETS_ROOT}/gifts/${"imageOverride" in gift ? gift["imageOverride"] : gift.names[0]}.png`} alt={gift.names[0]} title={gift.names[0]} style={resize(giftStyle, size * 0.75)} />
-        <span style={rescaleFont(giftTierStyle, scale)}>{tier}</span>
+        <span style={giftTierStyle}><TierComponent tier={gift.tier} scale={scale} scaleY={1.4} /></span>
         {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale*1.2)}>{"+".repeat(enhanceRank)}</span> : null}
         {gift.keyword !== "Keywordless" ? <img src={`${ASSETS_ROOT}/icons/${gift.keyword}.png`} alt="" style={resize(giftKeywordStyle, size * 0.3)} /> : null}
     </div>

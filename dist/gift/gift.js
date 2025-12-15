@@ -18,6 +18,7 @@ import { tooltipStyle } from "../styles.js";
 import { useData } from "../dataProvider/DataProvider.js";
 import { GiftModal } from "./GiftModal.js";
 import * as React from "react";
+import { TierComponent } from "../TierComponent.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -38,13 +39,8 @@ var giftStyle = {
 };
 var giftTierStyle = {
   position: "absolute",
-  top: "5%",
-  left: "5%",
-  fontFamily: "'Archivo Narrow', sans-serif",
-  fontWeight: "bold",
-  fontSize: "24px",
-  color: "#ffd84d",
-  transform: "scaleY(1.4)"
+  top: "8%",
+  left: "8%"
 };
 var giftKeywordStyle = {
   position: "absolute",
@@ -77,31 +73,12 @@ function rescaleFont(style, scale) {
     fontSize: "".concat(24 * scale, "px")
   });
 }
-function tierToString(tier) {
-  switch (tier) {
-    case "1":
-      return "I";
-    case "2":
-      return "II";
-    case "3":
-      return "III";
-    case "4":
-      return "IV";
-    case "5":
-      return "V";
-    case "EX":
-      return "EX";
-    default:
-      return "";
-  }
-}
 function GiftIcon(_ref) {
   var gift = _ref.gift,
     _ref$enhanceRank = _ref.enhanceRank,
     enhanceRank = _ref$enhanceRank === void 0 ? 0 : _ref$enhanceRank,
     _ref$scale = _ref.scale,
     scale = _ref$scale === void 0 ? 1 : _ref$scale;
-  var tier = tierToString(gift.tier);
   var size = 96 * scale;
   return /*#__PURE__*/_jsxs("div", {
     style: resize(giftContainerStyle, size),
@@ -115,8 +92,12 @@ function GiftIcon(_ref) {
       title: gift.names[0],
       style: resize(giftStyle, size * 0.75)
     }), /*#__PURE__*/_jsx("span", {
-      style: rescaleFont(giftTierStyle, scale),
-      children: tier
+      style: giftTierStyle,
+      children: /*#__PURE__*/_jsx(TierComponent, {
+        tier: gift.tier,
+        scale: scale,
+        scaleY: 1.4
+      })
     }), enhanceRank > 0 ? /*#__PURE__*/_jsx("span", {
       style: rescaleFont(giftEnhanceStyle, scale * 1.2),
       children: "+".repeat(enhanceRank)
