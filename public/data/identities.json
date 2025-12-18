@@ -50,6 +50,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -138,6 +139,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -318,6 +320,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -408,6 +411,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -497,6 +501,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -589,6 +594,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -678,6 +684,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -767,6 +774,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -861,6 +869,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -1232,6 +1241,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -1343,6 +1353,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -1431,6 +1442,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -1524,6 +1536,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -1614,6 +1627,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -1705,6 +1719,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -1794,6 +1809,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -1979,6 +1995,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -2071,6 +2088,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -2161,6 +2179,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -2250,6 +2269,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -2350,6 +2370,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 3,
                     "type": "guard"
                 }
             },
@@ -2465,6 +2486,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -2555,6 +2577,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -2644,6 +2667,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -2733,6 +2757,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -2823,6 +2848,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -3013,6 +3039,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -3102,6 +3129,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -3188,6 +3216,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -3418,6 +3447,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -3513,6 +3543,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -3736,6 +3767,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -3917,6 +3949,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -4009,6 +4042,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -4101,6 +4135,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -4193,6 +4228,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -4286,6 +4322,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -4375,6 +4412,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -4466,6 +4504,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -4752,6 +4791,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -4869,6 +4909,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -4961,6 +5002,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -5051,6 +5093,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -5138,6 +5181,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -5322,6 +5366,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -5411,6 +5456,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -5784,6 +5830,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -5875,6 +5922,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -6185,6 +6233,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -6275,6 +6324,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -6365,6 +6415,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -6452,6 +6503,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -6537,6 +6589,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -6625,6 +6678,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -6716,6 +6770,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -6804,6 +6859,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -6894,6 +6950,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -6986,6 +7043,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -7076,6 +7134,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             },
@@ -7208,6 +7267,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -7615,6 +7675,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -7709,6 +7770,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -7895,6 +7957,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -8073,6 +8136,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -8165,6 +8229,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -8373,6 +8438,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             },
@@ -8381,6 +8447,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -8796,6 +8863,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -8885,6 +8953,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -9063,6 +9132,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -9157,6 +9227,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -9338,6 +9409,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -9432,6 +9504,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -9532,6 +9605,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -9623,6 +9697,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -9718,6 +9793,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -9818,6 +9894,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -10222,6 +10299,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -10405,6 +10483,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -10494,6 +10573,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "wrath",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -10582,6 +10662,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -10764,6 +10845,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -11199,6 +11281,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "envy",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -11473,6 +11556,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -11565,6 +11649,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -11744,6 +11829,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -11833,6 +11919,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -11922,6 +12009,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -12015,6 +12103,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -12111,6 +12200,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -12404,6 +12494,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -12602,6 +12693,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -12690,6 +12782,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -12777,6 +12870,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -12867,6 +12961,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -12961,6 +13056,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13049,6 +13145,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -13142,6 +13239,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13234,6 +13332,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -13324,6 +13423,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13419,6 +13519,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "pride",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13698,6 +13799,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13796,6 +13898,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13885,6 +13988,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -13973,6 +14077,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14061,6 +14166,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14153,6 +14259,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14240,6 +14347,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "sloth",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14332,6 +14440,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -14424,6 +14533,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14514,6 +14624,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gloom",
+                    "affinityUptie": 4,
                     "type": "evade"
                 }
             }
@@ -14607,6 +14718,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14792,6 +14904,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "lust",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -14914,6 +15027,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
@@ -15010,6 +15124,7 @@
                 "type": {
                     "tier": 1,
                     "affinity": "gluttony",
+                    "affinityUptie": 4,
                     "type": "guard"
                 }
             }
