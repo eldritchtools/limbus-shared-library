@@ -4,8 +4,12 @@ import { RarityImg } from "../ImageHandler";
 import { affinityColorMapping } from "../utils";
 import { TierComponent } from "../TierComponent";
 
+function getEgoImgSrc(ego, type) {
+    return `${ASSETS_ROOT}/egos/${ego.id}_${type}_profile.png`;
+}
+
 function EgoImgMain({ ego, type, banner, displayName, displayRarity, threadspin, style }) {
-    const src = `${ASSETS_ROOT}/egos/${ego.id}_${type}_profile.png`;
+    const src = getEgoImgSrc(ego, type);
 
     style.aspectRatio = banner ? "4/1" : "1/1";
     style.height = null;
@@ -81,4 +85,4 @@ function EgoImg({ id, ego = null, type, banner = false, displayName = false, dis
     }
 }
 
-export { EgoImg };
+export { EgoImg, getEgoImgSrc };

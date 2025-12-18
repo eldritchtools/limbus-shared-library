@@ -3,10 +3,15 @@ import { ASSETS_ROOT } from "../paths";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
 
-const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", verticalAlign: "middle", transform: "translateY(-0.1rem)"};
+const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", verticalAlign: "middle", transform: "translateY(-0.1rem)" };
 const nameStyle = { display: "inline", fontSize: "1rem" };
 const tooltipIconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginRight: "4px" };
 const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", maxWidth: "75rem", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" };
+
+function getStatusImgSrc(status) {
+    const src = "imageOverride" in status ? status.imageOverride : status.name;
+    return `${ASSETS_ROOT}/statuses/${src}.png`;
+}
 
 function getNameStyle(type) {
     switch (type) {
@@ -17,7 +22,7 @@ function getNameStyle(type) {
     }
 }
 
-function Status({ id, status=null, includeTooltip = true, includeName = true }) {
+function Status({ id, status = null, includeTooltip = true, includeName = true }) {
     const [statuses, statusesLoading] = useData("statuses");
 
     let statusObject = status;
@@ -32,31 +37,23 @@ function Status({ id, status=null, includeTooltip = true, includeName = true }) 
         }
     }
 
-    const src = "imageOverride" in statusObject ? statusObject.imageOverride : statusObject.name;
-
     return (
         <span
             data-tooltip-id={includeTooltip ? "limbus-shared-library-status-tooltip" : undefined}
             data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline" }}
         >
-            <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={statusObject.name} style={iconStyle} />
+            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={iconStyle} />
             {includeName ? <span style={getNameStyle(statusObject.buffType)}>{statusObject.name}</span> : null}
         </span>
     )
 }
 
-function TooltipContent({ statusId }) {
-    const [statuses, statusesLoading] = useData("statuses");
-    if(!statusId || statusesLoading) return null;
-
-    const status = statuses[statusId];
-    const src = "imageOverride" in status ? status.imageOverride : status.name;
-
+function StatusTooltipContent({ status }) {
     return <div style={tooltipStyle}>
-        <div style={{display: "flex", flexDirection: "column", padding: "0.5rem"}}>
+        <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
             <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-                <img src={`${ASSETS_ROOT}/statuses/${src}.png`} alt={status.name} style={tooltipIconStyle} onError={(e) => (e.currentTarget.style.display = "none")} />
+                <img src={getStatusImgSrc(status)} alt={status.name} style={tooltipIconStyle} onError={(e) => (e.currentTarget.style.display = "none")} />
                 <span>{status.name}</span>
             </div>
             <div style={tooltipDescStyle}>
@@ -66,13 +63,20 @@ function TooltipContent({ statusId }) {
     </div>;
 }
 
+function TooltipLoader({ statusId }) {
+    const [statuses, statusesLoading] = useData("statuses");
+    if (!statusId || statusesLoading) return null;
+
+    return <StatusTooltipContent status={statuses[statusId]} />
+}
+
 function StatusTooltip() {
     return <Tooltip
         id={"limbus-shared-library-status-tooltip"}
-        render={({ content }) => <TooltipContent statusId={content} />}
+        render={({ content }) => <TooltipLoader statusId={content} />}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
     />
 }
 
-export { Status, StatusTooltip };
+export { Status, StatusTooltip, getStatusImgSrc };

@@ -24,14 +24,19 @@ function rescaleFont(style, scale) {
     return { ...style, fontSize: `${24 * scale}px` }
 }
 
+function getGiftImgSrc(gift) {
+    const src = "imageOverride" in gift ? gift["imageOverride"] : gift.names[0];
+    return `${ASSETS_ROOT}/gifts/${src}.png`;
+}
+
 function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
     const size = 96 * scale;
 
     return <div style={resize(giftContainerStyle, size)}>
         <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
-        <img src={`${ASSETS_ROOT}/gifts/${"imageOverride" in gift ? gift["imageOverride"] : gift.names[0]}.png`} alt={gift.names[0]} title={gift.names[0]} style={resize(giftStyle, size * 0.75)} />
+        <img src={getGiftImgSrc(gift)} alt={gift.names[0]} title={gift.names[0]} style={resize(giftStyle, size * 0.75)} />
         <span style={giftTierStyle}><TierComponent tier={gift.tier} scale={scale} scaleY={1.4} /></span>
-        {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale*1.2)}>{"+".repeat(enhanceRank)}</span> : null}
+        {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale * 1.2)}>{"+".repeat(enhanceRank)}</span> : null}
         {gift.keyword !== "Keywordless" ? <img src={`${ASSETS_ROOT}/icons/${gift.keyword}.png`} alt="" style={resize(giftKeywordStyle, size * 0.3)} /> : null}
     </div>
 }
@@ -87,12 +92,7 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
     }
 }
 
-function TooltipContent({ giftId, enhanceRank }) {
-    const [gifts, giftsLoading] = useData("gifts");
-    if (!giftId || giftsLoading) return null;
-
-    const gift = gifts[giftId];
-
+function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
     const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <br />
         <span>Exclusive Theme Packs:</span>
@@ -113,11 +113,21 @@ function TooltipContent({ giftId, enhanceRank }) {
                     {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
                 </div>
             </div>
-            <div style={{ borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999", textAlign: "center" }}>
-                Click gift to expand
-            </div>
+            {expandable ?
+                <div style={{ borderTop: "1px #444 dashed", fontSize: "0.8rem", color: "#999", textAlign: "center" }}>
+                    Click gift to expand
+                </div> :
+                null
+            }
         </div>
     </div>
+}
+
+function TooltipLoader({ giftId, enhanceRank }) {
+    const [gifts, giftsLoading] = useData("gifts");
+    if (!giftId || giftsLoading) return null;
+
+    return <GiftTooltipContent gift={gifts[giftId]} enhanceRank={enhanceRank} />
 }
 
 function GiftTooltip() {
@@ -126,7 +136,7 @@ function GiftTooltip() {
         render={({ content }) => {
             if (!content) return null;
             const [id, rank] = content.split(":");
-            return <TooltipContent giftId={id} enhanceRank={Number(rank)} />
+            return <TooltipLoader giftId={id} enhanceRank={Number(rank)} />
         }}
         getTooltipContainer={() => document.body}
         style={{ backgroundColor: "transparent", zIndex: "9999" }}
@@ -134,4 +144,4 @@ function GiftTooltip() {
 }
 
 
-export { Gift, GiftTooltip };
+export { Gift, GiftTooltip, getGiftImgSrc };

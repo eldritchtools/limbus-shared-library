@@ -98,6 +98,7 @@ export function DataProvider(_ref3) {
   });
 }
 export function useData(path) {
+  var enabled = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
   var _React$useContext = React.useContext(DataContext),
     dataStore = _React$useContext.dataStore,
     getData = _React$useContext.getData;
@@ -110,14 +111,51 @@ export function useData(path) {
     loading = _React$useState6[0],
     setLoading = _React$useState6[1];
   React.useEffect(function () {
-    if (!path || data) return;
+    if (!path || data || !enabled) return;
     setLoading(true);
     getData(path).then(function (fetched) {
       return setData(fetched);
     })["finally"](function () {
       return setLoading(false);
     });
-  }, [path]);
+  }, [path, enabled]);
+  return [data, loading];
+}
+export function useDataMultiple(paths) {
+  var enabled = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  var _React$useContext2 = React.useContext(DataContext),
+    getData = _React$useContext2.getData;
+  var _React$useState7 = React.useState({}),
+    _React$useState8 = _slicedToArray(_React$useState7, 2),
+    data = _React$useState8[0],
+    setData = _React$useState8[1];
+  var _React$useState9 = React.useState(true),
+    _React$useState0 = _slicedToArray(_React$useState9, 2),
+    loading = _React$useState0[0],
+    setLoading = _React$useState0[1];
+  React.useEffect(function () {
+    if (!paths || paths.length === 0 || !enabled) {
+      setLoading(false);
+      return;
+    }
+    var cancelled = false;
+    setLoading(true);
+    Promise.all(paths.map(function (path) {
+      return getData(path);
+    })).then(function (results) {
+      if (cancelled) return;
+      var mapped = {};
+      paths.forEach(function (path, i) {
+        mapped[path] = results[i];
+      });
+      setData(mapped);
+    })["finally"](function () {
+      if (!cancelled) setLoading(false);
+    });
+    return function () {
+      cancelled = true;
+    };
+  }, [paths, enabled, getData]);
   return [data, loading];
 }
 export function getMeta() {

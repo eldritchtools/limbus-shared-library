@@ -11150,6 +11150,96 @@
         ],
         "name": "Lobotomy E.G.O:: The Sword Sharpened with Tears"
     },
+    "10914": {
+        "date": "2025-12-18",
+        "tags": [
+            "R Corp."
+        ],
+        "skillKeywordList": [
+            "Charge",
+            "Sinking"
+        ],
+        "sinnerId": 9,
+        "season": 0,
+        "rank": 3,
+        "hp": {
+            "base": 86,
+            "level": 2.4
+        },
+        "speedList": [
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                3,
+                7
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "breakSection": [
+            70,
+            35
+        ],
+        "resists": {
+            "slash": 1,
+            "pierce": 2,
+            "blunt": 0.5
+        },
+        "defenseSkillTypes": [
+            {
+                "id": 1091404,
+                "type": {
+                    "tier": 1,
+                    "affinity": "envy",
+                    "type": "guard"
+                }
+            }
+        ],
+        "skillTypes": [
+            {
+                "id": 1091401,
+                "num": 3,
+                "type": {
+                    "tier": 1,
+                    "affinity": "gloom",
+                    "type": "blunt"
+                }
+            },
+            {
+                "id": 1091402,
+                "num": 2,
+                "type": {
+                    "tier": 2,
+                    "affinity": "envy",
+                    "type": "blunt"
+                }
+            },
+            {
+                "id": 1091403,
+                "num": 1,
+                "type": {
+                    "tier": 3,
+                    "affinity": "wrath",
+                    "type": "blunt"
+                }
+            }
+        ],
+        "keywordTags": [
+            "Charge",
+            "HitTakeDamageUp",
+            "Sinking",
+            "WideAreaRampage"
+        ],
+        "name": "R Corp. 4th Pack Reindeer"
+    },
     "11001": {
         "date": "2023-02-27",
         "tags": [

@@ -6,7 +6,7 @@ const DataContext = React.createContext();
 function preprocess_data(path, data) {
     if (["egos_mini", "egos", "identities_mini", "identities", "gifts"].includes(path)) {
         return Object.entries(data).reduce((acc, [k, v]) => {
-            acc[k] = {id: k, ...v}
+            acc[k] = { id: k, ...v }
             return acc;
         }, {});
     } else {
@@ -44,20 +44,56 @@ export function DataProvider({ children }) {
     );
 }
 
-
-export function useData(path) {
+export function useData(path, enabled = true) {
     const { dataStore, getData } = React.useContext(DataContext);
     const [data, setData] = React.useState(path in dataStore ? dataStore[path] : null);
     const [loading, setLoading] = React.useState(!data);
 
     React.useEffect(() => {
-        if (!path || data) return;
+        if (!path || data || !enabled) return;
         setLoading(true);
 
         getData(path)
             .then(fetched => setData(fetched))
             .finally(() => setLoading(false));
-    }, [path]);
+    }, [path, enabled]);
+
+    return [data, loading];
+}
+
+export function useDataMultiple(paths, enabled = true) {
+    const { getData } = React.useContext(DataContext);
+    const [data, setData] = React.useState({});
+    const [loading, setLoading] = React.useState(true);
+
+    React.useEffect(() => {
+        if (!paths || paths.length === 0 || !enabled) {
+            setLoading(false);
+            return;
+        }
+
+        let cancelled = false;
+        setLoading(true);
+
+        Promise.all(paths.map(path => getData(path)))
+            .then(results => {
+                if (cancelled) return;
+
+                const mapped = {};
+                paths.forEach((path, i) => {
+                    mapped[path] = results[i];
+                });
+
+                setData(mapped);
+            })
+            .finally(() => {
+                if (!cancelled) setLoading(false);
+            });
+
+        return () => {
+            cancelled = true;
+        };
+    }, [paths, enabled, getData]);
 
     return [data, loading];
 }

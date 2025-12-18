@@ -62,4 +62,28 @@ function replaceStatusVariables(templateText) {
     children: textPieces
   });
 }
+function replaceStatusVariablesTextOnly(templateText, statuses) {
+  var text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
+  var textPieces = [];
+  while (true) {
+    // Returns ["[variable]", index: number, input: string, groups: undefined]
+    var match = text.match(/\[[a-zA-Z0-9_]+\]/);
+    if (!match || match.index === undefined) {
+      textPieces.push(text);
+      break; // No more variables to replace
+    }
+    textPieces.push(text.slice(0, match.index));
+    text = text.slice(match.index + match[0].length);
+    var varName = match[0].slice(1, -1);
+    if (varName in statuses) {
+      textPieces.push(statuses[varName].name);
+    } else if (varName in skillTags) {
+      textPieces.push(skillTags[varName].text);
+    } else {
+      textPieces.push("[".concat(varName, "]"));
+    }
+  }
+  return textPieces.join("");
+}
 export default replaceStatusVariables;
+export { replaceStatusVariablesTextOnly };

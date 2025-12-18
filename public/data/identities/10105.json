@@ -271,7 +271,7 @@
     "passiveData": {
         "1010521": {
             "name": "Cleaning Up the Mess",
-            "desc": "When 1 ally with the lowest Max HP triggers [VibrationExplosion] on an enemy, inflict 1 [DefenseDown] per 4 Stagger Threshold raised (Max 3 per 1 enemy every turn)",
+            "desc": "When 1 ally with the lowest Max HP triggers [VibrationExplosion] on an enemy, inflict 1 [DefenseDown] next turn per 4 Stagger Threshold raised (Max 3 per 1 enemy every turn)",
             "condition": {
                 "type": "owned",
                 "requirement": [

@@ -16,6 +16,9 @@ import { RarityImg } from "../ImageHandler.js";
 import { affinityColorMapping } from "../utils.js";
 import { TierComponent } from "../TierComponent.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+function getEgoImgSrc(ego, type) {
+  return "".concat(ASSETS_ROOT, "/egos/").concat(ego.id, "_").concat(type, "_profile.png");
+}
 function EgoImgMain(_ref) {
   var ego = _ref.ego,
     type = _ref.type,
@@ -24,7 +27,7 @@ function EgoImgMain(_ref) {
     displayRarity = _ref.displayRarity,
     threadspin = _ref.threadspin,
     style = _ref.style;
-  var src = "".concat(ASSETS_ROOT, "/egos/").concat(ego.id, "_").concat(type, "_profile.png");
+  var src = getEgoImgSrc(ego, type);
   style.aspectRatio = banner ? "4/1" : "1/1";
   style.height = null;
   style.objectFit = "cover";
@@ -194,4 +197,4 @@ function EgoImg(_ref3) {
     });
   }
 }
-export { EgoImg };
+export { EgoImg, getEgoImgSrc };

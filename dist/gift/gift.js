@@ -73,6 +73,10 @@ function rescaleFont(style, scale) {
     fontSize: "".concat(24 * scale, "px")
   });
 }
+function getGiftImgSrc(gift) {
+  var src = "imageOverride" in gift ? gift["imageOverride"] : gift.names[0];
+  return "".concat(ASSETS_ROOT, "/gifts/").concat(src, ".png");
+}
 function GiftIcon(_ref) {
   var gift = _ref.gift,
     _ref$enhanceRank = _ref.enhanceRank,
@@ -87,7 +91,7 @@ function GiftIcon(_ref) {
       alt: "",
       style: resize(giftBackgroundStyle, size)
     }), /*#__PURE__*/_jsx("img", {
-      src: "".concat(ASSETS_ROOT, "/gifts/").concat("imageOverride" in gift ? gift["imageOverride"] : gift.names[0], ".png"),
+      src: getGiftImgSrc(gift),
       alt: gift.names[0],
       title: gift.names[0],
       style: resize(giftStyle, size * 0.75)
@@ -199,15 +203,12 @@ function Gift(_ref2) {
     });
   }
 }
-function TooltipContent(_ref3) {
-  var giftId = _ref3.giftId,
-    enhanceRank = _ref3.enhanceRank;
-  var _useData3 = useData("gifts"),
-    _useData4 = _slicedToArray(_useData3, 2),
-    gifts = _useData4[0],
-    giftsLoading = _useData4[1];
-  if (!giftId || giftsLoading) return null;
-  var gift = gifts[giftId];
+function GiftTooltipContent(_ref3) {
+  var gift = _ref3.gift,
+    _ref3$enhanceRank = _ref3.enhanceRank,
+    enhanceRank = _ref3$enhanceRank === void 0 ? 0 : _ref3$enhanceRank,
+    _ref3$expandable = _ref3.expandable,
+    expandable = _ref3$expandable === void 0 ? true : _ref3$expandable;
   var exclusiveText = function exclusiveText(list) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
@@ -271,7 +272,7 @@ function TooltipContent(_ref3) {
             children: replaceStatusVariables(gift.descs[enhanceRank], true)
           }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
         })]
-      }), /*#__PURE__*/_jsx("div", {
+      }), expandable ? /*#__PURE__*/_jsx("div", {
         style: {
           borderTop: "1px #444 dashed",
           fontSize: "0.8rem",
@@ -279,21 +280,34 @@ function TooltipContent(_ref3) {
           textAlign: "center"
         },
         children: "Click gift to expand"
-      })]
+      }) : null]
     })
+  });
+}
+function TooltipLoader(_ref4) {
+  var giftId = _ref4.giftId,
+    enhanceRank = _ref4.enhanceRank;
+  var _useData3 = useData("gifts"),
+    _useData4 = _slicedToArray(_useData3, 2),
+    gifts = _useData4[0],
+    giftsLoading = _useData4[1];
+  if (!giftId || giftsLoading) return null;
+  return /*#__PURE__*/_jsx(GiftTooltipContent, {
+    gift: gifts[giftId],
+    enhanceRank: enhanceRank
   });
 }
 function GiftTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
-    render: function render(_ref4) {
-      var content = _ref4.content;
+    render: function render(_ref5) {
+      var content = _ref5.content;
       if (!content) return null;
       var _content$split = content.split(":"),
         _content$split2 = _slicedToArray(_content$split, 2),
         id = _content$split2[0],
         rank = _content$split2[1];
-      return /*#__PURE__*/_jsx(TooltipContent, {
+      return /*#__PURE__*/_jsx(TooltipLoader, {
         giftId: id,
         enhanceRank: Number(rank)
       });
@@ -307,4 +321,4 @@ function GiftTooltip() {
     }
   });
 }
-export { Gift, GiftTooltip };
+export { Gift, GiftTooltip, getGiftImgSrc };
