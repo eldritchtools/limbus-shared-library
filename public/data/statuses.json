@@ -1016,12 +1016,14 @@
     "BloodScissorTwo": {
         "buffType": "Positive",
         "name": "Blood-tinged Scissorblades II",
-        "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills"
+        "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills",
+        "imageOverride": "Blood-tinged Scissorblades"
     },
     "BloodScissorThree": {
         "buffType": "Positive",
         "name": "Blood-tinged Scissorblades III",
-        "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 2 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills"
+        "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 2 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills",
+        "imageOverride": "Blood-tinged Scissorblades"
     },
     "LineCutting": {
         "buffType": "Negative",
@@ -1043,7 +1045,8 @@
         "buffType": "Neutral",
         "categoryKeywordList": [],
         "name": "Bloodfeast Consumed",
-        "desc": "- Max Value: 999\n- Displays the total amount of Bloodfeast consumed in this Encounter"
+        "desc": "- Max Value: 999\n- Displays the total amount of Bloodfeast consumed in this Encounter",
+        "imageOverride": "BloodDinner_Accumulation"
     },
     "TrulyWeak": {
         "buffType": "Negative",
