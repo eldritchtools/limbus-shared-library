@@ -104,7 +104,8 @@ function Status(_ref) {
     children: [/*#__PURE__*/_jsx("img", {
       src: getStatusImgSrc(statusObject),
       alt: statusObject.name,
-      style: _objectSpread(_objectSpread({}, iconStyle), iconStyleOverride)
+      style: _objectSpread(_objectSpread({}, iconStyle), iconStyleOverride),
+      onerror: "this.style.display='none'"
     }), includeName ? /*#__PURE__*/_jsx("span", {
       style: _objectSpread(_objectSpread({}, getNameStyle(statusObject.buffType)), nameStyleOverride),
       children: statusObject.name
@@ -135,7 +136,8 @@ function StatusTooltipContent(_ref2) {
           style: tooltipIconStyle,
           onError: function onError(e) {
             return e.currentTarget.style.display = "none";
-          }
+          },
+          onerror: "this.style.display='none'"
         }), /*#__PURE__*/_jsx("span", {
           children: status.name
         })]

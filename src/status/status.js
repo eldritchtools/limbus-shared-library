@@ -43,7 +43,7 @@ function Status({ id, status = null, includeTooltip = true, includeName = true, 
             data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline" }}
         >
-            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={{...iconStyle, ...iconStyleOverride}} />
+            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={{...iconStyle, ...iconStyleOverride}} onerror="this.style.display='none'" />
             {includeName ? <span style={{...getNameStyle(statusObject.buffType), ...nameStyleOverride}}>{statusObject.name}</span> : null}
         </span>
     )
@@ -53,7 +53,7 @@ function StatusTooltipContent({ status }) {
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
             <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-                <img src={getStatusImgSrc(status)} alt={status.name} style={tooltipIconStyle} onError={(e) => (e.currentTarget.style.display = "none")} />
+                <img src={getStatusImgSrc(status)} alt={status.name} style={tooltipIconStyle} onError={(e) => (e.currentTarget.style.display = "none")} onerror="this.style.display='none'" />
                 <span>{status.name}</span>
             </div>
             <div style={tooltipDescStyle}>
