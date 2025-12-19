@@ -13,6 +13,6 @@ export { ThemePackImg, getFloorsPerPack, getFloorsForPack } from "./themePack/th
 export { default as replaceStatusVariables, replaceStatusVariablesTextOnly } from "./status/statusReplace";
 export { IdentityImg, getIdentityImgSrc } from "./identity/identity";
 export { EgoImg, getEgoImgSrc } from "./ego/ego";
-export { DataProvider, useData, getMeta } from "./dataProvider/DataProvider";
+export { DataProvider, useData, useDataMultiple, getMeta } from "./dataProvider/DataProvider";
 export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon } from "./ImageHandler";
 export { affinityColorMapping } from "./utils";

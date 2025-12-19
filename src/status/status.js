@@ -22,7 +22,7 @@ function getNameStyle(type) {
     }
 }
 
-function Status({ id, status = null, includeTooltip = true, includeName = true }) {
+function Status({ id, status = null, includeTooltip = true, includeName = true, iconStyleOverride = {}, nameStyleOverride = {} }) {
     const [statuses, statusesLoading] = useData("statuses");
 
     let statusObject = status;
@@ -43,8 +43,8 @@ function Status({ id, status = null, includeTooltip = true, includeName = true }
             data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline" }}
         >
-            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={iconStyle} />
-            {includeName ? <span style={getNameStyle(statusObject.buffType)}>{statusObject.name}</span> : null}
+            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={{...iconStyle, ...iconStyleOverride}} />
+            {includeName ? <span style={{...getNameStyle(statusObject.buffType), ...nameStyleOverride}}>{statusObject.name}</span> : null}
         </span>
     )
 }

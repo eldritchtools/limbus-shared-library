@@ -12,6 +12,6 @@ export { ThemePackImg, getFloorsPerPack, getFloorsForPack } from "./themePack/th
 export { default as replaceStatusVariables, replaceStatusVariablesTextOnly } from "./status/statusReplace.js";
 export { IdentityImg, getIdentityImgSrc } from "./identity/identity.js";
 export { EgoImg, getEgoImgSrc } from "./ego/ego.js";
-export { DataProvider, useData, getMeta } from "./dataProvider/DataProvider.js";
+export { DataProvider, useData, useDataMultiple, getMeta } from "./dataProvider/DataProvider.js";
 export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon } from "./ImageHandler.js";
 export { affinityColorMapping } from "./utils.js";

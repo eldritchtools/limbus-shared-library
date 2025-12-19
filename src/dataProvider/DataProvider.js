@@ -1,7 +1,7 @@
-import * as React from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { DATA_ROOT, PUBLIC_ROOT } from "../paths";
 
-const DataContext = React.createContext();
+const DataContext = createContext();
 
 function preprocess_data(path, data) {
     if (["egos_mini", "egos", "identities_mini", "identities", "gifts"].includes(path)) {
@@ -15,10 +15,10 @@ function preprocess_data(path, data) {
 }
 
 export function DataProvider({ children }) {
-    const [dataStore, setDataStore] = React.useState({});
-    const inFlight = React.useRef({});
+    const [dataStore, setDataStore] = useState({});
+    const inFlight = useRef({});
 
-    const getData = async (path) => {
+    const getData = useCallback(async (path) => {
         if (path in dataStore) return dataStore[path];
         if (inFlight.current[path]) return inFlight.current[path];
 
@@ -35,21 +35,23 @@ export function DataProvider({ children }) {
 
         inFlight.current[path] = promise;
         return promise;
-    };
+    }, []);
+
+    const value = useMemo(() => ({ dataStore, getData }), [dataStore, getData]);
 
     return (
-        <DataContext.Provider value={{ dataStore, getData }}>
+        <DataContext.Provider value={value}>
             {children}
         </DataContext.Provider>
     );
 }
 
 export function useData(path, enabled = true) {
-    const { dataStore, getData } = React.useContext(DataContext);
-    const [data, setData] = React.useState(path in dataStore ? dataStore[path] : null);
-    const [loading, setLoading] = React.useState(!data);
+    const { dataStore, getData } = useContext(DataContext);
+    const [data, setData] = useState(path in dataStore ? dataStore[path] : null);
+    const [loading, setLoading] = useState(!data);
 
-    React.useEffect(() => {
+    useEffect(() => {
         if (!path || data || !enabled) return;
         setLoading(true);
 
@@ -61,41 +63,55 @@ export function useData(path, enabled = true) {
     return [data, loading];
 }
 
-export function useDataMultiple(paths, enabled = true) {
-    const { getData } = React.useContext(DataContext);
-    const [data, setData] = React.useState({});
-    const [loading, setLoading] = React.useState(true);
+function useStableSet(arr) {
+    const ref = useRef(new Set(arr));
+    const prev = ref.current;
+    const next = new Set(arr);
 
-    React.useEffect(() => {
-        if (!paths || paths.length === 0 || !enabled) {
-            setLoading(false);
-            return;
-        }
+    const changed =
+        prev.size !== next.size ||
+        [...next].some(x => !prev.has(x));
 
-        let cancelled = false;
-        setLoading(true);
+    if (changed) {
+        ref.current = next;
+    }
 
-        Promise.all(paths.map(path => getData(path)))
-            .then(results => {
-                if (cancelled) return;
+    return ref.current; // stable Set reference
+}
 
-                const mapped = {};
-                paths.forEach((path, i) => {
-                    mapped[path] = results[i];
-                });
+export function useDataMultiple(paths = [], enabled = true) {
+    const stableSet = useStableSet(paths);
+    const { dataStore, getData } = useContext(DataContext);
 
-                setData(mapped);
-            })
-            .finally(() => {
-                if (!cancelled) setLoading(false);
+    const [dataMap, setDataMap] = useState({});
+    const requestedRef = useRef(new Set());
+
+    useEffect(() => {
+        setDataMap(() => {
+            const next = {};
+            stableSet.forEach(p => {
+                next[p] = dataStore[p] ?? null;
             });
+            return next;
+        });
+    }, [stableSet, dataStore]);
 
-        return () => {
-            cancelled = true;
-        };
-    }, [paths, enabled, getData]);
+    useEffect(() => {
+        if (!enabled) return;
 
-    return [data, loading];
+        stableSet.forEach(path => {
+            if (!requestedRef.current.has(path)) {
+                requestedRef.current.add(path);
+                if (dataStore[path] == null) {
+                    getData(path);
+                }
+            }
+        });
+    }, [stableSet, enabled, getData]);
+
+    const loading = enabled && [...stableSet].some(p => dataMap[p] == null);
+
+    return [dataMap, loading];
 }
 
 export async function getMeta() {

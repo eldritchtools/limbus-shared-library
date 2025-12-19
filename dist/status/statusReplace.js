@@ -10,6 +10,8 @@ import { Status } from "./status.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 function replaceStatusVariables(templateText) {
   var includeTooltips = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  var iconStyleOverride = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+  var nameStyleOverride = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
   var _useData = useData("statuses"),
     _useData2 = _slicedToArray(_useData, 2),
     statuses = _useData2[0],
@@ -34,7 +36,9 @@ function replaceStatusVariables(templateText) {
     if (!statusesLoading && varName in statuses) {
       textPieces.push(/*#__PURE__*/_jsx(Status, {
         id: varName,
-        includeTooltip: includeTooltips
+        includeTooltip: includeTooltips,
+        iconStyleOverride: iconStyleOverride,
+        nameStyleOverride: nameStyleOverride
       }, index++));
     } else if (varName in skillTags) {
       if ("color" in skillTags[varName]) {

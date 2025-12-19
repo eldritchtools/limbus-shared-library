@@ -2,7 +2,7 @@ import skillTags from "../data/skillTagsData";
 import { useData } from "../dataProvider/DataProvider";
 import { Status } from "./status";
 
-function replaceStatusVariables(templateText, includeTooltips = true) {
+function replaceStatusVariables(templateText, includeTooltips = true, iconStyleOverride = {}, nameStyleOverride = {}) {
     const [statuses, statusesLoading] = useData("statuses");
 
     let text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
@@ -22,7 +22,7 @@ function replaceStatusVariables(templateText, includeTooltips = true) {
 
         let varName = match[0].slice(1, -1);
         if (!statusesLoading && varName in statuses) {
-            textPieces.push(<Status key={index++} id={varName} includeTooltip={includeTooltips} />)
+            textPieces.push(<Status key={index++} id={varName} includeTooltip={includeTooltips} iconStyleOverride={iconStyleOverride} nameStyleOverride={nameStyleOverride} />)
         } else if (varName in skillTags) {
 
             if ("color" in skillTags[varName]) {

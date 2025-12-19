@@ -72,7 +72,11 @@ function Status(_ref) {
     _ref$includeTooltip = _ref.includeTooltip,
     includeTooltip = _ref$includeTooltip === void 0 ? true : _ref$includeTooltip,
     _ref$includeName = _ref.includeName,
-    includeName = _ref$includeName === void 0 ? true : _ref$includeName;
+    includeName = _ref$includeName === void 0 ? true : _ref$includeName,
+    _ref$iconStyleOverrid = _ref.iconStyleOverride,
+    iconStyleOverride = _ref$iconStyleOverrid === void 0 ? {} : _ref$iconStyleOverrid,
+    _ref$nameStyleOverrid = _ref.nameStyleOverride,
+    nameStyleOverride = _ref$nameStyleOverrid === void 0 ? {} : _ref$nameStyleOverrid;
   var _useData = useData("statuses"),
     _useData2 = _slicedToArray(_useData, 2),
     statuses = _useData2[0],
@@ -100,9 +104,9 @@ function Status(_ref) {
     children: [/*#__PURE__*/_jsx("img", {
       src: getStatusImgSrc(statusObject),
       alt: statusObject.name,
-      style: iconStyle
+      style: _objectSpread(_objectSpread({}, iconStyle), iconStyleOverride)
     }), includeName ? /*#__PURE__*/_jsx("span", {
-      style: getNameStyle(statusObject.buffType),
+      style: _objectSpread(_objectSpread({}, getNameStyle(statusObject.buffType)), nameStyleOverride),
       children: statusObject.name
     }) : null]
   });
