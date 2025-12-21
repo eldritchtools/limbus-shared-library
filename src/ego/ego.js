@@ -11,13 +11,11 @@ function getEgoImgSrc(ego, type) {
 function EgoImgMain({ ego, type, banner, displayName, displayRarity, threadspin, style }) {
     const src = getEgoImgSrc(ego, type);
 
-    style.aspectRatio = banner ? "4/1" : "1/1";
-    style.height = null;
-    style.objectFit = "cover";
-    const img = <img src={src} alt={ego.name} title={ego.name} style={style} />
+    const newStyle = {...style, aspectRatio: banner ? "4/1" : "1/1", height: null, objectFit: "cover"};
+    const img = <img src={src} alt={ego.name} title={ego.name} style={newStyle} />
 
     if (displayName || displayRarity) {
-        return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", position: "relative", width: style.width, aspectRatio: style.aspectRatio, containerType: "size" }}>
+        return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", position: "relative", width: newStyle.width, aspectRatio: newStyle.aspectRatio, containerType: "size" }}>
             {img}
             {displayRarity ?
                 <RarityImg rarity={ego.rank.toLowerCase()} style={{ position: "absolute", top: "4px", left: "4px", height: "1.5rem", objectFit: "contain", pointerEvents: "none" }} /> :
