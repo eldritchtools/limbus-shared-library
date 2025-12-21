@@ -33,8 +33,8 @@ var contentStyle = {
   background: "black",
   padding: "1rem",
   borderRadius: "0.5rem",
-  minWidth: "300px",
-  maxWidth: "75%",
+  width: "clamp(200px, 90%, 1600px)",
+  maxWidth: "1600px",
   border: "1px #aaa solid",
   boxShadow: "0 2px 10px rgba(0,0,0,0.3)"
 };
@@ -152,6 +152,7 @@ function GiftDisplay(_ref) {
           style: {
             display: "flex",
             flexDirection: "row",
+            flexWrap: "wrap",
             gap: "1rem"
           },
           children: [gift.exclusiveTo ? /*#__PURE__*/_jsxs("div", {

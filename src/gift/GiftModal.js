@@ -22,8 +22,8 @@ const contentStyle = {
     background: "black",
     padding: "1rem",
     borderRadius: "0.5rem",
-    minWidth: "300px",
-    maxWidth: "75%",
+    width: "clamp(200px, 90%, 1600px)",
+    maxWidth: "1600px",
     border: "1px #aaa solid",
     boxShadow: "0 2px 10px rgba(0,0,0,0.3)",
 };
@@ -64,7 +64,7 @@ function GiftDisplay({ gift, enhanceRank }) {
                 <div style={{ display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" }}>
                     <span>{replaceStatusVariables(gift.descs[level], true)}</span>
                 </div>
-                <div style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
+                <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1rem" }}>
                     {
                         gift.exclusiveTo ?
                             <div style={{ display: "flex", flexDirection: "column" }}>
