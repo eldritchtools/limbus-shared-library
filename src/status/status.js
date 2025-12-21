@@ -42,9 +42,11 @@ function Status({ id, status = null, includeTooltip = true, includeName = true, 
             data-tooltip-id={includeTooltip ? "limbus-shared-library-status-tooltip" : undefined}
             data-tooltip-content={includeTooltip ? id : undefined}
             style={{ display: "inline" }}
+            role="button"
+            tabIndex={0}
         >
-            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={{...iconStyle, ...iconStyleOverride}} onError={(e) => (e.currentTarget.style.display = "none")} />
-            {includeName ? <span style={{...getNameStyle(statusObject.buffType), ...nameStyleOverride}}>{statusObject.name}</span> : null}
+            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={{ ...iconStyle, ...iconStyleOverride }} onError={(e) => (e.currentTarget.style.display = "none")} />
+            {includeName ? <span style={{ ...getNameStyle(statusObject.buffType), ...nameStyleOverride }}>{statusObject.name}</span> : null}
         </span>
     )
 }

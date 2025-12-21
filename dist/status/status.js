@@ -101,6 +101,8 @@ function Status(_ref) {
     style: {
       display: "inline"
     },
+    role: "button",
+    tabIndex: 0,
     children: [/*#__PURE__*/_jsx("img", {
       src: getStatusImgSrc(statusObject),
       alt: statusObject.name,
