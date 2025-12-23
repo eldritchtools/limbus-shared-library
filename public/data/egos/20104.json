@@ -70,6 +70,79 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 15,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 20,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend [Charge] Count to deal more damage (Max 50%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 7.5)% of the damage dealt, and reduce [Burst] Count by 5 (Max 75%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend [Charge] Count to deal more damage (Max 75%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If [Charge] Count was spent, inflict 3 [DimensionRift]",
+                            "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "Targets the rearmost unit (In regular encounters)\n\n[BeforeAttack] Spend [Charge] Count to deal more damage (Max 75%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If [Charge] Count was spent, inflict 5 [DimensionRift]",
+                            "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Rambling Man",
@@ -151,5 +224,82 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 36,
+                    "coinValue": -24,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 42,
+                    "coinValue": -24,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 42,
+                    "coinValue": -24,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend [Charge] Count to deal more damage (Max 50%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 7.5)% of the damage dealt, and reduce [Burst] Count by 5 (Max 75%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend [Charge] Count to deal more damage (Max 75%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If [Charge] Count was spent, inflict 3 [DimensionRift]",
+                            "[OnSucceedAttack] Inflict 6 [Burst]",
+                            "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100%)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[CantIdentify]\nTargets a random unit\n\n[BeforeAttack] Spend [Charge] Count to deal more damage (Max 75%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If [Charge] Count was spent, inflict 5 [DimensionRift]",
+                            "[OnSucceedAttack] Inflict 6 [Burst]",
+                            "[OnSucceedAttack] Deal bonus Pride damage by (Target\u2019s [Burst] x 10)% of the damage dealt, and reduce [Burst] Count by 5 (Max 100)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

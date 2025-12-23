@@ -70,6 +70,79 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 24,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 28,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Impending Day",
+                    "abName": "Doomsday Calendar",
+                    "desc": "If target\u2019s HP is below 25%, deal +10% damage",
+                    "coinDescs": [
+                        [
+                            "[EnemyKill] Heal all allies for 10% of their Max HP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Impending Day",
+                    "abName": "Doomsday Calendar",
+                    "desc": "If target\u2019s HP is below 25%, deal +20% damage",
+                    "coinDescs": [
+                        [
+                            "[EnemyKill] Gain 1 [Enhancement] next turn",
+                            "[EnemyKill] Heal all allies for 15% of their Max HP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Impending Day",
+                    "abName": "Doomsday Calendar",
+                    "desc": "If target\u2019s HP is below 25%, +40% Damage",
+                    "coinDescs": [
+                        [
+                            "[EnemyKill] Gain 1 [Enhancement] next turn",
+                            "[EnemyKill] Heal all allies for 15% of their Max HP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Live Offering",
@@ -147,5 +220,78 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 1,
+                    "baseValue": 24,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 28,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Impending Day",
+                    "abName": "Doomsday Calendar",
+                    "desc": "[CantIdentify]\nTargets randomly\nIf target\u2019s HP is below 25%, +15% Damage",
+                    "coinDescs": [
+                        [
+                            "[EnemyKillFail] Gain 10 [Laceration] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Impending Day",
+                    "abName": "Doomsday Calendar",
+                    "desc": "[CantIdentify]\nTargets randomly\nIf target\u2019s HP is below 25%, +25% Damage",
+                    "coinDescs": [
+                        [
+                            "[EnemyKillFail] Gain 10 [Laceration] next turn",
+                            "[EnemyKillFail] Gain 3 [Enhancement] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Impending Day",
+                    "abName": "Doomsday Calendar",
+                    "desc": "[CantIdentify]\nTargets randomly\nIf target\u2019s HP is below 25%, +50% Damage",
+                    "coinDescs": [
+                        [
+                            "[EnemyKillFail] Gain 10 [Laceration] next turn",
+                            "[EnemyKillFail] Gain 3 [Enhancement] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

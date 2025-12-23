@@ -77,6 +77,86 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 3,
+                    "baseValue": 6,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 6,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 8,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Thoracalgia",
+                    "abName": "Sleeping Bag of a Bygone Day",
+                    "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max 4)\n- At 15+ [Breath], gain Final Power +(highest Reson.) instead (max 4)\n[BeforeAttack] Gain (highest Reson. / 2) [Breath] Count (max 2)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 2)\n[TargetKill] Gain 1 [HoldingBreath] next turn (2 times per turn)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain 2 [HoldingBreath] (once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Thoracalgia",
+                    "abName": "Sleeping Bag of a Bygone Day",
+                    "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max 6)\n- At 15+ [Breath], gain Final Power +(highest Reson.) instead (max 6)\n[BeforeAttack] Gain (highest Reson. / 2) [Breath] Count (max 2)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 2)\n[TargetKill] Gain 2 [HoldingBreath] next turn (4 times per turn)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "Deal +([Breath] Potency + Count)% damage on Critical Hit (max 20%)",
+                            "[OnSucceedAttack] Gain 2 [HoldingBreath] (once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Thoracalgia",
+                    "abName": "Sleeping Bag of a Bygone Day",
+                    "desc": "[BeforeAttack] Gain (highest Reson.) [Breath] (max 6)\n- At 15+ [Breath], gain Final Power +(highest Reson.) instead (max 6)\n[BeforeAttack] Gain (highest Reson. / 2) [Breath] Count (max 3)\n- At 5+ [Breath] Count, gain Coin Power +(highest Reson. / 2) instead (max 3)\n[TargetKill] Gain 2 [HoldingBreath] next turn (6 times per turn)",
+                    "coinDescs": [
+                        [],
+                        [
+                            "Deal +([Breath] Potency + Count)% damage on Critical Hit (max 40%)",
+                            "[OnSucceedAttack] Gain 4 [HoldingBreath] (once per turn)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Breath",
@@ -160,5 +240,84 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 4,
+                    "levelCorrection": 5,
+                    "baseValue": 20,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 24,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Thoracalgia",
+                    "abName": "Sleeping Bag of a Bygone Day",
+                    "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\nIf an ally is one of this Skill's targets, deal +30% damage\n\n[BeforeAttack] At less than 15 [Breath], consume 10% HP to gain 5 [Breath] and +5 [Breath] Count\n- Cannot be Staggered or defeated due to this effect\n\n[EndSkill] If target is defeated, gain 2 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 2 [Breath] and +2 [Breath] Count",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[OnSucceedAttack] Gain 4 [HoldingBreath] (once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Thoracalgia",
+                    "abName": "Sleeping Bag of a Bygone Day",
+                    "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\nIf an ally is one of this Skill's targets, deal +30% damage\n\n[BeforeAttack] At less than 15 [Breath], consume 10% HP to gain 5 [Breath] and +5 [Breath] Count\n- Cannot be Staggered or defeated due to this effect\n- Gain 1 [Breath] for every ally targeted by this Skill (max 2)\n\n[EndSkill] If target is defeated, gain 2 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 4 [Breath] and +2 [Breath] Count\n- Recover half of SP used by this Skill",
+                    "coinDescs": [
+                        [],
+                        [
+                            "Deal +([Breath] Potency + Count)% damage on Critical Hit (max 20%)",
+                            "[OnSucceedAttack] Gain 4 [HoldingBreath] (once per turn)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Thoracalgia",
+                    "abName": "Sleeping Bag of a Bygone Day",
+                    "desc": "[CantIdentify]\nPrioritizes targets with the least HP (prioritizes allies)\nIf an ally is one of this Skill's targets, deal +30% damage\n\n[BeforeAttack] At less than 15 [Breath], consume 10% HP to gain 5 [Breath] and +5 [Breath] Count\n- Cannot be Staggered or defeated due to this effect\n- Gain 2 [Breath] for every ally targeted by this Skill (max 4)\n\n[EndSkill] If target is defeated, gain 3 [HoldingBreath] next turn. (once per turn) If the said target was an ally, activate the following as well:\n- Allies that are made to participate or are Substituted into this Encounter due to the defeated allies gain 4 [Breath] and +4 [Breath] Count\n- Recover SP used by this Skill and regain 1 of each E.G.O resources consumed",
+                    "coinDescs": [
+                        [],
+                        [
+                            "Deal +([Breath] Potency + Count)% damage on Critical Hit (max 40%)",
+                            "[OnSucceedAttack] Gain 7 [HoldingBreath] (once per turn)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -70,6 +70,79 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 10,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 15,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "What is Cast",
+                    "abName": "Rodion",
+                    "desc": "If target\u2019s HP is above 50%, deal +10% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "What is Cast",
+                    "abName": "Rodion",
+                    "desc": "If target\u2019s HP is above 50%, deal +30% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "What is Cast",
+                    "abName": "Rodion",
+                    "desc": "If target\u2019s HP is above 50%, deal +30% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Laceration]",
+                            "[OnSucceedAttack] Gain +2 [MentalSystemResultIncrease_Typo] next turn",
+                            "[OnSucceedAttack] Gain -2 [MentalSystemResultDecrease_Typo] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Severance",

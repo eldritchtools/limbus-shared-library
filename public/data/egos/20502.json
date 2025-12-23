@@ -54,6 +54,63 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 18,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 23,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Screwloose Wallop",
+                    "abName": "You Want To Get Beat? Hurtily?",
+                    "desc": "[EndSkill] Gain 3 [Protection]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Screwloose Wallop",
+                    "abName": "You Want To Get Beat? Hurtily?",
+                    "desc": "[EndSkill] Gain 3 [Protection]\n[EndSkill] Gain 1 [Operation] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Paralysis]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Final Augment",
@@ -116,5 +173,63 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 5,
+                    "baseValue": 16,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 21,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Screwloose Wallop",
+                    "abName": "You Want To Get Beat? Hurtily?",
+                    "desc": "[EndSkill] Gain 2 [Operation] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Screwloose Wallop",
+                    "abName": "You Want To Get Beat? Hurtily?",
+                    "desc": "[EndSkill] Gain 2 [Operation] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 3 [Paralysis]",
+                            "Raise Stagger Threshold by 30% of damage dealt"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

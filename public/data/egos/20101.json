@@ -72,6 +72,81 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -4,
+                    "baseValue": 14,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 18,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Crow\u2019s Eye View",
+                    "abName": "Yi Sang",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Reduction]",
+                            "[OnSucceedAttack] Apply 1 [Agility] to all allies next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Crow\u2019s Eye View",
+                    "abName": "Yi Sang",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Reduction]",
+                            "[OnSucceedAttack] Apply 3 [Agility] to all allies next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Crow\u2019s Eye View",
+                    "abName": "Yi Sang",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Reduction]",
+                            "[OnSucceedAttack] Apply 3 [Agility] to all allies next turn",
+                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Silence",

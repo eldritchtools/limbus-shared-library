@@ -54,6 +54,63 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 15,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 19,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[EndSkill] Heal 12 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [ScarletTakeDamageUp]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[EndSkill] Heal 18 SP\n[EndSkill] Apply 1 [Enhancement] to 2 random other allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [ScarletTakeDamageUp]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Emptying",
@@ -119,5 +176,66 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 21,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 25,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [ScarletTakeDamageUp]",
+                            "[OnSucceedAttackTail] Inflict 1 [Vulnerable]",
+                            "[OnSucceedAttackTail] Gain 1 [Vulnerable]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Apply 1 [Enhancement] to 2 random other allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [ScarletTakeDamageUp]",
+                            "[OnSucceedAttack] Inflict 2 [Vulnerable]",
+                            "[OnSucceedAttackTail] Gain 2 [Vulnerable]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

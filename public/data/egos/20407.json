@@ -75,6 +75,84 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 8,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 8,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 10,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Contempt, Awe",
+                    "abName": "Spiral of Contempt",
+                    "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max 2)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] (max 7)\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[EndSkill] Evenly inflict 10 [Laceration] between all targets"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Contempt, Awe",
+                    "abName": "Spiral of Contempt",
+                    "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max 4)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] (max 7)\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[EndSkill] Evenly inflict 15 [Laceration] between all targets"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Contempt, Awe",
+                    "abName": "Spiral of Contempt",
+                    "desc": "[BeforeAttack] Gain (highest Reson.) Atk Weight (max 6)\n[BeforeAttack] Gain (highest Reson. + 1) [GazePersonality] this turn and next turn (max 7)\n[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills\n[EndSkill] For 2 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [],
+                        [
+                            "[EndSkill] Evenly inflict 15 [Laceration] between all targets"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Mark of the Gaze",
@@ -157,5 +235,83 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 40,
+                    "coinValue": -18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 40,
+                    "coinValue": -18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 44,
+                    "coinValue": -20,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Contempt, Awe",
+                    "abName": "Spiral of Contempt",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 20%)",
+                            "[OnSucceedAttack] Inflict (1 + (highest Reson. x 1.5)) [Laceration] (max 10, rounded down)",
+                            "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Contempt, Awe",
+                    "abName": "Spiral of Contempt",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 40%)",
+                            "[OnSucceedAttack] Inflict (3 + (highest Reson. x 2)) [Laceration] (max 15, rounded down)",
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Contempt, Awe",
+                    "abName": "Spiral of Contempt",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 7 [GazePersonality]\n[EndSkill] If this Skill was a part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 60%)",
+                            "[OnSucceedAttack] Inflict (10 + (highest Reson. x 2.5)) [Laceration] (max 25, rounded down)",
+                            "[OnSucceedAttack] Inflict +5 [Laceration] Count"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

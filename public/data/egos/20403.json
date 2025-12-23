@@ -70,6 +70,79 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 16,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 18,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Red Eyes",
+                    "abName": "Spider Bud",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 3+ [Binding], inflict 1 [PlusCoinValueDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Red Eyes",
+                    "abName": "Spider Bud",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 3+ [Binding], inflict 1 [PlusCoinValueDown] next turn",
+                            "[OnSucceedAttack] If target's Speed is slower than user's, inflict 2 [SlashTakeDamageUp] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Red Eyes",
+                    "abName": "Spider Bud",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 3+ [Binding], inflict 1 [PlusCoinValueDown] next turn",
+                            "[OnSucceedAttack] If target's Speed is slower than user's, inflict 2 [SlashTakeDamageUp] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Spider's Webs",
@@ -134,5 +207,65 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 24,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 26,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Red Eyes",
+                    "abName": "Spider Bud",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 3+ [Binding], inflict 2 [PlusCoinValueDown] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Red Eyes",
+                    "abName": "Spider Bud",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                            "[OnSucceedAttack] If target has 3+ [Binding], inflict 2 [PlusCoinValueDown] next turn",
+                            "[OnSucceedAttack] If target's Speed is slower than user's, inflict 1-3 [SlashTakeDamageUp] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

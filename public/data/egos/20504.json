@@ -76,6 +76,85 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 16,
+                    "coinValue": 15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 20,
+                    "coinValue": 15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 25,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Capote",
+                    "abName": "Brazen Bull",
+                    "desc": "[EndSkill] Gain 1 [Agility], 1 [CrimsonResultUp], and 1 [HitResultUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Combustion]",
+                            "[OnSucceedAttack] Inflict [Vibration] by [Combustion] on target",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 3; if the [VibrationExplosion] Staggered the target, inflict +1 [Combustion] Count on 5 random enemies"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Capote",
+                    "abName": "Brazen Bull",
+                    "desc": "[EndSkill] Gain 2 [Agility], 1 [CrimsonResultUp], and 1 [HitResultUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 7 [Combustion]",
+                            "[OnSucceedAttack] Inflict [Vibration] by [Combustion] on target",
+                            "[OnSucceedAttack] Inflict 2 [Combustion] on 5 random enemies",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 2; if the [VibrationExplosion] Staggered the target, inflict +2 [Combustion] Count on 5 random enemies"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Capote",
+                    "abName": "Brazen Bull",
+                    "desc": "[EndSkill] Gain 2 [Agility], 1 [CrimsonResultUp], and 1 [HitResultUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [Combustion]",
+                            "[OnSucceedAttack] Inflict [Vibration] by [Combustion] on target",
+                            "[OnSucceedAttack] Inflict 3 [Combustion] on 5 random enemies",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 2; if the [VibrationExplosion] Staggered the target, inflict +3 [Combustion] Count on 5 random enemies"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Untempered Agitation",
@@ -160,5 +239,85 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 33,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 37,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Capote",
+                    "abName": "Brazen Bull",
+                    "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Gain 1 [Agility], 1 [CrimsonResultUp], and 1 [HitResultUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Combustion]",
+                            "[OnSucceedAttack] Inflict [Vibration] by [Combustion] on target",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 3; if the [VibrationExplosion] Staggered the target, inflict +2 [Combustion] Count on 5 random units"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Capote",
+                    "abName": "Brazen Bull",
+                    "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Gain 2 [Agility], 1 [CrimsonResultUp], and 1 [HitResultUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [Combustion]",
+                            "[OnSucceedAttack] Inflict [Vibration] by [Combustion] on target",
+                            "[OnSucceedAttack] Inflict 2 [Combustion] on 5 random units",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 2; if the [VibrationExplosion] Staggered the target, inflict +3 [Combustion] Count on 5 random units"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Capote",
+                    "abName": "Brazen Bull",
+                    "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Gain 2 [Agility], 1 [CrimsonResultUp], and 1 [HitResultUp] next turn",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 12 [Combustion]",
+                            "[OnSucceedAttack] Inflict [Vibration] by [Combustion] on target",
+                            "[OnSucceedAttack] Inflict 3 [Combustion] on 5 random units",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion], then reduce [Vibration] Count by 2; if the [VibrationExplosion] Staggered the target, inflict +4 [Combustion] Count on 5 random units"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

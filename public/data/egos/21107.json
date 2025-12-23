@@ -76,6 +76,85 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 5,
+                    "baseValue": 21,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 21,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 4,
+                    "baseValue": 21,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than 10 [Charge] Count, consume 15% HP to gain +10 [Charge] Count (this damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max 10%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 1)",
+                            "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 1 of each per Skill)",
+                            "[EnemyKill] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[BeforeAttack] At 3+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than 10 [Charge] Count, consume 15% HP to gain +10 [Charge] Count (this damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max 20%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)",
+                            "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 2 of each per Skill)",
+                            "[EnemyKill] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)\n[BeforeAttack] At less than 10 [Charge] Count, consume 10% HP to gain +10 [Charge] Count (this damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +1% damage for every [Charge] Count consumed (max 30%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)",
+                            "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 3 of each per Skill)",
+                            "[EnemyKill] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Rambling Man",
@@ -159,5 +238,84 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 5,
+                    "baseValue": 32,
+                    "coinValue": -13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 32,
+                    "coinValue": -13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 4,
+                    "baseValue": 32,
+                    "coinValue": -13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than maximum [Charge] Count, consume (missing [Charge] Count x 1.5)% HP to gain up to max [Charge] Count (max [Charge] Count obtainable from this effect: 30. This damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +2% damage for every [Charge] Count consumed (max 20%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)",
+                            "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 2 of each per Skill)",
+                            "[EnemyKill] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[BeforeAttack] At less than maximum [Charge] Count, consume (missing [Charge] Count x 1.2)% HP to gain up to max [Charge] Count (max [Charge] Count obtainable from this effect: 30. This damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +2% damage for every [Charge] Count consumed (max 40%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 2)",
+                            "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 2 of each per Skill)",
+                            "[EnemyKill] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Dimension Shredder",
+                    "abName": "Wayward Passenger",
+                    "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)\n[BeforeAttack] At less than maximum [Charge] Count, consume (missing [Charge] Count)% HP to gain up to max [Charge] Count (max [Charge] Count obtainable from this effect: 30. This damage does not reduce this unit's HP to 0; rounded down)\n[BeforeAttack] Consume up to 40 [Charge] Count and deal +2% damage for every [Charge] Count consumed (max 60%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict ([Charge] - 1) [DimensionRift] (max 4)",
+                            "[OnSucceedAttack] Gain 1 [Agility] and 1 [ChargeLoad] next turn for every [Charge] (max 3 of each per Skill)",
+                            "[EnemyKill] Gain +2 [Charge] Count"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

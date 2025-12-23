@@ -68,6 +68,77 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 20,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 22,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "AEDD",
+                    "abName": "Shock Centipede",
+                    "desc": "[BeforeAttack] Gain +5 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [EmittedCurrent]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "AEDD",
+                    "abName": "Shock Centipede",
+                    "desc": "[BeforeAttack] Gain +7 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [EmittedCurrent]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "AEDD",
+                    "abName": "Shock Centipede",
+                    "desc": "[BeforeAttack] Gain +10 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 15 [EmittedCurrent]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Alternating Discharge",
@@ -144,5 +215,77 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 22,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 24,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "AEDD",
+                    "abName": "Shock Centipede",
+                    "desc": "[CantIdentify]\nPrioritizes units with [Charge]\n[BeforeAttack] Gain +5 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [EmittedCurrent] and +5 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "AEDD",
+                    "abName": "Shock Centipede",
+                    "desc": "[CantIdentify]\nPrioritizes units with [Charge]\n[BeforeAttack] Gain +7 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [EmittedCurrent] and +5 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "AEDD",
+                    "abName": "Shock Centipede",
+                    "desc": "[CantIdentify]\nPrioritizes units with [Charge]\n[BeforeAttack] Gain +10 [Charge] Count",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 15 [EmittedCurrent] and +7 [Charge] Count"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

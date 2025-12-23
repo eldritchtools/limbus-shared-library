@@ -70,6 +70,79 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 2,
+                    "baseValue": 12,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 12,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 5,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "4th Match Flame",
+                    "abName": "Scorched Girl",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "4th Match Flame",
+                    "abName": "Scorched Girl",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 4 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "4th Match Flame",
+                    "abName": "Scorched Girl",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Combustion]",
+                            "[OnSucceedAttackHead] Inflict 6 [Combustion]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Ember",
@@ -147,5 +220,78 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "wrath",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 2,
+                    "baseValue": 24,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 24,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 5,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "4th Match Flame",
+                    "abName": "Scorched Girl",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "4th Match Flame",
+                    "abName": "Scorched Girl",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "4th Match Flame",
+                    "abName": "Scorched Girl",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Combustion]",
+                            "[OnSucceedAttackHead] Inflict 6 [Combustion]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -73,6 +73,82 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -2,
+                    "baseValue": 18,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Wishing Cairn",
+                    "abName": "Pagoda Veneration",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict 4 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Wishing Cairn",
+                    "abName": "Pagoda Veneration",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +4 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict 5 [Vibration]",
+                            "[OnSucceedAttackHead] Inflict 2 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Wishing Cairn",
+                    "abName": "Pagoda Veneration",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +4 [Laceration] Count",
+                            "[OnSucceedAttack] Inflict 5 [Vibration]",
+                            "[OnSucceedAttackHead] Inflict 2 [Paralysis]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Fallen Stone Pagoda",
@@ -156,5 +232,84 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": -2,
+                    "baseValue": 24,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Wishing Cairn",
+                    "abName": "Pagoda Veneration",
+                    "desc": "[CantIdentify]\nTargets randomly\n",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]",
+                            "[CriticalOnSucceedAttack] Inflict 4 [Laceration]",
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 2"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Wishing Cairn",
+                    "abName": "Pagoda Veneration",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]",
+                            "[CriticalOnSucceedAttack] Inflict 6 [Laceration]",
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 2"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Wishing Cairn",
+                    "abName": "Pagoda Veneration",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]",
+                            "[CriticalOnSucceedAttack] Inflict 8 [Laceration]",
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 2"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

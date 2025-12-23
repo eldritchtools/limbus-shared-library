@@ -72,6 +72,81 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 26,
+                    "coinValue": -13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 29,
+                    "coinValue": -13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Roseate Desire",
+                    "abName": "Pink Shoes",
+                    "desc": "Targets the rearmost unit (In regular encounters)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [AttackDown]",
+                            "[OnSucceedAttack] Inflict 2 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Roseate Desire",
+                    "abName": "Pink Shoes",
+                    "desc": "Targets the rearmost unit (In regular encounters)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 7 [AttackDown]",
+                            "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Roseate Desire",
+                    "abName": "Pink Shoes",
+                    "desc": "Targets the rearmost unit (In regular encounters)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [AttackDown]",
+                            "[OnSucceedAttack] Inflict 3 [Paralysis]",
+                            "[OnSucceedAttack] Inflict 3 [Binding] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Pink Ribbons",
@@ -153,5 +228,82 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 16,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 19,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 9,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Roseate Desire",
+                    "abName": "Pink Shoes",
+                    "desc": "[CantIdentify]\nTargets the unit with the fastest Speed",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [AttackDown]",
+                            "[OnSucceedAttack] Inflict 2 [Paralysis]",
+                            "[OnSucceedAttackHead] Inflict 4 [Binding] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Roseate Desire",
+                    "abName": "Pink Shoes",
+                    "desc": "[CantIdentify]\nTargets the unit with the fastest Speed",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 7 [AttackDown]",
+                            "[OnSucceedAttack] Inflict 3 [Paralysis]",
+                            "[OnSucceedAttack] Inflict 4 [Binding] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Roseate Desire",
+                    "abName": "Pink Shoes",
+                    "desc": "[CantIdentify]\nTargets the unit with the fastest Speed",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [AttackDown]",
+                            "[OnSucceedAttack] Inflict 5 [Paralysis]",
+                            "[OnSucceedAttack] Inflict 5 [Binding] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

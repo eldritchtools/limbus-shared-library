@@ -75,6 +75,84 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 15,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 20,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": 18,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Fluid Sac",
+                    "abName": "Headless Ichthys",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Deal 15 SP damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Fluid Sac",
+                    "abName": "Headless Ichthys",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Deal 25 SP damage",
+                            "If target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fluid Sac",
+                    "abName": "Headless Ichthys",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Deal 25 SP damage",
+                            "If target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage",
+                            "[OnSucceedAttack] Inflict 2 [Sinking]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Wave of Depression",
@@ -156,5 +234,82 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 37,
+                    "coinValue": -25,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 42,
+                    "coinValue": -25,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": -25,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Fluid Sac",
+                    "abName": "Headless Ichthys",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Vibration]",
+                            "[OnSucceedAttack] Inflict 5 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Fluid Sac",
+                    "abName": "Headless Ichthys",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 7 [Vibration]",
+                            "[OnSucceedAttack] Inflict 7 [Sinking]",
+                            "If target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Fluid Sac",
+                    "abName": "Headless Ichthys",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 [Vibration]",
+                            "[OnSucceedAttack] Inflict 10 [Sinking]",
+                            "If target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -71,6 +71,80 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 14,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 18,
+                    "coinValue": 6,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Forest for the Flames",
+                    "abName": "Ry\u014dsh\u016b",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 4 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Forest for the Flames",
+                    "abName": "Ry\u014dsh\u016b",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Combustion]",
+                            "[OnSucceedAttackHead] Inflict 1 [Vulnerable] next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Forest for the Flames",
+                    "abName": "Ry\u014dsh\u016b",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Combustion]",
+                            "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn",
+                            "[OnSucceedAttackHead] Inflict 1 [Vulnerable] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Art",

@@ -69,6 +69,78 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 0,
+                    "baseValue": 11,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 15,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Land of Illusion",
+                    "abName": "Hong Lu",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 2 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Land of Illusion",
+                    "abName": "Hong Lu",
+                    "desc": "[EndSkill] Heal 15 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Sinking]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Land of Illusion",
+                    "abName": "Hong Lu",
+                    "desc": "[EndSkill] Heal 15 SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Sinking]",
+                            "[EndSkill] Next turn: -2 SP Loss Efficiency to all allies; -2 to amount of SP lost from E.G.O use"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Ripple",

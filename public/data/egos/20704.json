@@ -71,6 +71,80 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 2,
+                    "levelCorrection": -1,
+                    "baseValue": 18,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "atkWeight": 3,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Reduction] next turn",
+                            "[EndSkill] Heal 12 SP for 4 other allies with the least SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[BeforeAttack] At 15+ SP, Atk Weight +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Reduction] next turn",
+                            "[EndSkill] Heal 17 SP for 4 other allies with the least SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[BeforeAttack] At 15+ SP, Atk Weight +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Reduction] next turn",
+                            "[EndSkill] Heal 25 SP for 4 other allies with the least SP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Dhy\u0101na",
@@ -155,5 +229,85 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 2,
+                    "levelCorrection": -1,
+                    "baseValue": 33,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "atkWeight": 3,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [DefenseDown] to 1 random other ally",
+                            "[OnSucceedAttack] Gain 2 [DefenseUp] next turn.",
+                            "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn."
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At -15 or lower SP, Atk Weight +1",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [DefenseDown] to 1 random other ally",
+                            "[OnSucceedAttack] Gain 2 [DefenseUp] next turn.",
+                            "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn.",
+                            "[OnSucceedAttackTail] Heal 4 SP on self"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam",
+                    "abName": "My Form Empties",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At -15 or lower SP, Atk Weight +2",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [DefenseDown] to 1 random other ally",
+                            "[OnSucceedAttack] Gain 2 [DefenseUp] next turn.",
+                            "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn.",
+                            "[OnSucceedAttackTail] Heal 4 SP on self",
+                            "[OnSucceedAttackTail] Inflict 1 [Vulnerable]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

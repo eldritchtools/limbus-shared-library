@@ -73,6 +73,82 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 10,
+                    "coinValue": 15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 14,
+                    "coinValue": 15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Branch of Knowledge",
+                    "abName": "Sinclair",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 6 [Burst]",
+                            "[OnSucceedAttack] Lose 10 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Branch of Knowledge",
+                    "abName": "Sinclair",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 12 [Burst]",
+                            "[OnSucceedAttackHead] Lose 10 SP",
+                            "[OnSucceedAttackTail] Heal 10 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Branch of Knowledge",
+                    "abName": "Sinclair",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 12 [Burst]",
+                            "[OnSucceedAttackHead] Lose 10 SP. Gain 1 [Enhancement] next turn",
+                            "[OnSucceedAttackTail] Gain 10 SP. Gain 1 [Protection] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Unstable",

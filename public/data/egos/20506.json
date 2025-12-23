@@ -67,6 +67,76 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 2,
+                    "levelCorrection": 0,
+                    "baseValue": 22,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Electric Screaming",
+                    "abName": "Dreaming Electric Sheep",
+                    "desc": "[BeforeAttack] Gain +8 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 3)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Electric Screaming",
+                    "abName": "Dreaming Electric Sheep",
+                    "desc": "[BeforeAttack] Gain +8 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 4)\n- At 4+ (highest Envy Reson.), apply 1 [VioletDamageUp] to self and all affected allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Electric Screaming",
+                    "abName": "Dreaming Electric Sheep",
+                    "desc": "[BeforeAttack] Gain +12 [Charge] Count\n[EndSkill] Apply +8 [Charge] Count to 1 other ally with the least [Charge] Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 5)\n- At 4+ (highest Envy Reson.), apply 1 [VioletDamageUp] to self and all affected allies\n- At 6+ (highest Envy Reson.), apply 1 [VioletDamageUp] to self and all affected allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Overloading Cables",
@@ -148,5 +218,82 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 2,
+                    "levelCorrection": 3,
+                    "baseValue": 28,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "atkWeight": 2,
+                    "baseValue": 28,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2,
+                    "baseValue": 28,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Electric Screaming",
+                    "abName": "Dreaming Electric Sheep",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 2)\n[BeforeAttack] If this unit has 10+ [Charge] Count, spend up to 20 [Charge] Count; deal +2% damage for every [Charge] Count consumed (max 40%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]",
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Electric Screaming",
+                    "abName": "Dreaming Electric Sheep",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 3)\n[BeforeAttack] If this unit has 10+ [Charge] Count, spend up to 20 [Charge] Count; deal +2.5% damage for every [Charge] Count consumed (max 50%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]",
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Electric Screaming",
+                    "abName": "Dreaming Electric Sheep",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 3)\n[BeforeAttack] At 10+ [Charge] Count, apply the effects applied from 'On Hit' twice\n[BeforeAttack] If this unit has 10+ [Charge] Count, spend up to 20 [Charge] Count; deal +3% damage for every [Charge] Count consumed (max 60%)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Paralysis]",
+                            "[OnSucceedAttack] Inflict 3 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

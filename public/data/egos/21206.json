@@ -61,6 +61,70 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -3,
+                    "baseValue": 20,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Bygone Days",
+                    "abName": "Portrait of a Certain Day",
+                    "desc": "[EndSkill] Heal 10 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume 5 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] on 2 random enemies (For Focused Encounters, random Parts)",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Bygone Days",
+                    "abName": "Portrait of a Certain Day",
+                    "desc": "[EndSkill] Heal 12 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume 5 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] and 1 [Curse] on 2 random enemies (For Focused Encounters, random Parts)",
+                    "coinDescs": [
+                        []
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Bygone Days",
+                    "abName": "Portrait of a Certain Day",
+                    "desc": "[EndSkill] Heal 15 SP to self and 2 other allies with the least SP\n- If target survives this attack, consume 3 [Sinking] Count on target, then heal additional SP(to self & affected allies) equal to [Sinking] Potency on target (Max SP heal: 20)\n- If target is defeated, inflict 3 [Sinking] and 1 [Curse] on 3 random enemies (For Focused Encounters, random Parts)",
+                    "coinDescs": [
+                        []
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "If I Could Go Back...",
@@ -141,5 +205,81 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 27,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Bygone Days",
+                    "abName": "Portrait of a Certain Day",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [AzureTakeDamageUp]. At 3+ Gloom Reson., inflict 1 additional [AzureTakeDamageUp]",
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count",
+                            "[OnSucceedAttack] Inflict 1 [Curse]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Bygone Days",
+                    "abName": "Portrait of a Certain Day",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [AzureTakeDamageUp]. Inflict 1 additional [AzureTakeDamageUp] for every 3 Gloom Reson. (max 2)",
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count",
+                            "[OnSucceedAttack] Inflict 2 [Curse]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Bygone Days",
+                    "abName": "Portrait of a Certain Day",
+                    "desc": "[CantIdentify]\nTargets randomly\nIf target has [Curse], deal +50% damage",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [AzureTakeDamageUp]. Inflict 1 additional [AzureTakeDamageUp] for every 2 Gloom Reson. (max 2)",
+                            "[OnSucceedAttack] Inflict +3 [Sinking] Count",
+                            "[OnSucceedAttack] Inflict 3 [Curse]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

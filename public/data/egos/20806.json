@@ -91,6 +91,100 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 3,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Wingbeat",
+                    "abName": "Fairy Festival",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Heal 15% of Max HP on self"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Lose 1~2 SP",
+                            "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
+                            "[OnSucceedAttack] Heal self by 4~8% of damage dealt",
+                            "[OnSucceedAttack] Inflict 1 [ShamrockTakeDamageUp]",
+                            "[OnSucceedAttack] Inflict 1~3 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Wingbeat",
+                    "abName": "Fairy Festival",
+                    "desc": "If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Heal 18% of Max HP on self"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Lose 1~2 SP",
+                            "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
+                            "[OnSucceedAttack] Heal self by 6~10% of damage dealt",
+                            "[OnSucceedAttack] Inflict 1 [ShamrockTakeDamageUp]",
+                            "[OnSucceedAttack] Inflict 1~3 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Wingbeat",
+                    "abName": "Fairy Festival",
+                    "desc": "If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Heal 20% of Max HP on self"
+                        ],
+                        [
+                            "[OnSucceedAttackHead] Lose 1~2 SP",
+                            "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
+                            "[OnSucceedAttack] Heal self by 8~12% of damage dealt",
+                            "[OnSucceedAttack] Inflict 1 [ShamrockTakeDamageUp]",
+                            "[OnSucceedAttack] Inflict 1~4 [Laceration]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Gluttony",
@@ -169,5 +263,79 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 0,
+                    "baseValue": 39,
+                    "coinValue": -24,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -24,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -24,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Wingbeat",
+                    "abName": "Fairy Festival",
+                    "desc": "[CantIdentify]\nTargets the unit with the least Core HP\n[BeforeAttack] Deal 5% HP damage to at most 5 random other allies\n- Heal HP on self equal to the damage dealt to allies.\n- If this unit dealt damage to an ally, gain 2 [Enhancement] this turn, and gain 2 [Agility] next turn.\n(Once per turn. The 'dealt damage' includes damage dealt to Shield HP. This effect can kill allies.)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackTail] Heal self by 10% of damage dealt",
+                            "[OnSucceedAttackTail] Inflict 1~4 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Wingbeat",
+                    "abName": "Fairy Festival",
+                    "desc": "[CantIdentify]\nTargets the unit with the least Core HP\n[BeforeAttack] Gain (# of highest Reson. -2) Atk Weight (max 1)\n[BeforeAttack] Deal 5% HP damage to at most 5 random other allies\n- Heal HP on self equal to the damage dealt to allies.\n- If this unit dealt damage to an ally, gain 2 [Enhancement] this turn, and gain 2 [Agility] next turn.\n(Once per turn. The 'dealt damage' includes damage dealt to Shield HP. This effect can kill allies.)\n[EndSkill] If this Skill's healing exceeds this unit's max HP, gain (excess heal/max HP) x 10 [AttackUp] next turn. (max 3 per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackTail] Heal self by 15% of damage dealt",
+                            "[OnSucceedAttackTail] Inflict 2~5 [Laceration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Wingbeat",
+                    "abName": "Fairy Festival",
+                    "desc": "[CantIdentify]\nTargets the unit with the least Core HP\n[BeforeAttack] Gain (# of highest Reson. -2) Atk Weight (max 2)\n[BeforeAttack] Deal 5% HP damage to at most 5 random other allies\n- Heal HP on self equal to the damage dealt to allies.\n- If this unit dealt damage to an ally, gain 2 [Enhancement] this turn, and gain 2 [Agility] next turn.\n(Once per turn. The 'dealt damage' includes damage dealt to Shield HP. This effect can kill allies.)\n[EndSkill] If this Skill's healing exceeds this unit's max HP, gain (excess heal/max HP) x 10 [AttackUp] next turn. (max 6 per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackTail] Heal self by 20% of damage dealt",
+                            "[OnSucceedAttackTail] Inflict 3~6 [Laceration]",
+                            "[EnemyKill] Gain 1[Enhancement] next turn (max 3)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -73,6 +73,82 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 5,
+                    "levelCorrection": 0,
+                    "baseValue": 20,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Binds",
+                    "abName": "The King in Binds",
+                    "desc": "[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Vibration]",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Binds",
+                    "abName": "The King in Binds",
+                    "desc": "[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50%\n[EndSkill] For 3 turns, lose 9 SP at Turn End",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Vibration]",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Binds",
+                    "abName": "The King in Binds",
+                    "desc": "[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 100%\n[EndSkill] For 3 turns, lose 8 SP at Turn End",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Vibration]",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Grand Welcome",
@@ -159,5 +235,87 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 5,
+                    "levelCorrection": 0,
+                    "baseValue": 32,
+                    "coinValue": -14,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -14,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -14,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Binds",
+                    "abName": "The King in Binds",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Vibration]",
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Binds",
+                    "abName": "The King in Binds",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50%",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Vibration]",
+                            "[OnSucceedAttack] Inflict +2 [Vibration] Count",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Binds",
+                    "abName": "The King in Binds",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Pride or Sloth Reson. - 2) Atk Weight (max 2)\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50%",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Vibration]",
+                            "[OnSucceedAttack] Inflict +3 [Vibration] Count",
+                            "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationCrack]",
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttackTail] Trigger [VibrationExplosion]",
+                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

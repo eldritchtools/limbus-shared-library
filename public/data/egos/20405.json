@@ -71,6 +71,80 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 15,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Sinking]",
+                            "[EnemyKill] Gain 3 E.G.O resources of a random Affinity currently owned"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Sinking]",
+                            "[EnemyKill] Gain 3 E.G.O resources of a random Affinity currently owned; All allies heal 3 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Sinking]",
+                            "[EnemyKill] Gain 3 E.G.O resources of a random Affinity currently owned; All allies heal 3 SP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Opened Can",
@@ -149,5 +223,79 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gloom",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 26,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 2,
+                    "coinValue": -12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 4 [Sinking]",
+                            "[EndSkill] All allies gain +1 [GainSinStockAdder]."
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 5 [Sinking]",
+                            "[EndSkill] All allies gain +1 [GainSinStockAdder]."
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 [Sinking]",
+                            "[EndSkill] All allies gain +1 [GainSinStockAdder]., apply 1 [Agility] next turn"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -84,6 +84,93 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 3,
+                    "baseValue": 16,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Red Sheet",
+                    "abName": "So That No One Will Cry",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)",
+                            "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Red Sheet",
+                    "abName": "So That No One Will Cry",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                        ],
+                        [
+                            "Deal +3% damage for every [EntangledCurseTalisman] on target (max 30%)",
+                            "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)",
+                            "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Red Sheet",
+                    "abName": "So That No One Will Cry",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict (4 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                        ],
+                        [
+                            "Deal +5% damage for every [EntangledCurseTalisman] on target (max 50%)",
+                            "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 4, rounded down)",
+                            "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 4) [Burst] Count (max 2, rounded down)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Enfeebling Talisman",
@@ -176,5 +263,93 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 5,
+                    "baseValue": 26,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Red Sheet",
+                    "abName": "So That No One Will Cry",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                        ],
+                        [
+                            "Deal +5% damage for every [EntangledCurseTalisman] on target (max 50%)",
+                            "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)",
+                            "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Red Sheet",
+                    "abName": "So That No One Will Cry",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                        ],
+                        [
+                            "Deal +10% damage for every [EntangledCurseTalisman] on target (max 100%)",
+                            "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 3, rounded down)",
+                            "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Red Sheet",
+                    "abName": "So That No One Will Cry",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict (6 + Gluttony Reson.) [EntangledCurseTalisman] (max 10)"
+                        ],
+                        [
+                            "Deal +10% damage for every [EntangledCurseTalisman] on target (max 100%)",
+                            "[OnSucceedAttack] Inflict ([EntangledCurseTalisman] on target / 2) [Burst] (max 4, rounded down)",
+                            "[OnSucceedAttack] Inflict +([EntangledCurseTalisman] on target / 3) [Burst] Count (max 2, rounded down)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

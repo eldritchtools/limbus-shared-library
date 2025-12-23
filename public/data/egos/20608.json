@@ -59,6 +59,172 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 20,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3
+                },
+                {
+                    "uptie": 4
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
+                    "abName": "Yinglong",
+                    "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]",
+                    "coinDescs": [
+                        [
+                            "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
+                    "abName": "Yinglong",
+                    "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]",
+                    "coinDescs": [
+                        [
+                            "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
+                    "abName": "Yinglong",
+                    "desc": "[CantDuel]\nIgnores the target's Defense Skill\nThis Skill does not hit an enemy\n[EndSkill] Gain [DragonLance]",
+                    "coinDescs": [
+                        [
+                            "This unit takes fixed damage by this Skill's Final Power\n- This damage does not Stagger or reduce this unit's HP below 1"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 7,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "abName": "Yinglong",
+                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +2% damage for every [DragonLance] on self (max 6%)\nDeal +4% damage for every [CondensedBlood] on self (max 20%)\n[WhenUse] If main target has 5+ [Burst], Coin Power +1\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "abName": "Yinglong",
+                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +3% damage for every [DragonLance] on self (max 9%)\nDeal +6% damage for every [CondensedBlood] on self (max 30%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on main target (max 2)\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n- At 4+ [CondensedBlood], Atk Weight +2 and Base Power +2 instead\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "abName": "Yinglong",
+                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +3% damage for every [DragonLance] on self (max 9%)\nDeal +6% damage for every [CondensedBlood] on self (max 30%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on main target (max 3)\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n- At 4+ [CondensedBlood], Atk Weight +2 and Base Power +2 instead\n- At 5+ [CondensedBlood], Atk Weight +3 and Base Power +3 instead\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Crying Tears",
@@ -179,10 +345,10 @@
             }
         ]
     },
-    "additionalAwakeningSkills": [
+    "corrosionSkills": [
         {
             "tier": 3,
-            "type": "awakening",
+            "type": "corrosion",
             "data": [
                 {
                     "uptie": 1,
@@ -191,94 +357,103 @@
                     "defType": "attack",
                     "atkWeight": 7,
                     "levelCorrection": 5,
-                    "baseValue": 4,
-                    "coinValue": 4,
+                    "baseValue": 12,
+                    "coinValue": -3,
                     "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
                     ]
                 },
                 {
                     "uptie": 3,
-                    "coinValue": 4,
+                    "coinValue": -2,
                     "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
                     ]
                 },
                 {
                     "uptie": 4,
-                    "coinValue": 5,
+                    "coinValue": -2,
                     "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable",
+                        "unbreakable"
                     ]
                 }
             ],
             "text": [
                 {
                     "uptie": 1,
-                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                     "abName": "Yinglong",
-                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +2% damage for every [DragonLance] on self (max 6%)\nDeal +4% damage for every [CondensedBlood] on self (max 20%)\n[WhenUse] If main target has 5+ [Burst], Coin Power +1\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]"
                         ]
                     ]
                 },
                 {
                     "uptie": 3,
-                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                     "abName": "Yinglong",
-                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +3% damage for every [DragonLance] on self (max 9%)\nDeal +6% damage for every [CondensedBlood] on self (max 30%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on main target (max 2)\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n- At 4+ [CondensedBlood], Atk Weight +2 and Base Power +2 instead\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ]
                     ]
                 },
                 {
                     "uptie": 4,
-                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "name": "Tears of the Tarnished Blood - Inception [\u59cb]",
                     "abName": "Yinglong",
-                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +3% damage for every [DragonLance] on self (max 9%)\nDeal +6% damage for every [CondensedBlood] on self (max 30%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on main target (max 3)\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n- At 4+ [CondensedBlood], Atk Weight +2 and Base Power +2 instead\n- At 5+ [CondensedBlood], Atk Weight +3 and Base Power +3 instead\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n- At 6+ highest Reson., Atk Weight +2 instead\n[BeforeAttack] -2 Base Power for every Cracked Coin (max -8)\n[EndSkill] Gain [DragonLance]",
                     "coinDescs": [
                         [
-                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ],
                         [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
                         ]
                     ]
                 }

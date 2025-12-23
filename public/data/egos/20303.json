@@ -71,6 +71,80 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 14,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 18,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": 8,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Telepole",
+                    "abName": "Alleyway Watchdog",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +10 [Charge] Count"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Telepole",
+                    "abName": "Alleyway Watchdog",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +10 [Charge] Count",
+                            "[OnSucceedAttackHead] Give [Charge] Count to all allies by Envy Reson."
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Telepole",
+                    "abName": "Alleyway Watchdog",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +10 [Charge] Count",
+                            "[EndSkill] Give [Charge] Count to all allies by Envy Reson."
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Haphazard Discharge",
@@ -149,5 +223,79 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 16,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 19,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Telepole",
+                    "abName": "Alleyway Watchdog",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +10 [Charge] Count and 10 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Telepole",
+                    "abName": "Alleyway Watchdog",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +10 [Charge] Count and 10 [Burst]",
+                            "[OnSucceedAttackHead] Give +10 [Charge] Count, 5 [Vulnerable], and 10 [Burst] to all allies"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Telepole",
+                    "abName": "Alleyway Watchdog",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +10 [Charge] Count and 10 [Burst]",
+                            "[EndSkill] Give 5 [Vulnerable], 10 [Burst], and +12 [Charge] Count to all allies"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

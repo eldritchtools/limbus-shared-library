@@ -74,6 +74,83 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -5,
+                    "baseValue": 20,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "atkWeight": 2,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": 7,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[EndSkillHead] Heal 2 allies with the lowest HP percentages for 10 HP",
+                            "[EndSkillTail] Heal 10 SP for 2 allies with the least SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[EndSkillHead] Heal 2 allies with the lowest HP percentages for 12 HP",
+                            "[EndSkillTail] Heal 12 SP for 2 allies with the least SP",
+                            "[CriticalEndSkill] Heal the ally with the lowest HP percentage for 6 HP; Heal the ally with the least SP for 6 SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[EndSkillHead] Heal 2 allies with the lowest HP percentages for 15 HP",
+                            "[EndSkillTail] Heal 15 SP for 2 allies with the least SP",
+                            "[CriticalEndSkill] Heal the ally with the lowest HP percentage for 8 HP; Heal the ally with the least SP for 8 SP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Seagull Squawking Of The Distant Seas",
@@ -153,5 +230,80 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "envy",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -3,
+                    "baseValue": 25,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "atkWeight": 2,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 3,
+                    "coinValue": -15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "[CantIdentify] Targets the unit with the least HP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 3 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "[CantIdentify] Targets the unit with the least HP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 4 [Vibration]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Soda",
+                    "abName": "Wellcheers",
+                    "desc": "[CantIdentify] Targets the unit with the least HP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                            "[OnSucceedAttack] Inflict 5 [Vibration]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -75,6 +75,84 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 5,
+                    "levelCorrection": 0,
+                    "baseValue": 20,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 20,
+                    "coinValue": 10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 7,
+                    "baseValue": 20,
+                    "coinValue": 15,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Blind Obsession",
+                    "abName": "Dream-Devouring Siltcurrent",
+                    "desc": "[EndSkill] Heal 15 SP for 4 allies with the least SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain +3 [Charge] Count",
+                            "[OnSucceedAttack] Give +1 [Breath] Count to 1 random ally"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Blind Obsession",
+                    "abName": "Dream-Devouring Siltcurrent",
+                    "desc": "[EndSkill] Heal 20 SP for 4 allies with the least SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackHead] Gain +4 [Charge] Count",
+                            "[OnSucceedAttack] Give +1 [Breath] Count to 1 random ally",
+                            "[EndSkillHead] Apply 1 [PenetrateResultUp] and 1 [AttackDmgUp] to 4 allies with the highest SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blind Obsession",
+                    "abName": "Dream-Devouring Siltcurrent",
+                    "desc": "[EndSkill] Heal 25 SP for 4 allies with the least SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain +6 [Charge] Count",
+                            "[OnSucceedAttack] Give +2 [Breath] Count to 1 random ally",
+                            "[EndSkill] Apply 2 [PenetrateResultUp] and 2 [AttackDmgUp] to 4 allies with the highest SP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Temeritous Voyage",
@@ -159,5 +237,85 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 5,
+                    "levelCorrection": 0,
+                    "baseValue": 30,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 30,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "atkWeight": 7,
+                    "baseValue": 35,
+                    "coinValue": -10,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Blind Obsession",
+                    "abName": "Dream-Devouring Siltcurrent",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Gain 1 [Breath] and +1 [Breath] Count",
+                            "[OnSucceedAttack] Inflict 2 [IndigoTakeDamageUp] this turn and next turn"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Blind Obsession",
+                    "abName": "Dream-Devouring Siltcurrent",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttackTail] Heal 3% of Max HP on self",
+                            "[OnSucceedAttack] Gain 1 [Breath] and +1 [Breath] Count",
+                            "[OnSucceedAttack] Inflict 2 [IndigoTakeDamageUp] this turn and next turn",
+                            "[EndSkillTail] Apply 2 [AttackDmgUp] this turn and next turn to 4 allies with the least SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Blind Obsession",
+                    "abName": "Dream-Devouring Siltcurrent",
+                    "desc": "[CantIdentify]\nTargets randomly",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Heal 3% of Max HP on self",
+                            "[OnSucceedAttack] Gain 1 [Breath] and +1 [Breath] Count",
+                            "[OnSucceedAttack] Inflict 3 [IndigoTakeDamageUp] this turn and next turn",
+                            "[EndSkill] Apply 2 [AttackDmgUp] this turn and next turn to 4 allies with the least SP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

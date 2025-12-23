@@ -68,6 +68,77 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "sloth",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": -1,
+                    "baseValue": 12,
+                    "coinValue": 12,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 14,
+                    "coinValue": 14,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 14,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Suddenly, One Day",
+                    "abName": "Gregor",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Suddenly, One Day",
+                    "abName": "Gregor",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 6 of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Suddenly, One Day",
+                    "abName": "Gregor",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 10 of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Uncontrolled Morph",

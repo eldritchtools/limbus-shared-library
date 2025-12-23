@@ -117,6 +117,126 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 0,
+                    "baseValue": 5,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Yearning - Mircalla",
+                    "abName": "Four-hundred Roses",
+                    "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Inflict +2 [RoseWedge] Count",
+                            "[OnSucceedAttack] Inflict +1 [RoseWedge] Count"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Yearning - Mircalla",
+                    "abName": "Four-hundred Roses",
+                    "desc": "If target has 6+ [Laceration], Coin Power +1\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Inflict +2 [RoseWedge] Count",
+                            "[OnSucceedAttack] Inflict +1 [RoseWedge] Count"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Activate the target's [Laceration] (1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Yearning - Mircalla",
+                    "abName": "Four-hundred Roses",
+                    "desc": "Coin Power +1 for every 6 [Laceration] on target (max 2)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration]",
+                            "[OnSucceedAttack] At 4+ highest Reson., activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Inflict +2 [RoseWedge] Count",
+                            "[OnSucceedAttack] Inflict +2 [RoseWedge] Count"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Activate the target's [Laceration] (1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)",
+                            "[EnemyKill] When dealing excess damage past the enemy's remaining HP, deal the excess damage as fixed damage between all enemies. (min 1)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Bloodthirsty Banquet",
@@ -242,5 +362,126 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "lust",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 1,
+                    "levelCorrection": 3,
+                    "baseValue": 6,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Yearning - Mircalla",
+                    "abName": "Four-hundred Roses",
+                    "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 [Laceration] on all allies once instead (lose 1 [Laceration] Count). Heal HP equal to the amount of [Laceration] damage dealt to allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration] on self and the target"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Laceration] on self and the target"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Inflict +2 [RoseWedge] Count",
+                            "[OnSucceedAttack] Inflict +1 [RoseWedge] Count",
+                            "- If target did not have [RoseWedge], inflict 4 additional [RoseWedge] Potency"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Activate [Laceration] on target once (target loses 1 [Laceration] Count)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Yearning - Mircalla",
+                    "abName": "Four-hundred Roses",
+                    "desc": "[CantIdentify]\nTargets randomly\nAt 6+ (sum of [Laceration] on self and the target), Coin Power +1\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 [Laceration] on all allies once instead (lose 1 [Laceration] Count). Heal HP equal to the amount of [Laceration] damage dealt to allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration] on self and the target"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration] on self and the target"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Inflict +2 [RoseWedge] Count",
+                            "[OnSucceedAttack] Inflict +1 [RoseWedge] Count",
+                            "- If target did not have [RoseWedge], inflict 4 additional [RoseWedge] Potency"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Activate the target's [Laceration] (1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Yearning - Mircalla",
+                    "abName": "Four-hundred Roses",
+                    "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 6 (sum of [Laceration] on self and the target) (max 3)\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 [Laceration] on all allies instead (lose 1 [Laceration] Count). Heal HP equal to the amount of [Laceration] damage dealt to allies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration] on self and the target",
+                            "[OnSucceedAttack] Activate [Laceration] on self and the target once (both lose 1 [Laceration] Count)"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Laceration] on self and the target",
+                            "[OnSucceedAttack] Activate [Laceration] on self and the target once (both lose 1 [Laceration] Count)"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Inflict +2 [RoseWedge] Count",
+                            "[OnSucceedAttack] Inflict +2 [RoseWedge] Count",
+                            "- If target did not have [RoseWedge], inflict 4 additional [RoseWedge] Potency"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[WinDuelAttack] Activate the target's [Laceration] (1 + (highest Reson./2)) times. (3 times max; target loses [Laceration] Count equal to the number of times it was activated)",
+                            "[EnemyKill] When dealing excess damage past the enemy's remaining HP, deal the excess damage as fixed damage between all enemies. (min 1)"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

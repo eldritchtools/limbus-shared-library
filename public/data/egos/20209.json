@@ -74,6 +74,83 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 2,
+                    "baseValue": 14,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 17,
+                    "coinValue": 13,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Command : Meltdown",
+                    "abName": "Kal'tsit",
+                    "desc": "If the main target has [Combustion] or [Burst], Final Power +1\n[BeforeAttack] Deal +1% damage for every 1 ([Burst] Potency + [Burst] Count) on the main target (max 15%)\n[EndSkill] Gain 4 [CuredFilm]\n[EndSkill] Heal self and 1 ally with the least HP percentage by 15% of this unit's max HP\n- If this unit is at max HP, heal 2 other allies instead\n[EndSkill] Heal 10 SP for 2 allies, including this unit, with the lowest SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]",
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Command : Meltdown",
+                    "abName": "Kal'tsit",
+                    "desc": "If the main target has [Combustion] or [Burst], Final Power +2\n[BeforeAttack] Deal +1% damage for every 1 ([Burst] Potency + [Burst] Count) on the main target (max 15%)\n- If this unit has [CuredFilm], multiply this effect and its maximum cap by 1.5\n[EndSkill] Gain 7 [CuredFilm]\n[EndSkill] Heal self and 1 ally with the least HP percentage by 20% of this unit's max HP\n- If this unit is at max HP, heal 2 other allies instead\n[EndSkill] Heal 10 SP for 2 allies, including this unit, with the lowest SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]",
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Command : Meltdown",
+                    "abName": "Kal'tsit",
+                    "desc": "If the main target has [Combustion] or [Burst], Final Power +3\n[BeforeAttack] Deal +1% damage for every 1 ([Burst] Potency + [Burst] Count) on the main target (max 25%)\n- If this unit has [CuredFilm], multiply this effect and its maximum cap by 2\n[EndSkill] Gain 10 [CuredFilm]\n[EndSkill] Heal self and 1 ally with the least HP percentage by 30% of this unit's max HP\n- If this unit is at max HP, heal 2 other allies instead\n[EndSkill] Heal 15 SP for 2 allies, including this unit, with the lowest SP",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 3 [Burst]",
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Doctor",
@@ -190,5 +267,117 @@
                 ]
             }
         ]
-    }
+    },
+    "corrosionSkills": [
+        {
+            "tier": 3,
+            "type": "corrosion",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "slash",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": 4,
+                    "baseValue": 2,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 2
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 3,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "baseValue": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "unbreakable",
+                        "unbreakable"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Command : Meltdown",
+                    "abName": "Kal'tsit",
+                    "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[EndSkill] Gain 4 [CuredFilm]\n[EndSkill] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP, and gain Shield equal to HP damage taken due to this effect\n- This damage does not kill this unit. Max out the [CuredFilm] Stack at Turn End and gain 2 [AttackDmgUp] next turn (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [],
+                        [
+                            "[SuperCoin]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 1 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Command : Meltdown",
+                    "abName": "Kal'tsit",
+                    "desc": "[CantIdentify]\nTargets randomly\nIf main target has 6+ ([Burst] Potency + [Burst] Count), Base Power +1\n[BeforeAttack] At 3+ highest Reson., gain +1 Atk Weight\n[EndSkill] Gain 7 [CuredFilm]\n[EndSkill] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP, and gain Shield equal to HP damage taken due to this effect\n- This damage does not kill this unit. Max out the [CuredFilm] Stack at Turn End and gain 2 [AttackDmgUp] next turn (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict 2 [Combustion]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Command : Meltdown",
+                    "abName": "Kal'tsit",
+                    "desc": "[CantIdentify]\nTargets randomly\nBase Power +1 for every 6 ([Burst] Potency + [Burst] Count) on the main target (max 2)\n[BeforeAttack] Gain +1 Atk Weight for every 3 highest Reson. (max 2)\n[EndSkill] Gain 10 [CuredFilm]\n[EndSkill] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP, and gain Shield equal to (HP damage taken due to this effect x 2)\n- This damage does not kill this unit. Max out the [CuredFilm] Stack at Turn End and gain 2 [AttackDmgUp] next turn (once per turn)",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 1 [Burst]"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                        ],
+                        [
+                            "[SuperCoin]",
+                            "[OnStartCoin] If this Skill's damage did not Stagger or kill any target, deal +30% damage",
+                            "[OnSucceedAttack] Inflict 3 [Combustion]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

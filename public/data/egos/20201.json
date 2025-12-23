@@ -68,6 +68,77 @@
             }
         ]
     },
+    "awakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "pride",
+                    "atkType": "blunt",
+                    "defType": "attack",
+                    "atkWeight": 3,
+                    "levelCorrection": -3,
+                    "baseValue": 15,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "baseValue": 19,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Representation Emitter",
+                    "abName": "Faust",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[EndSkill] Heal 8 SP for 4 allies with the least SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Representation Emitter",
+                    "abName": "Faust",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[EndSkill] Heal 10 SP for 4 allies with the least SP"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Representation Emitter",
+                    "abName": "Faust",
+                    "desc": "",
+                    "coinDescs": [
+                        [
+                            "[EndSkill] Heal 12 SP for 4 allies with the least SP"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "passiveList": [
         {
             "name": "Ennui",
