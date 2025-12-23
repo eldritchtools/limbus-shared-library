@@ -87,8 +87,10 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "AmberTakeDamageDown",
             "AmberTakeDamageUp",
             "Binding",
+            "HitTakeDamageDown",
             "Paralysis"
         ],
         "name": "Wishing Cairn"
@@ -121,6 +123,7 @@
         },
         "keywordTags": [
             "Burst",
+            "Charge",
             "DimensionRift"
         ],
         "name": "Dimension Shredder"
@@ -250,6 +253,7 @@
             "type": "slash"
         },
         "keywordTags": [
+            "AttackDmgUp",
             "Burst",
             "Enhancement",
             "Protection"
@@ -487,8 +491,10 @@
             "type": "pierce"
         },
         "keywordTags": [
+            "Binding",
             "Burst",
             "Laceration",
+            "PenetrateDamageUp",
             "ShamrockTakeDamageUp"
         ],
         "name": "Ebony Stem"
@@ -522,6 +528,7 @@
         },
         "keywordTags": [
             "Enhancement",
+            "ScarletDamageUp",
             "ScarletTakeDamageUp",
             "Vulnerable"
         ],
@@ -558,6 +565,7 @@
             "Binding",
             "Breath",
             "Burst",
+            "Protection",
             "Sinking"
         ],
         "name": "Sunshower"
@@ -590,7 +598,13 @@
             "affinity": "wrath",
             "type": "blunt"
         },
-        "keywordTags": [],
+        "keywordTags": [
+            "Burst",
+            "Combustion",
+            "Laceration",
+            "Sinking",
+            "Vibration"
+        ],
         "name": "Holiday"
     },
     "21106": {
@@ -728,7 +742,10 @@
             "affinity": "sloth",
             "type": "blunt"
         },
-        "keywordTags": [],
+        "keywordTags": [
+            "MentalSystemResultDecrease_Typo",
+            "Protection"
+        ],
         "name": "Suddenly, One Day"
     },
     "21202": {
@@ -862,7 +879,8 @@
         },
         "keywordTags": [
             "AttackDmgDown",
-            "Binding"
+            "Binding",
+            "Burst"
         ],
         "name": "Garden of Thorns"
     },
@@ -1036,7 +1054,9 @@
             "affinity": "pride",
             "type": "blunt"
         },
-        "keywordTags": [],
+        "keywordTags": [
+            "MentalSystemResultIncrease_Typo"
+        ],
         "name": "Representation Emitter"
     },
     "20202": {
@@ -1067,6 +1087,7 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "Protection",
             "Reduction"
         ],
         "name": "Fluid Sac"
@@ -1432,6 +1453,7 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "Breath",
             "Laceration",
             "Paralysis",
             "Vibration",
@@ -1673,7 +1695,8 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Binding"
+            "Binding",
+            "Enhancement"
         ],
         "name": "Red Eyes (Open)"
     },
@@ -1706,6 +1729,7 @@
         },
         "keywordTags": [
             "Agility",
+            "Disarming",
             "GainSinStockAdder",
             "Sinking"
         ],
@@ -1837,6 +1861,9 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "Agility",
+            "Endurance",
+            "Enhancement",
             "Operation",
             "Paralysis",
             "Protection"
@@ -1872,6 +1899,8 @@
         },
         "keywordTags": [
             "AttackDmgUp",
+            "Endurance",
+            "Enhancement",
             "Protection",
             "Vulnerable"
         ],
@@ -2450,7 +2479,15 @@
             "affinity": "gluttony",
             "type": "blunt"
         },
-        "keywordTags": [],
+        "keywordTags": [
+            "Breath",
+            "Burst",
+            "Charge",
+            "Combustion",
+            "Laceration",
+            "Sinking",
+            "Vibration"
+        ],
         "name": "Holiday"
     },
     "20706": {
@@ -2627,7 +2664,8 @@
         "keywordTags": [
             "AttackDown",
             "Binding",
-            "Paralysis"
+            "Paralysis",
+            "PinkRibbon_Ishmael"
         ],
         "name": "Roseate Desire"
     },
@@ -2865,7 +2903,9 @@
             "type": "slash"
         },
         "keywordTags": [
-            "Laceration"
+            "Laceration",
+            "MentalSystemResultDecrease_Typo",
+            "MentalSystemResultIncrease_Typo"
         ],
         "name": "What is Cast"
     },
@@ -2929,6 +2969,8 @@
             "type": "blunt"
         },
         "keywordTags": [
+            "Binding",
+            "Reduction",
             "Sinking"
         ],
         "name": "Rime Shank"
@@ -3197,11 +3239,14 @@
             "type": "pierce"
         },
         "keywordTags": [
+            "Agility",
             "AttackDmgUp",
+            "AttackUp",
             "Breath",
             "Charge",
             "IndigoTakeDamageUp",
-            "PenetrateResultUp"
+            "PenetrateResultUp",
+            "Sinking"
         ],
         "name": "Blind Obsession"
     },
@@ -3374,6 +3419,7 @@
         "keywordTags": [
             "Agility",
             "Burst",
+            "CondensedBlood",
             "DragonLance",
             "PenetrateDamageUp",
             "Reduction",

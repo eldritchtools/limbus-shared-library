@@ -60,7 +60,7 @@
     "passiveList": [
         {
             "name": "Stem of Distrust",
-            "desc": "At the start of the turn, gain 1 Pierce DMG Up.\nOn hit with a Heads coin, inflict 1 Bind and +1 [Burst] Count next turn."
+            "desc": "At the start of the turn, gain 1 [PenetrateDamageUp].\nOn hit with a Heads coin, inflict 1 [Binding] and +1 [Burst] Count next turn."
         }
     ],
     "notes": {},

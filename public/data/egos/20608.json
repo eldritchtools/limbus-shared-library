@@ -178,5 +178,111 @@
                 ]
             }
         ]
-    }
+    },
+    "additionalAwakeningSkills": [
+        {
+            "tier": 3,
+            "type": "awakening",
+            "data": [
+                {
+                    "uptie": 1,
+                    "affinity": "gluttony",
+                    "atkType": "pierce",
+                    "defType": "attack",
+                    "atkWeight": 7,
+                    "levelCorrection": 5,
+                    "baseValue": 4,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "coinValue": 4,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "coinValue": 5,
+                    "coinTypes": [
+                        "normal",
+                        "normal",
+                        "normal",
+                        "normal"
+                    ]
+                }
+            ],
+            "text": [
+                {
+                    "uptie": 1,
+                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "abName": "Yinglong",
+                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +2% damage for every [DragonLance] on self (max 6%)\nDeal +4% damage for every [CondensedBlood] on self (max 20%)\n[WhenUse] If main target has 5+ [Burst], Coin Power +1\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 3,
+                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "abName": "Yinglong",
+                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +3% damage for every [DragonLance] on self (max 9%)\nDeal +6% damage for every [CondensedBlood] on self (max 30%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on main target (max 2)\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n- At 4+ [CondensedBlood], Atk Weight +2 and Base Power +2 instead\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                },
+                {
+                    "uptie": 4,
+                    "name": "Tears of the Tarnished Blood - The End [\u7d42]",
+                    "abName": "Yinglong",
+                    "desc": "This Skill does not consume E.G.O Resources\n[CantDuel]\nDeal +3% damage for every [DragonLance] on self (max 9%)\nDeal +6% damage for every [CondensedBlood] on self (max 30%)\n[WhenUse] Coin Power +1 for every 5 [Burst] on main target (max 3)\n[WhenUse] At 3+ [CondensedBlood], Atk Weight +1 and Base Power +1\n- At 4+ [CondensedBlood], Atk Weight +2 and Base Power +2 instead\n- At 5+ [CondensedBlood], Atk Weight +3 and Base Power +3 instead\n[EndSkill] Remove [DragonLance] and [CondensedBlood] from self, then dies",
+                    "coinDescs": [
+                        [
+                            "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ],
+                        [
+                            "[OnSucceedAttack] Inflict 2 [Burst]"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -63,8 +63,8 @@
                 "coinDescs": [
                     [
                         "[OnSucceedAttack] Inflict 4 [Laceration]",
-                        "[OnSucceedAttack] Gain +2 SP Heal Efficiency next turn",
-                        "[OnSucceedAttack] Gain -2 SP Loss Efficiency next turn"
+                        "[OnSucceedAttack] Gain +2 [MentalSystemResultIncrease_Typo] next turn",
+                        "[OnSucceedAttack] Gain -2 [MentalSystemResultDecrease_Typo] next turn"
                     ]
                 ]
             }
@@ -73,7 +73,7 @@
     "passiveList": [
         {
             "name": "Severance",
-            "desc": "+1 SP Heal Efficiency, -1 SP Loss Efficiency"
+            "desc": "+1 [MentalSystemResultIncrease_Typo], -1 [MentalSystemResultDecrease_Typo]"
         }
     ],
     "notes": {}
