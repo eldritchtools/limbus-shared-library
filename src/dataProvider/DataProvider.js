@@ -52,13 +52,30 @@ export function useData(path, enabled = true) {
     const [loading, setLoading] = useState(!data);
 
     useEffect(() => {
-        if (!path || data || !enabled) return;
+        if (!path || !enabled) return;
+
+        const cached = dataStore[path];
+        if (cached) {
+            setData(cached);
+            setLoading(false);
+            return;
+        }
+
+        setData(null);
         setLoading(true);
 
+        let cancelled = false;
+
         getData(path)
-            .then(fetched => setData(fetched))
-            .finally(() => setLoading(false));
-    }, [path, enabled]);
+            .then(fetched => {
+                if (!cancelled) setData(fetched);
+            })
+            .finally(() => {
+                if (!cancelled) setLoading(false);
+            });
+
+        return () => { cancelled = true };
+    }, [path, enabled, dataStore, getData]);
 
     return [data, loading];
 }

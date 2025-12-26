@@ -118,14 +118,25 @@ export function useData(path) {
     loading = _useState6[0],
     setLoading = _useState6[1];
   useEffect(function () {
-    if (!path || data || !enabled) return;
+    if (!path || !enabled) return;
+    var cached = dataStore[path];
+    if (cached) {
+      setData(cached);
+      setLoading(false);
+      return;
+    }
+    setData(null);
     setLoading(true);
+    var cancelled = false;
     getData(path).then(function (fetched) {
-      return setData(fetched);
+      if (!cancelled) setData(fetched);
     })["finally"](function () {
-      return setLoading(false);
+      if (!cancelled) setLoading(false);
     });
-  }, [path, enabled]);
+    return function () {
+      cancelled = true;
+    };
+  }, [path, enabled, dataStore, getData]);
   return [data, loading];
 }
 function useStableSet(arr) {
