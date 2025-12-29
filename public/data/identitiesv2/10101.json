@@ -43,6 +43,7 @@
   },
   "skills": {
     "1010101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -103,6 +104,7 @@
       "tier": 1
     },
     "1010102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -171,6 +173,7 @@
       "tier": 2
     },
     "1010103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -228,6 +231,7 @@
       "tier": 3
     },
     "1010104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

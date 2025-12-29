@@ -43,6 +43,7 @@
   },
   "skills": {
     "1010501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -91,6 +92,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -111,6 +118,7 @@
       "tier": 1
     },
     "1010502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -172,12 +180,19 @@
       "tier": 2
     },
     "1010503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -205,6 +220,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {

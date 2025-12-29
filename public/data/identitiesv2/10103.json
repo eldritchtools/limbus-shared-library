@@ -61,6 +61,7 @@
   },
   "skills": {
     "1010301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -121,6 +122,7 @@
       "tier": 1
     },
     "1010302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -180,6 +182,7 @@
       "tier": 2
     },
     "1010303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -198,6 +201,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "+50% Damage on Critical Hit"
               ],
@@ -223,6 +235,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.7
+                }
+              ],
               "descs": [
                 "+70% Damage on Critical Hit"
               ],
@@ -237,6 +258,7 @@
       "tier": 3
     },
     "1010304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -260,6 +282,15 @@
           "coinValue": 8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.7
+                }
+              ],
               "descs": [
                 "+70% Damage on Critical Hit"
               ],
