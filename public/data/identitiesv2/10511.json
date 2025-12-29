@@ -1,22 +1,17 @@
 {
   "combatPassives": [
     {
-      "passives": [
-        1051102
-      ],
       "uptie": 1
     },
     {
       "passives": [
-        1051102,
-        1051101
+        "1051101"
       ],
       "uptie": 2
     },
     {
       "passives": [
-        1051102,
-        1051111
+        "1051111"
       ],
       "uptie": 4
     }
@@ -373,7 +368,7 @@
   "supportPassives": [
     {
       "passives": [
-        1051121
+        "1051121"
       ],
       "uptie": 3
     }
