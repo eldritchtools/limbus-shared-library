@@ -206,7 +206,7 @@
                   "extra": {
                     "op": "mul"
                   },
-                  "type": "damage",
+                  "type": "critdamage",
                   "value": 0.5
                 }
               ],
@@ -240,7 +240,7 @@
                   "extra": {
                     "op": "mul"
                   },
-                  "type": "damage",
+                  "type": "critdamage",
                   "value": 0.7
                 }
               ],
@@ -287,7 +287,7 @@
                   "extra": {
                     "op": "mul"
                   },
-                  "type": "damage",
+                  "type": "critdamage",
                   "value": 0.7
                 }
               ],
