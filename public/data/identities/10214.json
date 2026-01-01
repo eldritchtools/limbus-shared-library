@@ -18,7 +18,7 @@
   ],
   "notes": {
     "main": [
-      "Every turn, the following happens as long as Faust isn't disabled (staggered, paniced, corroded, etc):\n- {status:IndexPrescriptTargetToEnemy} is assigned to a random enemy, increasing damage taken from Index identities.\n- {status:IndexPrescriptTargetMarkToEnemy} is assigned to a random skill (1 per slot, 2 skills max, prioritizes S3 at 6+ {status:BlessingOfIndexPrescriptAlly}).\n-Gain a {status:IndexPrescript_Base}",
+      "Every turn, the following happens as long as Faust isn't disabled (staggered, paniced, corroded, etc):\n{status:IndexPrescriptTargetToEnemy} is assigned to a random enemy, increasing damage taken from Index identities.\n{status:IndexPrescriptTargetMarkToEnemy} is assigned to a random skill (1 per slot, 2 skills max, prioritizes S3 at 6+ {status:BlessingOfIndexPrescriptAlly}).\nGain a {status:IndexPrescript_Base}",
       "The {status:IndexPrescript_Base} gained depends on her {status:BlessingOfIndexPrescriptAlly}.\n0-2: {status:IndexPrescriptFaust_0} (use a marked skill)\n3-5: {status:IndexPrescriptFaust_1} (hit a target with a marked skill)\n6-8: {status:IndexPrescriptFaust_2} (hit a target with an ego awakening or a marked S3)\n9+: {status:IndexPrescriptFaust_3} (no condition)\nFollowing the Prescript gives her SP and {status:BlessingOfIndexPrescriptAlly}, more if her target had {status:IndexPrescriptTargetToEnemy}. Failure to follow the {status:IndexPrescript_Base} will give her {status:KarmaOfIndexAlly} instead."
     ],
     "other": [
