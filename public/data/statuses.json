@@ -446,6 +446,7 @@
   "BoneBladeTheRings": {
     "buffType": "Positive",
     "desc": "- Turn Start: Gain 4 Base Power Up\n- When inflicting Bleed with Attack Skills, inflict additional 2 Bleed Potency",
+    "imageOverride": "Artwork Fascia",
     "name": "Artwork: Fascia"
   },
   "BoseProjektil": {
@@ -1760,21 +1761,25 @@
   "IndexPrescriptFaust_0": {
     "buffType": "Neutral",
     "desc": "Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill.\n\n- Turn Start: At 0~2 Grace of the Prescript, gain this effect \n- Maximum stackable Grace of the Prescript with this Prescript is limited to 3",
+    "imageOverride": "Prescript",
     "name": "Prescript: [Paper Slip] I"
   },
   "IndexPrescriptFaust_1": {
     "buffType": "Neutral",
     "desc": "Hit a target with a Skill marked with Mark of the Prescript.\n\n- Turn Start: At 3~5 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 6",
+    "imageOverride": "Prescript",
     "name": "Prescript: [Paper Slip] II"
   },
   "IndexPrescriptFaust_2": {
     "buffType": "Neutral",
     "desc": "Hit a target with E.G.O Awakening Skill or 'Skill 3' marked with Mark of the Prescript.\n\n- Turn Start: At 6~8 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 9",
+    "imageOverride": "Prescript",
     "name": "Prescript: [Paper Slip] III"
   },
   "IndexPrescriptFaust_3": {
     "buffType": "Neutral",
     "desc": "Eliminate all enemies before the next Prescript arrives.\n\n- Turn Start: At 9 Grace of the Prescript, gain this effect",
+    "imageOverride": "Prescript",
     "name": "Prescript: [Paper Slip] IV"
   },
   "IndexPrescriptTargetMarkToEnemy": {
