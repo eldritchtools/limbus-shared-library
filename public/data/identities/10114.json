@@ -347,21 +347,6 @@
             {
               "type": "coin",
               "value": 2
-            },
-            {
-              "type": "final",
-              "value": 1
-            },
-            {
-              "extra": {
-                "op": "mul"
-              },
-              "type": "damage",
-              "value": 0.5
-            },
-            {
-              "type": "coin",
-              "value": 2
             }
           ],
           "coinValue": 4,
@@ -402,21 +387,6 @@
               },
               "type": "damage",
               "value": 0.8
-            },
-            {
-              "type": "final",
-              "value": 1
-            },
-            {
-              "extra": {
-                "op": "mul"
-              },
-              "type": "damage",
-              "value": 0.5
-            },
-            {
-              "type": "coin",
-              "value": 2
             },
             {
               "type": "final",
