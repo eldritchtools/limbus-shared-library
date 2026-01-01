@@ -203,9 +203,6 @@
             {
               "bonuses": [
                 {
-                  "extra": {
-                    "op": "mul"
-                  },
                   "type": "critdamage",
                   "value": 0.5
                 }
@@ -237,9 +234,6 @@
             {
               "bonuses": [
                 {
-                  "extra": {
-                    "op": "mul"
-                  },
                   "type": "critdamage",
                   "value": 0.7
                 }
@@ -284,9 +278,6 @@
             {
               "bonuses": [
                 {
-                  "extra": {
-                    "op": "mul"
-                  },
                   "type": "critdamage",
                   "value": 0.7
                 }

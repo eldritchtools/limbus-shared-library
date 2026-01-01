@@ -1,317 +1,134 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "envy",
-                "atkType": "pierce",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 0,
-                "baseValue": 14,
-                "coinValue": 10,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "baseValue": 16,
-                "coinValue": 10,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 10,
-                "coinTypes": [
-                    "normal"
-                ]
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Hex Nail",
-                "abName": "Hurting Teddy Bear",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Hex Nail",
-                "abName": "Hurting Teddy Bear",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
-                        "[OnSucceedAttackHead] Inflict 3 [Curse]"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Hex Nail",
-                "abName": "Hurting Teddy Bear",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
-                        "[OnSucceedAttackHead] Inflict 3 [Curse]",
-                        "[OnSucceedAttackHead] Inflict 3 [NailPersonality]",
-                        "[OnSucceedAttack] If target has [Curse], +50% Damage"
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 14,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 16,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Hex Nail",
-                    "abName": "Hurting Teddy Bear",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Hex Nail",
-                    "abName": "Hurting Teddy Bear",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
-                            "[OnSucceedAttackHead] Inflict 3 [Curse]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Hex Nail",
-                    "abName": "Hurting Teddy Bear",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
-                            "[OnSucceedAttackHead] Inflict 3 [Curse]",
-                            "[OnSucceedAttackHead] Inflict 3 [NailPersonality]",
-                            "[OnSucceedAttack] If target has [Curse], +50% Damage"
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
-        {
-            "name": "It Hurts!",
-            "desc": "Deal +10% damage for every negative status effect on this unit. (Up to 50%)"
-        }
-    ],
-    "notes": {},
-    "corrosionSkill": {
-        "tier": 3,
-        "type": "corrosion",
-        "data": [
+          "affinity": "envy",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 14,
+          "coinValue": 10,
+          "coins": [
             {
-                "uptie": 1,
-                "affinity": "envy",
-                "atkType": "pierce",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 0,
-                "baseValue": 18,
-                "coinValue": 4,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "baseValue": 20,
-                "coinValue": 4,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 4,
-                "coinTypes": [
-                    "normal"
-                ]
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]"
+              ],
+              "type": "normal"
             }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Hex Nail",
-                "abName": "Hurting Teddy Bear",
-                "desc": "[CantIdentify]\nTargets randomly",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Hex Nail",
-                "abName": "Hurting Teddy Bear",
-                "desc": "[CantIdentify]\nTargets randomly",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 3 [Curse]"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Hex Nail",
-                "abName": "Hurting Teddy Bear",
-                "desc": "[CantIdentify]\nTargets randomly",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",
-                        "[OnSucceedAttack] Inflict 3 [Curse]",
-                        "[OnSucceedAttack] Inflict 3 [NailPersonality]",
-                        "[OnSucceedAttack] If target has [Curse], +50% Damage"
-                    ]
-                ]
-            }
-        ]
-    },
-    "corrosionSkills": [
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Hex Nail",
+          "uptie": 1
+        },
         {
-            "tier": 3,
-            "type": "corrosion",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 18,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 20,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Hex Nail",
-                    "abName": "Hurting Teddy Bear",
-                    "desc": "[CantIdentify]\nTargets randomly",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Hex Nail",
-                    "abName": "Hurting Teddy Bear",
-                    "desc": "[CantIdentify]\nTargets randomly",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 3 [Curse]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Hex Nail",
-                    "abName": "Hurting Teddy Bear",
-                    "desc": "[CantIdentify]\nTargets randomly",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",
-                            "[OnSucceedAttack] Inflict 3 [Curse]",
-                            "[OnSucceedAttack] Inflict 3 [NailPersonality]",
-                            "[OnSucceedAttack] If target has [Curse], +50% Damage"
-                        ]
-                    ]
-                }
-            ]
+          "baseValue": 16,
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
+                "[OnSucceedAttackHead] Inflict 3 [Curse]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Hex Nail",
+          "uptie": 3
+        },
+        {
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
+                "[OnSucceedAttackHead] Inflict 3 [Curse]",
+                "[OnSucceedAttackHead] Inflict 3 [NailPersonality]",
+                "[OnSucceedAttack] If target has [Curse], +50% Damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Hex Nail",
+          "uptie": 4
         }
-    ]
+      ],
+      "type": "awakening"
+    }
+  ],
+  "corrosionSkills": [
+    {
+      "data": [
+        {
+          "affinity": "envy",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 18,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "levelCorrection": 0,
+          "name": "Hex Nail",
+          "uptie": 1
+        },
+        {
+          "baseValue": 20,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 3 [Curse]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets randomly",
+          "name": "Hex Nail",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",
+                "[OnSucceedAttack] Inflict 3 [Curse]",
+                "[OnSucceedAttack] Inflict 3 [NailPersonality]",
+                "[OnSucceedAttack] If target has [Curse], +50% Damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets randomly",
+          "name": "Hex Nail",
+          "uptie": 4
+        }
+      ],
+      "type": "corrosion"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "Deal +10% damage for every negative status effect on this unit. (Up to 50%)",
+      "name": "It Hurts!"
+    }
+  ]
 }

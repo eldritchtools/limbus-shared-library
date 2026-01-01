@@ -1,246 +1,240 @@
 {
-    "skills": {
-        "1070101": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 2,
-                    "coinValue": 7,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 7,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 3
-                },
-                {
-                    "uptie": 4,
-                    "baseValue": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Bat Bash",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 3 [Vibration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Bat Bash",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Vibration]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1070102": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 3,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 4
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Smackdown",
-                    "desc": "[WhenUse] Gain 1 [Enhancement] next turn",
-                    "coinDescs": [
-                        []
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Smackdown",
-                    "desc": "[WhenUse] Gain 1 [Enhancement] and [AttackDmgUp] next turn",
-                    "coinDescs": [
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Smackdown",
-                    "desc": "[WhenUse] Gain 1 [Enhancement] and [AttackDmgUp] next turn",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Vibration]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1070103": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "lust",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 4,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 8,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Upheaval",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Next Coin has +2 Power"
-                        ],
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1070104": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "blunt",
-                    "defType": "counter",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 7,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Counter",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
-    },
-    "combatPassives": [
-        {
-            "level": 1,
-            "passives": [
-                1070101
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1070121
-            ]
-        }
-    ],
-    "passiveData": {
-        "1070121": {
-            "name": "Spite-driven",
-            "desc": "1 ally with the lowest Max HP deals +10% Blunt damage.",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "envy",
-                        "value": 5
-                    }
-                ]
-            }
-        },
-        "1070101": {
-            "name": "Ressentiment",
-            "desc": "Deal +10% damage to targets with higher Max HP.",
-            "condition": {
-                "type": "res",
-                "requirement": [
-                    {
-                        "type": "envy",
-                        "value": 4
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Base identity, simple, straightforward.",
-            "Does {status:Vibration} stuff and his S2 buffs him next turn."
-        ]
+  "combatPassives": [
+    {
+      "passives": [
+        "1070101"
+      ],
+      "uptie": 1
     }
+  ],
+  "notes": {
+    "main": [
+      "Base identity, simple, straightforward.",
+      "Does {status:Vibration} stuff and his S2 buffs him next turn."
+    ]
+  },
+  "passiveData": {
+    "1070101": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "envy",
+            "value": 4
+          }
+        ],
+        "type": "res"
+      },
+      "desc": "Deal +10% damage to targets with higher Max HP.",
+      "name": "Ressentiment"
+    },
+    "1070121": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "envy",
+            "value": 5
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "1 ally with the lowest Max HP deals +10% Blunt damage.",
+      "name": "Spite-driven"
+    }
+  },
+  "skills": {
+    "1070101": {
+      "data": [
+        {
+          "affinity": "envy",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 7,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 3 [Vibration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Bat Bash",
+          "uptie": 1
+        },
+        {
+          "coinValue": 7,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Vibration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Bat Bash",
+          "uptie": 2
+        },
+        {
+          "baseValue": 3,
+          "desc": "",
+          "name": "Bat Bash",
+          "uptie": 3
+        },
+        {
+          "baseValue": 4,
+          "desc": "",
+          "name": "Bat Bash",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1070102": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WhenUse] Gain 1 [Enhancement] next turn",
+          "levelCorrection": 0,
+          "name": "Smackdown",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain 1 [Enhancement] and [AttackDmgUp] next turn",
+          "name": "Smackdown",
+          "uptie": 2
+        },
+        {
+          "baseValue": 4,
+          "desc": "[WhenUse] Gain 1 [Enhancement] and [AttackDmgUp] next turn",
+          "name": "Smackdown",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain 1 [Enhancement] and [AttackDmgUp] next turn",
+          "name": "Smackdown",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1070103": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Next Coin has +2 Power"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Upheaval",
+          "uptie": 3
+        },
+        {
+          "coinValue": 8,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Next Coin has +2 Power"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Upheaval",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1070104": {
+      "data": [
+        {
+          "affinity": "envy",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 7,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "counter",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Counter",
+          "uptie": 1
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1070121"
+      ],
+      "uptie": 3
+    }
+  ]
 }

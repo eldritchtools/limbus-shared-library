@@ -78,6 +78,7 @@
   },
   "skills": {
     "1011001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -108,6 +109,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
           "name": "Celebration for the Departed",
           "uptie": 2
@@ -119,6 +126,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "At 10+ [BulletLament], Clash Power +1\nIf the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
           "name": "Celebration for the Departed",
           "uptie": 4
@@ -127,6 +144,7 @@
       "tier": 1
     },
     "1011002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -157,6 +175,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If the sum of the target's [Sinking] and both [SinkingWhite] is 6 or higher, Coin Power +1\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)",
           "name": "Solemn Lament for the Living",
           "uptie": 2
@@ -184,6 +208,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "At 10+ [BulletLament], Clash Power +1\nCoin Power +1 for every 6 value of the sum of the target's [Sinking] and both [SinkingWhite] (max 2)\n[WinDuel] Inflict +1 [Sinking] Count\n[EndSkill] Gain (highest Reson.) of [BulletLament] (max 6)\n- If the said Reson. was an A-Reson., gain (highest Reson. x 2) of [BulletLament] (max 12)\n - If the said Reson. was at 4+ A-Reson., [ReloadLament] instead",
           "name": "Solemn Lament for the Living",
           "uptie": 4
@@ -192,12 +226,19 @@
       "tier": 2
     },
     "1011003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -236,6 +277,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 4
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -275,6 +326,7 @@
       "tier": 3
     },
     "1011004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

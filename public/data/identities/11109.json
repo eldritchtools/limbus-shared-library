@@ -1,355 +1,317 @@
 {
-    "skills": {
-        "1110901": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "lust",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 3
-                },
-                {
-                    "uptie": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Dotting",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Dotting",
-                    "desc": "If target has 6+ [Laceration], Clash Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Laceration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Dotting",
-                    "desc": "If target has 6+ [Laceration], Clash Power +1\nIf target has 10+ [Laceration], Coin Power +1 ",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Laceration]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1110902": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 5
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Sanguine Painting",
-                    "desc": "",
-                    "coinDescs": [
-                        [],
-                        [
-                            "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
-                            "[OnSucceedAttack] Inflict +1 [Laceration] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Sanguine Painting",
-                    "desc": "If target has 6+ [Laceration], Clash Power +1",
-                    "coinDescs": [
-                        [],
-                        [
-                            "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
-                            "[OnSucceedAttack] Inflict +1 [Laceration] Count\nWhen Reusing Coin with this unit's Coin effects, inflict +1 more [Laceration] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Sanguine Painting",
-                    "desc": "If target has 6+ [Laceration], Clash Power +2",
-                    "coinDescs": [
-                        [],
-                        [
-                            "[OnSucceedAttack] 40% chance to Reuse Coin. +20% more chance to Reuse Coin for every type of negative effect on target (2 times max per Skill)",
-                            "[OnSucceedAttack] Inflict +1 [Laceration] Count\nWhen Reusing Coin with this unit's Coin effects, inflict +1 more [Laceration] Count"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1110903": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "gluttony",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 2,
-                    "baseValue": 4,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Artwork Inspection",
-                    "desc": "Deal +10% damage for every type of negative effect on target (max 30%)\n[WhenUse] Apply 1 [Agility] next turn to 2 allies adjacent to this unit on the Dashboard",
-                    "coinDescs": [
-                        [],
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Laceration]",
-                            "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
-                            "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Artwork Inspection",
-                    "desc": "If target has 6+ [Laceration], Coin Power +1\nDeal +12.5% damage for every type of negative effect on target (max 50%)\n[WhenUse] Apply 1 [Agility] next turn to 2 allies adjacent to this unit on the Dashboard",
-                    "coinDescs": [
-                        [],
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Laceration]",
-                            "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
-                            "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP. If the affected ally is a member of the Ring, apply 1 [PenetrateResultUp] as well"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1110904": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 7,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "lust"
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Guard",
-                    "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +3",
-                    "coinDescs": [
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Guard",
-                    "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +7",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
+  "combatPassives": [
+    {
+      "passives": [
+        "1110902"
+      ],
+      "uptie": 1
     },
-    "combatPassives": [
-        {
-            "level": 1,
-            "passives": [
-                1110902
-            ]
-        },
-        {
-            "level": 2,
-            "passives": [
-                1110902,
-                1110901
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1110902,
-                1110911
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1110921
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1110931
-            ]
-        }
-    ],
-    "passiveData": {
-        "1110921": {
-            "name": "Rough Sketch",
-            "desc": "1 ally with the least SP heals 4 SP when defeating an enemy with [Laceration].\nHeal 1 additional SP for every type of negative effect on the target. (max 4. Once per turn)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1110931": {
-            "name": "Rough Sketch",
-            "desc": "1 ally with the least SP heals 4 SP when defeating an enemy with [Laceration].\nHeal 1 additional SP for every type of negative effect on the target. (max 4. 3 times per turn)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1110901": {
-            "name": "Multitude of Dots",
-            "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, a Part)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1110902": {
-            "name": "Sanguine Pointillist",
-            "desc": "This Identity only counts as an 'Identity that inflicts [Laceration]'. This Identity's Skills that randomly inflict [Combustion], [Laceration], [Vibration], [Burst], and [Sinking] do not count as Skills that inflict each respective Keyword."
-        },
-        "1110911": {
-            "name": "Multitude of Dots",
-            "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on 2 enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, Parts)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 4
-                    }
-                ]
-            }
-        }
+    {
+      "passives": [
+        "1110902",
+        "1110901"
+      ],
+      "uptie": 2
     },
-    "notes": {
-        "main": [
-            "Using her S3 or triggering her passive randomly applies {status:Combustion}, {status:Laceration}, {status:Vibration}, {status:Burst}, or {status:Sinking}.",
-            "S2 gains Coin Reuses and {status:Laceration} Count application and S3 gains damage depending on the number of debuffs on the target."
-        ],
-        "other": [
-            "S3 gives her allies {status:Agility} on use and {status:PenetrateDamageUp} on stagger or kill and an additional {status:PenetrateResultUp} if it's another Ring identity.",
-            "Her support passive heals SP on kills for {status:Laceration} teams."
-        ]
+    {
+      "passives": [
+        "1110902",
+        "1110911"
+      ],
+      "uptie": 4
     }
+  ],
+  "notes": {
+    "main": [
+      "Using her S3 or triggering her passive randomly applies {status:Combustion}, {status:Laceration}, {status:Vibration}, {status:Burst}, or {status:Sinking}.",
+      "S2 gains Coin Reuses and {status:Laceration} Count application and S3 gains damage depending on the number of debuffs on the target."
+    ],
+    "other": [
+      "S3 gives her allies {status:Agility} on use and {status:PenetrateDamageUp} on stagger or kill and an additional {status:PenetrateResultUp} if it's another Ring identity.",
+      "Her support passive heals SP on kills for {status:Laceration} teams."
+    ]
+  },
+  "passiveData": {
+    "1110901": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, a Part)",
+      "name": "Multitude of Dots"
+    },
+    "1110902": {
+      "desc": "This Identity only counts as an 'Identity that inflicts [Laceration]'. This Identity's Skills that randomly inflict [Combustion], [Laceration], [Vibration], [Burst], and [Sinking] do not count as Skills that inflict each respective Keyword.",
+      "name": "Sanguine Pointillist"
+    },
+    "1110911": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Combat Start: Inflict 2 Potency for 1 of the following effects on 2 enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.\n(In Focused Encounters, Parts)",
+      "name": "Multitude of Dots"
+    },
+    "1110921": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "1 ally with the least SP heals 4 SP when defeating an enemy with [Laceration].\nHeal 1 additional SP for every type of negative effect on the target. (max 4. Once per turn)",
+      "name": "Rough Sketch"
+    },
+    "1110931": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "1 ally with the least SP heals 4 SP when defeating an enemy with [Laceration].\nHeal 1 additional SP for every type of negative effect on the target. (max 4. 3 times per turn)",
+      "name": "Rough Sketch"
+    }
+  },
+  "skills": {
+    "1110901": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Dotting",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Laceration], Clash Power +1",
+          "name": "Dotting",
+          "uptie": 2
+        },
+        {
+          "baseValue": 3,
+          "desc": "If target has 6+ [Laceration], Clash Power +1",
+          "name": "Dotting",
+          "uptie": 3
+        },
+        {
+          "desc": "If target has 6+ [Laceration], Clash Power +1\nIf target has 10+ [Laceration], Coin Power +1 ",
+          "name": "Dotting",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1110902": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
+                "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Sanguine Painting",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
+                "[OnSucceedAttack] Inflict +1 [Laceration] Count\nWhen Reusing Coin with this unit's Coin effects, inflict +1 more [Laceration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Laceration], Clash Power +1",
+          "name": "Sanguine Painting",
+          "uptie": 2
+        },
+        {
+          "baseValue": 5,
+          "desc": "If target has 6+ [Laceration], Clash Power +1",
+          "name": "Sanguine Painting",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] 40% chance to Reuse Coin. +20% more chance to Reuse Coin for every type of negative effect on target (2 times max per Skill)",
+                "[OnSucceedAttack] Inflict +1 [Laceration] Count\nWhen Reusing Coin with this unit's Coin effects, inflict +1 more [Laceration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Laceration], Clash Power +2",
+          "name": "Sanguine Painting",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1110903": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 6,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Laceration]",
+                "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "Deal +10% damage for every type of negative effect on target (max 30%)\n[WhenUse] Apply 1 [Agility] next turn to 2 allies adjacent to this unit on the Dashboard",
+          "levelCorrection": 2,
+          "name": "Artwork Inspection",
+          "uptie": 3
+        },
+        {
+          "coinValue": 6,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Laceration]",
+                "[OnSucceedAttack] Inflict 3 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "[EndSkill] If target is Staggered or defeated, apply 1 [PenetrateDamageUp] next turn to 1 other ally with the highest SP. If the affected ally is a member of the Ring, apply 1 [PenetrateResultUp] as well"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Laceration], Coin Power +1\nDeal +12.5% damage for every type of negative effect on target (max 50%)\n[WhenUse] Apply 1 [Agility] next turn to 2 allies adjacent to this unit on the Dashboard",
+          "name": "Artwork Inspection",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1110904": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 7,
+          "coinValue": 6,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +3",
+          "levelCorrection": 1,
+          "name": "Guard",
+          "uptie": 1
+        },
+        {
+          "affinity": "lust",
+          "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +7",
+          "name": "Guard",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1110921"
+      ],
+      "uptie": 3
+    },
+    {
+      "passives": [
+        "1110931"
+      ],
+      "uptie": 4
+    }
+  ]
 }

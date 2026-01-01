@@ -1,301 +1,285 @@
 {
-    "skills": {
-        "1120301": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 3,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 4
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Hack",
-                    "desc": "[WinDuel] +20% damage",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Heal by 30% of damage dealt"
-                        ],
-                        []
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Hack",
-                    "desc": "[WinDuel] +40% damage",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Heal by 50% of damage dealt"
-                        ],
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Hack",
-                    "desc": "[WinDuel] Damage +40%\nIf target has 5+ [Burst], Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Heal by 50% of damage dealt"
-                        ],
-                        []
-                    ]
-                }
-            ]
-        },
-        "1120302": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "sloth",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 5,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 6
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Dismember",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 5 [Burst]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Dismember",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 5 [Burst]",
-                            "[OnSucceedAttackHead] Heal by 50% of damage dealt"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Dismember",
-                    "desc": "If target has 5+ [Burst], deal +50% damage",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 5 [Burst]",
-                            "[OnSucceedAttack] Heal by 50% of damage dealt"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1120303": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "lust",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 4,
-                    "coinValue": 2,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 2,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Eviscerate",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Heal 100% of damage dealt"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Eviscerate",
-                    "desc": "If target has 5+ [Burst], Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
-                        ],
-                        [
-                            "[OnSucceedAttack] Heal by 100% of damage dealt"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1120304": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 10,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "gluttony"
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Guard",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
-    },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1120301
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1120321
-            ]
-        }
-    ],
-    "passiveData": {
-        "1120321": {
-            "name": "Gene Code G-3",
-            "desc": "The ally with the least HP heals 5 HP after winning a clash.",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gluttony",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1120301": {
-            "name": "Emergency Rations",
-            "desc": "At less than 25% HP, heal by 5% of Max HP after winning a clash.",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gluttony",
-                        "value": 4
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Inflicts {status:Burst} and heals self on his skills.",
-            "Passive heals him on clash win at less than 25% HP."
-        ]
+  "combatPassives": [
+    {
+      "passives": [
+        "1120301"
+      ],
+      "uptie": 2
     }
+  ],
+  "notes": {
+    "main": [
+      "Inflicts {status:Burst} and heals self on his skills.",
+      "Passive heals him on clash win at less than 25% HP."
+    ]
+  },
+  "passiveData": {
+    "1120301": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gluttony",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "At less than 25% HP, heal by 5% of Max HP after winning a clash.",
+      "name": "Emergency Rations"
+    },
+    "1120321": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gluttony",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "The ally with the least HP heals 5 HP after winning a clash.",
+      "name": "Gene Code G-3"
+    }
+  },
+  "skills": {
+    "1120301": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Heal by 30% of damage dealt"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WinDuel] +20% damage",
+          "levelCorrection": 5,
+          "name": "Hack",
+          "uptie": 1
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Heal by 50% of damage dealt"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WinDuel] +40% damage",
+          "name": "Hack",
+          "uptie": 2
+        },
+        {
+          "baseValue": 4,
+          "desc": "[WinDuel] +40% damage",
+          "name": "Hack",
+          "uptie": 3
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Heal by 50% of damage dealt"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WinDuel] Damage +40%\nIf target has 5+ [Burst], Coin Power +1",
+          "name": "Hack",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1120302": {
+      "data": [
+        {
+          "affinity": "sloth",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 5,
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 5 [Burst]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 5,
+          "name": "Dismember",
+          "uptie": 1
+        },
+        {
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 5 [Burst]",
+                "[OnSucceedAttackHead] Heal by 50% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Dismember",
+          "uptie": 2
+        },
+        {
+          "baseValue": 6,
+          "desc": "",
+          "name": "Dismember",
+          "uptie": 3
+        },
+        {
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 5 [Burst]",
+                "[OnSucceedAttack] Heal by 50% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 5+ [Burst], deal +50% damage",
+          "name": "Dismember",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1120303": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 2,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Heal 100% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 5,
+          "name": "Eviscerate",
+          "uptie": 3
+        },
+        {
+          "coinValue": 2,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Heal by 100% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 5+ [Burst], Coin Power +1",
+          "name": "Eviscerate",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1120304": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 10,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Guard",
+          "uptie": 1
+        },
+        {
+          "affinity": "gluttony",
+          "desc": "",
+          "name": "Guard",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1120321"
+      ],
+      "uptie": 3
+    }
+  ]
 }

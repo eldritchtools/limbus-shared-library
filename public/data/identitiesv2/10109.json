@@ -89,6 +89,7 @@
   },
   "skills": {
     "1010901": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -166,6 +167,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "desc": "If target has 6+ [Laceration], Clash Power +1",
           "name": "Paint Over",
           "uptie": 4
@@ -174,6 +181,7 @@
       "tier": 1
     },
     "1010902": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -198,6 +206,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {
@@ -220,6 +234,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {
@@ -239,12 +263,19 @@
       "tier": 2
     },
     "1010903": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -265,6 +296,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.75
+                }
+              ],
               "descs": [
                 "Deal +15% damage for every type of negative effect on target (max 75%)",
                 "[EndSkill] If target is Staggered or Defeated, inflict 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random."
@@ -279,6 +319,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -299,6 +349,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.25
+                }
+              ],
               "descs": [
                 "Deal +25% damage for every type of negative effect on target (max 125%)",
                 "[EndSkill] If target is Staggered or Defeated, inflict 2 Potency for 1 of the following effects on 2 enemies with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random."
@@ -314,11 +373,18 @@
       "tier": 3
     },
     "1010904": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 10,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 5
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -333,6 +399,12 @@
         },
         {
           "affinity": "lust",
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 10
+            }
+          ],
           "desc": "Base Power +1 for every 1 [Laceration] on target (Max 10)",
           "name": "Beat the Brush",
           "uptie": 4

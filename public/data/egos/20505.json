@@ -1,297 +1,124 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "wrath",
-                "atkType": "blunt",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 2,
-                "baseValue": 20,
-                "coinValue": 10,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": 10,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 10,
-                "coinTypes": [
-                    "normal"
-                ]
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Regret",
-                "abName": "Forsaken Murderer",
-                "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict +2 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Regret",
-                "abName": "Forsaken Murderer",
-                "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict +2 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Regret",
-                "abName": "Forsaken Murderer",
-                "desc": "[BeforeAttack] Remove 2 random removable negative effects applied to self",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict +3 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised."
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 2,
-                    "baseValue": 20,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Regret",
-                    "abName": "Forsaken Murderer",
-                    "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +2 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Regret",
-                    "abName": "Forsaken Murderer",
-                    "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +2 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Regret",
-                    "abName": "Forsaken Murderer",
-                    "desc": "[BeforeAttack] Remove 2 random removable negative effects applied to self",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised."
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
-        {
-            "name": "Bound Wrath",
-            "desc": "This unit's leftmost skill on the Dashboard loses 1 Base Power and gains 2 Coin Power\nAt the start of the turn, if at 4- Speed, gain 1 [HitResultUp]"
-        }
-    ],
-    "notes": {},
-    "corrosionSkill": {
-        "tier": 3,
-        "type": "corrosion",
-        "data": [
+          "affinity": "wrath",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 20,
+          "coinValue": 10,
+          "coins": [
             {
-                "uptie": 1,
-                "affinity": "wrath",
-                "atkType": "blunt",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 5,
-                "baseValue": 30,
-                "coinValue": -10,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": -10,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": -10,
-                "coinTypes": [
-                    "normal"
-                ]
+              "descs": [
+                "[OnSucceedAttack] Inflict +2 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
+                "[OnSucceedAttack] Trigger [VibrationExplosion]"
+              ],
+              "type": "normal"
             }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Regret",
-                "abName": "Forsaken Murderer",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion].\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 30% of [Vibration] on target.\nReduce [Vibration] Count by 1",
-                        "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Regret",
-                "abName": "Forsaken Murderer",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 40% of [Vibration] on target.\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce [Vibration] Count by 1",
-                        "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Regret",
-                "abName": "Forsaken Murderer",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +2",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Trigger [VibrationExplosion]\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50% of [Vibration] on target.\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce [Vibration] Count by 1",
-                        "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
-                    ]
-                ]
-            }
-        ]
-    },
-    "corrosionSkills": [
+          ],
+          "defType": "attack",
+          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
+          "levelCorrection": 2,
+          "name": "Regret",
+          "uptie": 1
+        },
         {
-            "tier": 3,
-            "type": "corrosion",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 30,
-                    "coinValue": -10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": -10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": -10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Regret",
-                    "abName": "Forsaken Murderer",
-                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion].\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 30% of [Vibration] on target.\nReduce [Vibration] Count by 1",
-                            "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Regret",
-                    "abName": "Forsaken Murderer",
-                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 40% of [Vibration] on target.\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce [Vibration] Count by 1",
-                            "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Regret",
-                    "abName": "Forsaken Murderer",
-                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +2",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50% of [Vibration] on target.\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce [Vibration] Count by 1",
-                            "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
-                        ]
-                    ]
-                }
-            ]
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +2 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
+                "[OnSucceedAttack] Trigger [VibrationExplosion]\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self",
+          "name": "Regret",
+          "uptie": 3
+        },
+        {
+          "coinValue": 10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Vibration] Count; Inflict (Wrath A-Reson. /3) additional [Vibration] Count",
+                "[OnSucceedAttack] Trigger [VibrationExplosion]\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised."
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] Remove 2 random removable negative effects applied to self",
+          "name": "Regret",
+          "uptie": 4
         }
-    ]
+      ],
+      "type": "awakening"
+    }
+  ],
+  "corrosionSkills": [
+    {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 30,
+          "coinValue": -10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion].\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 30% of [Vibration] on target.\nReduce [Vibration] Count by 1",
+                "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
+          "levelCorrection": 5,
+          "name": "Regret",
+          "uptie": 1
+        },
+        {
+          "coinValue": -10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 40% of [Vibration] on target.\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce [Vibration] Count by 1",
+                "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1",
+          "name": "Regret",
+          "uptie": 3
+        },
+        {
+          "coinValue": -10,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]\nAmount of Stagger Threshold raised by [VibrationExplosion] increases by 50% of [Vibration] on target.\nIf target does not have a Stagger Threshold upon [VibrationExplosion],\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce [Vibration] Count by 1",
+                "[EndSkill] Gain 3 [Binding] and 1 [HitResultUp] next turn."
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +2",
+          "name": "Regret",
+          "uptie": 4
+        }
+      ],
+      "type": "corrosion"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "This unit's leftmost skill on the Dashboard loses 1 Base Power and gains 2 Coin Power\nAt the start of the turn, if at 4- Speed, gain 1 [HitResultUp]",
+      "name": "Bound Wrath"
+    }
+  ]
 }

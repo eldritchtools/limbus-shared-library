@@ -1,299 +1,125 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "lust",
-                "atkType": "slash",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 2,
-                "baseValue": 18,
-                "coinValue": 8,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": 8,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 8,
-                "coinTypes": [
-                    "normal"
-                ]
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "9:2",
-                "abName": "Skin Prophet",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "9:2",
-                "abName": "Skin Prophet",
-                "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackHead] Inflict 3 [Combustion]",
-                        "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "9:2",
-                "abName": "Skin Prophet",
-                "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 3 [Combustion]",
-                        "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "lust",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 2,
-                    "baseValue": 18,
-                    "coinValue": 8,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 8,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 8,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "9:2",
-                    "abName": "Skin Prophet",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "9:2",
-                    "abName": "Skin Prophet",
-                    "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 3 [Combustion]",
-                            "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "9:2",
-                    "abName": "Skin Prophet",
-                    "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Combustion]",
-                            "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
-        {
-            "name": "Flamebrand",
-            "desc": "On Heads Hit with a Lust affinity Skill, inflict 1 [Combustion] on target (6 times per turn)"
-        }
-    ],
-    "notes": {},
-    "corrosionSkill": {
-        "tier": 3,
-        "type": "corrosion",
-        "data": [
+          "affinity": "lust",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 18,
+          "coinValue": 8,
+          "coins": [
             {
-                "uptie": 1,
-                "affinity": "lust",
-                "atkType": "slash",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 2,
-                "baseValue": 28,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
+              "descs": [
+                "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
+              ],
+              "type": "normal"
             }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "9:2",
-                "abName": "Skin Prophet",
-                "desc": "[CantIdentify]\nTargets randomly",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackTail] Inflict 4 [Combustion]",
-                        "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "9:2",
-                "abName": "Skin Prophet",
-                "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackTail] Inflict 2 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [Combustion]",
-                        "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "9:2",
-                "abName": "Skin Prophet",
-                "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackTail] Inflict 2 [Binding] next turn",
-                        "[OnSucceedAttack] Inflict 4 [Combustion]",
-                        "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                    ]
-                ]
-            }
-        ]
-    },
-    "corrosionSkills": [
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 2,
+          "name": "9:2",
+          "uptie": 1
+        },
         {
-            "tier": 3,
-            "type": "corrosion",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "lust",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 2,
-                    "baseValue": 28,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "9:2",
-                    "abName": "Skin Prophet",
-                    "desc": "[CantIdentify]\nTargets randomly",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackTail] Inflict 4 [Combustion]",
-                            "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "9:2",
-                    "abName": "Skin Prophet",
-                    "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackTail] Inflict 2 [Binding] next turn",
-                            "[OnSucceedAttack] Inflict 4 [Combustion]",
-                            "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "9:2",
-                    "abName": "Skin Prophet",
-                    "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackTail] Inflict 2 [Binding] next turn",
-                            "[OnSucceedAttack] Inflict 4 [Combustion]",
-                            "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
-                        ]
-                    ]
-                }
-            ]
+          "coinValue": 8,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 3 [Combustion]",
+                "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
+          "name": "9:2",
+          "uptie": 3
+        },
+        {
+          "coinValue": 8,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Combustion]",
+                "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
+          "name": "9:2",
+          "uptie": 4
         }
-    ]
+      ],
+      "type": "awakening"
+    }
+  ],
+  "corrosionSkills": [
+    {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 28,
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackTail] Inflict 4 [Combustion]",
+                "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[CantIdentify]\nTargets randomly",
+          "levelCorrection": 2,
+          "name": "9:2",
+          "uptie": 1
+        },
+        {
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackTail] Inflict 2 [Binding] next turn",
+                "[OnSucceedAttack] Inflict 4 [Combustion]",
+                "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1",
+          "name": "9:2",
+          "uptie": 3
+        },
+        {
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackTail] Inflict 2 [Binding] next turn",
+                "[OnSucceedAttack] Inflict 4 [Combustion]",
+                "[OnSucceedAttack] Convert 2 [Combustion] on target to 1 [DefenseDown] (Max 10)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] At 4+ (Highest Lust A-Reson), Atk Weight +1\nAt 6+ (Highest Lust A-Reson), additional Atk Weight +1",
+          "name": "9:2",
+          "uptie": 4
+        }
+      ],
+      "type": "corrosion"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "On Heads Hit with a Lust affinity Skill, inflict 1 [Combustion] on target (6 times per turn)",
+      "name": "Flamebrand"
+    }
+  ]
 }

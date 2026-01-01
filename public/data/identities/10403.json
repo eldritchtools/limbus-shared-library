@@ -1,287 +1,252 @@
 {
-    "skills": {
-        "1040301": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 4,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 5
-                },
-                {
-                    "uptie": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Focus Strike",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Paralysis]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Focus Strike",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Paralysis]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Focus Strike",
-                    "desc": "If target has 2+ [Laceration] Count, deal +20% damage",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Paralysis]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1040302": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "pride",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 5
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Clean Up",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Clean Up",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count",
-                            "[OnSucceedAttackHead] Inflict 2 [AttackDmgDown]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Clean Up",
-                    "desc": "If target has 5+ [Laceration] Count, deal +20% damage",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Laceration] Count ",
-                            "[OnSucceedAttackHead] Inflict 2 [AttackDmgDown]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1040303": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "lust",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 8,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Lenticular Swirl",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Laceration] Count",
-                            "[OnSucceedAttack] Inflict 5 [AttackDown]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Lenticular Swirl",
-                    "desc": "If target has 9+ [Laceration] Count, deal +40% damage",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Laceration] Count",
-                            "[OnSucceedAttack] Inflict 5 [AttackDown]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1040304": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 10,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "lust",
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Guard",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
-    },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1040301
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1040321
-            ]
-        }
-    ],
-    "passiveData": {
-        "1040321": {
-            "name": "Muscle in Charge",
-            "desc": "1 ally with the fastest Speed inflicts +1 [Laceration].",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1040301": {
-            "name": "Kokuunt\u014d",
-            "desc": "Deal +10% damage to targets with [Laceration].",
-            "condition": {
-                "type": "res",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 3
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Some {status:Laceration} application and various debuffs ({status:Paralysis} on S1, {status:AttackDmgDown} on S2, and {status:AttackDown} on S3."
-        ]
+  "combatPassives": [
+    {
+      "passives": [
+        "1040301"
+      ],
+      "uptie": 2
     }
+  ],
+  "notes": {
+    "main": [
+      "Some {status:Laceration} application and various debuffs ({status:Paralysis} on S1, {status:AttackDmgDown} on S2, and {status:AttackDown} on S3."
+    ]
+  },
+  "passiveData": {
+    "1040301": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 3
+          }
+        ],
+        "type": "res"
+      },
+      "desc": "Deal +10% damage to targets with [Laceration].",
+      "name": "Kokuuntō"
+    },
+    "1040321": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "1 ally with the fastest Speed inflicts +1 [Laceration].",
+      "name": "Muscle in Charge"
+    }
+  },
+  "skills": {
+    "1040301": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Paralysis]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 3,
+          "name": "Focus Strike",
+          "uptie": 1
+        },
+        {
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Paralysis]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Focus Strike",
+          "uptie": 2
+        },
+        {
+          "baseValue": 5,
+          "desc": "",
+          "name": "Focus Strike",
+          "uptie": 3
+        },
+        {
+          "desc": "If target has 2+ [Laceration] Count, deal +20% damage",
+          "name": "Focus Strike",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1040302": {
+      "data": [
+        {
+          "affinity": "pride",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 3,
+          "name": "Clean Up",
+          "uptie": 1
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict +1 [Laceration] Count",
+                "[OnSucceedAttackHead] Inflict 2 [AttackDmgDown]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Clean Up",
+          "uptie": 2
+        },
+        {
+          "baseValue": 5,
+          "desc": "",
+          "name": "Clean Up",
+          "uptie": 3
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Laceration] Count ",
+                "[OnSucceedAttackHead] Inflict 2 [AttackDmgDown]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 5+ [Laceration] Count, deal +20% damage",
+          "name": "Clean Up",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1040303": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 8,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                "[OnSucceedAttack] Inflict 5 [AttackDown]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 3,
+          "name": "Lenticular Swirl",
+          "uptie": 3
+        },
+        {
+          "desc": "If target has 9+ [Laceration] Count, deal +40% damage",
+          "name": "Lenticular Swirl",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1040304": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 10,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Guard",
+          "uptie": 1
+        },
+        {
+          "affinity": "lust",
+          "coinValue": 6,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Guard",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1040321"
+      ],
+      "uptie": 3
+    }
+  ]
 }

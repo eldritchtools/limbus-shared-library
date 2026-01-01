@@ -1,367 +1,354 @@
 {
-    "skills": {
-        "1040701": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 3
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "All-out War",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Combustion]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "All-out War",
-                    "desc": "If target has 6+ [Combustion], Clash Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "All-out War",
-                    "desc": "If target has 6+ [Combustion], Clash Power +1\nIf target has 10+ [Combustion], Coin Power +1 ",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Combustion]",
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1040702": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 3,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 4
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Fiery Knifehand",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 6+ [Combustion], deal +20% damage"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Fiery Knifehand",
-                    "desc": "If target has 6+ [Combustion], Clash Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 6+ [Combustion], deal +30% damage"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Fiery Knifehand",
-                    "desc": "If target has 6+ [Combustion], Clash Power +1\nIf target has 6+ [Combustion], Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 6+ [Combustion], deal +50% damage"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1040703": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "lust",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 4,
-                    "coinValue": 2,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 2,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Flame Cleave",
-                    "desc": "If target has 6+ [Combustion], Clash Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 10+ [Combustion], deal +20% damage"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Flame Cleave",
-                    "desc": "If target has 6+ [Combustion], Clash Power +1\nIf target has 6+ [Combustion], Coin Power +1 ",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Combustion]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 10+ [Combustion], deal +40% damage"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1040704": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": -1,
-                    "baseValue": 8,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "wrath",
-                    "coinValue": 8,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Guard",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Guard",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
+  "combatPassives": [
+    {
+      "passives": [
+        "1040701"
+      ],
+      "uptie": 2
     },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1040701
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1040711
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1040721
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1040731
-            ]
-        }
-    ],
-    "passiveData": {
-        "1040721": {
-            "name": "Spread Flame",
-            "desc": "When 1 ally with the slowest Speed defeats an enemy with [Combustion], inflict 3 [Combustion] on 1 random enemy (Once per turn)\n- In Focused Encounters, on 1 random Part",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "wrath",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1040731": {
-            "name": "Spread Flame",
-            "desc": "When 1 ally with the slowest Speed defeats an enemy with [Combustion], inflict 3 [Combustion] on 2 random enemies (Once per turn)\n- In Focused Encounters, on 2 random Parts",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "wrath",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1040701": {
-            "name": "Flame Spread",
-            "desc": "When this unit defeats an enemy with [Combustion], apply 4 [Combustion] to 1 random enemy with no [Combustion] or with the least [Combustion] Potency. (Once per turn)\n- In Focused Encounters, to 1 random Part",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "wrath",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1040711": {
-            "name": "Flame Spread",
-            "desc": "When this unit defeats an enemy with [Combustion], apply 4 [Combustion] to 2 random enemies with no [Combustion] or with the least [Combustion] Potency. (2 times per turn)\n- In Focused Encounters, to 2 random Parts",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "wrath",
-                        "value": 4
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Straightforward {status:Combustion} identity. Spreads some {status:Combustion} on kill."
-        ]
+    {
+      "passives": [
+        "1040711"
+      ],
+      "uptie": 4
     }
+  ],
+  "notes": {
+    "main": [
+      "Straightforward {status:Combustion} identity. Spreads some {status:Combustion} on kill."
+    ]
+  },
+  "passiveData": {
+    "1040701": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "wrath",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "When this unit defeats an enemy with [Combustion], apply 4 [Combustion] to 1 random enemy with no [Combustion] or with the least [Combustion] Potency. (Once per turn)\n- In Focused Encounters, to 1 random Part",
+      "name": "Flame Spread"
+    },
+    "1040711": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "wrath",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "When this unit defeats an enemy with [Combustion], apply 4 [Combustion] to 2 random enemies with no [Combustion] or with the least [Combustion] Potency. (2 times per turn)\n- In Focused Encounters, to 2 random Parts",
+      "name": "Flame Spread"
+    },
+    "1040721": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "wrath",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "When 1 ally with the slowest Speed defeats an enemy with [Combustion], inflict 3 [Combustion] on 1 random enemy (Once per turn)\n- In Focused Encounters, on 1 random Part",
+      "name": "Spread Flame"
+    },
+    "1040731": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "wrath",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "When 1 ally with the slowest Speed defeats an enemy with [Combustion], inflict 3 [Combustion] on 2 random enemies (Once per turn)\n- In Focused Encounters, on 2 random Parts",
+      "name": "Spread Flame"
+    }
+  },
+  "skills": {
+    "1040701": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 1,
+          "name": "All-out War",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Combustion], Clash Power +1",
+          "name": "All-out War",
+          "uptie": 2
+        },
+        {
+          "baseValue": 3,
+          "desc": "If target has 6+ [Combustion], Clash Power +1",
+          "name": "All-out War",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Combustion]",
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Combustion], Clash Power +1\nIf target has 10+ [Combustion], Coin Power +1 ",
+          "name": "All-out War",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1040702": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 6+ [Combustion], deal +20% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 1,
+          "name": "Fiery Knifehand",
+          "uptie": 1
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 6+ [Combustion], deal +30% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Combustion], Clash Power +1",
+          "name": "Fiery Knifehand",
+          "uptie": 2
+        },
+        {
+          "baseValue": 4,
+          "desc": "If target has 6+ [Combustion], Clash Power +1",
+          "name": "Fiery Knifehand",
+          "uptie": 3
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 6+ [Combustion], deal +50% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Combustion], Clash Power +1\nIf target has 6+ [Combustion], Coin Power +1",
+          "name": "Fiery Knifehand",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1040703": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 2,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 10+ [Combustion], deal +20% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "If target has 6+ [Combustion], Clash Power +1",
+          "levelCorrection": 3,
+          "name": "Flame Cleave",
+          "uptie": 3
+        },
+        {
+          "coinValue": 2,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Combustion]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 10+ [Combustion], deal +40% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Combustion], Clash Power +1\nIf target has 6+ [Combustion], Coin Power +1 ",
+          "name": "Flame Cleave",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1040704": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 8,
+          "coinValue": 5,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "",
+          "levelCorrection": -1,
+          "name": "Guard",
+          "uptie": 1
+        },
+        {
+          "affinity": "wrath",
+          "coinValue": 8,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Guard",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1040721"
+      ],
+      "uptie": 3
+    },
+    {
+      "passives": [
+        "1040731"
+      ],
+      "uptie": 4
+    }
+  ]
 }

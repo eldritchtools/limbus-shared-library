@@ -1,350 +1,321 @@
 {
-    "skills": {
-        "1120901": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 4,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 5
-                },
-                {
-                    "uptie": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Sabre Slash",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Sinking]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Sabre Slash",
-                    "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +2",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Sinking]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Sabre Slash",
-                    "desc": "[WhenUse] Coin Power +1 for every 3 [Sinking] on target (max 2)\n[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Sinking]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1120902": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gloom",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Remise",
-                    "desc": "[WinDuel] Inflict +1 [Sinking] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Remise",
-                    "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +1 [Sinking] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Remise",
-                    "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +1\n[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +2 [Sinking] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Sinking] Count"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1120903": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "lust",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 5,
-                    "baseValue": 4,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Nightmare Hunt",
-                    "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[EndSkill] If target is Staggered, inflict +3 [Sinking] Count\n[EndSkill] If target is defeated, inflict +3 [Sinking] Count on 1 random enemy",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Sinking]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Sinking]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Sinking]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Absorb 10 [Sinking] from the target and gain 1 [PlusCoinValueUp] and 1 [AttackDmgUp] next turn. 50% chance to gain the above effects without absorbing [Sinking]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Nightmare Hunt",
-                    "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 3)\n[EndSkill] If target is Staggered, inflict +3 [Sinking] Count\n[EndSkill] If target is defeated, inflict +3 [Sinking] Count on 2 random enemies",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Sinking]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Sinking]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Sinking]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Absorb 10 [Sinking] from the target and gain 1 [PlusCoinValueUp] and 3 [AttackDmgUp] next turn. 50% chance to gain the above effects without absorbing [Sinking]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1120904": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "evade",
-                    "atkWeight": 1,
-                    "levelCorrection": -4,
-                    "baseValue": 3,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "gloom",
-                    "baseValue": 4,
-                    "coinValue": 10,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Do You Wish to Weep?",
-                    "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1",
-                    "coinDescs": [
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Do You Wish to Weep?",
-                    "desc": "[WhenUse] Coin Power +1 for every 3 [Sinking] on target (max 3)",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
+  "combatPassives": [
+    {
+      "passives": [
+        "1120901"
+      ],
+      "uptie": 2
     },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1120901
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1120911
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1120921
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1120931
-            ]
-        }
-    ],
-    "passiveData": {
-        "1120921": {
-            "name": "Suffering",
-            "desc": "Combat Start: 1 ally with the least SP loses 7 SP, then gains 1 [AzureDamageUp]",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gloom",
-                        "value": 3
-                    }
-                ]
-            }
-        },
-        "1120931": {
-            "name": "Suffering",
-            "desc": "Combat Start: 1 ally with the least SP loses 5 SP, then gains 1 [AzureDamageUp]",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gloom",
-                        "value": 3
-                    }
-                ]
-            }
-        },
-        "1120901": {
-            "name": "Endless Nightmares",
-            "desc": "- Combat Start: gain 1 [AttackDmgUp] and 1 [Vulnerable] for every 5 SP difference between Combat Start and the last Turn Start (max 5)\n- Deal +1% damage for every [Sinking] Potency on target (max 20%)",
-            "condition": {
-                "type": "res",
-                "requirement": [
-                    {
-                        "type": "gloom",
-                        "value": 3
-                    }
-                ]
-            }
-        },
-        "1120911": {
-            "name": "Endless Nightmares",
-            "desc": "- Combat Start: gain 1 [AttackDmgUp] and 1 [Vulnerable] for every 5 SP difference between Combat Start and the last Turn Start (max 5)\n- Deal +2% damage for every [Sinking] Potency on target (max 40%)",
-            "condition": {
-                "type": "res",
-                "requirement": [
-                    {
-                        "type": "gloom",
-                        "value": 3
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "S3 final coin consumes 10 {status:Sinking} Potency on his target to give him {status:PlusCoinValueUp} and 3 {status:AttackDmgUp}, with a 50% chance to gain the buffs without consuming {status:Sinking}."
-        ],
-        "other": [
-            "His passive gives him 1 stack each of {status:AttackDmgUp} and {status:Vulnerable} for every 5 total SP that he gained or lost on the last turn.",
-            "His passive also increases his damage against targets based on their {status:Sinking} Potency."
-        ]
+    {
+      "passives": [
+        "1120911"
+      ],
+      "uptie": 4
     }
+  ],
+  "notes": {
+    "main": [
+      "S3 final coin consumes 10 {status:Sinking} Potency on his target to give him {status:PlusCoinValueUp} and 3 {status:AttackDmgUp}, with a 50% chance to gain the buffs without consuming {status:Sinking}."
+    ],
+    "other": [
+      "His passive gives him 1 stack each of {status:AttackDmgUp} and {status:Vulnerable} for every 5 total SP that he gained or lost on the last turn.",
+      "His passive also increases his damage against targets based on their {status:Sinking} Potency."
+    ]
+  },
+  "passiveData": {
+    "1120901": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gloom",
+            "value": 3
+          }
+        ],
+        "type": "res"
+      },
+      "desc": "- Combat Start: gain 1 [AttackDmgUp] and 1 [Vulnerable] for every 5 SP difference between Combat Start and the last Turn Start (max 5)\n- Deal +1% damage for every [Sinking] Potency on target (max 20%)",
+      "name": "Endless Nightmares"
+    },
+    "1120911": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gloom",
+            "value": 3
+          }
+        ],
+        "type": "res"
+      },
+      "desc": "- Combat Start: gain 1 [AttackDmgUp] and 1 [Vulnerable] for every 5 SP difference between Combat Start and the last Turn Start (max 5)\n- Deal +2% damage for every [Sinking] Potency on target (max 40%)",
+      "name": "Endless Nightmares"
+    },
+    "1120921": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gloom",
+            "value": 3
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Combat Start: 1 ally with the least SP loses 7 SP, then gains 1 [AzureDamageUp]",
+      "name": "Suffering"
+    },
+    "1120931": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gloom",
+            "value": 3
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Combat Start: 1 ally with the least SP loses 5 SP, then gains 1 [AzureDamageUp]",
+      "name": "Suffering"
+    }
+  },
+  "skills": {
+    "1120901": {
+      "data": [
+        {
+          "affinity": "envy",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 5,
+          "name": "Sabre Slash",
+          "uptie": 1
+        },
+        {
+          "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +2",
+          "name": "Sabre Slash",
+          "uptie": 2
+        },
+        {
+          "baseValue": 5,
+          "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +2",
+          "name": "Sabre Slash",
+          "uptie": 3
+        },
+        {
+          "desc": "[WhenUse] Coin Power +1 for every 3 [Sinking] on target (max 2)\n[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)",
+          "name": "Sabre Slash",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1120902": {
+      "data": [
+        {
+          "affinity": "gloom",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WinDuel] Inflict +1 [Sinking] Count",
+          "levelCorrection": 5,
+          "name": "Remise",
+          "uptie": 1
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +1 [Sinking] Count",
+          "name": "Remise",
+          "uptie": 2
+        },
+        {
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 5+ [Sinking], gain 1 [Agility] next turn"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +1 [Sinking] Count",
+          "name": "Remise",
+          "uptie": 3
+        },
+        {
+          "desc": "[WhenUse] If target has 6+ [Sinking], Coin Power +1\n[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[WinDuel] Inflict +2 [Sinking] Count",
+          "name": "Remise",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1120903": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Absorb 10 [Sinking] from the target and gain 1 [PlusCoinValueUp] and 1 [AttackDmgUp] next turn. 50% chance to gain the above effects without absorbing [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 2)\n[EndSkill] If target is Staggered, inflict +3 [Sinking] Count\n[EndSkill] If target is defeated, inflict +3 [Sinking] Count on 1 random enemy",
+          "levelCorrection": 5,
+          "name": "Nightmare Hunt",
+          "uptie": 3
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Absorb 10 [Sinking] from the target and gain 1 [PlusCoinValueUp] and 3 [AttackDmgUp] next turn. 50% chance to gain the above effects without absorbing [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Clash Power +1 for every 3 [Sinking] Count on target (max 3)\n[EndSkill] If target is Staggered, inflict +3 [Sinking] Count\n[EndSkill] If target is defeated, inflict +3 [Sinking] Count on 2 random enemies",
+          "name": "Nightmare Hunt",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1120904": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 10,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "evade",
+          "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1",
+          "levelCorrection": -4,
+          "name": "Do You Wish to Weep?",
+          "uptie": 1
+        },
+        {
+          "affinity": "gloom",
+          "baseValue": 4,
+          "coinValue": 10,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Coin Power +1 for every 3 [Sinking] on target (max 3)",
+          "name": "Do You Wish to Weep?",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1120921"
+      ],
+      "uptie": 3
+    },
+    {
+      "passives": [
+        "1120931"
+      ],
+      "uptie": 4
+    }
+  ]
 }

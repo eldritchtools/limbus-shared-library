@@ -196,7 +196,7 @@
       "Bleed"
     ],
     "tags": [
-      "Syndicate",
+      "The Fingers",
       "The Ring"
     ],
     "types": [
@@ -625,6 +625,29 @@
       "slash"
     ]
   },
+  "10214": {
+    "affinities": [
+      "gloom",
+      "pride",
+      "sloth"
+    ],
+    "name": "The Index Proselyte: 【Paper Slip】",
+    "rank": 3,
+    "season": 7,
+    "sinnerId": 2,
+    "skillKeywordList": [
+      "Poise",
+      "Sinking"
+    ],
+    "tags": [
+      "The Fingers",
+      "The Index"
+    ],
+    "types": [
+      "counter",
+      "slash"
+    ]
+  },
   "10301": {
     "affinities": [
       "envy",
@@ -750,7 +773,7 @@
       "Bleed"
     ],
     "tags": [
-      "Syndicate",
+      "The Fingers",
       "The Middle"
     ],
     "types": [
@@ -1373,7 +1396,7 @@
       "Bleed"
     ],
     "tags": [
-      "Syndicate",
+      "The Fingers",
       "The Middle"
     ],
     "types": [
@@ -1488,7 +1511,7 @@
     ],
     "tags": [
       "Capo IIII",
-      "Syndicate",
+      "The Fingers",
       "The Thumb"
     ],
     "types": [
@@ -3034,7 +3057,7 @@
       "Bleed"
     ],
     "tags": [
-      "Syndicate",
+      "The Fingers",
       "The Middle"
     ],
     "types": [
@@ -3059,7 +3082,7 @@
     ],
     "tags": [
       "Soldato II",
-      "Syndicate",
+      "The Fingers",
       "The Thumb"
     ],
     "types": [
@@ -3289,7 +3312,7 @@
       "Bleed"
     ],
     "tags": [
-      "Syndicate",
+      "The Fingers",
       "The Ring"
     ],
     "types": [
@@ -3385,6 +3408,29 @@
     "types": [
       "blunt",
       "guard"
+    ]
+  },
+  "11114": {
+    "affinities": [
+      "gloom",
+      "pride",
+      "sloth"
+    ],
+    "name": "LCA Udjat Vanguard Team 3 Leader",
+    "rank": 3,
+    "season": 7,
+    "sinnerId": 11,
+    "skillKeywordList": [
+      "Sinking",
+      "Tremor"
+    ],
+    "tags": [
+      "Limbus Company"
+    ],
+    "types": [
+      "guard",
+      "pierce",
+      "slash"
     ]
   },
   "11201": {

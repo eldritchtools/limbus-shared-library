@@ -87,12 +87,19 @@
   },
   "skills": {
     "1011401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -115,6 +122,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -142,6 +159,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -166,12 +193,19 @@
       "tier": 1
     },
     "1011402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -195,6 +229,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -223,6 +267,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -249,12 +310,37 @@
       "tier": 2
     },
     "1011403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            },
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -286,6 +372,30 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.8
+            },
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -319,6 +429,7 @@
       "tier": 3
     },
     "1011404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

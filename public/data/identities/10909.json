@@ -1,354 +1,355 @@
 {
-    "skills": {
-        "1090901": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 3,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Gain +1 [Vibration] Count",
-                            "[WinDuelAttack] Inflict +1 [Vibration] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Gain +1 [Vibration] Count",
-                            "[WinDuelAttack] Inflict +1 [Vibration] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Prepare To Collect",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Gain +1 [Vibration] Count",
-                            "[WinDuelAttack] Inflict +1 [Vibration] Count"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1090902": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 3,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "baseValue": 3,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "baseValue": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "T Corp. Martial Suppression",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +2 [Vibration] Count"
-                        ],
-                        []
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "T Corp. Martial Suppression",
-                    "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
-                            "[WinDuelAttack] Inflict +2 [Vibration] Count"
-                        ],
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "T Corp. Martial Suppression",
-                    "desc": "Deal +5% damage for every [Binding] on target (max 15%)\n[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +2 [Vibration] Count",
-                            "[WinDuelAttack] Inflict +3 [Vibration] Count"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                            "[OnSucceedAttack] If target has 6+ [Vibration], inflict 1 [Binding] next turn"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1090903": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "sloth",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 2,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Execute Collections",
-                    "desc": "[WhenUse] If target has 8+ [Vibration], Clash Power +1\n[WhenUse] Consume 8 [Vibration] Count on self to gain Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +2 [Vibration] Count"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                            "[OnSucceedAttack] If this unit is in a [TimeRentalTwoPersonality] state, inflict 2 [TimeSuspend]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Execute Collections",
-                    "desc": "Deal +5% damage for every [Binding] on target (max 20%)\n[WhenUse] If target has 8+ [Vibration], Clash Power +2\n[WhenUse] Consume 8 [Vibration] Count on self to gain Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Vibration] Count"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Binding] next turn",
-                            "[OnSucceedAttack] If this unit consumed [Vibration] Count with Skill use, inflict 2 [Binding] next turn",
-                            "[OnSucceedAttack] If this unit is in a [TimeRentalTwoPersonality] state, inflict 2 [TimeSuspend]",
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1090904": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": 2,
-                    "baseValue": 12,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "sloth",
-                    "baseValue": 15
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Borrow Time",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 3 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict 2 [Vibration] on target next turn (2 times per turn)"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Borrow Time",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 3 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict 2 [Vibration] on target next turn (6 times per turn)"
-                        ]
-                    ]
-                }
-            ]
-        }
-    },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1090901
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1090921
-            ]
-        }
-    ],
-    "passiveData": {
-        "1090921": {
-            "name": "T Corp. Martial Arts",
-            "desc": "To 1 ally with the fastest Speed: Clash Power +1 when Clashing against targets with 5+ [Vibration]",
-            "condition": {
-                "type": "res",
-                "requirement": [
-                    {
-                        "type": "sloth",
-                        "value": 3
-                    }
-                ]
-            }
-        },
-        "1090901": {
-            "name": "Golden Time - Standoff",
-            "desc": "Turn End: if this unit's HP is between 16% ~ 20%, instantly heal up to 60% of Max HP, and recover from Stagger. (once per Encounter)\n\nWhen Clashing against targets with [TimeSuspend], Clash Power +2\nTake -10% damage from targets with [TimeSuspend]",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "sloth",
-                        "value": 5
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Her defense gives her {status:TimeRentalTwoPersonality}.",
-            "Her S3 inflicts {status:TimeSuspend} when she has {status:TimeRentalTwoPersonality}.",
-            "S3 consumes 8 {status:Vibration} Count to gain Coin Power."
-        ],
-        "other": [
-            "{status:TimeRentalTwoPersonality} buffs her for the next 3 turns giving her 3, then 2, then 1 stack of {status:Agility}, {status:ParryingResultUp}, and {status:Vulnerable}. On the 4th turn she gets 6 {status:Binding} and 8 {status:Aggro}. This sequence can't be overwritten by defending again, but you can start it again on the 4th turn when she loses the status.",
-            "{status:TimeSuspend} prevents the enemy from receiving damage for 2 turns (the current and the next turn), instead collecting all that damage to deal 130% of that total as {keyword:Sloth} damage at the end of the 2nd turn. You can end the effect and get the burst damage early by applying another instance of {status:TimeSuspend} whether from Rodya or from the other T corp. Identities.",
-            "When her passive is active, she gets a free heal if she has 16-20% HP at turn end. This does not work if she dies or drops below 16%.",
-            "When her passive is active, she gains Clash Power and reduced damage taken from enemies with {status:TimeSuspend}."
-        ]
+  "combatPassives": [
+    {
+      "passives": [
+        "1090901"
+      ],
+      "uptie": 2
     }
+  ],
+  "notes": {
+    "main": [
+      "Her defense gives her {status:TimeRentalTwoPersonality}.",
+      "Her S3 inflicts {status:TimeSuspend} when she has {status:TimeRentalTwoPersonality}.",
+      "S3 consumes 8 {status:Vibration} Count to gain Coin Power."
+    ],
+    "other": [
+      "{status:TimeRentalTwoPersonality} buffs her for the next 3 turns giving her 3, then 2, then 1 stack of {status:Agility}, {status:ParryingResultUp}, and {status:Vulnerable}. On the 4th turn she gets 6 {status:Binding} and 8 {status:Aggro}. This sequence can't be overwritten by defending again, but you can start it again on the 4th turn when she loses the status.",
+      "{status:TimeSuspend} prevents the enemy from receiving damage for 2 turns (the current and the next turn), instead collecting all that damage to deal 130% of that total as {keyword:Sloth} damage at the end of the 2nd turn. You can end the effect and get the burst damage early by applying another instance of {status:TimeSuspend} whether from Rodya or from the other T corp. Identities.",
+      "When her passive is active, she gets a free heal if she has 16-20% HP at turn end. This does not work if she dies or drops below 16%.",
+      "When her passive is active, she gains Clash Power and reduced damage taken from enemies with {status:TimeSuspend}."
+    ]
+  },
+  "passiveData": {
+    "1090901": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "sloth",
+            "value": 5
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Turn End: if this unit's HP is between 16% ~ 20%, instantly heal up to 60% of Max HP, and recover from Stagger. (once per Encounter)\n\nWhen Clashing against targets with [TimeSuspend], Clash Power +2\nTake -10% damage from targets with [TimeSuspend]",
+      "name": "Golden Time - Standoff"
+    },
+    "1090921": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "sloth",
+            "value": 3
+          }
+        ],
+        "type": "res"
+      },
+      "desc": "To 1 ally with the fastest Speed: Clash Power +1 when Clashing against targets with 5+ [Vibration]",
+      "name": "T Corp. Martial Arts"
+    }
+  },
+  "skills": {
+    "1090901": {
+      "data": [
+        {
+          "affinity": "envy",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Vibration] Count",
+                "[WinDuelAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "levelCorrection": 1,
+          "name": "Prepare To Collect",
+          "uptie": 1
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Vibration] Count",
+                "[WinDuelAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+          "name": "Prepare To Collect",
+          "uptie": 2
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Vibration] Count",
+                "[WinDuelAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+          "name": "Prepare To Collect",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Vibration] Count",
+                "[WinDuelAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
+          "name": "Prepare To Collect",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1090902": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +2 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "levelCorrection": 1,
+          "name": "T Corp. Martial Suppression",
+          "uptie": 1
+        },
+        {
+          "baseValue": 3,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                "[WinDuelAttack] Inflict +2 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+          "name": "T Corp. Martial Suppression",
+          "uptie": 2
+        },
+        {
+          "baseValue": 4,
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                "[WinDuelAttack] Inflict +2 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Clash Power +1",
+          "name": "T Corp. Martial Suppression",
+          "uptie": 3
+        },
+        {
+          "baseValue": 4,
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +2 [Vibration] Count",
+                "[WinDuelAttack] Inflict +3 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                "[OnSucceedAttack] If target has 6+ [Vibration], inflict 1 [Binding] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "Deal +5% damage for every [Binding] on target (max 15%)\n[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] Clash Power +1 for every 6 [Vibration] on target (max 2)",
+          "name": "T Corp. Martial Suppression",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1090903": {
+      "data": [
+        {
+          "affinity": "sloth",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                "[OnSucceedAttack] If this unit is in a [TimeRentalTwoPersonality] state, inflict 2 [TimeSuspend]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WhenUse] If target has 8+ [Vibration], Clash Power +1\n[WhenUse] Consume 8 [Vibration] Count on self to gain Coin Power +1",
+          "levelCorrection": 1,
+          "name": "Execute Collections",
+          "uptie": 3
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Binding] next turn",
+                "[OnSucceedAttack] If this unit consumed [Vibration] Count with Skill use, inflict 2 [Binding] next turn",
+                "[OnSucceedAttack] If this unit is in a [TimeRentalTwoPersonality] state, inflict 2 [TimeSuspend]",
+                "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "Deal +5% damage for every [Binding] on target (max 20%)\n[WhenUse] If target has 8+ [Vibration], Clash Power +2\n[WhenUse] Consume 8 [Vibration] Count on self to gain Coin Power +1",
+          "name": "Execute Collections",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1090904": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 12,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[StartBattle] If this unit is not in a [TimeRentalTwoPersonality] state, gain 3 [TimeRentalTwoPersonality] at Turn End (once per turn)\n[WhenUse] For this turn: when hit by an enemy, inflict 2 [Vibration] on target next turn (2 times per turn)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "",
+          "levelCorrection": 2,
+          "name": "Borrow Time",
+          "uptie": 1
+        },
+        {
+          "affinity": "sloth",
+          "baseValue": 15,
+          "desc": "",
+          "name": "Borrow Time",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1090921"
+      ],
+      "uptie": 3
+    }
+  ]
 }

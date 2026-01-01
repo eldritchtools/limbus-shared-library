@@ -1,0 +1,396 @@
+{
+  "combatPassives": [
+    {
+      "passives": [
+        "1021402",
+        "1021403"
+      ],
+      "uptie": 1
+    },
+    {
+      "passives": [
+        "1021402",
+        "1021403",
+        "1021401"
+      ],
+      "uptie": 2
+    }
+  ],
+  "passiveData": {
+    "1021401": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "sloth",
+            "value": 1
+          },
+          {
+            "type": "pride",
+            "value": 1
+          },
+          {
+            "type": "gloom",
+            "value": 1
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Deal +2% damage with Skills marked with [IndexPrescriptTargetMarkToEnemy] for every [BlessingOfIndexPrescriptAlly] on self (max 16%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +20% damage with Base Skills instead\n\nOn Hit with a Base Skill against target with [IndexPrescriptTargetToEnemy], gain 1 [Breath] and inflict 1 [Sinking] (once per turn)\n- Increase the number of times this effect can trigger per turn by 1 for every 3 [BlessingOfIndexPrescriptAlly] (max 2)\n\n- At 9 [BlessingOfIndexPrescriptAlly], Base Skills inflict +1 more [Sinking] Potency and this unit gains +1 more [Breath] Potency",
+      "name": "Proselyte's Blade"
+    },
+    "1021402": {
+      "desc": "Turn Start:\n- Gain [IndexPrescriptFaust_0] / [IndexPrescriptFaust_1] / [IndexPrescriptFaust_2] / [IndexPrescriptFaust_3] based on [BlessingOfIndexPrescriptAlly] on self\n- Inflict [IndexPrescriptTargetToEnemy] to a random enemy (in Focused Encounters, the Part)\n- Apply [IndexPrescriptTargetMarkToEnemy] to Base Attack Skills on this unit's Dashboard (1 per Slot, max 2 Skills)\n· At 6+ [BlessingOfIndexPrescriptAlly], the effect above prioritizes Skill 3\n- All of the effects above and [IndexPrescript_Base] execution checks do not trigger when this unit is Staggered, Immobilized[TabExplain], in Panic, or in E.G.O Corrosion[TabExplain]",
+      "name": "Prescript Delivered on Paper Slips"
+    },
+    "1021403": {
+      "desc": "Turn End: If [IndexPrescript_Base] was executed this turn, heal 4 SP and gain 1 [BlessingOfIndexPrescriptAlly] (once per turn)\n- When executing [IndexPrescript_Base], if the main target has [IndexPrescriptTargetToEnemy], heal 8 SP and gain 3 [BlessingOfIndexPrescriptAlly] instead\n\nTurn End: If [IndexPrescript_Base] was not executed this turn, gain 5 [KarmaOfIndexAlly]\n- At 9 [BlessingOfIndexPrescriptAlly], does not gain [KarmaOfIndexAlly]\n- If this unit attempted to execute [IndexPrescript_Base] at Combat Start, but could not target the enemy during the combat phase, does not gain [KarmaOfIndexAlly]",
+      "name": "Will of the Prescript"
+    },
+    "1021421": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "sloth",
+            "value": 1
+          },
+          {
+            "type": "pride",
+            "value": 1
+          },
+          {
+            "type": "gloom",
+            "value": 1
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Effects apply to the Identity with the earliest Deployment order\n- Prioritizes The Index Identities\n\nCombat Start: If this unit's leftmost Skill on the Dashboard and other allies target the same enemy Slot, said Skill deals +5% damage for every ally targeting the same Slot excluding this unit (max 15%, applies when this unit and allies both use Base Attack Skills to main-target enemy Slot)",
+      "name": "As the Prescript Orders..."
+    }
+  },
+  "skills": {
+    "1021401": {
+      "data": [
+        {
+          "affinity": "sloth",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +2 [Breath] Count",
+          "levelCorrection": 2,
+          "name": "Unerringly, As the Prescript Demands",
+          "uptie": 1
+        },
+        {
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Unerringly, As the Prescript Demands",
+          "uptie": 2
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Unerringly, As the Prescript Demands",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]",
+                "[CriticalOnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1 and deal +20% damage\nCoin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Unerringly, As the Prescript Demands",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1021402": {
+      "data": [
+        {
+          "affinity": "pride",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n[WhenUse] Gain 3 [Breath]",
+          "levelCorrection": 2,
+          "name": "Undertake the Prescript, Again Undertake",
+          "uptie": 1
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count",
+          "name": "Undertake the Prescript, Again Undertake",
+          "uptie": 2
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count",
+          "name": "Undertake the Prescript, Again Undertake",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 2 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]",
+                "[CriticalOnSucceedAttack] Inflict +2 [Sinking] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Final Power +1\nCoin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count",
+          "name": "Undertake the Prescript, Again Undertake",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1021403": {
+      "data": [
+        {
+          "affinity": "gloom",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "Deal +2.5% damage for every [BlessingOfIndexPrescriptAlly] (max 20%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +30% damage instead",
+                "[OnSucceedAttack] Inflict 1 [Sinking]",
+                "[CriticalOnSucceedAttack] Inflict +2 [Sinking] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +20% damage on Critical Hit\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[StartBattle] At 6+ [BlessingOfIndexPrescriptAlly], convert all Coins of this Skill to [SuperCoin]s\n[WhenUse] Gain +3 [Breath] Count",
+          "levelCorrection": 3,
+          "name": "As the Prescript Demands, You will be Eliminated.",
+          "uptie": 3
+        },
+        {
+          "baseValue": 5,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Breath]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "Deal +5% damage for every [BlessingOfIndexPrescriptAlly] (max 40%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +60% damage instead",
+                "[OnSucceedAttack] Inflict 1 [Sinking]",
+                "[CriticalOnSucceedAttack] Inflict +3 [Sinking] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Final Power +1 and deal +30% damage on Critical Hit\nCoin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] At 6+ [BlessingOfIndexPrescriptAlly], convert all Coins of this Skill to [SuperCoin]s and deal +30% damage\n[WhenUse] Gain +3 [Breath] Count\n- Gain Breath equal to ([BlessingOfIndexPrescriptAlly]/3) (rounded down)",
+          "name": "As the Prescript Demands, You will be Eliminated.",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1021404": {
+      "data": [
+        {
+          "affinity": "gloom",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 2,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "counter",
+          "desc": "Final Power +1 for every 3 [BlessingOfIndexPrescriptAlly] (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain 2 [Breath]",
+          "levelCorrection": 2,
+          "name": "Prescript-granted, Prescript-woven Fabric",
+          "uptie": 1
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Sinking]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "Final Power +1 and deal +10% damage for every 3 [BlessingOfIndexPrescriptAlly] (max 3 and 30%, respectively)\n[StartBattle] Gain Shield equal to 15% of max HP (once per turn)\n- Reduce Shield gained by 1.5% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain 2 [Breath]",
+          "name": "Prescript-granted, Prescript-woven Fabric",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1021421"
+      ],
+      "uptie": 3
+    }
+  ]
+}

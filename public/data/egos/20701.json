@@ -1,157 +1,68 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "envy",
-                "atkType": "blunt",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 3,
-                "baseValue": 13,
-                "coinValue": 9,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "baseValue": 15,
-                "coinValue": 9,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 9,
-                "coinTypes": [
-                    "normal"
-                ]
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Bodysack",
-                "abName": "Heathcliff",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackHead] Gain 1 [Enhancement] next turn",
-                        "[OnSucceedAttackHead] Gain 2 [Agility] next turn"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Bodysack",
-                "abName": "Heathcliff",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
-                        "[OnSucceedAttack] Gain 3 [Agility] next turn"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Bodysack",
-                "abName": "Heathcliff",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
-                        "[OnSucceedAttack] Gain 3 [Agility] next turn",
-                        "[EnemyKill] Gain 2 [Enhancement] next turn"
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "envy",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 13,
-                    "coinValue": 9,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 15,
-                    "coinValue": 9,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 9,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Bodysack",
-                    "abName": "Heathcliff",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Gain 1 [Enhancement] next turn",
-                            "[OnSucceedAttackHead] Gain 2 [Agility] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Bodysack",
-                    "abName": "Heathcliff",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
-                            "[OnSucceedAttack] Gain 3 [Agility] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Bodysack",
-                    "abName": "Heathcliff",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
-                            "[OnSucceedAttack] Gain 3 [Agility] next turn",
-                            "[EnemyKill] Gain 2 [Enhancement] next turn"
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
+          "affinity": "envy",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 13,
+          "coinValue": 9,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Gain 1 [Enhancement] next turn",
+                "[OnSucceedAttackHead] Gain 2 [Agility] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 3,
+          "name": "Bodysack",
+          "uptie": 1
+        },
         {
-            "name": "Vying Spirit",
-            "desc": "When another ally defeats an enemy, gain 1 [Enhancement] and 1 [Agility] at the start of next turn. (Max 3)"
+          "baseValue": 15,
+          "coinValue": 9,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
+                "[OnSucceedAttack] Gain 3 [Agility] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Bodysack",
+          "uptie": 3
+        },
+        {
+          "coinValue": 9,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
+                "[OnSucceedAttack] Gain 3 [Agility] next turn",
+                "[EnemyKill] Gain 2 [Enhancement] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Bodysack",
+          "uptie": 4
         }
-    ],
-    "notes": {}
+      ],
+      "type": "awakening"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "When another ally defeats an enemy, gain 1 [Enhancement] and 1 [Agility] at the start of next turn. (Max 3)",
+      "name": "Vying Spirit"
+    }
+  ]
 }

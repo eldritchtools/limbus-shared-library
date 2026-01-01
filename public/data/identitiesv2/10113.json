@@ -57,12 +57,22 @@
   },
   "skills": {
     "1011301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.49
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -79,6 +89,23 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.7
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -102,6 +129,23 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1.05
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -121,12 +165,22 @@
       "tier": 1
     },
     "1011302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.7
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -152,6 +206,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.7
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -203,6 +270,19 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1.05
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -231,12 +311,23 @@
       "tier": 2
     },
     "1011303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 2,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -274,6 +365,16 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -311,12 +412,19 @@
       "tier": 3
     },
     "1011304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -334,6 +442,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {

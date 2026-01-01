@@ -1,348 +1,347 @@
 {
-    "skills": {
-        "1061001": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 3,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Slam",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Burst]"
-                        ],
-                        []
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Slam",
-                    "desc": "If target has 6+ [Burst], Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Burst]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Burst]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Slam",
-                    "desc": "If target has 6+ [Burst], Coin Power +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Burst]",
-                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Burst]",
-                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1061002": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "pride",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 2,
-                    "baseValue": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Bonecrusher",
-                    "desc": "",
-                    "coinDescs": [
-                        [],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Burst]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Bonecrusher",
-                    "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Burst]",
-                            "[OnSucceedAttack] Inflict 1 [TakeHpHealReduce] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Bonecrusher",
-                    "desc": "If target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n- If target is a <Bloodfiend> or a <Bloodbag>, gain an additional Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +1 [Burst] Count",
-                            "[OnSucceedAttackHead] Inflict +1 [Burst] Count"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Burst]",
-                            "[OnSucceedAttack] Inflict 2 [TakeHpHealReduce] next turn"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1061003": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "wrath",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 3,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "baseValue": 4,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "A Cheerful Hunt's End",
-                    "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
-                        ],
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "A Cheerful Hunt's End",
-                    "desc": "If target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n- If target is a <Bloodfiend> or a <Bloodbag>, gain an additional Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Burst]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Burst]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 15+ [Burst], or has less than 30% HP, Reuse this Coin (once per Skill)"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1061004": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 10,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "wrath"
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Emergency Styptics",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Emergency Styptics",
-                    "desc": "[StartBattle] Lose 2 [Laceration] Potency on self (3 times per turn. If [Laceration] Potency drops to 0 or less, the [Laceration] effect expires)",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
+  "combatPassives": [
+    {
+      "passives": [
+        "1061001"
+      ],
+      "uptie": 2
     },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1061001
-            ]
-        },
-        {
-            "level": 4,
-            "passives": [
-                1061011
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1061021
-            ]
-        }
-    ],
-    "passiveData": {
-        "1061001": {
-            "name": "How to Hunt Cheerfully",
-            "desc": "If the target is a <Bloodfiend> or a <Bloodbag>, deal +10% damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (once per turn)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gluttony",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1061011": {
-            "name": "How to Hunt Cheerfully",
-            "desc": "If the target is a <Bloodfiend>, <Bloodbag>, or if the target has 10+ [Burst], deal +10% damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (2 times per turn)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gluttony",
-                        "value": 4
-                    }
-                ]
-            }
-        },
-        "1061021": {
-            "name": "Bloodfiend Hunting Manual - Styptics",
-            "desc": "Combat Start: 1 ally with the highest sum of [Laceration] Potency and Count loses 2 [Laceration] Count\nWhen 1 ally with the fastest Speed hits an enemy with [Burst], inflict 1 [DefenseDown] (2 times per turn)",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "gluttony",
-                        "value": 5
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Gains Coin Power and damage against BloodFiends and Bloodbags.",
-            "At 15+ Potency and 3+ Count of {status:Burst}, his S2 and S3 gains Coin Power instead of inflicting {status:Burst}."
-        ],
-        "other": [
-            "His passive lets him inflict additional {status:Burst} when he has {status:Laceration}.",
-            "His S3 gets a Coin Reuse if his target has 15+ {status:Burst} or less than 30% HP."
-        ]
+    {
+      "passives": [
+        "1061011"
+      ],
+      "uptie": 4
     }
+  ],
+  "notes": {
+    "main": [
+      "Gains Coin Power and damage against BloodFiends and Bloodbags.",
+      "At 15+ Potency and 3+ Count of {status:Burst}, his S2 and S3 gains Coin Power instead of inflicting {status:Burst}."
+    ],
+    "other": [
+      "His passive lets him inflict additional {status:Burst} when he has {status:Laceration}.",
+      "His S3 gets a Coin Reuse if his target has 15+ {status:Burst} or less than 30% HP."
+    ]
+  },
+  "passiveData": {
+    "1061001": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gluttony",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "If the target is a <Bloodfiend> or a <Bloodbag>, deal +10% damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (once per turn)",
+      "name": "How to Hunt Cheerfully"
+    },
+    "1061011": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gluttony",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "If the target is a <Bloodfiend>, <Bloodbag>, or if the target has 10+ [Burst], deal +10% damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (2 times per turn)",
+      "name": "How to Hunt Cheerfully"
+    },
+    "1061021": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "gluttony",
+            "value": 5
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "Combat Start: 1 ally with the highest sum of [Laceration] Potency and Count loses 2 [Laceration] Count\nWhen 1 ally with the fastest Speed hits an enemy with [Burst], inflict 1 [DefenseDown] (2 times per turn)",
+      "name": "Bloodfiend Hunting Manual - Styptics"
+    }
+  },
+  "skills": {
+    "1061001": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 1,
+          "name": "Slam",
+          "uptie": 1
+        },
+        {
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Burst], Coin Power +1",
+          "name": "Slam",
+          "uptie": 2
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Burst], Coin Power +1",
+          "name": "Slam",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]",
+                "[OnSucceedAttackHead] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Burst]",
+                "[OnSucceedAttackHead] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Burst], Coin Power +1",
+          "name": "Slam",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1061002": {
+      "data": [
+        {
+          "affinity": "pride",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Burst]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 2,
+          "name": "Bonecrusher",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +1 [Burst] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Burst]",
+                "[OnSucceedAttack] Inflict 1 [TakeHpHealReduce] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Bonecrusher",
+          "uptie": 2
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +1 [Burst] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Burst]",
+                "[OnSucceedAttack] Inflict 1 [TakeHpHealReduce] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Bonecrusher",
+          "uptie": 3
+        },
+        {
+          "coinValue": 5,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                "[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Burst]",
+                "[OnSucceedAttack] Inflict 2 [TakeHpHealReduce] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n- If target is a <Bloodfiend> or a <Bloodbag>, gain an additional Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Bonecrusher",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1061003": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "levelCorrection": 3,
+          "name": "A Cheerful Hunt's End",
+          "uptie": 3
+        },
+        {
+          "baseValue": 4,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Burst]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 15+ [Burst], or has less than 30% HP, Reuse this Coin (once per Skill)"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "If target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n- If target is a <Bloodfiend> or a <Bloodbag>, gain an additional Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
+          "name": "A Cheerful Hunt's End",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1061004": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 10,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Emergency Styptics",
+          "uptie": 1
+        },
+        {
+          "affinity": "wrath",
+          "desc": "[StartBattle] Lose 2 [Laceration] Potency on self (3 times per turn. If [Laceration] Potency drops to 0 or less, the [Laceration] effect expires)",
+          "name": "Emergency Styptics",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1061021"
+      ],
+      "uptie": 3
+    }
+  ]
 }

@@ -1,293 +1,116 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "pride",
-                "atkType": "slash",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 0,
-                "baseValue": 18,
-                "coinValue": 6,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "atkWeight": 2,
-                "coinValue": 6,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "atkWeight": 3
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Blind Obsession",
-                "abName": "Dream-Devouring Siltcurrent",
-                "desc": "[BeforeAttack] Gain 4 [Breath]",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain +2 [Charge] Count",
-                        "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Blind Obsession",
-                "abName": "Dream-Devouring Siltcurrent",
-                "desc": "[BeforeAttack] Gain 4 [Breath]\n[EndSkill] Gain 2 [Breath] for every unit defeated by this Skill",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain +2 [Charge] Count",
-                        "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Blind Obsession",
-                "abName": "Dream-Devouring Siltcurrent",
-                "desc": "[BeforeAttack] Gain 4 [Breath]\n[EndSkill] Gain 2 [Breath] for every unit defeated by this Skill",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain +2 [Charge] Count",
-                        "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "pride",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 18,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "atkWeight": 2,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "atkWeight": 3
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Blind Obsession",
-                    "abName": "Dream-Devouring Siltcurrent",
-                    "desc": "[BeforeAttack] Gain 4 [Breath]",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +2 [Charge] Count",
-                            "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Blind Obsession",
-                    "abName": "Dream-Devouring Siltcurrent",
-                    "desc": "[BeforeAttack] Gain 4 [Breath]\n[EndSkill] Gain 2 [Breath] for every unit defeated by this Skill",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +2 [Charge] Count",
-                            "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Blind Obsession",
-                    "abName": "Dream-Devouring Siltcurrent",
-                    "desc": "[BeforeAttack] Gain 4 [Breath]\n[EndSkill] Gain 2 [Breath] for every unit defeated by this Skill",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +2 [Charge] Count",
-                            "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
-        {
-            "name": "Dream Devouring",
-            "desc": "On Crit with a Pride affinity Skill, gain 1 [Breath] Count (3 times per turn)"
-        }
-    ],
-    "notes": {},
-    "corrosionSkill": {
-        "tier": 3,
-        "type": "corrosion",
-        "data": [
+          "affinity": "pride",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 18,
+          "coinValue": 6,
+          "coins": [
             {
-                "uptie": 1,
-                "affinity": "pride",
-                "atkType": "slash",
-                "defType": "attack",
-                "atkWeight": 1,
-                "levelCorrection": 3,
-                "baseValue": 30,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "atkWeight": 2,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "atkWeight": 3,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
+              "descs": [
+                "[OnSucceedAttack] Gain +2 [Charge] Count",
+                "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
+              ],
+              "type": "normal"
             }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Blind Obsession",
-                "abName": "Dream-Devouring Siltcurrent",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain +1 [Breath] Count"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Blind Obsession",
-                "abName": "Dream-Devouring Siltcurrent",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain +1 [Breath] Count"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Blind Obsession",
-                "abName": "Dream-Devouring Siltcurrent",
-                "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Gain +1 [Breath] Count",
-                        "[CriticalOnSucceedAttack] At 10+ [Breath], gain +30% Critical Damage"
-                    ]
-                ]
-            }
-        ]
-    },
-    "corrosionSkills": [
+          ],
+          "defType": "attack",
+          "desc": "[BeforeAttack] Gain 4 [Breath]",
+          "levelCorrection": 0,
+          "name": "Blind Obsession",
+          "uptie": 1
+        },
         {
-            "tier": 3,
-            "type": "corrosion",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "pride",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 30,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "atkWeight": 2,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "atkWeight": 3,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Blind Obsession",
-                    "abName": "Dream-Devouring Siltcurrent",
-                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +1 [Breath] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Blind Obsession",
-                    "abName": "Dream-Devouring Siltcurrent",
-                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +1 [Breath] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Blind Obsession",
-                    "abName": "Dream-Devouring Siltcurrent",
-                    "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Gain +1 [Breath] Count",
-                            "[CriticalOnSucceedAttack] At 10+ [Breath], gain +30% Critical Damage"
-                        ]
-                    ]
-                }
-            ]
+          "atkWeight": 2,
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +2 [Charge] Count",
+                "[CriticalOnSucceedAttack] Gain +2 [Charge] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] Gain 4 [Breath]\n[EndSkill] Gain 2 [Breath] for every unit defeated by this Skill",
+          "name": "Blind Obsession",
+          "uptie": 3
+        },
+        {
+          "atkWeight": 3,
+          "desc": "[BeforeAttack] Gain 4 [Breath]\n[EndSkill] Gain 2 [Breath] for every unit defeated by this Skill",
+          "name": "Blind Obsession",
+          "uptie": 4
         }
-    ]
+      ],
+      "type": "awakening"
+    }
+  ],
+  "corrosionSkills": [
+    {
+      "data": [
+        {
+          "affinity": "pride",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 30,
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Breath] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
+          "levelCorrection": 3,
+          "name": "Blind Obsession",
+          "uptie": 1
+        },
+        {
+          "atkWeight": 2,
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Breath] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
+          "name": "Blind Obsession",
+          "uptie": 3
+        },
+        {
+          "atkWeight": 3,
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Gain +1 [Breath] Count",
+                "[CriticalOnSucceedAttack] At 10+ [Breath], gain +30% Critical Damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain 4 [Breath]. Consume 2 [Charge] Count to gain 1 [Breath] (Max 10)\n[EndSkill] Gain +4 [Charge] Count for every unit defeated by this Skill",
+          "name": "Blind Obsession",
+          "uptie": 4
+        }
+      ],
+      "type": "corrosion"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "On Crit with a Pride affinity Skill, gain 1 [Breath] Count (3 times per turn)",
+      "name": "Dream Devouring"
+    }
+  ]
 }

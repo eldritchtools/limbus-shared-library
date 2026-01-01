@@ -78,6 +78,7 @@
   },
   "skills": {
     "1010801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -132,6 +133,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -155,6 +162,7 @@
       "tier": 1
     },
     "1010802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -215,6 +223,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -241,6 +255,7 @@
       "tier": 2
     },
     "1010803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -272,6 +287,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -298,6 +319,7 @@
       "tier": 3
     },
     "1010804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

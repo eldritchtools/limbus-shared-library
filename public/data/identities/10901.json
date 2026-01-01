@@ -1,284 +1,272 @@
 {
-    "skills": {
-        "1090101": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 2,
-                    "coinValue": 7,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 7,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 3
-                },
-                {
-                    "uptie": 4,
-                    "baseValue": 4
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Strike Down",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Strike Down",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1090102": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "pride",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 3,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 4
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Axe Combo",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Axe Combo",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Axe Combo",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Laceration]",
-                            "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1090103": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "wrath",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 2,
-                    "coinValue": 2,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "baseValue": 4,
-                    "coinValue": 2,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Slay",
-                    "desc": "Skill Power +1 when below 0 SP",
-                    "coinDescs": [
-                        [],
-                        [],
-                        [],
-                        [
-                            "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Slay",
-                    "desc": "Skill Power +1 when below 0 SP",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Laceration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1090104": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "wrath",
-                    "atkType": "slash",
-                    "defType": "counter",
-                    "atkWeight": 1,
-                    "levelCorrection": 0,
-                    "baseValue": 7,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Counter",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
-    },
-    "combatPassives": [
-        {
-            "level": 1,
-            "passives": [
-                1090101
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1090121
-            ]
-        }
-    ],
-    "passiveData": {
-        "1090121": {
-            "name": "Gambler",
-            "desc": "1 ally with the most HP deals +20% damage with Heads Coins.",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "wrath",
-                        "value": 5
-                    }
-                ]
-            }
-        },
-        "1090101": {
-            "name": "Split Evil",
-            "desc": "On hit, inflict 1 [Laceration] at a 50% chance.",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "wrath",
-                        "value": 5
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Base identity, simple, straightforward.",
-            "She just inflicts {status:Laceration}. Her support passive is pretty useful for more damage."
-        ]
+  "combatPassives": [
+    {
+      "passives": [
+        "1090101"
+      ],
+      "uptie": 1
     }
+  ],
+  "notes": {
+    "main": [
+      "Base identity, simple, straightforward.",
+      "She just inflicts {status:Laceration}. Her support passive is pretty useful for more damage."
+    ]
+  },
+  "passiveData": {
+    "1090101": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "wrath",
+            "value": 5
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "On hit, inflict 1 [Laceration] at a 50% chance.",
+      "name": "Split Evil"
+    },
+    "1090121": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "wrath",
+            "value": 5
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "1 ally with the most HP deals +20% damage with Heads Coins.",
+      "name": "Gambler"
+    }
+  },
+  "skills": {
+    "1090101": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 7,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Strike Down",
+          "uptie": 1
+        },
+        {
+          "coinValue": 7,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Strike Down",
+          "uptie": 2
+        },
+        {
+          "baseValue": 3,
+          "desc": "",
+          "name": "Strike Down",
+          "uptie": 3
+        },
+        {
+          "baseValue": 4,
+          "desc": "",
+          "name": "Strike Down",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1090102": {
+      "data": [
+        {
+          "affinity": "pride",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Axe Combo",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Axe Combo",
+          "uptie": 2
+        },
+        {
+          "baseValue": 4,
+          "desc": "",
+          "name": "Axe Combo",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "[OnSucceedAttackHead] Inflict +1 [Laceration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Axe Combo",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1090103": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 2,
+          "coins": [
+            {
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            },
+            {
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "Skill Power +1 when below 0 SP",
+          "levelCorrection": 0,
+          "name": "Slay",
+          "uptie": 3
+        },
+        {
+          "baseValue": 4,
+          "coinValue": 2,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Laceration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "Skill Power +1 when below 0 SP",
+          "name": "Slay",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1090104": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "slash",
+          "atkWeight": 1,
+          "baseValue": 7,
+          "coinValue": 4,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "counter",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Counter",
+          "uptie": 1
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1090121"
+      ],
+      "uptie": 3
+    }
+  ]
 }

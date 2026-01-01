@@ -62,6 +62,7 @@
   },
   "skills": {
     "1010601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -105,6 +106,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -123,6 +130,7 @@
       "tier": 1
     },
     "1010602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -151,6 +159,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -178,6 +192,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -202,12 +222,19 @@
       "tier": 2
     },
     "1010603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -238,6 +265,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -269,11 +302,18 @@
       "tier": 3
     },
     "1010604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -288,6 +328,12 @@
         },
         {
           "affinity": "gloom",
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {

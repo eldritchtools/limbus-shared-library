@@ -1,301 +1,126 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "gluttony",
-                "atkType": "slash",
-                "defType": "attack",
-                "atkWeight": 3,
-                "levelCorrection": -2,
-                "baseValue": 18,
-                "coinValue": 6,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": 6,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 6,
-                "coinTypes": [
-                    "normal"
-                ]
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Lantern",
-                "abName": "Faelantern",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackHead] Inflict 3 [Burst]",
-                        "[OnSucceedAttack] Heal 2 allies with the lowest HP Percentages by 10% of Max HP."
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Lantern",
-                "abName": "Faelantern",
-                "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackHead] Inflict 3 [Burst]",
-                        "[OnSucceedAttack] Heal 2 allies with the lowest HP by 12% of Max HP."
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Lantern",
-                "abName": "Faelantern",
-                "desc": "[BeforeAttack] At 50%- HP, Atk Weight +2",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict 3 [Burst]",
-                        "[OnSucceedAttack] Heal 2 allies with the lowest HP by 15% of Max HP."
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 3,
-                    "levelCorrection": -2,
-                    "baseValue": 18,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 6,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Lantern",
-                    "abName": "Faelantern",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 3 [Burst]",
-                            "[OnSucceedAttack] Heal 2 allies with the lowest HP Percentages by 10% of Max HP."
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Lantern",
-                    "abName": "Faelantern",
-                    "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 3 [Burst]",
-                            "[OnSucceedAttack] Heal 2 allies with the lowest HP by 12% of Max HP."
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Lantern",
-                    "abName": "Faelantern",
-                    "desc": "[BeforeAttack] At 50%- HP, Atk Weight +2",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 3 [Burst]",
-                            "[OnSucceedAttack] Heal 2 allies with the lowest HP by 15% of Max HP."
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
-        {
-            "name": "Fairy Lure",
-            "desc": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal (3 + (Gluttony A-Reson.))% HP"
-        }
-    ],
-    "notes": {},
-    "corrosionSkill": {
-        "tier": 3,
-        "type": "corrosion",
-        "data": [
+          "affinity": "gluttony",
+          "atkType": "slash",
+          "atkWeight": 3,
+          "baseValue": 18,
+          "coinValue": 6,
+          "coins": [
             {
-                "uptie": 1,
-                "affinity": "gluttony",
-                "atkType": "slash",
-                "defType": "attack",
-                "atkWeight": 3,
-                "levelCorrection": 1,
-                "baseValue": 30,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 3 [Burst]",
+                "[OnSucceedAttack] Heal 2 allies with the lowest HP Percentages by 10% of Max HP."
+              ],
+              "type": "normal"
             }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Lantern",
-                "abName": "Faelantern",
-                "desc": "[CantIdentify] \nTarget the unit with the most HP",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackTail] Inflict +2 [Burst] Count",
-                        "[OnSucceedAttack] Heal self by 30% of damage dealt"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Lantern",
-                "abName": "Faelantern",
-                "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttackTail] Inflict +3 [Burst] Count",
-                        "[OnSucceedAttack] Inflict 3 [DefenseDown]",
-                        "[OnSucceedAttack] Heal self by 50% of damage dealt"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Lantern",
-                "abName": "Faelantern",
-                "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +2",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict +3 [Burst] Count",
-                        "[OnSucceedAttack] Inflict 5 [DefenseDown]",
-                        "[OnSucceedAttack] Heal self by 50% of damage dealt"
-                    ]
-                ]
-            }
-        ]
-    },
-    "corrosionSkills": [
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": -2,
+          "name": "Lantern",
+          "uptie": 1
+        },
         {
-            "tier": 3,
-            "type": "corrosion",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "slash",
-                    "defType": "attack",
-                    "atkWeight": 3,
-                    "levelCorrection": 1,
-                    "baseValue": 30,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Lantern",
-                    "abName": "Faelantern",
-                    "desc": "[CantIdentify] \nTarget the unit with the most HP",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackTail] Inflict +2 [Burst] Count",
-                            "[OnSucceedAttack] Heal self by 30% of damage dealt"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Lantern",
-                    "abName": "Faelantern",
-                    "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackTail] Inflict +3 [Burst] Count",
-                            "[OnSucceedAttack] Inflict 3 [DefenseDown]",
-                            "[OnSucceedAttack] Heal self by 50% of damage dealt"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Lantern",
-                    "abName": "Faelantern",
-                    "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +2",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict +3 [Burst] Count",
-                            "[OnSucceedAttack] Inflict 5 [DefenseDown]",
-                            "[OnSucceedAttack] Heal self by 50% of damage dealt"
-                        ]
-                    ]
-                }
-            ]
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 3 [Burst]",
+                "[OnSucceedAttack] Heal 2 allies with the lowest HP by 12% of Max HP."
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "name": "Lantern",
+          "uptie": 3
+        },
+        {
+          "coinValue": 6,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 3 [Burst]",
+                "[OnSucceedAttack] Heal 2 allies with the lowest HP by 15% of Max HP."
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "name": "Lantern",
+          "uptie": 4
         }
-    ]
+      ],
+      "type": "awakening"
+    }
+  ],
+  "corrosionSkills": [
+    {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "slash",
+          "atkWeight": 3,
+          "baseValue": 30,
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackTail] Inflict +2 [Burst] Count",
+                "[OnSucceedAttack] Heal self by 30% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[CantIdentify] \nTarget the unit with the most HP",
+          "levelCorrection": 1,
+          "name": "Lantern",
+          "uptie": 1
+        },
+        {
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackTail] Inflict +3 [Burst] Count",
+                "[OnSucceedAttack] Inflict 3 [DefenseDown]",
+                "[OnSucceedAttack] Heal self by 50% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "name": "Lantern",
+          "uptie": 3
+        },
+        {
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict +3 [Burst] Count",
+                "[OnSucceedAttack] Inflict 5 [DefenseDown]",
+                "[OnSucceedAttack] Heal self by 50% of damage dealt"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "name": "Lantern",
+          "uptie": 4
+        }
+      ],
+      "type": "corrosion"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal (3 + (Gluttony A-Reson.))% HP",
+      "name": "Fairy Lure"
+    }
+  ]
 }

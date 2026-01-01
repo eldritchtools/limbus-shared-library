@@ -1,310 +1,293 @@
 {
-    "skills": {
-        "1030401": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "lust",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 3
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 4,
-                    "coinTypes": [
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Rightful Purge",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [NailPersonality]",
-                            "[OnSucceedAttackHead] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [Vibration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Rightful Purge",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [NailPersonality]",
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Rightful Purge",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [NailPersonality]",
-                            "[OnSucceedAttack] Inflict 1 [Vibration]"
-                        ],
-                        [
-                            "[OnSucceedAttack] Inflict 2 [Vibration]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1030402": {
-            "tier": 2,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 3,
-                    "coinValue": 12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "coinValue": 12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "baseValue": 4
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Enactment!",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 2,
-                    "name": "Enactment!",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]",
-                            "+20% Damage to targets with 5+ [NailPersonality]"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Enactment!",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Trigger [VibrationExplosion]",
-                            "+30% damage to targets with 5+ [NailPersonality]"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1030403": {
-            "tier": 3,
-            "data": [
-                {
-                    "uptie": 3,
-                    "affinity": "wrath",
-                    "atkType": "blunt",
-                    "defType": "attack",
-                    "atkWeight": 1,
-                    "levelCorrection": 1,
-                    "baseValue": 4,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "baseValue": 5,
-                    "coinValue": 3,
-                    "coinTypes": [
-                        "normal",
-                        "normal",
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 3,
-                    "name": "Fanatical Judgement",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 1 [NailPersonality]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 1 [NailPersonality]",
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 1 [Reduction] next turn",
-                            "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 2 [Paralysis] next turn",
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Fanatical Judgement",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict 2 [NailPersonality]"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] Inflict 2 [NailPersonality]",
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
-                        ],
-                        [
-                            "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 1 [Reduction] next turn",
-                            "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 2 [Paralysis] next turn",
-                            "[OnSucceedAttack] Inflict +1 [Vibration] Count"
-                        ]
-                    ]
-                }
-            ]
-        },
-        "1030404": {
-            "tier": 1,
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "none",
-                    "atkType": null,
-                    "defType": "guard",
-                    "atkWeight": 1,
-                    "levelCorrection": 3,
-                    "baseValue": 10,
-                    "coinValue": 5,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "affinity": "lust"
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Guard",
-                    "desc": "",
-                    "coinDescs": [
-                        []
-                    ]
-                }
-            ]
-        }
-    },
-    "combatPassives": [
-        {
-            "level": 2,
-            "passives": [
-                1030401
-            ]
-        }
-    ],
-    "supportPassives": [
-        {
-            "level": 3,
-            "passives": [
-                1030421
-            ]
-        }
-    ],
-    "passiveData": {
-        "1030401": {
-            "name": "Thou Shalt Hammer!",
-            "desc": "If the target has [NailPersonality], inflict +1 [Vibration] Count.\nIf this unit is Fanatic, inflict +1 [NailPersonality].",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 3
-                    }
-                ]
-            }
-        },
-        "1030421": {
-            "name": "Hammer of Zealotry",
-            "desc": "1 Fanatic ally with the least SP deals +10% damage.",
-            "condition": {
-                "type": "owned",
-                "requirement": [
-                    {
-                        "type": "lust",
-                        "value": 4
-                    }
-                ]
-            }
-        }
-    },
-    "notes": {
-        "main": [
-            "Inflicts {status:Vibration} and {status:NailPersonality}.",
-            "Triggers {status:VibrationExplosion} on S2",
-            "S3 inflicts {status:Reduction} and {status:Paralysis} on heads hit if the target has 5+ {status:NailPersonality}."
-        ]
+  "combatPassives": [
+    {
+      "passives": [
+        "1030401"
+      ],
+      "uptie": 2
     }
+  ],
+  "notes": {
+    "main": [
+      "Inflicts {status:Vibration} and {status:NailPersonality}.",
+      "Triggers {status:VibrationExplosion} on S2",
+      "S3 inflicts {status:Reduction} and {status:Paralysis} on heads hit if the target has 5+ {status:NailPersonality}."
+    ]
+  },
+  "passiveData": {
+    "1030401": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 3
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "If the target has [NailPersonality], inflict +1 [Vibration] Count.\nIf this unit is Fanatic, inflict +1 [NailPersonality].",
+      "name": "Thou Shalt Hammer!"
+    },
+    "1030421": {
+      "condition": {
+        "requirement": [
+          {
+            "type": "lust",
+            "value": 4
+          }
+        ],
+        "type": "owned"
+      },
+      "desc": "1 Fanatic ally with the least SP deals +10% damage.",
+      "name": "Hammer of Zealotry"
+    }
+  },
+  "skills": {
+    "1030401": {
+      "data": [
+        {
+          "affinity": "lust",
+          "atkType": "pierce",
+          "atkWeight": 1,
+          "baseValue": 2,
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [NailPersonality]",
+                "[OnSucceedAttackHead] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 1,
+          "name": "Rightful Purge",
+          "uptie": 1
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [NailPersonality]",
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Rightful Purge",
+          "uptie": 2
+        },
+        {
+          "baseValue": 3,
+          "desc": "",
+          "name": "Rightful Purge",
+          "uptie": 3
+        },
+        {
+          "coinValue": 4,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [NailPersonality]",
+                "[OnSucceedAttack] Inflict 1 [Vibration]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [Vibration]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Rightful Purge",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    },
+    "1030402": {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 3,
+          "coinValue": 12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 1,
+          "name": "Enactment!",
+          "uptie": 1
+        },
+        {
+          "coinValue": 12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]",
+                "+20% Damage to targets with 5+ [NailPersonality]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Enactment!",
+          "uptie": 2
+        },
+        {
+          "baseValue": 4,
+          "desc": "",
+          "name": "Enactment!",
+          "uptie": 3
+        },
+        {
+          "coinValue": 12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Trigger [VibrationExplosion]",
+                "+30% damage to targets with 5+ [NailPersonality]"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Enactment!",
+          "uptie": 4
+        }
+      ],
+      "tier": 2
+    },
+    "1030403": {
+      "data": [
+        {
+          "affinity": "wrath",
+          "atkType": "blunt",
+          "atkWeight": 1,
+          "baseValue": 4,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [NailPersonality]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 1 [NailPersonality]",
+                "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 1 [Reduction] next turn",
+                "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 2 [Paralysis] next turn",
+                "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 1,
+          "name": "Fanatical Judgement",
+          "uptie": 3
+        },
+        {
+          "baseValue": 5,
+          "coinValue": 3,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict 2 [NailPersonality]"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] Inflict 2 [NailPersonality]",
+                "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            },
+            {
+              "descs": [
+                "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 1 [Reduction] next turn",
+                "[OnSucceedAttackHead] If target has 5+ [NailPersonality], inflict 2 [Paralysis] next turn",
+                "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "",
+          "name": "Fanatical Judgement",
+          "uptie": 4
+        }
+      ],
+      "tier": 3
+    },
+    "1030404": {
+      "data": [
+        {
+          "affinity": "none",
+          "atkWeight": 1,
+          "baseValue": 10,
+          "coinValue": 5,
+          "coins": [
+            {
+              "type": "normal"
+            }
+          ],
+          "defType": "guard",
+          "desc": "",
+          "levelCorrection": 3,
+          "name": "Guard",
+          "uptie": 1
+        },
+        {
+          "affinity": "lust",
+          "desc": "",
+          "name": "Guard",
+          "uptie": 4
+        }
+      ],
+      "tier": 1
+    }
+  },
+  "supportPassives": [
+    {
+      "passives": [
+        "1030421"
+      ],
+      "uptie": 3
+    }
+  ]
 }

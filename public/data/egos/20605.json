@@ -1,307 +1,129 @@
 {
-    "awakeningSkill": {
-        "tier": 3,
-        "type": "awakening",
-        "data": [
-            {
-                "uptie": 1,
-                "affinity": "gluttony",
-                "atkType": "pierce",
-                "defType": "attack",
-                "atkWeight": 2,
-                "levelCorrection": 0,
-                "baseValue": 17,
-                "coinValue": 15,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": 15,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": 15,
-                "coinTypes": [
-                    "normal"
-                ]
-            }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Effervescent Corrosion",
-                "abName": "Ambling Pearl",
-                "desc": "",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Effervescent Corrosion",
-                "abName": "Ambling Pearl",
-                "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
-                        "[OnSucceedAttackHead] Inflict 2 [ShamrockTakeDamageUp] next turn",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Effervescent Corrosion",
-                "abName": "Ambling Pearl",
-                "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1;\nAt 25%- HP, gain an additional Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
-                        "[OnSucceedAttack] Inflict 2 [ShamrockTakeDamageUp] next turn",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                    ]
-                ]
-            }
-        ]
-    },
-    "awakeningSkills": [
+  "awakeningSkills": [
+    {
+      "data": [
         {
-            "tier": 3,
-            "type": "awakening",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 2,
-                    "levelCorrection": 0,
-                    "baseValue": 17,
-                    "coinValue": 15,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": 15,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": 15,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Effervescent Corrosion",
-                    "abName": "Ambling Pearl",
-                    "desc": "",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
-                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Effervescent Corrosion",
-                    "abName": "Ambling Pearl",
-                    "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
-                            "[OnSucceedAttackHead] Inflict 2 [ShamrockTakeDamageUp] next turn",
-                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Effervescent Corrosion",
-                    "abName": "Ambling Pearl",
-                    "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1;\nAt 25%- HP, gain an additional Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
-                            "[OnSucceedAttack] Inflict 2 [ShamrockTakeDamageUp] next turn",
-                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
-    "passiveList": [
-        {
-            "name": "Green Slime",
-            "desc": "If struck at less than 50% HP, inflict 1 [Burst] on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)"
-        }
-    ],
-    "notes": {},
-    "corrosionSkill": {
-        "tier": 3,
-        "type": "corrosion",
-        "data": [
+          "affinity": "gluttony",
+          "atkType": "pierce",
+          "atkWeight": 2,
+          "baseValue": 17,
+          "coinValue": 15,
+          "coins": [
             {
-                "uptie": 1,
-                "affinity": "gluttony",
-                "atkType": "pierce",
-                "defType": "attack",
-                "atkWeight": 3,
-                "levelCorrection": 3,
-                "baseValue": 27,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 3,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
-            },
-            {
-                "uptie": 4,
-                "coinValue": -12,
-                "coinTypes": [
-                    "normal"
-                ]
+              "descs": [
+                "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
+                "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+              ],
+              "type": "normal"
             }
-        ],
-        "text": [
-            {
-                "uptie": 1,
-                "name": "Effervescent Corrosion",
-                "abName": "Ambling Pearl",
-                "desc": "[CantIdentify]\nTargets the unit with the least HP",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
-                        "[OnSucceedAttack] Heal 20% of damage dealt",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                    ]
-                ]
-            },
-            {
-                "uptie": 3,
-                "name": "Effervescent Corrosion",
-                "abName": "Ambling Pearl",
-                "desc": "[CantIdentify]\nTarget the unit with the least HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
-                        "[OnSucceedAttack] Heal 30% of damage dealt",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                    ]
-                ]
-            },
-            {
-                "uptie": 4,
-                "name": "Effervescent Corrosion",
-                "abName": "Ambling Pearl",
-                "desc": "[CantIdentify]\nTarget the unit with the least HP\n[BeforeAttack] At 50%- HP, Atk Weight +1\nAt 25%- HP, additional Atk Weight +1",
-                "coinDescs": [
-                    [
-                        "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
-                        "[OnSucceedAttack] Heal 50% of damage dealt",
-                        "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                    ]
-                ]
-            }
-        ]
-    },
-    "corrosionSkills": [
+          ],
+          "defType": "attack",
+          "desc": "",
+          "levelCorrection": 0,
+          "name": "Effervescent Corrosion",
+          "uptie": 1
+        },
         {
-            "tier": 3,
-            "type": "corrosion",
-            "data": [
-                {
-                    "uptie": 1,
-                    "affinity": "gluttony",
-                    "atkType": "pierce",
-                    "defType": "attack",
-                    "atkWeight": 3,
-                    "levelCorrection": 3,
-                    "baseValue": 27,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "coinValue": -12,
-                    "coinTypes": [
-                        "normal"
-                    ]
-                }
-            ],
-            "text": [
-                {
-                    "uptie": 1,
-                    "name": "Effervescent Corrosion",
-                    "abName": "Ambling Pearl",
-                    "desc": "[CantIdentify]\nTargets the unit with the least HP",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
-                            "[OnSucceedAttack] Heal 20% of damage dealt",
-                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 3,
-                    "name": "Effervescent Corrosion",
-                    "abName": "Ambling Pearl",
-                    "desc": "[CantIdentify]\nTarget the unit with the least HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
-                            "[OnSucceedAttack] Heal 30% of damage dealt",
-                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                        ]
-                    ]
-                },
-                {
-                    "uptie": 4,
-                    "name": "Effervescent Corrosion",
-                    "abName": "Ambling Pearl",
-                    "desc": "[CantIdentify]\nTarget the unit with the least HP\n[BeforeAttack] At 50%- HP, Atk Weight +1\nAt 25%- HP, additional Atk Weight +1",
-                    "coinDescs": [
-                        [
-                            "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
-                            "[OnSucceedAttack] Heal 50% of damage dealt",
-                            "[OnSucceedAttack] Inflict 2 [Binding] next turn"
-                        ]
-                    ]
-                }
-            ]
+          "coinValue": 15,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
+                "[OnSucceedAttackHead] Inflict 2 [ShamrockTakeDamageUp] next turn",
+                "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "name": "Effervescent Corrosion",
+          "uptie": 3
+        },
+        {
+          "coinValue": 15,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict [Burst] by (Gluttony Reson. /2)",
+                "[OnSucceedAttack] Inflict 2 [ShamrockTakeDamageUp] next turn",
+                "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1;\nAt 25%- HP, gain an additional Atk Weight +1",
+          "name": "Effervescent Corrosion",
+          "uptie": 4
         }
-    ]
+      ],
+      "type": "awakening"
+    }
+  ],
+  "corrosionSkills": [
+    {
+      "data": [
+        {
+          "affinity": "gluttony",
+          "atkType": "pierce",
+          "atkWeight": 3,
+          "baseValue": 27,
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
+                "[OnSucceedAttack] Heal 20% of damage dealt",
+                "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "defType": "attack",
+          "desc": "[CantIdentify]\nTargets the unit with the least HP",
+          "levelCorrection": 3,
+          "name": "Effervescent Corrosion",
+          "uptie": 1
+        },
+        {
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
+                "[OnSucceedAttack] Heal 30% of damage dealt",
+                "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTarget the unit with the least HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "name": "Effervescent Corrosion",
+          "uptie": 3
+        },
+        {
+          "coinValue": -12,
+          "coins": [
+            {
+              "descs": [
+                "[OnSucceedAttack] Inflict [Burst] Count by (Gluttony Reson. /3)",
+                "[OnSucceedAttack] Heal 50% of damage dealt",
+                "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+              ],
+              "type": "normal"
+            }
+          ],
+          "desc": "[CantIdentify]\nTarget the unit with the least HP\n[BeforeAttack] At 50%- HP, Atk Weight +1\nAt 25%- HP, additional Atk Weight +1",
+          "name": "Effervescent Corrosion",
+          "uptie": 4
+        }
+      ],
+      "type": "corrosion"
+    }
+  ],
+  "passiveList": [
+    {
+      "desc": "If struck at less than 50% HP, inflict 1 [Burst] on the attacker. (Activates (Highest Gluttony A-Reson) times per turn)",
+      "name": "Green Slime"
+    }
+  ]
 }

@@ -44,6 +44,7 @@
   },
   "skills": {
     "1010701": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -114,12 +115,19 @@
       "tier": 1
     },
     "1010702": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -142,6 +150,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -151,6 +165,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "crit"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Laceration]",
                 "[CriticalOnSucceedAttack] Reuse this Coin (1 time max)"
@@ -163,6 +186,12 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -172,6 +201,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "crit"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Laceration]",
                 "[CriticalOnSucceedAttack] Reuse this Coin (1 time max)"
@@ -184,6 +222,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -193,6 +237,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "crit"
+                  },
+                  "type": "reuse",
+                  "value": 3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Laceration]",
                 "[CriticalOnSucceedAttack] Reuse this Coin (3 times max)"
@@ -208,6 +261,7 @@
       "tier": 2
     },
     "1010703": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -237,6 +291,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -261,6 +321,7 @@
       "tier": 3
     },
     "1010704": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
