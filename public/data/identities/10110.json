@@ -256,6 +256,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "Consume all of [BulletLament] on self",
                 "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed",
@@ -264,6 +273,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add",
+                    "type": "gloom"
+                  },
+                  "type": "damage",
+                  "value": 20
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
               ],
@@ -304,6 +323,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.8
+                }
+              ],
               "descs": [
                 "Consume all of [BulletLament] on self",
                 "[OnSucceedAttack] Inflict [SinkingWhite] equal to [BulletLament] consumed",
@@ -312,6 +340,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add",
+                    "type": "gloom"
+                  },
+                  "type": "damage",
+                  "value": 20
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict Gloom damage equal to \"All\" [SinkingWhite] on target\n- \"All\" = the sum of both The Living and The Departed on target"
               ],

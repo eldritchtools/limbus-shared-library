@@ -191,6 +191,12 @@
           "coinValue": 8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
                 "[OnSucceedAttack] Inflict +1 [Laceration] Count",
@@ -215,6 +221,12 @@
           "coinValue": 8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
                 "[OnSucceedAttack] Inflict +1 [Laceration] Count",
@@ -247,6 +259,12 @@
           "coinValue": 8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] 40% chance to Reuse Coin. +20% more chance to Reuse Coin for every type of negative effect on target (2 times max per Skill)",
                 "[OnSucceedAttack] Inflict +1 [Laceration] Count",
