@@ -311,6 +311,7 @@
       "tier": 2
     },
     "1011303": {
+      "bonusNotes": "Assumes the first coin kills an ally from 100%, but ignores the Pierce resist modifier. Uses the target's Pierce resist setting.\nComputed damage is the sum of the ally and enemy damage between the two coins.",
       "bonusesEnabled": true,
       "data": [
         {

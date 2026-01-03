@@ -98,6 +98,7 @@
   },
   "skills": {
     "1071001": {
+      "bonusNotes": "Ignores bonuses from Coffin or Dullahan",
       "bonusesEnabled": true,
       "data": [
         {
@@ -204,6 +205,7 @@
       "tier": 1
     },
     "1071002": {
+      "bonusNotes": "Ignores bonuses from Coffin or Dullahan",
       "bonusesEnabled": true,
       "data": [
         {
@@ -312,6 +314,7 @@
       "tier": 2
     },
     "1071003": {
+      "bonusNotes": "Ignores bonuses from Coffin or Dullahan, but applies the skill's max damage bonus from Coffin",
       "bonusesEnabled": true,
       "data": [
         {
@@ -470,6 +473,7 @@
       "tier": 1
     },
     "1071005": {
+      "bonusNotes": "Ignores bonuses from Coffin or Dullahan, but applies the skill's maximum damage bonus from having them",
       "bonusesEnabled": true,
       "data": [
         {
@@ -602,6 +606,7 @@
       "tier": 3
     },
     "1071006": {
+      "bonusNotes": "Ignores bonuses from Coffin or Dullahan, but applies the skill's maximum damage bonus from having them",
       "bonusesEnabled": true,
       "data": [
         {

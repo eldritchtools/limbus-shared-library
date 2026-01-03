@@ -314,6 +314,7 @@
       "tier": 2
     },
     "1061303": {
+      "bonusNotes": "Only counts this skill's damage, not the follow-up attacks.",
       "bonusesEnabled": true,
       "data": [
         {
@@ -397,6 +398,7 @@
       "tier": 1
     },
     "1061305": {
+      "bonusNotes": "Assumes 2 stacks of Heishou Bolus Contamination for a clean 10%/20% damage bonus.",
       "bonusesEnabled": true,
       "data": [
         {
@@ -516,6 +518,7 @@
       "tier": 3
     },
     "1061306": {
+      "bonusNotes": "Assumes no Heishou Deaths and 2 stacks of Heishou Bolus Contamination",
       "bonusesEnabled": true,
       "data": [
         {
