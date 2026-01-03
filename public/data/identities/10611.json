@@ -81,6 +81,7 @@
   },
   "skills": {
     "1061101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -182,12 +183,19 @@
       "tier": 1
     },
     "1061102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -197,6 +205,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 3 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage"
@@ -217,6 +234,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -226,6 +249,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 3 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage"
@@ -251,6 +283,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -260,6 +298,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 3 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage",
@@ -268,6 +319,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "+20% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 1 [Binding] next turn",
@@ -284,15 +341,31 @@
       "tier": 2
     },
     "1061103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "Spend 1 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage",
@@ -301,6 +374,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "Spend up to 2 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage",
@@ -309,6 +391,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "If target is Staggered, +30% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 1 [Binding] next turn",
@@ -325,9 +413,24 @@
         },
         {
           "baseValue": 7,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "Spend 1 [Bullet]",
                 "Deal +([Bullet] spent x 15)% damage",
@@ -336,6 +439,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 2 [Bullet]",
                 "Deal +([Bullet] spent x 15)% damage",
@@ -344,6 +456,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "If target is Staggered, +30% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [Binding] next turn",
@@ -360,6 +478,7 @@
       "tier": 3
     },
     "1061104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
@@ -387,12 +506,19 @@
       "tier": 1
     },
     "1061105": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -402,6 +528,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 3 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage"
@@ -416,6 +551,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "+30% Damage on Critical Hit"
@@ -431,6 +572,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -440,6 +587,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 3 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage",
@@ -448,6 +608,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "+20% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 1 [Binding] next turn",
@@ -456,6 +622,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "+30% Damage on Critical Hit"
@@ -471,15 +643,31 @@
       "tier": 2
     },
     "1061106": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "Spend 1 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage",
@@ -488,6 +676,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "Spend up to 2 [Bullet]",
                 "Deal +([Bullet] spent x 10)% damage",
@@ -496,6 +693,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "If target is Staggered, +30% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 1 [Binding] next turn",
@@ -504,6 +707,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": "={res.pierce}*.5"
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "+30% Damage on Critical Hit",
@@ -520,9 +736,24 @@
         },
         {
           "baseValue": 7,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "Spend 1 [Bullet]",
                 "Deal +([Bullet] spent x 15)% damage",
@@ -531,6 +762,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Spend up to 2 [Bullet]",
                 "Deal +([Bullet] spent x 15)% damage",
@@ -539,6 +779,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "If target is Staggered, +30% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [Binding] next turn",
@@ -547,6 +793,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.5
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": "={res.pierce}*.5"
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "+50% Damage on Critical Hit",
@@ -563,6 +822,7 @@
       "tier": 3
     },
     "1061107": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -591,6 +851,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.2
+            }
+          ],
           "desc": "[DuelCounter]\n+20% Damage on Critical Hit\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] [FullReload] (once per Encounter)",
           "name": "Beyond the Shadow",
           "uptie": 4
@@ -599,6 +865,7 @@
       "tier": 1
     },
     "1061108": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -627,6 +894,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.2
+            }
+          ],
           "desc": "+20% Damage on Critical Hit\n[WhenUse] Gain +2 [Breath] Count",
           "name": "Melee Support",
           "uptie": 4

@@ -45,6 +45,7 @@
   },
   "skills": {
     "1070501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -109,12 +110,19 @@
       "tier": 1
     },
     "1070502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 8,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": -3,
           "coins": [
             {
@@ -146,6 +154,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": -3,
           "coins": [
             {
@@ -164,6 +178,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "Spend 5 [Sinking] to deal +20% damage",
                 "[OnSucceedAttackTail] Trigger [VibrationExplosion]"
@@ -182,6 +205,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            },
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] When below -15 SP, Final Power +3\n[WhenUse] When below -25 SP, Final Power +2",
           "name": "Puddle Stomp",
           "uptie": 4
@@ -190,6 +223,7 @@
       "tier": 2
     },
     "1070503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -225,6 +259,7 @@
       "tier": 3
     },
     "1070504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",

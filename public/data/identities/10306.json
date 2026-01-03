@@ -66,6 +66,7 @@
   },
   "skills": {
     "1030601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -123,12 +124,19 @@
       "tier": 1
     },
     "1030602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 4
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -149,6 +157,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 6
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -167,6 +181,12 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 6
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -185,6 +205,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 9
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -206,12 +232,19 @@
       "tier": 2
     },
     "1030603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 6
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -246,6 +279,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 9
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -281,6 +320,7 @@
       "tier": 3
     },
     "1030604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -333,12 +373,19 @@
       "tier": 1
     },
     "1030605": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 6
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -373,6 +420,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 9
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {

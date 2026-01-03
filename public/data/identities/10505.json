@@ -43,6 +43,7 @@
   },
   "skills": {
     "1050501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -86,6 +87,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "If target has 5+ [Vibration] Count, Coin Power +2",
           "name": "Saddled Tasks",
           "uptie": 4
@@ -94,6 +101,7 @@
       "tier": 1
     },
     "1050502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -149,6 +157,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            }
+          ],
           "desc": "If target has 7+ [Vibration] Count, Final Power +1",
           "name": "Forced Break",
           "uptie": 4
@@ -157,6 +171,7 @@
       "tier": 2
     },
     "1050503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -200,6 +215,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 10+ [Vibration] Count, Coin Power +1",
           "name": "Finishing Runup",
           "uptie": 4
@@ -208,6 +229,7 @@
       "tier": 3
     },
     "1050504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -42,6 +42,7 @@
   },
   "skills": {
     "1040301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -84,6 +85,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "desc": "If target has 2+ [Laceration] Count, deal +20% damage",
           "name": "Focus Strike",
           "uptie": 4
@@ -92,6 +102,7 @@
       "tier": 1
     },
     "1040302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -147,6 +158,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -171,6 +191,7 @@
       "tier": 2
     },
     "1040303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -200,6 +221,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            }
+          ],
           "desc": "If target has 9+ [Laceration] Count, deal +40% damage",
           "name": "Lenticular Swirl",
           "uptie": 4
@@ -208,6 +238,7 @@
       "tier": 3
     },
     "1040304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -42,12 +42,19 @@
   },
   "skills": {
     "1070201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -61,6 +68,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -78,6 +91,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "desc": "At less than 50% HP, Skill Power +2\n[WhenUse] Gain +3 [Breath] Count",
           "name": "Extreme Edge",
           "uptie": 4
@@ -86,12 +105,19 @@
       "tier": 1
     },
     "1070202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -105,6 +131,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -122,6 +154,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "desc": "At less than 50% HP, +2 Skill Power\n[WhenUse] Gain 3 [Breath]",
           "name": "Flying Sword",
           "uptie": 4
@@ -130,21 +168,46 @@
       "tier": 2
     },
     "1070203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin"
               ],
@@ -158,6 +221,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2.0
+            }
+          ],
           "desc": "At 10+ [Breath] Count, Skill Power +2\nAt less than 50% HP, Atk Weight +1",
           "name": "Flashing Strike",
           "uptie": 4
@@ -166,6 +235,7 @@
       "tier": 3
     },
     "1070204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -185,6 +255,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "desc": "[WhenUse] Lose 5 HP\nAt 3+ [Breath] Count, Damage +50%",
           "name": "Counter",
           "uptie": 4

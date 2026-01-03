@@ -80,12 +80,22 @@
   },
   "skills": {
     "1021401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -108,6 +118,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
           "name": "Unerringly, As the Prescript Demands",
           "uptie": 2
@@ -133,6 +156,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -157,12 +197,19 @@
       "tier": 1
     },
     "1021402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -188,6 +235,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -240,6 +297,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -270,12 +337,23 @@
       "tier": 2
     },
     "1021403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.2
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -291,6 +369,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Deal +2.5% damage for every [BlessingOfIndexPrescriptAlly] (max 20%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +30% damage instead",
                 "[OnSucceedAttack] Inflict 1 [Sinking]",
@@ -307,6 +394,27 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "type": "critdamage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -322,6 +430,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 "Deal +5% damage for every [BlessingOfIndexPrescriptAlly] (max 40%)\n- At 9 [BlessingOfIndexPrescriptAlly], deal +60% damage instead",
                 "[OnSucceedAttack] Inflict 1 [Sinking]",
@@ -338,12 +455,19 @@
       "tier": 3
     },
     "1021404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -369,6 +493,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {

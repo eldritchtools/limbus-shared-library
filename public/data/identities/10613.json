@@ -63,6 +63,7 @@
   },
   "skills": {
     "1061301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -91,6 +92,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -118,6 +125,16 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -141,6 +158,7 @@
       "tier": 1
     },
     "1061302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -182,6 +200,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -204,6 +228,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +50% damage",
@@ -223,6 +256,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -245,6 +284,19 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +50% damage",
@@ -262,6 +314,7 @@
       "tier": 2
     },
     "1061303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -287,6 +340,12 @@
         },
         {
           "baseValue": 10,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 12,
           "coins": [
             {
@@ -306,6 +365,7 @@
       "tier": 3
     },
     "1061304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -337,12 +397,34 @@
       "tier": 1
     },
     "1061305": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -367,6 +449,41 @@
         },
         {
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -376,6 +493,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Deal +50% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -393,12 +516,33 @@
       "tier": 3
     },
     "1061306": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -414,6 +558,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Deal +10% damage for every type of negative effect on target (max 50%)",
                 "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -431,6 +584,33 @@
         },
         {
           "baseValue": 6,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -446,6 +626,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Deal +10% damage for every type of negative effect on target (max 50%)",
                 "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -463,12 +652,19 @@
       "tier": 3
     },
     "1061307": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {

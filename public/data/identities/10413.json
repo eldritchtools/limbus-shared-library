@@ -62,6 +62,7 @@
   },
   "skills": {
     "1041301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -84,6 +85,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -104,9 +111,21 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "+20% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -123,6 +142,7 @@
       "tier": 1
     },
     "1041302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -158,6 +178,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -191,6 +217,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -206,6 +238,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "+20% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -222,12 +260,23 @@
       "tier": 2
     },
     "1041303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -251,6 +300,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 1.0
+                }
+              ],
               "descs": [
                 "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) (max 100%)",
                 "[OnSucceedAttack] Inflict 2 [Burst]"
@@ -266,6 +321,16 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -289,6 +354,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 1.2
+                }
+              ],
               "descs": [
                 "[OnStartCoin] Deal +2% damage on Critical Hit for every ([Breath] on self + [Burst] on target) (max 120%)",
                 "[OnSucceedAttack] Inflict 2 [Burst]"
@@ -304,11 +375,18 @@
       "tier": 3
     },
     "1041304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "skilllevel",
+              "value": 6
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {

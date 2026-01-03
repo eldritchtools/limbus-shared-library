@@ -71,6 +71,7 @@
   },
   "skills": {
     "1071401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -102,6 +103,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
           "name": "Peck 'em",
           "uptie": 2
@@ -130,6 +137,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -157,6 +174,7 @@
       "tier": 1
     },
     "1071402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -178,6 +196,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain 3 [Combustion] and +1 [Combustion] Count",
                 "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
@@ -192,6 +219,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1\n[StartDuel] Apply 1 [Combustion] and +1 [Combustion] Count to target and self",
           "name": "Mutilating Talons",
           "uptie": 2
@@ -212,6 +245,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain 3 [Combustion] and +1 [Combustion] Count",
                 "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
@@ -224,6 +266,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -241,6 +293,23 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "wrath"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                },
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain 3 [Combustion] and +1 [Combustion] Count",
                 "[OnSucceedAttack] Deal (([Combustion] on self x 2)% of this Coin's final damage) Wrath damage (max 20%)",
@@ -257,6 +326,7 @@
       "tier": 2
     },
     "1071403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -300,6 +370,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -324,6 +411,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "gluttony"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict +3 [Burst] Count",
                 "[OnSucceedAttack] Deal (([Combustion] on self + [Combustion] on the main target)% of this Coin's final damage) Gluttony damage against all targets (max 20%)"
@@ -339,12 +436,19 @@
       "tier": 3
     },
     "1071404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -368,6 +472,23 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -391,6 +512,7 @@
       "tier": 1
     },
     "1071405": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -421,6 +543,12 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Inflict 2 [Combustion]",
@@ -436,6 +564,30 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.6
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -460,6 +612,20 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "wrath"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Inflict 2 [Combustion]",

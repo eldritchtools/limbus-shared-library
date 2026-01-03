@@ -43,6 +43,7 @@
   },
   "skills": {
     "1030301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -102,6 +103,7 @@
       "tier": 1
     },
     "1030302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -179,12 +181,19 @@
       "tier": 2
     },
     "1030303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 21,
           "coins": [
             {
@@ -198,6 +207,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 5
+            }
+          ],
           "desc": "At 10+ Speed, Skill Power +5",
           "name": "Overbreathe",
           "uptie": 4
@@ -206,6 +221,7 @@
       "tier": 3
     },
     "1030304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

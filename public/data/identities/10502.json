@@ -42,6 +42,7 @@
   },
   "skills": {
     "1050201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -119,6 +120,7 @@
       "tier": 1
     },
     "1050202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -199,6 +201,7 @@
       "tier": 2
     },
     "1050203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -231,6 +234,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 5+ [Combustion], Coin Power +1",
           "name": "Perfected Death Fist",
           "uptie": 4
@@ -239,6 +248,7 @@
       "tier": 3
     },
     "1050204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

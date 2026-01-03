@@ -43,6 +43,7 @@
   },
   "skills": {
     "1020301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -103,6 +104,7 @@
       "tier": 1
     },
     "1020302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -200,12 +202,19 @@
       "tier": 2
     },
     "1020303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {
@@ -228,6 +237,7 @@
       "tier": 3
     },
     "1020304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

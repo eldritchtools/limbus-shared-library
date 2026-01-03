@@ -80,6 +80,7 @@
   },
   "skills": {
     "1030701": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -139,6 +140,7 @@
       "tier": 1
     },
     "1030702": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -228,6 +230,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -258,6 +266,7 @@
       "tier": 2
     },
     "1030703": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -276,6 +285,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Heal 10 HP.",
                 "[OnSucceedAttack] Heal additional HP based on [Burst] on target (1 HP healed per 1 [Burst]. Max 20)",
@@ -291,6 +306,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -303,6 +324,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Heal 15 HP. Heal by +50% more HP when reusing Coin.",
                 "[OnSucceedAttack] Heal additional HP based on [Burst] on target (2 HP healed per 1 [Burst]. Max 40)",
@@ -319,6 +346,7 @@
       "tier": 3
     },
     "1030704": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
@@ -339,6 +367,12 @@
         {
           "affinity": "gluttony",
           "baseValue": 12,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {

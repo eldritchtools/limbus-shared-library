@@ -59,6 +59,7 @@
   },
   "skills": {
     "1071301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -87,6 +88,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] At 6+ [Charge] Count, Clash Power +1",
           "name": "Congestion Cleanup",
           "uptie": 2
@@ -98,6 +105,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -122,12 +139,19 @@
       "tier": 1
     },
     "1071302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -150,6 +174,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -171,6 +201,16 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -195,12 +235,19 @@
       "tier": 2
     },
     "1071303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -216,6 +263,20 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "type": "coin",
+                  "value": 10
+                }
+              ],
               "descs": [
                 "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)",
                 "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -232,6 +293,16 @@
         },
         {
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 4
+            },
+            {
+              "type": "clash",
+              "value": 5
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -253,6 +324,20 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                },
+                {
+                  "type": "coin",
+                  "value": 10
+                }
+              ],
               "descs": [
                 "[OnStartCoin] Consume up to 10 [Charge] Count to gain Coin Power for this Coin equal to ([Charge] Count consumed for this Coin)",
                 "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -269,6 +354,7 @@
       "tier": 3
     },
     "1071304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",

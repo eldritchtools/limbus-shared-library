@@ -80,6 +80,7 @@
   },
   "skills": {
     "1040801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -108,6 +109,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "desc": "If this unit's Speed is faster than the target's by 3 or more, Clash Power +1\n[WhenUse] Gain +2 [Breath] Count",
           "name": "Receiving Arts 1: The Hunt",
           "uptie": 2
@@ -119,6 +126,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 3
+            }
+          ],
           "desc": "If this unit's Speed is faster than the target's, gain Clash Power +1 for every 2 Speed difference (max 3)\n[WhenUse] Gain +2 [Breath] Count",
           "name": "Receiving Arts 1: The Hunt",
           "uptie": 4
@@ -127,6 +140,7 @@
       "tier": 1
     },
     "1040802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -195,6 +209,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -219,12 +239,19 @@
       "tier": 2
     },
     "1040803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -236,6 +263,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target is Staggered, deal +20% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [MarkOfButler]"
@@ -250,6 +283,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -262,6 +305,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target is Staggered, deal +40% Damage on Critical Hit",
                 "[OnSucceedAttack] Inflict 2 [MarkOfButler]",
@@ -278,6 +327,7 @@
       "tier": 3
     },
     "1040804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

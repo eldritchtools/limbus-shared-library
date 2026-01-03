@@ -47,6 +47,7 @@
   },
   "skills": {
     "1040901": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -75,6 +76,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -101,6 +108,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -124,6 +137,7 @@
       "tier": 1
     },
     "1040902": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -155,6 +169,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] Gain +2 [Vibration] Count\nAt 5+ [Vibration] Count, Coin Power +1",
           "name": "Compression Wind-up Spanner",
           "uptie": 2
@@ -166,6 +186,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -192,12 +222,19 @@
       "tier": 2
     },
     "1040903": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -226,6 +263,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -255,6 +302,7 @@
       "tier": 3
     },
     "1040904": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

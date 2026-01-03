@@ -43,6 +43,7 @@
   },
   "skills": {
     "1060201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -102,6 +103,7 @@
       "tier": 1
     },
     "1060202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -133,12 +135,24 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Inflict 2 [Laceration]"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Laceration]"
               ],
@@ -159,12 +173,24 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Laceration]"
               ],
@@ -179,6 +205,7 @@
       "tier": 2
     },
     "1060203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -222,6 +249,7 @@
       "tier": 3
     },
     "1060204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

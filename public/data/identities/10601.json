@@ -43,6 +43,7 @@
   },
   "skills": {
     "1060101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -94,6 +95,7 @@
       "tier": 1
     },
     "1060102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -122,6 +124,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -171,12 +179,19 @@
       "tier": 2
     },
     "1060103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -219,6 +234,7 @@
       "tier": 3
     },
     "1060104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

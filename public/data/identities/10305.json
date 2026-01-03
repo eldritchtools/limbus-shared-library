@@ -43,12 +43,19 @@
   },
   "skills": {
     "1030501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -68,6 +75,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -91,6 +104,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -111,6 +130,7 @@
       "tier": 1
     },
     "1030502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -159,6 +179,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -179,12 +208,26 @@
       "tier": 2
     },
     "1030503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -204,6 +247,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -227,6 +283,7 @@
       "tier": 3
     },
     "1030504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

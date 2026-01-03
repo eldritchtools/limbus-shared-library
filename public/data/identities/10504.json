@@ -44,6 +44,7 @@
   },
   "skills": {
     "1050401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -98,6 +99,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nAt less than 50% HP, Coin Power +2",
           "name": "Drive",
           "uptie": 4
@@ -106,6 +113,7 @@
       "tier": 1
     },
     "1050402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -185,6 +193,7 @@
       "tier": 2
     },
     "1050403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -236,12 +245,19 @@
       "tier": 3
     },
     "1050404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 15,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": -5,
           "coins": [
             {

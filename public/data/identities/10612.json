@@ -78,12 +78,19 @@
   },
   "skills": {
     "1061201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -103,6 +110,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -143,6 +163,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -166,12 +203,19 @@
       "tier": 1
     },
     "1061202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -206,6 +250,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -278,6 +335,26 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            }
+          ],
           "desc": "Deal +4% damage for every [Charge] (max 20%)\n[WhenUse] At 5~9 [Charge] Count:\n- Gain 10 [Sinking] and raise this unit's [Charge] Count to 10\n- This Skill gains the following attributes: [CantIdentify], [WideAreaRampage], and Atk Weight +1\n- [BeforeUse] At 5+ [Charge], this Skill does not gain the [CantIdentify] effect\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power +2\n[BeforeAttack] At 8+ remaining [Charge] Count, consume 8 [Charge] Count to deal +40% damage",
           "name": "Mind Whip",
           "uptie": 4
@@ -286,15 +363,35 @@
       "tier": 2
     },
     "1061203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 8,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 5
+            },
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "Deal +(this Skill's Power x 5)% damage (max 100%)",
                 "[OnSucceedAttack] Gain +([Charge] + 1) [Charge] Count (max 6)",
@@ -310,9 +407,39 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 5
+            },
+            {
+              "type": "base",
+              "value": 5
+            },
+            {
+              "type": "final",
+              "value": 4
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.5
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.0
+                }
+              ],
               "descs": [
                 "Deal +(this Skill's Power x 5)% damage (max 150%)",
                 "At 3+ [Charge], deal +20% damage for every [Charge] (max 100%)",
@@ -330,11 +457,18 @@
       "tier": 3
     },
     "1061204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 8,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -350,6 +484,12 @@
         {
           "affinity": "envy",
           "baseValue": 10,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {

@@ -360,11 +360,22 @@
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 3.1
+                  "value": 2.1
                 },
                 {
                   "type": "critdamage",
-                  "value": 0.74
+                  "value": 0.25
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.49
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
                 }
               ],
               "descs": [
@@ -433,11 +444,22 @@
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 3.8
+                  "value": 2.8
                 },
                 {
                   "type": "critdamage",
-                  "value": 1.2
+                  "value": 0.5
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.7
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
                 }
               ],
               "descs": [

@@ -84,6 +84,7 @@
   },
   "skills": {
     "1071201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -113,6 +114,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 6+ [Laceration], Coin Power +1\n[WhenUse] Gain 1 [Endurance] next turn (once per turn)",
           "name": "Lenticular Rend",
           "uptie": 2
@@ -139,6 +146,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "Coin Power +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] Gain 2 [Endurance] next turn (once per turn)",
           "name": "Lenticular Rend",
           "uptie": 4
@@ -147,6 +160,7 @@
       "tier": 1
     },
     "1071202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -176,6 +190,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -204,6 +224,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -229,12 +255,19 @@
       "tier": 2
     },
     "1071203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -252,6 +285,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "Deal +10% damage for every type of negative effect on target (max 30%)",
                 "[OnSucceedAttack] Inflict 6 [Laceration]"
@@ -267,6 +316,12 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -284,6 +339,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "Deal +10% damage for every type of negative effect on target (max 100%)",
                 "[OnSucceedAttack] Inflict 6 [Laceration]"
@@ -299,6 +370,7 @@
       "tier": 3
     },
     "1071204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -308,6 +380,16 @@
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]",
                 "[OnSucceedAttack] If this unit has [BlackCloudBlade], Reuse Coin once (once per Skill)",
@@ -323,9 +405,28 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]",
                 "[OnSucceedAttack] If this unit has [BlackCloudBlade], Reuse Coin once (once per Skill)",
@@ -342,6 +443,7 @@
       "tier": 1
     },
     "1071205": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -351,6 +453,16 @@
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]",
                 "[OnSucceedAttack] If this unit has [BlackCloudBlade], Reuse Coin once (once per Skill)",
@@ -366,9 +478,32 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]",
                 "[OnSucceedAttack] If this unit has [BlackCloudBlade], Reuse Coin once (once per Skill)",

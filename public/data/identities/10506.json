@@ -66,12 +66,19 @@
   },
   "skills": {
     "1050601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -88,6 +95,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -108,6 +128,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "desc": "At 10+ [Charge] Count, Final Power +2\nAt 7+ Speed, deal +25% Damage\n[WhenUse] Gain +2 [Charge] Count",
           "name": "Weighty Bash",
           "uptie": 4
@@ -116,6 +149,7 @@
       "tier": 1
     },
     "1050602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -211,12 +245,19 @@
       "tier": 2
     },
     "1050603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -246,6 +287,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -276,6 +323,7 @@
       "tier": 3
     },
     "1050604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

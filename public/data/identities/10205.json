@@ -61,6 +61,7 @@
   },
   "skills": {
     "1020501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -117,6 +118,7 @@
       "tier": 1
     },
     "1020502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -151,6 +153,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -204,6 +212,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Apply 4 [DefenseUp] to the ally with the lowest HP percentage (3 times per turn)\nAt 5+ [DefenseUp], Clash Power +2",
           "name": "Client Protection",
           "uptie": 4
@@ -212,12 +226,19 @@
       "tier": 2
     },
     "1020503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -238,6 +259,12 @@
         },
         {
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -259,6 +286,7 @@
       "tier": 3
     },
     "1020504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

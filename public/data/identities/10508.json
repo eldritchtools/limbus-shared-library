@@ -75,6 +75,7 @@
   },
   "skills": {
     "1050801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -129,6 +130,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -152,6 +159,7 @@
       "tier": 1
     },
     "1050802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -170,6 +178,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "+30% Damage on Critical Hit"
               ],
@@ -195,6 +209,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "+40% Damage on Critical Hit"
               ],
@@ -212,6 +232,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -224,6 +250,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 "+60% Damage on Critical Hit"
               ],
@@ -238,12 +270,30 @@
       "tier": 2
     },
     "1050803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 20,
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.5
+            },
+            {
+              "type": "critdamage",
+              "value": 0.15
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
@@ -257,6 +307,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.75
+            },
+            {
+              "type": "critdamage",
+              "value": 0.3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
@@ -271,6 +338,7 @@
       "tier": 3
     },
     "1050804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -293,6 +361,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -310,12 +387,30 @@
       "tier": 1
     },
     "1050805": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.5
+            },
+            {
+              "type": "critdamage",
+              "value": 0.2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -342,6 +437,30 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.5
+            },
+            {
+              "type": "critdamage",
+              "value": 0.3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {

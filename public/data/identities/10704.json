@@ -62,6 +62,7 @@
   },
   "skills": {
     "1070401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -142,6 +143,7 @@
       "tier": 1
     },
     "1070402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -187,6 +189,7 @@
       "tier": 2
     },
     "1070403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -196,18 +199,48 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Deal bonus damage by 10% of damage dealt"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Deal bonus damage by 10% of damage dealt"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Deal bonus damage by 10% of damage dealt"
               ],
@@ -224,6 +257,7 @@
       "tier": 3
     },
     "1070404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

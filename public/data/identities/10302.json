@@ -43,6 +43,7 @@
   },
   "skills": {
     "1030201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -86,6 +87,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -104,6 +111,7 @@
       "tier": 1
     },
     "1030202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -185,6 +193,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "At 7+ [Charge] Count, Coin Power +1",
           "name": "Leap",
           "uptie": 4
@@ -193,12 +207,19 @@
       "tier": 2
     },
     "1030203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 1,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -230,6 +251,7 @@
       "tier": 3
     },
     "1030204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

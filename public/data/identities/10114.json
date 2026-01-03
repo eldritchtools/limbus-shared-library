@@ -269,23 +269,15 @@
         {
           "bonuses": [
             {
+              "type": "coin",
+              "value": 1
+            },
+            {
               "extra": {
                 "op": "mul"
               },
               "type": "damage",
-              "value": 1
-            },
-            {
-              "type": "coin",
-              "value": 1
-            },
-            {
-              "type": "coin",
-              "value": 2
-            },
-            {
-              "type": "coin",
-              "value": 1
+              "value": 1.0
             },
             {
               "type": "coin",
@@ -327,15 +319,15 @@
           "baseValue": 5,
           "bonuses": [
             {
+              "type": "final",
+              "value": 1
+            },
+            {
               "extra": {
                 "op": "mul"
               },
               "type": "damage",
               "value": 0.4
-            },
-            {
-              "type": "final",
-              "value": 1
             },
             {
               "extra": {
@@ -382,15 +374,15 @@
         {
           "bonuses": [
             {
+              "type": "final",
+              "value": 1
+            },
+            {
               "extra": {
                 "op": "mul"
               },
               "type": "damage",
               "value": 0.8
-            },
-            {
-              "type": "final",
-              "value": 1
             },
             {
               "extra": {

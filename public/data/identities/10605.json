@@ -47,12 +47,19 @@
   },
   "skills": {
     "1060501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -66,6 +73,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -83,6 +96,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "desc": "If target has 5+ [Burst], Coin Power +3\n[WhenUse] Gain +5 Aggro to this Skill Slot next turn",
           "name": "Impede the Intruder",
           "uptie": 4
@@ -91,6 +110,7 @@
       "tier": 1
     },
     "1060502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -154,12 +174,19 @@
       "tier": 2
     },
     "1060503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 8,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -169,6 +196,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict [Burst] Count by the amount of [KCorpSerum]; Deal +5% damage per [KCorpSerum]"
               ],
@@ -182,6 +218,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "At 80% or more HP, Coin Power +2",
           "name": "Excise Target",
           "uptie": 4
@@ -190,6 +232,7 @@
       "tier": 3
     },
     "1060504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

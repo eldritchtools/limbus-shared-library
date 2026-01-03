@@ -43,6 +43,7 @@
   },
   "skills": {
     "1070101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -94,6 +95,7 @@
       "tier": 1
     },
     "1070102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -156,6 +158,7 @@
       "tier": 2
     },
     "1070103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -171,6 +174,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "coin",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Trigger [VibrationExplosion]"
               ],
@@ -193,6 +202,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "coin",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Trigger [VibrationExplosion]"
               ],
@@ -207,6 +222,7 @@
       "tier": 3
     },
     "1070104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",

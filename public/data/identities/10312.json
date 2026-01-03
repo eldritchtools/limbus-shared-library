@@ -82,6 +82,7 @@
   },
   "skills": {
     "1031201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -108,6 +109,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -132,6 +139,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -153,6 +170,7 @@
       "tier": 1
     },
     "1031202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -181,6 +199,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -203,6 +234,19 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -225,6 +269,19 @@
         },
         {
           "baseValue": 6,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.75
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -249,12 +306,37 @@
       "tier": 2
     },
     "1031203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.45
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.8
+            },
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -286,6 +368,30 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.9
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1.25
+            },
+            {
+              "type": "base",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -317,11 +423,18 @@
       "tier": 3
     },
     "1031204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -339,6 +452,12 @@
         },
         {
           "affinity": "envy",
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -356,12 +475,22 @@
       "tier": 1
     },
     "1031205": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 10,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.09
+            }
+          ],
           "coinValue": -4,
           "coins": [
             {
@@ -382,6 +511,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.12
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": -4,
           "coins": [
             {
@@ -407,6 +549,23 @@
         },
         {
           "baseValue": 12,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            },
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": -4,
           "coins": [
             {
@@ -428,12 +587,19 @@
       "tier": 1
     },
     "1031206": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 12,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": -6,
           "coins": [
             {
@@ -456,6 +622,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": -6,
           "coins": [
             {
@@ -484,6 +660,16 @@
         },
         {
           "baseValue": 15,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": -6,
           "coins": [
             {
@@ -508,12 +694,37 @@
       "tier": 2
     },
     "1031207": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 20,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.6
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": -7,
           "coins": [
             {
@@ -545,6 +756,30 @@
         },
         {
           "baseValue": 20,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 3
+            },
+            {
+              "type": "clash",
+              "value": 4
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1.5
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.8
+            }
+          ],
           "coinValue": -6,
           "coins": [
             {

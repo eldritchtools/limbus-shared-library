@@ -43,6 +43,7 @@
   },
   "skills": {
     "1040201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -102,6 +103,7 @@
       "tier": 1
     },
     "1040202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -124,6 +126,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2.0
+            }
+          ],
           "coinValue": 12,
           "coins": [
             {
@@ -161,6 +169,7 @@
       "tier": 2
     },
     "1040203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -192,6 +201,7 @@
       "tier": 3
     },
     "1040204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",

@@ -69,6 +69,7 @@
   },
   "skills": {
     "1021301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -97,6 +98,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] At 4+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain 2 [Breath]",
           "name": "Cleave",
           "uptie": 2
@@ -123,6 +130,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -146,12 +159,22 @@
       "tier": 1
     },
     "1021302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -180,6 +203,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -233,6 +269,26 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 4
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -262,12 +318,26 @@
       "tier": 2
     },
     "1021303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -304,6 +374,26 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.44
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -341,6 +431,7 @@
       "tier": 3
     },
     "1021304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
@@ -373,12 +464,27 @@
       "tier": 1
     },
     "1021305": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 4.44
+            },
+            {
+              "type": "base",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -396,6 +502,20 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 4.44
+            },
+            {
+              "type": "base",
+              "value": 10
+            },
+            {
+              "type": "coin",
+              "value": 10
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -415,6 +535,7 @@
       "tier": 3
     },
     "1021306": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",

@@ -75,6 +75,7 @@
   },
   "skills": {
     "1031001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -100,6 +101,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -134,6 +141,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -157,6 +170,7 @@
       "tier": 1
     },
     "1031002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -172,6 +186,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
                 "Deal +5% damage for every 100 [BloodDinner_Accumulation] by self (max 25%)"
@@ -186,6 +216,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -195,6 +231,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
                 "Deal +10% damage for every 100 [BloodDinner_Accumulation] by self (max 50%)"
@@ -207,6 +259,12 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -216,6 +274,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
                 "Deal +10% damage for every 100 [BloodDinner_Accumulation] by self (max 50%)"
@@ -228,6 +302,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -237,6 +317,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.75
+                }
+              ],
               "descs": [
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
                 "Deal +15% damage for every 100 [BloodDinner_Accumulation] by self (max 75%)"
@@ -252,12 +348,37 @@
       "tier": 2
     },
     "1031003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -281,6 +402,30 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -304,6 +449,7 @@
       "tier": 3
     },
     "1031004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -338,6 +484,7 @@
       "tier": 1
     },
     "1031005": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -371,6 +518,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -403,6 +556,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -432,12 +591,19 @@
       "tier": 1
     },
     "1031006": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "pierce",
           "atkWeight": 2,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -453,6 +619,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
@@ -468,6 +650,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -483,6 +671,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
@@ -511,6 +715,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
@@ -539,6 +759,22 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.75
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +2.5% damage for every [Laceration] on target (max 25%)",
@@ -555,12 +791,37 @@
       "tier": 2
     },
     "1031007": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -598,6 +859,30 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -635,6 +920,7 @@
       "tier": 3
     },
     "1031008": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",

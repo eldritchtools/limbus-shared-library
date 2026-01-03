@@ -78,6 +78,7 @@
   },
   "skills": {
     "1070601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -132,6 +133,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -157,6 +164,7 @@
       "tier": 1
     },
     "1070602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -229,6 +237,7 @@
       "tier": 2
     },
     "1070603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -270,6 +279,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -306,6 +321,7 @@
       "tier": 3
     },
     "1070604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -180,15 +180,19 @@
           "baseValue": 16,
           "bonuses": [
             {
-              "type": "base",
-              "value": 3
-            },
-            {
               "extra": {
                 "op": "mul"
               },
               "type": "damage",
               "value": 0.5
+            },
+            {
+              "type": "base",
+              "value": 2
+            },
+            {
+              "type": "base",
+              "value": 1
             }
           ],
           "coinValue": -5,
@@ -222,15 +226,19 @@
         {
           "bonuses": [
             {
-              "type": "base",
-              "value": 4
-            },
-            {
               "extra": {
                 "op": "mul"
               },
               "type": "damage",
               "value": 0.8
+            },
+            {
+              "type": "base",
+              "value": 3
+            },
+            {
+              "type": "base",
+              "value": 1
             }
           ],
           "coinValue": -5,

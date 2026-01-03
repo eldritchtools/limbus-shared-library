@@ -55,6 +55,7 @@
   },
   "skills": {
     "1020601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -80,6 +81,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -103,6 +110,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -123,6 +136,7 @@
       "tier": 1
     },
     "1020602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -154,6 +168,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -183,6 +203,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -209,12 +235,22 @@
       "tier": 2
     },
     "1020603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -240,6 +276,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -266,6 +311,7 @@
       "tier": 3
     },
     "1020604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

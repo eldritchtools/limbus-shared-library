@@ -80,12 +80,19 @@
   },
   "skills": {
     "1021001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -105,6 +112,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -128,6 +141,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Consume 5 [Charge] Count to gain Coin Power +2",
           "name": "40Y-3 Activation",
           "uptie": 4
@@ -136,12 +155,19 @@
       "tier": 1
     },
     "1021002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -151,6 +177,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge])% damage for every [Charge] Count consumed by this Skill (max 60%)"
               ],
@@ -164,6 +199,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -173,6 +214,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.2
+                }
+              ],
               "descs": [
                 "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge] + 3)% damage for every [Charge] Count consumed by this Skill (max 120%)"
               ],
@@ -194,6 +244,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.2
+                }
+              ],
               "descs": [
                 "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge] + 3)% damage for every [Charge] Count consumed by this Skill (max 120%)"
               ],
@@ -205,6 +264,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -214,6 +279,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.8
+                }
+              ],
               "descs": [
                 "At 3+ Reson. including this Skill, consume all [Charge] Count on self and deal +([Charge] + 4)% damage for every [Charge] Count consumed by this Skill (max 180%)"
               ],
@@ -228,12 +302,19 @@
       "tier": 2
     },
     "1021003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -252,6 +333,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "At 3+ [Charge], deal +4% damage for every [Charge] (max 20%)"
               ],
@@ -266,6 +356,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -284,6 +380,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "At 3+ [Charge], deal +8% damage for every [Charge] (max 40%)",
                 "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] next turn\n- At 2+ [Charge], inflict 1 additional [VioletTakeDamageUp]"
@@ -299,6 +404,7 @@
       "tier": 3
     },
     "1021004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

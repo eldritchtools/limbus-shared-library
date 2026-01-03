@@ -48,6 +48,7 @@
   },
   "skills": {
     "1051001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -73,6 +74,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "desc": "Gain ([KnowledgeExplored] x 4% of Max HP) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] At 2+ [KnowledgeExplored], Clash Power +1\n[WinDuel] Gain 2 [KnowledgeTraining] (once per turn)",
           "name": "Studious Dedication",
           "uptie": 2
@@ -84,6 +91,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "desc": "Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] [Discard] 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] Gain ([KnowledgeExplored] - 1) Clash Power (max 2)\n[WinDuel] Gain 2 [KnowledgeTraining] (once per turn)",
           "name": "Studious Dedication",
           "uptie": 4
@@ -92,6 +105,7 @@
       "tier": 1
     },
     "1051002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -117,6 +131,19 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.09
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "Deal +3% damage for every [KnowledgeExplored] on self (max 9%)\n[StartBattle] Apply [KnowledgeTraining] equal to [KnowledgeExplored] on self  to a random ally and on self (prioritizes allies with [Discard] that has the least [KnowledgeTraining])\n[WhenUse] [Discard] 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] If target has 6+ [Sinking], Coin Power +1",
           "name": "Moment of Erudition",
           "uptie": 2
@@ -128,6 +155,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -148,12 +188,26 @@
       "tier": 2
     },
     "1051003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.18
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -177,6 +231,19 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.45
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "Deal +5% damage for every [KnowledgeExplored] (max 45%)\n[WhenUse] Coin Power +1 for every 6 [Sinking] on target (max 2)\n[BeforeAttack] Consume all [KnowledgeTraining] on self and gain the same value as additional [KnowledgeExplored]\n[EndSkill] At 4+ [KnowledgeExplored], reset value to 1 (if this Skill defeats an enemy, reset value to 3 instead)",
           "name": "Scorch Knowledge",
           "uptie": 4
@@ -185,6 +252,7 @@
       "tier": 3
     },
     "1051004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

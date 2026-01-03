@@ -65,6 +65,7 @@
   },
   "skills": {
     "1020801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -139,6 +140,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -165,6 +172,7 @@
       "tier": 1
     },
     "1020802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -196,6 +204,12 @@
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +2 [Breath] Count",
                 "+30% Damage on Critical Hit"
@@ -218,6 +232,12 @@
           "coinValue": 6,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +2 [Breath] Count",
                 "+30% Damage on Critical Hit"
@@ -237,9 +257,21 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +2 [Breath] Count",
                 "+30% Damage on Critical Hit"
@@ -262,12 +294,22 @@
       "tier": 2
     },
     "1020803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -290,6 +332,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -315,11 +370,18 @@
       "tier": 3
     },
     "1020804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 10,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -334,6 +396,12 @@
         },
         {
           "affinity": "gloom",
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 5
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {

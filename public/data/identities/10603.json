@@ -46,6 +46,7 @@
   },
   "skills": {
     "1060301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -105,6 +106,7 @@
       "tier": 1
     },
     "1060302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -114,12 +116,30 @@
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Damage +2"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Damage +2"
               ],
@@ -139,18 +159,58 @@
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Damage +3"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Damage +3"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] If target is below 25% HP, use this Coin an additional time if target survives\nHeads: +50% Damage for this Coin",
                 "[ReUseOnSucceedAttackHead] +50% Damage for this Coin"
@@ -169,6 +229,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "desc": "If target has 7+ [Laceration], deal +20% damage",
           "name": "Shank",
           "uptie": 4
@@ -177,6 +246,7 @@
       "tier": 2
     },
     "1060303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -186,6 +256,15 @@
           "coinValue": 25,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 7
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Damage +7",
                 "[ReUseOnSucceedAttackHead] +100% Damage for this Coin"
@@ -203,6 +282,15 @@
           "coinValue": 25,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 7
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Damage +7",
                 "[ReUseOnSucceedAttackHead] +100% damage for this Coin",
@@ -219,6 +307,7 @@
       "tier": 3
     },
     "1060304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
@@ -238,6 +327,12 @@
         },
         {
           "affinity": "gluttony",
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "If target has 5+ [Laceration], Coin Power +2\n[OnSucceedEvade] Heal 3 SP",
           "name": "Evade",
           "uptie": 4

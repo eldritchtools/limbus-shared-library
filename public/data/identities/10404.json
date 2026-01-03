@@ -46,6 +46,7 @@
   },
   "skills": {
     "1040401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -123,6 +124,7 @@
       "tier": 1
     },
     "1040402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -218,12 +220,22 @@
       "tier": 2
     },
     "1040403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "add"
+              },
+              "type": "damage",
+              "value": 20
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -245,6 +257,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "type": "normal"
             }
           ],
@@ -258,6 +279,7 @@
       "tier": 3
     },
     "1040404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

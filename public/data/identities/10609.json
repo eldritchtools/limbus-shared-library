@@ -47,6 +47,7 @@
   },
   "skills": {
     "1060901": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -101,6 +102,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] Gain +2 [Vibration] Count\nAt 6+ [Vibration] Count, Coin Power +1",
           "name": "Deduction Start",
           "uptie": 4
@@ -109,6 +116,7 @@
       "tier": 1
     },
     "1060902": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -143,6 +151,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -175,6 +193,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -204,12 +232,23 @@
       "tier": 2
     },
     "1060903": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -241,6 +280,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -276,6 +325,7 @@
       "tier": 3
     },
     "1060904": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -42,6 +42,7 @@
   },
   "skills": {
     "1060401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -93,6 +94,7 @@
       "tier": 1
     },
     "1060402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -147,6 +149,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "If target has 6+ [Combustion] Count, Coin Power +2",
           "name": "Flowing Flame",
           "uptie": 4
@@ -155,6 +163,7 @@
       "tier": 2
     },
     "1060403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -184,6 +193,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 6+ [Combustion] Count, Coin Power +1",
           "name": "Crimson Blaze Fist",
           "uptie": 4
@@ -192,6 +207,7 @@
       "tier": 3
     },
     "1060404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

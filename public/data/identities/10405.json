@@ -78,6 +78,7 @@
   },
   "skills": {
     "1040501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -109,6 +110,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 1,
           "coins": [
             {
@@ -132,6 +142,15 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -155,6 +174,22 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -181,6 +216,7 @@
       "tier": 1
     },
     "1040502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -199,6 +235,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target’s HP is below 30%, deal +15% damage"
               ],
@@ -212,6 +257,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -224,6 +275,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target’s HP is below 30%, deal +20% damage",
                 "[EnemyKill] Gain 1 [Agility] next turn"
@@ -242,6 +302,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -254,6 +324,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target’s HP is below 30%, deal +30% damage",
                 "[EnemyKill] Gain 3 [Agility] next turn"
@@ -269,12 +348,19 @@
       "tier": 2
     },
     "1040503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -296,6 +382,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[EnemyKill] If the skill consumed 15 [Charge] Count upon use, apply 5 [ChargeForceField] to self and 1 other ally"
               ],
@@ -309,6 +404,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 5
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -330,6 +431,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[EnemyKill] If the skill consumed 15 [Charge] Count upon use, apply 7 [ChargeForceField] to self and 1 other ally"
               ],
@@ -344,11 +454,18 @@
       "tier": 3
     },
     "1040504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -364,6 +481,12 @@
         {
           "affinity": "lust",
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 3
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {

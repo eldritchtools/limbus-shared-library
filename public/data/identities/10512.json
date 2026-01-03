@@ -96,6 +96,7 @@
   },
   "skills": {
     "1051201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -123,6 +124,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -151,6 +158,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -176,6 +189,7 @@
       "tier": 1
     },
     "1051202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -211,6 +225,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -273,6 +293,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 4
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -307,12 +333,19 @@
       "tier": 2
     },
     "1051203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -332,6 +365,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "Spend 1 [BulletPropellantAlly]",
                 "If this unit spent [BulletPropellantAlly] due to this Coin's effect, deal +20% damage",
@@ -349,6 +391,12 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -368,6 +416,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Spend 1 [BulletPropellantAlly]",
                 "If this unit spent [BulletPropellantAlly] due to this Coin's effect, deal +50% damage",
@@ -385,12 +442,23 @@
       "tier": 3
     },
     "1051204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -411,6 +479,16 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -434,12 +512,19 @@
       "tier": 1
     },
     "1051205": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -485,6 +570,12 @@
         },
         {
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {

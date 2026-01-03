@@ -91,6 +91,7 @@
   },
   "skills": {
     "1031301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -121,6 +122,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 6+ ([Burst] + [Sinking]), Coin Power +1",
           "name": "Breakthrough",
           "uptie": 2
@@ -148,6 +155,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -173,6 +193,7 @@
       "tier": 1
     },
     "1031302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -208,6 +229,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -223,6 +250,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] Inflict 1 [Sinking]",
@@ -251,6 +288,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] Inflict 1 [Sinking]",
@@ -264,6 +311,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -279,6 +332,24 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                },
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Burst]",
                 "[OnSucceedAttack] Inflict 2 [Sinking]",
@@ -295,12 +366,19 @@
       "tier": 2
     },
     "1031303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -321,6 +399,23 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                },
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "- If target has any of the Panic type changing effects, +5% damage for every Stack (max 15%)",
                 "[OnSucceedAttack] Deal (25% of this Coin's final damage) Slash damage",
@@ -337,6 +432,19 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -357,6 +465,23 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                },
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "- If target has any of the Panic type changing effects, +10% damage for every Stack (max 30%)",
                 "[OnSucceedAttack] Deal (25% of this Coin's final damage) Slash damage\n- If target has [CrushMarks], strengthen this effect and deal (50% of this Coin's final damage) Slash damage instead",
@@ -373,6 +498,7 @@
       "tier": 3
     },
     "1031304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -402,6 +528,12 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
