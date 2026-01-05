@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -36,12 +37,37 @@
       "type": "awakening"
     },
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "pierce",
           "atkWeight": 7,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.06
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -76,6 +102,34 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.09
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -108,6 +162,38 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.09
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 3
+            },
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -145,6 +231,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",

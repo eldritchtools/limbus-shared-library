@@ -46,6 +46,7 @@
   },
   "skills": {
     "1100601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -107,6 +108,7 @@
       "tier": 1
     },
     "1100602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -206,6 +208,7 @@
       "tier": 2
     },
     "1100603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -257,6 +260,7 @@
       "tier": 3
     },
     "1100604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

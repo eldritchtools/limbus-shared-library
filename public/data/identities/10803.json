@@ -45,6 +45,7 @@
   },
   "skills": {
     "1080301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -101,6 +102,7 @@
       "tier": 1
     },
     "1080302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -132,12 +134,24 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +1 [Breath] Count"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +1 [Breath] Count"
               ],
@@ -158,12 +172,24 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +2 [Breath] Count "
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +2 [Breath] Count "
               ],
@@ -178,6 +204,7 @@
       "tier": 2
     },
     "1080303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -206,6 +233,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -229,6 +262,7 @@
       "tier": 3
     },
     "1080304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -248,6 +282,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "critdamage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 8,
           "coins": [
             {

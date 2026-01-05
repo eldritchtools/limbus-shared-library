@@ -1,12 +1,22 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 18,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -24,6 +34,15 @@
         },
         {
           "baseValue": 21,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -49,12 +68,30 @@
   ],
   "corrosionSkills": [
     {
+      "bonusNotes": "Assumes 7 Lust Reson.",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 19,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.35
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -72,6 +109,22 @@
         },
         {
           "baseValue": 22,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.7
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {

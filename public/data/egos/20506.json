@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -56,12 +57,22 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "pierce",
           "atkWeight": 2,
           "baseValue": 28,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
@@ -81,6 +92,15 @@
         {
           "atkWeight": 2,
           "baseValue": 28,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
@@ -98,6 +118,15 @@
         {
           "atkWeight": 2,
           "baseValue": 28,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.6
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {

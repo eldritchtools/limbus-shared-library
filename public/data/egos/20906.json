@@ -1,12 +1,20 @@
 {
   "awakeningSkills": [
     {
+      "bonusNotes": "Ignores bonus Lust damage based on Bleed Potency on the target",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 21,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 6
+            }
+          ],
           "coinValue": 12,
           "coins": [
             {
@@ -24,6 +32,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 9
+            }
+          ],
           "coinValue": 12,
           "coins": [
             {
@@ -39,6 +53,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 13
+            }
+          ],
           "coinValue": 12,
           "coins": [
             {
@@ -59,6 +79,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",

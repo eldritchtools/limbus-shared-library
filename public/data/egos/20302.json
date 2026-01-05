@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -28,6 +29,15 @@
           "coinValue": 18,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Trigger [VibrationExplosion]",
                 "[OnSucceedAttack] Deal 25 SP damage",
@@ -45,6 +55,15 @@
           "coinValue": 18,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Trigger [VibrationExplosion]",
                 "[OnSucceedAttack] Deal 25 SP damage",
@@ -64,6 +83,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -91,6 +111,15 @@
           "coinValue": -25,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 7 [Vibration]",
                 "[OnSucceedAttack] Inflict 7 [Sinking]",
@@ -108,6 +137,15 @@
           "coinValue": -25,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 10 [Vibration]",
                 "[OnSucceedAttack] Inflict 10 [Sinking]",

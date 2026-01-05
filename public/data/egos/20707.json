@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -13,6 +14,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.35
+                }
+              ],
               "descs": [
                 "+5% Damage on Critical Hit for every [BoseProjektil] (max 35%)",
                 "[OnSucceedAttack] Inflict 3 [Laceration]",
@@ -35,6 +42,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.7
+                }
+              ],
               "descs": [
                 "+10% Damage on Critical Hit for every [BoseProjektil] (max 70%)",
                 "[OnSucceedAttack] Inflict 4 [Laceration]",
@@ -55,6 +68,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 1.05
+                }
+              ],
               "descs": [
                 "+15% Damage on Critical Hit for every [BoseProjektil] (max 105%)",
                 "[OnSucceedAttack] Inflict 5 [Laceration]",
@@ -74,12 +93,29 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 2,
           "baseValue": 28,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.14
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
@@ -97,6 +133,22 @@
         },
         {
           "baseValue": 28,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.14
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
@@ -112,6 +164,22 @@
         },
         {
           "baseValue": 30,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.21
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {

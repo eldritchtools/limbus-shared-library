@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -10,6 +11,15 @@
           "coinValue": 6,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.56
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the main target.",
                 "If the main target is an ally, deal +8% damage for every [BoseProjektil] (max 56%)",
@@ -19,6 +29,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.14
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
                 "+2% Damage on Critical Hit for every [BoseProjektil] (max 14%)",
@@ -37,6 +53,15 @@
           "coinValue": 6,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.7
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the main target.",
                 "If the main target is an ally, deal +10% damage for every [BoseProjektil] (max 70%)",
@@ -47,6 +72,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.35
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
                 "+5% Damage on Critical Hit for every [BoseProjektil] (max 35%)",
@@ -63,6 +94,15 @@
           "coinValue": 6,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.05
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the main target.",
                 "If the main target is an ally, deal +15% damage for every [BoseProjektil] (max 105%)",
@@ -73,6 +113,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.63
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
                 "+9% Damage on Critical Hit for every [BoseProjektil] (max 63%)",
@@ -91,15 +137,41 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 7,
           "baseValue": 30,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.14
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.7
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the main target.",
                 "If the main target is an ally, deal +10% damage for every [BoseProjektil] (max 70%)",
@@ -112,6 +184,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.14
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.14
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
                 "+2% Damage on Critical Hit for every [BoseProjektil] (max 14%)",
@@ -127,9 +212,34 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.21
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "damage",
+                  "value": 0.84
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the main target.",
                 "If the main target is an ally, deal +12% damage for every [BoseProjektil] (max 84%)",
@@ -142,6 +252,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.35
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.21
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
                 "+3% Damage on Critical Hit for every [BoseProjektil] (max 21%)",
@@ -155,9 +278,38 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.28
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.05
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the main target.",
                 "If the main target is an ally, deal +15% damage for every [BoseProjektil] (max 105%)",
@@ -171,6 +323,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.49
+                },
+                {
+                  "type": "critdamage",
+                  "value": 0.28
+                }
+              ],
               "descs": [
                 "This Coin deals damage only against the sub-targets\n- If the first Coin failed to kill the ally, 1 random sub-target takes damage",
                 "+4% Damage on Critical Hit for every [BoseProjektil] (max 28%)",

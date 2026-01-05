@@ -43,6 +43,7 @@
   },
   "skills": {
     "1110101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -138,6 +139,7 @@
       "tier": 1
     },
     "1110102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -147,12 +149,30 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "If user’s Speed is faster than target’s, +10% Damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "If user’s Speed is faster than target’s, +10% Damage"
               ],
@@ -169,12 +189,30 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "If user’s Speed is faster than target’s, +20% Damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "If user’s Speed is faster than target’s, +20% Damage"
               ],
@@ -201,12 +239,22 @@
       "tier": 2
     },
     "1110103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": 14,
           "coins": [
             {
@@ -238,6 +286,7 @@
       "tier": 3
     },
     "1110104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

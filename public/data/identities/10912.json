@@ -50,6 +50,7 @@
   },
   "skills": {
     "1091201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -78,6 +79,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -105,6 +112,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -129,6 +142,7 @@
       "tier": 1
     },
     "1091202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -160,6 +174,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -172,6 +192,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)",
                 "[OnSucceedAttack] Inflict [BurstPoison]"
@@ -190,6 +216,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -205,6 +237,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] At 30+ [Breath], consume 10 [Breath] on self to Reuse Coin once (1 time max)",
                 "[OnSucceedAttack] Inflict [BurstPoison]",
@@ -221,12 +259,23 @@
       "tier": 2
     },
     "1091203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 3,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 3
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -242,6 +291,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "crit"
+                  },
+                  "type": "reuse",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict +1 [Burst] Count",
                 "[CriticalOnSucceedAttack] Reduce [BurstPoison] on target by 1",
@@ -258,6 +316,16 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 3
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[WideAreaRampage]\n[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on the main target) (max 2)\n[WhenUse] Gain Clash Power equal to [SnakeStance] on self\n[WhenUse] Gain 3 [SnakeStance]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
           "name": "Serpent's Mortal Flurry",
           "uptie": 4
@@ -266,6 +334,7 @@
       "tier": 3
     },
     "1091204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
@@ -289,6 +358,12 @@
         {
           "affinity": "gluttony",
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {

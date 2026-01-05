@@ -46,6 +46,7 @@
   },
   "skills": {
     "1090501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -110,6 +111,7 @@
       "tier": 1
     },
     "1090502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -125,6 +127,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nIf the Coin is reused twice, inflict [Vibration], then trigger [VibrationExplosion]\nAfter [VibrationExplosion], reduce [Vibration] Count by 1"
               ],
@@ -147,6 +158,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Vibration]\nAt 3+ [Charge] Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more [Vibration] each time the Coin is reused\nIf the Coin is reused twice, inflict [Vibration], then trigger [VibrationExplosion]\nAfter [VibrationExplosion], reduce [Vibration] Count by 1"
               ],
@@ -164,6 +184,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 10+ [Vibration] Count, Coin Power +1",
           "name": "Vibration Compression",
           "uptie": 4
@@ -172,6 +198,7 @@
       "tier": 2
     },
     "1090503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -194,6 +221,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Trigger [VibrationExplosion].\nAfter [VibrationExplosion], reduce [Vibration] Count by 1",
                 "[OnSucceedAttack] If target is Staggered, deal 25% of damage dealt as bonus damage"
@@ -211,6 +247,7 @@
       "tier": 3
     },
     "1090504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

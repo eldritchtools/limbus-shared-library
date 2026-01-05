@@ -1,12 +1,23 @@
 {
   "awakeningSkills": [
     {
+      "bonusNotes": "Only counts the raw numbers on the skill since each bullet is basically a different skill.",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 22,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 14,
           "coins": [
             {
@@ -24,11 +35,29 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "desc": "Deal +2% damage for every 3 [Combustion] on target (max 20%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict 3 [DarkFlame] against all enemies with [Combustion]",
           "name": "Magic Bullet",
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "desc": "Deal +3% damage for every 3 [Combustion] on target (max 30%)\n[BeforeAttack] At 0 [FreischutzShotCount], gain 1 [FreischutzShotCount].\n- [FreischutzShotCount] value determines the bullet to fire.\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Gain [FreischutzShotCount] equal to the highest Reson. (min. 1, max 4)\n[EndSkill] If the main target is defeated, inflict 4 [DarkFlame] against all enemies with [Combustion]",
           "name": "Magic Bullet",
           "uptie": 4
@@ -39,12 +68,23 @@
   ],
   "corrosionSkills": [
     {
+      "bonusNotes": "Only counts the raw numbers on the skill since each bullet is basically a different skill.",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 40,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": -20,
           "coins": [
             {
@@ -62,6 +102,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": -20,
           "coins": [
             {
@@ -78,6 +127,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": -20,
           "coins": [
             {

@@ -79,6 +79,7 @@
   },
   "skills": {
     "1091001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -107,6 +108,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -147,6 +154,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -170,12 +183,19 @@
       "tier": 1
     },
     "1091002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -204,6 +224,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -236,6 +262,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -265,12 +304,26 @@
       "tier": 2
     },
     "1091003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -283,6 +336,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] At 15+ [DevyatDimensionalSack], deal +15% damage",
                 "[EndSkill] If target is Staggered or defeated, gain 1 [Agility] next turn (once per turn)"
@@ -297,6 +363,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.8
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -309,6 +388,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] At 15+ [DevyatDimensionalSack], deal +25% damage",
                 "[EndSkill] If target is Staggered or defeated, gain 2 [Agility] next turn (once per turn)"
@@ -324,6 +416,7 @@
       "tier": 3
     },
     "1091004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -351,6 +444,7 @@
       "tier": 1
     },
     "1091005": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",

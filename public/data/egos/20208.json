@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -32,6 +33,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 20%)"
               ],
@@ -53,6 +60,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 40%)"
               ],
@@ -69,6 +82,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -100,6 +114,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 20%)"
               ],
@@ -121,6 +141,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "Deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 40%)"
               ],

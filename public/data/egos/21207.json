@@ -1,6 +1,8 @@
 {
   "awakeningSkills": [
     {
+      "bonusNotes": "Does not consider the SP loss when computing for average",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -22,6 +24,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1~2 random [SinkingWhite]",
                 "[OnSucceedAttack] Lose 2~6 SP",
@@ -52,6 +60,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1~2 random [SinkingWhite]",
                 "[OnSucceedAttack] Lose 2~6 SP",
@@ -80,6 +94,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1~2 random [SinkingWhite]",
                 "[OnSucceedAttack] Lose 2~6 SP",
@@ -98,12 +118,23 @@
   ],
   "corrosionSkills": [
     {
+      "bonusNotes": "Assumes 5 The Living and 5 The Departed for the final bonus Gloom damage",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 5,
           "baseValue": 32,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "add"
+              },
+              "type": "damage",
+              "value": 0.45
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
@@ -121,6 +152,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "add"
+              },
+              "type": "damage",
+              "value": 0.45
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
@@ -140,6 +180,16 @@
           "coinValue": -8,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add",
+                    "type": "gloom"
+                  },
+                  "type": "damage",
+                  "value": 10
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 5 [SinkingWhite](The Living)",
                 "[OnSucceedAttack] Inflict 5 [SinkingWhite](The Departed)",

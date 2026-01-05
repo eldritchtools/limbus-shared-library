@@ -43,6 +43,7 @@
   },
   "skills": {
     "1090601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -120,6 +121,7 @@
       "tier": 1
     },
     "1090602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -174,12 +176,19 @@
       "tier": 2
     },
     "1090603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -202,6 +211,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "At 15+ Shield, Coin Power +2",
           "name": "Subdue Threat",
           "uptie": 4
@@ -210,6 +225,7 @@
       "tier": 3
     },
     "1090604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

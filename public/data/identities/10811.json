@@ -83,6 +83,7 @@
   },
   "skills": {
     "1081101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -112,6 +113,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 6+ [Laceration], Coin Power +1",
           "name": "Clean Up",
           "uptie": 2
@@ -138,6 +145,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "desc": "Coin Power +1 for every 6 [Laceration] on target (max 2)\nDeal +10% damage for every type of negative effect on target (max 30%)",
           "name": "Clean Up",
           "uptie": 4
@@ -146,6 +166,7 @@
       "tier": 1
     },
     "1081102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -174,6 +195,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -202,6 +229,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -228,12 +268,19 @@
       "tier": 2
     },
     "1081103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -263,6 +310,12 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -278,6 +331,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "Deal +10% damage for every type of negative effect on target (max 100%)",
                 "[OnSucceedAttack] Activate [Laceration] on target 3 times; then, reduce their [Laceration] Count by 3"
@@ -293,6 +355,7 @@
       "tier": 3
     },
     "1081104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

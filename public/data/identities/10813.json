@@ -72,6 +72,7 @@
   },
   "skills": {
     "1081301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -100,6 +101,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -145,6 +152,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] If the other Skill in the same Skill Slot is a different Skill, [Discard] that Skill\n[WhenUse] Coin Power +1 for every 6 ([Vibration] + [Sinking]) on target (max 2)",
           "name": "Tsuru-giri [鶴斬り]",
           "uptie": 4
@@ -153,6 +166,7 @@
       "tier": 1
     },
     "1081302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -184,6 +198,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -234,6 +254,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -265,12 +291,27 @@
       "tier": 2
     },
     "1081303": {
+      "bonusNotes": "Assumes 5 Bright Potency",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.25
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -304,6 +345,19 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -323,6 +377,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.48
+                }
+              ],
               "descs": [
                 " If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +48% damage",
                 "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
@@ -338,6 +401,7 @@
       "tier": 3
     },
     "1081304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -367,6 +431,12 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[DuelCounter]\n[StartBattle] [Discard] 2 Skills of the lowest rank in all of this unit's Skill Slots (once per turn)\n[StartBattle] If this Skill was equipped on this unit's leftmost Skill Slot, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills next turn. (once per turn; excluding the Suit already in this unit's Hand)\n[StartBattle] 50% chance to gain 1 [HanafudaCombo] Potency (once per turn)\n[WhenUse] Coin Power +1 for every 2 [HanafudaCombo] Potency on self (max 2)",
           "name": "Shuffle Hands - Floral Deck",
           "uptie": 4
@@ -375,15 +445,36 @@
       "tier": 1
     },
     "1081305": {
+      "bonusNotes": "Assumes 5 Bright Potency",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 4
+                }
+              ],
               "descs": [
                 "Reuse this Coin ([HanafudaCombo] Potency - 1) times (4 times max)",
                 "[OnSucceedAttack] Inflict +1 [Vibration] Count",
@@ -402,6 +493,12 @@
           "coinValue": 5,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 4
+                }
+              ],
               "descs": [
                 "Reuse this Coin ([HanafudaCombo] Potency - 1) times (4 times max)",
                 "[OnSucceedAttack] Inflict +1 [Vibration] Count",

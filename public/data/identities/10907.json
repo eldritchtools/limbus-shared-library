@@ -47,6 +47,8 @@
   },
   "skills": {
     "1090701": {
+      "bonusNotes": "Assumes max insight",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -75,6 +77,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 1,
           "coins": [
             {
@@ -95,6 +103,12 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -115,6 +129,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -138,6 +158,8 @@
       "tier": 1
     },
     "1090702": {
+      "bonusNotes": "Assumes max insight",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -215,6 +237,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -241,6 +269,7 @@
       "tier": 2
     },
     "1090703": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -275,6 +304,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -304,6 +339,7 @@
       "tier": 3
     },
     "1090704": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

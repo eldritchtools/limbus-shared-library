@@ -68,6 +68,8 @@
   },
   "skills": {
     "1111401": {
+      "bonusNotes": "Her passive will give her better clashing than what's listed",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -94,6 +96,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Coin Power +1 for every 6 ([Sinking] + [Vibration]) on target (max 2)",
           "name": "Khopesh Swordplay",
           "uptie": 2
@@ -117,6 +125,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -141,6 +159,8 @@
       "tier": 1
     },
     "1111402": {
+      "bonusNotes": "Her passive will give her better clashing than what's listed",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -176,6 +196,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Gain +5 [Aggro] to this Skill Slot next turn\n[WhenUse] Coin Power +1 for every 6 ([Sinking] + [Vibration]) on target (max 2)",
           "name": "Mirage Incision",
           "uptie": 2
@@ -208,6 +234,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -239,12 +282,20 @@
       "tier": 2
     },
     "1111403": {
+      "bonusNotes": "Her passive will give her better clashing than what's listed",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 4
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -279,9 +330,35 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 4
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 "Spend 2 [LCA_Bullet]",
                 "Deal +([LCA_Bullet] spent x 30)% damage",
@@ -299,6 +376,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 "Spend 2 [LCA_Bullet]",
                 "Deal +([LCA_Bullet] spent x 30)% damage",
@@ -317,6 +403,7 @@
       "tier": 3
     },
     "1111404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

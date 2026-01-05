@@ -43,6 +43,7 @@
   },
   "skills": {
     "1120201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -97,6 +98,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -122,6 +129,7 @@
       "tier": 1
     },
     "1120202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -183,6 +191,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -213,6 +227,7 @@
       "tier": 2
     },
     "1120203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -253,6 +268,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -288,6 +312,7 @@
       "tier": 3
     },
     "1120204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

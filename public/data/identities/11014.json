@@ -68,6 +68,7 @@
   },
   "skills": {
     "1101401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -99,6 +100,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
           "name": "Oh, Let the Smell of Burning Blood...",
           "uptie": 2
@@ -156,6 +163,7 @@
       "tier": 1
     },
     "1101402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -177,6 +185,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
               ],
@@ -190,6 +207,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 6+ ([Combustion] + [Burst]), Coin Power +1",
           "name": "... Fuel My Rampage.",
           "uptie": 2
@@ -210,6 +233,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)"
               ],
@@ -239,6 +271,23 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "wrath"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] If this unit has [ChickenStance], or if this unit has less than 50% HP, Reuse this Coin (once per Skill)",
                 "[OnSucceedAttackHead] Deal (10% of this Coin's final damage) bonus Wrath damage"
@@ -254,12 +303,19 @@
       "tier": 2
     },
     "1101403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 3,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -295,6 +351,23 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -308,6 +381,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "gluttony"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Combustion]",
                 "[OnSucceedAttack] Inflict 1 [Burst]",
@@ -316,6 +399,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "gluttony"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Combustion]",
                 "[OnSucceedAttack] Inflict 2 [Burst]",
@@ -332,12 +425,19 @@
       "tier": 3
     },
     "1101404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -361,6 +461,23 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "desc": "[DuelCounter]\n[WhenUse] Gain 3 [ChickenStance] next turn\n[WhenUse] If target has 10+ ([Combustion] + [Burst]), Base Power +1\n[WhenUse] If this unit has [ChickenStance], Coin Power +1\n[WhenUse] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%)\n[DefeatDuel] Apply 2 [Combustion] to target and self",
           "name": "Rooster's Deathstrike [鷄窮則殺]",
           "uptie": 4

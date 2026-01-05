@@ -43,6 +43,7 @@
   },
   "skills": {
     "1090101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -94,6 +95,7 @@
       "tier": 1
     },
     "1090102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -172,12 +174,20 @@
       "tier": 2
     },
     "1090103": {
+      "bonusNotes": "Applies Power bonus regardless of SP set if using average",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -190,6 +200,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
               ],
@@ -225,6 +244,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has 6+ [Laceration], deal +20% damage"
               ],
@@ -239,6 +267,7 @@
       "tier": 3
     },
     "1090104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",

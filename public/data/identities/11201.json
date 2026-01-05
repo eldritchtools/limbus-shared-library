@@ -43,6 +43,7 @@
   },
   "skills": {
     "1120101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -94,6 +95,7 @@
       "tier": 1
     },
     "1120102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -167,6 +169,7 @@
       "tier": 2
     },
     "1120103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -176,12 +179,30 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], +10% Damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], +10% Damage",
                 "[OnSucceedAttackHead] Heal by 30% of damage dealt"
@@ -205,6 +226,7 @@
       "tier": 3
     },
     "1120104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

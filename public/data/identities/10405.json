@@ -365,18 +365,16 @@
           "coinValue": 2,
           "coins": [
             {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +5% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.05
+                }
               ],
-              "type": "normal"
-            },
-            {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +5% damage"
-              ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[OnSucceedAttackHead] The final Coin deals +5% damage"
               ],
@@ -386,12 +384,35 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.15
+                  "value": 0.05
                 }
               ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +5% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.05
+                }
+              ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +5% damage"
+              ],
+              "type": "normal"
+            },
+            {
               "descs": [
                 "[EnemyKill] If the skill consumed 15 [Charge] Count upon use, apply 5 [ChargeForceField] to self and 1 other ally"
               ],
@@ -414,18 +435,16 @@
           "coinValue": 2,
           "coins": [
             {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
               ],
-              "type": "normal"
-            },
-            {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +10% damage"
-              ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[OnSucceedAttackHead] The final Coin deals +10% damage"
               ],
@@ -435,12 +454,35 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.3
+                  "value": 0.1
                 }
               ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
               "descs": [
                 "[EnemyKill] If the skill consumed 15 [Charge] Count upon use, apply 7 [ChargeForceField] to self and 1 other ally"
               ],

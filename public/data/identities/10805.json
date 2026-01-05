@@ -63,6 +63,7 @@
   },
   "skills": {
     "1080501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -114,6 +115,7 @@
       "tier": 1
     },
     "1080502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -176,6 +178,7 @@
       "tier": 2
     },
     "1080503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -206,6 +209,7 @@
       "tier": 3
     },
     "1080504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

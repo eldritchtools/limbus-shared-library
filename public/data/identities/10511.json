@@ -319,12 +319,16 @@
           "coinValue": 3,
           "coins": [
             {
-              "descs": [
-                "[WinDuelAttack] The final Coin deals +10% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
               ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[WinDuelAttack] The final Coin deals +10% damage"
               ],
@@ -334,11 +338,20 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
-                },
+                  "value": 0.1
+                }
+              ],
+              "descs": [
+                "[WinDuelAttack] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
                 {
                   "extra": {
                     "op": "mul"
@@ -374,12 +387,16 @@
           "coinValue": 4,
           "coins": [
             {
-              "descs": [
-                "[WinDuelAttack] The final Coin deals +10% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
               ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[WinDuelAttack] The final Coin deals +10% damage"
               ],
@@ -389,11 +406,20 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
-                },
+                  "value": 0.1
+                }
+              ],
+              "descs": [
+                "[WinDuelAttack] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
                 {
                   "extra": {
                     "op": "mul"

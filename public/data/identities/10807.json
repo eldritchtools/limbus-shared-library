@@ -44,6 +44,7 @@
   },
   "skills": {
     "1080701": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -121,6 +122,7 @@
       "tier": 1
     },
     "1080702": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -150,6 +152,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -178,6 +186,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -203,12 +217,26 @@
       "tier": 2
     },
     "1080703": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -239,6 +267,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            }
+          ],
           "desc": "Coin Power +1 for every 5 [Vibration] Count on self (Max 2)\nIf target has 6+ [Sinking], deal +40% damage",
           "name": "Risky Judgement",
           "uptie": 4
@@ -247,6 +288,7 @@
       "tier": 3
     },
     "1080704": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

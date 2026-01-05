@@ -65,6 +65,7 @@
   },
   "skills": {
     "1110801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -90,6 +91,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 7+ [Sinking], Coin Power +1",
           "name": "Knocking",
           "uptie": 2
@@ -101,6 +108,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1",
           "name": "Knocking",
           "uptie": 4
@@ -109,6 +122,7 @@
       "tier": 1
     },
     "1110802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -151,6 +165,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WinDuel] Inflict +2 [Sinking] Count",
           "name": "Dusting",
           "uptie": 4
@@ -159,6 +179,7 @@
       "tier": 2
     },
     "1110803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -177,6 +198,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add",
+                    "type": "gloom"
+                  },
+                  "type": "damage",
+                  "value": 20
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 3 [EchoOfMansion] next turn",
                 "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to half of [Sinking] Potency on target (max 20)"
@@ -191,6 +222,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -203,6 +240,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add",
+                    "type": "gloom"
+                  },
+                  "type": "damage",
+                  "value": 30
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 3 [EchoOfMansion] next turn",
                 "[OnSucceedAttack] If target has [EchoOfMansion], inflict Gloom Affinity damage equal to [Sinking] Potency on target (max 30)"
@@ -218,6 +265,7 @@
       "tier": 3
     },
     "1110804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

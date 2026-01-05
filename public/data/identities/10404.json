@@ -239,18 +239,32 @@
           "coinValue": 3,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] The final Coin deals +10% damage"
               ],
               "type": "normal"
             },
             {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +5% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.05
+                }
               ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[OnSucceedAttackHead] The final Coin deals +5% damage"
               ],
@@ -260,12 +274,19 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
+                  "value": 0.05
                 }
               ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +5% damage"
+              ],
+              "type": "normal"
+            },
+            {
               "type": "normal"
             }
           ],

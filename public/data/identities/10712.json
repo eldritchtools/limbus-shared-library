@@ -271,15 +271,18 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]",
-                "[OnSucceedAttack] The final Coin deals +10% damage"
-              ],
-              "type": "normal"
-            },
-            {
-              "descs": [
-                "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp]",
                 "[OnSucceedAttack] The final Coin deals +10% damage"
               ],
               "type": "normal"
@@ -288,11 +291,21 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
-                },
+                  "value": 0.1
+                }
+              ],
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp]",
+                "[OnSucceedAttack] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
                 {
                   "extra": {
                     "op": "mul"
@@ -325,15 +338,18 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Laceration]",
-                "[OnSucceedAttack] The final Coin deals +10% damage"
-              ],
-              "type": "normal"
-            },
-            {
-              "descs": [
-                "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp]",
                 "[OnSucceedAttack] The final Coin deals +10% damage"
               ],
               "type": "normal"
@@ -342,11 +358,21 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
-                },
+                  "value": 0.1
+                }
+              ],
+              "descs": [
+                "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp]",
+                "[OnSucceedAttack] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
                 {
                   "extra": {
                     "op": "mul"

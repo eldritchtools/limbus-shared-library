@@ -43,6 +43,8 @@
   },
   "skills": {
     "1110401": {
+      "bonusNotes": "Clash Power reduction on the enemy means she clashes better than what's stated",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -103,6 +105,8 @@
       "tier": 1
     },
     "1110402": {
+      "bonusNotes": "Clash Power reduction on the enemy means she clashes better than what's stated",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -186,6 +190,8 @@
       "tier": 2
     },
     "1110403": {
+      "bonusNotes": "Clash Power reduction on the enemy means she clashes better than what's stated",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -204,6 +210,16 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul",
+                    "type": "slash"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Deal bonus Slash damage by 15% of damage dealt",
                 "[OnSucceedAttack] Inflict [WeaknessAnalysis] next turn"
@@ -218,6 +234,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "In a clash, opponent has -2 Clash Power\nIf target has 7+ [Burst], Coin Power +2",
           "name": "Exploit the Gap",
           "uptie": 4
@@ -226,6 +248,7 @@
       "tier": 3
     },
     "1110404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -51,6 +52,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -92,6 +94,12 @@
           "coinValue": -12,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Gain +1 [Breath] Count",
                 "[CriticalOnSucceedAttack] At 10+ [Breath], gain +30% Critical Damage"

@@ -47,12 +47,19 @@
   },
   "skills": {
     "1111001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -72,6 +79,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] At 4+ [Charge] Count, Base Power +1\n[WhenUse] At 6+ [Charge] Count, Clash Power +1\n[WhenUse] Gain +2 [Charge] Count",
           "name": "Ripple",
           "uptie": 2
@@ -94,6 +111,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -114,12 +141,19 @@
       "tier": 1
     },
     "1111002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -143,6 +177,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -171,6 +211,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -196,12 +242,19 @@
       "tier": 2
     },
     "1111003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -234,6 +287,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -270,11 +329,18 @@
       "tier": 3
     },
     "1111004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 10,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 5
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -289,6 +355,12 @@
         },
         {
           "affinity": "pride",
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 10
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {

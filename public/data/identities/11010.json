@@ -44,6 +44,7 @@
   },
   "skills": {
     "1101001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -72,6 +73,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -98,6 +105,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -121,6 +134,7 @@
       "tier": 1
     },
     "1101002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -146,6 +160,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -172,6 +192,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -195,12 +221,19 @@
       "tier": 2
     },
     "1101003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -227,6 +260,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -254,6 +293,7 @@
       "tier": 3
     },
     "1101004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

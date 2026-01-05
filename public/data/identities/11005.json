@@ -62,6 +62,7 @@
   },
   "skills": {
     "1100501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -132,12 +133,22 @@
       "tier": 1
     },
     "1100502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 12,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.05
+            }
+          ],
           "coinValue": -3,
           "coins": [
             {
@@ -169,6 +180,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": -3,
           "coins": [
             {
@@ -202,6 +222,15 @@
         },
         {
           "baseValue": 16,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": -4,
           "coins": [
             {
@@ -237,12 +266,23 @@
       "tier": 2
     },
     "1100503": {
+      "bonusNotes": "Ignores the damage boost against Mechanical Amalgams",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 30,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
@@ -296,6 +336,7 @@
       "tier": 3
     },
     "1100504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",

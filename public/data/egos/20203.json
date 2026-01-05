@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -44,6 +45,15 @@
           "coinValue": 10,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 3 [PenetrateTakeDamageUp]",
                 "[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp]",
@@ -64,6 +74,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -107,6 +118,15 @@
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]",
                 "[OnSucceedAttack] Inflict 3 [VioletTakeDamageUp]",

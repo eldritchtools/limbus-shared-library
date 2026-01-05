@@ -93,6 +93,7 @@
   },
   "skills": {
     "1091101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -119,6 +120,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[StartBattle] On self and 1 ally with the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
           "name": "Begone...",
           "uptie": 2
@@ -130,6 +137,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[StartBattle] On self and 1 ally with the highest max HP: consume up to 20 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies 1 additional [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)",
           "name": "Begone...",
           "uptie": 4
@@ -138,6 +151,7 @@
       "tier": 1
     },
     "1091102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -171,6 +185,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -202,6 +222,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "[StartBattle] On self and 1 ally with the least max HP: apply 1 [Enhancement], consume up to 30 [BloodDinner] and apply 1 [BloomingThornsRodionFirst] for every 10 [BloodDinner] this unit consumed (2 times per turn)\n- Prioritizes <Bloodfiend> allies\n- If the affected ally is a <Bloodfiend>, this unit applies additional 1 [Enhancement] and 2 [BloomingThornsRodionFirst]\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)",
           "name": "In Finely Ground Mistfall",
           "uptie": 4
@@ -210,6 +236,7 @@
       "tier": 2
     },
     "1091103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -248,6 +275,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[BeforeUse] At 25+ [BloomingThornsRodionFirst], activate 'Ascendant Don Quixote Hardblood[TabExplain] Arts - The Finale' instead\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] To self and (highest Reson.) allies: apply (3 + (1 for every 50 [BloodDinner_Accumulation] by this unit) [FestivalFeverRodion] this turn and next turn (max 10)\n[WhenUse] To self and (highest Reson.) allies: apply 3 [BloomingThornsRodionFirst]",
           "name": "The Festival Will End",
           "uptie": 4
@@ -256,6 +289,7 @@
       "tier": 3
     },
     "1091104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -293,12 +327,22 @@
       "tier": 1
     },
     "1091105": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 3,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -331,6 +375,19 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {

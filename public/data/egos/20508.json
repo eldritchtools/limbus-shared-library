@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -24,12 +25,30 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -63,12 +82,30 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -99,12 +136,30 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -124,15 +179,41 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "blunt",
           "atkWeight": 7,
           "baseValue": 28,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.12
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)",
                 "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count ",
@@ -152,9 +233,34 @@
         },
         {
           "baseValue": 30,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.12
+            }
+          ],
           "coinValue": -12,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)",
                 "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count",
@@ -171,9 +277,34 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.12
+            }
+          ],
           "coinValue": -10,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] This Coin deals +2% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)",
                 "[OnSucceedAttack] Inflict 5 [Vibration] and +2 [Vibration] Count",

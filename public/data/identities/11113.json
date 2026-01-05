@@ -52,6 +52,7 @@
   },
   "skills": {
     "1111301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -80,6 +81,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "[WhenUse] Gain +2 [Vibration] Count\n[WhenUse] If target has 6+ [Vibration], Coin Power +1",
           "name": "Prepare To Collect",
           "uptie": 2
@@ -91,6 +98,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -114,6 +127,7 @@
       "tier": 1
     },
     "1111302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -148,6 +162,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -204,6 +224,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -220,6 +246,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 " If target is in either [Switch_Vibration] or [FusionVibration] states, this Coin deals +60% damage",
                 "[OnSucceedAttack] If the target isn't in [Switch_Vibration] or [FusionVibration] states, consume 3 [Vibration] Count on self to trigger [Switch_Vibration] into [VibrationChainPersonality]",
@@ -236,12 +271,26 @@
       "tier": 2
     },
     "1111303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -258,6 +307,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "coin",
+                  "value": 5
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnStartCoin] Consume all [Vibration] Count on self\n- Coin Power +1 for every 5 [Vibration] Count consumed (max 5)\n- Deal +1% damage for every 1 [Vibration] Count consumed (max 50%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -274,6 +336,30 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -290,6 +376,19 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "coin",
+                  "value": 5
+                },
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnStartCoin] Consume all [Vibration] Count on self\n- Coin Power +1 for every 4 [Vibration] Count consumed (max 5)\n- Deal +2% damage for every 1 [Vibration] Count consumed (max 100%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -307,6 +406,7 @@
       "tier": 3
     },
     "1111304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

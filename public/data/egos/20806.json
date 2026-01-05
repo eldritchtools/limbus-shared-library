@@ -1,6 +1,8 @@
 {
   "awakeningSkills": [
     {
+      "bonusNotes": "Ignores the damage bonus from the stacking damage up debuff being applied",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -16,6 +18,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Lose 1~2 SP",
                 "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
@@ -42,6 +53,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Lose 1~2 SP",
                 "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
@@ -66,6 +86,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "heads"
+                  },
+                  "type": "reuse",
+                  "value": 5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttackHead] Lose 1~2 SP",
                 "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
@@ -86,6 +115,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",

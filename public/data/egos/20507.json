@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -44,6 +45,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -81,6 +88,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -124,6 +137,8 @@
   ],
   "corrosionSkills": [
     {
+      "bonusNotes": "Ignores bonus damage from consuming HP",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -168,6 +183,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -204,6 +225,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {

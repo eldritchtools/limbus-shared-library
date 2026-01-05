@@ -50,6 +50,7 @@
   },
   "skills": {
     "1090901": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -79,6 +80,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -100,6 +107,12 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -121,6 +134,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -145,6 +164,7 @@
       "tier": 1
     },
     "1090902": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -171,6 +191,12 @@
         },
         {
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -190,6 +216,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -209,6 +241,19 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -234,12 +279,23 @@
       "tier": 2
     },
     "1090903": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -275,6 +331,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            },
+            {
+              "type": "clash",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -313,6 +386,7 @@
       "tier": 3
     },
     "1090904": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

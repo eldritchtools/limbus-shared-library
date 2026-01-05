@@ -48,12 +48,19 @@
   },
   "skills": {
     "1111201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -76,6 +83,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -85,6 +98,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] At 12+ Speed, Reuse Coin once (once per Skill)"
@@ -103,6 +122,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -112,6 +141,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
@@ -127,18 +162,34 @@
       "tier": 1
     },
     "1111202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "At 10+ Speed, deal +10% damage",
                 "[OnSucceedAttack] Inflict +1 [Burst] Count"
@@ -153,6 +204,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -162,6 +219,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "At 10+ Speed, deal +20% damage",
                 "[OnSucceedAttack] Inflict +1 [Burst] Count"
@@ -183,6 +249,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "At 10+ Speed, deal +20% damage",
                 "[OnSucceedAttack] Inflict +1 [Burst] Count"
@@ -195,6 +270,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -205,6 +290,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "At 10+ Speed, deal +30% damage",
                 "[OnSucceedAttack] Inflict +1 [Burst] Count"
@@ -220,12 +314,26 @@
       "tier": 2
     },
     "1111203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -242,6 +350,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
@@ -256,6 +370,23 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -272,6 +403,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)",
@@ -288,12 +425,19 @@
       "tier": 3
     },
     "1111204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -310,6 +454,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "desc": "[DuelCounter]\n[WhenUse] Gain 3 [LegStrength]\n[WhenUse] If this unit's Speed is faster than the target's, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)",
           "name": "Partial Heishou Mutation",
           "uptie": 4

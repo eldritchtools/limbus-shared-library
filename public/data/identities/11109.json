@@ -91,6 +91,7 @@
   },
   "skills": {
     "1110901": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -119,6 +120,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -145,6 +152,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 6+ [Laceration], Clash Power +1\nIf target has 10+ [Laceration], Coin Power +1 ",
           "name": "Dotting",
           "uptie": 4
@@ -153,6 +170,7 @@
       "tier": 1
     },
     "1110902": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -165,6 +183,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
                 "[OnSucceedAttack] Inflict +1 [Laceration] Count"
@@ -179,12 +203,24 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] 20% chance to Reuse Coin once. +20% more chance to Reuse Coin for every type of negative effect on target",
                 "[OnSucceedAttack] Inflict +1 [Laceration] Count\nWhen Reusing Coin with this unit's Coin effects, inflict +1 more [Laceration] Count"
@@ -203,12 +239,24 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] 40% chance to Reuse Coin. +20% more chance to Reuse Coin for every type of negative effect on target (2 times max per Skill)",
                 "[OnSucceedAttack] Inflict +1 [Laceration] Count\nWhen Reusing Coin with this unit's Coin effects, inflict +1 more [Laceration] Count"
@@ -224,12 +272,22 @@
       "tier": 2
     },
     "1110903": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -251,6 +309,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -273,11 +344,18 @@
       "tier": 3
     },
     "1110904": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 7,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -292,6 +370,12 @@
         },
         {
           "affinity": "lust",
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 7
+            }
+          ],
           "desc": "[WhenUse] If target has 10+ [Laceration], Coin Power +7",
           "name": "Guard",
           "uptie": 4

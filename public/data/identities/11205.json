@@ -44,6 +44,7 @@
   },
   "skills": {
     "1120501": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -113,6 +114,7 @@
       "tier": 1
     },
     "1120502": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -175,6 +177,7 @@
       "tier": 2
     },
     "1120503": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -190,6 +193,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] If target is Staggered, deal +10% damage"
@@ -197,6 +209,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] If target is Staggered, deal +10% damage"
@@ -211,6 +232,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -220,6 +247,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] If target is Staggered, deal +10% damage",
@@ -228,6 +264,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Burst]",
                 "[OnSucceedAttack] If target is Staggered, deal +10% damage",
@@ -244,6 +289,7 @@
       "tier": 3
     },
     "1120504": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -42,6 +42,7 @@
   },
   "skills": {
     "1110201": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -84,6 +85,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -101,6 +108,7 @@
       "tier": 1
     },
     "1110202": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -169,12 +177,19 @@
       "tier": 2
     },
     "1110203": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 6,
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -194,6 +209,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "desc": "If target’s HP is below 50%, Final Power +2",
           "name": "Decisive Dive",
           "uptie": 4
@@ -202,6 +223,7 @@
       "tier": 3
     },
     "1110204": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
@@ -221,6 +243,12 @@
         },
         {
           "affinity": "pride",
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "desc": "At 6+ [Breath], Coin Power +3",
           "name": "Evade",
           "uptie": 4

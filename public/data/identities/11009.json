@@ -81,6 +81,7 @@
   },
   "skills": {
     "1100901": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -90,6 +91,12 @@
           "coinValue": 7,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 1 [Combustion]",
                 "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)"
@@ -107,6 +114,12 @@
           "coinValue": 7,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Combustion]",
                 "[OnSucceedAttackHead] When in a Volatile E.G.O state, Reuse Coin (once per Skill)"
@@ -128,6 +141,7 @@
       "tier": 1
     },
     "1100902": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -162,6 +176,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -194,6 +214,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -223,12 +249,19 @@
       "tier": 2
     },
     "1100903": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -251,6 +284,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 7,
           "coins": [
             {
@@ -274,11 +313,18 @@
       "tier": 3
     },
     "1100904": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",
           "atkWeight": 1,
           "baseValue": 15,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 20
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -291,6 +337,12 @@
         },
         {
           "affinity": "lust",
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 20
+            }
+          ],
           "desc": "When in a Volatile E.G.O state, Base Power +1 for every 2 [Combustion] on target (max 20)",
           "name": "Rue",
           "uptie": 4
@@ -299,15 +351,38 @@
       "tier": 1
     },
     "1100905": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 13,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 8
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 15,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "Deal +2.5% damage for every 1 [Combustion] on target (max 100%)",
                 "[OnSucceedAttack] If target has 10+ [Combustion], inflict 2 [Combustion] against (# of highest Reson.) random enemies",
@@ -324,9 +399,31 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1.2
+            },
+            {
+              "type": "coin",
+              "value": 8
+            }
+          ],
           "coinValue": 15,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.2
+                }
+              ],
               "descs": [
                 "Deal +4% damage for every 1 [Combustion] on target (max 120%)",
                 "[OnSucceedAttack] If target has 10+ [Combustion], inflict 2 [Combustion] against (# of highest Reson.) random enemies\n- If the above Reson. was a Wrath Reson., inflict +1 [Combustion] Count as well",

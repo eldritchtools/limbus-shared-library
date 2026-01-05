@@ -67,6 +67,7 @@
   },
   "skills": {
     "1100801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -121,6 +122,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -144,6 +151,7 @@
       "tier": 1
     },
     "1100802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -175,6 +183,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -204,6 +218,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -230,12 +250,19 @@
       "tier": 2
     },
     "1100803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -248,6 +275,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "+30% Damage on Critical Hit"
               ],
@@ -261,6 +294,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -273,6 +312,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "+50% Damage on Critical Hit"
               ],
@@ -287,6 +332,7 @@
       "tier": 3
     },
     "1100804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

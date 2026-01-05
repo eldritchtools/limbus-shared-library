@@ -1,15 +1,31 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 5,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +0.1% damage for every [BloodDinner_Common_Accumulation] (max 10%)"
@@ -17,6 +33,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 10%)"
@@ -24,6 +49,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 20%)"
@@ -31,6 +65,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 30%)",
@@ -46,9 +89,28 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +0.1% damage for every [BloodDinner_Common_Accumulation] (max 10%)"
@@ -56,6 +118,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 15%)"
@@ -63,6 +134,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 25%)"
@@ -70,6 +150,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 40%)",
@@ -84,9 +173,28 @@
         },
         {
           "atkWeight": 7,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "type": "clash",
+              "value": 5
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "Deal +0.1% damage for every [BloodDinner_Common_Accumulation] (max 10%)"
@@ -94,6 +202,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 100+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 20%)"
@@ -101,6 +218,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 200+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 30%)"
@@ -108,6 +234,15 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "At 300+ [BloodDinner_Common_Accumulation]: deal +0.1% damage for every value (max 50%)",
@@ -126,12 +261,19 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
           "atkType": "pierce",
           "atkWeight": 5,
           "baseValue": 30,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": -1
+            }
+          ],
           "coinValue": -10,
           "coins": [
             {
@@ -142,6 +284,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "Deal +5% damage for every 100 [BloodDinner_Common_Accumulation] (max 25%)",
                 "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 3)",
@@ -157,6 +308,16 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": -1
+            },
+            {
+              "type": "coin",
+              "value": -1
+            }
+          ],
           "coinValue": -10,
           "coins": [
             {
@@ -167,6 +328,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "Deal +10% damage for every 100 [BloodDinner_Common_Accumulation] (max 50%)",
                 "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 4)",
@@ -181,6 +351,16 @@
         },
         {
           "atkWeight": 7,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": -1
+            },
+            {
+              "type": "coin",
+              "value": -1
+            }
+          ],
           "coinValue": -10,
           "coins": [
             {
@@ -191,6 +371,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1
+                }
+              ],
               "descs": [
                 "Deal +20% damage for every 100 [BloodDinner_Common_Accumulation] (max 100%)",
                 "[WinDuelAttack] Inflict [ThirstyRose] based on the highest Lust A-Reson. (max 5)",

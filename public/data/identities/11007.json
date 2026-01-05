@@ -43,6 +43,7 @@
   },
   "skills": {
     "1100701": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -77,6 +78,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 1,
           "coins": [
             {
@@ -110,6 +117,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 1,
           "coins": [
             {
@@ -141,6 +154,7 @@
       "tier": 1
     },
     "1100702": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -200,6 +214,7 @@
       "tier": 2
     },
     "1100703": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -225,6 +240,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -245,6 +266,7 @@
       "tier": 3
     },
     "1100704": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

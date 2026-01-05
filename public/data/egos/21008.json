@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -16,6 +17,20 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 2 [Burst]",
                 "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
@@ -31,6 +46,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -40,6 +61,20 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Inflict 3 [Burst]",
                 "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
@@ -53,6 +88,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -62,6 +103,27 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.4
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 " Deal +1% damage for every 2% missing HP on self (max 40%)",
                 "[OnSucceedAttack] Inflict 3 [Burst]",
@@ -81,6 +143,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -97,6 +160,20 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
                 "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
@@ -111,6 +188,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
@@ -121,6 +204,20 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",
                 "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
@@ -133,6 +230,11 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base"
+            }
+          ],
           "coinValue": -8,
           "coins": [
             {
@@ -143,6 +245,27 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.4
+                },
+                {
+                  "type": "reuse",
+                  "value": 1
+                },
+                {
+                  "extra": {
+                    "cond": "reuse",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 " Deal +1% damage for every 2% missing HP on self (max 40%)",
                 "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Coin (once per Skill)",

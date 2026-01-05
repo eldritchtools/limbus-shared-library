@@ -1,6 +1,8 @@
 {
   "awakeningSkills": [
     {
+      "bonusNotes": "Ignores Wrath damage by percentage of stagger threshold raised",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -59,6 +61,8 @@
   ],
   "corrosionSkills": [
     {
+      "bonusNotes": "Ignores Wrath damage by percentage of stagger threshold raised",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",

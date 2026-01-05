@@ -43,6 +43,7 @@
   },
   "skills": {
     "1080601": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -71,6 +72,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -98,6 +105,12 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "Coin Power +1 for every 3 [Combustion] on target (Max 2)",
           "name": "Red Kick",
           "uptie": 4
@@ -106,6 +119,7 @@
       "tier": 1
     },
     "1080602": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
@@ -140,6 +154,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -166,6 +186,12 @@
           "uptie": 2
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -192,6 +218,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "Coin Power +1 for every 6 [Combustion] on target (Max 2)",
           "name": "Frontal Assault",
           "uptie": 4
@@ -200,12 +232,22 @@
       "tier": 2
     },
     "1080603": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -240,6 +282,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "desc": "If target has 6+ [Combustion] and [Combustion] Count, deal +50% damage",
           "name": "Inner Gate Elbow Strike",
           "uptie": 4
@@ -248,6 +299,7 @@
       "tier": 3
     },
     "1080604": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",

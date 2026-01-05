@@ -1,12 +1,19 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 16,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2.0
+            }
+          ],
           "coinValue": 16,
           "coins": [
             {
@@ -24,6 +31,12 @@
         },
         {
           "baseValue": 21,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2.0
+            }
+          ],
           "coinValue": 16,
           "coins": [
             {
@@ -39,6 +52,19 @@
         },
         {
           "atkWeight": 3,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2.0
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": 16,
           "coins": [
             {
@@ -58,12 +84,19 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 38,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2.0
+            }
+          ],
           "coinValue": -22,
           "coins": [
             {
@@ -81,6 +114,12 @@
         },
         {
           "baseValue": 42,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 4.0
+            }
+          ],
           "coinValue": -22,
           "coins": [
             {
@@ -96,6 +135,19 @@
         },
         {
           "atkWeight": 3,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 4.0
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1
+            }
+          ],
           "coinValue": -22,
           "coins": [
             {

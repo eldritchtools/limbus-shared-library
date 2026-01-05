@@ -44,6 +44,7 @@
   },
   "skills": {
     "1110301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -86,6 +87,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "desc": "If target has 5+ [Sinking], Coin Power +2",
           "name": "Order",
           "uptie": 4
@@ -94,6 +101,7 @@
       "tier": 1
     },
     "1110302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -154,6 +162,7 @@
       "tier": 2
     },
     "1110303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -196,6 +205,7 @@
       "tier": 3
     },
     "1110304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

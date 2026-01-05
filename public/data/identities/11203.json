@@ -43,12 +43,22 @@
   },
   "skills": {
     "1120301": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -68,6 +78,15 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -91,6 +110,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -111,6 +143,7 @@
       "tier": 1
     },
     "1120302": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -154,6 +187,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            }
+          ],
           "coinValue": 10,
           "coins": [
             {
@@ -172,6 +214,7 @@
       "tier": 2
     },
     "1120303": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -181,18 +224,45 @@
           "coinValue": 2,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
               ],
@@ -212,21 +282,54 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
               ],
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Burst], deal 30% of damage dealt as bonus damage"
               ],
@@ -247,6 +350,7 @@
       "tier": 3
     },
     "1120304": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

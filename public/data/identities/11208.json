@@ -57,6 +57,7 @@
   },
   "skills": {
     "1120801": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "sloth",
@@ -79,6 +80,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -99,6 +106,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -116,6 +129,7 @@
       "tier": 1
     },
     "1120802": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -152,6 +166,12 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 5,
           "coins": [
             {
@@ -176,12 +196,19 @@
       "tier": 2
     },
     "1120803": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -212,6 +239,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "clash",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -244,6 +281,7 @@
       "tier": 3
     },
     "1120804": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

@@ -67,6 +67,7 @@
   },
   "skills": {
     "1081001": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -97,6 +98,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -141,6 +148,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] Base Power +1 for every 4 [DefenseUp] (max 2)",
           "name": "Zwei Knight's Greatsword Form",
           "uptie": 4
@@ -149,6 +162,7 @@
       "tier": 1
     },
     "1081002": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
@@ -184,6 +198,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -217,6 +237,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -247,12 +273,26 @@
       "tier": 2
     },
     "1081003": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.5
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -268,6 +308,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Consume all [Vibration] Count on self, and inflict the value of the Count consumed as [Vibration] on target. (max 10)\n- Deal +(excess [Vibration] x 1.5)% damage (max 30%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -284,6 +333,19 @@
         },
         {
           "baseValue": 5,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.7
+            },
+            {
+              "type": "coin",
+              "value": 4
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -299,6 +361,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.5
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] Consume all [Vibration] Count on self, and inflict the value of the Count consumed as [Vibration] on target. (max 20)\n- Deal +(excess [Vibration] x 5)% damage (max 50%)",
                 "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
@@ -315,6 +386,7 @@
       "tier": 3
     },
     "1081004": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

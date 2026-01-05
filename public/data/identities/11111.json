@@ -81,6 +81,7 @@
   },
   "skills": {
     "1111101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -109,6 +110,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -154,6 +161,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -179,6 +192,7 @@
       "tier": 1
     },
     "1111102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -215,6 +229,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -272,6 +292,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -303,12 +329,23 @@
       "tier": 2
     },
     "1111103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 3,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -330,6 +367,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.9
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] At 10+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x 2)% damage (max 38%)\n- At 20+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x 3)% damage instead (max 90%)"
               ],
@@ -343,6 +389,16 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "type": "clash",
+              "value": 2
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -364,6 +420,15 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 1.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] At 10+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x 3)% damage (max 57%)\n- At 20+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x 4)% damage instead (max 120%)"
               ],
@@ -378,12 +443,23 @@
       "tier": 3
     },
     "1111104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
           "atkType": "slash",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
@@ -401,6 +477,20 @@
         },
         {
           "baseValue": 7,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {

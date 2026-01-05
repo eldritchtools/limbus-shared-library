@@ -1,6 +1,7 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -67,6 +68,7 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -76,6 +78,15 @@
           "coinValue": -18,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 20%)",
                 "[OnSucceedAttack] Inflict (1 + (highest Reson. x 1.5)) [Laceration] (max 10, rounded down)",
@@ -95,6 +106,15 @@
           "coinValue": -18,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 40%)",
                 "[OnSucceedAttack] Inflict (3 + (highest Reson. x 2)) [Laceration] (max 15, rounded down)",
@@ -112,6 +132,15 @@
           "coinValue": -20,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.6
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 60%)",
                 "[OnSucceedAttack] Inflict (10 + (highest Reson. x 2.5)) [Laceration] (max 25, rounded down)",

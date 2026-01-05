@@ -233,12 +233,16 @@
           "coinValue": 3,
           "coins": [
             {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
               ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[OnSucceedAttackHead] The final Coin deals +10% damage"
               ],
@@ -248,12 +252,19 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
+                  "value": 0.1
                 }
               ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
               "descs": [
                 "[CriticalOnSucceedAttack] To 2 allies either with no [Breath] or with the least [Breath] Count, apply +2 [Breath] Count",
                 "[EndSkill] If target is defeated, gain 1 [SlashDamageUp] next turn"
@@ -277,12 +288,16 @@
           "coinValue": 3,
           "coins": [
             {
-              "descs": [
-                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              "bonuses": [
+                {
+                  "extra": {
+                    "cond": "lastcoin",
+                    "op": "mul"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
               ],
-              "type": "normal"
-            },
-            {
               "descs": [
                 "[OnSucceedAttackHead] The final Coin deals +10% damage"
               ],
@@ -292,11 +307,20 @@
               "bonuses": [
                 {
                   "extra": {
+                    "cond": "lastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
-                  "value": 0.2
-                },
+                  "value": 0.1
+                }
+              ],
+              "descs": [
+                "[OnSucceedAttackHead] The final Coin deals +10% damage"
+              ],
+              "type": "normal"
+            },
+            {
+              "bonuses": [
                 {
                   "type": "critdamage",
                   "value": 0.3

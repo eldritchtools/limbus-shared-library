@@ -315,6 +315,14 @@
             {
               "type": "coin",
               "value": 2
+            },
+            {
+              "extra": {
+                "cond": "lastcoin",
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
             }
           ],
           "coinValue": 4,
@@ -333,14 +341,6 @@
             },
             {
               "bonuses": [
-                {
-                  "extra": {
-                    "op": "mul",
-                    "type": "slash"
-                  },
-                  "type": "damage",
-                  "value": 0.15
-                },
                 {
                   "extra": {
                     "op": "mul",

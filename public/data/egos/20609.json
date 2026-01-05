@@ -1,18 +1,39 @@
 {
   "awakeningSkills": [
     {
+      "bonusNotes": "Assumes Higher Thunderer is active",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "slash",
           "atkWeight": 4,
           "baseValue": 8,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.27
+            },
+            {
+              "type": "final",
+              "value": 1
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.3
+                }
+              ],
               "descs": [
                 "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max 15%)",
                 "If this unit has [SeniorCianjing], deal +(([Breath] Potency + [Breath] Count) / 2)% damage on Critical Hit (max 30%)",
@@ -28,12 +49,31 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.27
+            },
+            {
+              "type": "final",
+              "value": 2
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max 20%)",
                 "If this unit has [SeniorCianjing], deal +(([Breath] Potency + [Breath] Count) / 2)% damage on Critical Hit (max 40%)",
@@ -48,12 +88,31 @@
         },
         {
           "baseValue": 10,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.45
+            },
+            {
+              "type": "final",
+              "value": 3
+            }
+          ],
           "coinValue": 6,
           "coins": [
             {
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                }
+              ],
               "descs": [
                 "If this unit has [Cianjing], deal +([Breath] Potency)% damage on Critical Hit (max 20%)",
                 "If this unit has [SeniorCianjing], deal +([Breath] Potency + [Breath] Count)% damage on Critical Hit (max 40%)",
@@ -72,15 +131,34 @@
   ],
   "corrosionSkills": [
     {
+      "bonusNotes": "Assumes Higher Thunderer is active",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
           "atkType": "pierce",
           "atkWeight": 5,
           "baseValue": 2,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "max": 10,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Deal Pride damage by 10% of the damage dealt (max 10)"
@@ -88,6 +166,17 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "max": 15,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Deal Pride damage by 15% of the damage dealt (max 15)"
@@ -95,6 +184,21 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.4
+                },
+                {
+                  "extra": {
+                    "max": 25,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max 20%)",
@@ -112,9 +216,30 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 1
+            },
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "max": 10,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Deal Pride damage by 10% of the damage dealt (max 10)"
@@ -122,6 +247,17 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "max": 15,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Deal Pride damage by 15% of the damage dealt (max 15)"
@@ -129,6 +265,21 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "type": "critdamage",
+                  "value": 0.6
+                },
+                {
+                  "extra": {
+                    "max": 25,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "If this unit has [Cianjing], deal +([Breath] Potency / 2)% damage on Critical Hit (max 30%)",
@@ -145,9 +296,30 @@
         },
         {
           "baseValue": 4,
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            },
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "max": 10,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.1
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Deal Pride damage by 10% of the damage dealt (max 10)"
@@ -155,6 +327,17 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "max": 15,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.15
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "[OnSucceedAttack] Deal Pride damage by 15% of the damage dealt (max 15)"
@@ -162,6 +345,24 @@
               "type": "unbreakable"
             },
             {
+              "bonuses": [
+                {
+                  "extra": {
+                    "op": "add"
+                  },
+                  "type": "critdamage",
+                  "value": 0.6
+                },
+                {
+                  "extra": {
+                    "max": 25,
+                    "op": "mul",
+                    "type": "pride"
+                  },
+                  "type": "damage",
+                  "value": 0.25
+                }
+              ],
               "descs": [
                 "[SuperCoin]",
                 "If this unit has [Cianjing], deal +([Breath] Potency)% damage on Critical Hit (max 30%)",

@@ -46,6 +46,7 @@
   },
   "skills": {
     "1080401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -88,6 +89,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "base",
+              "value": 2
+            }
+          ],
           "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nIf target has 8+ [Vibration], Skill Power +2",
           "name": "Shove",
           "uptie": 4
@@ -96,6 +103,7 @@
       "tier": 1
     },
     "1080402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gloom",
@@ -186,6 +194,7 @@
       "tier": 2
     },
     "1080403": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -226,6 +235,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "desc": "If target has 5+ [Vibration] Count, Coin Power +1",
           "name": "Suppress",
           "uptie": 4
@@ -234,6 +249,7 @@
       "tier": 3
     },
     "1080404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "none",

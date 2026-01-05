@@ -44,6 +44,7 @@
   },
   "skills": {
     "1090401": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "pride",
@@ -123,6 +124,7 @@
       "tier": 1
     },
     "1090402": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -180,12 +182,23 @@
       "tier": 2
     },
     "1090403": {
+      "bonusNotes": "Ignores the damage bonus from the number of N Corp. allies present",
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 4,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            }
+          ],
           "coinValue": 2,
           "coins": [
             {
@@ -214,6 +227,15 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.15
+            }
+          ],
           "desc": "If this unit is [AssemblePersonality], deal +15% damage\nDeal +5% damage for each 'N Corp. Fanatic' present in the party",
           "name": "Ironclad Retribution",
           "uptie": 4
@@ -222,6 +244,7 @@
       "tier": 3
     },
     "1090404": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",

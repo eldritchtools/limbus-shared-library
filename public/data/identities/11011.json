@@ -81,6 +81,7 @@
   },
   "skills": {
     "1101101": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "lust",
@@ -109,6 +110,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 3,
           "coins": [
             {
@@ -149,6 +156,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "desc": "Coin Power +1 for every 10 [DevyatDimensionalSackSinclair] on self or for every 6 [Burst] on target (max 2)\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count, this Skill does not inflict [Burst] Count with its On Hit effects; instead, it inflicts 2 [DefenseDown] (once per Coin)",
           "name": "Courier Trunk - Decay Hammer",
           "uptie": 4
@@ -157,6 +170,7 @@
       "tier": 1
     },
     "1101102": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -191,6 +205,12 @@
           "uptie": 1
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -223,6 +243,12 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -252,12 +278,26 @@
       "tier": 2
     },
     "1101103": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "wrath",
           "atkType": "blunt",
           "atkWeight": 1,
           "baseValue": 5,
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 1
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.9
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -273,6 +313,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "coin",
+                  "value": 2
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If this Skill failed to increase the final Coin Power, gain 1 [Agility] next turn"
               ],
@@ -286,6 +332,19 @@
           "uptie": 3
         },
         {
+          "bonuses": [
+            {
+              "type": "coin",
+              "value": 2
+            },
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 1.2
+            }
+          ],
           "coinValue": 4,
           "coins": [
             {
@@ -301,6 +360,12 @@
               "type": "normal"
             },
             {
+              "bonuses": [
+                {
+                  "type": "coin",
+                  "value": 4
+                }
+              ],
               "descs": [
                 "[OnSucceedAttack] If this Skill's effect to raise its final Coin Power did not activate, gain 2 [Agility] next turn"
               ],
@@ -315,6 +380,7 @@
       "tier": 3
     },
     "1101104": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",
@@ -342,6 +408,7 @@
       "tier": 1
     },
     "1101105": {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "gluttony",

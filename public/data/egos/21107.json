@@ -1,12 +1,22 @@
 {
   "awakeningSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 3,
           "baseValue": 21,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.1
+            }
+          ],
           "coinValue": 9,
           "coins": [
             {
@@ -26,6 +36,15 @@
         },
         {
           "baseValue": 21,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": 9,
           "coins": [
             {
@@ -44,6 +63,15 @@
         {
           "atkWeight": 4,
           "baseValue": 21,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.3
+            }
+          ],
           "coinValue": 9,
           "coins": [
             {
@@ -65,12 +93,22 @@
   ],
   "corrosionSkills": [
     {
+      "bonusesEnabled": true,
       "data": [
         {
           "affinity": "envy",
           "atkType": "slash",
           "atkWeight": 3,
           "baseValue": 32,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.2
+            }
+          ],
           "coinValue": -13,
           "coins": [
             {
@@ -90,6 +128,15 @@
         },
         {
           "baseValue": 32,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.4
+            }
+          ],
           "coinValue": -13,
           "coins": [
             {
@@ -108,6 +155,15 @@
         {
           "atkWeight": 4,
           "baseValue": 32,
+          "bonuses": [
+            {
+              "extra": {
+                "op": "mul"
+              },
+              "type": "damage",
+              "value": 0.6
+            }
+          ],
           "coinValue": -13,
           "coins": [
             {
