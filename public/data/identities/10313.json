@@ -318,7 +318,7 @@
             },
             {
               "extra": {
-                "cond": "lastcoin",
+                "cond": "tolastcoin",
                 "op": "mul"
               },
               "type": "damage",

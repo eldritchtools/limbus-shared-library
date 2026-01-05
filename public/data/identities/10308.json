@@ -236,7 +236,7 @@
               "bonuses": [
                 {
                   "extra": {
-                    "cond": "lastcoin",
+                    "cond": "tolastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
@@ -252,7 +252,7 @@
               "bonuses": [
                 {
                   "extra": {
-                    "cond": "lastcoin",
+                    "cond": "tolastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
@@ -291,7 +291,7 @@
               "bonuses": [
                 {
                   "extra": {
-                    "cond": "lastcoin",
+                    "cond": "tolastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
@@ -307,7 +307,7 @@
               "bonuses": [
                 {
                   "extra": {
-                    "cond": "lastcoin",
+                    "cond": "tolastcoin",
                     "op": "mul"
                   },
                   "type": "damage",
