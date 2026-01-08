@@ -1812,21 +1812,25 @@
   "IndexPrescriptDon_0": {
     "buffType": "Neutral",
     "desc": "Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill.\n\n- Turn Start: Gain this effect when this unit has no Unlock\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 3",
+    "imageOverride": "IndexPrescript_Base_2nd",
     "name": "Prescript: [Device] I"
   },
   "IndexPrescriptDon_1": {
     "buffType": "Neutral",
     "desc": "Hit a target with a Skill marked with Mark of the Prescript.\n\n- Turn Start: Gain this effect if this unit has Unlock - I\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 6",
+    "imageOverride": "IndexPrescript_Base_2nd",
     "name": "Prescript: [Device] II"
   },
   "IndexPrescriptDon_2": {
     "buffType": "Neutral",
     "desc": "Hit a target with E.G.O Awakening Skill, or, in Effloresced E.G.O::Procuration state, 'Skill 3' marked with Mark of the Prescript.\n\n- Turn Start: Gain this effect if this unit has Unlock - II\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 9",
+    "imageOverride": "IndexPrescript_Base_2nd",
     "name": "Prescript: [Device] III"
   },
   "IndexPrescriptDon_3": {
     "buffType": "Neutral",
     "desc": "Eliminate all enemies before the next Prescript arrives.\n\n- Turn Start: Gain this effect if this unit has Unlock - III",
+    "imageOverride": "IndexPrescript_Base_2nd",
     "name": "Prescript: [Device] IV"
   },
   "IndexPrescriptFaust_0": {
