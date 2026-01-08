@@ -1977,6 +1977,41 @@
       "Vulnerable"
     ]
   },
+  "20709": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 3,
+      "gluttony": 1,
+      "wrath": 2
+    },
+    "date": "2026-01-08",
+    "name": "Move-in Reg.",
+    "rank": "TETH",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 7,
+    "sinnerId": 7,
+    "statuses": [
+      "Binding",
+      "Charge",
+      "Combustion",
+      "IDMicroChip"
+    ]
+  },
   "20801": {
     "awakeningType": {
       "affinity": "gloom",
@@ -3146,6 +3181,41 @@
       "FreishutzOutisEgoBullet_5th",
       "FreishutzOutisEgoBullet_6th",
       "FreishutzOutisEgoBullet_7th"
+    ]
+  },
+  "21109": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 3,
+      "lust": 1
+    },
+    "date": "2026-01-08",
+    "name": "I'll Go fer Scissors. How 'Bout You?",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 7,
+    "sinnerId": 11,
+    "statuses": [
+      "Curse",
+      "NailPersonality",
+      "NiddleEGO",
+      "ResultReduction",
+      "SuperCoin"
     ]
   },
   "21201": {
