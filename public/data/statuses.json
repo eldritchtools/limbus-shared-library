@@ -3741,6 +3741,7 @@
   "UnlockBuff_Base": {
     "buffType": "Positive",
     "desc": "- Gain this effect when over certain Grace of the Prescript Stack\n- Effect stage increases based on Grace of the Prescript Stack\n- Max: Stage 3",
+    "imageOverride": "Unlock - I",
     "name": "Unlock"
   },
   "UnstableFeeling": {

@@ -20,14 +20,14 @@
   ],
   "notes": {
     "main": [
-      "Follows Index Prescript mechanics: Gain a {status:IndexPrescript_Base_2nd} based on her {status:BlessingOfIndexPrescriptAlly}\n0-2: {status:IndexPrescriptDon_0} (use a marked skill)\n3-5: {status:IndexPrescriptDon_1} (hit a target with a marked skill)\n6-8: {status:IndexPrescriptDon_2} (hit a target with an ego awakening or a marked S3-2)\n9+: {status:IndexPrescriptDon_3} (no condition)\nFollowing the Prescript gives her SP and {status:BlessingOfIndexPrescriptAlly}, more if her target had {status:IndexPrescriptTargetToEnemy}. Failure to follow the {status:IndexPrescript_Base} will give her {status:KarmaOfIndexAlly} instead.",
+      "Follows Index Prescript mechanics: Gain a {status:IndexPrescript_Base_2nd} based on her {status:BlessingOfIndexPrescriptAlly}\n0-2: {status:IndexPrescriptDon_0} (use a marked skill)\n3-5: {status:IndexPrescriptDon_1} (hit a target with a marked skill)\n6-8: {status:IndexPrescriptDon_2} (hit a target with an ego awakening or a marked S3-2)\n9+: {status:IndexPrescriptDon_3} (no condition)\nFollowing the Prescript gives her SP and {status:BlessingOfIndexPrescriptAlly}, more if her target had {status:IndexPrescriptTargetToEnemy}. Failure to follow the {status:IndexPrescript_Base_2nd} will give her {status:KarmaOfIndexAlly} instead.",
       "{status:IndexPrescriptTargetMarkToEnemy} is assigned to a random skill (up to 2 with multiple slots) and {status:IndexPrescriptTargetToEnemy} is assigned to a random enemy every turn.",
       "At 3/6/9 {status:BlessingOfIndexPrescriptAlly}, she gains {status:UnlockBuffAlly_1}/{status:UnlockBuffAlly_2}/{status:UnlockBuffAlly_3}.",
       "If she has at least {status:UnlockBuffAlly_1}, she can consume 15 SP to enter her E.G.O state at 25+ SP, buffering her skills but making them cost SP. The first time she gains {status:UnlockBuffAlly_1}, she brings her SP up to 25 at the cost of gaining some {status:KarmaOfIndexAlly}. At 0 or less SP, she loses her E.G.O state, but can transform again if she gets back up to 25+ SP. In her E.G.O state she gains {status:Blandishment} and if she has {status:UnlockBuffAlly_3} she also gets {status:Blandishment_Shin}, further buffing her skills."
     ],
     "other": [
       "She can force her {status:UnlockBuff_Base} level to go up with her defense at the cost of gaining {status:KarmaOfIndexAlly} stacks.",
-      "Her skills are pretty straightforward, just follow the {status:IndexPrescript_Base} and save her S3 for when she reaches 6-8 {status:BlessingOfIndexPrescriptAlly}.",
+      "Her skills are pretty straightforward, just follow the {status:IndexPrescript_Base_2nd} and save her S3 for when she reaches 6-8 {status:BlessingOfIndexPrescriptAlly}.",
       "Her passive increases her damage and SP healing when she follows the {status:IndexPrescriptTargetToEnemy} and {status:IndexPrescriptTargetMarkToEnemy} mechanics."
     ]
   },
