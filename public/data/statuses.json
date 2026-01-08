@@ -305,6 +305,7 @@
   "Blandishment_Enemy": {
     "buffType": "Positive",
     "desc": "- Min & Max Speed +1\n- Offense Level +3, Defense Level +3\n- Gain +1 more Poise Potency from Skills",
+    "imageOverride": "Blandishment_Enemy",
     "name": "Faith Beyond Question"
   },
   "Blandishment_Shin": {
@@ -1895,6 +1896,7 @@
   "IndexPrescript_Base_2nd": {
     "buffType": "Neutral",
     "desc": "Receive Prescript: [Device] under specific conditions",
+    "imageOverride": "IndexPrescript_Base_2nd",
     "name": "Prescript"
   },
   "IndigoDamageDown": {
