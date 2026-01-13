@@ -64,7 +64,7 @@ function Status({ id, status = null, includeTooltip = true, includeName = true, 
             role="button"
             tabIndex={0}
         >
-            <StatusIcon id={id} status={status} style={{ ...iconStyle, ...iconStyleOverride }} />
+            <StatusIcon id={id} status={statusObject} style={{ ...iconStyle, ...iconStyleOverride }} />
             {includeName ? <span style={{ ...getNameStyle(statusObject.buffType), ...nameStyleOverride }}>{statusObject.name}</span> : null}
         </span>
     )

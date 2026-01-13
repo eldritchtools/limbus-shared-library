@@ -135,7 +135,7 @@ function Status(_ref2) {
     tabIndex: 0,
     children: [/*#__PURE__*/_jsx(StatusIcon, {
       id: id,
-      status: status,
+      status: statusObject,
       style: _objectSpread(_objectSpread({}, iconStyle), iconStyleOverride)
     }), includeName ? /*#__PURE__*/_jsx("span", {
       style: _objectSpread(_objectSpread({}, getNameStyle(statusObject.buffType)), nameStyleOverride),
