@@ -82,7 +82,7 @@ function StatusIcon(_ref) {
   if (!iconVisible) return null;
   var src = getStatusImgSrc(status, fallback ? id !== null && id !== void 0 ? id : status.id : null);
   var handleError = function handleError() {
-    if (errorState === 0) {
+    if (!fallback) {
       setFallback(true);
     } else {
       setIconVisible(false);

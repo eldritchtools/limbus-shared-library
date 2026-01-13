@@ -31,7 +31,7 @@ function StatusIcon({ id, status, style }) {
     const src = getStatusImgSrc(status, fallback ? (id ?? status.id) : null);
 
     const handleError = () => {
-        if (errorState === 0) {
+        if (!fallback) {
             setFallback(true);
         } else {
             setIconVisible(false);
