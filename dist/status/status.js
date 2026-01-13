@@ -162,7 +162,6 @@ function StatusTooltipContent(_ref3) {
           fontWeight: "bold"
         },
         children: [/*#__PURE__*/_jsx(StatusIcon, {
-          id: id,
           status: status,
           style: tooltipIconStyle
         }), /*#__PURE__*/_jsx("span", {

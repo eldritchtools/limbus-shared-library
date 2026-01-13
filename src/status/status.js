@@ -74,7 +74,7 @@ function StatusTooltipContent({ status }) {
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
             <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-                <StatusIcon id={id} status={status} style={tooltipIconStyle} />
+                <StatusIcon status={status} style={tooltipIconStyle} />
                 <span>{status.name}</span>
             </div>
             <div style={tooltipDescStyle}>
