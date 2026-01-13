@@ -2,14 +2,15 @@ import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
+import { useState } from "react";
 
 const iconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginLeft: "-1px", marginRight: "2px", verticalAlign: "middle", transform: "translateY(-0.1rem)" };
 const nameStyle = { display: "inline", fontSize: "1rem" };
 const tooltipIconStyle = { display: "inline-block", width: "1.5rem", height: "1.5rem", marginRight: "4px" };
 const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", maxWidth: "75rem", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" };
 
-function getStatusImgSrc(status) {
-    const src = "imageOverride" in status ? status.imageOverride : status.name;
+function getStatusImgSrc(status, fallback = null) {
+    const src = fallback ?? ("imageOverride" in status ? status.imageOverride : status.name);
     return `${ASSETS_ROOT}/statuses/${src}.png`;
 }
 
@@ -20,6 +21,24 @@ function getNameStyle(type) {
         case "Neutral": return { ...nameStyle, color: "darkgoldenrod" };
         default: return nameStyle;
     }
+}
+
+function StatusIcon({ id, status, style }) {
+    const [fallback, setFallback] = useState(false);
+    const [iconVisible, setIconVisible] = useState(true);
+
+    if (!iconVisible) return null;
+    const src = getStatusImgSrc(status, fallback ? (id ?? status.id) : null);
+
+    const handleError = () => {
+        if (errorState === 0) {
+            setFallback(true);
+        } else {
+            setIconVisible(false);
+        }
+    }
+
+    return <img src={src} alt={status.name} style={style} onError={handleError} />
 }
 
 function Status({ id, status = null, includeTooltip = true, includeName = true, iconStyleOverride = {}, nameStyleOverride = {} }) {
@@ -45,7 +64,7 @@ function Status({ id, status = null, includeTooltip = true, includeName = true, 
             role="button"
             tabIndex={0}
         >
-            <img src={getStatusImgSrc(statusObject)} alt={statusObject.name} style={{ ...iconStyle, ...iconStyleOverride }} onError={(e) => (e.currentTarget.style.display = "none")} />
+            <StatusIcon id={id} status={status} style={{ ...iconStyle, ...iconStyleOverride }} />
             {includeName ? <span style={{ ...getNameStyle(statusObject.buffType), ...nameStyleOverride }}>{statusObject.name}</span> : null}
         </span>
     )
@@ -55,7 +74,7 @@ function StatusTooltipContent({ status }) {
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
             <div style={{ display: "flex", alignItems: "center", marginBottom: "10px", fontSize: "1rem", fontWeight: "bold" }}>
-                <img src={getStatusImgSrc(status)} alt={status.name} style={tooltipIconStyle} onError={(e) => (e.currentTarget.style.display = "none")} />
+                <StatusIcon id={id} status={status} style={tooltipIconStyle} />
                 <span>{status.name}</span>
             </div>
             <div style={tooltipDescStyle}>

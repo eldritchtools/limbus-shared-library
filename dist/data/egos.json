@@ -1,3466 +1,3532 @@
 {
-    "20101": {
-        "date": "2023-02-27",
-        "sinnerId": 1,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 0.75,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 1,
-            "sloth": 3
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Agility",
-            "Binding",
-            "Reduction"
-        ],
-        "name": "Crow\u2019s Eye View"
-    },
-    "20102": {
-        "date": "2023-02-27",
-        "sinnerId": 1,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 5,
-            "sloth": 1,
-            "gluttony": 1
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Combustion"
-        ],
-        "name": "4th Match Flame"
-    },
-    "20103": {
-        "date": "2023-02-27",
-        "sinnerId": 1,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 0.5,
-            "gluttony": 2,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "gloom": 1,
-            "sloth": 4
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AmberTakeDamageDown",
-            "AmberTakeDamageUp",
-            "Binding",
-            "HitTakeDamageDown",
-            "Paralysis"
-        ],
-        "name": "Wishing Cairn"
-    },
-    "20104": {
-        "date": "2023-05-18",
-        "sinnerId": 1,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 2
-        },
-        "cost": {
-            "sloth": 3,
-            "gluttony": 3
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Burst",
-            "Charge",
-            "DimensionRift"
-        ],
-        "name": "Dimension Shredder"
-    },
-    "20105": {
-        "date": "2023-06-15",
-        "sinnerId": 1,
-        "season": 2,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 0.75,
-            "gluttony": 0.5,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 4,
-            "gluttony": 2,
-            "gloom": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "AmberDamageUp",
-            "AmberResultUp",
-            "AmberTakeDamageUp",
-            "PenetrateTakeDamageUp",
-            "Protection"
-        ],
-        "name": "Sunshower"
-    },
-    "20106": {
-        "date": "2024-04-04",
-        "sinnerId": 1,
-        "season": 4,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 0.75,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 3,
-            "gloom": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Binding",
-            "Sinking"
-        ],
-        "name": "Bygone Days"
-    },
-    "20107": {
-        "date": "2024-11-14",
-        "sinnerId": 1,
-        "season": 5,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 0.75,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 2,
-            "pride": 6
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "BoseProjektil",
-            "Breath",
-            "Laceration"
-        ],
-        "name": "Fell Bullet"
-    },
-    "21001": {
-        "date": "2023-02-27",
-        "sinnerId": 10,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.75,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 1,
-            "gluttony": 3
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "AttackDmgUp",
-            "Burst",
-            "Enhancement",
-            "Protection"
-        ],
-        "name": "Branch of Knowledge"
-    },
-    "21002": {
-        "date": "2023-02-27",
-        "sinnerId": 10,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 3,
-            "lust": 2
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Enhancement",
-            "Laceration"
-        ],
-        "name": "Impending Day"
-    },
-    "21003": {
-        "date": "2023-04-20",
-        "sinnerId": 10,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.5,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 3,
-            "lust": 2,
-            "gluttony": 1
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "Combustion",
-            "GainSinStockAdder"
-        ],
-        "name": "Lifetime Stew"
-    },
-    "21004": {
-        "date": "2023-10-05",
-        "sinnerId": 10,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 0.75,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 1,
-            "gluttony": 4,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Burst",
-            "DefenseDown"
-        ],
-        "name": "Lantern"
-    },
-    "21006": {
-        "date": "2024-05-30",
-        "sinnerId": 10,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 0.75,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 1,
-            "sloth": 2,
-            "gloom": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Aggro",
-            "Protection",
-            "ShieldManagerCryingToad",
-            "Sinking"
-        ],
-        "name": "Cavernous Wailing"
-    },
-    "21007": {
-        "date": "2024-10-24",
-        "sinnerId": 10,
-        "season": 5,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 0.5
-        },
-        "cost": {
-            "lust": 2,
-            "pride": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Binding",
-            "Curse",
-            "DefenseDown",
-            "Endurance",
-            "Laceration",
-            "NailPersonality",
-            "ParryingResultDown",
-            "ParryingResultUp",
-            "Protection"
-        ],
-        "name": "Hex Nail"
-    },
-    "21101": {
-        "date": "2023-02-27",
-        "sinnerId": 11,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 2
-        },
-        "cost": {
-            "sloth": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "AttackDmgUp",
-            "Burst"
-        ],
-        "name": "To P\u00e1thos M\u00e1thos"
-    },
-    "21102": {
-        "date": "2023-02-27",
-        "sinnerId": 11,
-        "season": 1,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 0.75,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 2,
-            "gluttony": 3,
-            "gloom": 1,
-            "pride": 4
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Binding",
-            "Burst",
-            "Laceration",
-            "PenetrateDamageUp",
-            "ShamrockTakeDamageUp"
-        ],
-        "name": "Ebony Stem"
-    },
-    "21103": {
-        "date": "2023-02-27",
-        "sinnerId": 11,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.5,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 2,
-            "sloth": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Enhancement",
-            "ScarletDamageUp",
-            "ScarletTakeDamageUp",
-            "Vulnerable"
-        ],
-        "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam"
-    },
-    "21104": {
-        "date": "2023-06-08",
-        "sinnerId": 11,
-        "season": 2,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Binding",
-            "Breath",
-            "Burst",
-            "Protection",
-            "Sinking"
-        ],
-        "name": "Sunshower"
-    },
-    "21105": {
-        "date": "2023-12-28",
-        "sinnerId": 11,
-        "season": 3,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.75,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 2,
-            "sloth": 1,
-            "pride": 3,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Burst",
-            "Combustion",
-            "Laceration",
-            "Sinking",
-            "Vibration"
-        ],
-        "name": "Holiday"
-    },
-    "21106": {
-        "date": "2024-04-11",
-        "sinnerId": 11,
-        "season": 4,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 0.5,
-            "pride": 0.5,
-            "envy": 0.75
-        },
-        "cost": {
-            "lust": 1,
-            "wrath": 1,
-            "sloth": 4,
-            "pride": 4
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Switch_Vibration",
-            "Vibration",
-            "VibrationCrack",
-            "VibrationExplosion"
-        ],
-        "name": "Binds"
-    },
-    "21107": {
-        "date": "2024-08-08",
-        "sinnerId": 11,
-        "season": 4,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 1,
-            "gloom": 3,
-            "pride": 1,
-            "envy": 4
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Agility",
-            "Charge",
-            "ChargeLoad",
-            "DimensionRift"
-        ],
-        "name": "Dimension Shredder"
-    },
-    "21108": {
-        "date": "2025-01-09",
-        "sinnerId": 11,
-        "season": 9105,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2,
-            "pride": 4
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Combustion",
-            "DarkFlame",
-            "FreischutzShotCount",
-            "FreishutzOutisEgoBullet_1st",
-            "FreishutzOutisEgoBullet_2nd",
-            "FreishutzOutisEgoBullet_3rd",
-            "FreishutzOutisEgoBullet_4th",
-            "FreishutzOutisEgoBullet_5th",
-            "FreishutzOutisEgoBullet_6th",
-            "FreishutzOutisEgoBullet_7th"
-        ],
-        "name": "Magic Bullet"
-    },
-    "21201": {
-        "date": "2023-02-27",
-        "sinnerId": 12,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 0.75,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 3,
-            "gloom": 1
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "MentalSystemResultDecrease_Typo",
-            "Protection"
-        ],
-        "name": "Suddenly, One Day"
-    },
-    "21202": {
-        "date": "2023-02-27",
-        "sinnerId": 12,
-        "season": 1,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 0.75,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 1,
-            "gluttony": 3
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Laceration",
-            "Muckworm",
-            "Paralysis",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Legerdemain"
-    },
-    "21203": {
-        "date": "2023-02-27",
-        "sinnerId": 12,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 1,
-            "gluttony": 4
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Burst"
-        ],
-        "name": "Lantern"
-    },
-    "21204": {
-        "date": "2023-06-15",
-        "sinnerId": 12,
-        "season": 2,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "gloom": 3,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Charge",
-            "EmittedCurrent"
-        ],
-        "name": "AEDD"
-    },
-    "21205": {
-        "date": "2024-03-14",
-        "sinnerId": 12,
-        "season": 3,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.5,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 2,
-            "pride": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "AttackDmgDown",
-            "Binding",
-            "Burst"
-        ],
-        "name": "Garden of Thorns"
-    },
-    "21206": {
-        "date": "2024-04-04",
-        "sinnerId": 12,
-        "season": 4,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 2,
-            "gloom": 4
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AzureTakeDamageUp",
-            "Curse",
-            "Sinking"
-        ],
-        "name": "Bygone Days"
-    },
-    "21207": {
-        "date": "2024-09-05",
-        "sinnerId": 12,
-        "season": 9104,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 0.75,
-            "pride": 1,
-            "envy": 0.5
-        },
-        "cost": {
-            "lust": 1,
-            "sloth": 2,
-            "gloom": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Enhancement",
-            "Sinking",
-            "SinkingWhite"
-        ],
-        "name": "Solemn Lament"
-    },
-    "21208": {
-        "date": "2024-12-26",
-        "sinnerId": 12,
-        "season": 5,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 0.75,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "AttackDown",
-            "DefenseDown",
-            "Enhancement",
-            "Reduction",
-            "Sinking",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Christmas Nightmare"
-    },
-    "21209": {
-        "date": "2025-09-25",
-        "sinnerId": 12,
-        "season": 8000,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 0.5,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 2,
-            "sloth": 3,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Aggro",
-            "AttackDmgUp",
-            "AttackUp",
-            "Combustion",
-            "DefenseUp",
-            "MlynarWaiting",
-            "Protection",
-            "SuperCoin",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Unbrilliant Glory"
-    },
-    "20201": {
-        "date": "2023-02-27",
-        "sinnerId": 2,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "gluttony": 2,
-            "pride": 4
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "MentalSystemResultIncrease_Typo"
-        ],
-        "name": "Representation Emitter"
-    },
-    "20202": {
-        "date": "2023-02-27",
-        "sinnerId": 2,
-        "season": 1,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 2,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 2,
-            "gloom": 4,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Protection",
-            "Reduction"
-        ],
-        "name": "Fluid Sac"
-    },
-    "20203": {
-        "date": "2023-02-27",
-        "sinnerId": 2,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 0.5
-        },
-        "cost": {
-            "envy": 6
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Curse",
-            "NailPersonality",
-            "PenetrateTakeDamageUp",
-            "VioletTakeDamageUp"
-        ],
-        "name": "Hex Nail"
-    },
-    "20204": {
-        "date": "2023-04-06",
-        "sinnerId": 2,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 1,
-            "lust": 3,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Charge",
-            "Paralysis"
-        ],
-        "name": "Telepole"
-    },
-    "20206": {
-        "date": "2024-06-13",
-        "sinnerId": 2,
-        "season": 4,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 2,
-            "sloth": 4,
-            "gloom": 2,
-            "pride": 3
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "FusionVibration",
-            "Vibration",
-            "VibrationContinue",
-            "VibrationExplosion"
-        ],
-        "name": "Everlasting"
-    },
-    "20207": {
-        "date": "2024-10-17",
-        "sinnerId": 2,
-        "season": 5,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 1,
-            "gluttony": 3,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Agility",
-            "Burst",
-            "ShamrockResultUp",
-            "Snare"
-        ],
-        "name": "Lasso"
-    },
-    "20208": {
-        "date": "2025-02-20",
-        "sinnerId": 2,
-        "season": 5,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 1,
-            "gloom": 1,
-            "pride": 5
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Breath",
-            "IndigoDamageUp",
-            "NebulizerExhale",
-            "ReleaseBreath"
-        ],
-        "name": "Thoracalgia"
-    },
-    "20209": {
-        "date": "2025-09-25",
-        "sinnerId": 2,
-        "season": 8000,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 2,
-            "sloth": 2,
-            "gluttony": 0.5,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 1,
-            "gluttony": 5,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "AttackDmgUp",
-            "Burst",
-            "Combustion",
-            "CuredFilm",
-            "SuperCoin"
-        ],
-        "name": "Command : Meltdown"
-    },
-    "20301": {
-        "date": "2023-02-27",
-        "sinnerId": 3,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Laceration"
-        ],
-        "name": "La Sangre de Sancho"
-    },
-    "20302": {
-        "date": "2023-02-27",
-        "sinnerId": 3,
-        "season": 1,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 2,
-            "envy": 2
-        },
-        "cost": {
-            "gloom": 4,
-            "pride": 2,
-            "lust": 1
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Sinking",
-            "Vibration"
-        ],
-        "name": "Fluid Sac"
-    },
-    "20303": {
-        "date": "2023-03-30",
-        "sinnerId": 3,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 1,
-            "gloom": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Burst",
-            "Charge",
-            "Vulnerable"
-        ],
-        "name": "Telepole"
-    },
-    "20304": {
-        "date": "2023-04-20",
-        "sinnerId": 3,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.5,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 5
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Combustion"
-        ],
-        "name": "Lifetime Stew"
-    },
-    "20305": {
-        "date": "2024-02-15",
-        "sinnerId": 3,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 0.5,
-            "gluttony": 2,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 2,
-            "sloth": 2,
-            "pride": 1
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Breath",
-            "Laceration",
-            "Paralysis",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Wishing Cairn"
-    },
-    "20306": {
-        "date": "2023-04-11",
-        "sinnerId": 3,
-        "season": 4,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 0.5
-        },
-        "cost": {
-            "pride": 2,
-            "envy": 4
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Charge",
-            "Enhancement"
-        ],
-        "name": "Electric Screaming"
-    },
-    "20307": {
-        "date": "2024-10-24",
-        "sinnerId": 3,
-        "season": 5,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.5,
-            "sloth": 2,
-            "gluttony": 0.5,
-            "gloom": 2,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 5,
-            "gluttony": 3,
-            "pride": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "BloodDinner",
-            "BloodDinner_Accumulation",
-            "BloodDinner_Common_Accumulation",
-            "Laceration",
-            "SuperCoin",
-            "ThirstyRose"
-        ],
-        "name": "Yearning-Mircalla"
-    },
-    "20309": {
-        "date": "2025-07-17",
-        "sinnerId": 3,
-        "season": 9106,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 0.75
-        },
-        "cost": {
-            "wrath": 2,
-            "gloom": 2,
-            "pride": 2,
-            "envy": 6
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "ArcanaQueenOfHate",
-            "Burst",
-            "Charge",
-            "HystericGauge",
-            "MagicalGirlAppear",
-            "MagicalGirlResponse",
-            "NoVillain",
-            "Sinking",
-            "SuperCoin",
-            "VillainMark"
-        ],
-        "name": "In the Name of Love and Hate"
-    },
-    "20401": {
-        "date": "2023-02-27",
-        "sinnerId": 4,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Combustion",
-            "Vulnerable"
-        ],
-        "name": "Forest for the Flames"
-    },
-    "20402": {
-        "date": "2023-02-27",
-        "sinnerId": 4,
-        "season": 1,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "wrath": 4,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Combustion",
-            "Enhancement"
-        ],
-        "name": "4th Match Flame"
-    },
-    "20403": {
-        "date": "2023-06-29",
-        "sinnerId": 4,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.5,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 2,
-            "gluttony": 2,
-            "envy": 1
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Binding",
-            "PlusCoinValueDown",
-            "SlashTakeDamageUp"
-        ],
-        "name": "Red Eyes"
-    },
-    "20404": {
-        "date": "2023-06-29",
-        "sinnerId": 4,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.75,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Binding",
-            "Enhancement"
-        ],
-        "name": "Red Eyes (Open)"
-    },
-    "20405": {
-        "date": "2023-07-27",
-        "sinnerId": 4,
-        "season": 2,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.75,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "gluttony": 2,
-            "pride": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Agility",
-            "Disarming",
-            "GainSinStockAdder",
-            "Sinking"
-        ],
-        "name": "Soda"
-    },
-    "20407": {
-        "date": "2024-07-11",
-        "sinnerId": 4,
-        "season": 4,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 3,
-            "lust": 4,
-            "pride": 4,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "GazePersonality",
-            "Laceration"
-        ],
-        "name": "Contempt, Awe"
-    },
-    "20408": {
-        "date": "2025-01-23",
-        "sinnerId": 4,
-        "season": 5,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 1,
-            "lust": 1,
-            "pride": 5
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Breath",
-            "HoldingBreath",
-            "NebulizerInhale"
-        ],
-        "name": "Thoracalgia"
-    },
-    "20501": {
-        "date": "2023-02-27",
-        "sinnerId": 5,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 1,
-            "gloom": 1,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Binding",
-            "Protection",
-            "Reduction"
-        ],
-        "name": "Chains of Others"
-    },
-    "20502": {
-        "date": "2023-02-27",
-        "sinnerId": 5,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 2,
-            "pride": 1,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "Endurance",
-            "Enhancement",
-            "Operation",
-            "Paralysis",
-            "Protection"
-        ],
-        "name": "Screwloose Wallop"
-    },
-    "20503": {
-        "date": "2023-02-27",
-        "sinnerId": 5,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 4,
-            "gloom": 1,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AttackDmgUp",
-            "Endurance",
-            "Enhancement",
-            "Protection",
-            "Vulnerable"
-        ],
-        "name": "Pursuance"
-    },
-    "20504": {
-        "date": "2023-06-01",
-        "sinnerId": 5,
-        "season": 2,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 0.75,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 2
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "Combustion",
-            "CrimsonResultUp",
-            "HitResultUp",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Capote"
-    },
-    "20505": {
-        "date": "2023-10-26",
-        "sinnerId": 5,
-        "season": 9101,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 2,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 3,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Binding",
-            "HitResultUp",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Regret"
-    },
-    "20506": {
-        "date": "2024-04-11",
-        "sinnerId": 5,
-        "season": 4,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 1,
-            "envy": 4
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "AttackUp",
-            "Burst",
-            "Charge",
-            "DefenseUp",
-            "Paralysis",
-            "VioletDamageUp"
-        ],
-        "name": "Electric Screaming"
-    },
-    "20507": {
-        "date": "2024-10-24",
-        "sinnerId": 5,
-        "season": 5,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.5,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 0.5
-        },
-        "cost": {
-            "lust": 4,
-            "pride": 3,
-            "envy": 4
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Laceration",
-            "RoseWedge",
-            "SuperCoin"
-        ],
-        "name": "Yearning-Mircalla"
-    },
-    "20508": {
-        "date": "2025-07-31",
-        "sinnerId": 5,
-        "season": 6,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 0.5,
-            "gluttony": 2,
-            "gloom": 0.5,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 6,
-            "envy": 1
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AccumulatedPastSinner",
-            "AttackDmgUp",
-            "FusionVibration",
-            "Protection",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Crushbound Past"
-    },
-    "20601": {
-        "date": "2023-02-27",
-        "sinnerId": 6,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 0.75,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 1,
-            "gloom": 5
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Sinking"
-        ],
-        "name": "Land of Illusion"
-    },
-    "20602": {
-        "date": "2023-02-27",
-        "sinnerId": 6,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.5,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 4,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Binding",
-            "DefenseDown",
-            "Disarming"
-        ],
-        "name": "Roseate Desire"
-    },
-    "20603": {
-        "date": "2023-05-18",
-        "sinnerId": 6,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 2
-        },
-        "cost": {
-            "gluttony": 3,
-            "pride": 3
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Agility",
-            "Charge",
-            "DimensionRift",
-            "Vulnerable"
-        ],
-        "name": "Dimension Shredder"
-    },
-    "20604": {
-        "date": "2023-07-27",
-        "sinnerId": 6,
-        "season": 2,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 0.5,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "gluttony": 3,
-            "gloom": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Binding",
-            "Vibration"
-        ],
-        "name": "Soda"
-    },
-    "20606": {
-        "date": "2024-05-30",
-        "sinnerId": 6,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "sloth": 3,
-            "gloom": 3,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AttackDown",
-            "DefenseDown",
-            "Switch_Vibration",
-            "Vibration",
-            "VibrationEcho",
-            "VibrationExplosion"
-        ],
-        "name": "Cavernous Wailing"
-    },
-    "20607": {
-        "date": "2024-10-17",
-        "sinnerId": 6,
-        "season": 5,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 0.5,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 1,
-            "gluttony": 4,
-            "pride": 1
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "Burst",
-            "Laceration",
-            "Snare",
-            "TakeHpHealReduce"
-        ],
-        "name": "Lasso"
-    },
-    "20609": {
-        "date": "2025-09-25",
-        "sinnerId": 6,
-        "season": 8000,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.75,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 1,
-            "gloom": 2,
-            "pride": 4
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Breath",
-            "Cianjing",
-            "SeniorCianjing",
-            "Sinking",
-            "SuperCoin"
-        ],
-        "name": "To Remain Oneself [\u5b81\u4f5c\u543e]"
-    },
-    "20701": {
-        "date": "2023-02-27",
-        "sinnerId": 7,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "lust": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "Enhancement"
-        ],
-        "name": "Bodysack"
-    },
-    "20702": {
-        "date": "2023-02-27",
-        "sinnerId": 7,
-        "season": 1,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 3,
-            "lust": 2,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Charge",
-            "Vulnerable"
-        ],
-        "name": "Telepole"
-    },
-    "20703": {
-        "date": "2023-06-08",
-        "sinnerId": 7,
-        "season": 2,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "gloom": 3,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Agility",
-            "AzureTakeDamageUp",
-            "Charge",
-            "Paralysis"
-        ],
-        "name": "AEDD"
-    },
-    "20704": {
-        "date": "2023-10-12",
-        "sinnerId": 7,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.5,
-            "sloth": 0.75,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 2,
-            "gloom": 2
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AttackDmgUp",
-            "DefenseDown",
-            "DefenseUp",
-            "Reduction",
-            "Vulnerable"
-        ],
-        "name": "Ya \u015a\u016bnyat\u0101 Tad R\u016bpam"
-    },
-    "20705": {
-        "date": "2023-12-28",
-        "sinnerId": 7,
-        "season": 3,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 0.75,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "envy": 2,
-            "gluttony": 3
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Breath",
-            "Burst",
-            "Charge",
-            "Combustion",
-            "Laceration",
-            "Sinking",
-            "Vibration"
-        ],
-        "name": "Holiday"
-    },
-    "20706": {
-        "date": "2024-04-11",
-        "sinnerId": 7,
-        "season": 4,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 0.5,
-            "pride": 0.5,
-            "envy": 0.75
-        },
-        "cost": {
-            "lust": 2,
-            "gloom": 4,
-            "pride": 2,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AttackUp",
-            "AzureDamageUp",
-            "Binding",
-            "DefenseUp",
-            "Enhancement",
-            "ForwardToTheBoundKing",
-            "ForwardToTheKing",
-            "Sinking",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Binds"
-    },
-    "20707": {
-        "date": "2024-07-25",
-        "sinnerId": 7,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 1,
-            "pride": 3,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "BoseProjektil",
-            "Breath",
-            "Bullet",
-            "Laceration",
-            "Sinking"
-        ],
-        "name": "Fell Bullet"
-    },
-    "20708": {
-        "date": "2024-11-28",
-        "sinnerId": 7,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 2,
-            "envy": 0.75
-        },
-        "cost": {
-            "sloth": 2,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AmberTakeDamageUp",
-            "Switch_Vibration",
-            "Vibration",
-            "VibrationExplosion",
-            "VibrationSpring",
-            "Vulnerable"
-        ],
-        "name": "Asymmetrical Inertia"
-    },
-    "20801": {
-        "date": "2023-02-27",
-        "sinnerId": 8,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.75,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 2,
-            "gloom": 2
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Binding",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Snagharpoon"
-    },
-    "20802": {
-        "date": "2023-02-27",
-        "sinnerId": 8,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.5,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 1,
-            "lust": 4
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "AttackDown",
-            "Binding",
-            "Paralysis",
-            "PinkRibbon_Ishmael"
-        ],
-        "name": "Roseate Desire"
-    },
-    "20803": {
-        "date": "2023-02-27",
-        "sinnerId": 8,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 0.75,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 4,
-            "lust": 2,
-            "envy": 1
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Combustion"
-        ],
-        "name": "Ardor Blossom Star"
-    },
-    "20804": {
-        "date": "2023-06-01",
-        "sinnerId": 8,
-        "season": 2,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 1
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Combustion",
-            "CrimsonDamageUp",
-            "CrimsonTakeDamageUp",
-            "VibrationExplosion"
-        ],
-        "name": "Capote"
-    },
-    "20806": {
-        "date": "2024-05-02",
-        "sinnerId": 8,
-        "season": 9103,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 1,
-            "gluttony": 3,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Agility",
-            "AttackUp",
-            "Enhancement",
-            "Laceration",
-            "ShamrockTakeDamageUp"
-        ],
-        "name": "Wingbeat"
-    },
-    "20807": {
-        "date": "2024-09-19",
-        "sinnerId": 8,
-        "season": 0,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 2,
-            "gloom": 0.5,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 2,
-            "sloth": 1,
-            "gloom": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "AzureTakeDamageUp",
-            "Curse",
-            "EchoOfMansion",
-            "Sinking",
-            "UninvitedGuestPersonality"
-        ],
-        "name": "Bygone Days"
-    },
-    "20808": {
-        "date": "2024-12-26",
-        "sinnerId": 8,
-        "season": 5,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 0.5,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 4,
-            "gluttony": 1,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Sinking",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Christmas Nightmare"
-    },
-    "20810": {
-        "date": "2025-09-25",
-        "sinnerId": 8,
-        "season": 8000,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 0.75,
-            "envy": 1
-        },
-        "cost": {
-            "gloom": 4,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AzureDamageUp",
-            "AzureTakeDamageUp",
-            "Binding",
-            "HitDamageUp",
-            "Sinking",
-            "SuperCoin",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Tidal Elegy"
-    },
-    "20901": {
-        "date": "2023-02-27",
-        "sinnerId": 9,
-        "season": 0,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 1,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 0.75,
-            "envy": 2
-        },
-        "cost": {
-            "gloom": 1,
-            "pride": 3
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Laceration",
-            "MentalSystemResultDecrease_Typo",
-            "MentalSystemResultIncrease_Typo"
-        ],
-        "name": "What is Cast"
-    },
-    "20902": {
-        "date": "2023-02-27",
-        "sinnerId": 9,
-        "season": 1,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "wrath": 3,
-            "pride": 2,
-            "envy": 1
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Combustion",
-            "CrimsonTakeDamageUp"
-        ],
-        "name": "4th Match Flame"
-    },
-    "20903": {
-        "date": "2023-02-27",
-        "sinnerId": 9,
-        "season": 1,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 1,
-            "envy": 1
-        },
-        "cost": {
-            "gloom": 5,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Binding",
-            "Reduction",
-            "Sinking"
-        ],
-        "name": "Rime Shank"
-    },
-    "20905": {
-        "date": "2023-12-14",
-        "sinnerId": 9,
-        "season": 0,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 0.75,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "sloth": 4,
-            "pride": 3
-        },
-        "awakeningType": {
-            "affinity": "sloth",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "sloth",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AmberTakeDamageUp"
-        ],
-        "name": "Pursuance"
-    },
-    "20906": {
-        "date": "2024-05-02",
-        "sinnerId": 9,
-        "season": 9103,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 0.5,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 1,
-            "lust": 3,
-            "pride": 3,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Laceration"
-        ],
-        "name": "Sanguine Desire"
-    },
-    "20907": {
-        "date": "2024-10-24",
-        "sinnerId": 9,
-        "season": 5,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 0.75,
-            "sloth": 2,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 0.5
-        },
-        "cost": {
-            "lust": 2,
-            "pride": 1,
-            "envy": 4
-        },
-        "awakeningType": {
-            "affinity": "envy",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "envy",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "AttackUp",
-            "Curse",
-            "DefenseDown",
-            "Laceration",
-            "NailPersonality"
-        ],
-        "name": "Hex Nail"
-    },
-    "20908": {
-        "date": "2025-04-17",
-        "sinnerId": 9,
-        "season": 5,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 0.75,
-            "gloom": 2,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 7,
-            "pride": 3
-        },
-        "awakeningType": {
-            "affinity": "wrath",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "wrath",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "BirdCage",
-            "Combustion",
-            "CrimsonDamageUp",
-            "CrimsonResultUp",
-            "SuperCoin"
-        ],
-        "name": "Indicant's Trial"
-    },
-    "20205": {
-        "date": "2023-11-23",
-        "sinnerId": 2,
-        "season": 3,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 1,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "lust": 1,
-            "gluttony": 3,
-            "pride": 1
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Binding",
-            "Combustion",
-            "DefenseDown"
-        ],
-        "name": "9:2"
-    },
-    "20605": {
-        "date": "2023-11-23",
-        "sinnerId": 6,
-        "season": 3,
-        "rank": "HE",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 0.5,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "gluttony": 6,
-            "gloom": 1
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Binding",
-            "Burst",
-            "ShamrockTakeDamageUp"
-        ],
-        "name": "Effervescent Corrosion"
-    },
-    "20406": {
-        "date": "2023-11-30",
-        "sinnerId": 4,
-        "season": 3,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 2,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 1
-        },
-        "cost": {
-            "gloom": 2,
-            "pride": 2,
-            "envy": 2
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Breath",
-            "Charge"
-        ],
-        "name": "Blind Obsession"
-    },
-    "20805": {
-        "date": "2023-11-30",
-        "sinnerId": 8,
-        "season": 3,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 0.75,
-            "gluttony": 2,
-            "gloom": 1,
-            "pride": 0.5,
-            "envy": 0.5
-        },
-        "cost": {
-            "wrath": 2,
-            "gloom": 3,
-            "pride": 3,
-            "envy": 3
-        },
-        "awakeningType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "pride",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Agility",
-            "AttackDmgUp",
-            "AttackUp",
-            "Breath",
-            "Charge",
-            "IndigoTakeDamageUp",
-            "PenetrateResultUp",
-            "Sinking"
-        ],
-        "name": "Blind Obsession"
-    },
-    "20904": {
-        "date": "2023-11-30",
-        "sinnerId": 9,
-        "season": 3,
-        "rank": "TETH",
-        "resists": {
-            "wrath": 1,
-            "lust": 2,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "sloth": 2,
-            "gloom": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Binding",
-            "DefenseDown",
-            "Vibration",
-            "VibrationExplosion"
-        ],
-        "name": "Effervescent Corrosion"
-    },
-    "21005": {
-        "date": "2023-11-30",
-        "sinnerId": 10,
-        "season": 3,
-        "rank": "HE",
-        "resists": {
-            "wrath": 0.5,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 2,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "wrath": 2,
-            "lust": 5,
-            "envy": 1
-        },
-        "awakeningType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "lust",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "Combustion",
-            "Disarming",
-            "Reduction",
-            "ScarletTakeDamageUp"
-        ],
-        "name": "9:2"
-    },
-    "20308": {
-        "date": "2025-05-22",
-        "sinnerId": 3,
-        "season": 6,
-        "rank": "HE",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 2,
-            "envy": 0.5
-        },
-        "cost": {
-            "lust": 1,
-            "gluttony": 5,
-            "gloom": 2,
-            "pride": 1
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "slash"
-        },
-        "keywordTags": [
-            "Burst",
-            "DefenseDown",
-            "EntangledCurseTalisman"
-        ],
-        "name": "Red Sheet"
-    },
-    "20809": {
-        "date": "2025-05-22",
-        "sinnerId": 8,
-        "season": 6,
-        "rank": "ZAYIN",
-        "resists": {
-            "wrath": 0.75,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 1,
-            "gloom": 1,
-            "pride": 1,
-            "envy": 2
-        },
-        "cost": {
-            "sloth": 2,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "corrosionType": {
-            "affinity": "gloom",
-            "type": "blunt"
-        },
-        "keywordTags": [
-            "AttackUp",
-            "Burst",
-            "CentipedePoison",
-            "Sinking"
-        ],
-        "name": "Hundred-Footed Death Maggot [\u874d\u86c6\u6bba]"
-    },
-    "20608": {
-        "date": "2025-05-29",
-        "sinnerId": 6,
-        "season": 6,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 2,
-            "lust": 1,
-            "sloth": 2,
-            "gluttony": 0.5,
-            "gloom": 0.5,
-            "pride": 1,
-            "envy": 0.75
-        },
-        "cost": {
-            "gluttony": 5,
-            "gloom": 1,
-            "envy": 1
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Agility",
-            "Burst",
-            "CondensedBlood",
-            "DragonLance",
-            "PenetrateDamageUp",
-            "Reduction",
-            "ShamrockDamageUp",
-            "SuperCoin"
-        ],
-        "name": "Tears of the Tarnished Blood [\u6c5a\u8840\u6ce3\u6dda]"
-    },
-    "21008": {
-        "date": "2025-05-29",
-        "sinnerId": 10,
-        "season": 6,
-        "rank": "WAW",
-        "resists": {
-            "wrath": 2,
-            "lust": 0.75,
-            "sloth": 1,
-            "gluttony": 0.5,
-            "gloom": 0.5,
-            "pride": 2,
-            "envy": 1
-        },
-        "cost": {
-            "lust": 2,
-            "gluttony": 6,
-            "pride": 2
-        },
-        "awakeningType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "corrosionType": {
-            "affinity": "gluttony",
-            "type": "pierce"
-        },
-        "keywordTags": [
-            "Burst",
-            "Vulnerable",
-            "YesdragonNodie",
-            "YesdragonSelf"
-        ],
-        "name": "Tears of the Tarnished Blood [\u6c5a\u8840\u6ce3\u6dda]"
-    }
+  "20101": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "pierce"
+    },
+    "cost": {
+      "sloth": 3,
+      "wrath": 1
+    },
+    "date": "2023-02-27",
+    "name": "Crow’s Eye View",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 0.75,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 1,
+    "statuses": [
+      "Agility",
+      "Binding",
+      "Reduction"
+    ]
+  },
+  "20102": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 1,
+      "sloth": 1,
+      "wrath": 5
+    },
+    "date": "2023-02-27",
+    "name": "4th Match Flame",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 1,
+    "sinnerId": 1,
+    "statuses": [
+      "Combustion"
+    ]
+  },
+  "20103": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 1,
+      "sloth": 4
+    },
+    "date": "2023-02-27",
+    "name": "Wishing Cairn",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 0.5,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 1,
+    "statuses": [
+      "AmberTakeDamageDown",
+      "AmberTakeDamageUp",
+      "Binding",
+      "HitTakeDamageDown",
+      "Paralysis"
+    ]
+  },
+  "20104": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "gluttony": 3,
+      "sloth": 3
+    },
+    "date": "2023-05-18",
+    "name": "Dimension Shredder",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 1,
+    "statuses": [
+      "Burst",
+      "Charge",
+      "DimensionRift"
+    ]
+  },
+  "20105": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 2,
+      "gluttony": 2,
+      "pride": 2,
+      "sloth": 4
+    },
+    "date": "2023-06-15",
+    "name": "Sunshower",
+    "rank": "WAW",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 0.5,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 0.75,
+      "wrath": 2
+    },
+    "season": 2,
+    "sinnerId": 1,
+    "statuses": [
+      "AmberDamageUp",
+      "AmberResultUp",
+      "AmberTakeDamageUp",
+      "PenetrateTakeDamageUp",
+      "Protection"
+    ]
+  },
+  "20106": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 3,
+      "sloth": 3
+    },
+    "date": "2024-04-04",
+    "name": "Bygone Days",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.75,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 4,
+    "sinnerId": 1,
+    "statuses": [
+      "Binding",
+      "Sinking"
+    ]
+  },
+  "20107": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "pride": 6,
+      "wrath": 2
+    },
+    "date": "2024-11-14",
+    "name": "Fell Bullet",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 1,
+    "statuses": [
+      "BoseProjektil",
+      "Breath",
+      "Laceration"
+    ]
+  },
+  "20201": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "blunt"
+    },
+    "cost": {
+      "gluttony": 2,
+      "pride": 4
+    },
+    "date": "2023-02-27",
+    "name": "Representation Emitter",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 2,
+    "statuses": [
+      "MentalSystemResultIncrease_Typo"
+    ]
+  },
+  "20202": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 3,
+      "gloom": 4,
+      "lust": 2
+    },
+    "date": "2023-02-27",
+    "name": "Fluid Sac",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 1,
+    "sinnerId": 2,
+    "statuses": [
+      "Protection",
+      "Reduction"
+    ]
+  },
+  "20203": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 6
+    },
+    "date": "2023-02-27",
+    "name": "Hex Nail",
+    "rank": "TETH",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 2,
+    "statuses": [
+      "Curse",
+      "NailPersonality",
+      "PenetrateTakeDamageUp",
+      "VioletTakeDamageUp"
+    ]
+  },
+  "20204": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "lust": 3,
+      "wrath": 1
+    },
+    "date": "2023-04-06",
+    "name": "Telepole",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 2,
+    "statuses": [
+      "Charge",
+      "Paralysis"
+    ]
+  },
+  "20205": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 3,
+      "lust": 1,
+      "pride": 1
+    },
+    "date": "2023-11-23",
+    "name": "9:2",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 3,
+    "sinnerId": 2,
+    "statuses": [
+      "Binding",
+      "Combustion",
+      "DefenseDown"
+    ]
+  },
+  "20206": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 2,
+      "lust": 2,
+      "pride": 3,
+      "sloth": 4
+    },
+    "date": "2024-06-13",
+    "name": "Everlasting",
+    "rank": "WAW",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 0.5,
+      "wrath": 0.75
+    },
+    "season": 4,
+    "sinnerId": 2,
+    "statuses": [
+      "Agility",
+      "FusionVibration",
+      "Vibration",
+      "VibrationContinue",
+      "VibrationExplosion"
+    ]
+  },
+  "20207": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 2,
+      "gluttony": 3,
+      "lust": 1
+    },
+    "date": "2024-10-17",
+    "name": "Lasso",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 0.5,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 5,
+    "sinnerId": 2,
+    "statuses": [
+      "Agility",
+      "Burst",
+      "ShamrockResultUp",
+      "Snare"
+    ]
+  },
+  "20208": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 1,
+      "pride": 5,
+      "sloth": 1
+    },
+    "date": "2025-02-20",
+    "name": "Thoracalgia",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 0.75
+    },
+    "season": 5,
+    "sinnerId": 2,
+    "statuses": [
+      "Breath",
+      "IndigoDamageUp",
+      "NebulizerExhale",
+      "ReleaseBreath"
+    ]
+  },
+  "20209": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 5,
+      "pride": 2,
+      "sloth": 1
+    },
+    "date": "2025-09-25",
+    "name": "Command : Meltdown",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 0.5,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.75
+    },
+    "season": 8000,
+    "sinnerId": 2,
+    "statuses": [
+      "AttackDmgUp",
+      "Burst",
+      "Combustion",
+      "CuredFilm",
+      "SuperCoin"
+    ]
+  },
+  "20301": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "cost": {
+      "lust": 2,
+      "pride": 2
+    },
+    "date": "2023-02-27",
+    "name": "La Sangre de Sancho",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 3,
+    "statuses": [
+      "Laceration"
+    ]
+  },
+  "20302": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 4,
+      "lust": 1,
+      "pride": 2
+    },
+    "date": "2023-02-27",
+    "name": "Fluid Sac",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 1,
+    "sinnerId": 3,
+    "statuses": [
+      "Sinking",
+      "Vibration"
+    ]
+  },
+  "20303": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 2,
+      "wrath": 1
+    },
+    "date": "2023-03-30",
+    "name": "Telepole",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 3,
+    "statuses": [
+      "Burst",
+      "Charge",
+      "Vulnerable"
+    ]
+  },
+  "20304": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "cost": {
+      "lust": 5
+    },
+    "date": "2023-04-20",
+    "name": "Lifetime Stew",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 1,
+    "sinnerId": 3,
+    "statuses": [
+      "Combustion"
+    ]
+  },
+  "20305": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "date": "2024-02-15",
+    "name": "Wishing Cairn",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 0.5,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 3,
+    "statuses": [
+      "Breath",
+      "Laceration",
+      "Paralysis",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "20306": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 4,
+      "pride": 2
+    },
+    "date": "2023-04-11",
+    "name": "Electric Screaming",
+    "rank": "TETH",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 4,
+    "sinnerId": 3,
+    "statuses": [
+      "Charge",
+      "Enhancement"
+    ]
+  },
+  "20307": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "gluttony": 3,
+      "lust": 5,
+      "pride": 2
+    },
+    "date": "2024-10-24",
+    "name": "Yearning-Mircalla",
+    "rank": "WAW",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 0.5,
+      "lust": 0.5,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 3,
+    "statuses": [
+      "BloodDinner",
+      "BloodDinner_Accumulation",
+      "BloodDinner_Common_Accumulation",
+      "Laceration",
+      "SuperCoin",
+      "ThirstyRose"
+    ]
+  },
+  "20308": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "cost": {
+      "gloom": 2,
+      "gluttony": 5,
+      "lust": 1,
+      "pride": 1
+    },
+    "date": "2025-05-22",
+    "name": "Red Sheet",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 6,
+    "sinnerId": 3,
+    "statuses": [
+      "Burst",
+      "DefenseDown",
+      "EntangledCurseTalisman"
+    ]
+  },
+  "20309": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 6,
+      "gloom": 2,
+      "pride": 2,
+      "wrath": 2
+    },
+    "date": "2025-07-17",
+    "name": "In the Name of Love and Hate",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 9106,
+    "sinnerId": 3,
+    "statuses": [
+      "ArcanaQueenOfHate",
+      "Burst",
+      "Charge",
+      "HystericGauge",
+      "MagicalGirlAppear",
+      "MagicalGirlResponse",
+      "NoVillain",
+      "Sinking",
+      "SuperCoin",
+      "VillainMark"
+    ]
+  },
+  "20401": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "lust": 2,
+      "wrath": 2
+    },
+    "date": "2023-02-27",
+    "name": "Forest for the Flames",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 0.75,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 4,
+    "statuses": [
+      "Combustion",
+      "Vulnerable"
+    ]
+  },
+  "20402": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "cost": {
+      "pride": 2,
+      "wrath": 4
+    },
+    "date": "2023-02-27",
+    "name": "4th Match Flame",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 1,
+    "sinnerId": 4,
+    "statuses": [
+      "Combustion",
+      "Enhancement"
+    ]
+  },
+  "20403": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 1,
+      "gluttony": 2,
+      "lust": 2
+    },
+    "date": "2023-06-29",
+    "name": "Red Eyes",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 0.5,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 4,
+    "statuses": [
+      "Binding",
+      "PlusCoinValueDown",
+      "SlashTakeDamageUp"
+    ]
+  },
+  "20404": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 3,
+      "lust": 2,
+      "wrath": 2
+    },
+    "date": "2023-06-29",
+    "name": "Red Eyes (Open)",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 0.75,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 4,
+    "statuses": [
+      "Binding",
+      "Enhancement"
+    ]
+  },
+  "20405": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "gluttony": 2,
+      "pride": 2
+    },
+    "date": "2023-07-27",
+    "name": "Soda",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.75,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 2,
+    "sinnerId": 4,
+    "statuses": [
+      "Agility",
+      "Disarming",
+      "GainSinStockAdder",
+      "Sinking"
+    ]
+  },
+  "20406": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 2,
+      "pride": 2
+    },
+    "date": "2023-11-30",
+    "name": "Blind Obsession",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 3,
+    "sinnerId": 4,
+    "statuses": [
+      "Breath",
+      "Charge"
+    ]
+  },
+  "20407": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 3,
+      "lust": 4,
+      "pride": 4,
+      "wrath": 3
+    },
+    "date": "2024-07-11",
+    "name": "Contempt, Awe",
+    "rank": "WAW",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 0.5,
+      "wrath": 0.5
+    },
+    "season": 4,
+    "sinnerId": 4,
+    "statuses": [
+      "GazePersonality",
+      "Laceration"
+    ]
+  },
+  "20408": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "cost": {
+      "lust": 1,
+      "pride": 5,
+      "wrath": 1
+    },
+    "date": "2025-01-23",
+    "name": "Thoracalgia",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 0.75
+    },
+    "season": 5,
+    "sinnerId": 4,
+    "statuses": [
+      "Breath",
+      "HoldingBreath",
+      "NebulizerInhale"
+    ]
+  },
+  "20501": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 1,
+      "sloth": 1
+    },
+    "date": "2023-02-27",
+    "name": "Chains of Others",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 5,
+    "statuses": [
+      "Binding",
+      "Protection",
+      "Reduction"
+    ]
+  },
+  "20502": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "pride": 1,
+      "sloth": 2
+    },
+    "date": "2023-02-27",
+    "name": "Screwloose Wallop",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 1,
+    "sinnerId": 5,
+    "statuses": [
+      "Agility",
+      "Endurance",
+      "Enhancement",
+      "Operation",
+      "Paralysis",
+      "Protection"
+    ]
+  },
+  "20503": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 1,
+      "pride": 2,
+      "sloth": 4
+    },
+    "date": "2023-02-27",
+    "name": "Pursuance",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 0.5,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 5,
+    "statuses": [
+      "AttackDmgUp",
+      "Endurance",
+      "Enhancement",
+      "Protection",
+      "Vulnerable"
+    ]
+  },
+  "20504": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "cost": {
+      "lust": 1,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "date": "2023-06-01",
+    "name": "Capote",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 0.75,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 2,
+    "sinnerId": 5,
+    "statuses": [
+      "Agility",
+      "Combustion",
+      "CrimsonResultUp",
+      "HitResultUp",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "20505": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "cost": {
+      "pride": 2,
+      "wrath": 3
+    },
+    "date": "2023-10-26",
+    "name": "Regret",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 9101,
+    "sinnerId": 5,
+    "statuses": [
+      "Binding",
+      "HitResultUp",
+      "Vibration"
+    ]
+  },
+  "20506": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 4,
+      "wrath": 1
+    },
+    "date": "2024-04-11",
+    "name": "Electric Screaming",
+    "rank": "TETH",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 4,
+    "sinnerId": 5,
+    "statuses": [
+      "AttackUp",
+      "Burst",
+      "Charge",
+      "DefenseUp",
+      "Paralysis",
+      "VioletDamageUp"
+    ]
+  },
+  "20507": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 4,
+      "lust": 4,
+      "pride": 3
+    },
+    "date": "2024-10-24",
+    "name": "Yearning-Mircalla",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 0.5,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 5,
+    "statuses": [
+      "Laceration",
+      "RoseWedge",
+      "SuperCoin"
+    ]
+  },
+  "20508": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 1,
+      "lust": 2,
+      "sloth": 6,
+      "wrath": 2
+    },
+    "date": "2025-07-31",
+    "name": "Crushbound Past",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 0.5,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 0.5,
+      "wrath": 2
+    },
+    "season": 6,
+    "sinnerId": 5,
+    "statuses": [
+      "AccumulatedPastSinner",
+      "AttackDmgUp",
+      "FusionVibration",
+      "Protection",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "20601": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 5,
+      "lust": 1
+    },
+    "date": "2023-02-27",
+    "name": "Land of Illusion",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.75,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 6,
+    "statuses": [
+      "Sinking"
+    ]
+  },
+  "20602": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "lust": 4
+    },
+    "date": "2023-02-27",
+    "name": "Roseate Desire",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 1,
+    "sinnerId": 6,
+    "statuses": [
+      "Binding",
+      "DefenseDown",
+      "Disarming"
+    ]
+  },
+  "20603": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 3,
+      "pride": 3
+    },
+    "date": "2023-05-18",
+    "name": "Dimension Shredder",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 6,
+    "statuses": [
+      "Agility",
+      "Charge",
+      "DimensionRift",
+      "Vulnerable"
+    ]
+  },
+  "20604": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 3
+    },
+    "date": "2023-07-27",
+    "name": "Soda",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 0.5,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 2,
+    "sinnerId": 6,
+    "statuses": [
+      "Binding",
+      "Vibration"
+    ]
+  },
+  "20605": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 1,
+      "gluttony": 6
+    },
+    "date": "2023-11-23",
+    "name": "Effervescent Corrosion",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 3,
+    "sinnerId": 6,
+    "statuses": [
+      "Binding",
+      "Burst",
+      "ShamrockTakeDamageUp"
+    ]
+  },
+  "20606": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 3,
+      "pride": 2,
+      "sloth": 3
+    },
+    "date": "2024-05-30",
+    "name": "Cavernous Wailing",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 0.5,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 6,
+    "statuses": [
+      "AttackDown",
+      "DefenseDown",
+      "Switch_Vibration",
+      "Vibration",
+      "VibrationEcho",
+      "VibrationExplosion"
+    ]
+  },
+  "20607": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "cost": {
+      "gluttony": 4,
+      "lust": 1,
+      "pride": 1
+    },
+    "date": "2024-10-17",
+    "name": "Lasso",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 0.5,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 6,
+    "statuses": [
+      "Agility",
+      "Burst",
+      "Laceration",
+      "Snare",
+      "TakeHpHealReduce"
+    ]
+  },
+  "20608": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 5
+    },
+    "date": "2025-05-29",
+    "name": "Tears of the Tarnished Blood [汚血泣淚]",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 0.5,
+      "gluttony": 0.5,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "season": 6,
+    "sinnerId": 6,
+    "statuses": [
+      "Agility",
+      "Burst",
+      "CondensedBlood",
+      "DragonLance",
+      "PenetrateDamageUp",
+      "Reduction",
+      "ShamrockDamageUp",
+      "SuperCoin"
+    ]
+  },
+  "20609": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 2,
+      "pride": 4,
+      "sloth": 1
+    },
+    "date": "2025-09-25",
+    "name": "To Remain Oneself [宁作吾]",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.75,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 8000,
+    "sinnerId": 6,
+    "statuses": [
+      "Breath",
+      "Cianjing",
+      "SeniorCianjing",
+      "Sinking",
+      "SuperCoin"
+    ]
+  },
+  "20701": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "lust": 2
+    },
+    "date": "2023-02-27",
+    "name": "Bodysack",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 7,
+    "statuses": [
+      "Agility",
+      "Enhancement"
+    ]
+  },
+  "20702": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 3,
+      "lust": 2,
+      "wrath": 3
+    },
+    "date": "2023-02-27",
+    "name": "Telepole",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 1,
+    "sinnerId": 7,
+    "statuses": [
+      "Charge",
+      "Vulnerable"
+    ]
+  },
+  "20703": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 3
+    },
+    "date": "2023-06-08",
+    "name": "AEDD",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 2,
+    "sinnerId": 7,
+    "statuses": [
+      "Agility",
+      "AzureTakeDamageUp",
+      "Charge",
+      "Paralysis"
+    ]
+  },
+  "20704": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 2,
+      "lust": 2,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "date": "2023-10-12",
+    "name": "Ya Śūnyatā Tad Rūpam",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 1,
+      "sloth": 0.75,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 7,
+    "statuses": [
+      "AttackDmgUp",
+      "DefenseDown",
+      "DefenseUp",
+      "Reduction",
+      "Vulnerable"
+    ]
+  },
+  "20705": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "gluttony": 3
+    },
+    "date": "2023-12-28",
+    "name": "Holiday",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 0.75,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 3,
+    "sinnerId": 7,
+    "statuses": [
+      "Breath",
+      "Burst",
+      "Charge",
+      "Combustion",
+      "Laceration",
+      "Sinking",
+      "Vibration"
+    ]
+  },
+  "20706": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 3,
+      "gloom": 4,
+      "lust": 2,
+      "pride": 2
+    },
+    "date": "2024-04-11",
+    "name": "Binds",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 0.5,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 4,
+    "sinnerId": 7,
+    "statuses": [
+      "AttackUp",
+      "AzureDamageUp",
+      "Binding",
+      "DefenseUp",
+      "Enhancement",
+      "ForwardToTheBoundKing",
+      "ForwardToTheKing",
+      "Sinking",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "20707": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "pride": 3,
+      "wrath": 1
+    },
+    "date": "2024-07-25",
+    "name": "Fell Bullet",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 7,
+    "statuses": [
+      "BoseProjektil",
+      "Breath",
+      "Bullet",
+      "Laceration",
+      "Sinking"
+    ]
+  },
+  "20708": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 1,
+      "pride": 2,
+      "sloth": 2
+    },
+    "date": "2024-11-28",
+    "name": "Asymmetrical Inertia",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 0.5,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 7,
+    "statuses": [
+      "AmberTakeDamageUp",
+      "Switch_Vibration",
+      "Vibration",
+      "VibrationExplosion",
+      "VibrationSpring",
+      "Vulnerable"
+    ]
+  },
+  "20709": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 3,
+      "gluttony": 1,
+      "wrath": 2
+    },
+    "date": "2026-01-08",
+    "name": "Move-in Reg.",
+    "rank": "TETH",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 7,
+    "sinnerId": 7,
+    "statuses": [
+      "Binding",
+      "Charge",
+      "Combustion",
+      "IDMicroChip"
+    ]
+  },
+  "20801": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 2,
+      "wrath": 2
+    },
+    "date": "2023-02-27",
+    "name": "Snagharpoon",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.75,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 8,
+    "statuses": [
+      "Binding",
+      "Vibration"
+    ]
+  },
+  "20802": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "pierce"
+    },
+    "cost": {
+      "lust": 4,
+      "wrath": 1
+    },
+    "date": "2023-02-27",
+    "name": "Roseate Desire",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 1,
+    "sinnerId": 8,
+    "statuses": [
+      "AttackDown",
+      "Binding",
+      "Paralysis",
+      "PinkRibbon_Ishmael"
+    ]
+  },
+  "20803": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 1,
+      "lust": 2,
+      "wrath": 4
+    },
+    "date": "2023-02-27",
+    "name": "Ardor Blossom Star",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 0,
+    "sinnerId": 8,
+    "statuses": [
+      "Combustion"
+    ]
+  },
+  "20804": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "cost": {
+      "lust": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "date": "2023-06-01",
+    "name": "Capote",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 2,
+    "sinnerId": 8,
+    "statuses": [
+      "Combustion",
+      "CrimsonDamageUp",
+      "CrimsonTakeDamageUp",
+      "VibrationExplosion"
+    ]
+  },
+  "20805": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 3,
+      "gloom": 3,
+      "pride": 3,
+      "wrath": 2
+    },
+    "date": "2023-11-30",
+    "name": "Blind Obsession",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 0.75,
+      "wrath": 2
+    },
+    "season": 3,
+    "sinnerId": 8,
+    "statuses": [
+      "Agility",
+      "AttackDmgUp",
+      "AttackUp",
+      "Breath",
+      "Charge",
+      "IndigoTakeDamageUp",
+      "PenetrateResultUp",
+      "Sinking"
+    ]
+  },
+  "20806": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 3,
+      "lust": 1,
+      "pride": 2
+    },
+    "date": "2024-05-02",
+    "name": "Wingbeat",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 0.5,
+      "lust": 0.75,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 9103,
+    "sinnerId": 8,
+    "statuses": [
+      "Agility",
+      "AttackUp",
+      "Enhancement",
+      "Laceration",
+      "ShamrockTakeDamageUp"
+    ]
+  },
+  "20807": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "slash"
+    },
+    "cost": {
+      "gloom": 3,
+      "lust": 2,
+      "sloth": 1
+    },
+    "date": "2024-09-19",
+    "name": "Bygone Days",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.5,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 8,
+    "statuses": [
+      "AzureTakeDamageUp",
+      "Curse",
+      "EchoOfMansion",
+      "Sinking",
+      "UninvitedGuestPersonality"
+    ]
+  },
+  "20808": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "gluttony": 1,
+      "pride": 2,
+      "sloth": 4
+    },
+    "date": "2024-12-26",
+    "name": "Christmas Nightmare",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 0.5,
+      "wrath": 2
+    },
+    "season": 5,
+    "sinnerId": 8,
+    "statuses": [
+      "Sinking",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "20809": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "pride": 2,
+      "sloth": 2
+    },
+    "date": "2025-05-22",
+    "name": "Hundred-Footed Death Maggot [蝍蛆殺]",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.75
+    },
+    "season": 6,
+    "sinnerId": 8,
+    "statuses": [
+      "AttackUp",
+      "Burst",
+      "CentipedePoison",
+      "Sinking"
+    ]
+  },
+  "20810": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 4,
+      "pride": 2
+    },
+    "date": "2025-09-25",
+    "name": "Tidal Elegy",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 8000,
+    "sinnerId": 8,
+    "statuses": [
+      "AzureDamageUp",
+      "AzureTakeDamageUp",
+      "Binding",
+      "HitDamageUp",
+      "Sinking",
+      "SuperCoin",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "20901": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "slash"
+    },
+    "cost": {
+      "gloom": 1,
+      "pride": 3
+    },
+    "date": "2023-02-27",
+    "name": "What is Cast",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 0.75,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 9,
+    "statuses": [
+      "Laceration",
+      "MentalSystemResultDecrease_Typo",
+      "MentalSystemResultIncrease_Typo"
+    ]
+  },
+  "20902": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 1,
+      "pride": 2,
+      "wrath": 3
+    },
+    "date": "2023-02-27",
+    "name": "4th Match Flame",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 1,
+    "sinnerId": 9,
+    "statuses": [
+      "Combustion",
+      "CrimsonTakeDamageUp"
+    ]
+  },
+  "20903": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 3,
+      "gloom": 5
+    },
+    "date": "2023-02-27",
+    "name": "Rime Shank",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "season": 1,
+    "sinnerId": 9,
+    "statuses": [
+      "Binding",
+      "Reduction",
+      "Sinking"
+    ]
+  },
+  "20904": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 2,
+      "pride": 2,
+      "sloth": 2
+    },
+    "date": "2023-11-30",
+    "name": "Effervescent Corrosion",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 0.5,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 3,
+    "sinnerId": 9,
+    "statuses": [
+      "Binding",
+      "DefenseDown",
+      "Vibration"
+    ]
+  },
+  "20905": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "pride": 3,
+      "sloth": 4
+    },
+    "date": "2023-12-14",
+    "name": "Pursuance",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 0.75,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 9,
+    "statuses": [
+      "AmberTakeDamageUp"
+    ]
+  },
+  "20906": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 3,
+      "lust": 3,
+      "pride": 3,
+      "wrath": 1
+    },
+    "date": "2024-05-02",
+    "name": "Sanguine Desire",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.75
+    },
+    "season": 9103,
+    "sinnerId": 9,
+    "statuses": [
+      "Laceration"
+    ]
+  },
+  "20907": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 4,
+      "lust": 2,
+      "pride": 1
+    },
+    "date": "2024-10-24",
+    "name": "Hex Nail",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 0.75,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 9,
+    "statuses": [
+      "AttackUp",
+      "Curse",
+      "DefenseDown",
+      "Laceration",
+      "NailPersonality"
+    ]
+  },
+  "20908": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "pierce"
+    },
+    "cost": {
+      "pride": 3,
+      "wrath": 7
+    },
+    "date": "2025-04-17",
+    "name": "Indicant's Trial",
+    "rank": "WAW",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 0.75,
+      "lust": 2,
+      "pride": 0.5,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 5,
+    "sinnerId": 9,
+    "statuses": [
+      "BirdCage",
+      "Combustion",
+      "CrimsonDamageUp",
+      "CrimsonResultUp",
+      "SuperCoin"
+    ]
+  },
+  "21001": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 3,
+      "wrath": 1
+    },
+    "date": "2023-02-27",
+    "name": "Branch of Knowledge",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 0.75,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 10,
+    "statuses": [
+      "AttackDmgUp",
+      "Burst",
+      "Enhancement",
+      "Protection"
+    ]
+  },
+  "21002": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "cost": {
+      "lust": 2,
+      "wrath": 3
+    },
+    "date": "2023-02-27",
+    "name": "Impending Day",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 1,
+    "sinnerId": 10,
+    "statuses": [
+      "Enhancement",
+      "Laceration"
+    ]
+  },
+  "21003": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "cost": {
+      "gluttony": 1,
+      "lust": 2,
+      "wrath": 3
+    },
+    "date": "2023-04-20",
+    "name": "Lifetime Stew",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 1,
+    "sinnerId": 10,
+    "statuses": [
+      "Agility",
+      "Combustion",
+      "GainSinStockAdder"
+    ]
+  },
+  "21004": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "slash"
+    },
+    "cost": {
+      "gluttony": 4,
+      "lust": 1,
+      "pride": 2
+    },
+    "date": "2023-10-05",
+    "name": "Lantern",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.75,
+      "gluttony": 0.5,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 10,
+    "statuses": [
+      "Burst",
+      "DefenseDown"
+    ]
+  },
+  "21005": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 1,
+      "lust": 5,
+      "wrath": 2
+    },
+    "date": "2023-11-30",
+    "name": "9:2",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 3,
+    "sinnerId": 10,
+    "statuses": [
+      "Combustion",
+      "Disarming",
+      "Reduction",
+      "ScarletTakeDamageUp"
+    ]
+  },
+  "21006": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 3,
+      "lust": 1,
+      "sloth": 2
+    },
+    "date": "2024-05-30",
+    "name": "Cavernous Wailing",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.75,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 10,
+    "statuses": [
+      "Aggro",
+      "Protection",
+      "ShieldManagerCryingToad",
+      "Sinking"
+    ]
+  },
+  "21007": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 2,
+      "lust": 2,
+      "pride": 2
+    },
+    "date": "2024-10-24",
+    "name": "Hex Nail",
+    "rank": "TETH",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 10,
+    "statuses": [
+      "Binding",
+      "Curse",
+      "DefenseDown",
+      "Endurance",
+      "Laceration",
+      "NailPersonality",
+      "ParryingResultDown",
+      "ParryingResultUp",
+      "Protection"
+    ]
+  },
+  "21008": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "gluttony": 6,
+      "lust": 2,
+      "pride": 2
+    },
+    "date": "2025-05-29",
+    "name": "Tears of the Tarnished Blood [汚血泣淚]",
+    "rank": "WAW",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.5,
+      "gluttony": 0.5,
+      "lust": 0.75,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 6,
+    "sinnerId": 10,
+    "statuses": [
+      "Burst",
+      "Vulnerable",
+      "YesdragonNodie",
+      "YesdragonSelf"
+    ]
+  },
+  "21101": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "pride": 2,
+      "sloth": 2
+    },
+    "date": "2023-02-27",
+    "name": "To Páthos Máthos",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 11,
+    "statuses": [
+      "AttackDmgUp",
+      "Burst"
+    ]
+  },
+  "21102": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 1,
+      "gluttony": 3,
+      "lust": 2,
+      "pride": 4
+    },
+    "date": "2023-02-27",
+    "name": "Ebony Stem",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.75,
+      "gluttony": 0.5,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 1,
+    "sinnerId": 11,
+    "statuses": [
+      "Binding",
+      "Burst",
+      "Laceration",
+      "PenetrateDamageUp",
+      "ShamrockTakeDamageUp"
+    ]
+  },
+  "21103": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "lust": 2,
+      "pride": 2,
+      "sloth": 2
+    },
+    "date": "2023-02-27",
+    "name": "Ya Śūnyatā Tad Rūpam",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.5,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 11,
+    "statuses": [
+      "Enhancement",
+      "ScarletDamageUp",
+      "ScarletTakeDamageUp",
+      "Vulnerable"
+    ]
+  },
+  "21104": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "gloom": 1,
+      "gluttony": 2,
+      "sloth": 2
+    },
+    "date": "2023-06-08",
+    "name": "Sunshower",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 0.5,
+      "wrath": 2
+    },
+    "season": 2,
+    "sinnerId": 11,
+    "statuses": [
+      "Binding",
+      "Breath",
+      "Burst",
+      "Protection",
+      "Sinking"
+    ]
+  },
+  "21105": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "lust": 2,
+      "pride": 3,
+      "sloth": 1
+    },
+    "date": "2023-12-28",
+    "name": "Holiday",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 0.75,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 3,
+    "sinnerId": 11,
+    "statuses": [
+      "Burst",
+      "Combustion",
+      "Laceration",
+      "Sinking",
+      "Vibration"
+    ]
+  },
+  "21106": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "blunt"
+    },
+    "cost": {
+      "lust": 1,
+      "pride": 4,
+      "sloth": 4,
+      "wrath": 1
+    },
+    "date": "2024-04-11",
+    "name": "Binds",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 0.5,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 4,
+    "sinnerId": 11,
+    "statuses": [
+      "Switch_Vibration",
+      "Vibration",
+      "VibrationCrack",
+      "VibrationExplosion"
+    ]
+  },
+  "21107": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 4,
+      "gloom": 3,
+      "pride": 1,
+      "wrath": 1
+    },
+    "date": "2024-08-08",
+    "name": "Dimension Shredder",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 4,
+    "sinnerId": 11,
+    "statuses": [
+      "Agility",
+      "Charge",
+      "ChargeLoad",
+      "DimensionRift"
+    ]
+  },
+  "21108": {
+    "awakeningType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "pride",
+      "type": "pierce"
+    },
+    "cost": {
+      "lust": 2,
+      "pride": 4,
+      "wrath": 2
+    },
+    "date": "2025-01-09",
+    "name": "Magic Bullet",
+    "rank": "HE",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 0.75
+    },
+    "season": 9105,
+    "sinnerId": 11,
+    "statuses": [
+      "Combustion",
+      "DarkFlame",
+      "FreischutzShotCount",
+      "FreishutzOutisEgoBullet_1st",
+      "FreishutzOutisEgoBullet_2nd",
+      "FreishutzOutisEgoBullet_3rd",
+      "FreishutzOutisEgoBullet_4th",
+      "FreishutzOutisEgoBullet_5th",
+      "FreishutzOutisEgoBullet_6th",
+      "FreishutzOutisEgoBullet_7th"
+    ]
+  },
+  "21109": {
+    "awakeningType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "envy",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 3,
+      "lust": 1
+    },
+    "date": "2026-01-08",
+    "name": "I'll Go fer Scissors. How 'Bout You?",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 1
+    },
+    "season": 7,
+    "sinnerId": 11,
+    "statuses": [
+      "Curse",
+      "NailPersonality",
+      "NiddleEGO",
+      "ResultReduction",
+      "SuperCoin"
+    ]
+  },
+  "21201": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 1,
+      "lust": 3
+    },
+    "date": "2023-02-27",
+    "name": "Suddenly, One Day",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 0.75,
+      "wrath": 1
+    },
+    "season": 0,
+    "sinnerId": 12,
+    "statuses": [
+      "MentalSystemResultDecrease_Typo",
+      "Protection"
+    ]
+  },
+  "21202": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "blunt"
+    },
+    "cost": {
+      "gluttony": 3,
+      "sloth": 1
+    },
+    "date": "2023-02-27",
+    "name": "Legerdemain",
+    "rank": "ZAYIN",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 0.75,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "season": 1,
+    "sinnerId": 12,
+    "statuses": [
+      "Laceration",
+      "Muckworm",
+      "Paralysis",
+      "Vibration"
+    ]
+  },
+  "21203": {
+    "awakeningType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gluttony",
+      "type": "pierce"
+    },
+    "cost": {
+      "gluttony": 4,
+      "sloth": 1
+    },
+    "date": "2023-02-27",
+    "name": "Lantern",
+    "rank": "TETH",
+    "resists": {
+      "envy": 1,
+      "gloom": 1,
+      "gluttony": 0.5,
+      "lust": 1,
+      "pride": 2,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 0,
+    "sinnerId": 12,
+    "statuses": [
+      "Burst"
+    ]
+  },
+  "21204": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 3,
+      "gloom": 3
+    },
+    "date": "2023-06-15",
+    "name": "AEDD",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.75,
+      "gloom": 2,
+      "gluttony": 1,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 2,
+    "sinnerId": 12,
+    "statuses": [
+      "Charge",
+      "EmittedCurrent"
+    ]
+  },
+  "21205": {
+    "awakeningType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "lust",
+      "type": "slash"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 2,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 2,
+      "sloth": 2,
+      "wrath": 2
+    },
+    "date": "2024-03-14",
+    "name": "Garden of Thorns",
+    "rank": "WAW",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 0.5,
+      "pride": 0.75,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 3,
+    "sinnerId": 12,
+    "statuses": [
+      "AttackDmgDown",
+      "Binding",
+      "Burst"
+    ]
+  },
+  "21206": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "gloom": 4,
+      "lust": 2
+    },
+    "date": "2024-04-04",
+    "name": "Bygone Days",
+    "rank": "TETH",
+    "resists": {
+      "envy": 2,
+      "gloom": 0.5,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 1
+    },
+    "season": 4,
+    "sinnerId": 12,
+    "statuses": [
+      "AzureTakeDamageUp",
+      "Curse",
+      "Sinking"
+    ]
+  },
+  "21207": {
+    "awakeningType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "corrosionType": {
+      "affinity": "gloom",
+      "type": "blunt"
+    },
+    "cost": {
+      "envy": 2,
+      "gloom": 2,
+      "lust": 1,
+      "sloth": 2
+    },
+    "date": "2024-09-05",
+    "name": "Solemn Lament",
+    "rank": "HE",
+    "resists": {
+      "envy": 0.5,
+      "gloom": 0.75,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 1,
+      "sloth": 1,
+      "wrath": 2
+    },
+    "season": 9104,
+    "sinnerId": 12,
+    "statuses": [
+      "Enhancement",
+      "Sinking",
+      "SinkingWhite"
+    ]
+  },
+  "21208": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "slash"
+    },
+    "cost": {
+      "gloom": 2,
+      "gluttony": 2,
+      "pride": 2,
+      "sloth": 2
+    },
+    "date": "2024-12-26",
+    "name": "Christmas Nightmare",
+    "rank": "HE",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.75,
+      "gluttony": 1,
+      "lust": 2,
+      "pride": 2,
+      "sloth": 0.5,
+      "wrath": 1
+    },
+    "season": 5,
+    "sinnerId": 12,
+    "statuses": [
+      "AttackDown",
+      "DefenseDown",
+      "Enhancement",
+      "Reduction",
+      "Sinking",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  },
+  "21209": {
+    "awakeningType": {
+      "affinity": "sloth",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "sloth",
+      "type": "slash"
+    },
+    "cost": {
+      "pride": 2,
+      "sloth": 3,
+      "wrath": 2
+    },
+    "date": "2025-09-25",
+    "name": "Unbrilliant Glory",
+    "rank": "WAW",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 2,
+      "lust": 1,
+      "pride": 0.75,
+      "sloth": 0.5,
+      "wrath": 0.5
+    },
+    "season": 8000,
+    "sinnerId": 12,
+    "statuses": [
+      "Aggro",
+      "AttackDmgUp",
+      "AttackUp",
+      "Combustion",
+      "DefenseUp",
+      "MlynarWaiting",
+      "Protection",
+      "SuperCoin",
+      "Vibration",
+      "VibrationExplosion"
+    ]
+  }
 }

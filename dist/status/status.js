@@ -14,7 +14,8 @@ import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths.js";
 import { tooltipStyle } from "../styles.js";
 import { useData } from "../dataProvider/DataProvider.js";
-import { jsxs as _jsxs, jsx as _jsx } from "react/jsx-runtime";
+import { useState } from "react";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var iconStyle = {
   display: "inline-block",
   width: "1.5rem",
@@ -44,7 +45,8 @@ var tooltipDescStyle = {
   textAlign: "start"
 };
 function getStatusImgSrc(status) {
-  var src = "imageOverride" in status ? status.imageOverride : status.name;
+  var fallback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+  var src = fallback !== null && fallback !== void 0 ? fallback : "imageOverride" in status ? status.imageOverride : status.name;
   return "".concat(ASSETS_ROOT, "/statuses/").concat(src, ".png");
 }
 function getNameStyle(type) {
@@ -65,18 +67,46 @@ function getNameStyle(type) {
       return nameStyle;
   }
 }
-function Status(_ref) {
+function StatusIcon(_ref) {
   var id = _ref.id,
-    _ref$status = _ref.status,
-    status = _ref$status === void 0 ? null : _ref$status,
-    _ref$includeTooltip = _ref.includeTooltip,
-    includeTooltip = _ref$includeTooltip === void 0 ? true : _ref$includeTooltip,
-    _ref$includeName = _ref.includeName,
-    includeName = _ref$includeName === void 0 ? true : _ref$includeName,
-    _ref$iconStyleOverrid = _ref.iconStyleOverride,
-    iconStyleOverride = _ref$iconStyleOverrid === void 0 ? {} : _ref$iconStyleOverrid,
-    _ref$nameStyleOverrid = _ref.nameStyleOverride,
-    nameStyleOverride = _ref$nameStyleOverrid === void 0 ? {} : _ref$nameStyleOverrid;
+    status = _ref.status,
+    style = _ref.style;
+  var _useState = useState(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    fallback = _useState2[0],
+    setFallback = _useState2[1];
+  var _useState3 = useState(true),
+    _useState4 = _slicedToArray(_useState3, 2),
+    iconVisible = _useState4[0],
+    setIconVisible = _useState4[1];
+  if (!iconVisible) return null;
+  var src = getStatusImgSrc(status, fallback ? id !== null && id !== void 0 ? id : status.id : null);
+  var handleError = function handleError() {
+    if (errorState === 0) {
+      setFallback(true);
+    } else {
+      setIconVisible(false);
+    }
+  };
+  return /*#__PURE__*/_jsx("img", {
+    src: src,
+    alt: status.name,
+    style: style,
+    onError: handleError
+  });
+}
+function Status(_ref2) {
+  var id = _ref2.id,
+    _ref2$status = _ref2.status,
+    status = _ref2$status === void 0 ? null : _ref2$status,
+    _ref2$includeTooltip = _ref2.includeTooltip,
+    includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip,
+    _ref2$includeName = _ref2.includeName,
+    includeName = _ref2$includeName === void 0 ? true : _ref2$includeName,
+    _ref2$iconStyleOverri = _ref2.iconStyleOverride,
+    iconStyleOverride = _ref2$iconStyleOverri === void 0 ? {} : _ref2$iconStyleOverri,
+    _ref2$nameStyleOverri = _ref2.nameStyleOverride,
+    nameStyleOverride = _ref2$nameStyleOverri === void 0 ? {} : _ref2$nameStyleOverri;
   var _useData = useData("statuses"),
     _useData2 = _slicedToArray(_useData, 2),
     statuses = _useData2[0],
@@ -103,21 +133,18 @@ function Status(_ref) {
     },
     role: "button",
     tabIndex: 0,
-    children: [/*#__PURE__*/_jsx("img", {
-      src: getStatusImgSrc(statusObject),
-      alt: statusObject.name,
-      style: _objectSpread(_objectSpread({}, iconStyle), iconStyleOverride),
-      onError: function onError(e) {
-        return e.currentTarget.style.display = "none";
-      }
+    children: [/*#__PURE__*/_jsx(StatusIcon, {
+      id: id,
+      status: status,
+      style: _objectSpread(_objectSpread({}, iconStyle), iconStyleOverride)
     }), includeName ? /*#__PURE__*/_jsx("span", {
       style: _objectSpread(_objectSpread({}, getNameStyle(statusObject.buffType)), nameStyleOverride),
       children: statusObject.name
     }) : null]
   });
 }
-function StatusTooltipContent(_ref2) {
-  var status = _ref2.status;
+function StatusTooltipContent(_ref3) {
+  var status = _ref3.status;
   return /*#__PURE__*/_jsx("div", {
     style: tooltipStyle,
     children: /*#__PURE__*/_jsxs("div", {
@@ -134,13 +161,10 @@ function StatusTooltipContent(_ref2) {
           fontSize: "1rem",
           fontWeight: "bold"
         },
-        children: [/*#__PURE__*/_jsx("img", {
-          src: getStatusImgSrc(status),
-          alt: status.name,
-          style: tooltipIconStyle,
-          onError: function onError(e) {
-            return e.currentTarget.style.display = "none";
-          }
+        children: [/*#__PURE__*/_jsx(StatusIcon, {
+          id: id,
+          status: status,
+          style: tooltipIconStyle
         }), /*#__PURE__*/_jsx("span", {
           children: status.name
         })]
@@ -153,8 +177,8 @@ function StatusTooltipContent(_ref2) {
     })
   });
 }
-function TooltipLoader(_ref3) {
-  var statusId = _ref3.statusId;
+function TooltipLoader(_ref4) {
+  var statusId = _ref4.statusId;
   var _useData3 = useData("statuses"),
     _useData4 = _slicedToArray(_useData3, 2),
     statuses = _useData4[0],
@@ -167,8 +191,8 @@ function TooltipLoader(_ref3) {
 function StatusTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-status-tooltip",
-    render: function render(_ref4) {
-      var content = _ref4.content;
+    render: function render(_ref5) {
+      var content = _ref5.content;
       return /*#__PURE__*/_jsx(TooltipLoader, {
         statusId: content
       });

@@ -23,7 +23,7 @@ import { DATA_ROOT, PUBLIC_ROOT } from "../paths.js";
 import { jsx as _jsx } from "react/jsx-runtime";
 var DataContext = /*#__PURE__*/createContext();
 function preprocess_data(path, data) {
-  if (["egos_mini", "egos", "identities_mini", "identities", "gifts"].includes(path)) {
+  if (["egos_mini", "egos", "identities_mini", "identities", "gifts", "statuses"].includes(path)) {
     return Object.entries(data).reduce(function (acc, _ref) {
       var _ref2 = _slicedToArray(_ref, 2),
         k = _ref2[0],
