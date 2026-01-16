@@ -88,7 +88,7 @@
                 }
               ],
               "descs": [
-                "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 20%)",
+                "[OnSucceedAttack] If target has [Laceration], deal +([Laceration] on target + [Laceration] Count on target)% damage (max 20%)",
                 "[OnSucceedAttack] Inflict (1 + (highest Reson. x 1.5)) [Laceration] (max 10, rounded down)",
                 "[OnSucceedAttack] Inflict +2 [Laceration] Count"
               ],
@@ -116,7 +116,7 @@
                 }
               ],
               "descs": [
-                "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 40%)",
+                "[OnSucceedAttack] If target has [Laceration], deal +([Laceration] on target + [Laceration] Count on target)% damage (max 40%)",
                 "[OnSucceedAttack] Inflict (3 + (highest Reson. x 2)) [Laceration] (max 15, rounded down)",
                 "[OnSucceedAttack] Inflict +3 [Laceration] Count"
               ],
@@ -142,7 +142,7 @@
                 }
               ],
               "descs": [
-                "[OnSucceedAttack] If target has [Laceration], deal +(the sum of [Laceration] Potency and Count on target)% damage (max 60%)",
+                "[OnSucceedAttack] If target has [Laceration], deal +([Laceration] on target + [Laceration] Count on target)% damage (max 60%)",
                 "[OnSucceedAttack] Inflict (10 + (highest Reson. x 2.5)) [Laceration] (max 25, rounded down)",
                 "[OnSucceedAttack] Inflict +5 [Laceration] Count"
               ],

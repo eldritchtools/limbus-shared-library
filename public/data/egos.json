@@ -230,6 +230,43 @@
       "Laceration"
     ]
   },
+  "20108": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "pierce"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "pierce"
+    },
+    "cost": {
+      "envy": 4,
+      "gloom": 2,
+      "pride": 2,
+      "wrath": 4
+    },
+    "date": "2026-01-15",
+    "name": "Great Trichiliocosm [三千大世界]",
+    "rank": "WAW",
+    "resists": {
+      "envy": 1,
+      "gloom": 0.5,
+      "gluttony": 2,
+      "lust": 2,
+      "pride": 0.75,
+      "sloth": 1,
+      "wrath": 0.5
+    },
+    "season": 7,
+    "sinnerId": 1,
+    "statuses": [
+      "Breath",
+      "Combustion",
+      "Sinking",
+      "SuperCoin",
+      "ThreeMirrorpartYiSang"
+    ]
+  },
   "20201": {
     "awakeningType": {
       "affinity": "pride",
@@ -1101,6 +1138,44 @@
       "Breath",
       "HoldingBreath",
       "NebulizerInhale"
+    ]
+  },
+  "20409": {
+    "awakeningType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "corrosionType": {
+      "affinity": "wrath",
+      "type": "slash"
+    },
+    "cost": {
+      "lust": 4,
+      "pride": 4,
+      "wrath": 4
+    },
+    "date": "2026-01-15",
+    "name": "Great Trichiliocosm [三千大世界]",
+    "rank": "WAW",
+    "resists": {
+      "envy": 2,
+      "gloom": 1,
+      "gluttony": 1,
+      "lust": 0.75,
+      "pride": 0.5,
+      "sloth": 2,
+      "wrath": 0.5
+    },
+    "season": 7,
+    "sinnerId": 4,
+    "statuses": [
+      "Binding",
+      "Breath",
+      "Combustion",
+      "CriticalDamageUp",
+      "Laceration",
+      "RyoshuEGOPF",
+      "SuperCoin"
     ]
   },
   "20501": {
