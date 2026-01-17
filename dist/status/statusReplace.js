@@ -4,7 +4,6 @@ function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) 
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-import skillTags from "../data/skillTagsData.js";
 import { useData } from "../dataProvider/DataProvider.js";
 import { Status } from "./status.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
@@ -16,6 +15,10 @@ function replaceStatusVariables(templateText) {
     _useData2 = _slicedToArray(_useData, 2),
     statuses = _useData2[0],
     statusesLoading = _useData2[1];
+  var _useData3 = useData("skill_tags"),
+    _useData4 = _slicedToArray(_useData3, 2),
+    skillTags = _useData4[0],
+    skillTagsLoading = _useData4[1];
   var text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
   var textPieces = [];
   var index = 0;
@@ -40,7 +43,7 @@ function replaceStatusVariables(templateText) {
         iconStyleOverride: iconStyleOverride,
         nameStyleOverride: nameStyleOverride
       }, index++));
-    } else if (varName in skillTags) {
+    } else if (!skillTagsLoading && varName in skillTags) {
       if ("color" in skillTags[varName]) {
         textPieces.push(/*#__PURE__*/_jsx("span", {
           style: {
@@ -66,7 +69,7 @@ function replaceStatusVariables(templateText) {
     children: textPieces
   });
 }
-function replaceStatusVariablesTextOnly(templateText, statuses) {
+function replaceStatusVariablesTextOnly(templateText, statuses, skillTags) {
   var text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
   var textPieces = [];
   while (true) {

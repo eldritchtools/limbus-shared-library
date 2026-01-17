@@ -1,9 +1,3 @@
-export { default as gifts, giftsNameMapping } from "./data/giftsData.js";
-export { default as statuses } from "./data/statusesData.js";
-export { themePacks, floorPacks } from "./data/mdData.js";
-export { default as identities, identityTags } from "./data/identitiesData.js";
-export { default as egos } from "./data/egosData.js";
-export { default as skillTags } from "./data/skillTagsData.js";
 export { Gift, GiftTooltip, getGiftImgSrc } from "./gift/gift.js";
 export { default as FusionRecipe } from "./gift/FusionRecipe.js";
 export { keywords, KeywordIcon } from "./keywords/keywords.js";

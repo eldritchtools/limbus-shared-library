@@ -1,9 +1,9 @@
-import skillTags from "../data/skillTagsData";
 import { useData } from "../dataProvider/DataProvider";
 import { Status } from "./status";
 
 function replaceStatusVariables(templateText, includeTooltips = true, iconStyleOverride = {}, nameStyleOverride = {}) {
     const [statuses, statusesLoading] = useData("statuses");
+    const [skillTags, skillTagsLoading] = useData("skill_tags");
 
     let text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
     let textPieces = [];
@@ -23,8 +23,7 @@ function replaceStatusVariables(templateText, includeTooltips = true, iconStyleO
         let varName = match[0].slice(1, -1);
         if (!statusesLoading && varName in statuses) {
             textPieces.push(<Status key={index++} id={varName} includeTooltip={includeTooltips} iconStyleOverride={iconStyleOverride} nameStyleOverride={nameStyleOverride} />)
-        } else if (varName in skillTags) {
-
+        } else if (!skillTagsLoading && varName in skillTags) {
             if ("color" in skillTags[varName]) {
                 textPieces.push(<span key={index++} style={{ color: skillTags[varName].color }}>{skillTags[varName].text}</span>)
             } else {
@@ -38,7 +37,7 @@ function replaceStatusVariables(templateText, includeTooltips = true, iconStyleO
     return <div style={{ display: "inline" }}>{textPieces}</div>;
 }
 
-function replaceStatusVariablesTextOnly(templateText, statuses) {
+function replaceStatusVariablesTextOnly(templateText, statuses, skillTags) {
     let text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
     let textPieces = [];
 
