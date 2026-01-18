@@ -88,8 +88,9 @@ function EgoImgMain(_ref) {
           maxHeight: "100%",
           overflow: "hidden",
           textWrap: "balance",
+          fontWeight: "bold",
           textAlign: "center",
-          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000",
+          textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 8px #000, -2px -2px 8px #000",
           color: affinityColorMapping[ego.affinity || ego.awakeningType.affinity]
         },
         children: ego.name
