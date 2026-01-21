@@ -164,7 +164,7 @@ function Gift(_ref2) {
   var props = {};
   if (includeTooltip) {
     props["data-tooltip-id"] = "limbus-shared-library-gift-tooltip";
-    props["data-tooltip-content"] = "".concat(giftObject.id, ":").concat(enhanceRank);
+    props["data-tooltip-content"] = "".concat(giftObject.id, ":").concat(enhanceRank, ":").concat(expandable);
   }
   if (expandable) {
     props.onClick = function () {
@@ -182,6 +182,7 @@ function Gift(_ref2) {
       })), expandable ? /*#__PURE__*/_jsx(GiftModal, {
         gift: giftObject,
         enhanceRank: enhanceRank,
+        scale: scale,
         isOpen: modalOpen || expandOverride,
         onClose: handleModalClose
       }) : null]
@@ -197,6 +198,7 @@ function Gift(_ref2) {
       })), expandable ? /*#__PURE__*/_jsx(GiftModal, {
         gift: giftObject,
         enhanceRank: enhanceRank,
+        scale: scale,
         isOpen: modalOpen || expandOverride,
         onClose: handleModalClose
       }) : null]
@@ -286,7 +288,8 @@ function GiftTooltipContent(_ref3) {
 }
 function TooltipLoader(_ref4) {
   var giftId = _ref4.giftId,
-    enhanceRank = _ref4.enhanceRank;
+    enhanceRank = _ref4.enhanceRank,
+    expandable = _ref4.expandable;
   var _useData3 = useData("gifts"),
     _useData4 = _slicedToArray(_useData3, 2),
     gifts = _useData4[0],
@@ -294,7 +297,8 @@ function TooltipLoader(_ref4) {
   if (!giftId || giftsLoading) return null;
   return /*#__PURE__*/_jsx(GiftTooltipContent, {
     gift: gifts[giftId],
-    enhanceRank: enhanceRank
+    enhanceRank: enhanceRank,
+    expandable: expandable
   });
 }
 function GiftTooltip() {
@@ -304,12 +308,14 @@ function GiftTooltip() {
       var content = _ref5.content;
       if (!content) return null;
       var _content$split = content.split(":"),
-        _content$split2 = _slicedToArray(_content$split, 2),
+        _content$split2 = _slicedToArray(_content$split, 3),
         id = _content$split2[0],
-        rank = _content$split2[1];
+        rank = _content$split2[1],
+        expandable = _content$split2[2];
       return /*#__PURE__*/_jsx(TooltipLoader, {
         giftId: id,
-        enhanceRank: Number(rank)
+        enhanceRank: Number(rank),
+        expandable: expandable === "true"
       });
     },
     getTooltipContainer: function getTooltipContainer() {

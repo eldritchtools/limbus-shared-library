@@ -1,7 +1,7 @@
 import { Gift } from "./gift";
 
-function FusionRecipe({ recipe, includeProduct=true }) {
-    const fontStyle = { color: "#ECCDA3", fontSize: "2.5em" }
+function FusionRecipe({ recipe, scale = 1, includeProduct = true }) {
+    const fontStyle = { color: "#ECCDA3", fontSize: `${2.5 * scale}em` }
     const components = [];
     recipe.ingredients.forEach(ingredient => {
         if (components.length !== 0) components.push(<span style={fontStyle}>+</span>);
@@ -10,20 +10,24 @@ function FusionRecipe({ recipe, includeProduct=true }) {
             components.push(<div style={{ ...fontStyle, display: "flex", flexDirection: "row", alignItems: "center", gap: "5px" }}>
                 {ingredient.count}x
                 <div>
-                    <div style={{ display: "flex", flexDirection: "row" }}>{ingredient.options.slice(0, half).map((option, i) => <Gift key={i} id={option} scale={0.5} />)}</div>
-                    <div style={{ display: "flex", flexDirection: "row" }}>{ingredient.options.slice(half).map((option, i) => <Gift key={i} id={option} scale={0.5} />)}</div>
+                    <div style={{ display: "flex", flexDirection: "row" }}>
+                        {ingredient.options.slice(0, half).map((option, i) => <Gift key={i} id={option} scale={0.5 * scale} />)}
+                    </div>
+                    <div style={{ display: "flex", flexDirection: "row" }}>
+                        {ingredient.options.slice(half).map((option, i) => <Gift key={i} id={option} scale={0.5 * scale} />)}
+                    </div>
                 </div>
             </div>)
         } else {
-            components.push(<Gift id={ingredient} />);
+            components.push(<Gift id={ingredient} scale={scale} />);
         }
     });
 
     if (includeProduct) {
         components.unshift(<span style={fontStyle}>=</span>);
-        components.unshift(<Gift id={recipe.id} />);
+        components.unshift(<Gift id={recipe.id} scale={scale} />);
     }
-    
+
     return <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>{components}</div>
 }
 

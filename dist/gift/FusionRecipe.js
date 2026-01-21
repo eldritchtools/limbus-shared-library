@@ -8,11 +8,13 @@ import { Gift } from "./gift.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 function FusionRecipe(_ref) {
   var recipe = _ref.recipe,
+    _ref$scale = _ref.scale,
+    scale = _ref$scale === void 0 ? 1 : _ref$scale,
     _ref$includeProduct = _ref.includeProduct,
     includeProduct = _ref$includeProduct === void 0 ? true : _ref$includeProduct;
   var fontStyle = {
     color: "#ECCDA3",
-    fontSize: "2.5em"
+    fontSize: "".concat(2.5 * scale, "em")
   };
   var components = [];
   recipe.ingredients.forEach(function (ingredient) {
@@ -38,7 +40,7 @@ function FusionRecipe(_ref) {
             children: ingredient.options.slice(0, half).map(function (option, i) {
               return /*#__PURE__*/_jsx(Gift, {
                 id: option,
-                scale: 0.5
+                scale: 0.5 * scale
               }, i);
             })
           }), /*#__PURE__*/_jsx("div", {
@@ -49,7 +51,7 @@ function FusionRecipe(_ref) {
             children: ingredient.options.slice(half).map(function (option, i) {
               return /*#__PURE__*/_jsx(Gift, {
                 id: option,
-                scale: 0.5
+                scale: 0.5 * scale
               }, i);
             })
           })]
@@ -57,7 +59,8 @@ function FusionRecipe(_ref) {
       }));
     } else {
       components.push(/*#__PURE__*/_jsx(Gift, {
-        id: ingredient
+        id: ingredient,
+        scale: scale
       }));
     }
   });
@@ -67,7 +70,8 @@ function FusionRecipe(_ref) {
       children: "="
     }));
     components.unshift(/*#__PURE__*/_jsx(Gift, {
-      id: recipe.id
+      id: recipe.id,
+      scale: scale
     }));
   }
   return /*#__PURE__*/_jsx("div", {

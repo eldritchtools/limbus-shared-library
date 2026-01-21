@@ -64,6 +64,8 @@ var iconTextStyle = {
 };
 function GiftDisplay(_ref) {
   var gift = _ref.gift,
+    _ref$scale = _ref.scale,
+    scale = _ref$scale === void 0 ? 1 : _ref$scale,
     enhanceRank = _ref.enhanceRank;
   var _React$useState = React.useState(enhanceRank),
     _React$useState2 = _slicedToArray(_React$useState, 2),
@@ -72,10 +74,12 @@ function GiftDisplay(_ref) {
   var level = Math.min(enhanceLevel, gift.descs.length - 1);
   return /*#__PURE__*/_jsxs("div", {
     style: {
-      display: "flex",
-      flexDirection: "column",
+      display: "grid",
+      gridTemplateRows: "auto 1fr",
       width: "100%",
-      gap: "0.5rem"
+      gap: "0.5rem",
+      maxHeight: "80vh",
+      overflow: "hidden"
     },
     children: [/*#__PURE__*/_jsx("div", {
       style: {
@@ -89,19 +93,21 @@ function GiftDisplay(_ref) {
         display: "flex",
         flexDirection: "row",
         gap: "1rem",
-        width: "100%"
+        minHeight: 0
       },
       children: [/*#__PURE__*/_jsxs("div", {
         style: {
           display: "flex",
-          flexDirection: "column"
+          flexDirection: "column",
+          flex: "0 0 auto"
         },
         children: [/*#__PURE__*/_jsx("div", {
           children: /*#__PURE__*/_jsx(Gift, {
             gift: gift,
             includeTooltip: false,
             enhanceRank: enhanceLevel,
-            expandable: false
+            expandable: false,
+            scale: scale
           })
         }), gift.enhanceable ? /*#__PURE__*/_jsx("div", {
           style: {
@@ -130,114 +136,130 @@ function GiftDisplay(_ref) {
           },
           children: "Hard Only"
         }) : null]
-      }), /*#__PURE__*/_jsxs("div", {
+      }), /*#__PURE__*/_jsx("div", {
         style: {
-          display: "flex",
-          flexDirection: "column",
-          flex: 1
+          flex: "1 1 0",
+          minHeight: 0,
+          overflowY: "auto"
         },
-        children: [/*#__PURE__*/_jsx("div", {
-          style: {
-            display: "inline-block",
-            fontSize: "1rem",
-            lineHeight: "1.5",
-            textWrap: "wrap",
-            whiteSpace: "pre-wrap",
-            textAlign: "start"
-          },
-          children: /*#__PURE__*/_jsx("span", {
-            children: replaceStatusVariables(gift.descs[level], true)
-          })
-        }), /*#__PURE__*/_jsxs("div", {
+        children: /*#__PURE__*/_jsxs("div", {
           style: {
             display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-            gap: "1rem"
+            flexDirection: "column"
           },
-          children: [gift.exclusiveTo ? /*#__PURE__*/_jsxs("div", {
+          children: [/*#__PURE__*/_jsx("div", {
+            style: {
+              display: "inline-block",
+              fontSize: "1rem",
+              lineHeight: "1.5",
+              textWrap: "wrap",
+              whiteSpace: "pre-wrap",
+              textAlign: "start"
+            },
+            children: /*#__PURE__*/_jsx("span", {
+              children: replaceStatusVariables(gift.descs[level], true)
+            })
+          }), /*#__PURE__*/_jsxs("div", {
             style: {
               display: "flex",
-              flexDirection: "column"
+              flexDirection: "row",
+              flexWrap: "wrap",
+              gap: "1rem"
             },
-            children: [/*#__PURE__*/_jsx("span", {
-              style: {
-                fontSize: "1.25rem",
-                fontWeight: "bold",
-                textAlign: "start"
-              },
-              children: "Exclusive Theme Packs"
-            }), /*#__PURE__*/_jsx("div", {
+            children: [gift.exclusiveTo ? /*#__PURE__*/_jsxs("div", {
               style: {
                 display: "flex",
-                flexDirection: "row",
-                gap: "0.5rem"
+                flexDirection: "column"
               },
-              children: gift.exclusiveTo.map(function (packId, i) {
-                var _getFloorsForPack = getFloorsForPack(packId),
-                  normal = _getFloorsForPack.normal,
-                  hard = _getFloorsForPack.hard;
-                return /*#__PURE__*/_jsxs("div", {
-                  style: {
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center"
-                  },
-                  children: [/*#__PURE__*/_jsx(ThemePackImg, {
-                    id: packId,
-                    displayName: true,
-                    scale: 0.5
-                  }), /*#__PURE__*/_jsxs("div", {
-                    style: {
-                      display: "grid",
-                      width: "100%",
-                      gridTemplateColumns: "1fr 1fr"
-                    },
-                    children: [/*#__PURE__*/_jsx("div", {
-                      style: {
-                        color: "#4ade80"
-                      },
-                      children: "Normal"
-                    }), /*#__PURE__*/_jsx("div", {
-                      style: {
-                        color: "#f87171"
-                      },
-                      children: "Hard"
-                    }), /*#__PURE__*/_jsx("div", {
-                      children: normal.length ? normal.map(function (f) {
-                        return "F".concat(f);
-                      }).join(", ") : "None"
-                    }), /*#__PURE__*/_jsx("div", {
-                      children: hard.length ? hard.map(function (f) {
-                        return "F".concat(f);
-                      }).join(", ") : "None"
-                    })]
-                  })]
-                }, i);
-              })
-            })]
-          }) : null, gift.recipes ? /*#__PURE__*/_jsxs("div", {
-            style: {
-              display: "flex",
-              flexDirection: "column"
-            },
-            children: [/*#__PURE__*/_jsx("span", {
-              style: {
-                fontSize: "1.25rem",
-                fontWeight: "bold",
-                textAlign: "start"
-              },
-              children: "Fusion Recipes"
-            }), gift.recipes.map(function (recipe, i) {
-              return /*#__PURE__*/_jsx(FusionRecipe, {
-                recipe: {
-                  ingredients: recipe
+              children: [/*#__PURE__*/_jsx("span", {
+                style: {
+                  fontSize: "1.25rem",
+                  fontWeight: "bold",
+                  textAlign: "start"
                 },
-                includeProduct: false
-              }, i);
-            })]
-          }) : null]
-        })]
+                children: "Exclusive Theme Packs"
+              }), /*#__PURE__*/_jsx("div", {
+                style: {
+                  display: "flex",
+                  flexDirection: "row",
+                  gap: "0.5rem",
+                  maxWidth: "calc(100vw - 100px)",
+                  overflowX: "auto"
+                },
+                children: gift.exclusiveTo.map(function (packId, i) {
+                  var _getFloorsForPack = getFloorsForPack(packId),
+                    normal = _getFloorsForPack.normal,
+                    hard = _getFloorsForPack.hard;
+                  return /*#__PURE__*/_jsxs("div", {
+                    style: {
+                      display: "flex",
+                      flexDirection: "column",
+                      textAlign: "center"
+                    },
+                    children: [/*#__PURE__*/_jsx(ThemePackImg, {
+                      id: packId,
+                      displayName: true,
+                      scale: 0.5 * scale
+                    }), /*#__PURE__*/_jsxs("div", {
+                      style: {
+                        display: "grid",
+                        width: "100%",
+                        gridTemplateColumns: "1fr 1fr"
+                      },
+                      children: [/*#__PURE__*/_jsx("div", {
+                        style: {
+                          color: "#4ade80"
+                        },
+                        children: "Normal"
+                      }), /*#__PURE__*/_jsx("div", {
+                        style: {
+                          color: "#f87171"
+                        },
+                        children: "Hard"
+                      }), /*#__PURE__*/_jsx("div", {
+                        children: normal.length ? normal.map(function (f) {
+                          return "F".concat(f);
+                        }).join(", ") : "None"
+                      }), /*#__PURE__*/_jsx("div", {
+                        children: hard.length ? hard.map(function (f) {
+                          return "F".concat(f);
+                        }).join(", ") : "None"
+                      })]
+                    })]
+                  }, i);
+                })
+              })]
+            }) : null, gift.recipes ? /*#__PURE__*/_jsxs("div", {
+              style: {
+                display: "flex",
+                flexDirection: "column"
+              },
+              children: [/*#__PURE__*/_jsx("span", {
+                style: {
+                  fontSize: "1.25rem",
+                  fontWeight: "bold",
+                  textAlign: "start"
+                },
+                children: "Fusion Recipes"
+              }), /*#__PURE__*/_jsx("div", {
+                style: {
+                  display: "flex",
+                  flexDirection: "column",
+                  overflowX: "auto"
+                },
+                children: gift.recipes.map(function (recipe, i) {
+                  return /*#__PURE__*/_jsx(FusionRecipe, {
+                    recipe: {
+                      ingredients: recipe
+                    },
+                    includeProduct: false,
+                    scale: scale
+                  }, i);
+                })
+              })]
+            }) : null]
+          })]
+        })
       })]
     })]
   });
@@ -245,6 +267,8 @@ function GiftDisplay(_ref) {
 export function GiftModal(_ref2) {
   var gift = _ref2.gift,
     enhanceRank = _ref2.enhanceRank,
+    _ref2$scale = _ref2.scale,
+    scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
     isOpen = _ref2.isOpen,
     onClose = _ref2.onClose;
   React.useEffect(function () {
@@ -274,6 +298,7 @@ export function GiftModal(_ref2) {
         children: "\u2715"
       }), /*#__PURE__*/_jsx(GiftDisplay, {
         gift: gift,
+        scale: scale,
         enhanceRank: enhanceRank
       })]
     })

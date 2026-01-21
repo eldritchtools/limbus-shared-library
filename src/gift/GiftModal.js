@@ -41,16 +41,16 @@ const closeStyle = {
 const buttonStyle = { border: "1px #aaa solid", padding: "4px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", transiton: "background-color 0.2s, border-color 0.2s" };
 const iconTextStyle = { fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: "20px", color: "#ffd84d" };
 
-function GiftDisplay({ gift, enhanceRank }) {
+function GiftDisplay({ gift, scale = 1, enhanceRank }) {
     const [enhanceLevel, setEnhanceLevel] = React.useState(enhanceRank);
     let level = Math.min(enhanceLevel, gift.descs.length - 1);
 
-    return <div style={{ display: "flex", flexDirection: "column", width: "100%", gap: "0.5rem" }}>
+    return <div style={{ display: "grid", gridTemplateRows: "auto 1fr", width: "100%", gap: "0.5rem", maxHeight: "80vh", overflow: "hidden" }}>
         <div style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>{gift.names[level]}</div>
-        <div style={{ display: "flex", flexDirection: "row", gap: "1rem", width: "100%" }}>
-            <div style={{ display: "flex", flexDirection: "column" }}>
+        <div style={{ display: "flex", flexDirection: "row", gap: "1rem", minHeight: 0 }}>
+            <div style={{ display: "flex", flexDirection: "column", flex: "0 0 auto"}}>
                 <div>
-                    <Gift gift={gift} includeTooltip={false} enhanceRank={enhanceLevel} expandable={false} />
+                    <Gift gift={gift} includeTooltip={false} enhanceRank={enhanceLevel} expandable={false} scale={scale} />
                 </div>
                 {gift.enhanceable ? <div style={{ display: "grid", gridTemplateColumns: `repeat(${gift.names.length}, 1fr)` }}>
                     {Array.from({ length: gift.names.length }, (_, index) => <div key={index} style={{ ...buttonStyle, backgroundColor: enhanceLevel === index ? "#3f3f3f" : "#1f1f1f" }} onClick={() => setEnhanceLevel(index)}>
@@ -60,45 +60,49 @@ function GiftDisplay({ gift, enhanceRank }) {
                 }
                 {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
             </div>
-            <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
-                <div style={{ display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" }}>
-                    <span>{replaceStatusVariables(gift.descs[level], true)}</span>
-                </div>
-                <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1rem" }}>
-                    {
-                        gift.exclusiveTo ?
-                            <div style={{ display: "flex", flexDirection: "column" }}>
-                                <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Exclusive Theme Packs</span>
-                                <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem" }}>
-                                    {gift.exclusiveTo.map((packId, i) => {
-                                        const { normal, hard } = getFloorsForPack(packId);
-                                        return <div key={i} style={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
-                                            <ThemePackImg id={packId} displayName={true} scale={0.5} />
-                                            <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
-                                                <div style={{ color: "#4ade80" }}>Normal</div>
-                                                <div style={{ color: "#f87171" }}>Hard</div>
-                                                <div>{normal.length ? normal.map(f => `F${f}`).join(", ") : "None"}</div>
-                                                <div>{hard.length ? hard.map(f => `F${f}`).join(", ") : "None"}</div>
+            <div style={{ flex: "1 1 0", minHeight: 0, overflowY: "auto" }}>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                    <div style={{ display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" }}>
+                        <span>{replaceStatusVariables(gift.descs[level], true)}</span>
+                    </div>
+                    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1rem" }}>
+                        {
+                            gift.exclusiveTo ?
+                                <div style={{ display: "flex", flexDirection: "column" }}>
+                                    <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Exclusive Theme Packs</span>
+                                    <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem", maxWidth: "calc(100vw - 100px)", overflowX: "auto" }}>
+                                        {gift.exclusiveTo.map((packId, i) => {
+                                            const { normal, hard } = getFloorsForPack(packId);
+                                            return <div key={i} style={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
+                                                <ThemePackImg id={packId} displayName={true} scale={0.5 * scale} />
+                                                <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
+                                                    <div style={{ color: "#4ade80" }}>Normal</div>
+                                                    <div style={{ color: "#f87171" }}>Hard</div>
+                                                    <div>{normal.length ? normal.map(f => `F${f}`).join(", ") : "None"}</div>
+                                                    <div>{hard.length ? hard.map(f => `F${f}`).join(", ") : "None"}</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    })}
-                                </div>
-                            </div> : null
-                    }
-                    {
-                        gift.recipes ?
-                            <div style={{ display: "flex", flexDirection: "column" }}>
-                                <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Fusion Recipes</span>
-                                {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} />)}
-                            </div> : null
-                    }
+                                        })}
+                                    </div>
+                                </div> : null
+                        }
+                        {
+                            gift.recipes ?
+                                <div style={{ display: "flex", flexDirection: "column" }}>
+                                    <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Fusion Recipes</span>
+                                    <div style={{ display: "flex", flexDirection: "column", overflowX: "auto" }}>
+                                        {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} scale={scale} />)}
+                                    </div>
+                                </div> : null
+                        }
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 }
 
-export function GiftModal({ gift, enhanceRank, isOpen, onClose }) {
+export function GiftModal({ gift, enhanceRank, scale = 1, isOpen, onClose }) {
     React.useEffect(() => {
         if (!isOpen) return;
 
@@ -120,7 +124,7 @@ export function GiftModal({ gift, enhanceRank, isOpen, onClose }) {
                 <button style={closeStyle} onClick={onClose}>
                     ✕
                 </button>
-                <GiftDisplay gift={gift} enhanceRank={enhanceRank} />
+                <GiftDisplay gift={gift} scale={scale} enhanceRank={enhanceRank} />
             </div>
         </div>, document.body);
 }
