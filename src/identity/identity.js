@@ -11,7 +11,7 @@ function getIdentityImgSrc(identity, uptie = 4) {
 function IdentityImgMain({ identity, uptie, displayName, displayRarity, displayUptie, level, style }) {
     const img = <img src={getIdentityImgSrc(identity, uptie)} alt={identity.name} title={identity.name} style={{ ...style, objectFit: "cover" }} />
 
-    if (displayName || displayRarity) {
+    if (displayName || displayRarity || displayUptie) {
         return <div style={{ position: "relative", width: style.width, aspectRatio: "1/1", containerType: "size" }}>
             {img}
             {displayRarity ?

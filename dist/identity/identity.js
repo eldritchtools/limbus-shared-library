@@ -36,7 +36,7 @@ function IdentityImgMain(_ref) {
       objectFit: "cover"
     })
   });
-  if (displayName || displayRarity) {
+  if (displayName || displayRarity || displayUptie) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
         position: "relative",

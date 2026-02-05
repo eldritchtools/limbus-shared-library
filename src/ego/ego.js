@@ -14,7 +14,7 @@ function EgoImgMain({ ego, type, banner, displayName, displayRarity, threadspin,
     const newStyle = {...style, aspectRatio: banner ? "4/1" : "1/1", height: null, objectFit: "cover"};
     const img = <img src={src} alt={ego.name} title={ego.name} style={newStyle} />
 
-    if (displayName || displayRarity) {
+    if (displayName || displayRarity || threadspin) {
         return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", position: "relative", width: newStyle.width, aspectRatio: newStyle.aspectRatio, containerType: "size" }}>
             {img}
             {displayRarity ?

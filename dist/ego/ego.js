@@ -39,7 +39,7 @@ function EgoImgMain(_ref) {
     title: ego.name,
     style: newStyle
   });
-  if (displayName || displayRarity) {
+  if (displayName || displayRarity || threadspin) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
         display: "flex",
