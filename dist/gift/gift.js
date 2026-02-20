@@ -58,7 +58,6 @@ var tooltipDescStyle = {
   display: "inline-block",
   fontSize: "1rem",
   lineHeight: "1.5",
-  inlineSize: "50ch",
   textWrap: "wrap",
   whiteSpace: "pre-wrap"
 };

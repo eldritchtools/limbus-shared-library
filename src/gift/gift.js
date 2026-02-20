@@ -14,7 +14,7 @@ const giftStyle = { position: "absolute", top: "50%", left: "50%", transform: "t
 const giftTierStyle = { position: "absolute", top: "8%", left: "8%" };
 const giftKeywordStyle = { position: "absolute", bottom: "5%", right: "5%" };
 const giftEnhanceStyle = { position: "absolute", top: "5%", right: "5%", fontWeight: "bold", color: "#ffd84d" };
-const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", inlineSize: "50ch", textWrap: "wrap", whiteSpace: "pre-wrap" };
+const tooltipDescStyle = { display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap" };
 
 function resize(style, size) {
     return { ...style, width: `${size}px`, height: `${size}px` };
