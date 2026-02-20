@@ -74,15 +74,43 @@ function rescaleFont(style, scale) {
   });
 }
 function getGiftImgSrc(gift) {
-  var src = "imageOverride" in gift ? gift["imageOverride"] : gift.names[0];
+  var fallback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+  var src = fallback !== null && fallback !== void 0 ? fallback : "imageOverride" in gift ? gift["imageOverride"] : gift.names[0];
   return "".concat(ASSETS_ROOT, "/gifts/").concat(src, ".png");
 }
-function GiftIcon(_ref) {
+function GiftImg(_ref) {
   var gift = _ref.gift,
-    _ref$enhanceRank = _ref.enhanceRank,
-    enhanceRank = _ref$enhanceRank === void 0 ? 0 : _ref$enhanceRank,
-    _ref$scale = _ref.scale,
-    scale = _ref$scale === void 0 ? 1 : _ref$scale;
+    style = _ref.style;
+  var _useState = useState(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    fallback = _useState2[0],
+    setFallback = _useState2[1];
+  var _useState3 = useState(true),
+    _useState4 = _slicedToArray(_useState3, 2),
+    iconVisible = _useState4[0],
+    setIconVisible = _useState4[1];
+  if (!iconVisible) return null;
+  var src = getGiftImgSrc(gift, fallback ? gift.id : null);
+  var handleError = function handleError() {
+    if (!fallback) {
+      setFallback(true);
+    } else {
+      setIconVisible(false);
+    }
+  };
+  return /*#__PURE__*/_jsx("img", {
+    src: src,
+    alt: gift.names[0],
+    style: style,
+    onError: handleError
+  });
+}
+function GiftIcon(_ref2) {
+  var gift = _ref2.gift,
+    _ref2$enhanceRank = _ref2.enhanceRank,
+    enhanceRank = _ref2$enhanceRank === void 0 ? 0 : _ref2$enhanceRank,
+    _ref2$scale = _ref2.scale,
+    scale = _ref2$scale === void 0 ? 1 : _ref2$scale;
   var size = 96 * scale;
   return /*#__PURE__*/_jsxs("div", {
     style: resize(giftContainerStyle, size),
@@ -90,10 +118,8 @@ function GiftIcon(_ref) {
       src: "".concat(ASSETS_ROOT, "/ego_gift_background.png"),
       alt: "",
       style: resize(giftBackgroundStyle, size)
-    }), /*#__PURE__*/_jsx("img", {
-      src: getGiftImgSrc(gift),
-      alt: gift.names[0],
-      title: gift.names[0],
+    }), /*#__PURE__*/_jsx(GiftImg, {
+      gift: gift,
       style: resize(giftStyle, size * 0.75)
     }), /*#__PURE__*/_jsx("span", {
       style: giftTierStyle,
@@ -112,22 +138,22 @@ function GiftIcon(_ref) {
     }) : null]
   });
 }
-function Gift(_ref2) {
-  var id = _ref2.id,
-    _ref2$gift = _ref2.gift,
-    gift = _ref2$gift === void 0 ? null : _ref2$gift,
-    _ref2$enhanceRank = _ref2.enhanceRank,
-    enhanceRank = _ref2$enhanceRank === void 0 ? 0 : _ref2$enhanceRank,
-    _ref2$scale = _ref2.scale,
-    scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
-    _ref2$text = _ref2.text,
-    text = _ref2$text === void 0 ? false : _ref2$text,
-    _ref2$includeTooltip = _ref2.includeTooltip,
-    includeTooltip = _ref2$includeTooltip === void 0 ? true : _ref2$includeTooltip,
-    _ref2$expandable = _ref2.expandable,
-    expandable = _ref2$expandable === void 0 ? true : _ref2$expandable,
-    expandOverride = _ref2.expandOverride,
-    setExpandOverride = _ref2.setExpandOverride;
+function Gift(_ref3) {
+  var id = _ref3.id,
+    _ref3$gift = _ref3.gift,
+    gift = _ref3$gift === void 0 ? null : _ref3$gift,
+    _ref3$enhanceRank = _ref3.enhanceRank,
+    enhanceRank = _ref3$enhanceRank === void 0 ? 0 : _ref3$enhanceRank,
+    _ref3$scale = _ref3.scale,
+    scale = _ref3$scale === void 0 ? 1 : _ref3$scale,
+    _ref3$text = _ref3.text,
+    text = _ref3$text === void 0 ? false : _ref3$text,
+    _ref3$includeTooltip = _ref3.includeTooltip,
+    includeTooltip = _ref3$includeTooltip === void 0 ? true : _ref3$includeTooltip,
+    _ref3$expandable = _ref3.expandable,
+    expandable = _ref3$expandable === void 0 ? true : _ref3$expandable,
+    expandOverride = _ref3.expandOverride,
+    setExpandOverride = _ref3.setExpandOverride;
   var _useData = useData("gifts"),
     _useData2 = _slicedToArray(_useData, 2),
     gifts = _useData2[0],
@@ -205,12 +231,12 @@ function Gift(_ref2) {
     });
   }
 }
-function GiftTooltipContent(_ref3) {
-  var gift = _ref3.gift,
-    _ref3$enhanceRank = _ref3.enhanceRank,
-    enhanceRank = _ref3$enhanceRank === void 0 ? 0 : _ref3$enhanceRank,
-    _ref3$expandable = _ref3.expandable,
-    expandable = _ref3$expandable === void 0 ? true : _ref3$expandable;
+function GiftTooltipContent(_ref4) {
+  var gift = _ref4.gift,
+    _ref4$enhanceRank = _ref4.enhanceRank,
+    enhanceRank = _ref4$enhanceRank === void 0 ? 0 : _ref4$enhanceRank,
+    _ref4$expandable = _ref4.expandable,
+    expandable = _ref4$expandable === void 0 ? true : _ref4$expandable;
   var exclusiveText = function exclusiveText(list) {
     return /*#__PURE__*/_jsxs("div", {
       style: {
@@ -286,10 +312,10 @@ function GiftTooltipContent(_ref3) {
     })
   });
 }
-function TooltipLoader(_ref4) {
-  var giftId = _ref4.giftId,
-    enhanceRank = _ref4.enhanceRank,
-    expandable = _ref4.expandable;
+function TooltipLoader(_ref5) {
+  var giftId = _ref5.giftId,
+    enhanceRank = _ref5.enhanceRank,
+    expandable = _ref5.expandable;
   var _useData3 = useData("gifts"),
     _useData4 = _slicedToArray(_useData3, 2),
     gifts = _useData4[0],
@@ -304,8 +330,8 @@ function TooltipLoader(_ref4) {
 function GiftTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
-    render: function render(_ref5) {
-      var content = _ref5.content;
+    render: function render(_ref6) {
+      var content = _ref6.content;
       if (!content) return null;
       var _content$split = content.split(":"),
         _content$split2 = _slicedToArray(_content$split, 3),

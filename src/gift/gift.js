@@ -24,9 +24,27 @@ function rescaleFont(style, scale) {
     return { ...style, fontSize: `${24 * scale}px` }
 }
 
-function getGiftImgSrc(gift) {
-    const src = "imageOverride" in gift ? gift["imageOverride"] : gift.names[0];
+function getGiftImgSrc(gift, fallback = null) {
+    const src = fallback ?? ("imageOverride" in gift ? gift["imageOverride"] : gift.names[0]);
     return `${ASSETS_ROOT}/gifts/${src}.png`;
+}
+
+function GiftImg({ gift, style }) {
+    const [fallback, setFallback] = useState(false);
+    const [iconVisible, setIconVisible] = useState(true);
+
+    if (!iconVisible) return null;
+    const src = getGiftImgSrc(gift, fallback ? gift.id : null);
+
+    const handleError = () => {
+        if (!fallback) {
+            setFallback(true);
+        } else {
+            setIconVisible(false);
+        }
+    }
+
+    return <img src={src} alt={gift.names[0]} style={style} onError={handleError} />
 }
 
 function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
@@ -34,7 +52,7 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
 
     return <div style={resize(giftContainerStyle, size)}>
         <img src={`${ASSETS_ROOT}/ego_gift_background.png`} alt="" style={resize(giftBackgroundStyle, size)} />
-        <img src={getGiftImgSrc(gift)} alt={gift.names[0]} title={gift.names[0]} style={resize(giftStyle, size * 0.75)} />
+        <GiftImg gift={gift} style={resize(giftStyle, size * 0.75)} />
         <span style={giftTierStyle}><TierComponent tier={gift.tier} scale={scale} scaleY={1.4} /></span>
         {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale * 1.2)}>{"+".repeat(enhanceRank)}</span> : null}
         {gift.keyword !== "Keywordless" ? <img src={`${ASSETS_ROOT}/icons/${gift.keyword}.png`} alt="" style={resize(giftKeywordStyle, size * 0.3)} /> : null}
