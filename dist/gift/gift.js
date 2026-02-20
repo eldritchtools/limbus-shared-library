@@ -81,14 +81,14 @@ function getGiftImgSrc(gift) {
 function GiftImg(_ref) {
   var gift = _ref.gift,
     style = _ref.style;
-  var _useState = useState(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    fallback = _useState2[0],
-    setFallback = _useState2[1];
-  var _useState3 = useState(true),
-    _useState4 = _slicedToArray(_useState3, 2),
-    iconVisible = _useState4[0],
-    setIconVisible = _useState4[1];
+  var _React$useState = React.useState(false),
+    _React$useState2 = _slicedToArray(_React$useState, 2),
+    fallback = _React$useState2[0],
+    setFallback = _React$useState2[1];
+  var _React$useState3 = React.useState(true),
+    _React$useState4 = _slicedToArray(_React$useState3, 2),
+    iconVisible = _React$useState4[0],
+    setIconVisible = _React$useState4[1];
   if (!iconVisible) return null;
   var src = getGiftImgSrc(gift, fallback ? gift.id : null);
   var handleError = function handleError() {
@@ -158,10 +158,10 @@ function Gift(_ref3) {
     _useData2 = _slicedToArray(_useData, 2),
     gifts = _useData2[0],
     giftsLoading = _useData2[1];
-  var _React$useState = React.useState(false),
-    _React$useState2 = _slicedToArray(_React$useState, 2),
-    modalOpen = _React$useState2[0],
-    setModalOpen = _React$useState2[1];
+  var _React$useState5 = React.useState(false),
+    _React$useState6 = _slicedToArray(_React$useState5, 2),
+    modalOpen = _React$useState6[0],
+    setModalOpen = _React$useState6[1];
   var size = 96 * scale;
   var giftObject = gift;
   if (!giftObject) {

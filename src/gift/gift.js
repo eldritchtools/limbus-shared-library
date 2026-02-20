@@ -30,8 +30,8 @@ function getGiftImgSrc(gift, fallback = null) {
 }
 
 function GiftImg({ gift, style }) {
-    const [fallback, setFallback] = useState(false);
-    const [iconVisible, setIconVisible] = useState(true);
+    const [fallback, setFallback] = React.useState(false);
+    const [iconVisible, setIconVisible] = React.useState(true);
 
     if (!iconVisible) return null;
     const src = getGiftImgSrc(gift, fallback ? gift.id : null);
