@@ -5,7 +5,7 @@ const tooltipStyle = {
     backgroundColor: "#000000", 
     borderRadius: "1rem", 
     zIndex: "9999", 
-    width: "90%",
+    width: "90vw",
     maxWidth: "800px" 
 };
 
