@@ -5,6 +5,7 @@ var tooltipStyle = {
   backgroundColor: "#000000",
   borderRadius: "1rem",
   zIndex: "9999",
-  maxWidth: "90vw"
+  width: "90%",
+  maxWidth: "800px"
 };
 export { tooltipStyle };
