@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Gift } from "./gift";
-import replaceStatusVariables from "../status/statusReplace";
+import ReplacedStatusesText from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
 import { useFloorsForPack, ThemePackImg } from "../themePack/themePack";
 import { createPortal } from "react-dom";
@@ -87,7 +87,7 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
             <div style={{ flex: "1 1 0", minHeight: 0, overflowY: "auto" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <div style={{ display: "inline-block", fontSize: "1rem", lineHeight: "1.5", textWrap: "wrap", whiteSpace: "pre-wrap", textAlign: "start" }}>
-                        <span>{replaceStatusVariables(gift.descs[level], true)}</span>
+                        <ReplacedStatusesText templateText={gift.descs[level]} />
                     </div>
                     <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1rem" }}>
                         {

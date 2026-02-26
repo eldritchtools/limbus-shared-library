@@ -13,7 +13,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths.js";
 import { themePacks } from "../data/mdData.js";
-import replaceStatusVariables from "../status/statusReplace.js";
+import ReplacedStatusesText from "../status/statusReplace.js";
 import { tooltipStyle } from "../styles.js";
 import { useData } from "../dataProvider/DataProvider.js";
 import { GiftModal } from "./GiftModal.js";
@@ -315,8 +315,8 @@ function GiftTooltipContent(_ref4) {
             flexDirection: "column",
             textAlign: "left"
           }),
-          children: [/*#__PURE__*/_jsx("span", {
-            children: replaceStatusVariables(gift.descs[enhanceRank], true)
+          children: [/*#__PURE__*/_jsx(ReplacedStatusesText, {
+            templateText: gift.descs[enhanceRank]
           }), gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null]
         })]
       }), expandable ? /*#__PURE__*/_jsx("div", {

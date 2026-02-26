@@ -1,7 +1,7 @@
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
 import { themePacks } from "../data/mdData";
-import replaceStatusVariables from "../status/statusReplace";
+import ReplacedStatusesText from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
 import { GiftModal } from "./GiftModal";
@@ -130,7 +130,7 @@ function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
                     {gift.blessedPair ? <span style={{ color: "#38bdf8" }}>Blessed</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
-                    <span>{replaceStatusVariables(gift.descs[enhanceRank], true)}</span>
+                    <ReplacedStatusesText templateText={gift.descs[enhanceRank]} />
                     {gift.exclusiveTo ? exclusiveText(gift.exclusiveTo) : null}
                 </div>
             </div>

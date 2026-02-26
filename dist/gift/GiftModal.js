@@ -12,7 +12,7 @@ function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" !=
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 import * as React from "react";
 import { Gift } from "./gift.js";
-import replaceStatusVariables from "../status/statusReplace.js";
+import ReplacedStatusesText from "../status/statusReplace.js";
 import FusionRecipe from "./FusionRecipe.js";
 import { useFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
 import { createPortal } from "react-dom";
@@ -247,8 +247,8 @@ function GiftDisplay(_ref2) {
               whiteSpace: "pre-wrap",
               textAlign: "start"
             },
-            children: /*#__PURE__*/_jsx("span", {
-              children: replaceStatusVariables(gift.descs[level], true)
+            children: /*#__PURE__*/_jsx(ReplacedStatusesText, {
+              templateText: gift.descs[level]
             })
           }), /*#__PURE__*/_jsxs("div", {
             style: {
