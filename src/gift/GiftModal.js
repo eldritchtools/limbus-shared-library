@@ -22,8 +22,7 @@ const contentStyle = {
     background: "black",
     padding: "1rem",
     borderRadius: "0.5rem",
-    width: "clamp(200px, 90%, 1600px)",
-    maxWidth: "1600px",
+    maxWidth: "min(90%, 1600px)",
     border: "1px #aaa solid",
     boxShadow: "0 2px 10px rgba(0,0,0,0.3)",
 };
