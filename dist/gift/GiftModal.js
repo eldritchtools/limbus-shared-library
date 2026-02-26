@@ -14,7 +14,7 @@ import * as React from "react";
 import { Gift } from "./gift.js";
 import replaceStatusVariables from "../status/statusReplace.js";
 import FusionRecipe from "./FusionRecipe.js";
-import { getFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
+import { useFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
 import { createPortal } from "react-dom";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var overlayStyle = {
@@ -62,11 +62,55 @@ var iconTextStyle = {
   fontSize: "20px",
   color: "#ffd84d"
 };
-function GiftDisplay(_ref) {
-  var gift = _ref.gift,
-    _ref$scale = _ref.scale,
-    scale = _ref$scale === void 0 ? 1 : _ref$scale,
-    enhanceRank = _ref.enhanceRank;
+function ThemePackWithFloors(_ref) {
+  var id = _ref.id,
+    scale = _ref.scale;
+  var _useFloorsForPack = useFloorsForPack(id),
+    normal = _useFloorsForPack.normal,
+    hard = _useFloorsForPack.hard;
+  return /*#__PURE__*/_jsxs("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      textAlign: "center"
+    },
+    children: [/*#__PURE__*/_jsx(ThemePackImg, {
+      id: id,
+      displayName: true,
+      scale: 0.5 * scale
+    }), /*#__PURE__*/_jsxs("div", {
+      style: {
+        display: "grid",
+        width: "100%",
+        gridTemplateColumns: "1fr 1fr"
+      },
+      children: [/*#__PURE__*/_jsx("div", {
+        style: {
+          color: "#4ade80"
+        },
+        children: "Normal"
+      }), /*#__PURE__*/_jsx("div", {
+        style: {
+          color: "#f87171"
+        },
+        children: "Hard"
+      }), /*#__PURE__*/_jsx("div", {
+        children: normal.length ? normal.map(function (f) {
+          return "F".concat(f);
+        }).join(", ") : "None"
+      }), /*#__PURE__*/_jsx("div", {
+        children: hard.length ? hard.map(function (f) {
+          return "F".concat(f);
+        }).join(", ") : "None"
+      })]
+    })]
+  });
+}
+function GiftDisplay(_ref2) {
+  var gift = _ref2.gift,
+    _ref2$scale = _ref2.scale,
+    scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
+    enhanceRank = _ref2.enhanceRank;
   var _React$useState = React.useState(enhanceRank),
     _React$useState2 = _slicedToArray(_React$useState, 2),
     enhanceLevel = _React$useState2[0],
@@ -233,47 +277,11 @@ function GiftDisplay(_ref) {
                   maxWidth: "calc(100vw - 100px)",
                   overflowX: "auto"
                 },
-                children: gift.exclusiveTo.map(function (packId, i) {
-                  var _getFloorsForPack = getFloorsForPack(packId),
-                    normal = _getFloorsForPack.normal,
-                    hard = _getFloorsForPack.hard;
-                  return /*#__PURE__*/_jsxs("div", {
-                    style: {
-                      display: "flex",
-                      flexDirection: "column",
-                      textAlign: "center"
-                    },
-                    children: [/*#__PURE__*/_jsx(ThemePackImg, {
-                      id: packId,
-                      displayName: true,
-                      scale: 0.5 * scale
-                    }), /*#__PURE__*/_jsxs("div", {
-                      style: {
-                        display: "grid",
-                        width: "100%",
-                        gridTemplateColumns: "1fr 1fr"
-                      },
-                      children: [/*#__PURE__*/_jsx("div", {
-                        style: {
-                          color: "#4ade80"
-                        },
-                        children: "Normal"
-                      }), /*#__PURE__*/_jsx("div", {
-                        style: {
-                          color: "#f87171"
-                        },
-                        children: "Hard"
-                      }), /*#__PURE__*/_jsx("div", {
-                        children: normal.length ? normal.map(function (f) {
-                          return "F".concat(f);
-                        }).join(", ") : "None"
-                      }), /*#__PURE__*/_jsx("div", {
-                        children: hard.length ? hard.map(function (f) {
-                          return "F".concat(f);
-                        }).join(", ") : "None"
-                      })]
-                    })]
-                  }, i);
+                children: gift.exclusiveTo.map(function (packId) {
+                  return /*#__PURE__*/_jsx(ThemePackWithFloors, {
+                    id: packId,
+                    scale: scale
+                  }, packId);
                 })
               })]
             }) : null, gift.recipes ? /*#__PURE__*/_jsxs("div", {
@@ -311,13 +319,13 @@ function GiftDisplay(_ref) {
     })]
   });
 }
-export function GiftModal(_ref2) {
-  var gift = _ref2.gift,
-    enhanceRank = _ref2.enhanceRank,
-    _ref2$scale = _ref2.scale,
-    scale = _ref2$scale === void 0 ? 1 : _ref2$scale,
-    isOpen = _ref2.isOpen,
-    onClose = _ref2.onClose;
+export function GiftModal(_ref3) {
+  var gift = _ref3.gift,
+    enhanceRank = _ref3.enhanceRank,
+    _ref3$scale = _ref3.scale,
+    scale = _ref3$scale === void 0 ? 1 : _ref3$scale,
+    isOpen = _ref3.isOpen,
+    onClose = _ref3.onClose;
   React.useEffect(function () {
     if (!isOpen) return;
     var handleKeyDown = function handleKeyDown(e) {

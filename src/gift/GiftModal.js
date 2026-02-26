@@ -2,7 +2,7 @@ import * as React from "react";
 import { Gift } from "./gift";
 import replaceStatusVariables from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
-import { getFloorsForPack, ThemePackImg } from "../themePack/themePack";
+import { useFloorsForPack, ThemePackImg } from "../themePack/themePack";
 import { createPortal } from "react-dom";
 
 const overlayStyle = {
@@ -41,6 +41,19 @@ const closeStyle = {
 const buttonStyle = { border: "1px #aaa solid", padding: "4px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", transiton: "background-color 0.2s, border-color 0.2s" };
 const iconTextStyle = { fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: "20px", color: "#ffd84d" };
 
+function ThemePackWithFloors({ id, scale }) {
+    const { normal, hard } = useFloorsForPack(id);
+    return <div style={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
+        <ThemePackImg id={id} displayName={true} scale={0.5 * scale} />
+        <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
+            <div style={{ color: "#4ade80" }}>Normal</div>
+            <div style={{ color: "#f87171" }}>Hard</div>
+            <div>{normal.length ? normal.map(f => `F${f}`).join(", ") : "None"}</div>
+            <div>{hard.length ? hard.map(f => `F${f}`).join(", ") : "None"}</div>
+        </div>
+    </div>
+}
+
 function GiftDisplay({ gift, scale = 1, enhanceRank }) {
     const [enhanceLevel, setEnhanceLevel] = React.useState(enhanceRank);
     let level = Math.min(enhanceLevel, gift.descs.length - 1);
@@ -65,7 +78,7 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                         <span><span style={{ color: "#38bdf8" }}>Blessed</span> Pair</span>
                         <Gift id={gift.cursedPair} includeTooltip={true} expandable={true} scale={scale} />
                     </div> : null}
-                {gift.blessedPair ? 
+                {gift.blessedPair ?
                     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
                         <span><span style={{ color: "#a78bfa" }}>Cursed</span> Pair</span>
                         <Gift id={gift.blessedPair} includeTooltip={true} expandable={true} scale={scale} />
@@ -82,18 +95,7 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                                 <div style={{ display: "flex", flexDirection: "column" }}>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Exclusive Theme Packs</span>
                                     <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem", maxWidth: "calc(100vw - 100px)", overflowX: "auto" }}>
-                                        {gift.exclusiveTo.map((packId, i) => {
-                                            const { normal, hard } = getFloorsForPack(packId);
-                                            return <div key={i} style={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
-                                                <ThemePackImg id={packId} displayName={true} scale={0.5 * scale} />
-                                                <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
-                                                    <div style={{ color: "#4ade80" }}>Normal</div>
-                                                    <div style={{ color: "#f87171" }}>Hard</div>
-                                                    <div>{normal.length ? normal.map(f => `F${f}`).join(", ") : "None"}</div>
-                                                    <div>{hard.length ? hard.map(f => `F${f}`).join(", ") : "None"}</div>
-                                                </div>
-                                            </div>
-                                        })}
+                                        {gift.exclusiveTo.map(packId => <ThemePackWithFloors key={packId} id={packId} scale={scale} />)}
                                     </div>
                                 </div> : null
                         }
