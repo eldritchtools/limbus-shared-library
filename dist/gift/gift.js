@@ -12,7 +12,6 @@ function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" 
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths.js";
-import { themePacks } from "../data/mdData.js";
 import ReplacedStatusesText from "../status/statusReplace.js";
 import { tooltipStyle } from "../styles.js";
 import { useData } from "../dataProvider/DataProvider.js";
@@ -239,8 +238,12 @@ function GiftTooltipContent(_ref4) {
     enhanceRank = _ref4$enhanceRank === void 0 ? 0 : _ref4$enhanceRank,
     _ref4$expandable = _ref4.expandable,
     expandable = _ref4$expandable === void 0 ? true : _ref4$expandable;
+  var _useData3 = useData("md_theme_packs"),
+    _useData4 = _slicedToArray(_useData3, 2),
+    themePacks = _useData4[0],
+    themePacksLoading = _useData4[1];
   var exclusiveText = function exclusiveText(list) {
-    return /*#__PURE__*/_jsxs("div", {
+    return themePacksLoading ? null : /*#__PURE__*/_jsxs("div", {
       style: {
         display: "flex",
         flexDirection: "column"
@@ -338,10 +341,10 @@ function TooltipLoader(_ref5) {
   var giftId = _ref5.giftId,
     enhanceRank = _ref5.enhanceRank,
     expandable = _ref5.expandable;
-  var _useData3 = useData("gifts"),
-    _useData4 = _slicedToArray(_useData3, 2),
-    gifts = _useData4[0],
-    giftsLoading = _useData4[1];
+  var _useData5 = useData("gifts"),
+    _useData6 = _slicedToArray(_useData5, 2),
+    gifts = _useData6[0],
+    giftsLoading = _useData6[1];
   if (!giftId || giftsLoading) return null;
   return /*#__PURE__*/_jsx(GiftTooltipContent, {
     gift: gifts[giftId],

@@ -1,6 +1,5 @@
 import { Tooltip } from "react-tooltip";
 import { ASSETS_ROOT } from "../paths";
-import { themePacks } from "../data/mdData";
 import ReplacedStatusesText from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
@@ -112,11 +111,14 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
 }
 
 function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
-    const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
-        <br />
-        <span>Exclusive Theme Packs:</span>
-        {list.map(themePackId => <span key={themePackId}>{themePacks[themePackId].name}</span>)}
-    </div>
+    const [themePacks, themePacksLoading] = useData("md_theme_packs");
+
+    const exclusiveText = list => themePacksLoading ? null :
+        <div style={{ display: "flex", flexDirection: "column" }}>
+            <br />
+            <span>Exclusive Theme Packs:</span>
+            {list.map(themePackId => <span key={themePackId}>{themePacks[themePackId].name}</span>)}
+        </div>
 
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
@@ -124,8 +126,8 @@ function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
             <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.5rem" }}>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.2rem" }}>
                     <GiftIcon gift={gift} enhanceRank={enhanceRank} />
-                    {gift.enhanceable ? <span style={{color: "#4ade80"}}>Enhanceable</span> : null}
-                    {gift.fusion ? <span style={{color: "#facc15"}}>Fusion Only</span> : null}
+                    {gift.enhanceable ? <span style={{ color: "#4ade80" }}>Enhanceable</span> : null}
+                    {gift.fusion ? <span style={{ color: "#facc15" }}>Fusion Only</span> : null}
                     {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
                     {gift.cursedPair ? <span style={{ color: "#a78bfa" }}>Cursed</span> : null}
                     {gift.blessedPair ? <span style={{ color: "#38bdf8" }}>Blessed</span> : null}
