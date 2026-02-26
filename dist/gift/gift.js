@@ -247,7 +247,7 @@ function GiftTooltipContent(_ref4) {
       }), list.map(function (themePackId) {
         return /*#__PURE__*/_jsx("span", {
           children: themePacks[themePackId].name
-        });
+        }, themePackId);
       })]
     });
   };
@@ -276,18 +276,38 @@ function GiftTooltipContent(_ref4) {
         children: [/*#__PURE__*/_jsxs("div", {
           style: {
             display: "flex",
-            flexDirection: "column"
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "0.2rem"
           },
           children: [/*#__PURE__*/_jsx(GiftIcon, {
             gift: gift,
             enhanceRank: enhanceRank
           }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
+            style: {
+              color: "#4ade80"
+            },
             children: "Enhanceable"
+          }) : null, gift.fusion ? /*#__PURE__*/_jsx("span", {
+            style: {
+              color: "#facc15"
+            },
+            children: "Fusion Only"
           }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
             style: {
               color: "#f87171"
             },
             children: "Hard Only"
+          }) : null, gift.cursedPair ? /*#__PURE__*/_jsx("span", {
+            style: {
+              color: "#a78bfa"
+            },
+            children: "Cursed"
+          }) : null, gift.blessedPair ? /*#__PURE__*/_jsx("span", {
+            style: {
+              color: "#38bdf8"
+            },
+            children: "Blessed"
           }) : null]
         }), /*#__PURE__*/_jsxs("div", {
           style: _objectSpread(_objectSpread({}, tooltipDescStyle), {}, {

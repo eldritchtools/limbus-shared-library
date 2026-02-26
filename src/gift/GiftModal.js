@@ -48,7 +48,7 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
     return <div style={{ display: "grid", gridTemplateRows: "auto 1fr", width: "100%", gap: "0.5rem", maxHeight: "80vh", overflow: "hidden" }}>
         <div style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>{gift.names[level]}</div>
         <div style={{ display: "flex", flexDirection: "row", gap: "1rem", minHeight: 0 }}>
-            <div style={{ display: "flex", flexDirection: "column", flex: "0 0 auto"}}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.2rem", flex: "0 0 auto" }}>
                 <div>
                     <Gift gift={gift} includeTooltip={false} enhanceRank={enhanceLevel} expandable={false} scale={scale} />
                 </div>
@@ -58,7 +58,18 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                     </div>)}
                 </div> : null
                 }
+                {gift.fusion ? <span style={{ color: "#facc15" }}>Fusion Only</span> : null}
                 {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
+                {gift.cursedPair ?
+                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
+                        <span><span style={{ color: "#38bdf8" }}>Blessed</span> Pair</span>
+                        <Gift id={gift.cursedPair} includeTooltip={true} expandable={true} scale={scale} />
+                    </div> : null}
+                {gift.blessedPair ? 
+                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
+                        <span><span style={{ color: "#a78bfa" }}>Cursed</span> Pair</span>
+                        <Gift id={gift.blessedPair} includeTooltip={true} expandable={true} scale={scale} />
+                    </div> : null}
             </div>
             <div style={{ flex: "1 1 0", minHeight: 0, overflowY: "auto" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>

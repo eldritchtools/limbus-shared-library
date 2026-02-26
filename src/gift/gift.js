@@ -114,17 +114,20 @@ function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
     const exclusiveText = list => <div style={{ display: "flex", flexDirection: "column" }}>
         <br />
         <span>Exclusive Theme Packs:</span>
-        {list.map(themePackId => <span>{themePacks[themePackId].name}</span>)}
+        {list.map(themePackId => <span key={themePackId}>{themePacks[themePackId].name}</span>)}
     </div>
 
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
             <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[enhanceRank]}</div>
             <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.5rem" }}>
-                <div style={{ display: "flex", flexDirection: "column" }}>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.2rem" }}>
                     <GiftIcon gift={gift} enhanceRank={enhanceRank} />
-                    {gift.enhanceable ? <span>Enhanceable</span> : null}
+                    {gift.enhanceable ? <span style={{color: "#4ade80"}}>Enhanceable</span> : null}
+                    {gift.fusion ? <span style={{color: "#facc15"}}>Fusion Only</span> : null}
                     {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
+                    {gift.cursedPair ? <span style={{ color: "#a78bfa" }}>Cursed</span> : null}
+                    {gift.blessedPair ? <span style={{ color: "#38bdf8" }}>Blessed</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
                     <span>{replaceStatusVariables(gift.descs[enhanceRank], true)}</span>

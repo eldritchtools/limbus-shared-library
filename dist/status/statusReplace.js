@@ -7,10 +7,14 @@ function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 import { useData } from "../dataProvider/DataProvider.js";
 import { Status } from "./status.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-function replaceStatusVariables(templateText) {
-  var includeTooltips = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  var iconStyleOverride = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-  var nameStyleOverride = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
+function ReplacedStatusesText(_ref) {
+  var templateText = _ref.templateText,
+    _ref$includeTooltips = _ref.includeTooltips,
+    includeTooltips = _ref$includeTooltips === void 0 ? true : _ref$includeTooltips,
+    _ref$iconStyleOverrid = _ref.iconStyleOverride,
+    iconStyleOverride = _ref$iconStyleOverrid === void 0 ? {} : _ref$iconStyleOverrid,
+    _ref$nameStyleOverrid = _ref.nameStyleOverride,
+    nameStyleOverride = _ref$nameStyleOverrid === void 0 ? {} : _ref$nameStyleOverrid;
   var _useData = useData("statuses"),
     _useData2 = _slicedToArray(_useData, 2),
     statuses = _useData2[0],
@@ -92,5 +96,5 @@ function replaceStatusVariablesTextOnly(templateText, statuses, skillTags) {
   }
   return textPieces.join("");
 }
-export default replaceStatusVariables;
+export default ReplacedStatusesText;
 export { replaceStatusVariablesTextOnly };

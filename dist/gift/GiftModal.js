@@ -99,6 +99,8 @@ function GiftDisplay(_ref) {
         style: {
           display: "flex",
           flexDirection: "column",
+          alignItems: "center",
+          gap: "0.2rem",
           flex: "0 0 auto"
         },
         children: [/*#__PURE__*/_jsx("div", {
@@ -130,11 +132,56 @@ function GiftDisplay(_ref) {
               })
             }, index);
           })
+        }) : null, gift.fusion ? /*#__PURE__*/_jsx("span", {
+          style: {
+            color: "#facc15"
+          },
+          children: "Fusion Only"
         }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
           style: {
             color: "#f87171"
           },
           children: "Hard Only"
+        }) : null, gift.cursedPair ? /*#__PURE__*/_jsxs("div", {
+          style: {
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "0.5rem"
+          },
+          children: [/*#__PURE__*/_jsxs("span", {
+            children: [/*#__PURE__*/_jsx("span", {
+              style: {
+                color: "#38bdf8"
+              },
+              children: "Blessed"
+            }), " Pair"]
+          }), /*#__PURE__*/_jsx(Gift, {
+            id: gift.cursedPair,
+            includeTooltip: true,
+            expandable: true,
+            scale: scale
+          })]
+        }) : null, gift.blessedPair ? /*#__PURE__*/_jsxs("div", {
+          style: {
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "0.5rem"
+          },
+          children: [/*#__PURE__*/_jsxs("span", {
+            children: [/*#__PURE__*/_jsx("span", {
+              style: {
+                color: "#a78bfa"
+              },
+              children: "Cursed"
+            }), " Pair"]
+          }), /*#__PURE__*/_jsx(Gift, {
+            id: gift.blessedPair,
+            includeTooltip: true,
+            expandable: true,
+            scale: scale
+          })]
         }) : null]
       }), /*#__PURE__*/_jsx("div", {
         style: {

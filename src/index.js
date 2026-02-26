@@ -2,7 +2,7 @@ export { Gift, GiftTooltip, getGiftImgSrc } from "./gift/gift";
 export { default as FusionRecipe } from "./gift/FusionRecipe";
 export { keywords, KeywordIcon } from "./keywords/keywords";
 export { Status, StatusTooltip, getStatusImgSrc } from "./status/status";
-export { ThemePackImg, getFloorsPerPack, getFloorsForPack } from "./themePack/themePack";
+export { ThemePackImg, useFloorsPerPack, useFloorsForPack } from "./themePack/themePack";
 export { default as replaceStatusVariables, replaceStatusVariablesTextOnly } from "./status/statusReplace";
 export { IdentityImg, getIdentityImgSrc } from "./identity/identity";
 export { EgoImg, getEgoImgSrc } from "./ego/ego";

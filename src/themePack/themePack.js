@@ -21,7 +21,21 @@ function ThemePackImg({ id, themePack = null, displayName = false, scale = 1 }) 
     }
 
     const scaledStyle = rescaleThemePack(scale);
-    const img = <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`} alt={themePackObject.name} title={themePackObject.name} style={rescaleThemePack(scale)} />;
+    const img = themePackObject.overlayImage ?
+        <div style={{ ...scaledStyle, position: "relative" }}>
+            <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`}
+                alt={themePackObject.name} title={themePackObject.name}
+                style={{ ...scaledStyle, position: "absolute" }}
+            />
+            <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.overlayImage}.png`}
+                alt={themePackObject.name} title={themePackObject.name}
+                style={{ ...scaledStyle, position: "absolute" }}
+            />
+        </div> :
+        <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`}
+            alt={themePackObject.name} title={themePackObject.name}
+            style={scaledStyle}
+        />;
 
     if (displayName) {
         return <div style={{ display: "flex", flexDirection: "column", textAlign: "center", width: scaledStyle.width }}>
@@ -33,10 +47,10 @@ function ThemePackImg({ id, themePack = null, displayName = false, scale = 1 }) 
     }
 }
 
-function getFloorsPerPack() {
+function useFloorsPerPack() {
     const [floorPacks, floorPacksLoading] = useData("md_floor_packs");
     const floorsPerPack = { normal: {}, hard: {} };
-    
+
     if (floorPacksLoading) return floorsPerPack;
 
     Object.entries(floorPacks.normal).forEach(([floor, packs]) => packs.forEach(pack => {
@@ -51,14 +65,14 @@ function getFloorsPerPack() {
     return floorsPerPack;
 }
 
-function getFloorsForPack(packId) {
+function useFloorsForPack(packId) {
     const [floorPacks, floorPacksLoading] = useData("md_floor_packs");
-    
-    if (floorPacksLoading) return {normal: [], hard: []};
+
+    if (floorPacksLoading) return { normal: [], hard: [] };
     return {
-        normal: Object.entries(floorPacks.normal).filter(([_, packs]) => packs.includes(packId)).map(([floor, _]) => floor),
-        hard: Object.entries(floorPacks.hard).filter(([_, packs]) => packs.includes(packId)).map(([floor, _]) => floor)
+        normal: Object.entries(floorPacks.normal).filter(([, packs]) => packs.includes(packId)).map(([floor]) => floor),
+        hard: Object.entries(floorPacks.hard).filter(([, packs]) => packs.includes(packId)).map(([floor]) => floor)
     };
 }
 
-export { ThemePackImg, getFloorsPerPack, getFloorsForPack };
+export { ThemePackImg, useFloorsPerPack, useFloorsForPack };

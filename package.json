@@ -7,7 +7,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "babel src --out-dir dist && copyfiles -u 1 public/data/* dist/ && node scripts/postbuild-fix-extensions.cjs"
+        "lint": "eslint src --ext .js,.jsx",
+        "build": "npm run lint && babel src --out-dir dist && copyfiles -u 1 public/data/* dist/ && node scripts/postbuild-fix-extensions.cjs"
     },
     "peerDependencies": {
         "react": ">=19.0.0 <20.0.0",
@@ -19,8 +20,13 @@
         "@babel/core": "^7.28.3",
         "@babel/preset-env": "^7.28.3",
         "@babel/preset-react": "^7.27.1",
-        "baseline-browser-mapping": "^2.8.32",
-        "copyfiles": "^2.4.1"
+        "@eslint/js": "^9.39.3",
+        "baseline-browser-mapping": "^2.10.0",
+        "copyfiles": "^2.4.1",
+        "eslint": "^9.39.3",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^7.0.1",
+        "globals": "^17.3.0"
     },
     "babel": {
         "presets": [
