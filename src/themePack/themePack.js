@@ -5,6 +5,10 @@ function rescaleThemePack(scale) {
     return { width: `${380 * scale}px`, height: `${690 * scale}px` };
 }
 
+function rescaleOverlay(scale) {
+    return { width: `${391 * scale}px`, height: `${432 * scale}px` };
+}
+
 function ThemePackImg({ id, themePack = null, displayName = false, scale = 1 }) {
     const [themePacks, themePacksLoading] = useData("md_theme_packs");
 
@@ -22,14 +26,14 @@ function ThemePackImg({ id, themePack = null, displayName = false, scale = 1 }) 
 
     const scaledStyle = rescaleThemePack(scale);
     const img = themePackObject.overlayImage ?
-        <div style={{ ...scaledStyle, position: "relative" }}>
+        <div style={{ ...scaledStyle, position: "relative", left: 0, top: 0 }}>
             <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`}
                 alt={themePackObject.name} title={themePackObject.name}
-                style={{ ...scaledStyle, position: "absolute" }}
+                style={{ ...scaledStyle, position: "absolute", left: 0, top: 0 }}
             />
             <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.overlayImage}.png`}
                 alt={themePackObject.name} title={themePackObject.name}
-                style={{ ...scaledStyle, position: "absolute" }}
+                style={{ ...rescaleOverlay(scale), position: "absolute", left: 0, top: 100*scale }}
             />
         </div> :
         <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`}

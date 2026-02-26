@@ -19,6 +19,12 @@ function rescaleThemePack(scale) {
     height: "".concat(690 * scale, "px")
   };
 }
+function rescaleOverlay(scale) {
+  return {
+    width: "".concat(391 * scale, "px"),
+    height: "".concat(432 * scale, "px")
+  };
+}
 function ThemePackImg(_ref) {
   var id = _ref.id,
     _ref$themePack = _ref.themePack,
@@ -46,21 +52,27 @@ function ThemePackImg(_ref) {
   var scaledStyle = rescaleThemePack(scale);
   var img = themePackObject.overlayImage ? /*#__PURE__*/_jsxs("div", {
     style: _objectSpread(_objectSpread({}, scaledStyle), {}, {
-      position: "relative"
+      position: "relative",
+      left: 0,
+      top: 0
     }),
     children: [/*#__PURE__*/_jsx("img", {
       src: "".concat(ASSETS_ROOT, "/theme_packs/").concat(themePackObject.image, ".png"),
       alt: themePackObject.name,
       title: themePackObject.name,
       style: _objectSpread(_objectSpread({}, scaledStyle), {}, {
-        position: "absolute"
+        position: "absolute",
+        left: 0,
+        top: 0
       })
     }), /*#__PURE__*/_jsx("img", {
       src: "".concat(ASSETS_ROOT, "/theme_packs/").concat(themePackObject.overlayImage, ".png"),
       alt: themePackObject.name,
       title: themePackObject.name,
-      style: _objectSpread(_objectSpread({}, scaledStyle), {}, {
-        position: "absolute"
+      style: _objectSpread(_objectSpread({}, rescaleOverlay(scale)), {}, {
+        position: "absolute",
+        left: 0,
+        top: 100 * scale
       })
     })]
   }) : /*#__PURE__*/_jsx("img", {
