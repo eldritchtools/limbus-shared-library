@@ -23,6 +23,7 @@ function ReplacedStatusesText(_ref) {
     _useData4 = _slicedToArray(_useData3, 2),
     skillTags = _useData4[0],
     skillTagsLoading = _useData4[1];
+  if (!templateText) return null;
   var text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
   var textPieces = [];
   var index = 0;
@@ -74,6 +75,7 @@ function ReplacedStatusesText(_ref) {
   });
 }
 function replaceStatusVariablesTextOnly(templateText, statuses, skillTags) {
+  if (!templateText) return "";
   var text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
   var textPieces = [];
   while (true) {

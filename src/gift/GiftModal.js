@@ -65,10 +65,15 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                 <div>
                     <Gift gift={gift} includeTooltip={false} enhanceRank={enhanceLevel} expandable={false} scale={scale} />
                 </div>
-                {gift.enhanceable ? <div style={{ display: "grid", gridTemplateColumns: `repeat(${gift.names.length}, 1fr)` }}>
-                    {Array.from({ length: gift.names.length }, (_, index) => <div key={index} style={{ ...buttonStyle, backgroundColor: enhanceLevel === index ? "#3f3f3f" : "#1f1f1f" }} onClick={() => setEnhanceLevel(index)}>
-                        {index === 0 ? "-" : <span style={iconTextStyle}>{"+".repeat(index)}</span>}
-                    </div>)}
+                {gift.enhanceable ? <div style={{ display: "grid", gridTemplateColumns: `repeat(${gift.names.length}, 2rem)` }}>
+                    {Array.from({ length: gift.names.length }, (_, index) =>
+                        <div key={index}
+                            style={{ ...buttonStyle, backgroundColor: enhanceLevel === index ? "#3f3f3f" : "#1f1f1f" }}
+                            onClick={() => setEnhanceLevel(index)}
+                        >
+                            {index === 0 ? "-" : <span style={iconTextStyle}>{"+".repeat(index)}</span>}
+                        </div>
+                    )}
                 </div> : null
                 }
                 {gift.fusion ? <span style={{ color: "#facc15" }}>Fusion Only</span> : null}
@@ -103,8 +108,10 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                             gift.recipes ?
                                 <div style={{ display: "flex", flexDirection: "column" }}>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Fusion Recipes</span>
-                                    <div style={{ display: "flex", flexDirection: "column", overflowX: "auto" }}>
-                                        {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} scale={scale} />)}
+                                    <div style={{ overflowX: "auto", overflowY: "hidden" }}>
+                                        <div style={{ display: "flex", flexDirection: "column" }}>
+                                            {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} scale={scale} />)}
+                                        </div>
                                     </div>
                                 </div> : null
                         }

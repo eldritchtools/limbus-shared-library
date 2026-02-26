@@ -158,7 +158,7 @@ function GiftDisplay(_ref2) {
         }), gift.enhanceable ? /*#__PURE__*/_jsx("div", {
           style: {
             display: "grid",
-            gridTemplateColumns: "repeat(".concat(gift.names.length, ", 1fr)")
+            gridTemplateColumns: "repeat(".concat(gift.names.length, ", 2rem)")
           },
           children: Array.from({
             length: gift.names.length
@@ -298,18 +298,23 @@ function GiftDisplay(_ref2) {
                 children: "Fusion Recipes"
               }), /*#__PURE__*/_jsx("div", {
                 style: {
-                  display: "flex",
-                  flexDirection: "column",
-                  overflowX: "auto"
+                  overflowX: "auto",
+                  overflowY: "hidden"
                 },
-                children: gift.recipes.map(function (recipe, i) {
-                  return /*#__PURE__*/_jsx(FusionRecipe, {
-                    recipe: {
-                      ingredients: recipe
-                    },
-                    includeProduct: false,
-                    scale: scale
-                  }, i);
+                children: /*#__PURE__*/_jsx("div", {
+                  style: {
+                    display: "flex",
+                    flexDirection: "column"
+                  },
+                  children: gift.recipes.map(function (recipe, i) {
+                    return /*#__PURE__*/_jsx(FusionRecipe, {
+                      recipe: {
+                        ingredients: recipe
+                      },
+                      includeProduct: false,
+                      scale: scale
+                    }, i);
+                  })
                 })
               })]
             }) : null]

@@ -5,8 +5,8 @@ import ReplacedStatusesText from "../status/statusReplace";
 import { tooltipStyle } from "../styles";
 import { useData } from "../dataProvider/DataProvider";
 import { GiftModal } from "./GiftModal";
-import * as React from "react";
 import { TierComponent } from "../TierComponent";
+import { useMemo, useState } from "react";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -30,8 +30,8 @@ function getGiftImgSrc(gift, fallback = null) {
 }
 
 function GiftImg({ gift, style }) {
-    const [fallback, setFallback] = React.useState(false);
-    const [iconVisible, setIconVisible] = React.useState(true);
+    const [fallback, setFallback] = useState(false);
+    const [iconVisible, setIconVisible] = useState(true);
 
     if (!iconVisible) return null;
     const src = getGiftImgSrc(gift, fallback ? gift.id : null);
@@ -61,8 +61,9 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
 
 function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, includeTooltip = true, expandable = true, expandOverride, setExpandOverride }) {
     const [gifts, giftsLoading] = useData("gifts");
-    const [modalOpen, setModalOpen] = React.useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
     const size = 96 * scale;
+    const canHover = useMemo(() => window.matchMedia("(hover: hover)").matches, []);
 
     let giftObject = gift;
     if (!giftObject) {
@@ -83,7 +84,7 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
     }
 
     const props = {};
-    if (includeTooltip) {
+    if (includeTooltip && (!expandable || canHover)) {
         props["data-tooltip-id"] = "limbus-shared-library-gift-tooltip"
         props["data-tooltip-content"] = `${giftObject.id}:${enhanceRank}:${expandable}`
     }

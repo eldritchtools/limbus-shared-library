@@ -3,7 +3,7 @@ export { default as FusionRecipe } from "./gift/FusionRecipe.js";
 export { keywords, KeywordIcon } from "./keywords/keywords.js";
 export { Status, StatusTooltip, getStatusImgSrc } from "./status/status.js";
 export { ThemePackImg, useFloorsPerPack, useFloorsForPack } from "./themePack/themePack.js";
-export { default as replaceStatusVariables, replaceStatusVariablesTextOnly } from "./status/statusReplace.js";
+export { default as ReplacedStatusesText, replaceStatusVariablesTextOnly } from "./status/statusReplace.js";
 export { IdentityImg, getIdentityImgSrc } from "./identity/identity.js";
 export { EgoImg, getEgoImgSrc } from "./ego/ego.js";
 export { DataProvider, useData, useDataMultiple, getMeta } from "./dataProvider/DataProvider.js";

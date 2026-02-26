@@ -1,9 +1,11 @@
 import { useData } from "../dataProvider/DataProvider";
 import { Status } from "./status";
 
-function ReplacedStatusesText({templateText, includeTooltips = true, iconStyleOverride = {}, nameStyleOverride = {}}) {
+function ReplacedStatusesText({ templateText, includeTooltips = true, iconStyleOverride = {}, nameStyleOverride = {} }) {
     const [statuses, statusesLoading] = useData("statuses");
     const [skillTags, skillTagsLoading] = useData("skill_tags");
+
+    if (!templateText) return null;
 
     let text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
     let textPieces = [];
@@ -38,6 +40,7 @@ function ReplacedStatusesText({templateText, includeTooltips = true, iconStyleOv
 }
 
 function replaceStatusVariablesTextOnly(templateText, statuses, skillTags) {
+    if (!templateText) return "";
     let text = templateText.replaceAll("[[", "[").replaceAll("]]", "]");
     let textPieces = [];
 
