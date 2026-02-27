@@ -4,6 +4,7 @@ import ReplacedStatusesText from "../status/statusReplace";
 import FusionRecipe from "./FusionRecipe";
 import { useFloorsForPack, ThemePackImg } from "../themePack/themePack";
 import { createPortal } from "react-dom";
+import { affinityColorMapping } from "../utils";
 
 const overlayStyle = {
     position: "fixed",
@@ -44,7 +45,7 @@ function ThemePackWithFloors({ id, scale }) {
     const { normal, hard } = useFloorsForPack(id);
     return <div style={{ display: "flex", flexDirection: "column", textAlign: "center" }}>
         <ThemePackImg id={id} displayName={true} scale={0.5 * scale} />
-        <div style={{ display: "grid", width: "100%", gridTemplateColumns: "1fr 1fr" }} >
+        <div style={{ display: "grid", width: `${190 * scale}px`, gridTemplateColumns: "1fr 1fr" }} >
             <div style={{ color: "#4ade80" }}>Normal</div>
             <div style={{ color: "#f87171" }}>Hard</div>
             <div>{normal.length ? normal.map(f => `F${f}`).join(", ") : "None"}</div>
@@ -58,7 +59,9 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
     let level = Math.min(enhanceLevel, gift.descs.length - 1);
 
     return <div style={{ display: "grid", gridTemplateRows: "auto 1fr", width: "100%", gap: "0.5rem", maxHeight: "80vh", overflow: "hidden" }}>
-        <div style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>{gift.names[level]}</div>
+        <div style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start", color: affinityColorMapping[gift.affinity] }}>
+            {gift.names[level]}
+        </div>
         <div style={{ display: "flex", flexDirection: "row", gap: "1rem", minHeight: 0 }}>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.2rem", flex: "0 0 auto" }}>
                 <div>

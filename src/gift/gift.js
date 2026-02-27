@@ -6,6 +6,7 @@ import { useData } from "../dataProvider/DataProvider";
 import { GiftModal } from "./GiftModal";
 import { TierComponent } from "../TierComponent";
 import { useMemo, useState } from "react";
+import { affinityColorMapping } from "../utils";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -46,7 +47,18 @@ function GiftImg({ gift, style }) {
     return <img src={src} alt={gift.names[0]} style={style} onError={handleError} />
 }
 
-function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
+function TagStrips({ gift, scale }) {
+    const scaledSize = {width: `${12*scale}px`, height: `${4*scale}px`};
+    return <div style={{ display: "flex", flexDirection: "column", gap: "2px", position: "absolute", bottom: "50%", left: "0" }}>
+        {gift.enhanceable ? <div style={{ ...scaledSize, background: "#4ade80" }} /> : null}
+        {gift.fusion ? <div style={{ ...scaledSize, background: "#facc15" }} /> : null}
+        {gift.hardonly ? <div style={{ ...scaledSize, background: "#f87171" }} /> : null}
+        {gift.cursedPair ? <div style={{ ...scaledSize, background: "#a78bfa" }} /> : null}
+        {gift.blessedPair ? <div style={{ ...scaledSize, background: "#38bdf8" }} /> : null}
+    </div>
+}
+
+function GiftIcon({ gift, enhanceRank = 0, scale = 1, tagStrips }) {
     const size = 96 * scale;
 
     return <div style={resize(giftContainerStyle, size)}>
@@ -55,10 +67,11 @@ function GiftIcon({ gift, enhanceRank = 0, scale = 1 }) {
         <span style={giftTierStyle}><TierComponent tier={gift.tier} scale={scale} scaleY={1.4} /></span>
         {enhanceRank > 0 ? <span style={rescaleFont(giftEnhanceStyle, scale * 1.2)}>{"+".repeat(enhanceRank)}</span> : null}
         {gift.keyword !== "Keywordless" ? <img src={`${ASSETS_ROOT}/icons/${gift.keyword}.png`} alt="" style={resize(giftKeywordStyle, size * 0.3)} /> : null}
+        {tagStrips ? <TagStrips gift={gift} scale={scale} /> : null}
     </div>
 }
 
-function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, includeTooltip = true, expandable = true, expandOverride, setExpandOverride }) {
+function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, includeTooltip = true, expandable = true, tagStrips = false, expandOverride, setExpandOverride }) {
     const [gifts, giftsLoading] = useData("gifts");
     const [modalOpen, setModalOpen] = useState(false);
     const size = 96 * scale;
@@ -104,7 +117,7 @@ function Gift({ id, gift = null, enhanceRank = 0, scale = 1, text = false, inclu
         </span>;
     } else {
         return <span>
-            <span {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} /></span>
+            <span {...props}><GiftIcon gift={giftObject} enhanceRank={enhanceRank} scale={scale} tagStrips={tagStrips} /></span>
             {expandable ? <GiftModal gift={giftObject} enhanceRank={enhanceRank} scale={scale} isOpen={modalOpen || expandOverride} onClose={handleModalClose} /> : null}
         </span>;
     }
@@ -122,7 +135,9 @@ function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
 
     return <div style={tooltipStyle}>
         <div style={{ display: "flex", flexDirection: "column", padding: "0.5rem" }}>
-            <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>{gift.names[enhanceRank]}</div>
+            <div style={{ marginBottom: "0.5rem", fontSize: "1.5rem", fontWeight: "bold", textAlign: "center", color: affinityColorMapping[gift.affinity] }}>
+                {gift.names[enhanceRank]}
+            </div>
             <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.5rem" }}>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.2rem" }}>
                     <GiftIcon gift={gift} enhanceRank={enhanceRank} />

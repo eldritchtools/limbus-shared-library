@@ -18,6 +18,7 @@ import { useData } from "../dataProvider/DataProvider.js";
 import { GiftModal } from "./GiftModal.js";
 import { TierComponent } from "../TierComponent.js";
 import { useMemo, useState } from "react";
+import { affinityColorMapping } from "../utils.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -103,12 +104,52 @@ function GiftImg(_ref) {
     onError: handleError
   });
 }
-function GiftIcon(_ref2) {
+function TagStrips(_ref2) {
   var gift = _ref2.gift,
-    _ref2$enhanceRank = _ref2.enhanceRank,
-    enhanceRank = _ref2$enhanceRank === void 0 ? 0 : _ref2$enhanceRank,
-    _ref2$scale = _ref2.scale,
-    scale = _ref2$scale === void 0 ? 1 : _ref2$scale;
+    scale = _ref2.scale;
+  var scaledSize = {
+    width: "".concat(12 * scale, "px"),
+    height: "".concat(4 * scale, "px")
+  };
+  return /*#__PURE__*/_jsxs("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: "2px",
+      position: "absolute",
+      bottom: "50%",
+      left: "0"
+    },
+    children: [gift.enhanceable ? /*#__PURE__*/_jsx("div", {
+      style: _objectSpread(_objectSpread({}, scaledSize), {}, {
+        background: "#4ade80"
+      })
+    }) : null, gift.fusion ? /*#__PURE__*/_jsx("div", {
+      style: _objectSpread(_objectSpread({}, scaledSize), {}, {
+        background: "#facc15"
+      })
+    }) : null, gift.hardonly ? /*#__PURE__*/_jsx("div", {
+      style: _objectSpread(_objectSpread({}, scaledSize), {}, {
+        background: "#f87171"
+      })
+    }) : null, gift.cursedPair ? /*#__PURE__*/_jsx("div", {
+      style: _objectSpread(_objectSpread({}, scaledSize), {}, {
+        background: "#a78bfa"
+      })
+    }) : null, gift.blessedPair ? /*#__PURE__*/_jsx("div", {
+      style: _objectSpread(_objectSpread({}, scaledSize), {}, {
+        background: "#38bdf8"
+      })
+    }) : null]
+  });
+}
+function GiftIcon(_ref3) {
+  var gift = _ref3.gift,
+    _ref3$enhanceRank = _ref3.enhanceRank,
+    enhanceRank = _ref3$enhanceRank === void 0 ? 0 : _ref3$enhanceRank,
+    _ref3$scale = _ref3.scale,
+    scale = _ref3$scale === void 0 ? 1 : _ref3$scale,
+    tagStrips = _ref3.tagStrips;
   var size = 96 * scale;
   return /*#__PURE__*/_jsxs("div", {
     style: resize(giftContainerStyle, size),
@@ -133,25 +174,30 @@ function GiftIcon(_ref2) {
       src: "".concat(ASSETS_ROOT, "/icons/").concat(gift.keyword, ".png"),
       alt: "",
       style: resize(giftKeywordStyle, size * 0.3)
+    }) : null, tagStrips ? /*#__PURE__*/_jsx(TagStrips, {
+      gift: gift,
+      scale: scale
     }) : null]
   });
 }
-function Gift(_ref3) {
-  var id = _ref3.id,
-    _ref3$gift = _ref3.gift,
-    gift = _ref3$gift === void 0 ? null : _ref3$gift,
-    _ref3$enhanceRank = _ref3.enhanceRank,
-    enhanceRank = _ref3$enhanceRank === void 0 ? 0 : _ref3$enhanceRank,
-    _ref3$scale = _ref3.scale,
-    scale = _ref3$scale === void 0 ? 1 : _ref3$scale,
-    _ref3$text = _ref3.text,
-    text = _ref3$text === void 0 ? false : _ref3$text,
-    _ref3$includeTooltip = _ref3.includeTooltip,
-    includeTooltip = _ref3$includeTooltip === void 0 ? true : _ref3$includeTooltip,
-    _ref3$expandable = _ref3.expandable,
-    expandable = _ref3$expandable === void 0 ? true : _ref3$expandable,
-    expandOverride = _ref3.expandOverride,
-    setExpandOverride = _ref3.setExpandOverride;
+function Gift(_ref4) {
+  var id = _ref4.id,
+    _ref4$gift = _ref4.gift,
+    gift = _ref4$gift === void 0 ? null : _ref4$gift,
+    _ref4$enhanceRank = _ref4.enhanceRank,
+    enhanceRank = _ref4$enhanceRank === void 0 ? 0 : _ref4$enhanceRank,
+    _ref4$scale = _ref4.scale,
+    scale = _ref4$scale === void 0 ? 1 : _ref4$scale,
+    _ref4$text = _ref4.text,
+    text = _ref4$text === void 0 ? false : _ref4$text,
+    _ref4$includeTooltip = _ref4.includeTooltip,
+    includeTooltip = _ref4$includeTooltip === void 0 ? true : _ref4$includeTooltip,
+    _ref4$expandable = _ref4.expandable,
+    expandable = _ref4$expandable === void 0 ? true : _ref4$expandable,
+    _ref4$tagStrips = _ref4.tagStrips,
+    tagStrips = _ref4$tagStrips === void 0 ? false : _ref4$tagStrips,
+    expandOverride = _ref4.expandOverride,
+    setExpandOverride = _ref4.setExpandOverride;
   var _useData = useData("gifts"),
     _useData2 = _slicedToArray(_useData, 2),
     gifts = _useData2[0],
@@ -220,7 +266,8 @@ function Gift(_ref3) {
         children: /*#__PURE__*/_jsx(GiftIcon, {
           gift: giftObject,
           enhanceRank: enhanceRank,
-          scale: scale
+          scale: scale,
+          tagStrips: tagStrips
         })
       })), expandable ? /*#__PURE__*/_jsx(GiftModal, {
         gift: giftObject,
@@ -232,12 +279,12 @@ function Gift(_ref3) {
     });
   }
 }
-function GiftTooltipContent(_ref4) {
-  var gift = _ref4.gift,
-    _ref4$enhanceRank = _ref4.enhanceRank,
-    enhanceRank = _ref4$enhanceRank === void 0 ? 0 : _ref4$enhanceRank,
-    _ref4$expandable = _ref4.expandable,
-    expandable = _ref4$expandable === void 0 ? true : _ref4$expandable;
+function GiftTooltipContent(_ref5) {
+  var gift = _ref5.gift,
+    _ref5$enhanceRank = _ref5.enhanceRank,
+    enhanceRank = _ref5$enhanceRank === void 0 ? 0 : _ref5$enhanceRank,
+    _ref5$expandable = _ref5.expandable,
+    expandable = _ref5$expandable === void 0 ? true : _ref5$expandable;
   var _useData3 = useData("md_theme_packs"),
     _useData4 = _slicedToArray(_useData3, 2),
     themePacks = _useData4[0],
@@ -270,7 +317,8 @@ function GiftTooltipContent(_ref4) {
           marginBottom: "0.5rem",
           fontSize: "1.5rem",
           fontWeight: "bold",
-          textAlign: "center"
+          textAlign: "center",
+          color: affinityColorMapping[gift.affinity]
         },
         children: gift.names[enhanceRank]
       }), /*#__PURE__*/_jsxs("div", {
@@ -337,10 +385,10 @@ function GiftTooltipContent(_ref4) {
     })
   });
 }
-function TooltipLoader(_ref5) {
-  var giftId = _ref5.giftId,
-    enhanceRank = _ref5.enhanceRank,
-    expandable = _ref5.expandable;
+function TooltipLoader(_ref6) {
+  var giftId = _ref6.giftId,
+    enhanceRank = _ref6.enhanceRank,
+    expandable = _ref6.expandable;
   var _useData5 = useData("gifts"),
     _useData6 = _slicedToArray(_useData5, 2),
     gifts = _useData6[0],
@@ -355,8 +403,8 @@ function TooltipLoader(_ref5) {
 function GiftTooltip() {
   return /*#__PURE__*/_jsx(Tooltip, {
     id: "limbus-shared-library-gift-tooltip",
-    render: function render(_ref6) {
-      var content = _ref6.content;
+    render: function render(_ref7) {
+      var content = _ref7.content;
       if (!content) return null;
       var _content$split = content.split(":"),
         _content$split2 = _slicedToArray(_content$split, 3),

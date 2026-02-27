@@ -16,6 +16,7 @@ import ReplacedStatusesText from "../status/statusReplace.js";
 import FusionRecipe from "./FusionRecipe.js";
 import { useFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
 import { createPortal } from "react-dom";
+import { affinityColorMapping } from "../utils.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var overlayStyle = {
   position: "fixed",
@@ -80,7 +81,7 @@ function ThemePackWithFloors(_ref) {
     }), /*#__PURE__*/_jsxs("div", {
       style: {
         display: "grid",
-        width: "100%",
+        width: "".concat(190 * scale, "px"),
         gridTemplateColumns: "1fr 1fr"
       },
       children: [/*#__PURE__*/_jsx("div", {
@@ -128,7 +129,8 @@ function GiftDisplay(_ref2) {
       style: {
         fontSize: "1.25rem",
         fontWeight: "bold",
-        textAlign: "start"
+        textAlign: "start",
+        color: affinityColorMapping[gift.affinity]
       },
       children: gift.names[level]
     }), /*#__PURE__*/_jsxs("div", {

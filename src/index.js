@@ -9,3 +9,4 @@ export { EgoImg, getEgoImgSrc } from "./ego/ego";
 export { DataProvider, useData, useDataMultiple, getMeta } from "./dataProvider/DataProvider";
 export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon } from "./ImageHandler";
 export { affinityColorMapping } from "./utils";
+export { TierComponent } from './TierComponent';

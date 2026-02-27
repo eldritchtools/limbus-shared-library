@@ -9,3 +9,4 @@ export { EgoImg, getEgoImgSrc } from "./ego/ego.js";
 export { DataProvider, useData, useDataMultiple, getMeta } from "./dataProvider/DataProvider.js";
 export { Icon, RarityImg, getSinnerIconSrc, SinnerIcon } from "./ImageHandler.js";
 export { affinityColorMapping } from "./utils.js";
+export { TierComponent } from './TierComponent.js';
