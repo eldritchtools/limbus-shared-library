@@ -19,6 +19,7 @@ import { GiftModal } from "./GiftModal.js";
 import { TierComponent } from "../TierComponent.js";
 import { useMemo, useState } from "react";
 import { affinityColorMapping } from "../utils.js";
+import { giftTagColors } from "./giftTagColors.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 var giftContainerStyle = {
   position: "relative",
@@ -122,23 +123,27 @@ function TagStrips(_ref2) {
     },
     children: [gift.enhanceable ? /*#__PURE__*/_jsx("div", {
       style: _objectSpread(_objectSpread({}, scaledSize), {}, {
-        background: "#4ade80"
+        background: giftTagColors.enhanceable
+      })
+    }) : null, gift.ingredientOf ? /*#__PURE__*/_jsx("div", {
+      style: _objectSpread(_objectSpread({}, scaledSize), {}, {
+        background: giftTagColors.ingredient
       })
     }) : null, gift.fusion ? /*#__PURE__*/_jsx("div", {
       style: _objectSpread(_objectSpread({}, scaledSize), {}, {
-        background: "#facc15"
+        background: giftTagColors.fusion
       })
     }) : null, gift.hardonly ? /*#__PURE__*/_jsx("div", {
       style: _objectSpread(_objectSpread({}, scaledSize), {}, {
-        background: "#f87171"
+        background: giftTagColors.hardonly
       })
     }) : null, gift.cursedPair ? /*#__PURE__*/_jsx("div", {
       style: _objectSpread(_objectSpread({}, scaledSize), {}, {
-        background: "#a78bfa"
+        background: giftTagColors.cursed
       })
     }) : null, gift.blessedPair ? /*#__PURE__*/_jsx("div", {
       style: _objectSpread(_objectSpread({}, scaledSize), {}, {
-        background: "#38bdf8"
+        background: giftTagColors.blessed
       })
     }) : null]
   });
@@ -339,27 +344,32 @@ function GiftTooltipContent(_ref5) {
             enhanceRank: enhanceRank
           }), gift.enhanceable ? /*#__PURE__*/_jsx("span", {
             style: {
-              color: "#4ade80"
+              color: giftTagColors.enhanceable
             },
             children: "Enhanceable"
+          }) : null, gift.ingredientOf ? /*#__PURE__*/_jsx("span", {
+            style: {
+              color: giftTagColors.ingredient
+            },
+            children: "Ingredient"
           }) : null, gift.fusion ? /*#__PURE__*/_jsx("span", {
             style: {
-              color: "#facc15"
+              color: giftTagColors.fusion
             },
             children: "Fusion Only"
           }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
             style: {
-              color: "#f87171"
+              color: giftTagColors.hardonly
             },
             children: "Hard Only"
           }) : null, gift.cursedPair ? /*#__PURE__*/_jsx("span", {
             style: {
-              color: "#a78bfa"
+              color: giftTagColors.cursed
             },
             children: "Cursed"
           }) : null, gift.blessedPair ? /*#__PURE__*/_jsx("span", {
             style: {
-              color: "#38bdf8"
+              color: giftTagColors.blessed
             },
             children: "Blessed"
           }) : null]

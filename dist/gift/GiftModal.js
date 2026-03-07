@@ -17,7 +17,8 @@ import FusionRecipe from "./FusionRecipe.js";
 import { useFloorsForPack, ThemePackImg } from "../themePack/themePack.js";
 import { createPortal } from "react-dom";
 import { affinityColorMapping } from "../utils.js";
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { giftTagColors } from "./giftTagColors.js";
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 var overlayStyle = {
   position: "fixed",
   top: "0",
@@ -177,14 +178,19 @@ function GiftDisplay(_ref2) {
               })
             }, index);
           })
+        }) : null, gift.ingredientOf ? /*#__PURE__*/_jsx("span", {
+          style: {
+            color: giftTagColors.ingredient
+          },
+          children: "Ingredient"
         }) : null, gift.fusion ? /*#__PURE__*/_jsx("span", {
           style: {
-            color: "#facc15"
+            color: giftTagColors.fusion
           },
           children: "Fusion Only"
         }) : null, gift.hardonly ? /*#__PURE__*/_jsx("span", {
           style: {
-            color: "#f87171"
+            color: giftTagColors.hardonly
           },
           children: "Hard Only"
         }) : null, gift.cursedPair ? /*#__PURE__*/_jsxs("div", {
@@ -197,7 +203,7 @@ function GiftDisplay(_ref2) {
           children: [/*#__PURE__*/_jsxs("span", {
             children: [/*#__PURE__*/_jsx("span", {
               style: {
-                color: "#38bdf8"
+                color: giftTagColors.blessed
               },
               children: "Blessed"
             }), " Pair"]
@@ -217,7 +223,7 @@ function GiftDisplay(_ref2) {
           children: [/*#__PURE__*/_jsxs("span", {
             children: [/*#__PURE__*/_jsx("span", {
               style: {
-                color: "#a78bfa"
+                color: giftTagColors.cursed
               },
               children: "Cursed"
             }), " Pair"]
@@ -285,39 +291,71 @@ function GiftDisplay(_ref2) {
                   }, packId);
                 })
               })]
-            }) : null, gift.recipes ? /*#__PURE__*/_jsxs("div", {
+            }) : null, gift.recipes || gift.ingredientOf ? /*#__PURE__*/_jsxs("div", {
               style: {
                 display: "flex",
-                flexDirection: "column"
+                flexDirection: "column",
+                gap: "0.5rem"
               },
-              children: [/*#__PURE__*/_jsx("span", {
-                style: {
-                  fontSize: "1.25rem",
-                  fontWeight: "bold",
-                  textAlign: "start"
-                },
-                children: "Fusion Recipes"
-              }), /*#__PURE__*/_jsx("div", {
-                style: {
-                  overflowX: "auto",
-                  overflowY: "hidden"
-                },
-                children: /*#__PURE__*/_jsx("div", {
+              children: [gift.recipes ? /*#__PURE__*/_jsxs(_Fragment, {
+                children: [/*#__PURE__*/_jsx("span", {
                   style: {
-                    display: "flex",
-                    flexDirection: "column"
+                    fontSize: "1.25rem",
+                    fontWeight: "bold",
+                    textAlign: "start"
                   },
-                  children: gift.recipes.map(function (recipe, i) {
-                    return /*#__PURE__*/_jsx(FusionRecipe, {
-                      recipe: {
-                        ingredients: recipe
-                      },
-                      includeProduct: false,
-                      scale: scale
-                    }, i);
+                  children: "Fusion Recipes"
+                }), /*#__PURE__*/_jsx("div", {
+                  style: {
+                    overflowX: "auto",
+                    overflowY: "hidden"
+                  },
+                  children: /*#__PURE__*/_jsx("div", {
+                    style: {
+                      display: "flex",
+                      flexDirection: "column"
+                    },
+                    children: gift.recipes.map(function (recipe, i) {
+                      return /*#__PURE__*/_jsx(FusionRecipe, {
+                        recipe: {
+                          ingredients: recipe
+                        },
+                        includeProduct: false,
+                        scale: scale
+                      }, i);
+                    })
                   })
-                })
-              })]
+                })]
+              }) : null, gift.ingredientOf ? /*#__PURE__*/_jsxs(_Fragment, {
+                children: [/*#__PURE__*/_jsx("span", {
+                  style: {
+                    fontSize: "1.25rem",
+                    fontWeight: "bold",
+                    textAlign: "start"
+                  },
+                  children: "Ingredient Of"
+                }), /*#__PURE__*/_jsx("div", {
+                  style: {
+                    overflowX: "auto",
+                    overflowY: "hidden"
+                  },
+                  children: /*#__PURE__*/_jsx("div", {
+                    style: {
+                      display: "flex",
+                      flexDirection: "row",
+                      gap: "0.5rem"
+                    },
+                    children: gift.ingredientOf.map(function (giftId) {
+                      return /*#__PURE__*/_jsx(Gift, {
+                        id: giftId,
+                        includeTooltip: true,
+                        expandable: true,
+                        scale: scale
+                      }, giftId);
+                    })
+                  })
+                })]
+              }) : null]
             }) : null]
           })]
         })

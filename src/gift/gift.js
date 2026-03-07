@@ -7,6 +7,7 @@ import { GiftModal } from "./GiftModal";
 import { TierComponent } from "../TierComponent";
 import { useMemo, useState } from "react";
 import { affinityColorMapping } from "../utils";
+import { giftTagColors } from "./giftTagColors";
 
 const giftContainerStyle = { position: "relative", width: "64px", height: "64px" };
 const giftBackgroundStyle = { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
@@ -50,11 +51,12 @@ function GiftImg({ gift, style }) {
 function TagStrips({ gift, scale }) {
     const scaledSize = {width: `${12*scale}px`, height: `${4*scale}px`};
     return <div style={{ display: "flex", flexDirection: "column", gap: "2px", position: "absolute", bottom: "50%", left: "0" }}>
-        {gift.enhanceable ? <div style={{ ...scaledSize, background: "#4ade80" }} /> : null}
-        {gift.fusion ? <div style={{ ...scaledSize, background: "#facc15" }} /> : null}
-        {gift.hardonly ? <div style={{ ...scaledSize, background: "#f87171" }} /> : null}
-        {gift.cursedPair ? <div style={{ ...scaledSize, background: "#a78bfa" }} /> : null}
-        {gift.blessedPair ? <div style={{ ...scaledSize, background: "#38bdf8" }} /> : null}
+        {gift.enhanceable ? <div style={{ ...scaledSize, background: giftTagColors.enhanceable }} /> : null}
+        {gift.ingredientOf ? <div style={{ ...scaledSize, background: giftTagColors.ingredient }} /> : null}
+        {gift.fusion ? <div style={{ ...scaledSize, background: giftTagColors.fusion }} /> : null}
+        {gift.hardonly ? <div style={{ ...scaledSize, background: giftTagColors.hardonly }} /> : null}
+        {gift.cursedPair ? <div style={{ ...scaledSize, background: giftTagColors.cursed }} /> : null}
+        {gift.blessedPair ? <div style={{ ...scaledSize, background: giftTagColors.blessed }} /> : null}
     </div>
 }
 
@@ -141,11 +143,12 @@ function GiftTooltipContent({ gift, enhanceRank = 0, expandable = true }) {
             <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.5rem" }}>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.2rem" }}>
                     <GiftIcon gift={gift} enhanceRank={enhanceRank} />
-                    {gift.enhanceable ? <span style={{ color: "#4ade80" }}>Enhanceable</span> : null}
-                    {gift.fusion ? <span style={{ color: "#facc15" }}>Fusion Only</span> : null}
-                    {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
-                    {gift.cursedPair ? <span style={{ color: "#a78bfa" }}>Cursed</span> : null}
-                    {gift.blessedPair ? <span style={{ color: "#38bdf8" }}>Blessed</span> : null}
+                    {gift.enhanceable ? <span style={{ color: giftTagColors.enhanceable }}>Enhanceable</span> : null}
+                    {gift.ingredientOf ? <span style={{ color: giftTagColors.ingredient }}>Ingredient</span> : null}
+                    {gift.fusion ? <span style={{ color: giftTagColors.fusion }}>Fusion Only</span> : null}
+                    {gift.hardonly ? <span style={{ color: giftTagColors.hardonly }}>Hard Only</span> : null}
+                    {gift.cursedPair ? <span style={{ color: giftTagColors.cursed }}>Cursed</span> : null}
+                    {gift.blessedPair ? <span style={{ color: giftTagColors.blessed }}>Blessed</span> : null}
                 </div>
                 <div style={{ ...tooltipDescStyle, display: "flex", flexDirection: "column", textAlign: "left" }}>
                     <ReplacedStatusesText templateText={gift.descs[enhanceRank]} />

@@ -5,6 +5,7 @@ import FusionRecipe from "./FusionRecipe";
 import { useFloorsForPack, ThemePackImg } from "../themePack/themePack";
 import { createPortal } from "react-dom";
 import { affinityColorMapping } from "../utils";
+import { giftTagColors } from "./giftTagColors";
 
 const overlayStyle = {
     position: "fixed",
@@ -78,16 +79,17 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                     )}
                 </div> : null
                 }
-                {gift.fusion ? <span style={{ color: "#facc15" }}>Fusion Only</span> : null}
-                {gift.hardonly ? <span style={{ color: "#f87171" }}>Hard Only</span> : null}
+                {gift.ingredientOf ? <span style={{ color: giftTagColors.ingredient }}>Ingredient</span> : null}
+                {gift.fusion ? <span style={{ color: giftTagColors.fusion }}>Fusion Only</span> : null}
+                {gift.hardonly ? <span style={{ color: giftTagColors.hardonly }}>Hard Only</span> : null}
                 {gift.cursedPair ?
                     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
-                        <span><span style={{ color: "#38bdf8" }}>Blessed</span> Pair</span>
+                        <span><span style={{ color: giftTagColors.blessed }}>Blessed</span> Pair</span>
                         <Gift id={gift.cursedPair} includeTooltip={true} expandable={true} scale={scale} />
                     </div> : null}
                 {gift.blessedPair ?
                     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
-                        <span><span style={{ color: "#a78bfa" }}>Cursed</span> Pair</span>
+                        <span><span style={{ color: giftTagColors.cursed }}>Cursed</span> Pair</span>
                         <Gift id={gift.blessedPair} includeTooltip={true} expandable={true} scale={scale} />
                     </div> : null}
             </div>
@@ -107,14 +109,24 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                                 </div> : null
                         }
                         {
-                            gift.recipes ?
-                                <div style={{ display: "flex", flexDirection: "column" }}>
-                                    <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Fusion Recipes</span>
-                                    <div style={{ overflowX: "auto", overflowY: "hidden" }}>
-                                        <div style={{ display: "flex", flexDirection: "column" }}>
-                                            {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} scale={scale} />)}
+                            gift.recipes || gift.ingredientOf ?
+                                <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                                    {gift.recipes ? <>
+                                        <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Fusion Recipes</span>
+                                        <div style={{ overflowX: "auto", overflowY: "hidden" }}>
+                                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                                {gift.recipes.map((recipe, i) => <FusionRecipe key={i} recipe={{ ingredients: recipe }} includeProduct={false} scale={scale} />)}
+                                            </div>
                                         </div>
-                                    </div>
+                                    </> : null}
+                                    {gift.ingredientOf ? <>
+                                        <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Ingredient Of</span>
+                                        <div style={{ overflowX: "auto", overflowY: "hidden" }}>
+                                            <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem" }}>
+                                                {gift.ingredientOf.map(giftId => <Gift key={giftId} id={giftId} includeTooltip={true} expandable={true} scale={scale} />)}
+                                            </div>
+                                        </div>
+                                    </> : null}
                                 </div> : null
                         }
                     </div>

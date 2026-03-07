@@ -1,4 +1,5 @@
 export { Gift, GiftTooltip, getGiftImgSrc } from "./gift/gift.js";
+export { giftTagColors } from "./gift/giftTagColors.js";
 export { default as FusionRecipe } from "./gift/FusionRecipe.js";
 export { keywords, KeywordIcon } from "./keywords/keywords.js";
 export { Status, StatusTooltip, getStatusImgSrc } from "./status/status.js";
