@@ -21,7 +21,7 @@ function FusionRecipe(_ref) {
     if (components.length !== 0) components.push(/*#__PURE__*/_jsx("span", {
       style: fontStyle,
       children: "+"
-    }));
+    }, components.length));
     if (ingredient instanceof Object) {
       var half = Math.ceil(ingredient.options.length / 2);
       components.push(/*#__PURE__*/_jsxs("div", {
@@ -56,23 +56,23 @@ function FusionRecipe(_ref) {
             })
           })]
         })]
-      }));
+      }, components.length));
     } else {
       components.push(/*#__PURE__*/_jsx(Gift, {
         id: ingredient,
         scale: scale
-      }));
+      }, components.length));
     }
   });
   if (includeProduct) {
     components.unshift(/*#__PURE__*/_jsx("span", {
       style: fontStyle,
       children: "="
-    }));
+    }, components.length));
     components.unshift(/*#__PURE__*/_jsx(Gift, {
       id: recipe.id,
       scale: scale
-    }));
+    }, components.length));
   }
   return /*#__PURE__*/_jsx("div", {
     style: {

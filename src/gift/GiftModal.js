@@ -120,7 +120,7 @@ function GiftDisplay({ gift, scale = 1, enhanceRank }) {
                                         </div>
                                     </> : null}
                                     {gift.ingredientOf ? <>
-                                        <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Ingredient Of</span>
+                                        <span style={{ fontSize: "1.25rem", fontWeight: "bold", textAlign: "start" }}>Ingredient of</span>
                                         <div style={{ overflowX: "auto", overflowY: "hidden" }}>
                                             <div style={{ display: "flex", flexDirection: "row", gap: "0.5rem" }}>
                                                 {gift.ingredientOf.map(giftId => <Gift key={giftId} id={giftId} includeTooltip={true} expandable={true} scale={scale} />)}

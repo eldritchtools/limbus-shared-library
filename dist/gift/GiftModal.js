@@ -333,7 +333,7 @@ function GiftDisplay(_ref2) {
                     fontWeight: "bold",
                     textAlign: "start"
                   },
-                  children: "Ingredient Of"
+                  children: "Ingredient of"
                 }), /*#__PURE__*/_jsx("div", {
                   style: {
                     overflowX: "auto",
