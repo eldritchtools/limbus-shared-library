@@ -25,30 +25,27 @@ function ThemePackImg({ id, themePack = null, displayName = false, scale = 1 }) 
     }
 
     const scaledStyle = rescaleThemePack(scale);
-    const img = themePackObject.overlayImage ?
-        <div style={{ ...scaledStyle, position: "relative", left: 0, top: 0 }}>
-            <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`}
-                alt={themePackObject.name} title={themePackObject.name}
-                style={{ ...scaledStyle, position: "absolute", left: 0, top: 0 }}
-            />
-            <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.overlayImage}.png`}
-                alt={themePackObject.name} title={themePackObject.name}
-                style={{ ...rescaleOverlay(scale), position: "absolute", left: 0, top: 100*scale }}
-            />
-        </div> :
+    const img = <div style={{ ...scaledStyle, position: "relative", left: 0, top: 0 }}>
         <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.image}.png`}
             alt={themePackObject.name} title={themePackObject.name}
-            style={scaledStyle}
-        />;
+            style={{ ...scaledStyle, position: "absolute", left: 0, top: 0 }}
+        />
+        {themePackObject.overlayImage ?
+            <img src={`${ASSETS_ROOT}/theme_packs/${themePackObject.overlayImage}.png`}
+                alt={themePackObject.name} title={themePackObject.name}
+                style={{ ...rescaleOverlay(scale), position: "absolute", left: 0, top: 100 * scale }}
+            /> : null
+        }
+        {displayName ? <div style={{
+            position: "absolute", bottom: "4px", left: "50%", transform: "translateX(-50%)", width: "100%", maxHeight: "70%", overflow: "hidden",
+            display: "block", textAlign: "center", color: "#ddd", fontWeight: "600", lineHeight: "1.1", textWrap: "balance",
+            textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000", fontSize: "1rem"
+        }}>
+            {themePackObject.name}
+        </div> : null}
+    </div>
 
-    if (displayName) {
-        return <div style={{ display: "flex", flexDirection: "column", textAlign: "center", width: scaledStyle.width }}>
-            {img}
-            <span>{themePackObject.name}</span>
-        </div>
-    } else {
-        return img;
-    }
+    return img;
 }
 
 function useFloorsPerPack() {

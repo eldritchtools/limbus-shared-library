@@ -25,12 +25,12 @@ function EgoImgMain({ ego, type, banner, displayName, displayRarity, threadspin,
                     position: "absolute", right: "4px", textAlign: "right",
                     textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
                 }}>
-                    <TierComponent tier={threadspin} />
+                    <TierComponent tier={threadspin} scale={.9} />
                 </div> : <div style={{
                     position: "absolute", top: "4px", right: "4px", textAlign: "right",
                     textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
                 }}>
-                    <TierComponent tier={threadspin} />
+                    <TierComponent tier={threadspin} scale={.9} />
                 </div>) : null}
             {displayName ? (
                 banner ? <div style={{

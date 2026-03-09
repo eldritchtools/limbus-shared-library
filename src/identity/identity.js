@@ -29,7 +29,7 @@ function IdentityImgMain({ identity, uptie, displayName, displayRarity, displayU
                 position: "absolute", top: "4px", right: "4px", display: "flex", flexDirection: "column", textAlign: "right",
                 textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
             }}>
-                {displayUptie ? <TierComponent tier={uptie} /> : null}
+                {displayUptie ? <TierComponent tier={uptie} scale={.9} /> : null}
                 <span style={{ color: "#ddd", fontWeight: "600", lineHeight: "1.1", fontSize: `1rem` }}>{level ? `Lv.${level}` : null}</span>
             </div> : null}
         </div>

@@ -83,7 +83,8 @@ function IdentityImgMain(_ref) {
           textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
         },
         children: [displayUptie ? /*#__PURE__*/_jsx(TierComponent, {
-          tier: uptie
+          tier: uptie,
+          scale: .9
         }) : null, /*#__PURE__*/_jsx("span", {
           style: {
             color: "#ddd",

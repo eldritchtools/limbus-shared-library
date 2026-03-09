@@ -68,7 +68,8 @@ function EgoImgMain(_ref) {
           textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
         },
         children: /*#__PURE__*/_jsx(TierComponent, {
-          tier: threadspin
+          tier: threadspin,
+          scale: .9
         })
       }) : /*#__PURE__*/_jsx("div", {
         style: {
@@ -79,7 +80,8 @@ function EgoImgMain(_ref) {
           textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000"
         },
         children: /*#__PURE__*/_jsx(TierComponent, {
-          tier: threadspin
+          tier: threadspin,
+          scale: .9
         })
       }) : null, displayName ? banner ? /*#__PURE__*/_jsx("div", {
         style: {

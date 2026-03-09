@@ -50,7 +50,7 @@ function ThemePackImg(_ref) {
     }
   }
   var scaledStyle = rescaleThemePack(scale);
-  var img = themePackObject.overlayImage ? /*#__PURE__*/_jsxs("div", {
+  var img = /*#__PURE__*/_jsxs("div", {
     style: _objectSpread(_objectSpread({}, scaledStyle), {}, {
       position: "relative",
       left: 0,
@@ -65,7 +65,7 @@ function ThemePackImg(_ref) {
         left: 0,
         top: 0
       })
-    }), /*#__PURE__*/_jsx("img", {
+    }), themePackObject.overlayImage ? /*#__PURE__*/_jsx("img", {
       src: "".concat(ASSETS_ROOT, "/theme_packs/").concat(themePackObject.overlayImage, ".png"),
       alt: themePackObject.name,
       title: themePackObject.name,
@@ -74,28 +74,28 @@ function ThemePackImg(_ref) {
         left: 0,
         top: 100 * scale
       })
-    })]
-  }) : /*#__PURE__*/_jsx("img", {
-    src: "".concat(ASSETS_ROOT, "/theme_packs/").concat(themePackObject.image, ".png"),
-    alt: themePackObject.name,
-    title: themePackObject.name,
-    style: scaledStyle
-  });
-  if (displayName) {
-    return /*#__PURE__*/_jsxs("div", {
+    }) : null, displayName ? /*#__PURE__*/_jsx("div", {
       style: {
-        display: "flex",
-        flexDirection: "column",
+        position: "absolute",
+        bottom: "4px",
+        left: "50%",
+        transform: "translateX(-50%)",
+        width: "100%",
+        maxHeight: "70%",
+        overflow: "hidden",
+        display: "block",
         textAlign: "center",
-        width: scaledStyle.width
+        color: "#ddd",
+        fontWeight: "600",
+        lineHeight: "1.1",
+        textWrap: "balance",
+        textShadow: "0 0 4px #000, 0 0 12px #000, 2px 2px 4px #000, -2px -2px 4px #000",
+        fontSize: "1rem"
       },
-      children: [img, /*#__PURE__*/_jsx("span", {
-        children: themePackObject.name
-      })]
-    });
-  } else {
-    return img;
-  }
+      children: themePackObject.name
+    }) : null]
+  });
+  return img;
 }
 function useFloorsPerPack() {
   var _useData3 = useData("md_floor_packs"),

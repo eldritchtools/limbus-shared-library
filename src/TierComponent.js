@@ -8,7 +8,10 @@ const tierMapping = {
 }
 
 function TierComponent({ tier, scale = 1, scaleY = 1.2 }) {
-    return <span style={{ display: "inline-block", fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold", fontSize: `${24 * scale}px`, color: "#ffd84d", transform: `scaleY(${scaleY})` }}>
+    return <span style={{
+        display: "inline-block", fontFamily: "'Archivo Narrow', sans-serif", fontWeight: "bold",
+        fontSize: `${24 * scale}px`, color: "#ffd84d", transform: `scaleY(${scaleY})`
+    }}>
         {tierMapping[tier] ?? ""}
     </span>
 }
